@@ -1,4 +1,4 @@
-## Welcome to to my GitHub Pages
+## Ocean Observer
 
 ### Markdown
 
