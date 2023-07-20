@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {font-family: Arial, Helvetica, sans-serif ;
+      background-color: #143F6A; /*#15191C;*/
+      color: white;
+      opacity: 0.95;
+      max-width: 1080px; 
+      margin: 0 auto; 
+      float: none; 
+      }
+
+/* image scaling */
+.responsive {
+              max-width: 100%;
+              height: auto;
+            }
+
+/* Header/logo Title */
+.header {
+          padding: 60px;
+          text-align: center;
+          background-image: url("images/WaveBanner.png");
+          background-position: center; /* Center the image */
+          background-repeat: no-repeat; /* Do not repeat the image */
+          background-size: cover;
+          background-color: #24435c;
+          opacity: 1;
+        }
+
+footer {
+        padding: 0 10px;
+        list-style: none;
+        display: flex;
+        flex-shrink: 0;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #152837;
+        /*border-top: 1px solid;*/
+        }
+
+h1, h2, h3, h4, h5, h6  {
+  font-family: Arial, Helvetica, sans-serif ;
+  color: white; /*lightsteelblue;*/
+  }
+
+h1 {
+    font-size: 50px;
+    line-height: 50px;
+    }
+
+h2 {
+    font-size: 24px;
+    line-height: 10px;
+    padding-left: 5px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 18px;
+
+}
+
+p {font-size: 15px;}
+
+/*--------- link styling ---------*/
+a:link {color: white;}
+a:visited {color: white;}
+a:hover {color: white;}
+a:active {color: white;}
+a {text-decoration:none;}
+
+/* ------- table layout styling ------ */
+td {padding:10px;}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #152837;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #152837;
+  color: white;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  min-height:500px;
+  padding-left: 5px;
+}
+
+/* left column */
+.left {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  background-color: #143F6A;
+  padding-right: 5px;
+  /*padding: 20px;*/
+}
+
+/* right column */
+.right {   
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  background-color: #143F6A;
+  padding-left: 5px;
+  /*padding: 20px;*/
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
