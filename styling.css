@@ -117,6 +117,7 @@ td {padding:10px;}
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
+  vertical-align: top;
   min-height:500px;
   padding-left: 5px;
 }
