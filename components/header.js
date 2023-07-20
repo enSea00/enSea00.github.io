@@ -9,7 +9,7 @@ class Header extends HTMLElement {
         <header>
           <nav>
             <div class="header">
-                <h1>Nick's Water Laboratory</h1>
+                <h1></h1>
             </div>
         
             <div class="navbar">
