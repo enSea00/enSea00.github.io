@@ -13,8 +13,8 @@ class Header extends HTMLElement {
             </div>
         
             <div class="navbar">
-                <a href="index.html" class="active">About</a>
-                <a href="TeachingApps.html">Teaching Apps</a>
+                <a href="index.html">About</a>
+                <a href="TeachingApps.html" class="active">Teaching Apps</a>
                 <a href="DataTools.html">Data Tools</a>
                 <a href="Observations.html">Observations</a>
             </div>
