@@ -32,7 +32,7 @@ class Header extends HTMLElement {
             <div class="navbar">
                 <a href="index.html">About</a>
                 <a href="TeachingApps.html">Teaching Apps</a>
-                <a href="DataTools.html">Data Viewer Tools</a>
+                <a href="DataViewerTools.html">Data Viewer Tools</a>
                 <a href="Publications.html">Publications</a>
 
             </div>
