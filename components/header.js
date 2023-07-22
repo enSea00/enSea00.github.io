@@ -14,17 +14,17 @@ class Header extends HTMLElement {
             <div class="slideshow-container">
               <div class="mySlides fade">
                 <img src="images/slideshow/slideshow-1.png" style="width:100%">
-                <div class="text">enSea00 | Nick Cartwright</div>
+                <div class="text">Surf Zone</div>
               </div>
       
               <div class="mySlides fade">
                 <img src="images/slideshow/slideshow-2.png" style="width:100%">
-                <div class="text">enSea00 | Nick Cartwright</div>
+                <div class="text">Hydrology</div>
               </div>
       
               <div class="mySlides fade">
                 <img src="images/slideshow/slideshow-3.png" style="width:100%">
-                <div class="text">enSea00 | Nick Cartwright</div>
+                <div class="text">Mind Surfing</div>
               </div>
 
             </div>
