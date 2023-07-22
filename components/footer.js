@@ -10,7 +10,8 @@ class Footer extends HTMLElement {
           <nav>
         
             <div class="navbar">
-                <p>&copy; N. Cartwright, 2023</p>
+                <p style="font-size:10px; text-align:center">&copy; 2023 Nick Cartwright</p>
+                <p style="font-size:10px; text-align:center">Wave icon created by max.icons - Flaticon</p>
             </div>
           </nav>
         </footer>
