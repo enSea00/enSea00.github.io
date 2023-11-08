@@ -34,7 +34,6 @@ class Header extends HTMLElement {
                 <a href="TeachingApps.html">Teaching Apps</a>
                 <a href="DataViewerTools.html">Data Viewer Tools</a>
                 <a href="Publications.html">Publications</a>
-
             </div>
 
           </nav>
