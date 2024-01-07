@@ -151,7 +151,7 @@ tab_IncrementalData = TabPanel(child=layout, title="Rainfall Data Interpolator")
 #%% create html file
 
 # rainfall data cleaner alone
-htmlFile = 'Rainfall Data Analyser.html'
+htmlFile = 'Tipping Bucket Rainfall Data Processor.html'
 themeCSS = makeCSStemplate()
 output_file(htmlFile)
 
@@ -162,9 +162,9 @@ output_file(htmlFile)
 #
 save(Tabs(tabs=[
                 # tab_About,
-                tab_FileConverter,
+                # tab_FileConverter,
                 tab_DataCleaner, 
-                tab_IncrementalData,
+                # tab_IncrementalData,
                 ],
  
           tabs_location='above'), 
