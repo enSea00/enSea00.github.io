@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave Buoy Data Plotter</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS file -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" /> <!-- Leaflet CSS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script> <!-- Leaflet JS -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+
+    <h1 id="page-title">Queensland Wave Buoy Data</h1>
+    <!-- <p>The wave buoy data on this page is collected and provided to the public by the <a href="https://www.data.qld.gov.au/dataset/coastal-data-system-near-real-time-wave-data">Queensland Government's Coastal Data System</a> in accordance with the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a></a></p> -->
+    <div id="container" style="vertical-align: middle;">
+        <button class="custom-button" id="download-data"  style="width: 200px; height: 40px; margin-right: 10px;">Refresh Data</button>
+        <button class="custom-button" id="download-csv" style="width: 200px; height: 40px; margin-right: 10px;">Export Data: All Sites</button>
+        <button class="custom-button" id="download-selected-csv" style="width: 200px; height: 40px;" disabled>Export Data: Selected Site</button>
+    </div>
+    
+    <div id="container" style="display: flex;">
+        <div id="left-column" style="flex: 0 0 30%;">
+            <div id="map" style="height: 500px; width: 100%;"></div> <!-- Map Container -->
+            <p>Data Source: <a href="https://www.data.qld.gov.au/dataset/coastal-data-system-near-real-time-wave-data">Queensland Government's Coastal Data System</a></p>
+        </div>
+        <div id="right-column" style="flex: 0 0 70%;">
+            <div id="plot" style="height: 500px; width: 100%;"></div> <!-- Plot Container -->
+        </div>
+        <div id="loading" style="display: none;">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    
+    
+
+    <script src="script.js"></script> <!-- External JS file -->
+
+</body>
+</html>
