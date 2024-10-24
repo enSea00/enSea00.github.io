@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARR Design Rainfall Generator</title>
+    <link rel="icon" href="images/icon-tab.png" type="image/png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/shpjs@latest/dist/shp.min.js"></script>
+    <script src="https://unpkg.com/@turf/turf@6.5.0/turf.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="arr_tools.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    
+</head>
+
+<body>
+
+    <h1>ARR Design Rainfall Generator</h1>
+
+    <div class="'tab-links">
+        <button class="tab-link active" onclick="showTab('userInput')">User Input</button>
+        <button class="tab-link" onclick="showTab('arf')">Areal Reduction Factor</button>
+        <button class="tab-link" onclick="showTab('ifd')">Design Rainfall</button>
+        <button class="tab-link" onclick="showTab('about')">About</button>
+    </div>
+    <br>
+    
+    <!-- Input Tab -->
+    <div id="userInput" class="tab active">
+        <div class="container">
+            <div class="left-column">
+                <h1>User Input</h1>
+                <h2>Option 1: Upload (multi-)polygon catchment shapefile (as .zip)</h2>
+                <p>The zip file should contain a polygon or multipolygon shapefile (with the .shp, .dbf, .shx and .prj files) for the delineated catchment and its sub-catchments</p>
+
+                <input type="file" id="shapefile" accept=".zip" />
+                <button onclick="processShapefile()">Process File</button>
+
+                <h2>Option 2: Enter Data Manually</h2>
+                <p>Enter data in the format: ID, Longitude, Latitude, Area (one entry per line)</p>
+                <textarea id="manualDataInput" rows="5" cols="50" placeholder="1, 150.644, -34.397, 50.5"></textarea>
+                <button onclick="processManualInput()">Process Input</button>
+
+                <h2>Output: Processed Data</h2>
+                <table id="resultsTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Centroid Longitude (&deg;E)</th>
+                            <th>Centroid Latitude (&deg;N)</th>
+                            <th>Area (km²)</th>
+                            <th>Initial Loss (mm)</th>
+                            <th>Constant Loss (mm/h)</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="resultsBody">
+                    </tbody>
+                </table>
+            </div>
+            <div class="right-column">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ARF Tab -->
+    <div id="arf" class="tab">
+        <div class="single-column">
+            <h2>Areal Reduction Factors</h2>
+            <p>Design rainfall areal reduction factors computed for the stanrd Annual Exceedance Probabilitiy (AEP) - burst Duration combinations.</p>
+            <p>Reference: <a href="http://book.arr.org.au.s3-website-ap-southeast-2.amazonaws.com/">Australian Rainfall and Runoff, Book 2, Chapter 4</a></p>
+        </div>
+    </div>
+
+    <!-- IFD Tab -->
+    <div id="ifd" class="tab">
+        <div class="single-column">
+            <h2>IFD Tab Content</h2>
+        </div>
+    </div>
+
+    <!-- About Tab -->
+    <div id="about" class="tab">
+        <div class="single-column">
+            <h2>About</h2>
+            <p>This web page generates design rainfall data based on the procedures outlined in the <a href="https://arr.ga.gov.au/" target="blank">Australian Rainfall and Runoff Guidelines</a></p>
+            <h3>User Input</h3>
+            <p>Ueer </p>
+            <h2>Disclaimer</h2>
+            <p>This tool was developed to assist undergraduate science and engineering students. Use at your own risk!</p>
+        </div>
+    </div>
+    
+    <!-- Page layout and interactivity -->
+    <script>
+
+        // Global array to store table data
+        const tableData = [];
+
+        // Function to show the selected tab
+        function showTab(tabId) {
+            // Hide all tabs
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show the selected tab
+            document.getElementById(tabId).classList.add('active');
+            
+            // Reset all tab links to inactive
+            document.querySelectorAll('.tab-link').forEach(link => {
+                link.classList.remove('active');
+            });
+            
+            // Set the clicked tab link to active
+            const activeLink = document.querySelector(`.tab-link[onclick="showTab('${tabId}')"]`);
+            if (activeLink) {
+                activeLink.classList.add('active');
+            }
+        }
+
+        // Initialize the Leaflet map
+        const map = L.map('map').setView([-25.2744, 133.7751], 4); // Centered on Australia with an appropriate zoom level
+
+        // Add OpenStreetMap tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        // process shapefile input
+        async function processShapefile() {
+            const fileInput = document.getElementById('shapefile');
+            const file = fileInput.files[0];
+
+            if (!file) {
+                alert("Please upload a shapefile (zipped) first!");
+                return;
+            }
+
+            // Clear the table and the map before processing a new file
+            clearTable();
+            clearMap();
+
+            const reader = new FileReader();
+            reader.onload = async function(event) {
+                const arrayBuffer = event.target.result;
+                try {
+                    const geojson = await shp(arrayBuffer);
+                    processGeoJSON(geojson);
+                } catch (error) {
+                    console.error("Error reading shapefile:", error);
+                }
+            };
+            reader.readAsArrayBuffer(file);
+        }
+
+        function clearTable() {
+            const tableBody = document.getElementById("resultsBody");
+            tableBody.innerHTML = ""; // Clear the existing rows
+        }
+
+        // Process manual entry
+        function processManualInput() {
+            const input = document.getElementById('manualDataInput').value.trim();
+            if (!input) {
+                alert("Please enter data in the text box.");
+                return;
+            }
+
+            // Clear the table and map before adding new data
+            clearTable();
+            clearMap();
+            const bounds = L.latLngBounds(); // For adjusting the map view
+
+            // Split input by line
+            const lines = input.split('\n');
+            const delimiterRegex = /[\s,]+/; // Matches spaces, tabs, or commas
+
+            lines.forEach((line, index) => {
+                // Split by the regex to handle spaces, tabs, and commas
+                const [id, lon, lat, area] = line.split(delimiterRegex).map(value => value.trim());
+                if (id && lon && lat && area) {
+                    const parsedLon = parseFloat(lon);
+                    const parsedLat = parseFloat(lat);
+                    const parsedArea = parseFloat(area);
+
+                    if (!isNaN(parsedLon) && !isNaN(parsedLat) && !isNaN(parsedArea)) {
+                        addRowToTable(id, [parsedLon, parsedLat], parsedArea);
+                        addMarkerToMap(id, [parsedLon, parsedLat], parsedArea, bounds);
+                        bounds.extend([parsedLat, parsedLon]);
+                    } else {
+                        console.error(`Invalid data on line ${index + 1}: ${line}`);
+                    }
+                } else {
+                    console.error(`Missing values on line ${index + 1}: ${line}`);
+                }
+            });
+
+            // Fit map to bounds
+            map.fitBounds(bounds);
+
+            // Call processTableData after the table is populated
+            processTableData();
+
+        }
+        //
+        function clearMap() {
+            map.eachLayer(function(layer) {
+                // Remove all layers except the tile layer
+                if (layer instanceof L.TileLayer) {
+                    return;
+                }
+                map.removeLayer(layer);
+            });
+        }
+
+        function processGeoJSON(geojson) {
+            
+            const features = geojson.features;
+            const bounds = L.latLngBounds(); // Create a new bounds object
+            features.forEach((feature, index) => {
+                const geometry = feature.geometry;
+                if (geometry.type === "Polygon" || geometry.type === "MultiPolygon") {
+                    const polygons = geometry.type === "Polygon" ? [geometry.coordinates] : geometry.coordinates;
+                    // Calculate the centroid and area for the MultiPolygon
+                    const turfPolygon = turf.multiPolygon(polygons);
+                    const centroid = turf.centroid(turfPolygon).geometry.coordinates; // Access the coordinates directly
+                    const area = turf.area(turfPolygon) / 1e6; // Convert from m² to km²
+
+                    if (centroid) { // Check if centroid is defined
+                        addRowToTable(index + 1, centroid, area);
+                        addMarkerToMap(index + 1, centroid, area, bounds); // Add centroid marker to the map
+                        addPolygonToMap(polygons, bounds); // Add polygon to the map and update bounds
+                    } else {
+                        console.error(`Centroid calculation failed for Polygon ID ${index + 1}`);
+                    }
+                }
+            });
+            map.fitBounds(bounds); // Adjust the map view to fit the bounds of all polygons
+
+            // Call processTableData after the table is populated
+            processTableData();
+        }
+
+        function addRowToTable(id, centroid, area) {
+            const tableBody = document.getElementById("resultsBody");
+            const newRow = tableBody.insertRow();
+            const cellId = newRow.insertCell(0);
+            const cellLon = newRow.insertCell(1);
+            const cellLat = newRow.insertCell(2);
+            const cellArea = newRow.insertCell(3);
+
+            cellId.textContent = id;
+            cellLon.textContent = centroid[0].toFixed(6); // Longitude
+            cellLat.textContent = centroid[1].toFixed(6); // Latitude
+            cellArea.textContent = area.toFixed(2); // Area in km²
+
+            // Store the row data in the array
+            tableData.push({
+                id: id,
+                longitude: centroid[0].toFixed(6),
+                latitude: centroid[1].toFixed(6),
+                area: area.toFixed(2),
+            });
+        }
+
+        function addMarkerToMap(id, centroid, area, bounds) {
+            const marker = L.marker([centroid[1], centroid[0]]).addTo(map) // Note: [latitude, longitude]
+                .bindTooltip(`ID: ${id}<br>Area: ${area.toFixed(2)} km²`, { permanent: false, direction: 'top' }); // Tooltip shows ID and Area
+
+            // Extend the bounds to include this marker's position
+            bounds.extend([centroid[1], centroid[0]]);
+        }
+
+        function addPolygonToMap(polygons, bounds) {
+            polygons.forEach(polygon => {
+                const latlngs = polygon[0].map(coord => [coord[1], coord[0]]); // Convert to [lat, lng]
+                // Add the polygon to the map
+                L.polygon(latlngs, { color: '#000080', weight: 2, fillOpacity: 0.3 }).addTo(map);
+                // Extend the bounds to include this polygon
+                bounds.extend(latlngs);
+            });
+        }
+        
+    </script>
+</body>
+</html>
