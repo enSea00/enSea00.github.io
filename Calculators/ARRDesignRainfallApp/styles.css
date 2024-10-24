@@ -1,0 +1,147 @@
+/* Globals */
+:root {
+    --primary-bg-color: #1e1e1e;
+    --secondary-bg-color: #2a2a2a;
+    --text-color: #e0e0e0;
+    --heading-color: #e0e0e0;
+    --button-bg-color: #0055b1;
+    --button-hover-color: #047024;
+    --table-border-color: #444;
+    --table-hover-color: #444;
+}
+
+/* Font styling -------------------------------------- */
+body {
+    background-color: var(--primary-bg-color); /* Dark background for the body */
+    color: var(--text-color); /* Light text color */
+    font-family: Arial, sans-serif; /* Default font */
+}
+
+h1, h2, h3 {
+    margin: 10px 0; /* Add margin for headings */
+    color: var(--text-color); /* Light color for headings */
+    padding-top:10px;
+    padding-bottom: 5px;
+}
+
+/* Link styling ---------------------------- */
+/* Default link style */
+a {
+    color: var(--text-color);  /* Blue */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Hover state */
+  a:hover {
+    color: var(--text-color);  /* Orange */
+    text-decoration: underline; /* Add underline on hover */
+  }
+
+/* Styling for tabs ------------------------------------*/
+.tab {
+    display: none; /* Hide all tabs by default */
+    width: 100%; /* Ensure tabs take full width */
+    padding-top: 10px;
+}
+
+.tab.active {
+    display: block; /* Show active tab */
+}
+
+.tab-link {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #0055b1; /* Button background color */
+    color: var(--text-color); /* Button text color */
+    border: none;
+    outline: none;
+    margin-right: 5px;
+    border-radius: 10px;
+    display: inline-block; /* Allow buttons to sit side by side */
+}
+.tab-link:hover {
+    background-color: #047024; /* Button hover color */
+}
+.tab-link.active {
+    background-color: #047024; /* Bootstrap primary color for buttons */
+}
+
+/* Map Styling ----------------------------------------------*/
+#map {
+    height: 400px; /* Set the height for the map */
+    margin-top: 10px; /* Add some margin above the map */
+}
+
+/* Layout Styling --------------------------------------------*/
+.container {
+    display: flex; /* Use flexbox for layout */
+    margin-bottom: 20px; /* Space between sections */
+    border-color: var(--text-color);
+    border-width: 1px;
+}
+
+.left-column {
+    /* flex: 1; Allow left column to take available space */
+    width: 50%;
+    padding: 10px; /* Add some padding */
+    background-color: #2a2a2a; /* Darker background for left column */
+    border-radius: 10px; /* Rounded corners */
+    margin-right: 10px; /* Add margin to the right for separation */
+}
+
+.right-column {
+    /* flex: 1; Allow left column to take available space */
+    width: 50%;
+    padding: 10px; /* Add some padding */
+    border-radius: 10px; /* Rounded corners */
+    margin-left: 10px; /* Add margin to the right for separation */
+}
+
+.single-column {
+    /* flex: 2; Allow right column to take more space */
+    width: 98%;
+    padding: 10px; /* Add some padding */
+    background-color: #2a2a2a;
+    border-radius: 10px; /* Rounded corners */
+    border: 'white';
+}
+
+/* Table Styling --------------------------------------------------------*/
+table {
+    width: 100%; /* Make the table full width */
+    border-collapse: collapse; /* Ensure borders collapse */
+    background-color: #2a2a2a; /* Dark background for the table */
+}
+th, td {
+    border: 1px solid #444; /* Darker border for table cells */
+    padding: 8px; /* Add padding */
+    text-align: center; /* Align text to the left */
+    color: var(--text-color); /* Light text color */
+}
+th {
+    background-color: #333; /* Dark background for header */
+}
+tr:nth-child(even) {
+    background-color: #252525; /* Darker background for even rows */
+}
+tr:hover {
+    background-color: #444; /* Hover effect for rows */
+}
+
+/* Button Styling ------------------------------------------------------*/
+button {
+    background-color: #047024; /* Bootstrap primary color for buttons */
+    color: var(--text-color); /* White text color for buttons */
+    margin-top: 10px; /* Space above the button */
+    padding: 10px; /* Add padding to the button */
+    font-size: 16px; /* Increase font size */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* End of Styling */
