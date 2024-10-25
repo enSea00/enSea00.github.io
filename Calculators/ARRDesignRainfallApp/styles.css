@@ -1,14 +1,41 @@
 /* Globals */
-:root {
+
+/* black/grey based theme */
+/* :root {
     --primary-bg-color: #1e1e1e;
-    --secondary-bg-color: #2a2a2a;
+    --column-bg-color: #2a2a2a;
     --text-color: #e0e0e0;
     --heading-color: #e0e0e0;
-    --button-bg-color: #0055b1;
-    --button-hover-color: #047024;
+    --tab-bg-color: #0055b1;
+    --tab-hover-color: #047024;
     --table-border-color: #444;
     --table-hover-color: #444;
+} */
+
+/* https://imagecolorpicker.com/ */
+:root {
+    --primary-bg-color: #003145; 
+
+    --column-bg-color: #006983;
+    --column-border-color:#e0e0e0;
+
+    --text-color: #e0e0e0;
+    --heading-color: #e0e0e0;
+    
+    --tab-bg-color: #006983;
+    --tab-hover-color: #28adbb;
+    --tab-border-radius: 10px;
+
+    --button-bg-color: var(--primary-bg-color);
+    --button-hover-color: var(--tab-hover-color);
+
+    --table-th-color: var(--primary-bg-color);
+    --table-border-color: var(--primary-bg-color);
+    --table-hover-color: var(--tab-hover-color);
+    --table-bg-color: #004b69; /*#2a2a2a;*/
+    --table-row-color-dark: #003950;
 }
+
 
 /* Font styling -------------------------------------- */
 body {
@@ -37,6 +64,12 @@ a {
     text-decoration: underline; /* Add underline on hover */
   }
 
+  .icon {
+    width: 40px;  /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px; /* Space between icon and text */
+  }
+
 /* Styling for tabs ------------------------------------*/
 .tab {
     display: none; /* Hide all tabs by default */
@@ -51,20 +84,38 @@ a {
 .tab-link {
     cursor: pointer;
     padding: 10px;
-    background-color: #0055b1; /* Button background color */
+    background-color: var(--tab-bg-color); /* Button background color */
     color: var(--text-color); /* Button text color */
     border: none;
     outline: none;
     margin-right: 5px;
-    border-radius: 10px;
+    border-radius: var(--tab-border-radius);
     display: inline-block; /* Allow buttons to sit side by side */
 }
 .tab-link:hover {
-    background-color: #047024; /* Button hover color */
+    background-color: var(--tab-hover-color); /* Button hover color */
 }
 .tab-link.active {
-    background-color: #047024; /* Bootstrap primary color for buttons */
+    background-color: var(--tab-hover-color); /* Bootstrap primary color for buttons */
 }
+
+/* Button Styling ------------------------------------------------------*/
+button {
+    background-color: var(--button-bg-color); /* Bootstrap primary color for buttons */
+    color: var(--text-color); /* White text color for buttons */
+    margin-top: 10px; /* Space above the button */
+    padding: 10px; /* Add padding to the button */
+    font-size: 16px; /* Increase font size */
+    border: none; /* Remove border */
+    border-radius: var(--tab-border-radius);
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: var(--button-hover-color); /* Darker blue on hover */
+}
+
 
 /* Map Styling ----------------------------------------------*/
 #map {
@@ -84,7 +135,8 @@ a {
     /* flex: 1; Allow left column to take available space */
     width: 50%;
     padding: 10px; /* Add some padding */
-    background-color: #2a2a2a; /* Darker background for left column */
+    background-color: var(--column-bg-color); /* Darker background for left column */
+    border-color: var(--text-color);
     border-radius: 10px; /* Rounded corners */
     margin-right: 10px; /* Add margin to the right for separation */
 }
@@ -94,6 +146,7 @@ a {
     width: 50%;
     padding: 10px; /* Add some padding */
     border-radius: 10px; /* Rounded corners */
+    border-color: var(--text-color);
     margin-left: 10px; /* Add margin to the right for separation */
 }
 
@@ -101,7 +154,8 @@ a {
     /* flex: 2; Allow right column to take more space */
     width: 98%;
     padding: 10px; /* Add some padding */
-    background-color: #2a2a2a;
+    background-color: var(--column-bg-color);
+    border-color: var(--text-color);
     border-radius: 10px; /* Rounded corners */
     border: 'white';
 }
@@ -110,38 +164,24 @@ a {
 table {
     width: 100%; /* Make the table full width */
     border-collapse: collapse; /* Ensure borders collapse */
-    background-color: #2a2a2a; /* Dark background for the table */
+    background-color: var(--table-bg-color); /* Dark background for the table */
 }
 th, td {
-    border: 1px solid #444; /* Darker border for table cells */
+    border: 1px solid var(--table-border-color); /* Darker border for table cells */
     padding: 8px; /* Add padding */
     text-align: center; /* Align text to the left */
     color: var(--text-color); /* Light text color */
 }
 th {
-    background-color: #333; /* Dark background for header */
+    background-color: var(--primary-bg-color); /* Dark background for header */
 }
 tr:nth-child(even) {
-    background-color: #252525; /* Darker background for even rows */
+    background-color: var(--table-row-color-dark); /* Darker background for even rows */
 }
 tr:hover {
-    background-color: #444; /* Hover effect for rows */
+    background-color: var(--table-hover-color); /* Hover effect for rows */
 }
 
-/* Button Styling ------------------------------------------------------*/
-button {
-    background-color: #047024; /* Bootstrap primary color for buttons */
-    color: var(--text-color); /* White text color for buttons */
-    margin-top: 10px; /* Space above the button */
-    padding: 10px; /* Add padding to the button */
-    font-size: 16px; /* Increase font size */
-    border: none; /* Remove border */
-    cursor: pointer; /* Change cursor to pointer */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-}
 
-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-}
 
 /* End of Styling */

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARR Design Rainfall Generator</title>
-    <link rel="icon" href="images/icon-tab2-white.png" type="image/png">
+    <!-- <link rel="icon" href="images/icon-tab2-black.png" type="image/png"> -->
+    <link id="favicon" rel="icon" href="images/icon-tab-teal-crop.png" type="image/png">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/shpjs@latest/dist/shp.min.js"></script>
     <script src="https://unpkg.com/@turf/turf@6.5.0/turf.min.js"></script>
@@ -16,14 +17,16 @@
 
 <body>
 
-    <h1>ARR Design Rainfall Generator</h1>
+    <h1><img src="images/icon-tab-teal-crop.png" alt="Icon" class="icon">ARR Design Rainfall Generator</h1>
 
     <div class="'tab-links">
         <button class="tab-link active" onclick="showTab('userInput')">User Input</button>
         <button class="tab-link" onclick="showTab('arf')">Areal Reduction Factor</button>
-        <button class="tab-link" onclick="showTab('ifd')">Design Rainfall</button>
+        <button class="tab-link" onclick="showTab('ifd')">Design Losses and Rainfall</button>
+        <button class="tab-link" onclick="showTab('baseflow')">Baseflow</button>
         <button class="tab-link" onclick="showTab('about')">About</button>
     </div>
+
     <br>
     
     <!-- Input Tab -->
@@ -38,8 +41,8 @@
                 <button onclick="processShapefile()">Process File</button>
 
                 <h2>Option 2: Enter Data Manually</h2>
-                <p>Enter data in the format: ID, Longitude, Latitude, Area (one entry per line)</p>
-                <textarea id="manualDataInput" rows="5" cols="50" placeholder="1, 150.644, -34.397, 50.5"></textarea>
+                <p>Enter/Paste location data for the sub-catchment centroids in the format: ID, Longitude, Latitude, Area (one entry per line)</p>
+                <textarea id="manualDataInput" rows="5" cols="50" placeholder="ID, Longitude, Latitude, Area"></textarea>
                 <button onclick="processManualInput()">Process Input</button>
 
                 <h2>Output: Processed Data</h2>
@@ -50,8 +53,8 @@
                             <th>Centroid Longitude (&deg;E)</th>
                             <th>Centroid Latitude (&deg;N)</th>
                             <th>Area (km²)</th>
-                            <th>Initial Loss (mm)</th>
-                            <th>Constant Loss (mm/h)</th>
+                            <!-- <th>Initial Loss (mm)</th>
+                            <th>Constant Loss (mm/h)</th> -->
 
                         </tr>
                     </thead>
@@ -78,6 +81,14 @@
     <div id="ifd" class="tab">
         <div class="single-column">
             <h2>IFD Tab Content</h2>
+        </div>
+    </div>
+
+    <!-- Baseflow Tab -->
+    <div id="baseflow" class="tab">
+        <div class="single-column">
+            <h2>Baseflow Content</h2>
+            <p>The design baseflow parameters are based on the location of the (sub-)catchment outlets. </p>
         </div>
     </div>
 
@@ -284,7 +295,7 @@
                 bounds.extend(latlngs);
             });
         }
-        
+
     </script>
 </body>
 </html>
