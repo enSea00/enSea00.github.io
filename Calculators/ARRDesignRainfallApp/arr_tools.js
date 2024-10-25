@@ -11,8 +11,8 @@ const AEPs = [50, 20, 10, 5, 2, 1, 0.5, 0.2, 0.1, 0.05]; // (%)
 function downloadDataHubData(latitude, longitude) {
 
     // Using a CORS proxy to overcome fetch connection issues with the data hub
-    // var url = `https://data.arr-software.org/?lon_coord=${longitude}&lat_coord=${latitude}&type=json&All=1`;
-    var url = `https://thingproxy.freeboard.io/fetch/https://data.arr-software.org/?lon_coord=${longitude}&lat_coord=${latitude}&type=json&All=1`;
+    var url = `https://data.arr-software.org/?lon_coord=${longitude}&lat_coord=${latitude}&type=json&All=1`;
+    // var url = `https://thingproxy.freeboard.io/fetch/https://data.arr-software.org/?lon_coord=${longitude}&lat_coord=${latitude}&type=json&All=1`;
     // var url = `https://cors-anywhere.herokuapp.com/https://data.arr-software.org/?lon_coord=${longitude}&lat_coord=${latitude}&type=json&All=1`;
     // var url = `https://corsproxy.io/https://data.arr-software.org/?lon_coord=${longitude}&lat_coord=${latitude}&type=json&All=1`;
 
