@@ -15,7 +15,7 @@ function downloadDataHubData(latitude, longitude) {
     // var url = `https://thingproxy.freeboard.io/fetch/https://data.arr-software.org/?lon_coord=${longitude}&lat_coord=${latitude}&type=json&All=1`;
     var url = `https://cors-anywhere.herokuapp.com/https://data.arr-software.org/?lon_coord=${longitude}&lat_coord=${latitude}&type=json&All=1`;
     // var url = `https://corsproxy.io/https://data.arr-software.org/?lon_coord=${longitude}&lat_coord=${latitude}&type=json&All=1`;
-
+    console.log(url)
 
 
     // Trigger the fetch request
