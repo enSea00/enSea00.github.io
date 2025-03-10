@@ -1,0 +1,118 @@
+/* Global styling --------------------------------------------------------*/
+
+/* https://imagecolorpicker.com/ */
+:root {
+    --primary-bg-color: #003145; 
+
+    --column-bg-color: #006983;
+    --column-border-color:#e0e0e0;
+
+    --text-color: #e0e0e0;
+    --heading-color: #e0e0e0;
+    
+    --tab-bg-color: #006983;
+    --tab-hover-color: #28adbb;
+    --tab-border-radius: 10px;
+
+    --button-bg-color: var(--primary-bg-color);
+    --button-hover-color: var(--tab-hover-color);
+
+    --table-th-color: var(--primary-bg-color);
+    --table-border-color: var(--primary-bg-color);
+    --table-hover-color: var(--tab-hover-color);
+    --table-bg-color: #004b69; /*#2a2a2a;*/
+    --table-row-color-dark: #003950;
+}
+
+/* body styling ----------------------------------------------------------------*/
+html, body {
+    background-color: var(--primary-bg-color); /* Dark background for the body */
+    color: var(--text-color); /* Light text color */
+    font-family: Arial, sans-serif; /* Default font */
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+/* Overlay title */
+#overlay {
+    position: absolute;
+    top: 20px;
+    right: 20px;  /* Align to the right side */
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+
+/* Icon styling */
+.icon {
+    height: 1em; /* Match the height to the font size */
+    width: auto;
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* Map Styling ----------------------------------------------*/
+#map {
+    height: 100%; /* Set the height for the map */
+    width: 100%; /* Set the height for the map */
+    display: flex; /* Set the height for the map */
+}
+
+/* Popup Styling */
+#custom-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75vw; /* 75% of the viewport width */
+    height: 75vh; /* 75% of the viewport height */
+    background: black;
+    border: 2px solid white;
+    border-radius: 8px;
+    z-index: 10000;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    cursor: move; /* Indicate that it's draggable */
+}
+
+/* Styling the Plotly Graph */
+#plotly-plot {
+    background-color: #1e1e1e; /* Dark background for the plot container */
+    border: 1px solid #444;    /* Dark border around the plot */
+    border-radius: 10px;       /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    margin: 20px auto;         /* Centering the plot */
+}
+
+
+/* Close Button Styling */
+#custom-popup .close-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#custom-popup .close-btn:hover {
+    background: darkred;
+}
+
+/* Marker Styling */
+.custom-square {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border: 2px solid white;
+}

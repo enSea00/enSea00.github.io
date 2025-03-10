@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Observer</title>
+    <link id="favicon" rel="icon" href="images/icon-title-wave.png" type="image/png">    
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS file -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" /> <!-- Leaflet CSS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script> <!-- Leaflet JS -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/colormap@2.3.2/colormap.min.js"></script>
+    
+</head>
+
+<body>
+
+    <h1><img src="images/icon-title-wave.png" alt="Icon" class="icon">The Ocean Observer</h1>
+
+    <div class="'tab-links">
+        <button class="tab-link active" onclick="showTab('waves')">Waves</button>
+        <button class="tab-link" onclick="showTab('tides')">Tides</button>
+        <button class="tab-link" onclick="showTab('winds')">Winds</button>
+        <button class="tab-link" onclick="showTab('about')">About</button>
+
+    </div>
+
+    <br>
+    
+    <!-- Waves Tab -->
+    <div id="waves" class="tab active">
+        <div class="single-column">
+            <!-- Header and download buttons -->
+            <div id="container" style="display: flex;">
+                <div id="left-column" style="flex: 0 0 35%;">
+                    <h1>Wave Data</h1>
+                </div>
+                <div id="right-column" style="flex: 0 0 65%;">
+                    <button class="custom-button" id="download-data"  style="width: 200px; height: 40px; margin-right: 10px;">Refresh Data</button>
+                    <button class="custom-button" id="download-csv" style="width: 200px; height: 40px; margin-right: 10px;">Export Data: All Sites</button>
+                    <button class="custom-button" id="download-selected-csv" style="width: 250px; height: 40px;" disabled>Export Data: Selected Site</button>
+                </div>
+            </div>
+            <!-- Map and timeseries plot -->
+            <div id="container" style="display: flex;">
+                <div id="left-column" style="flex: 0 0 35%;">
+                    <div id="map" style="height: 600px; width: 100%;"></div> <!-- Map Container -->
+                    <p>Data Source: <a href="https://www.data.qld.gov.au/dataset/coastal-data-system-near-real-time-wave-data">Queensland Government Coastal Data System</a></p>
+                </div>
+                <div id="right-column" style="flex: 0 0 65%;">
+                    <div id="plot" style="height: 700px; width: 100%;"></div> <!-- Plot Container -->
+                </div>
+                <div id="loading" style="display: none;">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </div>            
+    </div>
+
+    <!-- Tides Tab -->
+    <div id="tides" class="tab">
+        <div class="single-column">
+            <!-- Header and download buttons -->
+            <div id="container" style="display: flex;">
+                <div id="left-column" style="flex: 0 0 35%;">
+                    <h1>Tide Data</h1>
+                </div>
+                <div id="right-column" style="flex: 0 0 65%;">
+                    <button class="custom-button" id="download-data"  style="width: 200px; height: 40px; margin-right: 10px;">Refresh Data</button>
+                </div>
+            </div>
+            
+            <!-- Map and timeseries plot -->
+            <div id="container" style="display: flex;">
+                <div id="left-column" style="flex: 0 0 35%;">
+                    <div id="map-tides" style="height: 600px; width: 100%;"></div> <!-- Map Container -->
+                    <p>Data Source: <a href="https://www.data.qld.gov.au/dataset/coastal-data-system-near-real-time-storm-tide-data">Queensland Government Coastal Data System</a></p>
+                </div>
+                <div id="right-column" style="flex: 0 0 65%;">
+                    <div id="plot" style="height: 700px; width: 100%;"></div> <!-- Plot Container -->
+                </div>
+                <div id="loading" style="display: none;">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </div>            
+    </div>
+
+    <!-- winds Tab -->
+    <div id="winds" class="tab">
+        <div class="single-column">
+            <div id="container" style="display: flex;">
+                <div id="left-column" style="flex: 0 0 35%;">
+                    <h1>Wind Data</h1>
+                </div>
+                <div id="right-column" style="flex: 0 0 65%;">
+                    <button class="custom-button" id="download-data"  style="width: 200px; height: 40px; margin-right: 10px;">Refresh Data</button>
+                </div>
+            </div>
+            
+            <div id="container" style="display: flex;">
+                <div id="left-column" style="flex: 0 0 35%;">
+                    <div id="map-tides" style="height: 600px; width: 100%;"></div> <!-- Map Container -->
+                    <p>Data Source: <a href="https://www.data.qld.gov.au/dataset/coastal-data-system-near-real-time-storm-tide-data">Queensland Government Coastal Data System</a></p>
+                </div>
+                <div id="right-column" style="flex: 0 0 65%;">
+                    <div id="plot" style="height: 700px; width: 100%;"></div> <!-- Plot Container -->
+                </div>
+                <div id="loading" style="display: none;">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </div>            
+    </div>
+
+    <!-- About Tab -->
+    <div id="about" class="tab">
+        <div class="single-column">
+            <h2>About</h2>
+            <p>This page provides visualisations of publicaly available, (near) realtime ocean observation data including waves, tides and winds.</p>
+        </div>
+    </div>
+    
+    <!-- Page layout and interactivity -->
+    <script>
+
+        // Function to show the selected tab
+        function showTab(tabId) {
+            // Hide all tabs
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show the selected tab
+            document.getElementById(tabId).classList.add('active');
+            
+            // Reset all tab links to inactive
+            document.querySelectorAll('.tab-link').forEach(link => {
+                link.classList.remove('active');
+            });
+            
+            // Set the clicked tab link to active
+            const activeLink = document.querySelector(`.tab-link[onclick="showTab('${tabId}')"]`);
+            if (activeLink) {
+                activeLink.classList.add('active');
+            }
+        }
+
+    </script>
+    <script src="script.js"></script> <!-- External JS file to create data and pages -->
+
+</body>
+</html>

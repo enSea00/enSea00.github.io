@@ -1,25 +1,6 @@
+// QUEENSLAND WAVE DATA //////////////////////////////////////////////////
+
 let buoyData = []; // Store buoy data globally
-
-// async function downloadData() {
-//     const url = 'https://apps.des.qld.gov.au/data-sets/waves/wave-7dayopdata.csv';
-//     const response = await fetch(url);
-//     const data = await response.text();
-//     return data;
-// }
-
-// async function downloadData() {
-//     const url = 'https://apps.des.qld.gov.au/data-sets/waves/wave-7dayopdata.csv';
-//     const response = await fetch(url);
-//     const data = await response.text();
-
-//     // Get the current date and time when this function is executed
-//     const currentDateTime = new Date().toLocaleString();
-
-//     console.log('Function executed at:', currentDateTime); // Logs the date and time when the function is executed
-
-//     // You can return the date time string or any other relevant data
-//     return {data, currentDateTime};
-// }
 
 function parseCSV(csvText) {
     const lines = csvText.trim().split('\n');
@@ -161,11 +142,8 @@ function downloadSelectedSiteData() {
     window.URL.revokeObjectURL(url);
 }
 
-
-
 // Add event listener to the download selected site data button
 document.getElementById('download-selected-csv').addEventListener('click', downloadSelectedSiteData);
-
 
 // PLOT DATA /////////////////////////////////////////////////
 
@@ -301,14 +279,23 @@ function plotData(groupedData, site) {
     });
 
     // figure layout
+    // Get the CSS variable value for background color
+    var rootStyle = getComputedStyle(document.documentElement);
+    var backgroundColor = rootStyle.getPropertyValue('--primary-bg-color').trim();
+    var columnBackgroundColor = rootStyle.getPropertyValue('--column-bg-color').trim();
+
     const layout = {
         hoversubplots: true,
         hovermode: 'x',
         grid: { rows: 5, columns: 1, pattern: 'independent' },
     
         title: `<span style='text-decoration:underline;'><b>Selected Site:</b></span> ${site}`,
-        plot_bgcolor: '#1e1e1e',
-        paper_bgcolor: '#333',
+        plot_bgcolor: backgroundColor || '#ffffff',  // Use the HTML body's background color
+        paper_bgcolor: columnBackgroundColor || '#ffffff', // Same as plot_bgcolor for consistency
+   
+
+        // plot_bgcolor: '#1e1e1e',
+        // paper_bgcolor: '#333',
         font: { color: 'white' },
     
         // Apply settings to x-axes
@@ -494,15 +481,6 @@ function createMap(groupedData) {
     legend.addTo(map);
 }
 
-
-// Initial function to load data and plot on page load
-document.addEventListener('DOMContentLoaded', async function () {
-    const csvData = await downloadData();
-    const parsedData = parseCSV(csvData);
-    const groupedData = groupBySite(parsedData);
-    createMap(groupedData); // Create the map
-});
-
 // page loading
 async function downloadData() {
     document.getElementById('loading').style.display = 'flex'; // Show loading spinner
@@ -515,10 +493,62 @@ async function downloadData() {
 
 document.addEventListener('DOMContentLoaded', async function () {
     document.getElementById('loading').style.display = 'flex'; // Show loading spinner
+    // Qld Wave Data
     const csvData = await downloadData();
     const parsedData = parseCSV(csvData);
     const groupedData = groupBySite(parsedData);
     createMap(groupedData); // Create the map
+
+    // Qld Storm Tide Data
+    const tideData = await downloadQldTideData();
+    console.log(tideData)
     document.getElementById('loading').style.display = 'none'; // Hide loading spinner
 });
+
+// QUEENSLAND TIDE DATA //////////////////////////////////////////////////
+async function downloadQldTideData() {
+    document.getElementById('loading').style.display = 'flex'; // Show loading spinner
+    const tide_url_qld = 'https://apps.des.qld.gov.au/data-sets/storm-tides/tide-7dayopdata.csv';
+    const response = await fetch(tide_url_qld);
+    const data_tide_qld = await response.text();
+    const groupedTideQldData = groupBySite(data_tide_qld);
+    console.log(groupedTideQldData)
+    document.getElementById('loading').style.display = 'none'; // Hide loading spinner
+    // console.log(data_tide_qld)
+    return data_tide_qld;
+}
+
+function groupTideQldBySite(data) {
+    const groupedTideQldData = {};
+    // Site, Seconds, DateTime, Water Level, Prediction, Residual, Latitude, Longitude
+    data.forEach(row => {
+        const site = row['Site'];
+        const latitude = parseFloat(row['Latitude']);
+        const longitude = parseFloat(row['Longitude']);
+        
+        if (!groupedTideQldData[site]) {
+            groupedTideQldData[site] = { DateTime: [], WaterLevel: [], Prediction: [], Residual: [], Latitude: latitude, Longitude: longitude };
+        }
+
+        const WaterLevel = parseFloat(row['Water Level']);
+        const Prediction = parseFloat(row['Prediction']);
+        const Residual = parseFloat(row['Residual']);
+
+        if (!isNaN(hsig) && !isNaN(tp) && !isNaN(direction)) {
+            groupedTideQldData[site].DateTime.push(row['DateTime']);
+            groupedTideQldData[site].WaterLevel.push(WaterLevel);
+            groupedTideQldData[site].Prediction.push(Prediction);
+            groupedTideQldData[site].Residual.push(Residual);
+        }
+    });
+
+    tideQldData = Object.entries(groupedTideQldData).map(([site, data]) => ({
+        site,
+        ...data
+    }));
+
+    return groupedTideQldData;
+}
+
+
 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Map App</title>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    #map {
+      height: 400px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+
+  <div class="container mx-auto p-4">
+    <!-- Map Container -->
+    <div id="map" class="rounded-lg shadow-lg"></div>
+
+    <!-- Data Display Section -->
+    <div id="dataDisplay" class="mt-4 bg-white p-4 rounded-lg shadow-md">
+      <h2 class="text-xl font-semibold text-gray-700">Data for Location</h2>
+      <p id="dataContent" class="text-gray-600">Click on a marker to see the data.</p>
+    </div>
+  </div>
+
+  <script>
+    // Initialize the map
+    const map = L.map('map').setView([51.505, -0.09], 13);  // Starting position
+
+    // Add a tile layer (you can change the source for different map styles)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Sample marker data (latitude, longitude, and associated data)
+    const locations = [
+      { lat: 51.505, lon: -0.09, data: 'Sample data for Location 1' },
+      { lat: 51.515, lon: -0.1, data: 'Sample data for Location 2' },
+      { lat: 51.525, lon: -0.11, data: 'Sample data for Location 3' }
+    ];
+
+    // Add markers to the map
+    locations.forEach((location) => {
+      const marker = L.marker([location.lat, location.lon]).addTo(map);
+
+      marker.on('click', () => {
+        // Display the data when a marker is clicked
+        document.getElementById('dataContent').innerText = location.data;
+      });
+    });
+  </script>
+
+</body>
+</html>
