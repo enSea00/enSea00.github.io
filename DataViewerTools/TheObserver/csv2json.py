@@ -4,7 +4,7 @@ import json
 def csv_to_json(csv_filepath, json_filepath):
     """Convert a CSV file to a JSON file."""
     try:
-        with open(csv_filepath, mode='r', encoding='utf-8') as csv_file:
+        with open(csv_filepath, mode='r', encoding="ISO-8859-1") as csv_file:
             csv_reader = csv.DictReader(csv_file)  # Read CSV as dictionary
             data = [row for row in csv_reader]  # Convert to a list of dictionaries
 
@@ -16,4 +16,4 @@ def csv_to_json(csv_filepath, json_filepath):
         print(f"Error: {e}")
 
 # Example usage
-csv_to_json('input.csv', 'output.json')
+csv_to_json('urls_points.csv', 'urls_points.json')
