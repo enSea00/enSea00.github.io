@@ -45,43 +45,24 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/
     attribution: '&copy; Esri'
 }).addTo(map);
 
-// Display lat lon of mouse cursor 
+// Display lat lon of mouse cursor location - PC ONLY ////////////////////////////////////////////////////////////////////////////////
+function isMobileDevice() {
+    return 'ontouchstart' in window && !('onmousemove' in window);
+}
+
+if (isMobileDevice()) {
+    document.getElementById('latlon-display').style.display = 'none';
+}
+
 map.on('mousemove', function(e) {
     const lat = e.latlng.lat.toFixed(5);
     const lon = e.latlng.lng.toFixed(5);
     document.getElementById('latlon-display').innerHTML = `${lon}°E, ${lat}°N`;
 });
 
-// Display lat lon of clicked location 
-// map.on('click', function(e) {
-//     // Get the latitude and longitude from the click event
-//     const latLon = `${e.latlng.lat.toFixed(5)}, ${e.latlng.lng.toFixed(5)}`;
-
-//     // Close any open popup before opening a new one
-//     map.closePopup();
-
-//     // Create the popup content
-//     const popupContent = `
-//         <div style="text-align: center; font-size:14px;">
-//             <p>${e.latlng.lng.toFixed(5)}°E, ${e.latlng.lat.toFixed(5)}°N</p>
-//         </div>
-//     `;
-
-//     // Create and open the new popup at the clicked location
-//     L.popup()
-//         .setLatLng(e.latlng)
-//         .setContent(popupContent)
-//         .openOn(map);
-// });
-
-let touchTimer; // Timer for long press detection
-let isLongPress = false; // Prevent accidental clicks after long press
-
-// Function to show the popup
-function showPopup(e) {
-    if (isLongPress) return; // Prevent accidental triggering after long press
-
-    // Get latitude and longitude from event
+// Display popup of lat lon of clicked location ///////////////////////////////////////////////////////////////////////////////////// 
+map.on('click', function(e) {
+    // Get the latitude and longitude from the click event
     const latLon = `${e.latlng.lat.toFixed(5)}, ${e.latlng.lng.toFixed(5)}`;
 
     // Close any open popup before opening a new one
@@ -99,34 +80,7 @@ function showPopup(e) {
         .setLatLng(e.latlng)
         .setContent(popupContent)
         .openOn(map);
-}
-
-// Detect if the device is a mobile/touch device
-function isMobileDevice() {
-    return 'ontouchstart' in window && !('onmousemove' in window); 
-}
-
-// Apply events
-if (isMobileDevice()) {
-    // Mobile: Press and hold (long press)
-    map.on('touchstart', function (e) {
-        isLongPress = false;
-        touchTimer = setTimeout(() => {
-            isLongPress = true; // Prevent accidental clicks
-            showPopup(e);
-        }, 500); // Long press delay
-    });
-
-    map.on('touchend', function () {
-        clearTimeout(touchTimer); // Cancel popup if released early
-    });
-
-} else {
-    // Desktop: Click event (disabled for mobile)
-    map.on('click', showPopup);
-}
-
-
+});
 
 // ADD LOCATION MARKERS TO MAP ////////////////////////////////////////////////////////////////////////////////
 

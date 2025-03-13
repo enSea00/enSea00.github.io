@@ -21,7 +21,6 @@ a:hover {
     text-decoration: none; /* Underline only on hover */
 }
 
-
 /* Title Overlay ************************************************************/
 #page-title {
     position: absolute;
@@ -54,27 +53,7 @@ a:hover {
     position: relative; /*This is needed to position the legend absolutely inside it */
 }
 
-
-/* Loading Spinner styling ***************************************************************/
-.spinner {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 80px;
-    height: 80px;
-    border: 8px solid #f3f3f3;
-    border-top: 8px solid #3498db;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-    z-index: 1000;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-/* CSS for individual markers ************************************************************/
+/* CSS for individual location markers ************************************************************/
 .custom-marker div {
     border-radius: 50%;
     width: 20px;
@@ -93,7 +72,7 @@ a:hover {
     opacity: 0.7;
 }
 
-/* Legend Styles *************************************************************************************/
+/* Legend Styling *************************************************************************************/
 
 .legend-item {
     display: flex;
@@ -122,7 +101,7 @@ a:hover {
     opacity: 0.4; /* Dim disabled items */
 }
 
-/* Dropdown menu ****************************************************************/
+/* Dropdown menu containing Legend ****************************************************************/
 .hamburger-menu {
     position: absolute;
     top: 50px;
@@ -200,3 +179,23 @@ a:hover {
 .show {
     display: block;
 }
+
+/* Loading Spinner styling ***************************************************************/
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    z-index: 1000;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+/* END *************************************************************************************/
