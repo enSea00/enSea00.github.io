@@ -75,7 +75,7 @@ map.on('mousemove', function(e) {
 // });
 
 let touchTimer; // Timer for long press detection
-let isLongPress = false; // Flag to prevent accidental clicks after long press
+let isLongPress = false; // Prevent accidental clicks after long press
 
 // Function to show the popup
 function showPopup(e) {
@@ -101,18 +101,18 @@ function showPopup(e) {
         .openOn(map);
 }
 
-// Detect if the device is truly mobile (ignores hybrid devices)
-function isTrueTouchDevice() {
+// Detect if the device is a mobile/touch device
+function isMobileDevice() {
     return 'ontouchstart' in window && !('onmousemove' in window); 
 }
 
 // Apply events
-if (isTrueTouchDevice()) {
+if (isMobileDevice()) {
     // Mobile: Press and hold (long press)
     map.on('touchstart', function (e) {
         isLongPress = false;
         touchTimer = setTimeout(() => {
-            isLongPress = true; // Prevents accidental clicks
+            isLongPress = true; // Prevent accidental clicks
             showPopup(e);
         }, 500); // Long press delay
     });
@@ -120,10 +120,12 @@ if (isTrueTouchDevice()) {
     map.on('touchend', function () {
         clearTimeout(touchTimer); // Cancel popup if released early
     });
-} 
 
-// Desktop: Click event (always works)
-map.on('click', showPopup);
+} else {
+    // Desktop: Click event (disabled for mobile)
+    map.on('click', showPopup);
+}
+
 
 
 // ADD LOCATION MARKERS TO MAP ////////////////////////////////////////////////////////////////////////////////
