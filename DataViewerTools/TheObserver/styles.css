@@ -1,7 +1,7 @@
 /* Root Styling ************************************************************** */
 :root {
-    --title-font-size: 1vw; 
-    --legend-label-font-size: 0.8vw;
+    --title-font-size: clamp(20px, 1vw, 24px);
+    --legend-label-font-size: 0.8*var(--title-font-size);
 }
 /* Body, fonmt styling *********************************************************/
 body, html {
