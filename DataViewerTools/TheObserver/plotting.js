@@ -53,8 +53,35 @@ map.on('mousemove', function(e) {
 });
 
 // Display lat lon of clicked location 
-map.on('click', function(e) {
-    // Get the latitude and longitude from the click event
+// map.on('click', function(e) {
+//     // Get the latitude and longitude from the click event
+//     const latLon = `${e.latlng.lat.toFixed(5)}, ${e.latlng.lng.toFixed(5)}`;
+
+//     // Close any open popup before opening a new one
+//     map.closePopup();
+
+//     // Create the popup content
+//     const popupContent = `
+//         <div style="text-align: center; font-size:14px;">
+//             <p>${e.latlng.lng.toFixed(5)}°E, ${e.latlng.lat.toFixed(5)}°N</p>
+//         </div>
+//     `;
+
+//     // Create and open the new popup at the clicked location
+//     L.popup()
+//         .setLatLng(e.latlng)
+//         .setContent(popupContent)
+//         .openOn(map);
+// });
+
+let touchTimer; // Timer for long press detection
+let isLongPress = false; // Flag to prevent accidental clicks after long press
+
+// Function to show the popup
+function showPopup(e) {
+    if (isLongPress) return; // Prevent accidental triggering after long press
+
+    // Get latitude and longitude from event
     const latLon = `${e.latlng.lat.toFixed(5)}, ${e.latlng.lng.toFixed(5)}`;
 
     // Close any open popup before opening a new one
@@ -72,7 +99,31 @@ map.on('click', function(e) {
         .setLatLng(e.latlng)
         .setContent(popupContent)
         .openOn(map);
-});
+}
+
+// Detect if the device is truly mobile (ignores hybrid devices)
+function isTrueTouchDevice() {
+    return 'ontouchstart' in window && !('onmousemove' in window); 
+}
+
+// Apply events
+if (isTrueTouchDevice()) {
+    // Mobile: Press and hold (long press)
+    map.on('touchstart', function (e) {
+        isLongPress = false;
+        touchTimer = setTimeout(() => {
+            isLongPress = true; // Prevents accidental clicks
+            showPopup(e);
+        }, 500); // Long press delay
+    });
+
+    map.on('touchend', function () {
+        clearTimeout(touchTimer); // Cancel popup if released early
+    });
+} 
+
+// Desktop: Click event (always works)
+map.on('click', showPopup);
 
 
 // ADD LOCATION MARKERS TO MAP ////////////////////////////////////////////////////////////////////////////////
