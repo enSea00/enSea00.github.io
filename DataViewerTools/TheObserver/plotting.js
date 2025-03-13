@@ -38,7 +38,7 @@ const map = L.map('map', {
     zoomControl: false, // This disables the default zoom controls
     minZoom: 2,
     // maxBounds: [[-90, -180], [90, 180]], // Keep within global bounds
-}).setView(Australia_Coordinates, 4); // Set initial map view (latitude, longitude, zoom level)
+}).setView(Australia_Coordinates, 3); // Set initial map view (latitude, longitude, zoom level)
 
 // Set the map tile layer (using Esri World Imagery)
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {

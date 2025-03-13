@@ -1,7 +1,7 @@
 /* Root Styling ************************************************************** */
 :root {
     --title-font-size: clamp(20px, 1vw, 24px);
-    --legend-label-font-size: clamp(20px, 1vw, 24px);
+    --legend-label-font-size: var(--title-font-size);
 }
 /* Body, fonmt styling *********************************************************/
 body, html {
@@ -27,8 +27,6 @@ a:hover {
     position: absolute;
     top: 10px;
     left: 1%;
-    /* transform: translateX(-50%); */
-    /* font-size: 24px; clamp(20px, 2vw, 24px); 28px; */
     font-size: var(--title-font-size);
     font-weight: bold;
     color: white;
