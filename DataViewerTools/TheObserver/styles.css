@@ -72,7 +72,7 @@ a:hover {
     opacity: 0.7;
 }
 
-/* LatLon display *************************************************************************************/
+/* LatLon display - hide for small screen s(ie mobiles) *************************************************************************************/
 @media (max-width: 768px) { 
     #latlon-display {
         display: none; /* Hide on small screens */
