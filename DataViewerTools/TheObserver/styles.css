@@ -1,4 +1,9 @@
-/* ody, fonmt styling *********************************************************/
+/* Root Styling ************************************************************** */
+:root {
+    --title-font-size: 1vw; 
+    --legend-label-font-size: 0.8vw;
+}
+/* Body, fonmt styling *********************************************************/
 body, html {
     margin: 0;
     padding: 10;
@@ -23,7 +28,8 @@ a:hover {
     top: 10px;
     left: 1%;
     /* transform: translateX(-50%); */
-    font-size: 24px; /*clamp(20px, 2vw, 24px); /* 28px; */
+    /* font-size: 24px; clamp(20px, 2vw, 24px); 28px; */
+    font-size: var(--title-font-size);
     font-weight: bold;
     color: white;
     background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
@@ -39,8 +45,8 @@ a:hover {
 
 /* Icon Styling */
 #title-icon {
-    width: 30px; /* Adjust size */
-    height: 30px;
+    width: var(--title-font-size); /* Adjust size */
+    height: var(--title-font-size);
 }
 
 /* Map styling ************************************************************ */
@@ -131,7 +137,7 @@ a:hover {
 .hamburger-icon {
     background: none;
     border: none;
-    font-size: 20px;
+    font-size: var(--legend-label-font-size);
     cursor: pointer;
     padding: 10px;
     font-family: inherit; /* Use the same font as the page */
@@ -139,7 +145,7 @@ a:hover {
 }
 
 .menu-label {
-    font-size: 20px; /* clamp(18px, 4vw, 24px);  /* Font size will be at least 14px, scale with viewport width, but not exceed 24px */
+    font-size: var(--legend-label-font-size); /* clamp(18px, 4vw, 24px);  /* Font size will be at least 14px, scale with viewport width, but not exceed 24px */
     /* margin-left: 8px; */
     /* background-color: rgba(0, 0, 0, 0.4); Semi-transparent background */
     color: white;
