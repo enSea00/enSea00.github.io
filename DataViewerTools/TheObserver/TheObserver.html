@@ -27,9 +27,7 @@
 
 <div id="map" style="width: 100%; height: 100vh;"></div>
 <div id="loading-spinner" class="spinner"></div>
-<div id="legend-container">
-    <!-- Leaflet Legend will be inserted here -->
-</div>
+
 
 <!-- Location Search Box -->
 <!-- <div id="search-container">
@@ -43,18 +41,28 @@
     <button class="hamburger-icon" id="hamburger-toggle">
         &#9776; <!-- Hamburger icon -->
     </button>
-    <span class="menu-label">Forecast Charts</span> <!-- Added label -->
+    <span class="menu-label" >Legend</span> <!-- Added label -->
     <div class="dropdown-content" id="dropdown-menu">
-        <!-- <div class="dropdown-header">Navigation Menu</div> -->
+        <!-- <div class="dropdown-header">Legend</div> -->
+        <div id="legend-container">
+            <!-- Leaflet Legend will be inserted here -->
+        </div>
+
+        <!-- <div class="dropdown-header">Forecast Charts</div>
         <a href="http://www.bom.gov.au/australia/charts/viewer/index.shtml?type=sigWaveHgt&tz=AEDT&area=Au&model=CG&chartSubmit=Refresh+View" target="_blank">BoM</a>
         <a href="https://eccharts.ecmwf.int/dashboard" target="_blank">ECMWF</a>
         <a href="https://www.windy.com/-Waves-waves?waves,-26.091,136.107,4" target="_blank">Windy</a>
         <a href="https://www.surfline.com/surf-charts/gold-coast/58581a836630e24c44879027/@-25.898089364246957,136.1427999637774,2.7495121128033886z?type=wave-height&pinnedLocation=153.55066,-28.16143481052803&spotId=5d7c127712781b00019f8799" target="_blank">Surfline</a>
         <a href="https://www.swellnet.com/reports/australia/queensland/gold-coast/wams" target="_blank">Swellnet</a>
 
+        <div class="dropdown-header">About</div>
+        <p>Test</p> -->
     </div>
 </div>
 
+<div id="latlon-display" style="position: absolute; bottom: 10px; left: 10px; background: rgba(255,255,255,0.8); padding: 5px; border-radius: 5px; font-size: 14px; z-index: 1000;">
+    Lat: -, Lon: -
+</div>
 
 <script src="locations.js"></script> <!-- Custom JS file with location data -->
 <script src="plotting.js"></script> <!-- JS file for map logic -->

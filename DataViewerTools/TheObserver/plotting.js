@@ -1,12 +1,25 @@
-// Identify unique DataType values
-const uniqueDataTypes = [...new Set(locations.map(loc => loc.DataType))];
+// DATA PREPARATION ////////////////////////////////////////////////////////////////////////////////////////
 
-// Generate a color scale using d3.js
-const colorScale = d3.scaleOrdinal(d3.schemeCategory10); // You can use other color schemes like d3.schemePaired, d3.schemeSet3, etc.
+// This code automatically defines unique datatypes and assigns color to it
+// // Identify unique DataType values
+// const uniqueDataTypes = [...new Set(locations.map(loc => loc.DataType))];
+// console.log(uniqueDataTypes)
+// // Generate a color scale using d3.js
+// const colorScale = d3.scaleOrdinal(d3.schemeCategory10); // You can use other color schemes like d3.schemePaired, d3.schemeSet3, etc.
 
-// Map each DataType to a color from the color scale
+// // Map each DataType to a color from the color scale
+// const colorScheme = uniqueDataTypes.reduce((acc, dataType, index) => {
+//     acc[dataType] = colorScale(index);  // Assign color based on index
+//     return acc;
+// }, {});
+
+// This code manually defines available data types and assigns color to it
+const uniqueDataTypes = ['Weather Station', 'River Gauge', 'Tide Gauge', 'Tide Prediction',  'Rain Radar', 'Wave Buoy', 'Swellnet',  'Willy Weather', 'Surfline (No Cam)', 'Surfline (Cam)', 'Web Camera', 'Ocean Buoy (NDBC)']
+const predefinedColors = ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a", "#ffff99", "#b15928"]
+
+// Map each DataType to a corresponding color from the predefined list
 const colorScheme = uniqueDataTypes.reduce((acc, dataType, index) => {
-    acc[dataType] = colorScale(index);  // Assign color based on index
+    acc[dataType] = predefinedColors[index];  // Assign the corresponding color from the predefined list
     return acc;
 }, {});
 
@@ -19,17 +32,50 @@ const groupedLocations = locations.reduce((groups, loc) => {
     return groups;
 }, {});
 
-// Initialize the Leaflet map
+// INITIALISE MAP AND INTERACTIVITY ////////////////////////////////////////////////////////////////////////////////
 const Australia_Coordinates = [-25.2744, 133.7751];
 const map = L.map('map', {
-    zoomControl: false // This disables the default zoom controls
-}).setView(Australia_Coordinates, 5); // Set initial map view (latitude, longitude, zoom level)
-
+    zoomControl: false, // This disables the default zoom controls
+    minZoom: 2,
+    // maxBounds: [[-90, -180], [90, 180]], // Keep within global bounds
+}).setView(Australia_Coordinates, 4); // Set initial map view (latitude, longitude, zoom level)
 
 // Set the map tile layer (using Esri World Imagery)
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoIQ, Getmapping, and others'
+    attribution: '&copy; Esri'
 }).addTo(map);
+
+// Display lat lon of mouse cursor 
+map.on('mousemove', function(e) {
+    const lat = e.latlng.lat.toFixed(5);
+    const lon = e.latlng.lng.toFixed(5);
+    document.getElementById('latlon-display').innerHTML = `${lon}°E, ${lat}°N`;
+});
+
+// Display lat lon of clicked location 
+map.on('click', function(e) {
+    // Get the latitude and longitude from the click event
+    const latLon = `${e.latlng.lat.toFixed(5)}, ${e.latlng.lng.toFixed(5)}`;
+
+    // Close any open popup before opening a new one
+    map.closePopup();
+
+    // Create the popup content
+    const popupContent = `
+        <div style="text-align: center; font-size:14px;">
+            <p>${e.latlng.lng.toFixed(5)}°E, ${e.latlng.lat.toFixed(5)}°N</p>
+        </div>
+    `;
+
+    // Create and open the new popup at the clicked location
+    L.popup()
+        .setLatLng(e.latlng)
+        .setContent(popupContent)
+        .openOn(map);
+});
+
+
+// ADD LOCATION MARKERS TO MAP ////////////////////////////////////////////////////////////////////////////////
 
 // Create a separate MarkerCluster group for each DataType
 const dataTypeGroups = {};  // To store each MarkerCluster group by DataType
@@ -75,14 +121,14 @@ Object.keys(groupedLocations).forEach((dataType) => {
         marker.bindPopup(`
             <i>${loc.DataType}</i><br>
             <b>Location: </b>${loc.Name}<br>
-            (${loc.Latitude}°N, ${loc.Longitude}°E)
+            (${loc.Longitude}°E, ${loc.Latitude}°N)
         `);
 
         // Bind a tooltip to show on hover
         marker.bindTooltip(`
             <i>${loc.DataType}</i><br>
             <b>Location: </b>${loc.Name}<br>
-            (${loc.Latitude}°N, ${loc.Longitude}°E)
+            (${loc.Longitude}°E, ${loc.Latitude}°N)
         `, {
             permanent: false,  // Tooltip is not permanent
             direction: 'top',  // Show tooltip above the marker
@@ -110,27 +156,88 @@ Object.keys(groupedLocations).forEach((dataType) => {
 // Handle loading spinner (when markers are loaded)
 document.getElementById('loading-spinner').style.display = 'block';
 
-// Optionally: You can create a custom legend for the map
+// Add an interactive legend to the map
 const legend = L.control({ position: 'topright' });
 
-legend.onAdd = function() {
+legend.onAdd = function () {
     const div = L.DomUtil.create('div', 'info legend');
-    div.innerHTML = '<b>Data Types</b><br>';
+    div.innerHTML = '';
+
     uniqueDataTypes.forEach((dataType) => {
-        div.innerHTML += `<span class="legend-color" style="background-color:${colorScheme[dataType]}"></span>${dataType}<br>`;
+        div.innerHTML += `
+            <div class="legend-item" data-type="${dataType}">
+                <span class="legend-color" style="background-color:${colorScheme[dataType]}"></span>
+                <span class="legend-label">${dataType}</span>
+            </div>
+        `;
     });
+
     return div;
 };
 
+// Add legend to the map
 legend.addTo(map);
 
-document.getElementById('loading-spinner').style.display = 'none'; // Hide spinner after markers are loaded
+// Move the legend under the hamburger menu
+setTimeout(() => {
+    const legendContainer = legend.getContainer();
+    if (legendContainer) {
+        document.getElementById('legend-container').appendChild(legendContainer);
+    } else {
+        console.error("Legend container not found");
+    }
+}, 100);
 
-// Toggle the visibility of the dropdown menu when the hamburger icon is clicked
-// document.getElementById('hamburger-toggle').addEventListener('click', function () {
-//     const dropdownMenu = document.getElementById('dropdown-menu');
-//     dropdownMenu.classList.toggle('show'); // Toggle the "show" class to display/hide the menu
-// });
+// Track if the map is in "isolated mode" (only one group shown)
+let isolatedType = null;
+
+// Handle single-click to toggle visibility
+document.getElementById('legend-container').addEventListener('click', (event) => {
+    const item = event.target.closest('.legend-item');
+    if (!item) return;
+
+    const dataType = item.dataset.type;
+    if (!dataType) return;
+
+    if (map.hasLayer(dataTypeGroups[dataType])) {
+        map.removeLayer(dataTypeGroups[dataType]);
+        item.classList.add('disabled'); // Visually indicate hidden
+    } else {
+        map.addLayer(dataTypeGroups[dataType]);
+        item.classList.remove('disabled');
+    }
+});
+
+// Handle double-click to isolate or restore all groups
+document.getElementById('legend-container').addEventListener('dblclick', (event) => {
+    const item = event.target.closest('.legend-item');
+    if (!item) return;
+
+    const selectedType = item.dataset.type;
+    if (!selectedType) return;
+
+    if (isolatedType === selectedType) {
+        // If double-clicking the already isolated type → Restore all groups
+        Object.keys(dataTypeGroups).forEach((dataType) => {
+            map.addLayer(dataTypeGroups[dataType]);
+            document.querySelector(`[data-type="${dataType}"]`).classList.remove('disabled');
+        });
+        isolatedType = null; // Reset isolation mode
+    } else {
+        // Hide all groups except the selected one
+        Object.keys(dataTypeGroups).forEach((dataType) => {
+            map.removeLayer(dataTypeGroups[dataType]);
+            document.querySelector(`[data-type="${dataType}"]`).classList.add('disabled');
+        });
+
+        // Show only the selected group
+        map.addLayer(dataTypeGroups[selectedType]);
+        item.classList.remove('disabled');
+        isolatedType = selectedType; // Set isolated mode
+    }
+});
+
+document.getElementById('loading-spinner').style.display = 'none'; // Hide spinner after markers are loaded
 
 // Select both the hamburger icon, menu label, and the dropdown menu
 const hamburgerToggle = document.getElementById('hamburger-toggle');

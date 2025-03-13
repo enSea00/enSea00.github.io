@@ -1,4 +1,4 @@
-/* Make the map fill the full screen */
+/* ody, fonmt styling *********************************************************/
 body, html {
     margin: 0;
     padding: 10;
@@ -20,19 +20,19 @@ a:hover {
 /* Title Overlay ************************************************************/
 #page-title {
     position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 28px;
+    top: 10px;
+    left: 1%;
+    /* transform: translateX(-50%); */
+    font-size: 24px; /*clamp(20px, 2vw, 24px); /* 28px; */
     font-weight: bold;
     color: white;
-    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
-    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+    padding: 10px 10px;
     border-radius: 8px;
     z-index: 1000;
-    text-align: center;
+    text-align: left;
     display: flex;
-    align-items: center;
+    align-items: left;
     gap: 10px; /* Space between icon and text */
     font-family: Arial, sans-serif;
 }
@@ -47,8 +47,9 @@ a:hover {
 #map {
     width: 100%;
     height: 100%;
-    /* position: relative; This is needed to position the legend absolutely inside it */
+    position: relative; /*This is needed to position the legend absolutely inside it */
 }
+
 
 /* Loading Spinner styling ***************************************************************/
 .spinner {
@@ -89,26 +90,38 @@ a:hover {
 }
 
 /* Legend Styles *************************************************************************************/
-.info.legend {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);  /* Optional shadow effect */
-    font-size: 12px;
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 16px;
+    color: white;
+    width: 100%;
 }
 
-/* Styling for the legend color squares */
-.info.legend span {
-    display: inline-block;
+.legend-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+}
+
+.legend-color {
     width: 12px;
     height: 12px;
-    margin-right: 4px;
+    margin-right: 8px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.legend-item.disabled {
+    opacity: 0.4; /* Dim disabled items */
 }
 
 /* Dropdown menu ****************************************************************/
 .hamburger-menu {
     position: absolute;
-    top: 8%;
+    top: 50px;
     left: 0.5%;
     display: flex;
     align-items: center;
@@ -118,7 +131,7 @@ a:hover {
 .hamburger-icon {
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 20px;
     cursor: pointer;
     padding: 10px;
     font-family: inherit; /* Use the same font as the page */
@@ -126,8 +139,9 @@ a:hover {
 }
 
 .menu-label {
-    font-size: clamp(18px, 4vw, 24px);  /* Font size will be at least 14px, scale with viewport width, but not exceed 24px */
-    margin-left: 8px;
+    font-size: 20px; /* clamp(18px, 4vw, 24px);  /* Font size will be at least 14px, scale with viewport width, but not exceed 24px */
+    /* margin-left: 8px; */
+    /* background-color: rgba(0, 0, 0, 0.4); Semi-transparent background */
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -135,19 +149,18 @@ a:hover {
     font-family: inherit; /* Use the same font as the page */
 }
 
-
-/* Dropdown content */
 .dropdown-content {
     display: none;
     position: absolute;
     top: 100%; /* Position right below the hamburger icon */
-    left: 0; /* Align with the left edge of the icon */
+    left: 1vh; /* Align with the left edge of the icon */
     background-color: #333;
     min-width: 200px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     overflow: hidden;
     z-index: 1000; /* Ensure it appears above other elements */
+    /* margin-left: 10px; */
 }
 
 /* Show menu when the hamburger is clicked */
