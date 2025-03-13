@@ -72,6 +72,12 @@ a:hover {
     opacity: 0.7;
 }
 
+/* LatLon display *************************************************************************************/
+@media (max-width: 768px) { 
+    #latlon-display {
+        display: none; /* Hide on small screens */
+    }
+}
 /* Legend Styling *************************************************************************************/
 
 .legend-item {

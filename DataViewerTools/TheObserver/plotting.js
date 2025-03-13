@@ -46,13 +46,7 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/
 }).addTo(map);
 
 // Display lat lon of mouse cursor location - PC ONLY ////////////////////////////////////////////////////////////////////////////////
-function isMobileDevice() {
-    return 'ontouchstart' in window && !('onmousemove' in window);
-}
 
-if (isMobileDevice()) {
-    document.getElementById('latlon-display').style.display = 'none';
-}
 
 map.on('mousemove', function(e) {
     const lat = e.latlng.lat.toFixed(5);
