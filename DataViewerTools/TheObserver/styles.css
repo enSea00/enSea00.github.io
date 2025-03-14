@@ -113,6 +113,7 @@ a:hover {
     top: 55px;
     left: 1%;
     display: flex;
+    justify-content: flex-start; /* Aligns text horizontally to the left */
     align-items: center;
     z-index: 1000;
     background-color: rgba(0, 0, 0, 0.4);
@@ -125,7 +126,6 @@ a:hover {
     border: none;
     font-size: var(--legend-label-font-size);
     cursor: pointer;
-
     font-family: inherit; /* Use the same font as the page */
     color: white; /* Adjust if needed */
 }
