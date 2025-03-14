@@ -50985,7 +50985,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "kiama",
         "Longitude": "150.8706562",
         "Latitude": "-34.6738857",
@@ -50996,7 +50996,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "wollongong",
         "Longitude": "150.9095292",
         "Latitude": "-34.42701852",
@@ -51007,7 +51007,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "city-beach",
         "Longitude": "150.9071399",
         "Latitude": "-34.42560937",
@@ -51018,7 +51018,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "thirroul",
         "Longitude": "150.9292936",
         "Latitude": "-34.317401",
@@ -51029,7 +51029,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "thirroul-north",
         "Longitude": "150.9292936",
         "Latitude": "-34.3173",
@@ -51040,7 +51040,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "cronulla-beaches",
         "Longitude": "151.160491",
         "Latitude": "-34.04762682",
@@ -51051,7 +51051,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "the-alley",
         "Longitude": "151.1571705",
         "Latitude": "-34.05194574",
@@ -51062,7 +51062,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "shark-island",
         "Longitude": "151.1605577",
         "Latitude": "-34.05971857",
@@ -51073,7 +51073,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "cronulla-point",
         "Longitude": "151.1588033",
         "Latitude": "-34.05753401",
@@ -51084,7 +51084,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "wanda",
         "Longitude": "151.1660636",
         "Latitude": "-34.04042373",
@@ -51095,7 +51095,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "maroubra",
         "Longitude": "151.2601533",
         "Latitude": "-33.9489855",
@@ -51106,7 +51106,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "bondi",
         "Longitude": "151.2784098",
         "Latitude": "-33.89398673",
@@ -51117,7 +51117,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "manly",
         "Longitude": "151.2909319",
         "Latitude": "-33.79609632",
@@ -51128,7 +51128,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "queenscliff",
         "Longitude": "151.2903555",
         "Latitude": "-33.78807793",
@@ -51139,7 +51139,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "narrabeen",
         "Longitude": "151.3057981",
         "Latitude": "-33.7086847",
@@ -51150,7 +51150,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "avoca-beach",
         "Longitude": "151.4378639",
         "Latitude": "-33.46333429",
@@ -51161,7 +51161,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "wamberal",
         "Longitude": "151.4497196",
         "Latitude": "-33.4303885",
@@ -51172,7 +51172,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "newcastle",
         "Longitude": "151.7873003",
         "Latitude": "-32.93180348",
@@ -51183,7 +51183,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "coffs-harbour",
         "Longitude": "153.1441255",
         "Latitude": "-30.31316845",
@@ -51194,7 +51194,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "gallows",
         "Longitude": "153.1429406",
         "Latitude": "-30.31336517",
@@ -51205,7 +51205,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "park-beach-south",
         "Longitude": "153.1416634",
         "Latitude": "-30.29123315",
@@ -51216,7 +51216,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "park-beach",
         "Longitude": "153.1431518",
         "Latitude": "-30.28333673",
@@ -51227,7 +51227,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "macauleys",
         "Longitude": "153.144367",
         "Latitude": "-30.28186758",
@@ -51238,7 +51238,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "yamba",
         "Longitude": "153.3707982",
         "Latitude": "-29.44380375",
@@ -51249,7 +51249,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "pippies",
         "Longitude": "153.3685822",
         "Latitude": "-29.44269067",
@@ -51260,7 +51260,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "byron-bay",
         "Longitude": "153.6210657",
         "Latitude": "-28.63825395",
@@ -51271,7 +51271,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "the-pass",
         "Longitude": "153.6275297",
         "Latitude": "-28.63567174",
@@ -51282,7 +51282,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "cabarita",
         "Longitude": "153.5771253",
         "Latitude": "-28.33499439",
@@ -51293,7 +51293,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "cabarita-beach",
         "Longitude": "153.5749069",
         "Latitude": "-28.33287735",
@@ -51304,7 +51304,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "kingscliff",
         "Longitude": "153.5790514",
         "Latitude": "-28.25504547",
@@ -51315,7 +51315,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "kingscliff-north",
         "Longitude": "153.5760391",
         "Latitude": "-28.25196445",
@@ -51326,7 +51326,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "tweed-bar",
         "Longitude": "153.5590954",
         "Latitude": "-28.16886096",
@@ -51337,7 +51337,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "duranbah",
         "Longitude": "153.5522069",
         "Latitude": "-28.166935",
@@ -51348,7 +51348,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "kirra",
         "Longitude": "153.5332564",
         "Latitude": "-28.16486604",
@@ -51359,7 +51359,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "coolangatta",
         "Longitude": "153.5398107",
         "Latitude": "-28.1666808",
@@ -51370,7 +51370,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "spot-x",
         "Longitude": "153.5375802",
         "Latitude": "-28.16567764",
@@ -51381,7 +51381,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "kirra-big-groyne",
         "Longitude": "153.5362754",
         "Latitude": "-28.16535662",
@@ -51392,7 +51392,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "north-kirra",
         "Longitude": "153.5198239",
         "Latitude": "-28.16153661",
@@ -51403,7 +51403,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "greenmount",
         "Longitude": "153.5433844",
         "Latitude": "-28.16480926",
@@ -51414,7 +51414,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "superbank",
         "Longitude": "153.5462811",
         "Latitude": "-28.16270943",
@@ -51425,7 +51425,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "snapper-rocks",
         "Longitude": "153.549285",
         "Latitude": "-28.16110135",
@@ -51436,7 +51436,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "currumbin",
         "Longitude": "153.4829109",
         "Latitude": "-28.12396606",
@@ -51447,7 +51447,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "laceys-lane",
         "Longitude": "153.4793895",
         "Latitude": "-28.12369592",
@@ -51458,7 +51458,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "currumbin-alley",
         "Longitude": "153.4853605",
         "Latitude": "-28.12603645",
@@ -51469,7 +51469,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "south-palm-beach",
         "Longitude": "153.4762597",
         "Latitude": "-28.11965776",
@@ -51480,7 +51480,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "palm-beach",
         "Longitude": "153.4726265",
         "Latitude": "-28.11517025",
@@ -51491,7 +51491,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "burleigh-heads",
         "Longitude": "153.4602716",
         "Latitude": "-28.08862989",
@@ -51502,7 +51502,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "burleigh-heads-beach",
         "Longitude": "153.4538343",
         "Latitude": "-28.08651024",
@@ -51513,7 +51513,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "north-burleigh",
         "Longitude": "153.449371",
         "Latitude": "-28.07530246",
@@ -51524,7 +51524,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "surfers-paradise-south",
         "Longitude": "153.4319849",
         "Latitude": "-27.99990475",
@@ -51535,7 +51535,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "surfers-paradise-north",
         "Longitude": "153.4319366",
         "Latitude": "-27.99814276",
@@ -51546,7 +51546,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "narrowneck",
         "Longitude": "153.4310408",
         "Latitude": "-27.98596748",
@@ -51557,7 +51557,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "caloundra",
         "Longitude": "153.1417765",
         "Latitude": "-26.80459317",
@@ -51568,7 +51568,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "caloundra-bar",
         "Longitude": "153.139593",
         "Latitude": "-26.81105154",
@@ -51579,7 +51579,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "kings-beach",
         "Longitude": "153.139751",
         "Latitude": "-26.80731424",
@@ -51590,7 +51590,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "alex-bluff",
         "Longitude": "153.1130959",
         "Latitude": "-26.67148746",
@@ -51601,7 +51601,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "alex-headland",
         "Longitude": "153.111049",
         "Latitude": "-26.66976631",
@@ -51612,7 +51612,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "alex-beach",
         "Longitude": "153.1081384",
         "Latitude": "-26.66618965",
@@ -51623,7 +51623,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "maroochydore",
         "Longitude": "153.1050008",
         "Latitude": "-26.65578745",
@@ -51634,7 +51634,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "maroochy-river",
         "Longitude": "153.1070256",
         "Latitude": "-26.65099736",
@@ -51645,7 +51645,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "coolum-bays",
         "Longitude": "153.0984598",
         "Latitude": "-26.53720936",
@@ -51656,7 +51656,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "point-perry",
         "Longitude": "153.0963857",
         "Latitude": "-26.5350349",
@@ -51667,7 +51667,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "coolum",
         "Longitude": "153.0944628",
         "Latitude": "-26.53146584",
@@ -51678,7 +51678,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "peregian",
         "Longitude": "153.0993119",
         "Latitude": "-26.48145535",
@@ -51689,7 +51689,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "marcus-beach",
         "Longitude": "153.1035614",
         "Latitude": "-26.45785644",
@@ -51700,7 +51700,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "sunshine-beach",
         "Longitude": "153.11458",
         "Latitude": "-26.40465562",
@@ -51711,7 +51711,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "noosa-heads",
         "Longitude": "153.0931656",
         "Latitude": "-26.38220873",
@@ -51722,7 +51722,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "agnes-water",
         "Longitude": "151.9084126",
         "Latitude": "-24.20691333",
@@ -51733,7 +51733,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "the-dump",
         "Longitude": "138.6487754",
         "Latitude": "-35.53948667",
@@ -51744,7 +51744,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "chiton-rocks",
         "Longitude": "138.6582653",
         "Latitude": "-35.53830382",
@@ -51755,7 +51755,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "knights",
         "Longitude": "138.6780275",
         "Latitude": "-35.53722267",
@@ -51766,7 +51766,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "goolwa",
         "Longitude": "138.7723453",
         "Latitude": "-35.52574887",
@@ -51777,7 +51777,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "day-street",
         "Longitude": "138.7349995",
         "Latitude": "-35.51774865",
@@ -51788,7 +51788,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "middleton-bay",
         "Longitude": "138.7069984",
         "Latitude": "-35.5154578",
@@ -51799,7 +51799,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "middleton-point",
         "Longitude": "138.7097719",
         "Latitude": "-35.51536141",
@@ -51810,7 +51810,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "u-turns",
         "Longitude": "138.4624369",
         "Latitude": "-35.17310406",
@@ -51821,7 +51821,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "triggs",
         "Longitude": "138.463767",
         "Latitude": "-35.16693999",
@@ -51832,7 +51832,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "rivermouth",
         "Longitude": "138.4672356",
         "Latitude": "-35.16355634",
@@ -51843,7 +51843,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "south-port",
         "Longitude": "138.468021",
         "Latitude": "-35.16035086",
@@ -51854,7 +51854,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "the-hump",
         "Longitude": "138.4671899",
         "Latitude": "-35.15838799",
@@ -51865,7 +51865,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "christies-beach",
         "Longitude": "138.4684562",
         "Latitude": "-35.13904874",
@@ -51876,7 +51876,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "y-steps",
         "Longitude": "138.4675816",
         "Latitude": "-35.13764005",
@@ -51887,7 +51887,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "west-beach-south",
         "Longitude": "138.5048673",
         "Latitude": "-34.95952559",
@@ -51898,7 +51898,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "west-beach-north",
         "Longitude": "138.5035408",
         "Latitude": "-34.95561238",
@@ -51909,7 +51909,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "magiclands",
         "Longitude": "145.3399517",
         "Latitude": "-38.55163882",
@@ -51920,7 +51920,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "woolamai",
         "Longitude": "145.3336825",
         "Latitude": "-38.54222924",
@@ -51931,7 +51931,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "lorne-point",
         "Longitude": "143.986458",
         "Latitude": "-38.54507329",
@@ -51942,7 +51942,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "lorne",
         "Longitude": "143.9795624",
         "Latitude": "-38.53949102",
@@ -51953,7 +51953,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "anzacs",
         "Longitude": "145.3305881",
         "Latitude": "-38.54022823",
@@ -51964,7 +51964,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "fairhaven",
         "Longitude": "144.0720819",
         "Latitude": "-38.47180217",
@@ -51975,7 +51975,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "rye",
         "Longitude": "144.8147482",
         "Latitude": "-38.41572107",
@@ -51986,7 +51986,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "torquay",
         "Longitude": "144.3290071",
         "Latitude": "-38.33423788",
@@ -51997,7 +51997,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "portsea",
         "Longitude": "144.6999503",
         "Latitude": "-38.33577767",
@@ -52008,7 +52008,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "fishermans-beach",
         "Longitude": "144.3297277",
         "Latitude": "-38.32674541",
@@ -52019,7 +52019,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "13th-beach",
         "Longitude": "144.4635164",
         "Latitude": "-38.28847611",
@@ -52030,7 +52030,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "ocean-grove",
         "Longitude": "144.5250079",
         "Latitude": "-38.27247514",
@@ -52041,7 +52041,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "st-kilda",
         "Longitude": "144.9714491",
         "Latitude": "-37.8685812",
@@ -52052,7 +52052,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "boat-ramp",
         "Longitude": "114.9848998",
         "Latitude": "-33.98427474",
@@ -52063,7 +52063,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "margaret-river-bombie",
         "Longitude": "114.9699588",
         "Latitude": "-33.97901165",
@@ -52074,7 +52074,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "margaret-river",
         "Longitude": "114.9819243",
         "Latitude": "-33.97720096",
@@ -52085,7 +52085,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "yallingup",
         "Longitude": "115.0228255",
         "Latitude": "-33.63718738",
@@ -52096,7 +52096,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "mandurah-wedge",
         "Longitude": "115.6275893",
         "Latitude": "-32.60094537",
@@ -52107,7 +52107,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "north-floreat",
         "Longitude": "115.7525506",
         "Latitude": "-31.92701044",
@@ -52118,7 +52118,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "brighton",
         "Longitude": "115.7533963",
         "Latitude": "-31.8996558",
@@ -52129,7 +52129,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "contacio",
         "Longitude": "115.7524837",
         "Latitude": "-31.88672333",
@@ -52140,7 +52140,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "south-trigg",
         "Longitude": "115.7501666",
         "Latitude": "-31.87976249",
@@ -52151,7 +52151,7 @@ const locations = [
         "Notes": ""
     },
     {
-        "DataType": "Swellnet",
+        "DataType": "Swellnet (Cam)",
         "Name": "scarborough",
         "Longitude": "115.7531758",
         "Latitude": "-31.8938443",

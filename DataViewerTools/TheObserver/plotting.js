@@ -14,8 +14,8 @@
 // }, {});
 
 // This code manually defines available data types and assigns color to it
-const uniqueDataTypes = ['Weather Station', 'River Gauge', 'Tide Gauge', 'Tide Prediction',  'Rain Radar', 'Wave Buoy', 'Swellnet',  'Willy Weather', 'Surfline (No Cam)', 'Surfline (Cam)', 'Web Camera', 'Ocean Buoy (NDBC)']
-const predefinedColors = ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a", "#ffff99", "#b15928"]
+const uniqueDataTypes = ['Weather Station', 'River Gauge', 'Rain Radar', 'Tide Gauge', 'Tide Prediction',  'Wave Buoy', 'Swellnet (Cam)',  'Surfline (No Cam)', 'Surfline (Cam)', 'Willy Weather', 'Web Camera', 'Ocean Buoy (NDBC)']
+const predefinedColors = ["#a6cee3", "#1f78b4", "#ff7f00", "#b2df8a", "#33a02c", "#e31a1c", "#fdbf6f", "#cab2d6", "#6a3d9a", "#fb9a99", "#ffff99", "#b15928"]
 
 // Map each DataType to a corresponding color from the predefined list
 const colorScheme = uniqueDataTypes.reduce((acc, dataType, index) => {
@@ -40,14 +40,90 @@ const map = L.map('map', {
     // maxBounds: [[-90, -180], [90, 180]], // Keep within global bounds
 }).setView(Australia_Coordinates, 3); // Set initial map view (latitude, longitude, zoom level)
 
-// Set the map tile layer (using Esri World Imagery)
-L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-    attribution: '&copy; Esri'
+// BASE LAYER - Satellite layer (No Labels)
+var satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: '&copy; <a href="https://www.esri.com/">Esri</a>'
 }).addTo(map);
 
+// BASE LAYER - OSM
+var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        // maxZoom: 19,
+        attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>'
+      });
+
+// OVERLAY - Location labels Layer (Esri Boundaries and Places)
+var labels = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
+    attribution: '&copy; <a href="https://www.esri.com/">Esri</a>',
+    opacity: 1
+}).addTo(map);
+
+// OVERLAY - Hydro Catchment Boundaries Layer (Australian)
+var catchmentLayer = L.esri.featureLayer({
+    url: "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/6", // https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer
+    style: function () {
+        return { color: "lightblue", weight: 1, opacity: 0.7, fillOpacity: 0.0 };
+    }
+});
+
+// OVERLAY - Hydro Rivers Layer (Australian) - MEMORY HEAVY!!!!
+// var riverLayer = L.esri.featureLayer({
+//     url: "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/2", // Layer 0 (Catchment Boundaries)
+//     style: function () {
+//         return { color: "lightblue", weight: 1, opacity: 0.7, fillOpacity: 1.0 };
+//     }
+// }).addTo(map);
+
+// Create map layer control 
+// Create layer groups
+var baseLayers = {
+    "Satellite": satellite,
+    "Open Street Map" : osm,
+};
+
+var overlayLayers = {
+    "Location Labels": labels,
+    "Catchment Boundaries (Aus)": catchmentLayer,
+    // "Rivers" : riverLayer,
+};
+
+// Add layer control
+var layerControl = L.control.layers(baseLayers, overlayLayers).addTo(map);
+
+// Custom modification to add section headers
+// Wait until layer control is added to the map
+layerControl.onAdd = function () {
+    var container = L.DomUtil.create('div', 'leaflet-control-layers');
+
+    // Create the base layers section with a header
+    var baseLayersDiv = L.DomUtil.create('div', 'leaflet-control-layers-base');
+    baseLayersDiv.innerHTML = '<h4>Base Layers</h4>';  // Header for base layers
+    container.appendChild(baseLayersDiv);
+
+    // Append each base layer option
+    for (var layer in baseLayers) {
+        var label = document.createElement('label');
+        label.innerHTML = '<input type="radio" name="leaflet-base-layers" /> ' + layer;
+        baseLayersDiv.appendChild(label);
+    }
+
+    // Create the overlay layers section with a header
+    var overlayLayersDiv = L.DomUtil.create('div', 'leaflet-control-layers-overlay');
+    overlayLayersDiv.innerHTML = '<h4>Overlay Layers</h4>';  // Header for overlay layers
+    container.appendChild(overlayLayersDiv);
+
+    // Append each overlay layer option
+    for (var overlay in overlayLayers) {
+        var label = document.createElement('label');
+        label.innerHTML = '<input type="checkbox" /> ' + overlay;
+        overlayLayersDiv.appendChild(label);
+    }
+
+    return container;  // Return the custom container to be appended to the map
+};
+
+
+
 // Display lat lon of mouse cursor location - PC ONLY ////////////////////////////////////////////////////////////////////////////////
-
-
 map.on('mousemove', function(e) {
     const lat = e.latlng.lat.toFixed(5);
     const lon = e.latlng.lng.toFixed(5);
