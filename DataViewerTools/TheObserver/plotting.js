@@ -45,6 +45,9 @@ var satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/service
     attribution: '&copy; <a href="https://www.esri.com/">Esri</a>'
 }).addTo(map);
 
+// Activate loading spinner
+document.getElementById('loading-spinner').style.display = 'block';
+
 // BASE LAYER - OSM
 var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         // maxZoom: 19,
@@ -57,71 +60,96 @@ var labels = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/R
     opacity: 1
 }).addTo(map);
 
-// OVERLAY - Hydro Catchment Boundaries Layer (Australian)
+// OVERLAY - Catchment Boundaries Layer (Australian)
 var catchmentLayer = L.esri.featureLayer({
-    url: "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/6", // https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer
+    url: "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/6",
     style: function () {
-        return { color: "lightblue", weight: 1, opacity: 0.7, fillOpacity: 0.0 };
+        return { color: "cornflowerblue", weight: 2, opacity: 0.7, fillOpacity: 0.0 };
     }
 });
 
-// OVERLAY - Hydro Rivers Layer (Australian) - MEMORY HEAVY!!!!
-// var riverLayer = L.esri.featureLayer({
-//     url: "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/2", // Layer 0 (Catchment Boundaries)
-//     style: function () {
-//         return { color: "lightblue", weight: 1, opacity: 0.7, fillOpacity: 1.0 };
-//     }
-// }).addTo(map);
+// Create a layer for static labels
+var catchmentLabels = L.layerGroup();
+var minZoomToShowLabels = 8; // Labels only appear at zoom level 8 or higher
 
-// Create map layer control 
-// Create layer groups
+// Function to update catchment labels based on zoom and layer visibility
+function updateLabelsVisibility() {
+    var zoom = map.getZoom();
+    if (map.hasLayer(catchmentLayer) && zoom >= minZoomToShowLabels) {
+        map.addLayer(catchmentLabels);
+    } else {
+        map.removeLayer(catchmentLabels);
+    }
+}
+
+// When features load, add labels to the map
+catchmentLayer.on("load", function () {
+    catchmentLabels.clearLayers(); // Clear existing labels
+
+    catchmentLayer.eachFeature(function (layer) {
+        var props = layer.feature.properties;
+        if (props && props.level2name) {
+            var label = L.marker(layer.getBounds().getCenter(), {
+                icon: L.divIcon({
+                    className: "catchment-label",
+                    html: props.level2name,
+                    iconSize: null
+                })
+            });
+            catchmentLabels.addLayer(label);
+        }
+    });
+
+    updateLabelsVisibility(); // Ensure labels are shown/hidden based on current settings
+});
+
+// Listen for zoom changes
+map.on("zoomend", updateLabelsVisibility);
+
+// Create map layer control ////////////////////////////////////////////////////////////////////////////////
 var baseLayers = {
     "Satellite": satellite,
     "Open Street Map" : osm,
 };
 
 var overlayLayers = {
-    "Location Labels": labels,
+    // "Location Labels": labels,
     "Catchment Boundaries (Aus)": catchmentLayer,
-    // "Rivers" : riverLayer,
-};
-
-// Add layer control
-var layerControl = L.control.layers(baseLayers, overlayLayers).addTo(map);
-
-// Custom modification to add section headers
-// Wait until layer control is added to the map
-layerControl.onAdd = function () {
-    var container = L.DomUtil.create('div', 'leaflet-control-layers');
-
-    // Create the base layers section with a header
-    var baseLayersDiv = L.DomUtil.create('div', 'leaflet-control-layers-base');
-    baseLayersDiv.innerHTML = '<h4>Base Layers</h4>';  // Header for base layers
-    container.appendChild(baseLayersDiv);
-
-    // Append each base layer option
-    for (var layer in baseLayers) {
-        var label = document.createElement('label');
-        label.innerHTML = '<input type="radio" name="leaflet-base-layers" /> ' + layer;
-        baseLayersDiv.appendChild(label);
-    }
-
-    // Create the overlay layers section with a header
-    var overlayLayersDiv = L.DomUtil.create('div', 'leaflet-control-layers-overlay');
-    overlayLayersDiv.innerHTML = '<h4>Overlay Layers</h4>';  // Header for overlay layers
-    container.appendChild(overlayLayersDiv);
-
-    // Append each overlay layer option
-    for (var overlay in overlayLayers) {
-        var label = document.createElement('label');
-        label.innerHTML = '<input type="checkbox" /> ' + overlay;
-        overlayLayersDiv.appendChild(label);
-    }
-
-    return container;  // Return the custom container to be appended to the map
+    // "Major Rivers (Aus)" : riverLayer,
 };
 
 
+// Add overlay layer control 
+// var layerControl = L.control.layers(baseLayers, overlayLayers).addTo(map);
+var layerControl = L.control.layers(baseLayers).addTo(map);
+
+// Listen for layer visibility changes
+map.on("overlayadd", function (event) {
+    if (event.layer === catchmentLayer) {
+        updateLabelsVisibility(); // Show labels if zoom is appropriate
+    }
+});
+
+map.on("overlayremove", function (event) {
+    if (event.layer === catchmentLayer) {
+        map.removeLayer(catchmentLabels); // Hide labels when catchment layer is turned off
+    }
+});
+
+// Listen for base layer change events
+map.on("baselayerchange", function (event) {
+    if (event.layer === satellite) {
+        // Add labels only when Satellite is selected
+        if (!map.hasLayer(labels)) {
+            map.addLayer(labels);
+        }
+    } else {
+        // Remove labels when Satellite is not selected
+        if (map.hasLayer(labels)) {
+            map.removeLayer(labels);
+        }
+    }
+});
 
 // Display lat lon of mouse cursor location - PC ONLY ////////////////////////////////////////////////////////////////////////////////
 map.on('mousemove', function(e) {
@@ -230,8 +258,7 @@ Object.keys(groupedLocations).forEach((dataType) => {
     map.addLayer(markers);
 });
 
-// Handle loading spinner (when markers are loaded)
-document.getElementById('loading-spinner').style.display = 'block';
+// LEGEND ////////////////////////////////////////////////////////////////////////////////////////
 
 // Add an interactive legend to the map
 const legend = L.control({ position: 'topright' });
@@ -314,7 +341,7 @@ document.getElementById('legend-container').addEventListener('dblclick', (event)
     }
 });
 
-document.getElementById('loading-spinner').style.display = 'none'; // Hide spinner after markers are loaded
+// HAMBURGER MENU ////////////////////////////////////////////////////////////////////////////////////////
 
 // Select both the hamburger icon, menu label, and the dropdown menu
 const hamburgerToggle = document.getElementById('hamburger-toggle');
@@ -328,14 +355,14 @@ function toggleDropdown() {
 
 // Function to close the dropdown if clicked outside
 function closeDropdown(event) {
-    if (!dropdownMenu.contains(event.target) && !hamburgerToggle.contains(event.target) && !menuLabel.contains(event.target)) {
+    if (!dropdownMenu.contains(event.target) && !hamburgerToggle.contains(event.target)) {
         dropdownMenu.classList.remove('show'); // Hide the menu
     }
 }
 
 // Add event listeners for both the hamburger icon and the menu label
 hamburgerToggle.addEventListener('click', toggleDropdown);
-menuLabel.addEventListener('click', toggleDropdown);
+// menuLabel.addEventListener('click', toggleDropdown);
 
 // Close dropdown if click is outside of the dropdown, hamburger icon, or menu label
 document.addEventListener('click', closeDropdown);
@@ -348,3 +375,8 @@ menuLinks.forEach(link => {
         dropdownMenu.classList.remove('show'); // Hide the dropdown when any link is clicked
     });
 });
+
+// Hide loading spinner (when markers are loaded) /////////////////////////////////////////////////
+document.getElementById('loading-spinner').style.display = 'none'; // Hide spinner after markers are loaded
+
+// END OF SCRIPT ////////////////////////////////////////////////////////////////////////////////////////

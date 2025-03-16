@@ -29,13 +29,15 @@ a:hover {
     font-size: var(--title-font-size);
     font-weight: bold;
     color: white;
-    background-color: rgba(0, 0, 0, 0.4); 
+    border-color: black;
+    /* box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 10px 10px;
     border-radius: 8px;
     z-index: 1000;
     text-align: left;
     display: flex;
-    align-items: left;
+    align-items: center;
     gap: 10px; /* Space between icon and text */
     font-family: Arial, sans-serif;
 }
@@ -126,6 +128,7 @@ a:hover {
     border: none;
     font-size: var(--legend-label-font-size);
     cursor: pointer;
+    align-items: center;
     font-family: inherit; /* Use the same font as the page */
     color: white; /* Adjust if needed */
 }
@@ -188,6 +191,19 @@ a:hover {
     display: block;
 }
 
+/* Overlay Styling ***********************************************************************/
+.catchment-label {
+    font-size: 12px;
+    /* font-weight: bold; */
+    border-color: black;
+    color: cornflowerblue; /* Change this to your preferred color */
+    background: none;
+    padding: 2px 5px;
+    border-radius: 3px;
+    text-align: center;
+    white-space: nowrap;
+}
+
 /* Loading Spinner styling ***************************************************************/
 .spinner {
     position: absolute;
@@ -195,8 +211,8 @@ a:hover {
     left: 50%;
     width: 80px;
     height: 80px;
-    border: 8px solid #f3f3f3;
-    border-top: 8px solid #3498db;
+    border: 15px solid #f3f3f3;
+    border-top: 15px solid #3498db;
     border-radius: 50%;
     animation: spin 1s linear infinite;
     z-index: 1000;
