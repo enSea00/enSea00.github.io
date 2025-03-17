@@ -1,19 +1,9 @@
+// Activate loading spinner
+document.getElementById('loading-spinner').style.display = 'block';
+
 // DATA PREPARATION ////////////////////////////////////////////////////////////////////////////////////////
 
-// This code automatically defines unique datatypes and assigns color to it
-// // Identify unique DataType values
-// const uniqueDataTypes = [...new Set(locations.map(loc => loc.DataType))];
-// console.log(uniqueDataTypes)
-// // Generate a color scale using d3.js
-// const colorScale = d3.scaleOrdinal(d3.schemeCategory10); // You can use other color schemes like d3.schemePaired, d3.schemeSet3, etc.
-
-// // Map each DataType to a color from the color scale
-// const colorScheme = uniqueDataTypes.reduce((acc, dataType, index) => {
-//     acc[dataType] = colorScale(index);  // Assign color based on index
-//     return acc;
-// }, {});
-
-// This code manually defines available data types and assigns color to it
+// This code manually defines available data types and assigns color to their markers
 const uniqueDataTypes = ['Weather Station', 'River Gauge', 'Rain Radar', 'Tide Gauge', 'Tide Prediction',  'Wave Buoy', 'Swellnet (Cam)',  'Surfline (No Cam)', 'Surfline (Cam)', 'Willy Weather', 'Web Camera', 'Ocean Buoy (NDBC)']
 const predefinedColors = ["#a6cee3", "#1f78b4", "#ff7f00", "#b2df8a", "#33a02c", "#e31a1c", "#fdbf6f", "#cab2d6", "#6a3d9a", "#fb9a99", "#ffff99", "#b15928"]
 
@@ -40,39 +30,40 @@ const map = L.map('map', {
     // maxBounds: [[-90, -180], [90, 180]], // Keep within global bounds
 }).setView(Australia_Coordinates, 3); // Set initial map view (latitude, longitude, zoom level)
 
+// Available arcgis rest services
+// https://server.arcgisonline.com/ArcGIS/rest/services
+
 // BASE LAYER - Satellite layer (No Labels)
 var satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-    attribution: '&copy; <a href="https://www.esri.com/">Esri</a>'
+    attribution: '&copy; <a href="https://www.esri.com/" target="_blank">Esri</a>',
+    opacity: 1,
 }).addTo(map);
 
-// Activate loading spinner
-document.getElementById('loading-spinner').style.display = 'block';
-
-// BASE LAYER - OSM
-var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        // maxZoom: 19,
-        attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>'
-      });
-
-// OVERLAY - Location labels Layer (Esri Boundaries and Places)
+// add locations to satellite image
 var labels = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
-    attribution: '&copy; <a href="https://www.esri.com/">Esri</a>',
+    attribution: '&copy; <a href="https://www.esri.com/" target="_blank">Esri</a>',
     opacity: 1
 }).addTo(map);
+
+// BASE LAYER - Topographic
+var topo = L.tileLayer('https://server.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: '&copy; <a href="https://www.esri.com/" target="_blank">Esri</a>',
+      });
 
 // OVERLAY - Catchment Boundaries Layer (Australian)
 var catchmentLayer = L.esri.featureLayer({
     url: "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/6",
+    attribution: '&copy; <a href="https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/73078" target="_blank">Geoscience Australia</a>',
     style: function () {
-        return { color: "cornflowerblue", weight: 2, opacity: 0.7, fillOpacity: 0.0 };
+        return { color: 'rgba(0,0,0,0.4)', weight: 2, opacity: 0.7, fillOpacity: 0.0 };
     }
-});
+}).addTo(map);
 
 // Create a layer for static labels
 var catchmentLabels = L.layerGroup();
-var minZoomToShowLabels = 8; // Labels only appear at zoom level 8 or higher
+var minZoomToShowLabels = 7; // Labels only appear at zoom level 7 or higher
 
-// Function to update catchment labels based on zoom and layer visibility
+// Function to update label visibility based on zoom and layer presence
 function updateLabelsVisibility() {
     var zoom = map.getZoom();
     if (map.hasLayer(catchmentLayer) && zoom >= minZoomToShowLabels) {
@@ -82,9 +73,9 @@ function updateLabelsVisibility() {
     }
 }
 
-// When features load, add labels to the map
+// Load labels only once when the catchment layer loads
 catchmentLayer.on("load", function () {
-    catchmentLabels.clearLayers(); // Clear existing labels
+    catchmentLabels.clearLayers(); // Clear existing labels before reloading
 
     catchmentLayer.eachFeature(function (layer) {
         var props = layer.feature.properties;
@@ -93,35 +84,33 @@ catchmentLayer.on("load", function () {
                 icon: L.divIcon({
                     className: "catchment-label",
                     html: props.level2name,
-                    iconSize: null
+                    iconSize: null // Ensures default size
                 })
             });
             catchmentLabels.addLayer(label);
         }
     });
 
-    updateLabelsVisibility(); // Ensure labels are shown/hidden based on current settings
+    updateLabelsVisibility(); // Ensure correct label visibility on initial load
 });
 
-// Listen for zoom changes
+// Ensure labels update when zooming
 map.on("zoomend", updateLabelsVisibility);
 
 // Create map layer control ////////////////////////////////////////////////////////////////////////////////
 var baseLayers = {
     "Satellite": satellite,
-    "Open Street Map" : osm,
+    "Topographic" : topo,
 };
 
 var overlayLayers = {
-    // "Location Labels": labels,
-    "Catchment Boundaries (Aus)": catchmentLayer,
+    "Catchments (Aus)": catchmentLayer,
     // "Major Rivers (Aus)" : riverLayer,
 };
 
 
 // Add overlay layer control 
-// var layerControl = L.control.layers(baseLayers, overlayLayers).addTo(map);
-var layerControl = L.control.layers(baseLayers).addTo(map);
+var layerControl = L.control.layers(baseLayers, overlayLayers).addTo(map);
 
 // Listen for layer visibility changes
 map.on("overlayadd", function (event) {
@@ -136,18 +125,14 @@ map.on("overlayremove", function (event) {
     }
 });
 
-// Listen for base layer change events
+// Change catchment boundary styling with base layer selection 
 map.on("baselayerchange", function (event) {
     if (event.layer === satellite) {
-        // Add labels only when Satellite is selected
-        if (!map.hasLayer(labels)) {
-            map.addLayer(labels);
-        }
+        // Catchment Boundary - Darker color for better contrast on Satellite
+        catchmentLayer.setStyle({ color: "lightblue", weight: 2, opacity: 1.0, fillOpacity: 0.0 }); 
     } else {
-        // Remove labels when Satellite is not selected
-        if (map.hasLayer(labels)) {
-            map.removeLayer(labels);
-        }
+        // Catchment Boundary - Lighter color for visibility on OSM
+        catchmentLayer.setStyle({ color: "black", weight: 2, opacity: 0.7, fillOpacity: 0.0 }); 
     }
 });
 
@@ -341,7 +326,7 @@ document.getElementById('legend-container').addEventListener('dblclick', (event)
     }
 });
 
-// HAMBURGER MENU ////////////////////////////////////////////////////////////////////////////////////////
+// DROPDOWN HAMBURGER MENU ////////////////////////////////////////////////////////////////////////////////////////
 
 // Select both the hamburger icon, menu label, and the dropdown menu
 const hamburgerToggle = document.getElementById('hamburger-toggle');
@@ -376,7 +361,42 @@ menuLinks.forEach(link => {
     });
 });
 
-// Hide loading spinner (when markers are loaded) /////////////////////////////////////////////////
-document.getElementById('loading-spinner').style.display = 'none'; // Hide spinner after markers are loaded
+// Hide loading spinner (when everything is loaded) /////////////////////////////////////////////////
+
+// Create an array to track loading promises
+const loadingPromises = [];
+
+// Wait for catchment layer to load
+const catchmentLayerLoaded = new Promise((resolve) => {
+    catchmentLayer.on("load", () => {
+        // console.log("Catchment layer fully loaded");
+        resolve();
+    });
+});
+loadingPromises.push(catchmentLayerLoaded);
+
+// Wait for base map (OSM) to load
+const satelliteLoaded = new Promise((resolve) => {
+    satellite.on("load", () => {
+        // console.log("Satellite base map fully loaded");
+        resolve();
+    });
+});
+loadingPromises.push(satelliteLoaded);
+
+// Wait for all markers to load
+const markersLoaded = new Promise((resolve) => {
+    setTimeout(() => {
+        // console.log("Markers loaded");
+        resolve();
+    }, 2000); // Adjust timing if necessary
+});
+loadingPromises.push(markersLoaded);
+
+// Wait for everything to load, then hide the spinner
+Promise.all(loadingPromises).then(() => {
+    document.getElementById('loading-spinner').style.display = 'none';
+    // console.log("All map elements are fully loaded.");
+});
 
 // END OF SCRIPT ////////////////////////////////////////////////////////////////////////////////////////
