@@ -55,7 +55,7 @@ var catchmentLayer = L.esri.featureLayer({
     url: "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/6",
     attribution: '&copy; <a href="https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/73078" target="_blank">Geoscience Australia</a>',
     style: function () {
-        return { color: 'rgba(0,0,0,0.4)', weight: 2, opacity: 0.7, fillOpacity: 0.0 };
+        return { color: 'rgba(255,0,0,0.4)', weight: 2, opacity: 0.7, fillOpacity: 0.0 };
     }
 }).addTo(map);
 
@@ -122,17 +122,6 @@ map.on("overlayadd", function (event) {
 map.on("overlayremove", function (event) {
     if (event.layer === catchmentLayer) {
         map.removeLayer(catchmentLabels); // Hide labels when catchment layer is turned off
-    }
-});
-
-// Change catchment boundary styling with base layer selection 
-map.on("baselayerchange", function (event) {
-    if (event.layer === satellite) {
-        // Catchment Boundary - Darker color for better contrast on Satellite
-        catchmentLayer.setStyle({ color: "lightblue", weight: 2, opacity: 1.0, fillOpacity: 0.0 }); 
-    } else {
-        // Catchment Boundary - Lighter color for visibility on OSM
-        catchmentLayer.setStyle({ color: "black", weight: 2, opacity: 0.7, fillOpacity: 0.0 }); 
     }
 });
 
