@@ -23,11 +23,10 @@ const groupedLocations = locations.reduce((groups, loc) => {
 }, {});
 
 // INITIALISE MAP AND INTERACTIVITY ////////////////////////////////////////////////////////////////////////////////
-const Australia_Coordinates = [-25.2744, 133.7751];
+const Australia_Coordinates = [-25.2744, 133.7751]; // Initial map center
 const map = L.map('map', {
-    zoomControl: false, // This disables the default zoom controls
+    zoomControl: false, // This disables the default +/- zoom controls in the top left
     minZoom: 2,
-    // maxBounds: [[-90, -180], [90, 180]], // Keep within global bounds
 }).setView(Australia_Coordinates, 3); // Set initial map view (latitude, longitude, zoom level)
 
 // Available arcgis rest services
@@ -40,7 +39,7 @@ var satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/service
 }).addTo(map);
 
 // add locations to satellite image
-var labels = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
+var locationLabels = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
     attribution: '&copy; <a href="https://www.esri.com/" target="_blank">Esri</a>',
     opacity: 1
 }).addTo(map);
@@ -55,9 +54,9 @@ var catchmentLayer = L.esri.featureLayer({
     url: "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/6",
     attribution: '&copy; <a href="https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/73078" target="_blank">Geoscience Australia</a>',
     style: function () {
-        return { color: 'rgba(255,0,0,0.4)', weight: 2, opacity: 0.7, fillOpacity: 0.0 };
+        return { color: 'rgba(255,215,0,0.8)', weight: 2, opacity: 0.7, fillOpacity: 0.0 };
     }
-}).addTo(map);
+});
 
 // Create a layer for static labels
 var catchmentLabels = L.layerGroup();
@@ -72,6 +71,13 @@ function updateLabelsVisibility() {
         map.removeLayer(catchmentLabels);
     }
 }
+
+// Hide labels when catchmentLayer is removed
+map.on("overlayremove", function (event) {
+    if (event.layer === catchmentLayer) {
+        map.removeLayer(catchmentLabels); // Remove labels when catchmentLayer is removed
+    }
+});
 
 // Load labels only once when the catchment layer loads
 catchmentLayer.on("load", function () {
@@ -98,33 +104,48 @@ catchmentLayer.on("load", function () {
 map.on("zoomend", updateLabelsVisibility);
 
 // Create map layer control ////////////////////////////////////////////////////////////////////////////////
+
+// Get the loader element
+var loader = document.getElementById("loading-spinner");
+
+// Show loader when an overlay is added
+map.on("overlayadd", function (event) {
+    loader.style.display = "block"; // Show the spinner
+
+    if (event.layer === catchmentLayer) {
+        event.layer.once("load", function () {
+            loader.style.display = "none"; // Hide when loading is complete
+        });
+    }
+});
+
+// Hide loader if the overlay is removed
+map.on("overlayremove", function () {
+    loader.style.display = "none";
+});
+
+// Base and overlay layers
 var baseLayers = {
     "Satellite": satellite,
-    "Topographic" : topo,
+    "Topographic": topo,
 };
 
 var overlayLayers = {
     "Catchments (Aus)": catchmentLayer,
-    // "Major Rivers (Aus)" : riverLayer,
 };
 
-
-// Add overlay layer control 
+// Add overlay layer control
 var layerControl = L.control.layers(baseLayers, overlayLayers).addTo(map);
 
-// Listen for layer visibility changes
-map.on("overlayadd", function (event) {
-    if (event.layer === catchmentLayer) {
-        updateLabelsVisibility(); // Show labels if zoom is appropriate
+
+// Function to toggle label layer visibility
+map.on("baselayerchange", function (event) {
+    if (event.layer === satellite) {
+        map.addLayer(locationLabels); // Show labels when Satellite is selected
+    } else {
+        map.removeLayer(locationLabels); // Hide labels when switching away
     }
 });
-
-map.on("overlayremove", function (event) {
-    if (event.layer === catchmentLayer) {
-        map.removeLayer(catchmentLabels); // Hide labels when catchment layer is turned off
-    }
-});
-
 // Display lat lon of mouse cursor location - PC ONLY ////////////////////////////////////////////////////////////////////////////////
 map.on('mousemove', function(e) {
     const lat = e.latlng.lat.toFixed(5);
@@ -356,13 +377,13 @@ menuLinks.forEach(link => {
 const loadingPromises = [];
 
 // Wait for catchment layer to load
-const catchmentLayerLoaded = new Promise((resolve) => {
-    catchmentLayer.on("load", () => {
-        // console.log("Catchment layer fully loaded");
-        resolve();
-    });
-});
-loadingPromises.push(catchmentLayerLoaded);
+// const catchmentLayerLoaded = new Promise((resolve) => {
+//     catchmentLayer.on("load", () => {
+//         // console.log("Catchment layer fully loaded");
+//         resolve();
+//     });
+// });
+// loadingPromises.push(catchmentLayerLoaded);
 
 // Wait for base map (OSM) to load
 const satelliteLoaded = new Promise((resolve) => {
