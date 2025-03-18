@@ -236,11 +236,20 @@ Object.keys(groupedLocations).forEach((dataType) => {
         });
 
         // Open URL on click (note: `loc.URL` instead of `loc.url`)
-        marker.on('click', () => {
-            if (loc.URL) {
-                window.open(loc.URL, '_blank');
+        marker.on("click", function () {
+            var url = loc.URL; // Get the URL from your data
+            if (url.startsWith("http://")) {
+                window.open(url, "_blank", "noopener");
+            } else {
+                window.open("http://" + url.replace(/^https?:\/\//, ""), "_blank", "noopener");
             }
         });
+        
+        // marker.on('click', () => {
+        //     if (loc.URL) {
+        //         window.open(loc.URL, '_blank');
+        //     }
+        // });
 
         // Add marker to the marker cluster for this DataType
         markers.addLayer(marker);
