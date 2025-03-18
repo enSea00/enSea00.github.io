@@ -236,10 +236,9 @@ Object.keys(groupedLocations).forEach((dataType) => {
         });
 
         // Open URL on click (note: `loc.URL` instead of `loc.url`)
-        var proxyUrl = "https://cors-anywhere.herokuapp.com/";
         marker.on('click', () => {
             if (loc.URL) {
-                window.open(proxyUrl + loc.URL, '_blank');
+                window.open(loc.URL, '_blank');
             }
         });
         
