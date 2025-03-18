@@ -236,18 +236,14 @@ Object.keys(groupedLocations).forEach((dataType) => {
         });
 
         // Open URL on click (note: `loc.URL` instead of `loc.url`)
-        // marker.on('click', () => {
-        //     if (loc.URL) {
-        //         window.open(loc.URL, '_blank');
-        //     }
-        // });
-
-        marker.on("click", function () {
-            var url = loc.URL; // Get URL from your JSON
-            console.log(encodeURIComponent(url))
-            // window.open("https://enSea00.github.io/redirect.html?url=" + encodeURIComponent(url), "_blank", "noopener");
-            window.open(loc.URL, "_blank", "noopener");
+        var proxyUrl = "https://cors-anywhere.herokuapp.com/";
+        marker.on('click', () => {
+            if (loc.URL) {
+                window.open(proxyUrl + loc.URL, '_blank');
+            }
         });
+        
+        
 
         // Add marker to the marker cluster for this DataType
         markers.addLayer(marker);
