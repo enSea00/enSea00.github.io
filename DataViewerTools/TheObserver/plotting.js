@@ -244,7 +244,9 @@ Object.keys(groupedLocations).forEach((dataType) => {
 
         marker.on("click", function () {
             var url = loc.URL; // Get URL from your JSON
-            window.open("https://enSea00.github.io/redirect.html?url=" + encodeURIComponent(url), "_blank", "noopener");
+            console.log(encodeURIComponent(url))
+            // window.open("https://enSea00.github.io/redirect.html?url=" + encodeURIComponent(url), "_blank", "noopener");
+            window.open(loc.URL, "_blank", "noopener");
         });
 
         // Add marker to the marker cluster for this DataType
