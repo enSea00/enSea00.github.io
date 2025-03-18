@@ -243,7 +243,7 @@ Object.keys(groupedLocations).forEach((dataType) => {
         // });
 
         marker.on("click", function () {
-            var url = locationData.URL; // Get URL from your JSON
+            var url = loc.URL; // Get URL from your JSON
             window.open("https://enSea00.github.io/redirect.html?url=" + encodeURIComponent(url), "_blank", "noopener");
         });
 
