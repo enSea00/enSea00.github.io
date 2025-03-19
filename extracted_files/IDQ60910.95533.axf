@@ -1,0 +1,30 @@
+[notice]
+copyright[200]="Copyright Commonwealth of Australia 2025, Bureau of Meteorology. For more information see: http://www.bom.gov.au/other/copyright.shtml http://www.bom.gov.au/other/disclaimer.shtml"
+copyright_url[80]="http://www.bom.gov.au/other/copyright.shtml"
+disclaimer_url[80]="http://www.bom.gov.au/other/disclaimer.shtml"
+feedback_url[80]="http://www.bom.gov.au/other/feedback"
+[$]
+
+[header]
+ID[80]="IDQ60910"
+main_ID[80]="IDQ60920"
+name[80]="Texas"
+wmo_id[80]="95533"
+state_time_zone[80]="QLD"
+time_zone[80]="EST"
+product_name[80]="Weather Observations"
+state[80]="Queensland"
+time_zone_name[80]="Australia/Brisbane"
+TDZ[80]="+10:00"
+Office[80]="QLDRO"
+issue_time_utc[80]="20250319013101"
+issue_time_local[80]="20250319113101"
+[$]
+
+[data]
+sort_order,wmo,name[80],history_product[80],time_zone_name[80],TDZ[80],aifstime_utc[80],aifstime_local[80],lat,lon,apparent_t,cloud[80],cloud_base_m,cloud_oktas,cloud_type_id,cloud_type[80],delta_t,gust_kmh,gust_kt,air_temp,dewpt,press,press_msl,press_qnh,press_tend[80],rain_hour,rain_ten,rain_trace[80],rain_trace_time[80],rain_trace_time_utc[80],local_9am_date_time[80],local_9am_date_time_utc[80],duration_from_local_9am_date,rel_hum,sea_state[80],swell_dir_worded[80],swell_height,swell_period,vis_km[80],weather[80],wind_dir[80],wind_dir_deg,wind_spd_kmh,wind_spd_kt,wind_src[80]
+0,95533,"Texas","IDQ60910","Australia/Brisbane","+10:00","20250318230000","20250319090000",-28.8544,151.1681,22.7,"Cloudy",-9999,8,30,"-",4.4,-9999,-9999,22.0,14.6,-9999.0,-9999.0,-9999.0,"-",-9999.0,-9999.0,"0.0","20250319090000","20250318230000","20250318090000","20250317230000",1440,63,"-","-",-9999.0,-9999,"30","Fine","SE",140,4,2,"mdf"
+1,95533,"Texas","IDQ60910","Australia/Brisbane","+10:00","20250317230000","20250318090000",-28.8544,151.1681,22.6,"Clear",2500,0,-9999,"-",4.8,-9999,-9999,22.8,14.8,-9999.0,-9999.0,-9999.0,"-",-9999.0,-9999.0,"0.0","20250318090000","20250317230000","20250317090000","20250316230000",1440,60,"-","-",-9999.0,-9999,"30","Fine","E",90,9,5,"mdf"
+2,95533,"Texas","IDQ60910","Australia/Brisbane","+10:00","20250316230000","20250317090000",-28.8544,151.1681,27.6,"Mostly clear",-9999,1,30,"-",3.8,-9999,-9999,24.5,18.6,-9999.0,-9999.0,-9999.0,"-",-9999.0,-9999.0,"0.0","20250317090000","20250316230000","20250316090000","20250315230000",1440,69,"-","-",-9999.0,-9999,"30","Fine","CALM",0,0,0,"mdf"
+[$]
+

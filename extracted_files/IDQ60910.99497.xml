@@ -1,0 +1,1464 @@
+<?xml version="1.0"?>
+<product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="v1.7.1" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+  <amoc>
+    <source>
+      <sender>Australian Government Bureau of Meteorology</sender>
+      <region>Queensland</region>
+      <office>QLDRO</office>
+      <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+      <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDQ60910</identifier>
+    <issue-time-utc>2025-03-19T01:31:01+00:00</issue-time-utc>
+    <issue-time-local tz="EST">2025-03-19T11:31:01+10:00</issue-time-local>
+    <sent-time>2025-03-19T01:35:38+00:00</sent-time>
+    <status>O</status>
+    <service>WSP</service>
+    <product-type>O</product-type>
+    <phase>NEW</phase>
+  </amoc>
+  <observations>
+    <station wmo-id="99497" bom-id="200897" tz="Australia/Brisbane" stn-name="HOPE BANKS BEACON" stn-height="7.00" type="AWS" lat="-27.4344" lon="153.2904" forecast-district-id="QLD_PW015" description="Hope Banks Beacon">
+      <period index="0" time-utc="2025-03-19T01:00:00+00:00" time-local="2025-03-19T11:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">30</element>
+          <element units="knots" type="wind_gust_spd">16</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">130</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+        </level>
+      </period>
+      <period index="1" time-utc="2025-03-19T00:30:00+00:00" time-local="2025-03-19T10:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">26</element>
+          <element units="knots" type="wind_gust_spd">14</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">147</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="2" time-utc="2025-03-19T00:00:00+00:00" time-local="2025-03-19T10:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">28</element>
+          <element units="knots" type="wind_gust_spd">15</element>
+          <element type="wind_dir">ESE</element>
+          <element units="deg" type="wind_dir_deg">120</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="3" time-utc="2025-03-18T23:30:00+00:00" time-local="2025-03-19T09:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">39</element>
+          <element units="knots" type="wind_gust_spd">21</element>
+          <element type="wind_dir">ESE</element>
+          <element units="deg" type="wind_dir_deg">118</element>
+          <element units="km/h" type="wind_spd_kmh">28</element>
+          <element units="knots" type="wind_spd">15</element>
+        </level>
+      </period>
+      <period index="4" time-utc="2025-03-18T23:00:00+00:00" time-local="2025-03-19T09:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">32</element>
+          <element units="knots" type="wind_gust_spd">17</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">124</element>
+          <element units="km/h" type="wind_spd_kmh">26</element>
+          <element units="knots" type="wind_spd">14</element>
+        </level>
+      </period>
+      <period index="5" time-utc="2025-03-18T22:30:00+00:00" time-local="2025-03-19T08:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">30</element>
+          <element units="knots" type="wind_gust_spd">16</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">125</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="6" time-utc="2025-03-18T22:00:00+00:00" time-local="2025-03-19T08:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">30</element>
+          <element units="knots" type="wind_gust_spd">16</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">165</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+        </level>
+      </period>
+      <period index="7" time-utc="2025-03-18T21:30:00+00:00" time-local="2025-03-19T07:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">20</element>
+          <element units="knots" type="wind_gust_spd">11</element>
+          <element type="wind_dir">S</element>
+          <element units="deg" type="wind_dir_deg">182</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+        </level>
+      </period>
+      <period index="8" time-utc="2025-03-18T21:00:00+00:00" time-local="2025-03-19T07:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">28</element>
+          <element units="knots" type="wind_gust_spd">15</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">166</element>
+          <element units="km/h" type="wind_spd_kmh">20</element>
+          <element units="knots" type="wind_spd">11</element>
+        </level>
+      </period>
+      <period index="9" time-utc="2025-03-18T20:30:00+00:00" time-local="2025-03-19T06:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">26</element>
+          <element units="knots" type="wind_gust_spd">14</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">134</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="10" time-utc="2025-03-18T20:00:00+00:00" time-local="2025-03-19T06:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">32</element>
+          <element units="knots" type="wind_gust_spd">17</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">136</element>
+          <element units="km/h" type="wind_spd_kmh">26</element>
+          <element units="knots" type="wind_spd">14</element>
+        </level>
+      </period>
+      <period index="11" time-utc="2025-03-18T19:30:00+00:00" time-local="2025-03-19T05:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">28</element>
+          <element units="knots" type="wind_gust_spd">15</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">139</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+        </level>
+      </period>
+      <period index="12" time-utc="2025-03-18T19:00:00+00:00" time-local="2025-03-19T05:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">20</element>
+          <element units="knots" type="wind_gust_spd">11</element>
+          <element type="wind_dir">S</element>
+          <element units="deg" type="wind_dir_deg">180</element>
+          <element units="km/h" type="wind_spd_kmh">17</element>
+          <element units="knots" type="wind_spd">9</element>
+        </level>
+      </period>
+      <period index="13" time-utc="2025-03-18T18:30:00+00:00" time-local="2025-03-19T04:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">24</element>
+          <element units="knots" type="wind_gust_spd">13</element>
+          <element type="wind_dir">S</element>
+          <element units="deg" type="wind_dir_deg">186</element>
+          <element units="km/h" type="wind_spd_kmh">20</element>
+          <element units="knots" type="wind_spd">11</element>
+        </level>
+      </period>
+      <period index="14" time-utc="2025-03-18T18:00:00+00:00" time-local="2025-03-19T04:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">24</element>
+          <element units="knots" type="wind_gust_spd">13</element>
+          <element type="wind_dir">S</element>
+          <element units="deg" type="wind_dir_deg">185</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+        </level>
+      </period>
+      <period index="15" time-utc="2025-03-18T17:30:00+00:00" time-local="2025-03-19T03:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">20</element>
+          <element units="knots" type="wind_gust_spd">11</element>
+          <element type="wind_dir">S</element>
+          <element units="deg" type="wind_dir_deg">173</element>
+          <element units="km/h" type="wind_spd_kmh">17</element>
+          <element units="knots" type="wind_spd">9</element>
+        </level>
+      </period>
+      <period index="16" time-utc="2025-03-18T17:00:00+00:00" time-local="2025-03-19T03:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">24</element>
+          <element units="knots" type="wind_gust_spd">13</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">156</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+        </level>
+      </period>
+      <period index="17" time-utc="2025-03-18T16:30:00+00:00" time-local="2025-03-19T02:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">22</element>
+          <element units="knots" type="wind_gust_spd">12</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">137</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+        </level>
+      </period>
+      <period index="18" time-utc="2025-03-18T16:00:00+00:00" time-local="2025-03-19T02:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">22</element>
+          <element units="knots" type="wind_gust_spd">12</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">134</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+        </level>
+      </period>
+      <period index="19" time-utc="2025-03-18T15:30:00+00:00" time-local="2025-03-19T01:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">20</element>
+          <element units="knots" type="wind_gust_spd">11</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">130</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+        </level>
+      </period>
+      <period index="20" time-utc="2025-03-18T15:00:00+00:00" time-local="2025-03-19T01:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">24</element>
+          <element units="knots" type="wind_gust_spd">13</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">132</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+        </level>
+      </period>
+      <period index="21" time-utc="2025-03-18T14:30:00+00:00" time-local="2025-03-19T00:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">26</element>
+          <element units="knots" type="wind_gust_spd">14</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">130</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="22" time-utc="2025-03-18T14:00:00+00:00" time-local="2025-03-19T00:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">30</element>
+          <element units="knots" type="wind_gust_spd">16</element>
+          <element type="wind_dir">ESE</element>
+          <element units="deg" type="wind_dir_deg">118</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+        </level>
+      </period>
+      <period index="23" time-utc="2025-03-18T13:30:00+00:00" time-local="2025-03-18T23:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">32</element>
+          <element units="knots" type="wind_gust_spd">17</element>
+          <element type="wind_dir">ESE</element>
+          <element units="deg" type="wind_dir_deg">120</element>
+          <element units="km/h" type="wind_spd_kmh">26</element>
+          <element units="knots" type="wind_spd">14</element>
+        </level>
+      </period>
+      <period index="24" time-utc="2025-03-18T13:00:00+00:00" time-local="2025-03-18T23:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">32</element>
+          <element units="knots" type="wind_gust_spd">17</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">150</element>
+          <element units="km/h" type="wind_spd_kmh">26</element>
+          <element units="knots" type="wind_spd">14</element>
+        </level>
+      </period>
+      <period index="25" time-utc="2025-03-18T12:30:00+00:00" time-local="2025-03-18T22:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">30</element>
+          <element units="knots" type="wind_gust_spd">16</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">125</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="26" time-utc="2025-03-18T12:00:00+00:00" time-local="2025-03-18T22:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">30</element>
+          <element units="knots" type="wind_gust_spd">16</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">124</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="27" time-utc="2025-03-18T11:30:00+00:00" time-local="2025-03-18T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">35</element>
+          <element units="knots" type="wind_gust_spd">19</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">127</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+        </level>
+      </period>
+      <period index="28" time-utc="2025-03-18T11:00:00+00:00" time-local="2025-03-18T21:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">30</element>
+          <element units="knots" type="wind_gust_spd">16</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">154</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+        </level>
+      </period>
+      <period index="29" time-utc="2025-03-18T10:30:00+00:00" time-local="2025-03-18T20:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">32</element>
+          <element units="knots" type="wind_gust_spd">17</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">141</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+        </level>
+      </period>
+      <period index="30" time-utc="2025-03-18T10:00:00+00:00" time-local="2025-03-18T20:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">37</element>
+          <element units="knots" type="wind_gust_spd">20</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">135</element>
+          <element units="km/h" type="wind_spd_kmh">26</element>
+          <element units="knots" type="wind_spd">14</element>
+        </level>
+      </period>
+      <period index="31" time-utc="2025-03-18T09:30:00+00:00" time-local="2025-03-18T19:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">28</element>
+          <element units="knots" type="wind_gust_spd">15</element>
+          <element type="wind_dir">ESE</element>
+          <element units="deg" type="wind_dir_deg">123</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="32" time-utc="2025-03-18T09:00:00+00:00" time-local="2025-03-18T19:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">28</element>
+          <element units="knots" type="wind_gust_spd">15</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">147</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="33" time-utc="2025-03-18T08:30:00+00:00" time-local="2025-03-18T18:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">30</element>
+          <element units="knots" type="wind_gust_spd">16</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">138</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+        </level>
+      </period>
+      <period index="34" time-utc="2025-03-18T08:00:00+00:00" time-local="2025-03-18T18:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">32</element>
+          <element units="knots" type="wind_gust_spd">17</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">130</element>
+          <element units="km/h" type="wind_spd_kmh">28</element>
+          <element units="knots" type="wind_spd">15</element>
+        </level>
+      </period>
+      <period index="35" time-utc="2025-03-18T07:30:00+00:00" time-local="2025-03-18T17:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">33</element>
+          <element units="knots" type="wind_gust_spd">18</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">133</element>
+          <element units="km/h" type="wind_spd_kmh">26</element>
+          <element units="knots" type="wind_spd">14</element>
+        </level>
+      </period>
+      <period index="36" time-utc="2025-03-18T07:00:00+00:00" time-local="2025-03-18T17:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">33</element>
+          <element units="knots" type="wind_gust_spd">18</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">128</element>
+          <element units="km/h" type="wind_spd_kmh">28</element>
+          <element units="knots" type="wind_spd">15</element>
+        </level>
+      </period>
+      <period index="37" time-utc="2025-03-18T06:30:00+00:00" time-local="2025-03-18T16:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">33</element>
+          <element units="knots" type="wind_gust_spd">18</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">133</element>
+          <element units="km/h" type="wind_spd_kmh">28</element>
+          <element units="knots" type="wind_spd">15</element>
+        </level>
+      </period>
+      <period index="38" time-utc="2025-03-18T06:00:00+00:00" time-local="2025-03-18T16:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">30</element>
+          <element units="knots" type="wind_gust_spd">16</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">139</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+        </level>
+      </period>
+      <period index="39" time-utc="2025-03-18T05:30:00+00:00" time-local="2025-03-18T15:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">35</element>
+          <element units="knots" type="wind_gust_spd">19</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">137</element>
+          <element units="km/h" type="wind_spd_kmh">30</element>
+          <element units="knots" type="wind_spd">16</element>
+        </level>
+      </period>
+      <period index="40" time-utc="2025-03-18T05:00:00+00:00" time-local="2025-03-18T15:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">37</element>
+          <element units="knots" type="wind_gust_spd">20</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">139</element>
+          <element units="km/h" type="wind_spd_kmh">30</element>
+          <element units="knots" type="wind_spd">16</element>
+        </level>
+      </period>
+      <period index="41" time-utc="2025-03-18T04:30:00+00:00" time-local="2025-03-18T14:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">37</element>
+          <element units="knots" type="wind_gust_spd">20</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">136</element>
+          <element units="km/h" type="wind_spd_kmh">30</element>
+          <element units="knots" type="wind_spd">16</element>
+        </level>
+      </period>
+      <period index="42" time-utc="2025-03-18T04:00:00+00:00" time-local="2025-03-18T14:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">35</element>
+          <element units="knots" type="wind_gust_spd">19</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">138</element>
+          <element units="km/h" type="wind_spd_kmh">30</element>
+          <element units="knots" type="wind_spd">16</element>
+        </level>
+      </period>
+      <period index="43" time-utc="2025-03-18T03:30:00+00:00" time-local="2025-03-18T13:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">35</element>
+          <element units="knots" type="wind_gust_spd">19</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">131</element>
+          <element units="km/h" type="wind_spd_kmh">30</element>
+          <element units="knots" type="wind_spd">16</element>
+        </level>
+      </period>
+      <period index="44" time-utc="2025-03-18T03:00:00+00:00" time-local="2025-03-18T13:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">32</element>
+          <element units="knots" type="wind_gust_spd">17</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">143</element>
+          <element units="km/h" type="wind_spd_kmh">28</element>
+          <element units="knots" type="wind_spd">15</element>
+        </level>
+      </period>
+      <period index="45" time-utc="2025-03-18T02:30:00+00:00" time-local="2025-03-18T12:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">37</element>
+          <element units="knots" type="wind_gust_spd">20</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">139</element>
+          <element units="km/h" type="wind_spd_kmh">30</element>
+          <element units="knots" type="wind_spd">16</element>
+        </level>
+      </period>
+      <period index="46" time-utc="2025-03-18T02:00:00+00:00" time-local="2025-03-18T12:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">39</element>
+          <element units="knots" type="wind_gust_spd">21</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">145</element>
+          <element units="km/h" type="wind_spd_kmh">32</element>
+          <element units="knots" type="wind_spd">17</element>
+        </level>
+      </period>
+      <period index="47" time-utc="2025-03-18T01:30:00+00:00" time-local="2025-03-18T11:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">39</element>
+          <element units="knots" type="wind_gust_spd">21</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">151</element>
+          <element units="km/h" type="wind_spd_kmh">30</element>
+          <element units="knots" type="wind_spd">16</element>
+        </level>
+      </period>
+      <period index="48" time-utc="2025-03-18T01:00:00+00:00" time-local="2025-03-18T11:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">37</element>
+          <element units="knots" type="wind_gust_spd">20</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">157</element>
+          <element units="km/h" type="wind_spd_kmh">32</element>
+          <element units="knots" type="wind_spd">17</element>
+        </level>
+      </period>
+      <period index="49" time-utc="2025-03-18T00:30:00+00:00" time-local="2025-03-18T10:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">37</element>
+          <element units="knots" type="wind_gust_spd">20</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">157</element>
+          <element units="km/h" type="wind_spd_kmh">32</element>
+          <element units="knots" type="wind_spd">17</element>
+        </level>
+      </period>
+      <period index="50" time-utc="2025-03-18T00:00:00+00:00" time-local="2025-03-18T10:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">33</element>
+          <element units="knots" type="wind_gust_spd">18</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">156</element>
+          <element units="km/h" type="wind_spd_kmh">26</element>
+          <element units="knots" type="wind_spd">14</element>
+        </level>
+      </period>
+      <period index="51" time-utc="2025-03-17T23:30:00+00:00" time-local="2025-03-18T09:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">35</element>
+          <element units="knots" type="wind_gust_spd">19</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">154</element>
+          <element units="km/h" type="wind_spd_kmh">30</element>
+          <element units="knots" type="wind_spd">16</element>
+        </level>
+      </period>
+      <period index="52" time-utc="2025-03-17T23:00:00+00:00" time-local="2025-03-18T09:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">33</element>
+          <element units="knots" type="wind_gust_spd">18</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">155</element>
+          <element units="km/h" type="wind_spd_kmh">30</element>
+          <element units="knots" type="wind_spd">16</element>
+        </level>
+      </period>
+      <period index="53" time-utc="2025-03-17T22:30:00+00:00" time-local="2025-03-18T08:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">35</element>
+          <element units="knots" type="wind_gust_spd">19</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">160</element>
+          <element units="km/h" type="wind_spd_kmh">30</element>
+          <element units="knots" type="wind_spd">16</element>
+        </level>
+      </period>
+      <period index="54" time-utc="2025-03-17T22:00:00+00:00" time-local="2025-03-18T08:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">37</element>
+          <element units="knots" type="wind_gust_spd">20</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">158</element>
+          <element units="km/h" type="wind_spd_kmh">32</element>
+          <element units="knots" type="wind_spd">17</element>
+        </level>
+      </period>
+      <period index="55" time-utc="2025-03-17T21:30:00+00:00" time-local="2025-03-18T07:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">37</element>
+          <element units="knots" type="wind_gust_spd">20</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">162</element>
+          <element units="km/h" type="wind_spd_kmh">32</element>
+          <element units="knots" type="wind_spd">17</element>
+        </level>
+      </period>
+      <period index="56" time-utc="2025-03-17T21:00:00+00:00" time-local="2025-03-18T07:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">35</element>
+          <element units="knots" type="wind_gust_spd">19</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">158</element>
+          <element units="km/h" type="wind_spd_kmh">32</element>
+          <element units="knots" type="wind_spd">17</element>
+        </level>
+      </period>
+      <period index="57" time-utc="2025-03-17T20:30:00+00:00" time-local="2025-03-18T06:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">39</element>
+          <element units="knots" type="wind_gust_spd">21</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">168</element>
+          <element units="km/h" type="wind_spd_kmh">33</element>
+          <element units="knots" type="wind_spd">18</element>
+        </level>
+      </period>
+      <period index="58" time-utc="2025-03-17T20:00:00+00:00" time-local="2025-03-18T06:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">41</element>
+          <element units="knots" type="wind_gust_spd">22</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">161</element>
+          <element units="km/h" type="wind_spd_kmh">35</element>
+          <element units="knots" type="wind_spd">19</element>
+        </level>
+      </period>
+      <period index="59" time-utc="2025-03-17T19:30:00+00:00" time-local="2025-03-18T05:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">39</element>
+          <element units="knots" type="wind_gust_spd">21</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">159</element>
+          <element units="km/h" type="wind_spd_kmh">35</element>
+          <element units="knots" type="wind_spd">19</element>
+        </level>
+      </period>
+      <period index="60" time-utc="2025-03-17T19:00:00+00:00" time-local="2025-03-18T05:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">41</element>
+          <element units="knots" type="wind_gust_spd">22</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">162</element>
+          <element units="km/h" type="wind_spd_kmh">35</element>
+          <element units="knots" type="wind_spd">19</element>
+        </level>
+      </period>
+      <period index="61" time-utc="2025-03-17T18:30:00+00:00" time-local="2025-03-18T04:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">41</element>
+          <element units="knots" type="wind_gust_spd">22</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">154</element>
+          <element units="km/h" type="wind_spd_kmh">35</element>
+          <element units="knots" type="wind_spd">19</element>
+        </level>
+      </period>
+      <period index="62" time-utc="2025-03-17T18:00:00+00:00" time-local="2025-03-18T04:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">39</element>
+          <element units="knots" type="wind_gust_spd">21</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">159</element>
+          <element units="km/h" type="wind_spd_kmh">33</element>
+          <element units="knots" type="wind_spd">18</element>
+        </level>
+      </period>
+      <period index="63" time-utc="2025-03-17T17:30:00+00:00" time-local="2025-03-18T03:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">41</element>
+          <element units="knots" type="wind_gust_spd">22</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">162</element>
+          <element units="km/h" type="wind_spd_kmh">35</element>
+          <element units="knots" type="wind_spd">19</element>
+        </level>
+      </period>
+      <period index="64" time-utc="2025-03-17T17:00:00+00:00" time-local="2025-03-18T03:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">44</element>
+          <element units="knots" type="wind_gust_spd">24</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">165</element>
+          <element units="km/h" type="wind_spd_kmh">39</element>
+          <element units="knots" type="wind_spd">21</element>
+        </level>
+      </period>
+      <period index="65" time-utc="2025-03-17T16:30:00+00:00" time-local="2025-03-18T02:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">41</element>
+          <element units="knots" type="wind_gust_spd">22</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">164</element>
+          <element units="km/h" type="wind_spd_kmh">35</element>
+          <element units="knots" type="wind_spd">19</element>
+        </level>
+      </period>
+      <period index="66" time-utc="2025-03-17T16:00:00+00:00" time-local="2025-03-18T02:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">43</element>
+          <element units="knots" type="wind_gust_spd">23</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">168</element>
+          <element units="km/h" type="wind_spd_kmh">33</element>
+          <element units="knots" type="wind_spd">18</element>
+        </level>
+      </period>
+      <period index="67" time-utc="2025-03-17T15:30:00+00:00" time-local="2025-03-18T01:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">43</element>
+          <element units="knots" type="wind_gust_spd">23</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">158</element>
+          <element units="km/h" type="wind_spd_kmh">35</element>
+          <element units="knots" type="wind_spd">19</element>
+        </level>
+      </period>
+      <period index="68" time-utc="2025-03-17T15:00:00+00:00" time-local="2025-03-18T01:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">43</element>
+          <element units="knots" type="wind_gust_spd">23</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">160</element>
+          <element units="km/h" type="wind_spd_kmh">35</element>
+          <element units="knots" type="wind_spd">19</element>
+        </level>
+      </period>
+      <period index="69" time-utc="2025-03-17T14:30:00+00:00" time-local="2025-03-18T00:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">46</element>
+          <element units="knots" type="wind_gust_spd">25</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">159</element>
+          <element units="km/h" type="wind_spd_kmh">39</element>
+          <element units="knots" type="wind_spd">21</element>
+        </level>
+      </period>
+      <period index="70" time-utc="2025-03-17T14:00:00+00:00" time-local="2025-03-18T00:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">44</element>
+          <element units="knots" type="wind_gust_spd">24</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">154</element>
+          <element units="km/h" type="wind_spd_kmh">35</element>
+          <element units="knots" type="wind_spd">19</element>
+        </level>
+      </period>
+      <period index="71" time-utc="2025-03-17T13:30:00+00:00" time-local="2025-03-17T23:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">41</element>
+          <element units="knots" type="wind_gust_spd">22</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">156</element>
+          <element units="km/h" type="wind_spd_kmh">35</element>
+          <element units="knots" type="wind_spd">19</element>
+        </level>
+      </period>
+      <period index="72" time-utc="2025-03-17T13:00:00+00:00" time-local="2025-03-17T23:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">43</element>
+          <element units="knots" type="wind_gust_spd">23</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">160</element>
+          <element units="km/h" type="wind_spd_kmh">37</element>
+          <element units="knots" type="wind_spd">20</element>
+        </level>
+      </period>
+      <period index="73" time-utc="2025-03-17T12:30:00+00:00" time-local="2025-03-17T22:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">39</element>
+          <element units="knots" type="wind_gust_spd">21</element>
+          <element type="wind_dir">SSE</element>
+          <element units="deg" type="wind_dir_deg">162</element>
+          <element units="km/h" type="wind_spd_kmh">33</element>
+          <element units="knots" type="wind_spd">18</element>
+        </level>
+      </period>
+      <period index="74" time-utc="2025-03-17T12:00:00+00:00" time-local="2025-03-17T22:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">50</element>
+          <element units="knots" type="wind_gust_spd">27</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">140</element>
+          <element units="km/h" type="wind_spd_kmh">37</element>
+          <element units="knots" type="wind_spd">20</element>
+        </level>
+      </period>
+      <period index="75" time-utc="2025-03-17T11:30:00+00:00" time-local="2025-03-17T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">43</element>
+          <element units="knots" type="wind_gust_spd">23</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">138</element>
+          <element units="km/h" type="wind_spd_kmh">33</element>
+          <element units="knots" type="wind_spd">18</element>
+        </level>
+      </period>
+      <period index="76" time-utc="2025-03-17T11:00:00+00:00" time-local="2025-03-17T21:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">44</element>
+          <element units="knots" type="wind_gust_spd">24</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">139</element>
+          <element units="km/h" type="wind_spd_kmh">35</element>
+          <element units="knots" type="wind_spd">19</element>
+        </level>
+      </period>
+      <period index="77" time-utc="2025-03-17T10:30:00+00:00" time-local="2025-03-17T20:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">52</element>
+          <element units="knots" type="wind_gust_spd">28</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">141</element>
+          <element units="km/h" type="wind_spd_kmh">41</element>
+          <element units="knots" type="wind_spd">22</element>
+        </level>
+      </period>
+      <period index="78" time-utc="2025-03-17T10:00:00+00:00" time-local="2025-03-17T20:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">50</element>
+          <element units="knots" type="wind_gust_spd">27</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">138</element>
+          <element units="km/h" type="wind_spd_kmh">41</element>
+          <element units="knots" type="wind_spd">22</element>
+        </level>
+      </period>
+      <period index="79" time-utc="2025-03-17T09:30:00+00:00" time-local="2025-03-17T19:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">54</element>
+          <element units="knots" type="wind_gust_spd">29</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">135</element>
+          <element units="km/h" type="wind_spd_kmh">41</element>
+          <element units="knots" type="wind_spd">22</element>
+        </level>
+      </period>
+      <period index="80" time-utc="2025-03-17T09:00:00+00:00" time-local="2025-03-17T19:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">50</element>
+          <element units="knots" type="wind_gust_spd">27</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">139</element>
+          <element units="km/h" type="wind_spd_kmh">39</element>
+          <element units="knots" type="wind_spd">21</element>
+        </level>
+      </period>
+      <period index="81" time-utc="2025-03-17T08:30:00+00:00" time-local="2025-03-17T18:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">57</element>
+          <element units="knots" type="wind_gust_spd">31</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">142</element>
+          <element units="km/h" type="wind_spd_kmh">43</element>
+          <element units="knots" type="wind_spd">23</element>
+        </level>
+      </period>
+      <period index="82" time-utc="2025-03-17T08:00:00+00:00" time-local="2025-03-17T18:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">56</element>
+          <element units="knots" type="wind_gust_spd">30</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">142</element>
+          <element units="km/h" type="wind_spd_kmh">44</element>
+          <element units="knots" type="wind_spd">24</element>
+        </level>
+      </period>
+      <period index="83" time-utc="2025-03-17T07:30:00+00:00" time-local="2025-03-17T17:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">57</element>
+          <element units="knots" type="wind_gust_spd">31</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">142</element>
+          <element units="km/h" type="wind_spd_kmh">44</element>
+          <element units="knots" type="wind_spd">24</element>
+        </level>
+      </period>
+      <period index="84" time-utc="2025-03-17T07:00:00+00:00" time-local="2025-03-17T17:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">61</element>
+          <element units="knots" type="wind_gust_spd">33</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">145</element>
+          <element units="km/h" type="wind_spd_kmh">46</element>
+          <element units="knots" type="wind_spd">25</element>
+        </level>
+      </period>
+      <period index="85" time-utc="2025-03-17T06:30:00+00:00" time-local="2025-03-17T16:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">57</element>
+          <element units="knots" type="wind_gust_spd">31</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">144</element>
+          <element units="km/h" type="wind_spd_kmh">44</element>
+          <element units="knots" type="wind_spd">24</element>
+        </level>
+      </period>
+      <period index="86" time-utc="2025-03-17T06:00:00+00:00" time-local="2025-03-17T16:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">59</element>
+          <element units="knots" type="wind_gust_spd">32</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">141</element>
+          <element units="km/h" type="wind_spd_kmh">48</element>
+          <element units="knots" type="wind_spd">26</element>
+        </level>
+      </period>
+      <period index="87" time-utc="2025-03-17T05:30:00+00:00" time-local="2025-03-17T15:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">50</element>
+          <element units="knots" type="wind_gust_spd">27</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">138</element>
+          <element units="km/h" type="wind_spd_kmh">41</element>
+          <element units="knots" type="wind_spd">22</element>
+        </level>
+      </period>
+      <period index="88" time-utc="2025-03-17T05:00:00+00:00" time-local="2025-03-17T15:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">54</element>
+          <element units="knots" type="wind_gust_spd">29</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">143</element>
+          <element units="km/h" type="wind_spd_kmh">46</element>
+          <element units="knots" type="wind_spd">25</element>
+        </level>
+      </period>
+      <period index="89" time-utc="2025-03-17T04:30:00+00:00" time-local="2025-03-17T14:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">43</element>
+          <element units="knots" type="wind_gust_spd">23</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">127</element>
+          <element units="km/h" type="wind_spd_kmh">33</element>
+          <element units="knots" type="wind_spd">18</element>
+        </level>
+      </period>
+      <period index="90" time-utc="2025-03-17T04:27:00+00:00" time-local="2025-03-17T14:27:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">43</element>
+          <element units="knots" type="wind_gust_spd">23</element>
+          <element type="wind_dir">SE</element>
+          <element units="deg" type="wind_dir_deg">125</element>
+          <element units="km/h" type="wind_spd_kmh">28</element>
+          <element units="knots" type="wind_spd">15</element>
+        </level>
+      </period>
+      <period index="91" time-utc="2025-03-17T04:00:00+00:00" time-local="2025-03-17T14:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">20</element>
+          <element units="knots" type="wind_gust_spd">11</element>
+          <element type="wind_dir">NNE</element>
+          <element units="deg" type="wind_dir_deg">28</element>
+          <element units="km/h" type="wind_spd_kmh">13</element>
+          <element units="knots" type="wind_spd">7</element>
+        </level>
+      </period>
+      <period index="92" time-utc="2025-03-17T03:30:00+00:00" time-local="2025-03-17T13:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">13</element>
+          <element units="knots" type="wind_gust_spd">7</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">1</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+        </level>
+      </period>
+      <period index="93" time-utc="2025-03-17T03:00:00+00:00" time-local="2025-03-17T13:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">15</element>
+          <element units="knots" type="wind_gust_spd">8</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">349</element>
+          <element units="km/h" type="wind_spd_kmh">13</element>
+          <element units="knots" type="wind_spd">7</element>
+        </level>
+      </period>
+      <period index="94" time-utc="2025-03-17T02:30:00+00:00" time-local="2025-03-17T12:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">15</element>
+          <element units="knots" type="wind_gust_spd">8</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">350</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+        </level>
+      </period>
+      <period index="95" time-utc="2025-03-17T02:00:00+00:00" time-local="2025-03-17T12:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">17</element>
+          <element units="knots" type="wind_gust_spd">9</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">359</element>
+          <element units="km/h" type="wind_spd_kmh">15</element>
+          <element units="knots" type="wind_spd">8</element>
+        </level>
+      </period>
+      <period index="96" time-utc="2025-03-17T01:30:00+00:00" time-local="2025-03-17T11:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">17</element>
+          <element units="knots" type="wind_gust_spd">9</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">353</element>
+          <element units="km/h" type="wind_spd_kmh">15</element>
+          <element units="knots" type="wind_spd">8</element>
+        </level>
+      </period>
+      <period index="97" time-utc="2025-03-17T01:00:00+00:00" time-local="2025-03-17T11:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">11</element>
+          <element units="knots" type="wind_gust_spd">6</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">343</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+        </level>
+      </period>
+      <period index="98" time-utc="2025-03-17T00:30:00+00:00" time-local="2025-03-17T10:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">9</element>
+          <element units="knots" type="wind_gust_spd">5</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">339</element>
+          <element units="km/h" type="wind_spd_kmh">7</element>
+          <element units="knots" type="wind_spd">4</element>
+        </level>
+      </period>
+      <period index="99" time-utc="2025-03-17T00:00:00+00:00" time-local="2025-03-17T10:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">7</element>
+          <element units="knots" type="wind_gust_spd">4</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">333</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+        </level>
+      </period>
+      <period index="100" time-utc="2025-03-16T23:30:00+00:00" time-local="2025-03-17T09:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">7</element>
+          <element units="knots" type="wind_gust_spd">4</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">328</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+        </level>
+      </period>
+      <period index="101" time-utc="2025-03-16T23:00:00+00:00" time-local="2025-03-17T09:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">7</element>
+          <element units="knots" type="wind_gust_spd">4</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">320</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+        </level>
+      </period>
+      <period index="102" time-utc="2025-03-16T22:30:00+00:00" time-local="2025-03-17T08:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">9</element>
+          <element units="knots" type="wind_gust_spd">5</element>
+          <element type="wind_dir">WNW</element>
+          <element units="deg" type="wind_dir_deg">301</element>
+          <element units="km/h" type="wind_spd_kmh">7</element>
+          <element units="knots" type="wind_spd">4</element>
+        </level>
+      </period>
+      <period index="103" time-utc="2025-03-16T22:00:00+00:00" time-local="2025-03-17T08:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">13</element>
+          <element units="knots" type="wind_gust_spd">7</element>
+          <element type="wind_dir">W</element>
+          <element units="deg" type="wind_dir_deg">277</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+        </level>
+      </period>
+      <period index="104" time-utc="2025-03-16T21:30:00+00:00" time-local="2025-03-17T07:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">19</element>
+          <element units="knots" type="wind_gust_spd">10</element>
+          <element type="wind_dir">W</element>
+          <element units="deg" type="wind_dir_deg">263</element>
+          <element units="km/h" type="wind_spd_kmh">15</element>
+          <element units="knots" type="wind_spd">8</element>
+        </level>
+      </period>
+      <period index="105" time-utc="2025-03-16T21:00:00+00:00" time-local="2025-03-17T07:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">11</element>
+          <element units="knots" type="wind_gust_spd">6</element>
+          <element type="wind_dir">WNW</element>
+          <element units="deg" type="wind_dir_deg">300</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+        </level>
+      </period>
+      <period index="106" time-utc="2025-03-16T20:30:00+00:00" time-local="2025-03-17T06:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">15</element>
+          <element units="knots" type="wind_gust_spd">8</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">332</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+        </level>
+      </period>
+      <period index="107" time-utc="2025-03-16T20:00:00+00:00" time-local="2025-03-17T06:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">11</element>
+          <element units="knots" type="wind_gust_spd">6</element>
+          <element type="wind_dir">WNW</element>
+          <element units="deg" type="wind_dir_deg">302</element>
+          <element units="km/h" type="wind_spd_kmh">9</element>
+          <element units="knots" type="wind_spd">5</element>
+        </level>
+      </period>
+      <period index="108" time-utc="2025-03-16T19:30:00+00:00" time-local="2025-03-17T05:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">15</element>
+          <element units="knots" type="wind_gust_spd">8</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">316</element>
+          <element units="km/h" type="wind_spd_kmh">13</element>
+          <element units="knots" type="wind_spd">7</element>
+        </level>
+      </period>
+      <period index="109" time-utc="2025-03-16T19:00:00+00:00" time-local="2025-03-17T05:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">19</element>
+          <element units="knots" type="wind_gust_spd">10</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">320</element>
+          <element units="km/h" type="wind_spd_kmh">17</element>
+          <element units="knots" type="wind_spd">9</element>
+        </level>
+      </period>
+      <period index="110" time-utc="2025-03-16T18:30:00+00:00" time-local="2025-03-17T04:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">26</element>
+          <element units="knots" type="wind_gust_spd">14</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">328</element>
+          <element units="km/h" type="wind_spd_kmh">20</element>
+          <element units="knots" type="wind_spd">11</element>
+        </level>
+      </period>
+      <period index="111" time-utc="2025-03-16T18:00:00+00:00" time-local="2025-03-17T04:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">24</element>
+          <element units="knots" type="wind_gust_spd">13</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">333</element>
+          <element units="km/h" type="wind_spd_kmh">20</element>
+          <element units="knots" type="wind_spd">11</element>
+        </level>
+      </period>
+      <period index="112" time-utc="2025-03-16T17:30:00+00:00" time-local="2025-03-17T03:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">30</element>
+          <element units="knots" type="wind_gust_spd">16</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">328</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="113" time-utc="2025-03-16T17:00:00+00:00" time-local="2025-03-17T03:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">30</element>
+          <element units="knots" type="wind_gust_spd">16</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">334</element>
+          <element units="km/h" type="wind_spd_kmh">26</element>
+          <element units="knots" type="wind_spd">14</element>
+        </level>
+      </period>
+      <period index="114" time-utc="2025-03-16T16:30:00+00:00" time-local="2025-03-17T02:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">28</element>
+          <element units="knots" type="wind_gust_spd">15</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">332</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+        </level>
+      </period>
+      <period index="115" time-utc="2025-03-16T16:00:00+00:00" time-local="2025-03-17T02:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">26</element>
+          <element units="knots" type="wind_gust_spd">14</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">334</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="116" time-utc="2025-03-16T15:30:00+00:00" time-local="2025-03-17T01:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">24</element>
+          <element units="knots" type="wind_gust_spd">13</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">342</element>
+          <element units="km/h" type="wind_spd_kmh">20</element>
+          <element units="knots" type="wind_spd">11</element>
+        </level>
+      </period>
+      <period index="117" time-utc="2025-03-16T15:00:00+00:00" time-local="2025-03-17T01:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">20</element>
+          <element units="knots" type="wind_gust_spd">11</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">334</element>
+          <element units="km/h" type="wind_spd_kmh">17</element>
+          <element units="knots" type="wind_spd">9</element>
+        </level>
+      </period>
+      <period index="118" time-utc="2025-03-16T14:30:00+00:00" time-local="2025-03-17T00:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">19</element>
+          <element units="knots" type="wind_gust_spd">10</element>
+          <element type="wind_dir">NW</element>
+          <element units="deg" type="wind_dir_deg">323</element>
+          <element units="km/h" type="wind_spd_kmh">17</element>
+          <element units="knots" type="wind_spd">9</element>
+        </level>
+      </period>
+      <period index="119" time-utc="2025-03-16T14:00:00+00:00" time-local="2025-03-17T00:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">28</element>
+          <element units="knots" type="wind_gust_spd">15</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">355</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="120" time-utc="2025-03-16T13:30:00+00:00" time-local="2025-03-16T23:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">28</element>
+          <element units="knots" type="wind_gust_spd">15</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">353</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="121" time-utc="2025-03-16T13:00:00+00:00" time-local="2025-03-16T23:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">28</element>
+          <element units="knots" type="wind_gust_spd">15</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">351</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+        </level>
+      </period>
+      <period index="122" time-utc="2025-03-16T12:30:00+00:00" time-local="2025-03-16T22:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">30</element>
+          <element units="knots" type="wind_gust_spd">16</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">355</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+        </level>
+      </period>
+      <period index="123" time-utc="2025-03-16T12:00:00+00:00" time-local="2025-03-16T22:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">22</element>
+          <element units="knots" type="wind_gust_spd">12</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">1</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+        </level>
+      </period>
+      <period index="124" time-utc="2025-03-16T11:30:00+00:00" time-local="2025-03-16T21:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">22</element>
+          <element units="knots" type="wind_gust_spd">12</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">7</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+        </level>
+      </period>
+      <period index="125" time-utc="2025-03-16T11:00:00+00:00" time-local="2025-03-16T21:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">24</element>
+          <element units="knots" type="wind_gust_spd">13</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">4</element>
+          <element units="km/h" type="wind_spd_kmh">20</element>
+          <element units="knots" type="wind_spd">11</element>
+        </level>
+      </period>
+      <period index="126" time-utc="2025-03-16T10:30:00+00:00" time-local="2025-03-16T20:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">26</element>
+          <element units="knots" type="wind_gust_spd">14</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">1</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="127" time-utc="2025-03-16T10:00:00+00:00" time-local="2025-03-16T20:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">26</element>
+          <element units="knots" type="wind_gust_spd">14</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">3</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+        </level>
+      </period>
+      <period index="128" time-utc="2025-03-16T09:30:00+00:00" time-local="2025-03-16T19:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">28</element>
+          <element units="knots" type="wind_gust_spd">15</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">1</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+        </level>
+      </period>
+      <period index="129" time-utc="2025-03-16T09:00:00+00:00" time-local="2025-03-16T19:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">28</element>
+          <element units="knots" type="wind_gust_spd">15</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">2</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+        </level>
+      </period>
+      <period index="130" time-utc="2025-03-16T08:30:00+00:00" time-local="2025-03-16T18:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">32</element>
+          <element units="knots" type="wind_gust_spd">17</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">11</element>
+          <element units="km/h" type="wind_spd_kmh">26</element>
+          <element units="knots" type="wind_spd">14</element>
+        </level>
+      </period>
+      <period index="131" time-utc="2025-03-16T08:00:00+00:00" time-local="2025-03-16T18:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">30</element>
+          <element units="knots" type="wind_gust_spd">16</element>
+          <element type="wind_dir">NNE</element>
+          <element units="deg" type="wind_dir_deg">20</element>
+          <element units="km/h" type="wind_spd_kmh">24</element>
+          <element units="knots" type="wind_spd">13</element>
+        </level>
+      </period>
+      <period index="132" time-utc="2025-03-16T07:30:00+00:00" time-local="2025-03-16T17:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">26</element>
+          <element units="knots" type="wind_gust_spd">14</element>
+          <element type="wind_dir">NNE</element>
+          <element units="deg" type="wind_dir_deg">27</element>
+          <element units="km/h" type="wind_spd_kmh">20</element>
+          <element units="knots" type="wind_spd">11</element>
+        </level>
+      </period>
+      <period index="133" time-utc="2025-03-16T07:00:00+00:00" time-local="2025-03-16T17:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">28</element>
+          <element units="knots" type="wind_gust_spd">15</element>
+          <element type="wind_dir">NNE</element>
+          <element units="deg" type="wind_dir_deg">30</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="134" time-utc="2025-03-16T06:30:00+00:00" time-local="2025-03-16T16:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">30</element>
+          <element units="knots" type="wind_gust_spd">16</element>
+          <element type="wind_dir">NNE</element>
+          <element units="deg" type="wind_dir_deg">28</element>
+          <element units="km/h" type="wind_spd_kmh">20</element>
+          <element units="knots" type="wind_spd">11</element>
+        </level>
+      </period>
+      <period index="135" time-utc="2025-03-16T06:00:00+00:00" time-local="2025-03-16T16:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">26</element>
+          <element units="knots" type="wind_gust_spd">14</element>
+          <element type="wind_dir">NE</element>
+          <element units="deg" type="wind_dir_deg">34</element>
+          <element units="km/h" type="wind_spd_kmh">22</element>
+          <element units="knots" type="wind_spd">12</element>
+        </level>
+      </period>
+      <period index="136" time-utc="2025-03-16T05:30:00+00:00" time-local="2025-03-16T15:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">26</element>
+          <element units="knots" type="wind_gust_spd">14</element>
+          <element type="wind_dir">NNE</element>
+          <element units="deg" type="wind_dir_deg">31</element>
+          <element units="km/h" type="wind_spd_kmh">20</element>
+          <element units="knots" type="wind_spd">11</element>
+        </level>
+      </period>
+      <period index="137" time-utc="2025-03-16T05:00:00+00:00" time-local="2025-03-16T15:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">19</element>
+          <element units="knots" type="wind_gust_spd">10</element>
+          <element type="wind_dir">NNE</element>
+          <element units="deg" type="wind_dir_deg">32</element>
+          <element units="km/h" type="wind_spd_kmh">11</element>
+          <element units="knots" type="wind_spd">6</element>
+        </level>
+      </period>
+      <period index="138" time-utc="2025-03-16T04:30:00+00:00" time-local="2025-03-16T14:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">4</element>
+          <element units="knots" type="wind_gust_spd">2</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+        </level>
+      </period>
+      <period index="139" time-utc="2025-03-16T04:00:00+00:00" time-local="2025-03-16T14:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">9</element>
+          <element units="knots" type="wind_gust_spd">5</element>
+          <element type="wind_dir">CALM</element>
+          <element units="deg" type="wind_dir_deg">0</element>
+          <element units="km/h" type="wind_spd_kmh">0</element>
+          <element units="knots" type="wind_spd">0</element>
+        </level>
+      </period>
+      <period index="140" time-utc="2025-03-16T03:30:00+00:00" time-local="2025-03-16T13:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">11</element>
+          <element units="knots" type="wind_gust_spd">6</element>
+          <element type="wind_dir">NNE</element>
+          <element units="deg" type="wind_dir_deg">32</element>
+          <element units="km/h" type="wind_spd_kmh">2</element>
+          <element units="knots" type="wind_spd">1</element>
+        </level>
+      </period>
+      <period index="141" time-utc="2025-03-16T03:00:00+00:00" time-local="2025-03-16T13:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">13</element>
+          <element units="knots" type="wind_gust_spd">7</element>
+          <element type="wind_dir">N</element>
+          <element units="deg" type="wind_dir_deg">1</element>
+          <element units="km/h" type="wind_spd_kmh">4</element>
+          <element units="knots" type="wind_spd">2</element>
+        </level>
+      </period>
+      <period index="142" time-utc="2025-03-16T02:30:00+00:00" time-local="2025-03-16T12:30:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">7</element>
+          <element units="knots" type="wind_gust_spd">4</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">338</element>
+          <element units="km/h" type="wind_spd_kmh">6</element>
+          <element units="knots" type="wind_spd">3</element>
+        </level>
+      </period>
+      <period index="143" time-utc="2025-03-16T02:00:00+00:00" time-local="2025-03-16T12:00:00+10:00" wind-src="metar_10">
+        <level index="0" type="surface">
+          <element units="km/h" type="gust_kmh">6</element>
+          <element units="knots" type="wind_gust_spd">3</element>
+          <element type="wind_dir">NNW</element>
+          <element units="deg" type="wind_dir_deg">347</element>
+          <element units="km/h" type="wind_spd_kmh">2</element>
+          <element units="knots" type="wind_spd">1</element>
+        </level>
+      </period>
+    </station>
+  </observations>
+</product>

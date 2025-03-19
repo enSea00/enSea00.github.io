@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="v1.7.1" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+  <amoc>
+    <source>
+      <sender>Australian Government Bureau of Meteorology</sender>
+      <region>Queensland</region>
+      <office>QLDRO</office>
+      <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+      <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDQ60910</identifier>
+    <issue-time-utc>2025-03-19T01:31:01+00:00</issue-time-utc>
+    <issue-time-local tz="EST">2025-03-19T11:31:01+10:00</issue-time-local>
+    <sent-time>2025-03-19T01:34:18+00:00</sent-time>
+    <status>O</status>
+    <service>WSP</service>
+    <product-type>O</product-type>
+    <phase>NEW</phase>
+  </amoc>
+  <observations>
+    <station wmo-id="94291" bom-id="032025" tz="Australia/Brisbane" stn-name="INNISFAIL" stn-height="10.00" type="Non-AWS" lat="-17.5249" lon="146.0345" forecast-district-id="QLD_PW004" description="Innisfail"/>
+  </observations>
+</product>

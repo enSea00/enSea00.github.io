@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="v1.7.1" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+  <amoc>
+    <source>
+      <sender>Australian Government Bureau of Meteorology</sender>
+      <region>Queensland</region>
+      <office>QLDRO</office>
+      <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+      <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDQ60910</identifier>
+    <issue-time-utc>2025-03-19T01:31:01+00:00</issue-time-utc>
+    <issue-time-local tz="EST">2025-03-19T11:31:01+10:00</issue-time-local>
+    <sent-time>2025-03-19T01:34:02+00:00</sent-time>
+    <status>O</status>
+    <service>WSP</service>
+    <product-type>O</product-type>
+    <phase>NEW</phase>
+  </amoc>
+  <observations>
+    <station wmo-id="94257" bom-id="029139" tz="Australia/Brisbane" stn-name="SWEERS ISLAND" stn-height="4.00" type="Non-AWS" lat="-17.1142" lon="139.5981" forecast-district-id="QLD_PW002" description="Sweers Island">
+      <period index="0" time-utc="2025-03-18T23:00:00+00:00" time-local="2025-03-19T09:00:00+10:00" wind-src="mdf">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">30.8</element>
+          <element type="cloud">Mostly cloudy</element>
+          <element units="m" type="cloud_base_m">200</element>
+          <element type="cloud_oktas">7</element>
+          <element type="cloud_type_id">32</element>
+          <element type="cloud_type">Towering Cumulus</element>
+          <element units="Celsius" type="delta_t">1.0</element>
+          <element units="Celsius" type="air_temperature">28.8</element>
+          <element units="Celsius" type="dew_point">27.4</element>
+          <element units="hPa" type="pres">1008.5</element>
+          <element units="hPa" type="msl_pres">1008.5</element>
+          <element units="%" type="rel-humidity">92</element>
+          <element units="km" type="vis_km">40</element>
+          <element type="weather">Fine</element>
+          <element type="wind_dir">NE</element>
+          <element units="deg" type="wind_dir_deg">50</element>
+          <element units="km/h" type="wind_spd_kmh">32</element>
+          <element units="knots" type="wind_spd">17</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T09:00:00+10:00" duration="1440" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T23:00:00+00:00" units="mm" type="rainfall">58.0</element>
+        </level>
+      </period>
+      <period index="1" time-utc="2025-03-17T23:00:00+00:00" time-local="2025-03-18T09:00:00+10:00" wind-src="mdf">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">24.5</element>
+          <element type="cloud">Cloudy</element>
+          <element type="cloud_oktas">8</element>
+          <element units="Celsius" type="delta_t">0.0</element>
+          <element units="Celsius" type="air_temperature">24.8</element>
+          <element units="Celsius" type="dew_point">24.8</element>
+          <element units="hPa" type="pres">1006.3</element>
+          <element units="hPa" type="msl_pres">1006.3</element>
+          <element units="%" type="rel-humidity">100</element>
+          <element units="km" type="vis_km">3</element>
+          <element type="weather">Showers</element>
+          <element type="wind_dir">NE</element>
+          <element units="deg" type="wind_dir_deg">50</element>
+          <element units="km/h" type="wind_spd_kmh">35</element>
+          <element units="knots" type="wind_spd">19</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T09:00:00+10:00" duration="1440" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T23:00:00+00:00" units="mm" type="rainfall">280.0</element>
+        </level>
+      </period>
+      <period index="2" time-utc="2025-03-16T23:00:00+00:00" time-local="2025-03-17T09:00:00+10:00" wind-src="mdf">
+        <level index="0" type="surface">
+          <element units="Celsius" type="apparent_temp">33.8</element>
+          <element type="cloud">Mostly cloudy</element>
+          <element units="m" type="cloud_base_m">200</element>
+          <element type="cloud_oktas">6</element>
+          <element type="cloud_type_id">32</element>
+          <element type="cloud_type">Towering Cumulus</element>
+          <element units="Celsius" type="delta_t">1.0</element>
+          <element units="Celsius" type="air_temperature">29.1</element>
+          <element units="Celsius" type="dew_point">27.7</element>
+          <element units="hPa" type="pres">1007.6</element>
+          <element units="hPa" type="msl_pres">1007.6</element>
+          <element units="%" type="rel-humidity">92</element>
+          <element units="km" type="vis_km">40</element>
+          <element type="weather">Fine</element>
+          <element type="wind_dir">E</element>
+          <element units="deg" type="wind_dir_deg">90</element>
+          <element units="km/h" type="wind_spd_kmh">19</element>
+          <element units="knots" type="wind_spd">10</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T09:00:00+10:00" duration="1440" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T23:00:00+00:00" units="mm" type="rainfall">14.0</element>
+        </level>
+      </period>
+    </station>
+  </observations>
+</product>

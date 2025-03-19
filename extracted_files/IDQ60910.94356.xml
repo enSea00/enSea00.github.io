@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="v1.7.1" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+  <amoc>
+    <source>
+      <sender>Australian Government Bureau of Meteorology</sender>
+      <region>Queensland</region>
+      <office>QLDRO</office>
+      <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+      <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDQ60910</identifier>
+    <issue-time-utc>2025-03-19T01:31:01+00:00</issue-time-utc>
+    <issue-time-local tz="EST">2025-03-19T11:31:01+10:00</issue-time-local>
+    <sent-time>2025-03-19T01:34:04+00:00</sent-time>
+    <status>O</status>
+    <service>WSP</service>
+    <product-type>O</product-type>
+    <phase>NEW</phase>
+  </amoc>
+  <observations>
+    <station wmo-id="94356" bom-id="034084" tz="Australia/Brisbane" stn-name="CHARTERS TOWERS AIRPORT" stn-height="289.78" type="Non-AWS" lat="-20.0427" lon="146.2716" forecast-district-id="QLD_PW003" description="Charters Towers">
+      <period index="0" time-utc="2025-03-18T23:00:00+00:00" time-local="2025-03-19T09:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.5</element>
+          <element units="Celsius" type="air_temperature">23.0</element>
+          <element units="Celsius" type="dew_point">20.7</element>
+          <element units="hPa" type="pres">1014.8</element>
+          <element units="hPa" type="msl_pres">1014.8</element>
+          <element units="%" type="rel-humidity">87</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T09:00:00+10:00" duration="1440" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T23:00:00+00:00" units="mm" type="rainfall">20.0</element>
+        </level>
+      </period>
+      <period index="1" time-utc="2025-03-18T05:00:00+00:00" time-local="2025-03-18T15:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">4.5</element>
+          <element units="Celsius" type="air_temperature">28.0</element>
+          <element units="Celsius" type="dew_point">21.3</element>
+          <element units="hPa" type="pres">1010.5</element>
+          <element units="hPa" type="msl_pres">1010.5</element>
+          <element units="%" type="rel-humidity">67</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T15:00:00+10:00" duration="360" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T05:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="2" time-utc="2025-03-17T23:00:00+00:00" time-local="2025-03-18T09:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.2</element>
+          <element units="Celsius" type="air_temperature">24.5</element>
+          <element units="Celsius" type="dew_point">21.2</element>
+          <element units="hPa" type="pres">1013.0</element>
+          <element units="hPa" type="msl_pres">1013.0</element>
+          <element units="%" type="rel-humidity">82</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T09:00:00+10:00" duration="1440" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T23:00:00+00:00" units="mm" type="rainfall">13.0</element>
+        </level>
+      </period>
+      <period index="3" time-utc="2025-03-17T05:00:00+00:00" time-local="2025-03-17T15:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">5.9</element>
+          <element units="Celsius" type="air_temperature">30.0</element>
+          <element units="Celsius" type="dew_point">21.3</element>
+          <element units="hPa" type="pres">1009.1</element>
+          <element units="hPa" type="msl_pres">1009.1</element>
+          <element units="%" type="rel-humidity">59</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T15:00:00+10:00" duration="360" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T05:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="4" time-utc="2025-03-16T23:00:00+00:00" time-local="2025-03-17T09:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.1</element>
+          <element units="Celsius" type="air_temperature">27.0</element>
+          <element units="Celsius" type="dew_point">22.5</element>
+          <element units="hPa" type="pres">1011.8</element>
+          <element units="hPa" type="msl_pres">1011.8</element>
+          <element units="%" type="rel-humidity">76</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T09:00:00+10:00" duration="1440" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T23:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+    </station>
+  </observations>
+</product>

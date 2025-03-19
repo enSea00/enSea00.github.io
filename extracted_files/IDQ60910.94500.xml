@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="v1.7.1" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+  <amoc>
+    <source>
+      <sender>Australian Government Bureau of Meteorology</sender>
+      <region>Queensland</region>
+      <office>QLDRO</office>
+      <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+      <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDQ60910</identifier>
+    <issue-time-utc>2025-03-19T01:31:01+00:00</issue-time-utc>
+    <issue-time-local tz="EST">2025-03-19T11:31:01+10:00</issue-time-local>
+    <sent-time>2025-03-19T01:35:25+00:00</sent-time>
+    <status>O</status>
+    <service>WSP</service>
+    <product-type>O</product-type>
+    <phase>NEW</phase>
+  </amoc>
+  <observations>
+    <station wmo-id="94500" bom-id="044026" tz="Australia/Brisbane" stn-name="CUNNAMULLA POST OFFICE" stn-height="188.77" type="Non-AWS" lat="-28.0689" lon="145.6822" forecast-district-id="QLD_PW012" description="Cunnamulla">
+      <period index="0" time-utc="2025-03-18T23:00:00+00:00" time-local="2025-03-19T09:00:00+10:00">
+        <level index="0" type="surface">
+          <element type="cloud">Clear</element>
+          <element units="m" type="cloud_base_m">2500</element>
+          <element type="cloud_oktas">0</element>
+          <element units="Celsius" type="delta_t">6.4</element>
+          <element units="Celsius" type="air_temperature">27.7</element>
+          <element units="Celsius" type="dew_point">17.6</element>
+          <element units="hPa" type="pres">1018.1</element>
+          <element units="hPa" type="msl_pres">1018.1</element>
+          <element units="%" type="rel-humidity">54</element>
+          <element units="km" type="vis_km">30</element>
+          <element type="weather">Fine</element>
+          <element units="deg" type="wind_dir_deg">70</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T09:00:00+10:00" duration="1440" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T23:00:00+00:00" units="mm" type="rainfall">2.0</element>
+        </level>
+      </period>
+      <period index="1" time-utc="2025-03-17T23:00:00+00:00" time-local="2025-03-18T09:00:00+10:00">
+        <level index="0" type="surface">
+          <element type="cloud">Mostly clear</element>
+          <element type="cloud_oktas">1</element>
+          <element type="cloud_type_id">30</element>
+          <element units="Celsius" type="delta_t">11.4</element>
+          <element units="Celsius" type="air_temperature">26.0</element>
+          <element units="Celsius" type="dew_point">2.8</element>
+          <element units="hPa" type="pres">1016.0</element>
+          <element units="hPa" type="msl_pres">1016.0</element>
+          <element units="%" type="rel-humidity">22</element>
+          <element units="km" type="vis_km">30</element>
+          <element type="weather">Fine</element>
+          <element units="deg" type="wind_dir_deg">70</element>
+        </level>
+      </period>
+      <period index="2" time-utc="2025-03-16T23:00:00+00:00" time-local="2025-03-17T09:00:00+10:00">
+        <level index="0" type="surface">
+          <element type="cloud">Partly cloudy</element>
+          <element type="cloud_oktas">3</element>
+          <element type="cloud_type_id">30</element>
+          <element units="Celsius" type="delta_t">7.8</element>
+          <element units="Celsius" type="air_temperature">28.2</element>
+          <element units="Celsius" type="dew_point">15.6</element>
+          <element units="hPa" type="pres">1014.7</element>
+          <element units="hPa" type="msl_pres">1014.7</element>
+          <element units="%" type="rel-humidity">46</element>
+          <element units="km" type="vis_km">30</element>
+          <element type="weather">Fine</element>
+          <element units="deg" type="wind_dir_deg">160</element>
+        </level>
+      </period>
+    </station>
+  </observations>
+</product>

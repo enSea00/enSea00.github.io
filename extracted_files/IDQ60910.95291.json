@@ -1,0 +1,78 @@
+{
+	"observations": {
+		"notice": [
+			{
+				"copyright": "Copyright Commonwealth of Australia 2025, Bureau of Meteorology. For more information see: http://www.bom.gov.au/other/copyright.shtml http://www.bom.gov.au/other/disclaimer.shtml",
+				"copyright_url": "http://www.bom.gov.au/other/copyright.shtml",
+				"disclaimer_url": "http://www.bom.gov.au/other/disclaimer.shtml",
+				"feedback_url": "http://www.bom.gov.au/other/feedback"
+			}
+		],
+		"header": [
+			{
+				"ID": "IDQ60910",
+				"main_ID": "IDQ60920",
+				"name": "Ingham",
+				"wmo_id": "95291",
+				"state_time_zone": "QLD",
+				"time_zone": "EST",
+				"product_name": "Weather Observations",
+				"state": "Queensland",
+				"time_zone_name": "Australia/Brisbane",
+				"TDZ": "+10:00",
+				"Office": "QLDRO",
+				"issue_time_utc": "20250319013101",
+				"issue_time_local": "20250319113101"
+			}
+		],
+		"data": [
+			{
+				"sort_order": 0,
+				"wmo": 95291,
+				"name": "Ingham",
+				"history_product": "IDQ60910",
+				"time_zone_name": "Australia/Brisbane",
+				"TDZ": "+10:00",
+				"aifstime_utc": "20250317230000",
+				"aifstime_local": "20250318090000",
+				"lat": -18.6494,
+				"lon": 146.1769,
+				"apparent_t": 29.5,
+				"cloud": "Cloudy",
+				"cloud_base_m": 100,
+				"cloud_oktas": 8,
+				"cloud_type_id": 37,
+				"cloud_type": "-",
+				"delta_t": 0.0,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 24.0,
+				"dewpt": 24.0,
+				"press": 1012.2,
+				"press_msl": 1012.2,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_hour": null,
+				"rain_ten": null,
+				"rain_trace": "175.0",
+				"rain_trace_time": "20250318090000",
+				"rain_trace_time_utc": "20250317230000",
+				"local_9am_date_time": "20250317090000",
+				"local_9am_date_time_utc": "20250316230000",
+				"duration_from_local_9am_date": 1440,
+				"rel_hum": 100,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "20",
+				"weather": "Rain",
+				"wind_dir": "SE",
+				"wind_dir_deg": 140,
+				"wind_spd_kmh": 2,
+				"wind_spd_kt": 1,
+				"wind_src": "mdf"
+			}
+		]
+	}
+}

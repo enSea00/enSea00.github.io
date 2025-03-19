@@ -1,0 +1,1597 @@
+<?xml version="1.0"?>
+<product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="v1.7.1" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+  <amoc>
+    <source>
+      <sender>Australian Government Bureau of Meteorology</sender>
+      <region>Queensland</region>
+      <office>QLDRO</office>
+      <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+      <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+    </source>
+    <identifier>IDQ60910</identifier>
+    <issue-time-utc>2025-03-19T01:31:01+00:00</issue-time-utc>
+    <issue-time-local tz="EST">2025-03-19T11:31:01+10:00</issue-time-local>
+    <sent-time>2025-03-19T01:35:50+00:00</sent-time>
+    <status>O</status>
+    <service>WSP</service>
+    <product-type>O</product-type>
+    <phase>NEW</phase>
+  </amoc>
+  <observations>
+    <station wmo-id="99113" bom-id="250059" tz="Australia/Brisbane" stn-name="PORTABLE QFRE" stn-height="70.00" type="AWS" lat="-26.1832" lon="152.6413" forecast-district-id="QLD_FA001" description="PORTABLE QFRE NCR">
+      <period index="0" time-utc="2025-03-19T01:00:00+00:00" time-local="2025-03-19T11:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">5.1</element>
+          <element units="Celsius" type="air_temperature">27.2</element>
+          <element units="Celsius" type="dew_point">19.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">62</element>
+          <element start-time-local="2025-03-19T09:00:00+10:00" end-time-local="2025-03-19T11:00:00+10:00" duration="120" start-time-utc="2025-03-18T23:00:00+00:00" end-time-utc="2025-03-19T01:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="1" time-utc="2025-03-19T00:30:00+00:00" time-local="2025-03-19T10:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">4.6</element>
+          <element units="Celsius" type="air_temperature">26.1</element>
+          <element units="Celsius" type="dew_point">18.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">64</element>
+          <element start-time-local="2025-03-19T09:00:00+10:00" end-time-local="2025-03-19T10:30:00+10:00" duration="90" start-time-utc="2025-03-18T23:00:00+00:00" end-time-utc="2025-03-19T00:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="2" time-utc="2025-03-19T00:00:00+00:00" time-local="2025-03-19T10:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">4.7</element>
+          <element units="Celsius" type="air_temperature">25.9</element>
+          <element units="Celsius" type="dew_point">18.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">63</element>
+          <element start-time-local="2025-03-19T09:00:00+10:00" end-time-local="2025-03-19T10:00:00+10:00" duration="60" start-time-utc="2025-03-18T23:00:00+00:00" end-time-utc="2025-03-19T00:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="3" time-utc="2025-03-18T23:30:00+00:00" time-local="2025-03-19T09:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">4.0</element>
+          <element units="Celsius" type="air_temperature">26.0</element>
+          <element units="Celsius" type="dew_point">19.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">69</element>
+          <element start-time-local="2025-03-19T09:00:00+10:00" end-time-local="2025-03-19T09:30:00+10:00" duration="30" start-time-utc="2025-03-18T23:00:00+00:00" end-time-utc="2025-03-18T23:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="4" time-utc="2025-03-18T23:00:00+00:00" time-local="2025-03-19T09:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.6</element>
+          <element units="Celsius" type="air_temperature">25.0</element>
+          <element units="Celsius" type="dew_point">19.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">71</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T09:00:00+10:00" duration="1440" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T23:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="5" time-utc="2025-03-18T22:30:00+00:00" time-local="2025-03-19T08:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.7</element>
+          <element units="Celsius" type="air_temperature">23.5</element>
+          <element units="Celsius" type="dew_point">19.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">77</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T08:30:00+10:00" duration="1410" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T22:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="6" time-utc="2025-03-18T22:00:00+00:00" time-local="2025-03-19T08:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.5</element>
+          <element units="Celsius" type="air_temperature">22.6</element>
+          <element units="Celsius" type="dew_point">18.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">78</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T08:00:00+10:00" duration="1380" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T22:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="7" time-utc="2025-03-18T21:30:00+00:00" time-local="2025-03-19T07:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.3</element>
+          <element units="Celsius" type="air_temperature">21.8</element>
+          <element units="Celsius" type="dew_point">18.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">80</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T07:30:00+10:00" duration="1350" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T21:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="8" time-utc="2025-03-18T21:00:00+00:00" time-local="2025-03-19T07:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.1</element>
+          <element units="Celsius" type="air_temperature">21.4</element>
+          <element units="Celsius" type="dew_point">18.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">81</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T07:00:00+10:00" duration="1320" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T21:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="9" time-utc="2025-03-18T20:30:00+00:00" time-local="2025-03-19T06:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.6</element>
+          <element units="Celsius" type="air_temperature">20.5</element>
+          <element units="Celsius" type="dew_point">17.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">85</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T06:30:00+10:00" duration="1290" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T20:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="10" time-utc="2025-03-18T20:00:00+00:00" time-local="2025-03-19T06:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.6</element>
+          <element units="Celsius" type="air_temperature">20.2</element>
+          <element units="Celsius" type="dew_point">17.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">85</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T06:00:00+10:00" duration="1260" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T20:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="11" time-utc="2025-03-18T19:30:00+00:00" time-local="2025-03-19T05:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.4</element>
+          <element units="Celsius" type="air_temperature">20.0</element>
+          <element units="Celsius" type="dew_point">17.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">86</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T05:30:00+10:00" duration="1230" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T19:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="12" time-utc="2025-03-18T19:00:00+00:00" time-local="2025-03-19T05:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.4</element>
+          <element units="Celsius" type="air_temperature">20.1</element>
+          <element units="Celsius" type="dew_point">17.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">86</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T05:00:00+10:00" duration="1200" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T19:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="13" time-utc="2025-03-18T18:30:00+00:00" time-local="2025-03-19T04:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.5</element>
+          <element units="Celsius" type="air_temperature">20.2</element>
+          <element units="Celsius" type="dew_point">17.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">86</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T04:30:00+10:00" duration="1170" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T18:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="14" time-utc="2025-03-18T18:00:00+00:00" time-local="2025-03-19T04:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.7</element>
+          <element units="Celsius" type="air_temperature">20.4</element>
+          <element units="Celsius" type="dew_point">17.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">84</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T04:00:00+10:00" duration="1140" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T18:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="15" time-utc="2025-03-18T17:30:00+00:00" time-local="2025-03-19T03:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.8</element>
+          <element units="Celsius" type="air_temperature">20.6</element>
+          <element units="Celsius" type="dew_point">17.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">83</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T03:30:00+10:00" duration="1110" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T17:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="16" time-utc="2025-03-18T17:00:00+00:00" time-local="2025-03-19T03:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.0</element>
+          <element units="Celsius" type="air_temperature">20.7</element>
+          <element units="Celsius" type="dew_point">17.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">82</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T03:00:00+10:00" duration="1080" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T17:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="17" time-utc="2025-03-18T16:30:00+00:00" time-local="2025-03-19T02:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.9</element>
+          <element units="Celsius" type="air_temperature">20.9</element>
+          <element units="Celsius" type="dew_point">17.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">82</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T02:30:00+10:00" duration="1050" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T16:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="18" time-utc="2025-03-18T16:00:00+00:00" time-local="2025-03-19T02:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.0</element>
+          <element units="Celsius" type="air_temperature">20.8</element>
+          <element units="Celsius" type="dew_point">17.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">82</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T02:00:00+10:00" duration="1020" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T16:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="19" time-utc="2025-03-18T15:30:00+00:00" time-local="2025-03-19T01:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.1</element>
+          <element units="Celsius" type="air_temperature">20.9</element>
+          <element units="Celsius" type="dew_point">17.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">81</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T01:30:00+10:00" duration="990" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T15:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="20" time-utc="2025-03-18T15:00:00+00:00" time-local="2025-03-19T01:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.2</element>
+          <element units="Celsius" type="air_temperature">21.0</element>
+          <element units="Celsius" type="dew_point">17.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">80</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T01:00:00+10:00" duration="960" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T15:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="21" time-utc="2025-03-18T14:30:00+00:00" time-local="2025-03-19T00:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.2</element>
+          <element units="Celsius" type="air_temperature">21.0</element>
+          <element units="Celsius" type="dew_point">17.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">80</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T00:30:00+10:00" duration="930" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T14:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="22" time-utc="2025-03-18T14:00:00+00:00" time-local="2025-03-19T00:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.6</element>
+          <element units="Celsius" type="air_temperature">21.3</element>
+          <element units="Celsius" type="dew_point">17.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">77</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-19T00:00:00+10:00" duration="900" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T14:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="23" time-utc="2025-03-18T13:30:00+00:00" time-local="2025-03-18T23:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.5</element>
+          <element units="Celsius" type="air_temperature">21.1</element>
+          <element units="Celsius" type="dew_point">17.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">78</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T23:30:00+10:00" duration="870" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T13:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="24" time-utc="2025-03-18T13:00:00+00:00" time-local="2025-03-18T23:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.7</element>
+          <element units="Celsius" type="air_temperature">21.3</element>
+          <element units="Celsius" type="dew_point">16.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">75</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T23:00:00+10:00" duration="840" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T13:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="25" time-utc="2025-03-18T12:30:00+00:00" time-local="2025-03-18T22:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.5</element>
+          <element units="Celsius" type="air_temperature">21.2</element>
+          <element units="Celsius" type="dew_point">17.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">77</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T22:30:00+10:00" duration="810" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T12:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="26" time-utc="2025-03-18T12:00:00+00:00" time-local="2025-03-18T22:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.7</element>
+          <element units="Celsius" type="air_temperature">21.8</element>
+          <element units="Celsius" type="dew_point">17.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">76</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T22:00:00+10:00" duration="780" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T12:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="27" time-utc="2025-03-18T11:30:00+00:00" time-local="2025-03-18T21:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.1</element>
+          <element units="Celsius" type="air_temperature">22.2</element>
+          <element units="Celsius" type="dew_point">17.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">73</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T21:30:00+10:00" duration="750" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T11:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="28" time-utc="2025-03-18T11:00:00+00:00" time-local="2025-03-18T21:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.8</element>
+          <element units="Celsius" type="air_temperature">21.9</element>
+          <element units="Celsius" type="dew_point">17.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">75</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T21:00:00+10:00" duration="720" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T11:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="29" time-utc="2025-03-18T10:30:00+00:00" time-local="2025-03-18T20:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.4</element>
+          <element units="Celsius" type="air_temperature">21.6</element>
+          <element units="Celsius" type="dew_point">17.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">78</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T20:30:00+10:00" duration="690" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T10:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="30" time-utc="2025-03-18T10:00:00+00:00" time-local="2025-03-18T20:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.9</element>
+          <element units="Celsius" type="air_temperature">21.8</element>
+          <element units="Celsius" type="dew_point">17.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">74</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T20:00:00+10:00" duration="660" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T10:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="31" time-utc="2025-03-18T09:30:00+00:00" time-local="2025-03-18T19:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.2</element>
+          <element units="Celsius" type="air_temperature">21.9</element>
+          <element units="Celsius" type="dew_point">16.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">72</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T19:30:00+10:00" duration="630" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T09:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="32" time-utc="2025-03-18T09:00:00+00:00" time-local="2025-03-18T19:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.5</element>
+          <element units="Celsius" type="air_temperature">22.5</element>
+          <element units="Celsius" type="dew_point">16.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">70</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T19:00:00+10:00" duration="600" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T09:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="33" time-utc="2025-03-18T08:30:00+00:00" time-local="2025-03-18T18:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.7</element>
+          <element units="Celsius" type="air_temperature">22.6</element>
+          <element units="Celsius" type="dew_point">16.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">69</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T18:30:00+10:00" duration="570" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T08:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="34" time-utc="2025-03-18T08:00:00+00:00" time-local="2025-03-18T18:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">4.0</element>
+          <element units="Celsius" type="air_temperature">23.0</element>
+          <element units="Celsius" type="dew_point">16.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">67</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T18:00:00+10:00" duration="540" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T08:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="35" time-utc="2025-03-18T07:30:00+00:00" time-local="2025-03-18T17:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.9</element>
+          <element units="Celsius" type="air_temperature">23.3</element>
+          <element units="Celsius" type="dew_point">17.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">67</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T17:30:00+10:00" duration="510" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T07:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="36" time-utc="2025-03-18T07:00:00+00:00" time-local="2025-03-18T17:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.7</element>
+          <element units="Celsius" type="air_temperature">23.6</element>
+          <element units="Celsius" type="dew_point">17.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">69</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T17:00:00+10:00" duration="480" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T07:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="37" time-utc="2025-03-18T06:30:00+00:00" time-local="2025-03-18T16:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.6</element>
+          <element units="Celsius" type="air_temperature">23.8</element>
+          <element units="Celsius" type="dew_point">18.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">70</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T16:30:00+10:00" duration="450" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T06:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="38" time-utc="2025-03-18T06:00:00+00:00" time-local="2025-03-18T16:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">4.0</element>
+          <element units="Celsius" type="air_temperature">24.0</element>
+          <element units="Celsius" type="dew_point">17.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">67</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T16:00:00+10:00" duration="420" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T06:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="39" time-utc="2025-03-18T05:30:00+00:00" time-local="2025-03-18T15:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.2</element>
+          <element units="Celsius" type="air_temperature">24.0</element>
+          <element units="Celsius" type="dew_point">19.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">73</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T15:30:00+10:00" duration="390" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T05:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="40" time-utc="2025-03-18T05:00:00+00:00" time-local="2025-03-18T15:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.1</element>
+          <element units="Celsius" type="air_temperature">24.2</element>
+          <element units="Celsius" type="dew_point">19.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">74</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T15:00:00+10:00" duration="360" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T05:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="41" time-utc="2025-03-18T04:30:00+00:00" time-local="2025-03-18T14:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.8</element>
+          <element units="Celsius" type="air_temperature">24.9</element>
+          <element units="Celsius" type="dew_point">18.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">69</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T14:30:00+10:00" duration="330" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T04:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="42" time-utc="2025-03-18T04:00:00+00:00" time-local="2025-03-18T14:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">4.4</element>
+          <element units="Celsius" type="air_temperature">25.9</element>
+          <element units="Celsius" type="dew_point">19.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">66</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T14:00:00+10:00" duration="300" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T04:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="43" time-utc="2025-03-18T03:30:00+00:00" time-local="2025-03-18T13:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">4.1</element>
+          <element units="Celsius" type="air_temperature">25.8</element>
+          <element units="Celsius" type="dew_point">19.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">67</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T13:30:00+10:00" duration="270" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T03:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="44" time-utc="2025-03-18T03:00:00+00:00" time-local="2025-03-18T13:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">4.1</element>
+          <element units="Celsius" type="air_temperature">25.6</element>
+          <element units="Celsius" type="dew_point">19.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">68</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T13:00:00+10:00" duration="240" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T03:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="45" time-utc="2025-03-18T02:30:00+00:00" time-local="2025-03-18T12:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">4.0</element>
+          <element units="Celsius" type="air_temperature">25.0</element>
+          <element units="Celsius" type="dew_point">18.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">68</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T12:30:00+10:00" duration="210" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T02:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="46" time-utc="2025-03-18T02:00:00+00:00" time-local="2025-03-18T12:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.6</element>
+          <element units="Celsius" type="air_temperature">24.8</element>
+          <element units="Celsius" type="dew_point">19.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">71</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T12:00:00+10:00" duration="180" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T02:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="47" time-utc="2025-03-18T01:30:00+00:00" time-local="2025-03-18T11:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.9</element>
+          <element units="Celsius" type="air_temperature">25.4</element>
+          <element units="Celsius" type="dew_point">19.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">69</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T11:30:00+10:00" duration="150" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T01:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="48" time-utc="2025-03-18T01:00:00+00:00" time-local="2025-03-18T11:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">4.4</element>
+          <element units="Celsius" type="air_temperature">25.7</element>
+          <element units="Celsius" type="dew_point">18.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">66</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T11:00:00+10:00" duration="120" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T01:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="49" time-utc="2025-03-18T00:30:00+00:00" time-local="2025-03-18T10:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.7</element>
+          <element units="Celsius" type="air_temperature">24.9</element>
+          <element units="Celsius" type="dew_point">19.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">70</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T10:30:00+10:00" duration="90" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T00:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="50" time-utc="2025-03-18T00:00:00+00:00" time-local="2025-03-18T10:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.3</element>
+          <element units="Celsius" type="air_temperature">24.2</element>
+          <element units="Celsius" type="dew_point">19.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">72</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T10:00:00+10:00" duration="60" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-18T00:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="51" time-utc="2025-03-17T23:30:00+00:00" time-local="2025-03-18T09:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.1</element>
+          <element units="Celsius" type="air_temperature">24.0</element>
+          <element units="Celsius" type="dew_point">19.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">74</element>
+          <element start-time-local="2025-03-18T09:00:00+10:00" end-time-local="2025-03-18T09:30:00+10:00" duration="30" start-time-utc="2025-03-17T23:00:00+00:00" end-time-utc="2025-03-17T23:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="52" time-utc="2025-03-17T23:00:00+00:00" time-local="2025-03-18T09:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.6</element>
+          <element units="Celsius" type="air_temperature">23.3</element>
+          <element units="Celsius" type="dew_point">19.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">78</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T09:00:00+10:00" duration="1440" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T23:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="53" time-utc="2025-03-17T22:30:00+00:00" time-local="2025-03-18T08:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.5</element>
+          <element units="Celsius" type="air_temperature">23.0</element>
+          <element units="Celsius" type="dew_point">19.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">78</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T08:30:00+10:00" duration="1410" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T22:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="54" time-utc="2025-03-17T22:00:00+00:00" time-local="2025-03-18T08:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.4</element>
+          <element units="Celsius" type="air_temperature">23.1</element>
+          <element units="Celsius" type="dew_point">19.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">79</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T08:00:00+10:00" duration="1380" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T22:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="55" time-utc="2025-03-17T21:30:00+00:00" time-local="2025-03-18T07:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.1</element>
+          <element units="Celsius" type="air_temperature">22.6</element>
+          <element units="Celsius" type="dew_point">19.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">81</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T07:30:00+10:00" duration="1350" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T21:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="56" time-utc="2025-03-17T21:00:00+00:00" time-local="2025-03-18T07:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.0</element>
+          <element units="Celsius" type="air_temperature">22.3</element>
+          <element units="Celsius" type="dew_point">19.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">82</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T07:00:00+10:00" duration="1320" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T21:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="57" time-utc="2025-03-17T20:30:00+00:00" time-local="2025-03-18T06:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.0</element>
+          <element units="Celsius" type="air_temperature">22.2</element>
+          <element units="Celsius" type="dew_point">19.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">82</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T06:30:00+10:00" duration="1290" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T20:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="58" time-utc="2025-03-17T20:00:00+00:00" time-local="2025-03-18T06:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.0</element>
+          <element units="Celsius" type="air_temperature">22.1</element>
+          <element units="Celsius" type="dew_point">19.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">82</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T06:00:00+10:00" duration="1260" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T20:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="59" time-utc="2025-03-17T19:30:00+00:00" time-local="2025-03-18T05:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.7</element>
+          <element units="Celsius" type="air_temperature">22.0</element>
+          <element units="Celsius" type="dew_point">19.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">85</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T05:30:00+10:00" duration="1230" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T19:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="60" time-utc="2025-03-17T19:00:00+00:00" time-local="2025-03-18T05:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.7</element>
+          <element units="Celsius" type="air_temperature">22.0</element>
+          <element units="Celsius" type="dew_point">19.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">85</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T05:00:00+10:00" duration="1200" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T19:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="61" time-utc="2025-03-17T18:30:00+00:00" time-local="2025-03-18T04:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.6</element>
+          <element units="Celsius" type="air_temperature">21.8</element>
+          <element units="Celsius" type="dew_point">19.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">86</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T04:30:00+10:00" duration="1170" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T18:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="62" time-utc="2025-03-17T18:00:00+00:00" time-local="2025-03-18T04:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.9</element>
+          <element units="Celsius" type="air_temperature">22.3</element>
+          <element units="Celsius" type="dew_point">19.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">83</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T04:00:00+10:00" duration="1140" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T18:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="63" time-utc="2025-03-17T17:30:00+00:00" time-local="2025-03-18T03:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.9</element>
+          <element units="Celsius" type="air_temperature">22.3</element>
+          <element units="Celsius" type="dew_point">19.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">83</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T03:30:00+10:00" duration="1110" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T17:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="64" time-utc="2025-03-17T17:00:00+00:00" time-local="2025-03-18T03:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.2</element>
+          <element units="Celsius" type="air_temperature">22.4</element>
+          <element units="Celsius" type="dew_point">19.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">81</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T03:00:00+10:00" duration="1080" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T17:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="65" time-utc="2025-03-17T16:30:00+00:00" time-local="2025-03-18T02:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.0</element>
+          <element units="Celsius" type="air_temperature">22.5</element>
+          <element units="Celsius" type="dew_point">19.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">82</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T02:30:00+10:00" duration="1050" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T16:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="66" time-utc="2025-03-17T16:00:00+00:00" time-local="2025-03-18T02:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.0</element>
+          <element units="Celsius" type="air_temperature">22.7</element>
+          <element units="Celsius" type="dew_point">19.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">82</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T02:00:00+10:00" duration="1020" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T16:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="67" time-utc="2025-03-17T15:30:00+00:00" time-local="2025-03-18T01:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.3</element>
+          <element units="Celsius" type="air_temperature">23.2</element>
+          <element units="Celsius" type="dew_point">19.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">80</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T01:30:00+10:00" duration="990" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T15:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="68" time-utc="2025-03-17T15:00:00+00:00" time-local="2025-03-18T01:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.4</element>
+          <element units="Celsius" type="air_temperature">23.4</element>
+          <element units="Celsius" type="dew_point">19.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">80</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T01:00:00+10:00" duration="960" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T15:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="69" time-utc="2025-03-17T14:30:00+00:00" time-local="2025-03-18T00:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.5</element>
+          <element units="Celsius" type="air_temperature">23.6</element>
+          <element units="Celsius" type="dew_point">19.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">79</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T00:30:00+10:00" duration="930" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T14:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="70" time-utc="2025-03-17T14:00:00+00:00" time-local="2025-03-18T00:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.3</element>
+          <element units="Celsius" type="air_temperature">23.7</element>
+          <element units="Celsius" type="dew_point">20.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">80</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-18T00:00:00+10:00" duration="900" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T14:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="71" time-utc="2025-03-17T13:30:00+00:00" time-local="2025-03-17T23:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.5</element>
+          <element units="Celsius" type="air_temperature">23.7</element>
+          <element units="Celsius" type="dew_point">19.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">79</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T23:30:00+10:00" duration="870" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T13:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="72" time-utc="2025-03-17T13:00:00+00:00" time-local="2025-03-17T23:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.6</element>
+          <element units="Celsius" type="air_temperature">24.0</element>
+          <element units="Celsius" type="dew_point">20.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">78</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T23:00:00+10:00" duration="840" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T13:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="73" time-utc="2025-03-17T12:30:00+00:00" time-local="2025-03-17T22:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.7</element>
+          <element units="Celsius" type="air_temperature">24.2</element>
+          <element units="Celsius" type="dew_point">20.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">78</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T22:30:00+10:00" duration="810" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T12:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="74" time-utc="2025-03-17T12:00:00+00:00" time-local="2025-03-17T22:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.0</element>
+          <element units="Celsius" type="air_temperature">24.4</element>
+          <element units="Celsius" type="dew_point">19.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">75</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T22:00:00+10:00" duration="780" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T12:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="75" time-utc="2025-03-17T11:30:00+00:00" time-local="2025-03-17T21:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.0</element>
+          <element units="Celsius" type="air_temperature">24.6</element>
+          <element units="Celsius" type="dew_point">19.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">75</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T21:30:00+10:00" duration="750" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T11:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="76" time-utc="2025-03-17T11:00:00+00:00" time-local="2025-03-17T21:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.1</element>
+          <element units="Celsius" type="air_temperature">24.7</element>
+          <element units="Celsius" type="dew_point">20.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">75</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T21:00:00+10:00" duration="720" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T11:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="77" time-utc="2025-03-17T10:30:00+00:00" time-local="2025-03-17T20:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.9</element>
+          <element units="Celsius" type="air_temperature">24.8</element>
+          <element units="Celsius" type="dew_point">20.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">76</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T20:30:00+10:00" duration="690" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T10:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="78" time-utc="2025-03-17T10:00:00+00:00" time-local="2025-03-17T20:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.6</element>
+          <element units="Celsius" type="air_temperature">24.6</element>
+          <element units="Celsius" type="dew_point">20.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">78</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T20:00:00+10:00" duration="660" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T10:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="79" time-utc="2025-03-17T09:30:00+00:00" time-local="2025-03-17T19:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.6</element>
+          <element units="Celsius" type="air_temperature">25.0</element>
+          <element units="Celsius" type="dew_point">21.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">78</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T19:30:00+10:00" duration="630" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T09:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="80" time-utc="2025-03-17T09:00:00+00:00" time-local="2025-03-17T19:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.6</element>
+          <element units="Celsius" type="air_temperature">25.1</element>
+          <element units="Celsius" type="dew_point">21.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">78</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T19:00:00+10:00" duration="600" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T09:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="81" time-utc="2025-03-17T08:30:00+00:00" time-local="2025-03-17T18:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.3</element>
+          <element units="Celsius" type="air_temperature">25.7</element>
+          <element units="Celsius" type="dew_point">20.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">74</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T18:30:00+10:00" duration="570" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T08:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="82" time-utc="2025-03-17T08:00:00+00:00" time-local="2025-03-17T18:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.8</element>
+          <element units="Celsius" type="air_temperature">26.3</element>
+          <element units="Celsius" type="dew_point">20.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">70</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T18:00:00+10:00" duration="540" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T08:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="83" time-utc="2025-03-17T07:30:00+00:00" time-local="2025-03-17T17:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">4.3</element>
+          <element units="Celsius" type="air_temperature">28.2</element>
+          <element units="Celsius" type="dew_point">21.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">68</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T17:30:00+10:00" duration="510" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T07:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="84" time-utc="2025-03-17T07:00:00+00:00" time-local="2025-03-17T17:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">5.3</element>
+          <element units="Celsius" type="air_temperature">29.6</element>
+          <element units="Celsius" type="dew_point">21.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">63</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T17:00:00+10:00" duration="480" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T07:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="85" time-utc="2025-03-17T06:30:00+00:00" time-local="2025-03-17T16:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">6.3</element>
+          <element units="Celsius" type="air_temperature">30.7</element>
+          <element units="Celsius" type="dew_point">21.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">57</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T16:30:00+10:00" duration="450" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T06:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="86" time-utc="2025-03-17T06:00:00+00:00" time-local="2025-03-17T16:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">8.6</element>
+          <element units="Celsius" type="air_temperature">32.9</element>
+          <element units="Celsius" type="dew_point">19.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">46</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T16:00:00+10:00" duration="420" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T06:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="87" time-utc="2025-03-17T05:30:00+00:00" time-local="2025-03-17T15:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">8.5</element>
+          <element units="Celsius" type="air_temperature">32.2</element>
+          <element units="Celsius" type="dew_point">19.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">46</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T15:30:00+10:00" duration="390" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T05:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="88" time-utc="2025-03-17T05:00:00+00:00" time-local="2025-03-17T15:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">8.1</element>
+          <element units="Celsius" type="air_temperature">32.7</element>
+          <element units="Celsius" type="dew_point">20.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">49</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T15:00:00+10:00" duration="360" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T05:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="89" time-utc="2025-03-17T04:30:00+00:00" time-local="2025-03-17T14:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">9.1</element>
+          <element units="Celsius" type="air_temperature">33.6</element>
+          <element units="Celsius" type="dew_point">19.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">44</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T14:30:00+10:00" duration="330" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T04:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="90" time-utc="2025-03-17T04:00:00+00:00" time-local="2025-03-17T14:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">8.8</element>
+          <element units="Celsius" type="air_temperature">33.4</element>
+          <element units="Celsius" type="dew_point">20.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">46</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T14:00:00+10:00" duration="300" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T04:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="91" time-utc="2025-03-17T03:30:00+00:00" time-local="2025-03-17T13:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">8.4</element>
+          <element units="Celsius" type="air_temperature">33.4</element>
+          <element units="Celsius" type="dew_point">20.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">48</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T13:30:00+10:00" duration="270" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T03:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="92" time-utc="2025-03-17T03:00:00+00:00" time-local="2025-03-17T13:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">7.7</element>
+          <element units="Celsius" type="air_temperature">32.2</element>
+          <element units="Celsius" type="dew_point">20.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">50</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T13:00:00+10:00" duration="240" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T03:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="93" time-utc="2025-03-17T02:30:00+00:00" time-local="2025-03-17T12:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">7.7</element>
+          <element units="Celsius" type="air_temperature">31.9</element>
+          <element units="Celsius" type="dew_point">20.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">50</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T12:30:00+10:00" duration="210" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T02:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="94" time-utc="2025-03-17T02:00:00+00:00" time-local="2025-03-17T12:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">7.3</element>
+          <element units="Celsius" type="air_temperature">31.6</element>
+          <element units="Celsius" type="dew_point">20.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">52</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T12:00:00+10:00" duration="180" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T02:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="95" time-utc="2025-03-17T01:30:00+00:00" time-local="2025-03-17T11:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">6.7</element>
+          <element units="Celsius" type="air_temperature">30.9</element>
+          <element units="Celsius" type="dew_point">20.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">55</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T11:30:00+10:00" duration="150" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T01:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="96" time-utc="2025-03-17T01:00:00+00:00" time-local="2025-03-17T11:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">6.2</element>
+          <element units="Celsius" type="air_temperature">29.5</element>
+          <element units="Celsius" type="dew_point">20.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">57</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T11:00:00+10:00" duration="120" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T01:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="97" time-utc="2025-03-17T00:30:00+00:00" time-local="2025-03-17T10:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">5.7</element>
+          <element units="Celsius" type="air_temperature">28.7</element>
+          <element units="Celsius" type="dew_point">20.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">59</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T10:30:00+10:00" duration="90" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T00:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="98" time-utc="2025-03-17T00:00:00+00:00" time-local="2025-03-17T10:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">5.0</element>
+          <element units="Celsius" type="air_temperature">27.9</element>
+          <element units="Celsius" type="dew_point">20.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">63</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T10:00:00+10:00" duration="60" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-17T00:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="99" time-utc="2025-03-16T23:30:00+00:00" time-local="2025-03-17T09:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">4.3</element>
+          <element units="Celsius" type="air_temperature">27.6</element>
+          <element units="Celsius" type="dew_point">21.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">68</element>
+          <element start-time-local="2025-03-17T09:00:00+10:00" end-time-local="2025-03-17T09:30:00+10:00" duration="30" start-time-utc="2025-03-16T23:00:00+00:00" end-time-utc="2025-03-16T23:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="100" time-utc="2025-03-16T23:00:00+00:00" time-local="2025-03-17T09:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.0</element>
+          <element units="Celsius" type="air_temperature">25.8</element>
+          <element units="Celsius" type="dew_point">21.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">76</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T09:00:00+10:00" duration="1440" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T23:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="101" time-utc="2025-03-16T22:30:00+00:00" time-local="2025-03-17T08:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.9</element>
+          <element units="Celsius" type="air_temperature">23.3</element>
+          <element units="Celsius" type="dew_point">21.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">92</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T08:30:00+10:00" duration="1410" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T22:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="102" time-utc="2025-03-16T22:00:00+00:00" time-local="2025-03-17T08:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.3</element>
+          <element units="Celsius" type="air_temperature">22.2</element>
+          <element units="Celsius" type="dew_point">21.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">97</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T08:00:00+10:00" duration="1380" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T22:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="103" time-utc="2025-03-16T21:30:00+00:00" time-local="2025-03-17T07:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.3</element>
+          <element units="Celsius" type="air_temperature">20.6</element>
+          <element units="Celsius" type="dew_point">20.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">98</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T07:30:00+10:00" duration="1350" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T21:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="104" time-utc="2025-03-16T21:00:00+00:00" time-local="2025-03-17T07:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="Celsius" type="air_temperature">19.0</element>
+          <element units="Celsius" type="dew_point">18.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T07:00:00+10:00" duration="1320" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T21:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="105" time-utc="2025-03-16T20:30:00+00:00" time-local="2025-03-17T06:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="Celsius" type="air_temperature">18.1</element>
+          <element units="Celsius" type="dew_point">18.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T06:30:00+10:00" duration="1290" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T20:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="106" time-utc="2025-03-16T20:00:00+00:00" time-local="2025-03-17T06:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="Celsius" type="air_temperature">17.7</element>
+          <element units="Celsius" type="dew_point">17.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T06:00:00+10:00" duration="1260" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T20:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="107" time-utc="2025-03-16T19:30:00+00:00" time-local="2025-03-17T05:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="Celsius" type="air_temperature">18.0</element>
+          <element units="Celsius" type="dew_point">17.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T05:30:00+10:00" duration="1230" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T19:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="108" time-utc="2025-03-16T19:00:00+00:00" time-local="2025-03-17T05:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="Celsius" type="air_temperature">18.2</element>
+          <element units="Celsius" type="dew_point">18.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T05:00:00+10:00" duration="1200" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T19:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="109" time-utc="2025-03-16T18:30:00+00:00" time-local="2025-03-17T04:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="Celsius" type="air_temperature">18.5</element>
+          <element units="Celsius" type="dew_point">18.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T04:30:00+10:00" duration="1170" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T18:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="110" time-utc="2025-03-16T18:00:00+00:00" time-local="2025-03-17T04:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="Celsius" type="air_temperature">18.8</element>
+          <element units="Celsius" type="dew_point">18.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T04:00:00+10:00" duration="1140" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T18:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="111" time-utc="2025-03-16T17:30:00+00:00" time-local="2025-03-17T03:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="Celsius" type="air_temperature">19.2</element>
+          <element units="Celsius" type="dew_point">19.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T03:30:00+10:00" duration="1110" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T17:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="112" time-utc="2025-03-16T17:00:00+00:00" time-local="2025-03-17T03:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="Celsius" type="air_temperature">19.4</element>
+          <element units="Celsius" type="dew_point">19.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T03:00:00+10:00" duration="1080" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T17:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="113" time-utc="2025-03-16T16:30:00+00:00" time-local="2025-03-17T02:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.2</element>
+          <element units="Celsius" type="air_temperature">19.5</element>
+          <element units="Celsius" type="dew_point">19.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">98</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T02:30:00+10:00" duration="1050" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T16:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="114" time-utc="2025-03-16T16:00:00+00:00" time-local="2025-03-17T02:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="Celsius" type="air_temperature">19.4</element>
+          <element units="Celsius" type="dew_point">19.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T02:00:00+10:00" duration="1020" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T16:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="115" time-utc="2025-03-16T15:30:00+00:00" time-local="2025-03-17T01:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="Celsius" type="air_temperature">19.6</element>
+          <element units="Celsius" type="dew_point">19.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T01:30:00+10:00" duration="990" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T15:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="116" time-utc="2025-03-16T15:00:00+00:00" time-local="2025-03-17T01:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="Celsius" type="air_temperature">19.3</element>
+          <element units="Celsius" type="dew_point">19.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T01:00:00+10:00" duration="960" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T15:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="117" time-utc="2025-03-16T14:30:00+00:00" time-local="2025-03-17T00:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="Celsius" type="air_temperature">19.1</element>
+          <element units="Celsius" type="dew_point">18.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T00:30:00+10:00" duration="930" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T14:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="118" time-utc="2025-03-16T14:00:00+00:00" time-local="2025-03-17T00:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.1</element>
+          <element units="Celsius" type="air_temperature">19.1</element>
+          <element units="Celsius" type="dew_point">18.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">99</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-17T00:00:00+10:00" duration="900" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T14:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="119" time-utc="2025-03-16T13:30:00+00:00" time-local="2025-03-16T23:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.3</element>
+          <element units="Celsius" type="air_temperature">19.5</element>
+          <element units="Celsius" type="dew_point">19.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">98</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T23:30:00+10:00" duration="870" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T13:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="120" time-utc="2025-03-16T13:00:00+00:00" time-local="2025-03-16T23:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.3</element>
+          <element units="Celsius" type="air_temperature">19.7</element>
+          <element units="Celsius" type="dew_point">19.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">97</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T23:00:00+10:00" duration="840" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T13:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="121" time-utc="2025-03-16T12:30:00+00:00" time-local="2025-03-16T22:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.4</element>
+          <element units="Celsius" type="air_temperature">20.0</element>
+          <element units="Celsius" type="dew_point">19.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">96</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T22:30:00+10:00" duration="810" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T12:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="122" time-utc="2025-03-16T12:00:00+00:00" time-local="2025-03-16T22:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.5</element>
+          <element units="Celsius" type="air_temperature">20.2</element>
+          <element units="Celsius" type="dew_point">19.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">95</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T22:00:00+10:00" duration="780" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T12:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="123" time-utc="2025-03-16T11:30:00+00:00" time-local="2025-03-16T21:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.6</element>
+          <element units="Celsius" type="air_temperature">20.5</element>
+          <element units="Celsius" type="dew_point">19.6</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">95</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T21:30:00+10:00" duration="750" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T11:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="124" time-utc="2025-03-16T11:00:00+00:00" time-local="2025-03-16T21:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">0.9</element>
+          <element units="Celsius" type="air_temperature">20.9</element>
+          <element units="Celsius" type="dew_point">19.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">92</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T21:00:00+10:00" duration="720" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T11:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="125" time-utc="2025-03-16T10:30:00+00:00" time-local="2025-03-16T20:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.3</element>
+          <element units="Celsius" type="air_temperature">21.5</element>
+          <element units="Celsius" type="dew_point">19.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">88</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T20:30:00+10:00" duration="690" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T10:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="126" time-utc="2025-03-16T10:00:00+00:00" time-local="2025-03-16T20:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">1.4</element>
+          <element units="Celsius" type="air_temperature">22.2</element>
+          <element units="Celsius" type="dew_point">20.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">88</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T20:00:00+10:00" duration="660" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T10:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="127" time-utc="2025-03-16T09:30:00+00:00" time-local="2025-03-16T19:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">2.6</element>
+          <element units="Celsius" type="air_temperature">23.5</element>
+          <element units="Celsius" type="dew_point">19.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">78</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T19:30:00+10:00" duration="630" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T09:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="128" time-utc="2025-03-16T09:00:00+00:00" time-local="2025-03-16T19:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.3</element>
+          <element units="Celsius" type="air_temperature">24.4</element>
+          <element units="Celsius" type="dew_point">19.2</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">73</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T19:00:00+10:00" duration="600" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T09:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="129" time-utc="2025-03-16T08:30:00+00:00" time-local="2025-03-16T18:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">3.9</element>
+          <element units="Celsius" type="air_temperature">25.1</element>
+          <element units="Celsius" type="dew_point">19.0</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">69</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T18:30:00+10:00" duration="570" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T08:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="130" time-utc="2025-03-16T08:00:00+00:00" time-local="2025-03-16T18:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">4.7</element>
+          <element units="Celsius" type="air_temperature">26.3</element>
+          <element units="Celsius" type="dew_point">18.9</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">63</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T18:00:00+10:00" duration="540" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T08:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="131" time-utc="2025-03-16T07:30:00+00:00" time-local="2025-03-16T17:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">5.6</element>
+          <element units="Celsius" type="air_temperature">28.0</element>
+          <element units="Celsius" type="dew_point">19.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">59</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T17:30:00+10:00" duration="510" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T07:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="132" time-utc="2025-03-16T07:00:00+00:00" time-local="2025-03-16T17:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">6.3</element>
+          <element units="Celsius" type="air_temperature">29.0</element>
+          <element units="Celsius" type="dew_point">19.4</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">56</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T17:00:00+10:00" duration="480" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T07:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="133" time-utc="2025-03-16T06:30:00+00:00" time-local="2025-03-16T16:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">6.8</element>
+          <element units="Celsius" type="air_temperature">29.5</element>
+          <element units="Celsius" type="dew_point">19.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">53</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T16:30:00+10:00" duration="450" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T06:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="134" time-utc="2025-03-16T06:00:00+00:00" time-local="2025-03-16T16:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">6.6</element>
+          <element units="Celsius" type="air_temperature">29.7</element>
+          <element units="Celsius" type="dew_point">19.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">55</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T16:00:00+10:00" duration="420" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T06:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="135" time-utc="2025-03-16T05:30:00+00:00" time-local="2025-03-16T15:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">6.9</element>
+          <element units="Celsius" type="air_temperature">30.2</element>
+          <element units="Celsius" type="dew_point">19.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">53</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T15:30:00+10:00" duration="390" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T05:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="136" time-utc="2025-03-16T05:00:00+00:00" time-local="2025-03-16T15:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">7.9</element>
+          <element units="Celsius" type="air_temperature">31.2</element>
+          <element units="Celsius" type="dew_point">19.1</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">48</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T15:00:00+10:00" duration="360" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T05:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="137" time-utc="2025-03-16T04:30:00+00:00" time-local="2025-03-16T14:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">8.0</element>
+          <element units="Celsius" type="air_temperature">30.8</element>
+          <element units="Celsius" type="dew_point">18.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">47</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T14:30:00+10:00" duration="330" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T04:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="138" time-utc="2025-03-16T04:00:00+00:00" time-local="2025-03-16T14:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">8.3</element>
+          <element units="Celsius" type="air_temperature">32.0</element>
+          <element units="Celsius" type="dew_point">19.3</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">47</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T14:00:00+10:00" duration="300" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T04:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="139" time-utc="2025-03-16T03:30:00+00:00" time-local="2025-03-16T13:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">7.7</element>
+          <element units="Celsius" type="air_temperature">31.4</element>
+          <element units="Celsius" type="dew_point">19.8</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">50</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T13:30:00+10:00" duration="270" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T03:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="140" time-utc="2025-03-16T03:00:00+00:00" time-local="2025-03-16T13:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">9.0</element>
+          <element units="Celsius" type="air_temperature">31.5</element>
+          <element units="Celsius" type="dew_point">17.5</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">43</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T13:00:00+10:00" duration="240" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T03:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="141" time-utc="2025-03-16T02:30:00+00:00" time-local="2025-03-16T12:30:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">7.0</element>
+          <element units="Celsius" type="air_temperature">28.7</element>
+          <element units="Celsius" type="dew_point">17.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">51</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T12:30:00+10:00" duration="210" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T02:30:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+      <period index="142" time-utc="2025-03-16T02:00:00+00:00" time-local="2025-03-16T12:00:00+10:00">
+        <level index="0" type="surface">
+          <element units="Celsius" type="delta_t">8.4</element>
+          <element units="Celsius" type="air_temperature">30.8</element>
+          <element units="Celsius" type="dew_point">17.7</element>
+          <element units="mm" type="rain_hour">0.0</element>
+          <element units="mm" type="rain_ten">0.0</element>
+          <element units="%" type="rel-humidity">45</element>
+          <element start-time-local="2025-03-16T09:00:00+10:00" end-time-local="2025-03-16T12:00:00+10:00" duration="180" start-time-utc="2025-03-15T23:00:00+00:00" end-time-utc="2025-03-16T02:00:00+00:00" units="mm" type="rainfall">0.0</element>
+        </level>
+      </period>
+    </station>
+  </observations>
+</product>
