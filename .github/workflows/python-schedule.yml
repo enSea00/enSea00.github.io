@@ -24,4 +24,4 @@ jobs:
           pip install -r .github/workflows/requirements.txt
 
       - name: Run Python script
-        run: python getBoM_FTP.py
+        run: python .github/workflows/getBoM_FTP.py
