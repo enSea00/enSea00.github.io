@@ -31,9 +31,11 @@ jobs:
         run: |
           git config --global user.name "enSea00"
           git config --global user.email "nbcart@hotmail.com"
-          git checkout -b temp-branch
+          git fetch origin  # Ensure we have the latest changes from the remote
+          git checkout -b temp-branch origin/temp-branch || git checkout -b temp-branch  # Checkout remote branch, or create new one if it doesn't exist
           git add IDQ60910.tgz output.log
           git commit -m "Add downloaded file and log"
+          git pull origin temp-branch --rebase  # Pull remote changes to avoid conflicts
           git push origin temp-branch
 
       - name: Create Pull Request
