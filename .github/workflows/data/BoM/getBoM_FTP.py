@@ -71,13 +71,13 @@ ftp.quit()
 logging.info(f"FTP connection closed.")
 
 # Extract the .tgz file
-try:
-    with tarfile.open(local_file_path, "r:gz") as tar:
-        # Extract to the specified folder
-        tar.extractall(path=extracted_folder)
-    logging.info(f"File '{local_file_path}' extracted successfully into '{extracted_folder}'.")
-except tarfile.TarError as e:
-    logging.error(f"Error extracting the .tgz file: {e}")
+#try:
+#    with tarfile.open(local_file_path, "r:gz") as tar:
+#        # Extract to the specified folder
+#        tar.extractall(path=extracted_folder)
+#    logging.info(f"File '{local_file_path}' extracted successfully into '{extracted_folder}'.")
+#except tarfile.TarError as e:
+#    logging.error(f"Error extracting the .tgz file: {e}")
 
 # Log that the script finished
 logging.info("Script finished")
