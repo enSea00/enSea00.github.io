@@ -17,11 +17,11 @@ jobs:
         run: |
           curl -o IDQ60910.tgz "ftp://ftp.bom.gov.au/anon/gen/fwo/IDQ60910.tgz"
 
-      - name: Extract TGZ file
+      - name: Extract only JSON files from TGZ
         run: |
           mkdir extracted
-          tar -xzf IDQ60910.tgz -C extracted
-
+          tar -xzf IDQ60910.tgz --wildcards --no-anchored '*.json' -C extracted
+          
       - name: Cache extracted files (optional)
         uses: actions/cache@v4
         with:
