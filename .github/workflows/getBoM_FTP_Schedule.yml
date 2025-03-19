@@ -43,7 +43,7 @@ jobs:
         run: |
           git config --global user.name "enSea00"
           git config --global user.email "nbcart@hotmail.com"
-          mv extracted/* data/BoM/
-          git add data/BoM/extracted
+          mv extracted/* .github/workflows/data/BoM/
+          git add .github/workflows/data/BoM/
           git commit -m "Add extracted files from TGZ to sub-folder"
           git push
