@@ -13,64 +13,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-
-      - name: Install dependencies
+      - name: Download Qld AWS Data
         run: |
-          python -m pip install --upgrade pip
-          pip install -r .github/workflows/data/BoM/requirements.txt
+            curl https://build5nines.com/folder/file.json --output ./file.json
+            ftp://ftp.bom.gov.au/anon/gen/fwo/IDQ60910.tgz -- output .github/workflows/data/BoM/IDQ60910.tgz
+            working-directory: ${{ github.workspace }}
 
-      - name: Run Python script and log output
-        run: |
-          python .github/workflows/data/BoM/getBoM_FTP.py >> output.log 2>&1  # Append both stdout and stderr to output.log
-
-      - name: Check if files exist
-        run: |
-          ls -l IDQ60910.tgz
-          ls -l output.log
-
-      - name: Check status before commit
-        run: |
-          git status
-
-      - name: Commit changes to a temporary branch
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "enSea00"
           git config --global user.email "nbcart@hotmail.com"
-          git fetch origin  # Ensure we have the latest changes from the remote
-          
-          # Add untracked files to the staging area
-          git add IDQ60910.tgz output.log
-          
-          # Commit changes
-          git commit -m "Add downloaded file and log"
-
-          # Checkout the temp-branch and handle possible conflicts
-          git checkout temp-branch || git checkout -b temp-branch  # Create temp-branch if it doesn't exist
-
-          # Merge changes from temp-branch with rebase to avoid conflicts
-          git pull origin temp-branch --rebase || echo "Merge conflict detected, skipping rebase."
-
-          # Push changes to the remote repository
-          git push origin temp-branch
-
-      - name: Merge changes into main branch
-        run: |
-          # Checkout the main branch
-          git checkout main
-
-          # Pull the latest changes from main to avoid conflicts
-          git pull origin main
-
-          # Merge temp-branch into main
-          git merge temp-branch
-
-          # Push changes to the main branch
-          git push origin main
-
-      - name: Verify push was successful
-        run: |
-          git log --oneline -n 1
+      
+          git add .github/workflows/data/BoM/IDQ60910.tgz
+          git commit -m 'Update downloaded file'
+          git push      
