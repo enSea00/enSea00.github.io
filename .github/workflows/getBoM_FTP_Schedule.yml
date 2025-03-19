@@ -43,7 +43,7 @@ jobs:
           git fetch origin  # Ensure we have the latest changes from the remote
           
           # Add untracked files to the staging area
-          git add IDQ60910 output.log
+          git add IDQ60910.tgz output.log
           
           # Commit changes
           git commit -m "Add downloaded file and log"
@@ -51,11 +51,25 @@ jobs:
           # Checkout the temp-branch and handle possible conflicts
           git checkout temp-branch || git checkout -b temp-branch  # Create temp-branch if it doesn't exist
 
-          # Merge changes from main or temp-branch with rebase to avoid conflicts
+          # Merge changes from temp-branch with rebase to avoid conflicts
           git pull origin temp-branch --rebase || echo "Merge conflict detected, skipping rebase."
 
           # Push changes to the remote repository
           git push origin temp-branch
+
+      - name: Merge changes into main branch
+        run: |
+          # Checkout the main branch
+          git checkout main
+
+          # Pull the latest changes from main to avoid conflicts
+          git pull origin main
+
+          # Merge temp-branch into main
+          git merge temp-branch
+
+          # Push changes to the main branch
+          git push origin main
 
       - name: Verify push was successful
         run: |
