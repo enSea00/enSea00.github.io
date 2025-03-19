@@ -1,4 +1,4 @@
-name: Python Scheduled Task
+name: Get BoM FTP Data
 
 on:
   schedule:
@@ -25,7 +25,7 @@ jobs:
 
       - name: Run Python script and log output
         run: |
-          python .github/workflows/getBoM_FTP.py >> output.log 2>&1  # Append both stdout and stderr to output.log
+          python .github/workflows/data/BoM/getBoM_FTP.py >> output.log 2>&1  # Append both stdout and stderr to output.log
 
       - name: Commit changes to a temporary branch
         run: |
