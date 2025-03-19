@@ -21,29 +21,32 @@ jobs:
         run: |
           mkdir extracted
           tar -xzf IDQ60910.tgz --wildcards --no-anchored '*.json' -C extracted
+
+      - name: Collate JSON files into one master.json
+        run: |
+          # Initialize an empty JSON array
+          echo "[]" > extracted/master.json
           
-      - name: Cache extracted files (optional)
-        uses: actions/cache@v4
-        with:
-          path: extracted
-          key: tgz-cache-${{ runner.os }}-${{ github.run_id }}
-          restore-keys: tgz-cache-${{ runner.os }}-
+          # Loop through all JSON files and merge them into master.json
+          for file in extracted/*.json; do
+            jq -s '.[0] + .[1]' extracted/master.json "$file" > temp.json && mv temp.json extracted/master.json
+          done
 
       - name: List extracted contents
         run: |
           ls -l extracted
 
-      - name: Upload extracted files as artifact (optional)
+      - name: Upload master.json as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: extracted-files
-          path: extracted
+          name: master-json-file
+          path: extracted/master.json
 
-      - name: Commit extracted files to repository
+      - name: Commit master.json to repository
         run: |
           git config --global user.name "enSea00"
           git config --global user.email "nbcart@hotmail.com"
-          mv extracted/* .github/workflows/data/BoM/
-          git add .github/workflows/data/BoM/
-          git commit -m "Add extracted files from TGZ to sub-folder"
+          mv extracted/master.json .github/workflows/data/BoM/
+          git add .github/workflows/data/BoM/master.json
+          git commit -m "Add collated master.json file"
           git push
