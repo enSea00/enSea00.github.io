@@ -25,3 +25,13 @@ jobs:
 
       - name: Run Python script
         run: python .github/workflows/getBoM_FTP.py
+
+      - name: Commit and push the file to repository
+        run: |
+          git config --global user.name "enSea00"
+          git config --global user.email "nbcart@hotmail.com"
+          git add IDQ60910.tgz  # The file you want to push
+          git commit -m "Add downloaded file"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Uses GitHub token for authentication
