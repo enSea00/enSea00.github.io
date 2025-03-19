@@ -15,7 +15,7 @@ ftp_host = "ftp.bom.gov.au"
 # ftp_host = "134.178.253.145"  # IP address for ftp.bom.gov.au
 ftp_file_path = "/anon/gen/fwo/IDQ60910.tgz"
 local_file_path = "IDQ60910.tgz"
-extracted_folder = "extracted_files"
+extracted_folder = "IDQ60910"
 
 # Log that the script started
 logging.info("Script started")
