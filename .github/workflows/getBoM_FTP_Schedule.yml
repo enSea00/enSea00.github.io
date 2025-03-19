@@ -43,7 +43,7 @@ jobs:
           git fetch origin  # Ensure we have the latest changes from the remote
           
           # Add untracked files to the staging area
-          git add IDQ60910.tgz output.log
+          git add IDQ60910 output.log
           
           # Commit changes
           git commit -m "Add downloaded file and log"
