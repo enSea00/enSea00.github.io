@@ -68,6 +68,53 @@ def extract_floodmap_links(html_content):
     
     return links
 
+import re
+import requests
+from bs4 import BeautifulSoup
+
+def extract_river_data(url):
+    response = requests.get(url)
+    if response.status_code != 200:
+        return []
+    
+    soup = BeautifulSoup(response.text, 'html.parser')
+    
+    # Find the <map> element
+    map_element = soup.find('map')
+    if not map_element:
+        return []
+    
+    data_list = []
+    
+    for area in map_element.find_all('area'):
+        onmouseover = area.get('onMouseOver', '')
+        
+        # Match the javascript:PopupRiver function call
+        match = re.search(r"PopupRiver\('(.+?)','(.+?)','(.+?)','(.+?)','(.+?)','(.+?)','(.+?)','(.+?)','(.+?)','(.+?)','(.+?)'", onmouseover)
+        if match:
+            data = {
+                "name": match.group(1).strip(),
+                "station_id": match.group(2).strip(),
+                "lat": float(match.group(3).strip()),
+                "lon": float(match.group(4).strip()),
+                "current_level": float(match.group(5).strip()),
+                "flood_category": match.group(6).strip(),
+                "trend": match.group(7).strip(),
+                "timestamp": match.group(8).strip(),
+                "minor_flood": match.group(9).strip(),
+                "moderate_flood": match.group(10).strip(),
+                "major_flood": match.group(11).strip(),
+                "plot_url": area.get('href', '')  # Extract the link
+            }
+            data_list.append(data)
+    
+    return data_list
+
+# Example usage
+url = "https://www.bom.gov.au/qld/flood/map.shtml"
+
+print(river_data)
+
 
 # Main ########################################
 
@@ -79,4 +126,6 @@ for ii,state in enumerate(list_of_states):
     
     for jj,link in enumerate(flood_links):
         print(link)
+        url = 'http://www.bom.gov.au/qld/flood/north.shtml
+        river_data = extract_river_data(link)
         # Get the station details

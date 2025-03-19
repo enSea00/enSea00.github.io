@@ -236,16 +236,12 @@ Object.keys(groupedLocations).forEach((dataType) => {
         });
 
         // Open URL on click (note: `loc.URL` instead of `loc.url`)
-        // marker.on('click', () => {
-        //     if (loc.URL) {
-        //         window.open(loc.URL, '_blank');
-        //     }
-        // });
-        
-        marker.on('click', function() {
-            fetchAndPlotWeatherData(loc.URL); 
+        marker.on('click', () => {
+            if (loc.URL) {
+                window.open(loc.URL, '_blank');
+            }
         });
-
+        
         // Add marker to the marker cluster for this DataType
         markers.addLayer(marker);
     });
@@ -413,4 +409,4 @@ Promise.all(loadingPromises).then(() => {
     // console.log("All map elements are fully loaded.");
 });
 
-// AWS PLOTTER ////////////////////////////////////////////////////////////////////////////////////////
+// END OF SCRIPT ////////////////////////////////////////////////////////////////////////////////////////
