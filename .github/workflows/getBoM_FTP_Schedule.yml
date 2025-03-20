@@ -27,7 +27,7 @@ jobs:
         with:
           name: single-json-file
           path: extracted/IDQ60910.99127.json
-          
+
       - name: Collate JSON files into one master.json
         run: |
           # Initialize an empty JSON array
@@ -43,9 +43,10 @@ jobs:
             fi
           done
 
-      - name: List extracted contents
+      - name: List all extracted files
         run: |
-          ls -l extracted
+          echo "Listing all files extracted from the TGZ:"
+          ls -R extracted  # List files recursively, including in subdirectories
 
       - name: Upload master.json as artifact
         uses: actions/upload-artifact@v4
