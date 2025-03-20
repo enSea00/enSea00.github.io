@@ -39,32 +39,42 @@ jobs:
           echo "Listing contents of the TGZ file:"
           tar -tzf IDQ60910.tgz  # List files inside the archive
 
-      - name: Extract only JSON files from TGZ
+      - name: Extract all contents (debugging extraction)
         run: |
           mkdir extracted
-          tar -xzf IDQ60910.tgz --wildcards --no-anchored '*.json' -C extracted
+          tar -xzf IDQ60910.tgz -C extracted  # Extract everything first to check content
 
       - name: List all extracted files
         run: |
           echo "Listing all files extracted from the TGZ:"
           ls -R extracted  # List files recursively, including in subdirectories
 
+      - name: Extract only JSON files from TGZ
+        run: |
+          mkdir extracted_json
+          tar -xzf IDQ60910.tgz --wildcards --no-anchored '*.json' -C extracted_json  # Extract only .json files
+          
+      - name: List extracted JSON files
+        run: |
+          echo "Listing only .json files extracted from the TGZ:"
+          ls -R extracted_json  # Verify only JSON files were extracted
+
       - name: Upload single .json as artifact
         uses: actions/upload-artifact@v4
         with:
           name: single-json-file
-          path: extracted/IDQ60910.94170.json  # Upload one of the extracted files as a sample
+          path: extracted_json/IDQ60910.94170.json  # Upload one of the extracted files as a sample
 
       - name: Collate JSON files into one master.json
         run: |
           # Initialize an empty JSON array
-          echo "[]" > extracted/master.json
+          echo "[]" > extracted_json/master.json
           
           # Loop through all JSON files and merge them into master.json
-          for file in extracted/*.json; do
+          for file in extracted_json/*.json; do
             # Check if the file is empty before trying to merge
             if [ -s "$file" ]; then
-              jq -s '.[0] + .[1]' extracted/master.json "$file" > temp.json && mv temp.json extracted/master.json
+              jq -s '.[0] + .[1]' extracted_json/master.json "$file" > temp.json && mv temp.json extracted_json/master.json
             else
               echo "Skipping empty file: $file"
             fi
@@ -74,13 +84,13 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: master-json-file
-          path: extracted/master.json
+          path: extracted_json/master.json
 
       - name: Commit master.json to repository
         run: |
           git config --global user.name "enSea00"
           git config --global user.email "nbcart@hotmail.com"
-          mv extracted/master.json .github/workflows/data/BoM/
+          mv extracted_json/master.json .github/workflows/data/BoM/
           git add .github/workflows/data/BoM/master.json
           git commit -m "Add collated master.json file"
           git push
