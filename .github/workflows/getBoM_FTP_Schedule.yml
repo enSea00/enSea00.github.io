@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       - name: Print current working directory
         run: |
           pwd  # This will print the path of the current directory
@@ -33,6 +33,11 @@ jobs:
           else
             echo "TGZ file successfully downloaded."
           fi
+
+      - name: List contents of TGZ file (before extraction)
+        run: |
+          echo "Listing contents of the TGZ file:"
+          tar -tzf IDQ60910.tgz  # List files inside the archive
 
       - name: Extract only JSON files from TGZ
         run: |
