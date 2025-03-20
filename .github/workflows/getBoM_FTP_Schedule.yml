@@ -53,7 +53,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: single-json-file
-          path: extracted/IDQ60910.99127.json
+          path: extracted/IDQ60910.94170.json  # Upload one of the extracted files as a sample
 
       - name: Collate JSON files into one master.json
         run: |
