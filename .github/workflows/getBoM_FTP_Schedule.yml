@@ -52,7 +52,7 @@ jobs:
       - name: Collate JSON files into one master.json
         run: |
           # Initialize an empty JSON array
-          echo "[]" > extracted/master.json
+          echo "{}" > extracted/master.json
           
           # Loop through all JSON files and merge them into master.json
           for file in extracted/*.json; do
