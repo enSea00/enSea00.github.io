@@ -22,6 +22,12 @@ jobs:
           mkdir extracted
           tar -xzf IDQ60910.tgz --wildcards --no-anchored '*.json' -C extracted
 
+      - name: Upload single .json as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: single-json-file
+          path: extracted/IDQ60910.99127.json
+          
       - name: Collate JSON files into one master.json
         run: |
           # Initialize an empty JSON array
