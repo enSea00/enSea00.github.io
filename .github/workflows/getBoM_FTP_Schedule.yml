@@ -29,7 +29,12 @@ jobs:
           
           # Loop through all JSON files and merge them into master.json
           for file in extracted/*.json; do
-            jq -s '.[0] + .[1]' extracted/master.json "$file" > temp.json && mv temp.json extracted/master.json
+            # Check if the file is empty before trying to merge
+            if [ -s "$file" ]; then
+              jq -s '.[0] + .[1]' extracted/master.json "$file" > temp.json && mv temp.json extracted/master.json
+            else
+              echo "Skipping empty file: $file"
+            fi
           done
 
       - name: List extracted contents
