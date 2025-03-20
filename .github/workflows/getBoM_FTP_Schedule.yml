@@ -52,19 +52,20 @@ jobs:
       - name: Collate JSON files into one master.json
         run: |
           # Initialize an empty JSON array
-          echo "{}" > extracted/master.json
-          
+          echo "[]" > extracted/master.json
+      
           # Loop through all JSON files and merge them into master.json
           for file in extracted/*.json; do
-            echo $file
+            echo "Processing file: $file"
             # Check if the file is empty before trying to merge
             if [ -s "$file" ]; then
-              jq -s '.[0] + .[1]' extracted/master.json "$file" > temp.json && mv temp.json extracted/master.json
+              # Append the content of each JSON file to the master.json array
+              jq '. + [input]' extracted/master.json "$file" > temp.json && mv temp.json extracted/master.json
             else
               echo "Skipping empty file: $file"
             fi
           done
-
+          
       - name: Upload master.json as artifact
         uses: actions/upload-artifact@v4
         with:
