@@ -12,6 +12,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      
+      - name: Print current working directory
+        run: |
+          pwd  # This will print the path of the current directory
+          ls -l  # This will list the files in the current directory to ensure the .tgz file is there
 
       - name: Download TGZ file from public FTP
         run: |
