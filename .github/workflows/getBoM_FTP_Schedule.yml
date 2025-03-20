@@ -55,7 +55,7 @@ jobs:
           echo "[]" > extracted/master.json
           
           # Loop through all JSON files and merge them into master.json
-          for file in extracted/**/*.json; do
+          for file in extracted/*.json; do
             echo $file
             # Check if the file is empty before trying to merge
             if [ -s "$file" ]; then
