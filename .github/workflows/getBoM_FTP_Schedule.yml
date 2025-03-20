@@ -17,6 +17,18 @@ jobs:
         run: |
           curl -o IDQ60910.tgz "ftp://ftp.bom.gov.au/anon/gen/fwo/IDQ60910.tgz"
 
+      - name: Check if TGZ file was downloaded
+        run: |
+          if [ ! -f "IDQ60910.tgz" ]; then
+            echo "TGZ file not downloaded, exiting."
+            exit 1  # Exit the workflow if the file is not found
+          elif [ ! -s "IDQ60910.tgz" ]; then
+            echo "TGZ file is empty, exiting."
+            exit 1  # Exit the workflow if the file is empty
+          else
+            echo "TGZ file successfully downloaded."
+          fi
+
       - name: Extract only JSON files from TGZ
         run: |
           mkdir extracted
@@ -47,8 +59,6 @@ jobs:
               echo "Skipping empty file: $file"
             fi
           done
-
-
 
       - name: Upload master.json as artifact
         uses: actions/upload-artifact@v4
