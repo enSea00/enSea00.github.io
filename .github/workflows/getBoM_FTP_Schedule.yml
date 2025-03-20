@@ -22,6 +22,11 @@ jobs:
           mkdir extracted
           tar -xzf IDQ60910.tgz --wildcards --no-anchored '*.json' -C extracted
 
+      - name: List all extracted files
+        run: |
+          echo "Listing all files extracted from the TGZ:"
+          ls -R extracted  # List files recursively, including in subdirectories
+
       - name: Upload single .json as artifact
         uses: actions/upload-artifact@v4
         with:
@@ -43,10 +48,7 @@ jobs:
             fi
           done
 
-      - name: List all extracted files
-        run: |
-          echo "Listing all files extracted from the TGZ:"
-          ls -R extracted  # List files recursively, including in subdirectories
+
 
       - name: Upload master.json as artifact
         uses: actions/upload-artifact@v4
