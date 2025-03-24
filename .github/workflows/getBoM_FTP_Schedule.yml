@@ -1,76 +1,82 @@
-name: Get BoM FTP Data
+name: Download TGZ File
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"  # Run every 15 minutes
-  workflow_dispatch:  # Allows for manual triggering
+    - cron: '*/15 * * * *'  # Runs every 15 minutes
 
 jobs:
-  download_and_extract_file:
+  download:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
+      - name: Print current working directory
+        run: |
+          pwd  # This will print the path of the current directory
+          ls -l  # This will list the files in the current directory to ensure the .tgz file is there
+
+      - name: Download TGZ file from public FTP
+        run: |
+          curl -o IDQ60910.tgz "ftp://ftp.bom.gov.au/anon/gen/fwo/IDQ60910.tgz"
+
+      - name: Check if TGZ file was downloaded
+        run: |
+          if [ ! -f "IDQ60910.tgz" ]; then
+            echo "TGZ file not downloaded, exiting."
+            exit 1  # Exit the workflow if the file is not found
+          elif [ ! -s "IDQ60910.tgz" ]; then
+            echo "TGZ file is empty, exiting."
+            exit 1  # Exit the workflow if the file is empty
+          else
+            echo "TGZ file successfully downloaded."
+          fi
+
+      - name: List contents of TGZ file (before extraction)
+        run: |
+          echo "Listing contents of the TGZ file:"
+          tar -tzf IDQ60910.tgz  # List files inside the archive
+
+      - name: Extract all contents (debugging extraction)
+        run: |
+          mkdir extracted
+          tar -xzf IDQ60910.tgz -C extracted  # Extract everything first to check content
+
+      - name: List all extracted files
+        run: |
+          echo "Listing all files extracted from the TGZ:"
+          ls -R extracted  # List files recursively, including in subdirectories
+
+      - name: Collate JSON files into one master.json
+        run: |
+          # Initialize an empty JSON array
+          echo "[]" > extracted/master.json
+      
+          # Loop through all JSON files and merge them into master.json
+          for file in extracted/*.json; do
+            echo "Processing file: $file"
+            # Check if the file is empty before trying to merge
+            if [ -s "$file" ]; then
+              # Append the content of each JSON file to the master.json array
+              jq '. + [input]' extracted/master.json "$file" > temp.json && mv temp.json extracted/master.json
+            else
+              echo "Skipping empty file: $file"
+            fi
+          done
+          
+      - name: Upload master.json as artifact
+        uses: actions/upload-artifact@v4
         with:
-          python-version: '3.x'
+          name: master-json-file
+          path: extracted/master.json
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r .github/workflows/data/BoM/requirements.txt
-
-      - name: Run Python script and log output
-        run: |
-          python .github/workflows/data/BoM/getBoM_FTP.py >> output.log 2>&1  # Append both stdout and stderr to output.log
-
-      - name: Check if files exist
-        run: |
-          ls -l IDQ60910.tgz
-          ls -l output.log
-
-      - name: Check status before commit
-        run: |
-          git status
-
-      - name: Commit changes to a temporary branch
+      - name: Commit master.json to repository
         run: |
           git config --global user.name "enSea00"
           git config --global user.email "nbcart@hotmail.com"
-          git fetch origin  # Ensure we have the latest changes from the remote
-          
-          # Add untracked files to the staging area
-          git add IDQ60910.tgz output.log
-          
-          # Commit changes
-          git commit -m "Add downloaded file and log"
-
-          # Checkout the temp-branch and handle possible conflicts
-          git checkout temp-branch || git checkout -b temp-branch  # Create temp-branch if it doesn't exist
-
-          # Merge changes from temp-branch with rebase to avoid conflicts
-          git pull origin temp-branch --rebase || echo "Merge conflict detected, skipping rebase."
-
-          # Push changes to the remote repository
-          git push origin temp-branch
-
-      - name: Merge changes into main branch
-        run: |
-          # Checkout the main branch
-          git checkout main
-
-          # Pull the latest changes from main to avoid conflicts
-          git pull origin main
-
-          # Merge temp-branch into main
-          git merge temp-branch
-
-          # Push changes to the main branch
-          git push origin main
-
-      - name: Verify push was successful
-        run: |
-          git log --oneline -n 1
+          mv extracted/master.json .github/workflows/data/BoM/
+          git add .github/workflows/data/BoM/master.json
+          git commit -m "Add collated master.json file"
+          git push
