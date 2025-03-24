@@ -257,6 +257,50 @@ Object.keys(groupedLocations).forEach((dataType) => {
     map.addLayer(markers);
 });
 
+// LOCATION SEARCH ////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Add geocoder search control
+var geocoder = L.Control.geocoder({
+    defaultMarkGeocode: false,
+    geocoder: L.Control.Geocoder.nominatim()  // Use Nominatim (OSM) for location search
+})
+.on('markgeocode', function(e) {
+    var latlng = e.geocode.center;
+    
+    // Smoothly fly to the searched location
+    map.flyTo(latlng, 12, { duration: 1.5 });
+
+    let shortName = e.geocode.name.split(',')[0].trim();
+
+    // Styled popup content
+    const popupContent = `
+    <div style="text-align: center; font-size:14px;">
+        <b>${shortName}</b><br>
+        (${latlng.lng.toFixed(5)}°E, ${latlng.lat.toFixed(5)}°N)
+    </div>
+    `;
+
+    // Only open a popup at the searched location (no marker)
+    // map.openPopup(popupContent, latlng);
+
+    // Open a popup and display a marker
+
+    // Define a custom marker icon
+    // var customIcon = L.icon({
+    //     iconUrl: 'https://cdn-icons-png.flaticon.com/64/684/684908.png', // Custom marker image URL
+    //     iconSize: [50, 50], // Size of the icon [width, height]
+    //     iconAnchor: [20, 40], // Anchor point (where the tip is located)
+    //     popupAnchor: [0, -55] // Adjust popup position
+    // });
+
+    // L.marker(latlng, {icon: customIcon}).addTo(map)
+    // .bindPopup(popupContent)
+    // .openPopup();
+})
+.addTo(map);
+
+
 // LEGEND ////////////////////////////////////////////////////////////////////////////////////////
 
 // Add an interactive legend to the map

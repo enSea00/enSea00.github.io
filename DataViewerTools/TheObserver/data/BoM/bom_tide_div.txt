@@ -1,0 +1,882 @@
+<div id="location-list" style="display: none;">
+    <span id="location-list-controls">
+        <a id="location-list-control-show" href="#">Show all</a>&nbsp;|&nbsp;<a id="location-list-control-hide" href="#">Hide all</a>
+    </span>
+    <div id="location-list-default">
+        <p>Select a state, territory or region above to view prediction locations.</p>
+    </div>
+    <div id="nsw" class="locations-list" style="display: none;">
+        <h3>New South Wales</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/nsw-ballina" class="feature" id="NSW_TP009">Ballina</a></li>
+<li><a href="#!/nsw-bermagui" class="feature" id="NSW_TP010">Bermagui</a></li>
+<li><a href="#!/nsw-botany-bay" class="feature" id="NSW_TP001">Botany Bay</a></li>
+<li><a href="#!/nsw-broughton-i" class="feature" id="NSW_TP037">Broughton I.</a></li>
+<li><a href="#!/nsw-brunswick-heads" class="feature" id="NSW_TP016">Brunswick Heads</a></li>
+<li><a href="#!/nsw-camden-haven" class="feature" id="NSW_TP038">Camden Haven</a></li>
+<li><a href="#!/nsw-camp-cove" class="feature" id="NSW_TP011">Camp Cove</a></li>
+<li><a href="#!/nsw-coffs-harbour" class="feature" id="NSW_TP012">Coffs Harbour</a></li>
+<li><a href="#!/nsw-crookhaven-heads" class="feature" id="NSW_TP027">Crookhaven Heads</a></li>
+<li><a href="#!/nsw-crowdy-head" class="feature" id="NSW_TP017">Crowdy Head</a></li>
+<li><a href="#!/nsw-dangar-i" class="feature" id="NSW_TP034">Dangar I.</a></li>
+<li><a href="#!/nsw-eden" class="feature" id="NSW_TP002">Eden</a></li>
+<li><a href="#!/nsw-ettalong" class="feature" id="NSW_TP035">Ettalong</a></li>
+<li><a href="#!/nsw-evans-head" class="feature" id="NSW_TP013">Evans Head</a></li>
+<li><a href="#!/nsw-forster" class="feature" id="NSW_TP018">Forster</a></li>
+<li><a href="#!/nsw-gosford" class="feature" id="NSW_TP036">Gosford</a></li>
+<li><a href="#!/nsw-harrington-inlet" class="feature" id="NSW_TP019">Harrington Inlet</a></li>
+<li><a href="#!/nsw-huskisson" class="feature" id="NSW_TP031">Huskisson</a></li>
+<li><a href="#!/nsw-jervis-bay" class="feature" id="NSW_TP014">Jervis Bay</a></li>
+</ul><ul>
+<li><a href="#!/nsw-kingscliff" class="feature" id="NSW_TP029">Kingscliff</a></li>
+<li><a href="#!/nsw-ku-ring-gai-yc" class="feature" id="NSW_TP033">Ku-Ring-Gai Y.C.</a></li>
+<li><a href="#!/nsw-lord-howe-island" class="feature" id="NSW_TP003">Lord Howe Island</a></li>
+<li><a href="#!/nsw-moruya" class="feature" id="NSW_TP030">Moruya</a></li>
+<li><a href="#!/nsw-newcastle" class="feature" id="NSW_TP004">Newcastle</a></li>
+<li><a href="#!/nsw-nw-solitary-i" class="feature" id="NSW_TP039">Nw Solitary I.</a></li>
+<li><a href="#!/nsw-patonga" class="feature" id="NSW_TP020">Patonga</a></li>
+<li><a href="#!/nsw-port-hacking" class="feature" id="NSW_TP021">Port Hacking</a></li>
+<li><a href="#!/nsw-port-kembla" class="feature" id="NSW_TP006">Port Kembla</a></li>
+<li><a href="#!/nsw-port-macquarie" class="feature" id="NSW_TP026">Port Macquarie</a></li>
+<li><a href="#!/nsw-port-stephens" class="feature" id="NSW_TP015">Port Stephens</a></li>
+<li><a href="#!/nsw-princess-jetty" class="feature" id="NSW_TP022">Princess Jetty</a></li>
+<li><a href="#!/nsw-sand-pt-pittwater" class="feature" id="NSW_TP032">Sand Pt (Pittwater)</a></li>
+<li><a href="#!/nsw-south-west-rocks" class="feature" id="NSW_TP023">South West Rocks</a></li>
+<li><a href="#!/nsw-swansea" class="feature" id="NSW_TP024">Swansea</a></li>
+<li><a href="#!/nsw-sydney-fort-denison" class="feature" id="NSW_TP007">Sydney (Fort Denison)</a></li>
+<li><a href="#!/nsw-tweed-heads" class="feature" id="NSW_TP028">Tweed Heads</a></li>
+<li><a href="#!/nsw-ulladulla-harbour" class="feature" id="NSW_TP025">Ulladulla Harbour</a></li>
+<li><a href="#!/nsw-yamba" class="feature" id="NSW_TP008">Yamba</a></li>
+</ul>
+        </div>
+    </div>
+    <div id="vic" class="locations-list" style="display: none;">
+        <h3>Victoria</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/vic-altona" class="feature" id="VIC_TP014">Altona</a></li>
+<li><a href="#!/vic-apollo-bay" class="feature" id="VIC_TP038">Apollo Bay</a></li>
+<li><a href="#!/vic-barracouta-platform" class="feature" id="VIC_TP015">Barracouta Platform</a></li>
+<li><a href="#!/vic-barwon-heads" class="feature" id="VIC_TP016">Barwon Heads</a></li>
+<li><a href="#!/vic-bouchier-channel" class="feature" id="VIC_TP017">Bouchier Channel</a></li>
+<li><a href="#!/vic-cowes-jetty" class="feature" id="VIC_TP018">Cowes Jetty</a></li>
+<li><a href="#!/vic-elizabeth-island" class="feature" id="VIC_TP019">Elizabeth Island</a></li>
+<li><a href="#!/vic-flinders-jetty" class="feature" id="VIC_TP020">Flinders Jetty</a></li>
+<li><a href="#!/vic-gabo-i" class="feature" id="VIC_TP039">Gabo I.</a></li>
+<li><a href="#!/vic-geelong" class="feature" id="VIC_TP005">Geelong</a></li>
+<li><a href="#!/vic-hovell-pile" class="feature" id="VIC_TP006">Hovell Pile</a></li>
+<li><a href="#!/vic-lakes-entrance-outer" class="feature" id="VIC_TP001">Lakes Entrance (Outer)</a></li>
+<li><a href="#!/vic-lorne" class="feature" id="VIC_TP002">Lorne</a></li>
+<li><a href="#!/vic-melbourne-williamstown" class="feature" id="VIC_TP003">Melbourne (Williamstown)</a></li>
+<li><a href="#!/vic-mornington" class="feature" id="VIC_TP022">Mornington</a></li>
+<li><a href="#!/vic-port-fairy" class="feature" id="VIC_TP025">Port Fairy</a></li>
+<li><a href="#!/vic-point-hicks" class="feature" id="VIC_TP041">Point Hicks</a></li>
+<li><a href="#!/vic-point-lonsdale" class="feature" id="VIC_TP009">Point Lonsdale</a></li>
+<li><a href="#!/vic-point-richards-corio-bay" class="feature" id="VIC_TP004">Point Richards (Corio Bay)</a></li>
+<li><a href="#!/vic-port-welshpool-pier" class="feature" id="VIC_TP010">Port Welshpool Pier</a></li>
+</ul>
+<ul>
+<li><a href="#!/vic-portland" class="feature" id="VIC_TP011">Portland</a></li>
+<li><a href="#!/vic-port-campbell" class="feature" id="VIC_TP040">Port Campbell</a></li>
+<li><a href="#!/vic-queenscliff" class="feature" id="VIC_TP007">Queenscliff</a></li>
+<li><a href="#!/vic-rabbit-island" class="feature" id="VIC_TP012">Rabbit Island</a></li>
+<li><a href="#!/vic-rosebud-jetty" class="feature" id="VIC_TP026">Rosebud Jetty</a></li>
+<li><a href="#!/vic-san-remo" class="feature" id="VIC_TP029">San Remo</a></li>
+<li><a href="#!/vic-sandringham" class="feature" id="VIC_TP030">Sandringham</a></li>
+<li><a href="#!/vic-south-channel" class="feature" id="VIC_TP032">South Channel</a></li>
+<li><a href="#!/vic-st-kilda" class="feature" id="VIC_TP027">St Kilda</a></li>
+<li><a href="#!/vic-st-leonards" class="feature" id="VIC_TP028">St Leonards</a></li>
+<li><a href="#!/vic-tooradin" class="feature" id="VIC_TP033">Tooradin</a></li>
+<li><a href="#!/vic-waratah-bay" class="feature" id="VIC_TP044">Waratah Bay</a></li>
+<li><a href="#!/vic-warrnambool" class="feature" id="VIC_TP047">Warrnambool</a></li>
+<li><a href="#!/vic-werribee" class="feature" id="VIC_TP034">Werribee</a></li>
+<li><a href="#!/vic-west-channel-pile" class="feature" id="VIC_TP008">West Channel Pile</a></li>
+<!-- <li><a href="#" class="feature" id="VIC_TP035">West Channel Pile Light</a></li> -->
+<!-- <li><a href="#" class="feature" id="VIC_TP036">West Channel Wedge Light</a></li> -->
+<li><a href="#!/vic-western-port-sandy-point" class="feature" id="VIC_TP031">Western Port (Sandy Point)</a></li>
+<li><a href="#!/vic-western-port-stony-point" class="feature" id="VIC_TP013">Western Port (Stony Point)</a></li>
+<li><a href="#!/vic-wilson-spit" class="feature" id="VIC_TP037">Wilson Spit</a></li>
+</ul>
+<ul>
+<li class="stream"><a href="#!/vic-the-rip" class="feature" id="stream_VIC_TS001">The Rip</a> <span class="bonus">(Tidal
+Stream)</span></li>
+</ul>
+
+        </div>
+    </div>
+    <div id="qld-eastern-gulf" class="locations-list" style="display: none;">
+        <h3>Queensland - Eastern Gulf</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/qld-albert-river-mouth" class="feature" id="QLD_TP139">Albert River Mouth</a></li>
+<li><a href="#!/qld-archer-river" class="feature" id="QLD_TP038">Archer River</a></li>
+<li><a href="#!/qld-bountiful-island" class="feature" id="QLD_TP045">Bountiful Island</a></li>
+<li><a href="#!/qld-boyd-point" class="feature" id="QLD_TP046">Boyd Point</a></li>
+<li><a href="#!/qld-burketown" class="feature" id="QLD_TP140">Burketown</a></li>
+<li><a href="#!/qld-christmas-creek" class="feature" id="QLD_TP053">Christmas Creek</a></li>
+<li><a href="#!/qld-crab-island" class="feature" id="QLD_TP055">Crab Island</a></li>
+<li><a href="#!/qld-cullen-point" class="feature" id="QLD_TP058">Cullen Point</a></li>
+<li><a href="#!/qld-karumba" class="feature" id="QLD_TP013">Karumba</a></li>
+</ul><ul>
+<li><a href="#!/qld-mornington-island" class="feature" id="QLD_TP084">Mornington Island</a></li>
+<li><a href="#!/qld-nassau-river-offshore" class="feature" id="QLD_TP086">Nassau River Offshore</a></li>
+<li><a href="#!/qld-normanton" class="feature" id="QLD_TP141">Normanton</a></li>
+<li><a href="#!/qld-pennefather-river" class="feature" id="QLD_TP092">Pennefather River</a></li>
+<li><a href="#!/qld-sweers-island" class="feature" id="QLD_TP112">Sweers Island</a></li>
+<li><a href="#!/qld-vrilya-point" class="feature" id="QLD_TP128">Vrilya Point</a></li>
+<li><a href="#!/qld-weipa-humbug-point" class="feature" id="QLD_TP036">Weipa (Humbug Point)</a></li>
+<li><a href="#!/qld-west-wellesley-islands" class="feature" id="QLD_TP142">West Wellesley Islands</a></li>
+</ul>
+        </div>
+    </div>
+    <div id="qld-peninsula" class="locations-list" style="display: none;">
+        <h3>Queensland - Peninsula Waters</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/qld-1st-3-mile-opening" class="feature" id="QLD_TP226">1St 3 Mile Opening</a></li>
+<li><a href="#!/qld-cape-melville" class="feature" id="QLD_TP050">Cape Melville</a></li>
+<li><a href="#!/qld-carter-reef" class="feature" id="QLD_TP218">Carter Reef</a></li>
+<li><a href="#!/qld-chapman-island" class="feature" id="QLD_TP052">Chapman Island</a></li>
+<li><a href="#!/qld-collette-reef" class="feature" id="QLD_TP236">Collette Reef</a></li>
+<li><a href="#!/qld-cooktown" class="feature" id="QLD_TP054">Cooktown</a></li>
+<li><a href="#!/qld-creech-reef" class="feature" id="QLD_TP227">Creech Reef</a></li>
+<li><a href="#!/qld-east-petherbridge-i" class="feature" id="QLD_TP219">East Petherbridge I.</a></li>
+<li><a href="#!/qld-eden-reef" class="feature" id="QLD_TP223">Eden Reef</a></li>
+<li><a href="#!/qld-endeavour-river-north" class="feature" id="QLD_TP065">Endeavour River North</a></li>
+<li><a href="#!/qld-fife-island" class="feature" id="QLD_TP067">Fife Island</a></li>
+<li><a href="#!/qld-ham-reef" class="feature" id="QLD_TP229">Ham Reef</a></li>
+<li><a href="#!/qld-hannibal-i" class="feature" id="QLD_TP238">Hannibal I.</a></li>
+<li><a href="#!/qld-harvey-island" class="feature" id="QLD_TP074">Harvey Island</a></li>
+<li><a href="#!/qld-hicks-island" class="feature" id="QLD_TP076">Hicks Island</a></li>
+<li><a href="#!/qld-jubilee-reef" class="feature" id="QLD_TP230">Jubilee Reef</a></li>
+<li><a href="#!/qld-kay-reef" class="feature" id="QLD_TP234">Kay Reef</a></li>
+<li><a href="#!/qld-leggatt-island" class="feature" id="QLD_TP014">Leggatt Island</a></li>
+</ul>
+<ul>
+<li><a href="#!/qld-lizard-i-qld" class="feature" id="QLD_TP016">Lizard I. (Qld)</a></li>
+<li><a href="#!/qld-maclennan-cay" class="feature" id="QLD_TP241">Maclennan Cay</a></li>
+<li><a href="#!/qld-morris-island" class="feature" id="QLD_TP085">Morris Island</a></li>
+<li><a href="#!/qld-munro-reef" class="feature" id="QLD_TP222">Munro Reef</a></li>
+<li><a href="#!/qld-night-island" class="feature" id="QLD_TP087">Night Island</a></li>
+<li><a href="#!/qld-normanby-r" class="feature" id="QLD_TP217">Normanby R.</a></li>
+<li><a href="#!/qld-north-direction-i" class="feature" id="QLD_TP220">North Direction I.</a></li>
+<li><a href="#!/qld-osprey-reef---w" class="feature" id="QLD_TP275">Osprey Reef - W</a></li>
+<li><a href="#!/qld-pipon-islands" class="feature" id="QLD_TP094">Pipon Islands</a></li>
+<li><a href="#!/qld-raine-island" class="feature" id="QLD_TP097">Raine Island</a></li>
+<li><a href="#!/qld-ribbon-reef-no9" class="feature" id="QLD_TP100">Ribbon Reef No.9</a></li>
+<li><a href="#!/qld-rocky-island" class="feature" id="QLD_TP101">Rocky Island</a></li>
+<li><a href="#!/qld-round-point" class="feature" id="QLD_TP239">Round Point</a></li>
+<li><a href="#!/qld-shadwell-reef" class="feature" id="QLD_TP237">Shadwell Reef</a></li>
+<li><a href="#!/qld-stanley-i" class="feature" id="QLD_TP224">Stanley I.</a></li>
+<li><a href="#!/qld-sir-charles-hardy-i" class="feature" id="QLD_TP232">Sir Charles Hardy I.</a></li>
+<li><a href="#!/qld-unnamed-reef-no-3" class="feature" id="QLD_TP228">Unnamed Reef No. 3</a></li>
+</ul>
+        </div>
+    </div>
+    <div id="qld-torres-strait" class="locations-list" style="display: none;">
+        <h3>Queensland - Torres Strait</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/qld-alert-patches" class="feature" id="QLD_TP115">Alert Patches</a></li>
+<li><a href="#!/qld-alpha-rock" class="feature" id="QLD_TP246">Alpha Rock</a></li>
+<li><a href="#!/qld-ashmore-reef-qld" class="feature" id="QLD_TP268">Ashmore Reef (Qld)</a></li>
+<li><a href="#!/qld-aureed-i" class="feature" id="QLD_TP269">Aureed I.</a></li>
+<li><a href="#!/qld-badu-i" class="feature" id="QLD_TP255">Badu I.</a></li>
+<li><a href="#!/qld-booby-island" class="feature" id="QLD_TP026">Booby Island</a></li>
+<li><a href="#!/qld-bampfield-head" class="feature" id="QLD_TP251">Bampfield Head</a></li>
+<li><a href="#!/qld-bramble-cay" class="feature" id="QLD_TP277">Bramble Cay</a></li>
+<li><a href="#!/qld-carpentaria" class="feature" id="QLD_TP253">Carpentaria</a></li>
+<li><a href="#!/qld-coconut-island-" class="feature" id="QLD_TP116">Coconut Island </a></li>
+<li><a href="#!/qld-darnley-i-barge" class="feature" id="QLD_TP274">Darnley I. Barge</a></li>
+<li><a href="#!/qld-dugong-i" class="feature" id="QLD_TP260">Dugong I.</a></li>
+<li><a href="#!/qld-dungeness-reef" class="feature" id="QLD_TP271">Dungeness Reef</a></li>
+<li><a href="#!/qld-dauan-island" class="feature" id="QLD_TP144">Dauan Island</a></li>
+<li><a href="#!/qld-east-cay" class="feature" id="QLD_TP117">East Cay</a></li>
+<li><a href="#!/qld-frederick-point" class="feature" id="QLD_TP118">Frederick Point</a></li>
+<li><a href="#!/qld-goods-island" class="feature" id="QLD_TP027">Goods Island</a></li>
+<li><a href="#!/qld-half-way-i" class="feature" id="QLD_TP261">Half Way I.</a></li>
+<li><a href="#!/qld-harrington-reef" class="feature" id="QLD_TP249">Harrington Reef</a></li>
+<li><a href="#!/qld-hawkesbury-i" class="feature" id="QLD_TP259">Hawkesbury I.</a></li>
+<li><a href="#!/qld-herald-camp" class="feature" id="QLD_TP250">Herald Camp</a></li>
+<li><a href="#!/qld-ince-point" class="feature" id="QLD_TP028">Ince Point</a></li>
+<li><a href="#!/qld-kai-maituine-rf---ne" class="feature" id="QLD_TP270">Kai-Maituine Rf - Ne</a></li>
+<li><a href="#!/qld-kirkcaldie-reef" class="feature" id="QLD_TP256">Kirkcaldie Reef</a></li>
+<li><a href="#!/qld-kubin-moa-island" class="feature" id="QLD_TP080">Kubin (Moa Island)</a></li>
+<li><a href="#!/qld-mabuiag-i-barge" class="feature" id="QLD_TP262">Mabuiag I. Barge</a></li>
+<li><a href="#!/qld-mcsweeny-reef" class="feature" id="QLD_TP235">Mcsweeny Reef</a></li>
+<li><a href="#!/qld-meer-i-barge" class="feature" id="QLD_TP276">Meer I. Barge</a></li>
+<li><a href="#!/qld-merrie-england-sh" class="feature" id="QLD_TP272">Merrie England Sh.</a></li>
+<li><a href="#!/qld-mutacomal-reef" class="feature" id="QLD_TP273">Mutacomal Reef</a></li>
+<li><a href="#!/qld-nardana-patches" class="feature" id="QLD_TP029">Nardana Patches</a></li>
+</ul>
+<ul>
+<li><a href="#!/qld-packe-i" class="feature" id="QLD_TP248">Packe I.</a></li>
+<li><a href="#!/qld-papou-point" class="feature" id="QLD_TP120">Papou Point</a></li>
+<li><a href="#!/qld-pearce-cay" class="feature" id="QLD_TP279">Pearce Cay</a></li>
+<li><a href="#!/qld-phipi-reef" class="feature" id="QLD_TP121">Phipi Reef</a></li>
+<li><a href="#!/qld-poll-island" class="feature" id="QLD_TP122">Poll Island</a></li>
+<li><a href="#!/qld-possession-i" class="feature" id="QLD_TP245">Possession I.</a></li>
+<li><a href="#!/qld-red-island-point" class="feature" id="QLD_TP098">Red Island Point</a></li>
+<li><a href="#!/qld-red-wallis-i" class="feature" id="QLD_TP247">Red Wallis I.</a></li>
+<li><a href="#!/qld-rennel-i" class="feature" id="QLD_TP267">Rennel I.</a></li>
+<li><a href="#!/qld-round-i" class="feature" id="QLD_TP254">Round I.</a></li>
+<li><a href="#!/qld-saibai-i" class="feature" id="QLD_TP265">Saibai I.</a></li>
+<li><a href="#!/qld-sharp-point" class="feature" id="QLD_TP106">Sharp Point</a></li>
+<li><a href="#!/qld-st-pauls-moa-island" class="feature" id="QLD_TP143">St Pauls (Moa Island)</a></li>
+<li><a href="#!/qld-stephens-island-" class="feature" id="QLD_TP111">Stephens Island </a></li>
+<li><a href="#!/qld-suarji-i" class="feature" id="QLD_TP257">Suarji I.</a></li>
+<li><a href="#!/qld-sue-i" class="feature" id="QLD_TP258">Sue I.</a></li>
+<li><a href="#!/qld-tetley-i" class="feature" id="QLD_TP243">Tetley I.</a></li>
+<li><a href="#!/qld-thursday-island" class="feature" id="QLD_TP030">Thursday Island</a></li>
+<li><a href="#!/qld-triangle-reef" class="feature" id="QLD_TP244">Triangle Reef</a></li>
+<li><a href="#!/qld-turtle-head" class="feature" id="QLD_TP031">Turtle Head</a></li>
+<li><a href="#!/qld-turtle-head-island" class="feature" id="QLD_TP125">Turtle Head Island</a></li>
+<li><a href="#!/qld-twin-island" class="feature" id="QLD_TP032">Twin Island</a></li>
+<li><a href="#!/qld-unnamed-cay" class="feature" id="QLD_TP278">Unnamed Cay</a></li>
+<li><a href="#!/qld-white-rocks-area" class="feature" id="QLD_TP252">White Rocks Area</a></li>
+<li><a href="#!/qld-wyborn-reef-light" class="feature" id="QLD_TP242">Wyborn Reef Light</a></li>
+<li><a href="#!/qld-yam-island" class="feature" id="QLD_TP123">Yam Island</a></li>
+<li><a href="#!/qld-yorke-i-barge" class="feature" id="QLD_TP266">Yorke I. Barge</a></li>
+<li><a href="#!/qld-zagai-island" class="feature" id="QLD_TP124">Zagai Island</a></li>
+</ul>
+<ul>
+<li class="stream"><a href="#!/qld-hammond-rock" class="feature" id="stream_QLD_TS001">Hammond Rock</a> <span class="bonus">(Tidal Stream)</span></li>
+<li class="stream"><a href="#!/qld-mecca-reef" class="feature" id="stream_QLD_TS007">Mecca Reef</a> <span class="bonus">(Tidal Stream)</span></li>
+</ul>
+
+        </div>
+    </div>
+    <div id="qld-tropical" class="locations-list" style="display: none;">
+        <h3>Queensland - Tropical Waters</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/qld-abbot-point" class="feature" id="QLD_TP001">Abbot Point</a></li>
+<li><a href="#!/qld-albino-rock" class="feature" id="QLD_TP037">Albino Rock</a></li>
+<li><a href="#!/qld-beaver-reef" class="feature" id="QLD_TP039">Beaver Reef</a></li>
+<li><a href="#!/qld-britomart-reef" class="feature" id="QLD_TP047">Britomart Reef</a></li>
+<li><a href="#!/qld-cairns" class="feature" id="QLD_TP006">Cairns</a></li>
+<li><a href="#!/qld-bailay-creek" class="feature" id="QLD_TP212">Bailay Creek</a></li>
+<li><a href="#!/qld-cape-bedford" class="feature" id="QLD_TP216">Cape Bedford</a></li>
+<li><a href="#!/qld-cape-flattery" class="feature" id="QLD_TP221">Cape Flattery</a></li>
+<li><a href="#!/qld-cape-grenville" class="feature" id="QLD_TP240">Cape Grenville</a></li>
+<li><a href="#!/qld-high-i" class="feature" id="QLD_TP207">High I.</a></li>
+<li><a href="#!/qld-holmes-reef" class="feature" id="QLD_TP214">Holmes Reef</a></li>
+<li><a href="#!/qld-low-i" class="feature" id="QLD_TP213">Low I.</a></li>
+<li><a href="#!/qld-low-wooded-i" class="feature" id="QLD_TP215">Low Wooded I.</a></li>
+<li><a href="#!/qld-palm-cove" class="feature" id="QLD_TP209">Palm Cove</a></li>
+<li><a href="#!/qld-sudbury-cay" class="feature" id="QLD_TP206">Sudbury Cay</a></li>
+<li><a href="#!/qld-swallows-landing" class="feature" id="QLD_TP208">Swallows Landing</a></li>
+<li><a href="#!/qld-yorkeys-knob" class="feature" id="QLD_TP210">Yorkeys Knob</a></li>
+<li><a href="#!/qld-cape-ferguson" class="feature" id="QLD_TP007">Cape Ferguson</a></li>
+<li><a href="#!/qld-cardwell" class="feature" id="QLD_TP135">Cardwell</a></li>
+<li><a href="#!/qld-clump-point" class="feature" id="QLD_TP136">Clump Point</a></li>
+<li><a href="#!/qld-cruiser-passage" class="feature" id="QLD_TP057">Cruiser Passage</a></li>
+<li><a href="#!/qld-dunk-island" class="feature" id="QLD_TP062">Dunk Island</a></li>
+<li><a href="#!/qld-euston-reef" class="feature" id="QLD_TP066">Euston Reef</a></li>
+<li><a href="#!/qld-fitzroy-island" class="feature" id="QLD_TP068">Fitzroy Island</a></li>
+<li><a href="#!/qld-flinders-reef" class="feature" id="QLD_TP069">Flinders Reef</a></li>
+<li><a href="#!/qld-green-island" class="feature" id="QLD_TP073">Green Island</a></li>
+</ul>
+<ul>
+<li><a href="#!/qld-lucinda-offshore" class="feature" id="QLD_TP017">Lucinda (Offshore)</a></li>
+<li><a href="#!/qld-michaelmas-cay" class="feature" id="QLD_TP083">Michaelmas Cay</a></li>
+<li><a href="#!/qld-mourilyan-harbour" class="feature" id="QLD_TP020">Mourilyan Harbour</a></li>
+<li><a href="#!/qld-cowley-beach" class="feature" id="QLD_TP202">Cowley Beach</a></li>
+<li><a href="#!/qld-eddy-reef" class="feature" id="QLD_TP203">Eddy Reef</a></li>
+<li><a href="#!/qld-nathan-reef" class="feature" id="QLD_TP205">Nathan Reef</a></li>
+<li><a href="#!/qld-peart-reef" class="feature" id="QLD_TP204">Peart Reef</a></li>
+<li><a href="#!/qld-north-barnard-island" class="feature" id="QLD_TP088">North Barnard Island</a></li>
+<li><a href="#!/qld-pith-reef" class="feature" id="QLD_TP095">Pith Reef</a></li>
+<li><a href="#!/qld-port-douglas" class="feature" id="QLD_TP023">Port Douglas</a></li>
+<li><a href="#!/qld-east-hope-i" class="feature" id="QLD_TP211">East Hope I.</a></li>
+<li><a href="#!/qld-rib-reef" class="feature" id="QLD_TP099">Rib Reef</a></li>
+<li><a href="#!/qld-russell-island" class="feature" id="QLD_TP102">Russell Island</a></li>
+<li><a href="#!/qld-townsville" class="feature" id="QLD_TP033">Townsville</a></li>
+<li><a href="#!/qld-barnett-patches" class="feature" id="QLD_TP199">Barnett Patches</a></li>
+<li><a href="#!/qld-dip-reef" class="feature" id="QLD_TP198">Dip Reef</a></li>
+<li><a href="#!/qld-goold-i" class="feature" id="QLD_TP200">Goold I.</a></li>
+<li><a href="#!/qld-jaguar-reef" class="feature" id="QLD_TP195">Jaguar Reef</a></li>
+<li><a href="#!/qld-john-brewer-reef" class="feature" id="QLD_TP197">John Brewer Reef</a></li>
+<li><a href="#!/qld-kennedy-reef" class="feature" id="QLD_TP193">Kennedy Reef</a></li>
+<li><a href="#!/qld-shrimp-reef" class="feature" id="QLD_TP196">Shrimp Reef</a></li>
+<li><a href="#!/qld-stanley-reef" class="feature" id="QLD_TP192">Stanley Reef</a></li>
+<li><a href="#!/qld-unnamed-reef-no-1" class="feature" id="QLD_TP201">Unnamed Reef No. 1</a></li>
+<li><a href="#!/qld-unnamed-reef-no-2" class="feature" id="QLD_TP194">Unnamed Reef No. 2</a></li>
+<li><a href="#!/qld-wallaby-reef" class="feature" id="QLD_TP129">Wallaby Reef</a></li>
+<li><a href="#!/qld-willis-island" class="feature" id="QLD_TP134">Willis Island</a></li>
+</ul>
+        </div>
+    </div>
+    <div id="qld-central" class="locations-list" style="display: none;">
+        <h3>Queensland - Central Coast &amp; Reefs</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/qld-bell-cay" class="feature" id="QLD_TP040">Bell Cay</a></li>
+<li><a href="#!/qld-blacksmith-i" class="feature" id="QLD_TP182">Blacksmith I.</a></li>
+<li><a href="#!/qld-border-i" class="feature" id="QLD_TP190">Border I.</a></li>
+<li><a href="#!/qld-bowen" class="feature" id="QLD_TP002">Bowen</a></li>
+<li><a href="#!/qld-bugatti-reef" class="feature" id="QLD_TP004">Bugatti Reef</a></li>
+<li><a href="#!/qld-carlisle-i-off" class="feature" id="QLD_TP177">Carlisle I. (Off)</a></li>
+<li><a href="#!/qld-cid-harbour" class="feature" id="QLD_TP188">Cid Harbour</a></li>
+<li><a href="#!/qld-credlin-reef" class="feature" id="QLD_TP180">Credlin Reef</a></li>
+<li><a href="#!/qld-creal-reef" class="feature" id="QLD_TP056">Creal Reef</a></li>
+<li><a href="#!/qld-double-bay" class="feature" id="QLD_TP186">Double Bay</a></li>
+<li><a href="#!/qld-east-diamond-i" class="feature" id="QLD_TP283">East Diamond I.</a></li>
+<li><a href="#!/qld-east-repulse-i" class="feature" id="QLD_TP181">East Repulse I.</a></li>
+<li><a href="#!/qld-elusive-reef" class="feature" id="QLD_TP174">Elusive Reef</a></li>
+<li><a href="#!/qld-gannet-cay" class="feature" id="QLD_TP070">Gannet Cay</a></li>
+<li><a href="#!/qld-haslewood-i" class="feature" id="QLD_TP191">Haslewood I.</a></li>
+<li><a href="#!/qld-hay-point" class="feature" id="QLD_TP012">Hay Point</a></li>
+<li><a href="#!/qld-hayman-i" class="feature" id="QLD_TP184">Hayman I.</a></li>
+<li><a href="#!/qld-high-peak-island" class="feature" id="QLD_TP077">High Peak Island</a></li>
+<li><a href="#!/qld-hook-i" class="feature" id="QLD_TP189">Hook I.</a></li>
+<li><a href="#!/qld-laguna-quays" class="feature" id="QLD_TP137">Laguna Quays</a></li>
+<li><a href="#!/qld-lihou-reef" class="feature" id="QLD_TP015">Lihou Reef</a></li>
+<li><a href="#!/qld-mackay-outer-harbour" class="feature" id="QLD_TP018">Mackay Outer Harbour</a></li>
+</ul>
+<ul>
+<li><a href="#!/qld-magdelaine-cays" class="feature" id="QLD_TP284">Magdelaine Cays</a></li>
+<li><a href="#!/qld-marion-reef" class="feature" id="QLD_TP281">Marion Reef</a></li>
+<li><a href="#!/qld-marquis-i" class="feature" id="QLD_TP172">Marquis I.</a></li>
+<li><a href="#!/qld-mcewin-islet" class="feature" id="QLD_TP082">Mcewin Islet</a></li>
+<li><a href="#!/qld-mellish-reef" class="feature" id="QLD_TP282">Mellish Reef</a></li>
+<li><a href="#!/qld-middle-i-percy-i" class="feature" id="QLD_TP176">Middle I., Percy I.</a></li>
+<li><a href="#!/qld-molle-i" class="feature" id="QLD_TP187">Molle I.</a></li>
+<li><a href="#!/qld-mumford-i" class="feature" id="QLD_TP170">Mumford I.</a></li>
+<li><a href="#!/qld-osborn-i" class="feature" id="QLD_TP171">Osborn I.</a></li>
+<li><a href="#!/qld-penrith-island" class="feature" id="QLD_TP093">Penrith Island</a></li>
+<li><a href="#!/qld-prudhoe-i" class="feature" id="QLD_TP175">Prudhoe I.</a></li>
+<li><a href="#!/qld-reef-point" class="feature" id="QLD_TP173">Reef Point</a></li>
+<li><a href="#!/qld-saumarez-reef" class="feature" id="QLD_TP280">Saumarez Reef</a></li>
+<li><a href="#!/qld-scawfell-i" class="feature" id="QLD_TP179">Scawfell I.</a></li>
+<li><a href="#!/qld-shute-harbour" class="feature" id="QLD_TP025">Shute Harbour</a></li>
+<li><a href="#!/qld-st-bees-i" class="feature" id="QLD_TP178">St. Bees I.</a></li>
+<li><a href="#!/qld-square-reef" class="feature" id="QLD_TP185">Square Reef</a></li>
+<li><a href="#!/qld-tideway-reef" class="feature" id="QLD_TP183">Tideway Reef</a></li>
+<li><a href="#!/qld-thomas-island" class="feature" id="QLD_TP114">Thomas Island</a></li>
+<li><a href="#!/qld-whitetip-reef-front" class="feature" id="QLD_TP131">Whitetip Reef Front</a></li>
+<li><a href="#!/qld-whitetip-reef-rear" class="feature" id="QLD_TP132">Whitetip Reef Rear</a></li>
+</ul>
+<ul>
+<li class="stream"><a href="#!/qld-oom-shoal---mackay" class="feature" id="stream_QLD_TS006">Oom Shoal - Mackay</a> <span class="bonus">(Tidal Stream)</span></li>
+</ul>
+
+        </div>
+    </div>
+    <div id="qld-southern" class="locations-list" style="display: none;">
+        <h3>Queensland - Southern QLD</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/qld-bn-m2-moreton-bay" class="feature" id="QLD_TP148">Bn M2, Moreton Bay</a></li>
+<li><a href="#!/qld-boonlye-point" class="feature" id="QLD_TP152">Boonlye Point</a></li>
+<li><a href="#!/qld-breaksea-spit" class="feature" id="QLD_TP159">Breaksea Spit</a></li>
+<li><a href="#!/qld-bribie-i-bongaree" class="feature" id="QLD_TP147">Bribie I., Bongaree</a></li>
+<li><a href="#!/qld-brisbane-bar" class="feature" id="QLD_TP003">Brisbane Bar</a></li>
+<li><a href="#!/qld-brisbane-port-office" class="feature" id="QLD_TP138">Brisbane Port Office</a></li>
+<li><a href="#!/qld-bundaberg-burnett-heads" class="feature" id="QLD_TP005">Bundaberg (Burnett Heads)</a></li>
+<li><a href="#!/qld-caloundra-head" class="feature" id="QLD_TP150">Caloundra Head</a></li>
+<li><a href="#!/qld-cape-capricorn" class="feature" id="QLD_TP164">Cape Capricorn</a></li>
+<li><a href="#!/qld-cato-island" class="feature" id="QLD_TP051">Cato Island</a></li>
+<li><a href="#!/qld-clews-point" class="feature" id="QLD_TP155">Clews Point</a></li>
+<li><a href="#!/qld-elbow-point" class="feature" id="QLD_TP151">Elbow Point</a></li>
+<li><a href="#!/qld-elizabeth-reef" class="feature" id="QLD_TP285">Elizabeth Reef</a></li>
+<li><a href="#!/qld-elliott-heads" class="feature" id="QLD_TP154">Elliott Heads</a></li>
+<li><a href="#!/qld-gatcombe-head" class="feature" id="QLD_TP071">Gatcombe Head</a></li>
+<li><a href="#!/qld-gladstone" class="feature" id="QLD_TP008">Gladstone</a></li>
+<li><a href="#!/qld-gold-coast-operations-base" class="feature" id="QLD_TP009">Gold Coast Operations Base</a></li>
+<li><a href="#!/qld-gold-coast-sand-bypass-jetty" class="feature" id="QLD_TP010">Gold Coast Sand Bypass Jetty</a></li>
+<li><a href="#!/qld-gold-coast-seaway" class="feature" id="QLD_TP011">Gold Coast Seaway</a></li>
+<li><a href="#!/qld-heron-island" class="feature" id="QLD_TP075">Heron Island</a></li>
+<li><a href="#!/qld-johnson-patch---nw" class="feature" id="QLD_TP169">Johnson Patch - Nw</a></li>
+<li><a href="#!/qld-karamea-bank" class="feature" id="QLD_TP168">Karamea Bank</a></li>
+</ul>
+<ul>
+<li><a href="#!/qld-lady-elliot-i" class="feature" id="QLD_TP158">Lady Elliot I.</a></li>
+<li><a href="#!/qld-lady-musgrave-i" class="feature" id="QLD_TP157">Lady Musgrave I.</a></li>
+<li><a href="#!/qld-middle-i-keppel-i" class="feature" id="QLD_TP165">Middle I., Keppel I.</a></li>
+<li><a href="#!/qld-mooloolaba" class="feature" id="QLD_TP019">Mooloolaba</a></li>
+<li><a href="#!/qld-nerang-r-bundall" class="feature" id="QLD_TP145">Nerang R. (Bundall)</a></li>
+<li><a href="#!/qld-noosa-head" class="feature" id="QLD_TP021">Noosa Head</a></li>
+<li><a href="#!/qld-one-tree-i" class="feature" id="QLD_TP160">One Tree I.</a></li>
+<li><a href="#!/qld-peaked-i" class="feature" id="QLD_TP167">Peaked I.</a></li>
+<li><a href="#!/qld-polmaise-reef" class="feature" id="QLD_TP161">Polmaise Reef</a></li>
+<li><a href="#!/qld-port-alma" class="feature" id="QLD_TP022">Port Alma</a></li>
+<li><a href="#!/qld-port-clinton" class="feature" id="QLD_TP166">Port Clinton</a></li>
+<li><a href="#!/qld-rock-cod-shoal" class="feature" id="QLD_TP163">Rock Cod Shoal</a></li>
+<li><a href="#!/qld-rosslyn-bay" class="feature" id="QLD_TP024">Rosslyn Bay</a></li>
+<li><a href="#!/qld-round-hill-head" class="feature" id="QLD_TP156">Round Hill Head</a></li>
+<li><a href="#!/qld-runaway-bay" class="feature" id="QLD_TP146">Runaway Bay</a></li>
+<li><a href="#!/qld-serpentine-creek" class="feature" id="QLD_TP104">Serpentine Creek</a></li>
+<li><a href="#!/qld-snapper-rocks" class="feature" id="QLD_TP108">Snapper Rocks</a></li>
+<li><a href="#!/qld-south-trees-storm-surge" class="feature" id="QLD_TP110">South Trees (Storm Surge)</a></li>
+<li><a href="#!/qld-tangalooma-point" class="feature" id="QLD_TP149">Tangalooma Point</a></li>
+<li><a href="#!/qld-tryon-i" class="feature" id="QLD_TP162">Tryon I.</a></li>
+<li><a href="#!/qld-ungowa" class="feature" id="QLD_TP153">Ungowa</a></li>
+<li><a href="#!/qld-urangan" class="feature" id="QLD_TP034">Urangan</a></li>
+<li><a href="#!/qld-waddy-point-kgari" class="feature" id="QLD_TP035">Waddy Point (K'gari)</a></li>
+</ul>
+
+        </div>
+    </div>
+    <div id="wa-kimberley" class="locations-list" style="display: none;">
+        <h3>Western Australia - Kimberley Coast</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/wa-adele-i" class="feature" id="WA_TP125">Adele I.</a></li>
+<li><a href="#!/wa-adolphus-i" class="feature" id="WA_TP114">Adolphus I.</a></li>
+<li><a href="#!/wa-ashmore-reef" class="feature" id="WA_TP026">Ashmore Reef</a></li>
+<li><a href="#!/wa-baudin-i" class="feature" id="WA_TP132">Baudin I.</a></li>
+<li><a href="#!/wa-bedford-i" class="feature" id="WA_TP123">Bedford I.</a></li>
+<li><a href="#!/wa-bedout-island" class="feature" id="WA_TP028">Bedout Island</a></li>
+<li><a href="#!/wa-bonaparte-gulf" class="feature" id="WA_TP029">Bonaparte Gulf</a></li>
+<li><a href="#!/wa-broome" class="feature" id="WA_TP004">Broome</a></li>
+<li><a href="#!/wa-browse-i" class="feature" id="WA_TP126">Browse I.</a></li>
+<li><a href="#!/wa-cape-baskerville" class="feature" id="WA_TP030">Cape Baskerville</a></li>
+<li><a href="#!/wa-cape-boileau" class="feature" id="WA_TP031">Cape Boileau</a></li>
+<li><a href="#!/wa-cape-domett" class="feature" id="WA_TP032">Cape Domett</a></li>
+<li><a href="#!/wa-cape-voltaire-krait-bay" class="feature" id="WA_TP007">Cape Voltaire (Krait Bay)</a></li>
+<li><a href="#!/wa-carronade-i" class="feature" id="WA_TP140">Carronade I.</a></li>
+<li><a href="#!/wa-cassini-i" class="feature" id="WA_TP135">Cassini I.</a></li>
+<li><a href="#!/wa-degerando-island" class="feature" id="WA_TP042">Degerando Island</a></li>
+<li><a href="#!/wa-derby" class="feature" id="WA_TP043">Derby</a></li>
+<li><a href="#!/wa-dillon-shoal" class="feature" id="WA_TP044">Dillon Shoal</a></li>
+<li><a href="#!/wa-echo-shoal" class="feature" id="WA_TP079">Echo Shoal</a></li>
+<li><a href="#!/wa-guy-point" class="feature" id="WA_TP141">Guy Point</a></li>
+<li><a href="#!/wa-hall-point" class="feature" id="WA_TP128">Hall Point</a></li>
+<li><a href="#!/wa-heywood-shoal" class="feature" id="WA_TP138">Heywood Shoal</a></li>
+<li><a href="#!/wa-imperieuse-reef" class="feature" id="WA_TP117">Imperieuse Reef</a></li>
+<li><a href="#!/wa-jabiru" class="feature" id="WA_TP131">Jabiru</a></li>
+<li><a href="#!/wa-jar-island" class="feature" id="WA_TP081">Jar Island</a></li>
+<li><a href="#!/wa-karrakatta-bay" class="feature" id="WA_TP122">Karrakatta Bay</a></li>
+<li><a href="#!/wa-lacrosse-island" class="feature" id="WA_TP050">Lacrosse Island</a></li>
+</ul><ul>
+<li><a href="#!/wa-lagrange-bay" class="feature" id="WA_TP119">Lagrange Bay</a></li>
+<li><a href="#!/wa-laminaria" class="feature" id="WA_TP133">Laminaria</a></li>
+<li><a href="#!/wa-lesueur-island" class="feature" id="WA_TP051">Lesueur Island</a></li>
+<li><a href="#!/wa-lizard-island" class="feature" id="WA_TP052">Lizard Island</a></li>
+<li><a href="#!/wa-lynher-bank" class="feature" id="WA_TP137">Lynher Bank</a></li>
+<li><a href="#!/wa-macleay-i" class="feature" id="WA_TP124">Macleay I.</a></li>
+<li><a href="#!/wa-maret-island" class="feature" id="WA_TP054">Maret Island</a></li>
+<li><a href="#!/wa-napier-broome-bay" class="feature" id="WA_TP080">Napier Broome Bay</a></li>
+<li><a href="#!/wa-pee-shoal" class="feature" id="WA_TP139">Pee Shoal</a></li>
+<li><a href="#!/wa-pelican-island" class="feature" id="WA_TP061">Pelican Island</a></li>
+<li><a href="#!/wa-pender-point" class="feature" id="WA_TP142">Pender Point</a></li>
+<li><a href="#!/wa-port-usborne" class="feature" id="WA_TP064">Port Usborne</a></li>
+<li><a href="#!/wa-port-warrender" class="feature" id="WA_TP065">Port Warrender</a></li>
+<li><a href="#!/wa-red-bluff" class="feature" id="WA_TP120">Red Bluff</a></li>
+<li><a href="#!/wa-reveley-island" class="feature" id="WA_TP066">Reveley Island</a></li>
+<li><a href="#!/wa-rocky-island" class="feature" id="WA_TP067">Rocky Island</a></li>
+<li><a href="#!/wa-scott-reef-wa" class="feature" id="WA_TP121">Scott Reef (Wa)</a></li>
+<li><a href="#!/wa-shale-i" class="feature" id="WA_TP127">Shale I.</a></li>
+<li><a href="#!/wa-skua-no-4-well" class="feature" id="WA_TP130">Skua No. 4 Well</a></li>
+<li><a href="#!/wa-sunday-island" class="feature" id="WA_TP072">Sunday Island</a></li>
+<li><a href="#!/wa-troughton-i" class="feature" id="WA_TP134">Troughton I.</a></li>
+<li><a href="#!/wa-valentine-island" class="feature" id="WA_TP074">Valentine Island</a></li>
+<li><a href="#!/wa-van-cloon-shoal" class="feature" id="WA_TP075">Van Cloon Shoal</a></li>
+<li><a href="#!/wa-west-holothuria-reef" class="feature" id="WA_TP136">West Holothuria Reef</a></li>
+<li><a href="#!/wa-white-i" class="feature" id="WA_TP129">White I.</a></li>
+<li><a href="#!/wa-wyndham" class="feature" id="WA_TP023">Wyndham</a></li>
+<li><a href="#!/wa-yampi-sound-koolan-island" class="feature" id="WA_TP024">Yampi Sound (Koolan Island)</a></li>
+</ul>
+        </div>
+    </div>
+    <div id="wa-pilbara" class="locations-list" style="display: none;">
+        <h3>Western Australia - Pilbara Coast</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/wa-ashburton-north" class="feature" id="WA_TP025">Ashburton North</a></li>
+<li><a href="#!/wa-badjirrajirra" class="feature" id="WA_TP027">Badjirrajirra</a></li>
+<li><a href="#!/wa-barrow-island-tanker-mooring" class="feature" id="WA_TP002">Barrow Island (Tanker Mooring)</a></li>
+<li><a href="#!/wa-barrow-island-wapet-landing" class="feature" id="WA_TP003">Barrow Island (Wapet Landing)</a></li>
+<li><a href="#!/wa-cape-legendre" class="feature" id="WA_TP035">Cape Legendre</a></li>
+<li><a href="#!/wa-dampier-king-bay" class="feature" id="WA_TP011">Dampier (King Bay)</a></li>
+<li><a href="#!/wa-depuch-i" class="feature" id="WA_TP116">Depuch I.</a></li>
+<li><a href="#!/wa-exmouth" class="feature" id="WA_TP014">Exmouth</a></li>
+<li><a href="#!/wa-fairway-beacon" class="feature" id="WA_TP046">Fairway Beacon</a></li>
+<li><a href="#!/wa-fortescue-road" class="feature" id="WA_TP115">Fortescue Road</a></li>
+<li><a href="#!/wa-hauy-island" class="feature" id="WA_TP048">Hauy Island</a></li>
+<li><a href="#!/wa-large-i" class="feature" id="WA_TP112">Large I.</a></li>
+<li><a href="#!/wa-learmonth" class="feature" id="WA_TP108">Learmonth</a></li>
+<li><a href="#!/wa-mawby-island" class="feature" id="WA_TP055">Mawby Island</a></li>
+</ul><ul>
+<li><a href="#!/wa-mermaid-reef" class="feature" id="WA_TP118">Mermaid Reef</a></li>
+<li><a href="#!/wa-north-muiron-i" class="feature" id="WA_TP110">North Muiron I.</a></li>
+<li><a href="#!/wa-north-sandy-island" class="feature" id="WA_TP058">North Sandy Island</a></li>
+<li><a href="#!/wa-north-west-island" class="feature" id="WA_TP059">North West Island</a></li>
+<li><a href="#!/wa-onslow-beadon-creek" class="feature" id="WA_TP018">Onslow (Beadon Creek)</a></li>
+<li><a href="#!/wa-point-murat" class="feature" id="WA_TP019">Point Murat</a></li>
+<li><a href="#!/wa-port-hedland" class="feature" id="WA_TP020">Port Hedland</a></li>
+<li><a href="#!/wa-port-walcott-cape-lambert" class="feature" id="WA_TP021">Port Walcott (Cape Lambert)</a></li>
+<li><a href="#!/wa-roller" class="feature" id="WA_TP111">Roller</a></li>
+<li><a href="#!/wa-sholl-island" class="feature" id="WA_TP069">Sholl Island</a></li>
+<li><a href="#!/wa-steamboat-island" class="feature" id="WA_TP071">Steamboat Island</a></li>
+<li><a href="#!/wa-thevenard-island" class="feature" id="WA_TP022">Thevenard Island</a></li>
+<li><a href="#!/wa-trimouille-i" class="feature" id="WA_TP113">Trimouille I.</a></li>
+<li><a href="#!/wa-withnell-bay" class="feature" id="WA_TP078">Withnell Bay</a></li>
+<li><a href="#!/wa-y-i" class="feature" id="WA_TP109">Y I.</a></li>
+</ul>
+        </div>
+    </div>
+    <div id="wa-southern" class="locations-list" style="display: none;">
+        <h3>Western Australia - Southern WA</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/wa-albany" class="feature" id="WA_TP001">Albany</a></li>
+<li><a href="#!/wa-bremer-bay" class="feature" id="WA_TP086">Bremer Bay</a></li>
+<li><a href="#!/wa-bunbury" class="feature" id="WA_TP005">Bunbury</a></li>
+<li><a href="#!/wa-bunker-bay" class="feature" id="WA_TP090">Bunker Bay</a></li>
+<li><a href="#!/wa-busselton" class="feature" id="WA_TP082">Busselton</a></li>
+<li><a href="#!/wa-cape-cuvier" class="feature" id="WA_TP006">Cape Cuvier</a></li>
+<li><a href="#!/wa-cape-hamelin" class="feature" id="WA_TP070">Cape Hamelin</a></li>
+<li><a href="#!/wa-carnarvon" class="feature" id="WA_TP008">Carnarvon</a></li>
+<li><a href="#!/wa-cervantes" class="feature" id="WA_TP095">Cervantes</a></li>
+<li><a href="#!/wa-coral-bay" class="feature" id="WA_TP105">Coral Bay</a></li>
+<li><a href="#!/wa-cosy-corner" class="feature" id="WA_TP040">Cosy Corner</a></li>
+<li><a href="#!/wa-cowaramup" class="feature" id="WA_TP089">Cowaramup</a></li>
+<li><a href="#!/wa-daw-i" class="feature" id="WA_TP083">Daw I.</a></li>
+<li><a href="#!/wa-denham" class="feature" id="WA_TP012">Denham</a></li>
+<li><a href="#!/wa-easter-group" class="feature" id="WA_TP099">Easter Group</a></li>
+<li><a href="#!/wa-esperance" class="feature" id="WA_TP013">Esperance</a></li>
+<li><a href="#!/wa-eucla" class="feature" id="WA_TP045">Eucla</a></li>
+<li><a href="#!/wa-flinders-bay" class="feature" id="WA_TP088">Flinders Bay</a></li>
+<li><a href="#!/wa-fremantle" class="feature" id="WA_TP015">Fremantle</a></li>
+<li><a href="#!/wa-geraldton" class="feature" id="WA_TP016">Geraldton</a></li>
+<li><a href="#!/wa-goose-i-bay" class="feature" id="WA_TP084">Goose I. Bay</a></li>
+<li><a href="#!/wa-hamelin-pool" class="feature" id="WA_TP047">Hamelin Pool</a></li>
+<li><a href="#!/wa-hillarys" class="feature" id="WA_TP017">Hillarys</a></li>
+<li><a href="#!/wa-jurien-bay" class="feature" id="WA_TP049">Jurien Bay</a></li>
+</ul>
+<ul>
+<li><a href="#!/wa-kalbarri" class="feature" id="WA_TP100">Kalbarri</a></li>
+<li><a href="#!/wa-lancelin" class="feature" id="WA_TP094">Lancelin</a></li>
+<li><a href="#!/wa-leeman" class="feature" id="WA_TP097">Leeman</a></li>
+<li><a href="#!/wa-mandurah" class="feature" id="WA_TP091">Mandurah</a></li>
+<li><a href="#!/wa-mary-ann-haven" class="feature" id="WA_TP085">Mary Ann Haven</a></li>
+<li><a href="#!/wa-monkey-mia" class="feature" id="WA_TP104">Monkey Mia</a></li>
+<li><a href="#!/wa-norwegian-bay" class="feature" id="WA_TP106">Norwegian Bay</a></li>
+<li><a href="#!/wa-nornalup-inlet" class="feature" id="WA_TP056">Nornalup Inlet</a></li>
+<li><a href="#!/wa-north-island" class="feature" id="WA_TP057">North Island</a></li>
+<li><a href="#!/wa-perth-barrack-street-jetty" class="feature" id="WA_TP062">Perth (Barrack Street Jetty)</a></li>
+<li><a href="#!/wa-pelsaert-i" class="feature" id="WA_TP098">Pelsaert I.</a></li>
+<li><a href="#!/wa-port-denison" class="feature" id="WA_TP096">Port Denison</a></li>
+<li><a href="#!/wa-port-gregory" class="feature" id="WA_TP063">Port Gregory</a></li>
+<li><a href="#!/wa-rottnest-i" class="feature" id="WA_TP092">Rottnest I.</a></li>
+<li><a href="#!/wa-shark-bay" class="feature" id="WA_TP068">Shark Bay</a></li>
+<li><a href="#!/wa-shark-bay-inr-bn" class="feature" id="WA_TP102">Shark Bay (Inr Bn)</a></li>
+<li><a href="#!/wa-tantabiddi" class="feature" id="WA_TP107">Tantabiddi</a></li>
+<li><a href="#!/wa-twilight-cove" class="feature" id="WA_TP073">Twilight Cove</a></li>
+<li><a href="#!/wa-two-rocks-marina" class="feature" id="WA_TP093">Two Rocks Marina</a></li>
+<li><a href="#!/wa-useless-loop" class="feature" id="WA_TP103">Useless Loop</a></li>
+<li><a href="#!/wa-warnbro-sound" class="feature" id="WA_TP076">Warnbro Sound</a></li>
+<li><a href="#!/wa-wilson-head" class="feature" id="WA_TP087">Wilson Head</a></li>
+<li><a href="#!/wa-windy-harbour" class="feature" id="WA_TP077">Windy Harbour</a></li>
+<li><a href="#!/wa-withnell-point" class="feature" id="WA_TP101">Withnell Point</a></li>
+</ul>
+        </div>
+    </div>
+    <div id="sa-remainder" class="locations-list" style="display: none;">
+        <h3>South Australia</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/sa-american-river" class="feature" id="SA_TP067">American River</a></li>
+<li><a href="#!/sa-beachport" class="feature" id="SA_TP010">Beachport</a></li>
+<li><a href="#!/sa-blanche-port" class="feature" id="SA_TP061">Blanche Port</a></li>
+<li><a href="#!/sa-cape-jaffa" class="feature" id="SA_TP012">Cape Jaffa</a></li>
+<li><a href="#!/sa-cape-jervis" class="feature" id="SA_TP013">Cape Jervis</a></li>
+<li><a href="#!/sa-cape-rabelais-off" class="feature" id="SA_TP065">Cape Rabelais (Off)</a></li>
+<li><a href="#!/sa-coffin-bay-entrance-beacon" class="feature" id="SA_TP046">Coffin Bay Entrance Beacon</a></li>
+<li><a href="#!/sa-coffin-bay-jetty" class="feature" id="SA_TP047">Coffin Bay Jetty</a></li>
+<li><a href="#!/sa-elliston" class="feature" id="SA_TP014">Elliston</a></li>
+<li><a href="#!/sa-greenly-island" class="feature" id="SA_TP018">Greenly Island</a></li>
+<li><a href="#!/sa-kingscote" class="feature" id="SA_TP062">Kingscote</a></li>
+<li><a href="#!/sa-kingston" class="feature" id="SA_TP055">Kingston</a></li>
+<li><a href="#!/sa-pearson-island" class="feature" id="SA_TP023">Pearson Island</a></li>
+<li><a href="#!/sa-penneshaw" class="feature" id="SA_TP020">Penneshaw</a></li>
+</ul>
+<ul>
+<li><a href="#!/sa-port-eyre-fowlers-bay" class="feature" id="SA_TP028">Port Eyre (Fowlers Bay)</a></li>
+<li><a href="#!/sa-port-kenny" class="feature" id="SA_TP063">Port Kenny</a></li>
+<li><a href="#!/sa-port-macdonnell" class="feature" id="SA_TP029">Port Macdonnell</a></li>
+<li><a href="#!/sa-robe" class="feature" id="SA_TP035">Robe</a></li>
+<li><a href="#!/sa-shelf-edge-mooring" class="feature" id="SA_TP038">Shelf Edge Mooring</a></li>
+<li><a href="#!/sa-st-francis-island" class="feature" id="SA_TP036">St Francis Island</a></li>
+<li><a href="#!/sa-thevenard" class="feature" id="SA_TP005">Thevenard</a></li>
+<li><a href="#!/sa-venus-bay" class="feature" id="SA_TP064">Venus Bay</a></li>
+<li><a href="#!/sa-victor-harbor" class="feature" id="SA_TP006">Victor Harbor</a></li>
+<li><a href="#!/sa-vivonne-bay" class="feature" id="SA_TP041">Vivonne Bay</a></li>
+<li><a href="#!/sa-wedge-island-mooring" class="feature" id="SA_TP042">Wedge Island Mooring</a></li>
+<li><a href="#!/sa-whalers-bay" class="feature" id="SA_TP043">Whalers Bay</a></li>
+</ul>
+        </div>
+    </div>
+    <div id="sa-gulf" class="locations-list" style="display: none;">
+        <h3>South Australia - Gulf Region</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/sa-althorpe-i" class="feature" id="SA_TP058">Althorpe I.</a></li>
+<li><a href="#!/sa-ardrossan" class="feature" id="SA_TP054">Ardrossan</a></li>
+<li><a href="#!/sa-arno-bay" class="feature" id="SA_TP009">Arno Bay</a></li>
+<li><a href="#!/sa-brighton" class="feature" id="SA_TP056">Brighton</a></li>
+<li><a href="#!/sa-cape-elizabeth" class="feature" id="SA_TP011">Cape Elizabeth</a></li>
+<li><a href="#!/sa-cape-hardy" class="feature" id="SA_TP050">Cape Hardy</a></li>
+<li><a href="#!/sa-franklin-harbor" class="feature" id="SA_TP016">Franklin Harbor</a></li>
+<li><a href="#!/sa-franklin-harbor-entrance-beacon" class="feature" id="SA_TP049">Franklin Harbor Entrance Beacon</a></li>
+<li><a href="#!/sa-glenelg" class="feature" id="SA_TP017">Glenelg</a></li>
+<li><a href="#!/sa-point-turton" class="feature" id="SA_TP024">Point Turton</a></li>
+<li><a href="#!/sa-pondalowie-bay" class="feature" id="SA_TP059">Pondalowie Bay</a></li>
+<li><a href="#!/sa-port-adelaide-outer-harbor" class="feature" id="SA_TP001">Port Adelaide (Outer Harbor)</a></li>
+<li><a href="#!/sa-port-augusta" class="feature" id="SA_TP025">Port Augusta</a></li>
+<li><a href="#!/sa-port-bonython" class="feature" id="SA_TP026">Port Bonython</a></li>
+<li><a href="#!/sa-port-broughton" class="feature" id="SA_TP027">Port Broughton</a></li>
+<li><a href="#!/sa-port-giles" class="feature" id="SA_TP002">Port Giles</a></li>
+</ul>
+<ul>
+<li><a href="#!/sa-port-lincoln" class="feature" id="SA_TP003">Port Lincoln</a></li>
+<li><a href="#!/sa-port-vincent" class="feature" id="SA_TP053">Port Vincent</a></li>
+<li><a href="#!/sa-port-neill" class="feature" id="SA_TP030">Port Neill</a></li>
+<li><a href="#!/sa-port-noarlunga" class="feature" id="SA_TP031">Port Noarlunga</a></li>
+<li><a href="#!/sa-port-pirie" class="feature" id="SA_TP004">Port Pirie</a></li>
+<li><a href="#!/sa-port-stanvac" class="feature" id="SA_TP032">Port Stanvac</a></li>
+<li><a href="#!/sa-port-victoria" class="feature" id="SA_TP033">Port Victoria</a></li>
+<li><a href="#!/sa-red-cliff-point-beacon-5" class="feature" id="SA_TP034">Red Cliff Point (Beacon 5)</a></li>
+<li><a href="#!/sa-reevesby-i" class="feature" id="SA_TP060">Reevesby I.</a></li>
+<li><a href="#!/sa-second-valley" class="feature" id="SA_TP037">Second Valley</a></li>
+<li><a href="#!/sa-stenhouse-bay" class="feature" id="SA_TP048">Stenhouse Bay</a></li>
+<li><a href="#!/sa-taylors-landing" class="feature" id="SA_TP039">Taylors Landing</a></li>
+<li><a href="#!/sa-tiparra-reef-light" class="feature" id="SA_TP040">Tiparra Reef Light</a></li>
+<li><a href="#!/sa-tumby-bay" class="feature" id="SA_TP051">Tumby Bay</a></li>
+<li><a href="#!/sa-wallaroo" class="feature" id="SA_TP007">Wallaroo</a></li>
+<li><a href="#!/sa-western-shoal-beacon" class="feature" id="SA_TP052">Western Shoal Beacon</a></li>
+<!-- <li><a href="#" class="feature" id="SA_TP057">Wirrina</a></li> -->
+<li><a href="#!/sa-whyalla" class="feature" id="SA_TP008">Whyalla</a></li>
+</ul>
+        </div>
+    </div>
+    <div id="tas" class="locations-list" style="display: none;">
+        <h3>Tasmania</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/tas-bass-pyramid" class="feature" id="TAS_TP030">Bass Pyramid</a></li>
+<li><a href="#!/tas-bell-bay" class="feature" id="TAS_TP016">Bell Bay</a></li>
+<li><a href="#!/tas-bicheno" class="feature" id="TAS_TP028">Bicheno</a></li>
+<li><a href="#!/tas-big-river-cove" class="feature" id="TAS_TP031">Big River Cove</a></li>
+<li><a href="#!/tas-bramble-cove" class="feature" id="TAS_TP017">Bramble Cove</a></li>
+<li><a href="#!/tas-burnie" class="feature" id="TAS_TP001">Burnie</a></li>
+<li><a href="#!/tas-cape-sorell-off" class="feature" id="TAS_TP041">Cape Sorell (Off)</a></li>
+<li><a href="#!/tas-coles-bay" class="feature" id="TAS_TP037">Coles Bay</a></li>
+<li><a href="#!/tas-curtis-i" class="feature" id="TAS_TP044">Curtis I.</a></li>
+<li><a href="#!/tas-darlington-jetty" class="feature" id="TAS_TP002">Darlington Jetty</a></li>
+<li><a href="#!/tas-devonport" class="feature" id="TAS_TP005">Devonport</a></li>
+<li><a href="#!/tas-east-moncoeur-i" class="feature" id="TAS_TP043">East Moncoeur I.</a></li>
+<li><a href="#!/tas-eddystone-point" class="feature" id="TAS_TP034">Eddystone Point</a></li>
+<li><a href="#!/tas-falmouth" class="feature" id="TAS_TP036">Falmouth</a></li>
+<li><a href="#!/tas-garden-cove" class="feature" id="TAS_TP046">Garden Cove</a></li>
+<li><a href="#!/tas-granville-harbour" class="feature" id="TAS_TP018">Granville Harbour</a></li>
+<li><a href="#!/tas-hobart" class="feature" id="TAS_TP003">Hobart</a></li>
+<li><a href="#!/tas-hogan-i" class="feature" id="TAS_TP045">Hogan I.</a></li>
+<li><a href="#!/tas-impression-bay" class="feature" id="TAS_TP038">Impression Bay</a></li>
+<li><a href="#!/tas-king-island-grassy" class="feature" id="TAS_TP023">King Island (Grassy)</a></li>
+<li><a href="#!/tas-lady-barron" class="feature" id="TAS_TP032">Lady Barron</a></li>
+</ul>
+<ul>
+<li><a href="#!/tas-launceston" class="feature" id="TAS_TP019">Launceston</a></li>
+<li><a href="#!/tas-low-head" class="feature" id="TAS_TP004">Low Head</a></li>
+<li><a href="#!/tas-maatsuyker-i" class="feature" id="TAS_TP040">Maatsuyker I.</a></li>
+<li><a href="#!/tas-macquarie-island" class="feature" id="TAS_TP014">Macquarie Island</a></li>
+<li><a href="#!/tas-parsons-bay" class="feature" id="TAS_TP026">Parsons Bay</a></li>
+<li><a href="#!/tas-pieman-r" class="feature" id="TAS_TP027">Pieman R.</a></li>
+<li><a href="#!/tas-pirates-bay" class="feature" id="TAS_TP025">Pirates Bay</a></li>
+<li><a href="#!/tas-port-huon" class="feature" id="TAS_TP022">Port Huon</a></li>
+<li><a href="#!/tas-recherche-bay" class="feature" id="TAS_TP039">Recherche Bay</a></li>
+<li><a href="#!/tas-seal-bay" class="feature" id="TAS_TP029">Seal Bay</a></li>
+<li><a href="#!/tas-southport-jetty" class="feature" id="TAS_TP006">Southport Jetty</a></li>
+<li><a href="#!/tas-spring-bay" class="feature" id="TAS_TP007">Spring Bay</a></li>
+<li><a href="#!/tas-stack-i" class="feature" id="TAS_TP024">Stack I.</a></li>
+<li><a href="#!/tas-stanley" class="feature" id="TAS_TP008">Stanley</a></li>
+<li><a href="#!/tas-st-helens" class="feature" id="TAS_TP035">St Helens</a></li>
+<li><a href="#!/tas-swan-i" class="feature" id="TAS_TP033">Swan I.</a></li>
+<li><a href="#!/tas-three-hummock-i" class="feature" id="TAS_TP042">Three Hummock I.</a></li>
+</ul>
+        </div>
+    </div>
+    <div id="nt" class="locations-list" style="display: none;">
+        <h3>Northern Territory</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/nt-anson-bay" class="feature" id="NT_TP049">Anson Bay</a></li>
+<li><a href="#!/nt-arafura-sea" class="feature" id="NT_TP081">Arafura Sea</a></li>
+<li><a href="#!/nt-aurari-bay" class="feature" id="NT_TP087">Aurari Bay</a></li>
+<li><a href="#!/nt-auster-point" class="feature" id="NT_TP005">Auster Point</a></li>
+<li><a href="#!/nt-beagle-a" class="feature" id="NT_TP059">Beagle A</a></li>
+<li><a href="#!/nt-burge-point" class="feature" id="NT_TP057">Burge Point</a></li>
+<li><a href="#!/nt-cache-point" class="feature" id="NT_TP071">Cache Point</a></li>
+<li><a href="#!/nt-cadell-strait" class="feature" id="NT_TP073">Cadell Strait</a></li>
+<li><a href="#!/nt-calder-shoal" class="feature" id="NT_TP006">Calder Shoal</a></li>
+<li><a href="#!/nt-camp-point" class="feature" id="NT_TP068">Camp Point</a></li>
+<li><a href="#!/nt-cape-arnhem" class="feature" id="NT_TP007">Cape Arnhem</a></li>
+<li><a href="#!/nt-cape-beatrice" class="feature" id="NT_TP039">Cape Beatrice</a></li>
+<li><a href="#!/nt-cape-cockburn" class="feature" id="NT_TP083">Cape Cockburn</a></li>
+<li><a href="#!/nt-cape-crocker-offshore" class="feature" id="NT_TP008">Cape Crocker Offshore</a></li>
+<li><a href="#!/nt-cape-don" class="feature" id="NT_TP040">Cape Don</a></li>
+<li><a href="#!/nt-cape-ford" class="feature" id="NT_TP009">Cape Ford</a></li>
+<li><a href="#!/nt-cape-grey" class="feature" id="NT_TP010">Cape Grey</a></li>
+<li><a href="#!/nt-cape-hotham" class="feature" id="NT_TP011">Cape Hotham</a></li>
+<li><a href="#!/nt-cape-scott-off" class="feature" id="NT_TP048">Cape Scott (Off)</a></li>
+<li><a href="#!/nt-cape-van-dieman" class="feature" id="NT_TP069">Cape Van Dieman</a></li>
+<li><a href="#!/nt-cape-wessel" class="feature" id="NT_TP012">Cape Wessel</a></li>
+<li><a href="#!/nt-catfish-island" class="feature" id="NT_TP013">Catfish Island</a></li>
+<li><a href="#!/nt-centre-island" class="feature" id="NT_TP014">Centre Island</a></li>
+<li><a href="#!/nt-chambers-bay" class="feature" id="NT_TP065">Chambers Bay</a></li>
+<li><a href="#!/nt-charles-point-patches" class="feature" id="NT_TP036">Charles Point Patches</a></li>
+<li><a href="#!/nt-christine-reef" class="feature" id="NT_TP066">Christine Reef</a></li>
+<li><a href="#!/nt-copeland-i" class="feature" id="NT_TP082">Copeland I.</a></li>
+<li><a href="#!/nt-cuthbert-point" class="feature" id="NT_TP015">Cuthbert Point</a></li>
+<li><a href="#!/nt-darwin" class="feature" id="NT_TP001">Darwin</a></li>
+<li><a href="#!/nt-durville-point" class="feature" id="NT_TP080">D'Urville Point</a></li>
+<li><a href="#!/nt-east-field-island" class="feature" id="NT_TP016">East Field Island</a></li>
+<li><a href="#!/nt-elcho-island" class="feature" id="NT_TP018">Elcho Island</a></li>
+<li><a href="#!/nt-entrance-i" class="feature" id="NT_TP089">Entrance I.</a></li>
+<li><a href="#!/nt-evans-shoal" class="feature" id="NT_TP047">Evans Shoal</a></li>
+<li><a href="#!/nt-fenton-patches" class="feature" id="NT_TP061">Fenton Patches</a></li>
+<li><a href="#!/nt-fish-reef" class="feature" id="NT_TP054">Fish Reef</a></li>
+<li><a href="#!/nt-glyde-point" class="feature" id="NT_TP064">Glyde Point</a></li>
+<li><a href="#!/nt-goodrich-bank" class="feature" id="NT_TP050">Goodrich Bank</a></li>
+<li><a href="#!/nt-grant-i" class="feature" id="NT_TP086">Grant I.</a></li>
+<li><a href="#!/nt-guluwuru-island" class="feature" id="NT_TP019">Guluwuru Island</a></li>
+<li><a href="#!/nt-hancox-shoal" class="feature" id="NT_TP062">Hancox Shoal</a></li>
+<li><a href="#!/nt-hawk-i" class="feature" id="NT_TP041">Hawk I.</a></li>
+<li><a href="#!/nt-hopeful-bay" class="feature" id="NT_TP092">Hopeful Bay</a></li>
+<li><a href="#!/nt-hogmany-shoal" class="feature" id="NT_TP020">Hogmany Shoal</a></li>
+</ul>
+<ul>
+<li><a href="#!/nt-hutchison-river" class="feature" id="NT_TP021">Hutchison River</a></li>
+<li><a href="#!/nt-jones-point" class="feature" id="NT_TP022">Jones Point</a></li>
+<li><a href="#!/nt-loxton-shoal" class="feature" id="NT_TP037">Loxton Shoal</a></li>
+<li><a href="#!/nt-lynedoch-bank" class="feature" id="NT_TP023">Lynedoch Bank</a></li>
+<li><a href="#!/nt-mallison-i" class="feature" id="NT_TP090">Mallison I.</a></li>
+<li><a href="#!/nt-medina-inlet-south" class="feature" id="NT_TP044">Medina Inlet South</a></li>
+<li><a href="#!/nt-melville-bay-gove-harbour" class="feature" id="NT_TP002">Melville Bay (Gove Harbour)</a></li>
+<li><a href="#!/nt-milner-bay-groote-eylandt" class="feature" id="NT_TP003">Milner Bay (Groote Eylandt)</a></li>
+<li><a href="#!/nt-money-shoal" class="feature" id="NT_TP024">Money Shoal</a></li>
+<li><a href="#!/nt-munkunuwa" class="feature" id="NT_TP058">Munkunuwa</a></li>
+<li><a href="#!/nt-native-point" class="feature" id="NT_TP053">Native Point</a></li>
+<li><a href="#!/nt-new-year-i---w" class="feature" id="NT_TP085">New Year I. - W</a></li>
+<li><a href="#!/nt-newby-shoal" class="feature" id="NT_TP067">Newby Shoal</a></li>
+<li><a href="#!/nt-nightcliff" class="feature" id="NT_TP063">Nightcliff</a></li>
+<li><a href="#!/nt-north-goulburn-i" class="feature" id="NT_TP088">North Goulburn I.</a></li>
+<li><a href="#!/nt-north-of-jones-shoal" class="feature" id="NT_TP077">North Of Jones Shoal</a></li>
+<li><a href="#!/nt-north-peron-i" class="feature" id="NT_TP051">North Peron I.</a></li>
+<li><a href="#!/nt-north-west-crocodile-island" class="feature" id="NT_TP025">North West Crocodile Island</a></li>
+<li><a href="#!/nt-nw-peacock-i" class="feature" id="NT_TP076">Nw Peacock I.</a></li>
+<li><a href="#!/nt-one-tree-point" class="feature" id="NT_TP084">One Tree Point</a></li>
+<li><a href="#!/nt-parsons-bank" class="feature" id="NT_TP060">Parsons Bank</a></li>
+<li><a href="#!/nt-paxie-shoal" class="feature" id="NT_TP026">Paxie Shoal</a></li>
+<li><a href="#!/nt-peacock-i" class="feature" id="NT_TP078">Peacock I.</a></li>
+<li><a href="#!/nt-point-david" class="feature" id="NT_TP079">Point David</a></li>
+<li><a href="#!/nt-point-fawcett-off" class="feature" id="NT_TP056">Point Fawcett (Off)</a></li>
+<li><a href="#!/nt-point-jahleel-off" class="feature" id="NT_TP072">Point Jahleel (Off)</a></li>
+<li><a href="#!/nt-point-jenny" class="feature" id="NT_TP052">Point Jenny</a></li>
+<li><a href="#!/nt-point-stuart" class="feature" id="NT_TP027">Point Stuart</a></li>
+<li><a href="#!/nt-port-essington" class="feature" id="NT_TP074">Port Essington</a></li>
+<li><a href="#!/nt-port-keats" class="feature" id="NT_TP042">Port Keats</a></li>
+<li><a href="#!/nt-quoin-island" class="feature" id="NT_TP029">Quoin Island</a></li>
+<li><a href="#!/nt-smith-point---w" class="feature" id="NT_TP075">Smith Point - W</a></li>
+<li><a href="#!/nt-snake-bay" class="feature" id="NT_TP070">Snake Bay</a></li>
+<li><a href="#!/nt-south-barlow-point" class="feature" id="NT_TP045">South Barlow Point</a></li>
+<li><a href="#!/nt-st-asaph-bay" class="feature" id="NT_TP043">St. Asaph Bay</a></li>
+<li><a href="#!/nt-stevens-i" class="feature" id="NT_TP091">Stevens I.</a></li>
+<li><a href="#!/nt-tapa-bay" class="feature" id="NT_TP055">Tapa Bay</a></li>
+<li><a href="#!/nt-the-boxers" class="feature" id="NT_TP031">The Boxers</a></li>
+<li><a href="#!/nt-truant-island" class="feature" id="NT_TP032">Truant Island</a></li>
+<li><a href="#!/nt-two-hills-bay" class="feature" id="NT_TP033">Two Hills Bay</a></li>
+<li><a href="#!/nt-two-island-bay" class="feature" id="NT_TP093">Two Island Bay</a></li>
+<li><a href="#!/nt-unnamed-shoal" class="feature" id="NT_TP046">Unnamed Shoal</a></li>
+<li><a href="#!/nt-west-alligator-head" class="feature" id="NT_TP034">West Alligator Head</a></li>
+<li><a href="#!/nt-west-island" class="feature" id="NT_TP035">West Island</a></li>
+<li><a href="#!/nt-yabooma-island" class="feature" id="NT_TP038">Yabooma Island</a></li>
+</ul>
+
+        </div>
+    </div>
+    <div id="offshore" class="locations-list" style="display: none;">
+        <h3>Offshore &amp; Pacific Islands</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/offshore-alotau-milne-bay" class="feature" id="INT_TP010">Alotau (Milne Bay)</a></li>
+<li><a href="#!/offshore-anewa-bay" class="feature" id="INT_TP011">Anewa Bay</a></li>
+<li><a href="#!/offshore-apia" class="feature" id="INT_TP022">Apia</a></li>
+<li><a href="#!/offshore-bobo-island" class="feature" id="INT_TP028">Bobo Island</a></li>
+<li><a href="#!/offshore-bogia" class="feature" id="INT_TP029">Bogia</a></li>
+<li><a href="#!/offshore-boia-boia-waga" class="feature" id="INT_TP030">Boia Boia Waga</a></li>
+<li><a href="#!/offshore-bulavai-point" class="feature" id="INT_TP032">Bulavai Point</a></li>
+<li><a href="#!/offshore-cape-deliverance" class="feature" id="INT_TP033">Cape Deliverance</a></li>
+<li><a href="#!/offshore-christmas-island" class="feature" id="WA_TP009">Christmas Island</a></li>
+<li><a href="#!/offshore-daru" class="feature" id="INT_TP034">Daru</a></li>
+<li><a href="#!/offshore-dedele-point" class="feature" id="INT_TP035">Dedele Point</a></li>
+<li><a href="#!/offshore-dregerhafen" class="feature" id="INT_TP012">Dregerhafen</a></li>
+<li><a href="#!/offshore-east-cape" class="feature" id="INT_TP048">East Cape</a></li>
+<li><a href="#!/offshore-ebeye-island" class="feature" id="INT_TP057">Ebeye Island</a></li>
+<li><a href="#!/offshore-eleonora-bay" class="feature" id="INT_TP036">Eleonora Bay</a></li>
+<li><a href="#!/offshore-funafuti" class="feature" id="INT_TP026">Funafuti</a></li>
+<li><a href="#!/offshore-goaribari-island" class="feature" id="INT_TP037">Goaribari Island</a></li>
+<li><a href="#!/offshore-home-island" class="feature" id="WA_TP010">Home Island</a></li>
+<li><a href="#!/offshore-honiara" class="feature" id="INT_TP023">Honiara</a></li>
+<li><a href="#!/offshore-jackson-bay" class="feature" id="INT_TP008">Jackson Bay</a></li>
+<li><a href="#!/offshore-kanawea-island" class="feature" id="INT_TP038">Kanawea Island</a></li>
+<li><a href="#!/offshore-kavieng" class="feature" id="INT_TP016">Kavieng</a></li>
+<li><a href="#!/offshore-kieta" class="feature" id="INT_TP039">Kieta</a></li>
+<li><a href="#!/offshore-lae" class="feature" id="INT_TP013">Lae</a></li>
+<li><a href="#!/offshore-lata-wharf" class="feature" id="INT_TP050">Lata Wharf</a></li>
+<li><a href="#!/offshore-lautoka" class="feature" id="INT_TP003">Lautoka</a></li>
+<li><a href="#!/offshore-lombrum" class="feature" id="INT_TP015">Lombrum</a></li>
+<li><a href="#!/offshore-luganville-wharf" class="feature" id="INT_TP049">Luganville Wharf</a></li>
+</ul><ul>
+<li><a href="#!/offshore-madang-nagada-harbour" class="feature" id="INT_TP014">Madang (Nagada Harbour)</a></li>
+<li><a href="#!/offshore-majuro" class="feature" id="INT_TP006">Majuro</a></li>
+<li><a href="#!/offshore-malakal-harbour" class="feature" id="INT_TP009">Malakal Harbour</a></li>
+<li><a href="#!/offshore-margarida" class="feature" id="INT_TP040">Margarida</a></li>
+<li><a href="#!/offshore-natovi-wharf" class="feature" id="INT_TP052">Natovi Wharf</a></li>
+<li><a href="#!/offshore-nauru" class="feature" id="INT_TP007">Nauru</a></li>
+<li><a href="#!/offshore-neiafu" class="feature" id="INT_TP053">Neiafu</a></li>
+<li><a href="#!/offshore-niue-island" class="feature" id="INT_TP024">Niue Island</a></li>
+<li><a href="#!/offshore-norfolk-island" class="feature" id="NSW_TP005">Norfolk Island</a></li>
+<li><a href="#!/offshore-nukualofa" class="feature" id="INT_TP025">Nuku'Alofa</a></li>
+<li><a href="#!/offshore-omati" class="feature" id="INT_TP041">Omati</a></li>
+<li><a href="#!/offshore-oro-bay" class="feature" id="INT_TP042">Oro Bay</a></li>
+<li><a href="#!/offshore-penrhyn" class="feature" id="INT_TP058">Penrhyn</a></li>
+<li><a href="#!/offshore-pohnpei" class="feature" id="INT_TP002">Pohnpei</a></li>
+<li><a href="#!/offshore-point-stone-island" class="feature" id="INT_TP018">Point Stone Island</a></li>
+<li><a href="#!/offshore-port-moresby" class="feature" id="INT_TP019">Port Moresby</a></li>
+<li><a href="#!/offshore-port-vila" class="feature" id="INT_TP027">Port Vila</a></li>
+<li><a href="#!/offshore-rabaul" class="feature" id="INT_TP017">Rabaul</a></li>
+<li><a href="#!/offshore-rarotonga-avarua-harbour" class="feature" id="INT_TP001">Rarotonga (Avarua Harbour)</a></li>
+<li><a href="#!/offshore-saidor" class="feature" id="INT_TP043">Saidor</a></li>
+<li><a href="#!/offshore-sharp-island" class="feature" id="INT_TP047">Sharp Island</a></li>
+<li><a href="#!/offshore-soroken" class="feature" id="INT_TP044">Soroken</a></li>
+<li><a href="#!/offshore-suva" class="feature" id="INT_TP004">Suva</a></li>
+<li><a href="#!/offshore-tarawa-betio" class="feature" id="INT_TP005">Tarawa (Betio)</a></li>
+<li><a href="#!/offshore-tarekukure-wharf" class="feature" id="INT_TP051">Tarekukure Wharf</a></li>
+<li><a href="#!/offshore-umuda-island" class="feature" id="INT_TP020">Umuda Island</a></li>
+<li><a href="#!/offshore-wasu" class="feature" id="INT_TP046">Wasu</a></li>
+<li><a href="#!/offshore-west-jetty" class="feature" id="WA_TP039">West Jetty</a></li>
+<li><a href="#!/offshore-wewak" class="feature" id="INT_TP021">Wewak</a></li>
+</ul>
+
+        </div>
+    </div>
+    <div id="ant" class="locations-list" style="display: none;">
+        <h3>Antarctica</h3>
+        <div class="locations-list-inner">
+            <ul>
+<li><a href="#!/ant-casey" class="feature" id="TAS_TP009">Casey</a></li>
+<li><a href="#!/ant-commonwealth-bay" class="feature" id="TAS_TP010">Commonwealth Bay</a></li>
+<li><a href="#!/ant-davis" class="feature" id="TAS_TP011">Davis</a></li>
+<li><a href="#!/ant-heard-island" class="feature" id="TAS_TP015">Heard Island</a></li>
+<li><a href="#!/ant-mawson" class="feature" id="TAS_TP012">Mawson</a></li>
+<li><a href="#!/ant-zhong-shan" class="feature" id="TAS_TP013">Zhong Shan</a></li>
+</ul>
+
+        </div>
+    </div>
+</div>

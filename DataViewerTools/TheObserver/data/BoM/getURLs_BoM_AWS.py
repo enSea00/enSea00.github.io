@@ -12,6 +12,7 @@ from bs4 import BeautifulSoup
 import requests
 import re 
 import json
+import os
 
 # Functions ########################################
 def extract_links(html_content,bom_product_id):
@@ -40,6 +41,17 @@ def get_html_content(url):
     
     except requests.exceptions.RequestException as e:
         return f"Error: {e}"
+
+
+        # "DataType": "River Gauge",
+        # "Name": "BILLINUDGEL",
+        # "Longitude": 153.5268,
+        # "Latitude": -28.5016,
+        # "URL": "http://www.bom.gov.au/fwo/IDN60231/IDN60231.558020.plt.shtml",
+        # "Owner": "BoM",
+        # "State": "NSW",
+        # "Country": "Australia",
+        # "Notes": "558020"
 
 def parse_station_details(html_content):
     # Parse the HTML content with BeautifulSoup
@@ -122,12 +134,21 @@ for ii,url in enumerate(all_links):
     station_details["URL"] = url
     station_details["State"] = get_state_from_url(url)
 
+    # Reorder the dictionary
+    ordered_keys = ['DataType', 'Name', 'Longitude', 'Latitude', 'URL', 'Owner', 'State', 'Country', 'Notes']
+    ordered_dict = {key: station_details[key] for key in ordered_keys}
+
+    # Append to master
     all_station_details.append(station_details)  # Store data in memory
 
 # Write all collected data to JSON file at once
-with open(output_file, "w") as f:
-    json.dump(all_station_details, f, indent=4)
+script_dir = os.path.dirname(os.path.abspath(__file__))
+json_file_path = os.path.join(script_dir, "locations_aws.json")
 
-print(f"Saved {len(all_station_details)} records to {output_file}")
+# Save to JSON file
+with open(json_file_path, "w", encoding="utf-8") as json_file:
+    json.dump(all_station_details, json_file, indent=4)
+
+print(f"Saved {len(all_station_details)} station records to {json_file_path}")
 
 # End ########################################

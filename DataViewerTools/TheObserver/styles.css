@@ -51,6 +51,26 @@ a:hover {
     align-items: center;
 }
 
+/* Center the geocoder control container */
+.leaflet-top.leaflet-left {
+    position: absolute;
+    top: 10px; /* Distance from the top */
+    left: 50%; /* Move to the center horizontally */
+    transform: translateX(-50%); /* Adjust to center it properly */
+    z-index: 1001; /* Ensure it appears above other elements */
+}
+
+/* Optional: Adjust the styling of the search input box */
+.leaflet-control-geocoder input {
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: white;
+    width: 300px; /* You can adjust the width of the input box */
+}
+
+
 /* Map styling ************************************************************ */
 #map {
     width: 100%;
@@ -218,8 +238,8 @@ a:hover {
     left: 50%;
     width: 80px;
     height: 80px;
-    border: 15px solid #f3f3f3;
-    border-top: 15px solid #3498db;
+    border: 15px solid rgba(243, 243, 243, 0.7);
+    border-top: 15px solid rgba(52, 152, 219, 0.85);
     border-radius: 50%;
     animation: spin 1s linear infinite;
     z-index: 1000;
@@ -229,4 +249,5 @@ a:hover {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
 /* END *************************************************************************************/

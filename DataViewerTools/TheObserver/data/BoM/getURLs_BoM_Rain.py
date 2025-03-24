@@ -1,0 +1,5 @@
+'''
+Gauge data obtained via the BoMs ArcGIS REST Server :: https://hosting.wsapi.cloud.bom.gov.au/arcgis/rest/services/flood/National_Flood_Gauge_Network/MapServer
+Then export to csv and modify as required
+'''
+
