@@ -51,26 +51,6 @@ a:hover {
     align-items: center;
 }
 
-/* Center the geocoder control container */
-.leaflet-top.leaflet-left {
-    position: absolute;
-    top: 10px; /* Distance from the top */
-    left: 50%; /* Move to the center horizontally */
-    transform: translateX(-50%); /* Adjust to center it properly */
-    z-index: 1001; /* Ensure it appears above other elements */
-}
-
-/* Optional: Adjust the styling of the search input box */
-.leaflet-control-geocoder input {
-    padding: 8px 15px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 2px solid #ccc;
-    background-color: white;
-    width: 300px; /* You can adjust the width of the input box */
-}
-
-
 /* Map styling ************************************************************ */
 #map {
     width: 100%;
@@ -116,6 +96,68 @@ a:hover {
     z-index: 1000; /* Make sure it appears above other content */
 }
 
+/* Location Search bar  *********************************************************************************************************************/
+/* Center the geocoder control container */
+.leaflet-top.leaflet-left {
+    position: absolute;
+    top: 10px; /* Distance from the top */
+    left: 50%; /* Move to the center horizontally */
+    transform: translateX(-50%); /* Adjust to center it properly */
+    z-index: 1001; /* Ensure it appears above other elements */
+}
+
+/* Optional: Adjust the styling of the search input box */
+.leaflet-control-geocoder input {
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: white;
+    width: 300px; /* You can adjust the width of the input box */
+}
+
+/* Dropdown hamburger menu (which contains the Legend) ****************************************************************/
+.hamburger-icon {
+    background: none;
+    border: none;
+    font-size: var(--legend-label-font-size);
+    cursor: pointer;
+    align-items: center;
+    font-family: inherit; /* Use the same font as the page */
+    color: white; /* Adjust if needed */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position right below the hamburger icon */
+    left: 1vh; /* Align with the left edge of the icon */
+    background-color: #333;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1000; /* Ensure it appears above other elements */
+    /* margin-left: 10px; */
+}
+
+/* Dropdown links */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Show the dropdown when the hamburger icon is clicked */
+.show {
+    display: block;
+}
 
 /* Legend Styling *************************************************************************************/
 
@@ -146,88 +188,7 @@ a:hover {
     opacity: 0.4; /* Dim disabled items */
 }
 
-/* Dropdown hamburger menu (which contains the Legend) ****************************************************************/
-.hamburger-menu {
-    position: absolute;
-    top: 55px;
-    left: 1%;
-    display: flex;
-    justify-content: flex-start; /* Aligns text horizontally to the left */
-    align-items: center;
-    z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 10px 10px;
-    border-radius: 8px;
-}
-
-.hamburger-icon {
-    background: none;
-    border: none;
-    font-size: var(--legend-label-font-size);
-    cursor: pointer;
-    align-items: center;
-    font-family: inherit; /* Use the same font as the page */
-    color: white; /* Adjust if needed */
-}
-
-.menu-label {
-    font-size: var(--legend-label-font-size); /* clamp(18px, 4vw, 24px);  /* Font size will be at least 14px, scale with viewport width, but not exceed 24px */
-    /* margin-left: 8px; */
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    text-align: center;
-    font-family: inherit; /* Use the same font as the page */
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%; /* Position right below the hamburger icon */
-    left: 1vh; /* Align with the left edge of the icon */
-    background-color: #333;
-    min-width: 200px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    overflow: hidden;
-    z-index: 1000; /* Ensure it appears above other elements */
-    /* margin-left: 10px; */
-}
-
-/* Show menu when the hamburger is clicked */
-.hamburger-menu .show {
-    display: block;
-}
-
-/* Dropdown header */
-.dropdown-header {
-    background-color: #444;
-    color: white;
-    padding: 12px 16px;
-    font-weight: bold;
-    text-align: center;
-    border-bottom: 1px solid #555;
-}
-
-/* Dropdown links */
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-/* Show the dropdown when the hamburger icon is clicked */
-.show {
-    display: block;
-}
-
-/* Overlay Styling ***********************************************************************/
+/* Catchment Overlay Styling ***********************************************************************/
 .catchment-label {
     font-size: 12px;
     font-weight: bold;
@@ -245,10 +206,10 @@ a:hover {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 80px;
-    height: 80px;
-    border: 15px solid rgba(243, 243, 243, 0.7);
-    border-top: 15px solid rgba(52, 152, 219, 0.85);
+    width: 40px;
+    height: 40px;
+    border: 12px solid rgba(243, 243, 243, 0.85);
+    border-top: 12px solid rgba(52, 152, 219, 0.85);
     border-radius: 50%;
     animation: spin 1s linear infinite;
     z-index: 1000;
@@ -258,5 +219,5 @@ a:hover {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-
+   
 /* END *************************************************************************************/

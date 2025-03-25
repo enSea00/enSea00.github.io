@@ -57,7 +57,8 @@ def parse_station_details(url):
                 "Country": "Australia",
                 "Notes": match.group(2).strip(),
             }
-            station_details.append(data)
+            if 'javascript:void(0)' not in data["URL"]:
+                station_details.append(data)
 
     return station_details
 
@@ -83,8 +84,7 @@ for state in list_of_states:
         all_station_details.extend(station_data)  # Flatten the list
 
 # Get script directory
-script_dir = os.path.dirname(os.path.abspath(__file__))
-json_file_path = os.path.join(script_dir, "locations_river_gauges.json")
+json_file_path = r'data\all_json_files\locations_river_gauges.json'
 
 # Save to JSON file
 with open(json_file_path, "w", encoding="utf-8") as json_file:

@@ -4,8 +4,27 @@ document.getElementById('loading-spinner').style.display = 'block';
 // DATA PREPARATION ////////////////////////////////////////////////////////////////////////////////////////
 
 // This code manually defines available data types and assigns color to their markers
-const uniqueDataTypes = ['Weather Station', 'River Gauge', 'Rain Radar', 'Tide Gauge', 'Tide Prediction',  'Wave Buoy', 'Swellnet (Cam)',  'Surfline (No Cam)', 'Surfline (Cam)', 'Willy Weather', 'Web Camera', 'Ocean Buoy (NDBC)']
-const predefinedColors = ["#a6cee3", "#1f78b4", "#ff7f00", "#b2df8a", "#33a02c", "#e31a1c", "#fdbf6f", "#cab2d6", "#6a3d9a", "#fb9a99", "#ffff99", "#b15928"]
+
+// const uniqueDataTypes = ['Weather Station', 'River Gauge', 'Rain Radar', 'Tide Gauge', 'Tide Prediction',  'Wave Buoy', 'Swellnet (Cam)',  'Surfline (No Cam)', 'Surfline (Cam)', 'Willy Weather', 'Web Camera', 'Ocean Buoy (Active)', 'Ocean Buoy (Historical)']
+// const predefinedColors = ["#a6cee3", "#1f78b4", "#ff7f00", "#b2df8a", "#33a02c", "#e31a1c", "#fdbf6f", "#cab2d6", "#6a3d9a", "#fb9a99", "#ffff99", "#b15928", "#ab8671"]
+
+const name_color = [
+    ['Weather Station', '#a6cee3'],
+    ['River Gauge', '#1f78b4'],
+    ['Rain Radar', '#ff7f00'],
+    ['Tide Gauge', '#b2df8a'],
+    ['Tide Prediction', '#33a02c'],
+    ['Wave Buoy', '#e31a1c'],
+    ['Swellnet (Cam)', '#fdbf6f'],
+    ['Surfline (Cam)', '#6a3d9a'],
+    ['Surfline (No Cam)', '#cab2d6'],
+    ['Willy Weather', '#fb9a99'],
+    ['Web Camera', '#ffff99'],
+    ['Ocean Buoy (Active)', '#b15928'],
+    ['Ocean Buoy (Historical)', '#ab8671']
+]
+const uniqueDataTypes = name_color.map(item => item[0]);
+const predefinedColors = name_color.map(item => item[1]);
 
 // Map each DataType to a corresponding color from the predefined list
 const colorScheme = uniqueDataTypes.reduce((acc, dataType, index) => {
@@ -216,19 +235,23 @@ Object.keys(groupedLocations).forEach((dataType) => {
                 html: `<div class="marker-icon" style="background-color:${color};"></div>`
             })
         });
+        
+        // format lat, lon to 5 decimal places
+        var lon = parseFloat(loc.Longitude).toFixed(5);
+        var lat = parseFloat(loc.Latitude).toFixed(5);
 
         // Bind a popup to each marker
         marker.bindPopup(`
             <i>${loc.DataType}</i><br>
             <b>Location: </b>${loc.Name}<br>
-            (${loc.Longitude}°E, ${loc.Latitude}°N)
+            (${lon}°E, ${lat}°N)
         `);
 
         // Bind a tooltip to show on hover
         marker.bindTooltip(`
             <i>${loc.DataType}</i><br>
             <b>Location: </b>${loc.Name}<br>
-            (${loc.Longitude}°E, ${loc.Latitude}°N)
+            (${lon}°E, ${lat}°N)
         `, {
             permanent: false,  // Tooltip is not permanent
             direction: 'top',  // Show tooltip above the marker
@@ -241,10 +264,20 @@ Object.keys(groupedLocations).forEach((dataType) => {
                 window.open(loc.URL, '_blank');
             }
         });
+
+        // // add larger clickable area around 
+        // const clickArea = L.circleMarker([lat, lon], {
+        //     radius: 25,  // Adjust the radius to widen the clickable area
+        //     color: 'transparent',  // No border
+        //     fillColor: 'transparent', // No fill color
+        //     fillOpacity: 1,
+        // }).addTo(map);
         
-        marker.on('click', function() {
-            fetchAndPlotWeatherData(loc.URL); 
-        });
+        // clickArea.on('click', () => {
+        //     if (loc.URL) {
+        //         window.open(loc.URL, '_blank');
+        //     }
+        // });
 
         // Add marker to the marker cluster for this DataType
         markers.addLayer(marker);
@@ -435,6 +468,16 @@ const loadingPromises = [];
 //     });
 // });
 // loadingPromises.push(catchmentLayerLoaded);
+
+// Show spinner when zooming starts
+map.on("zoomstart", () => {
+    loader.style.display = "block";
+});
+
+// Hide spinner when zooming stops
+map.on("zoomend", () => {
+    loader.style.display = "none";
+});
 
 // Wait for base map (OSM) to load
 const satelliteLoaded = new Promise((resolve) => {

@@ -2,11 +2,18 @@
 get nsw wave buoy urls
 
  in pogress - gets urls ok but lat lon are buried inside pdfs on the pages .... ! not many gauges so manual extraction probably easiest
+
+for later - data json url eg https://s3-ap-southeast-2.amazonaws.com/www-data.manly.hydraulics.works/www/stations/wave/BYRBOW.json
+
 '''
 
 # inputs
 url = 'https://mhl.nsw.gov.au/Data-Wave'
 
+meta_data = {"Names" : ["BYRBOW","COFHOW","CRHDOW","SYDDOW","PTKMOW","BATBOW","EDENOW"],
+             "Longitude" : [153+41/60+41/3600,],
+             "Latitude" : [-28-52/60-14/3600, ],
+             }
 # packages
 import requests
 import re
