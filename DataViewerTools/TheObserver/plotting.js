@@ -208,7 +208,7 @@ Object.keys(groupedLocations).forEach((dataType) => {
             const zoomLevel = map.getZoom(); // Get current zoom level
 
             // Minimum size for clusters (same as individual marker size)
-            const minClusterSize = 20;
+            const minClusterSize = 16;
 
             // Dynamically scale cluster size based on child count and zoom level
             // let clusterSize = 1.3 * minClusterSize + Math.log(childCount) * 4; // Start from min size and scale up
@@ -217,7 +217,7 @@ Object.keys(groupedLocations).forEach((dataType) => {
             clusterSize = Math.max(clusterSize, minClusterSize); // Ensure cluster size doesn't go below individual marker size
 
             // Cap the size to a maximum value (e.g., 50px for larger clusters)
-            clusterSize = Math.min(clusterSize, 60);
+            clusterSize = Math.min(clusterSize, 42);
 
             // Set opacity for clusters
             return new L.DivIcon({

@@ -61,8 +61,8 @@ a:hover {
 /* CSS for individual location markers ************************************************************/
 .custom-marker div {
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     display: inline-block;
 }
 
