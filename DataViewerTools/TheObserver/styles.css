@@ -3,7 +3,7 @@
     --title-font-size: clamp(20px, 1vw, 24px);
     --title-icon-size: clamp(24px, 1.5vw, 28px);
 
-    --legend-label-font-size: var(--title-font-size);
+    --legend-label-font-size: 14px;
 }
 /* Body, fonmt styling *********************************************************/
 body, html {
@@ -120,7 +120,7 @@ a:hover {
 .hamburger-icon {
     background: none;
     border: none;
-    font-size: var(--legend-label-font-size);
+    font-size: var(--title-font-size);
     cursor: pointer;
     align-items: center;
     font-family: inherit; /* Use the same font as the page */
@@ -186,6 +186,14 @@ a:hover {
 
 .legend-item.disabled {
     opacity: 0.4; /* Dim disabled items */
+}
+
+#legend-container .legend-title {
+    font-weight: normal;
+    font-size: var(--legend-label-font-size);
+    opacity: 0.8;
+    font-style: italic;
+    margin-bottom: 5px;
 }
 
 /* Catchment Overlay Styling ***********************************************************************/
