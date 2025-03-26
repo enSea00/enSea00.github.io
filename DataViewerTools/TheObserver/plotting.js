@@ -367,7 +367,7 @@ const legend = L.control({ position: 'topright' });
 
 legend.onAdd = function () {
     const div = L.DomUtil.create('div', 'info legend');
-    div.innerHTML = '            <div class="legend-title">Double click to isolate data type.<br>Single click to hide data type.</div>';
+    div.innerHTML = '<div class="legend-title">Double click to isolate data type.<br>Single click to hide/show data type.</div>';
 
     uniqueDataTypes.forEach((dataType) => {
         div.innerHTML += `
