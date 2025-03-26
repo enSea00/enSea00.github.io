@@ -46,6 +46,11 @@ const Australia_Coordinates = [-25.2744, 133.7751]; // Initial map center
 const map = L.map('map', {
     zoomControl: false, // This disables the default +/- zoom controls in the top left
     minZoom: 2,
+    maxBounds: [
+        [-90, -15], // Southwest corner (latitude, longitude)
+        [90, 370]   // Northeast corner (latitude, longitude)
+    ],
+    maxBoundsViscosity: 1.0 // Makes panning feel "sticky" at the edges
 }).setView(Australia_Coordinates, 3); // Set initial map view (latitude, longitude, zoom level)
 
 // Available arcgis rest services
@@ -168,9 +173,16 @@ map.on("baselayerchange", function (event) {
 // Display lat lon of mouse cursor location - PC ONLY ////////////////////////////////////////////////////////////////////////////////
 map.on('mousemove', function(e) {
     const lat = e.latlng.lat.toFixed(5);
-    const lon = e.latlng.lng.toFixed(5);
-    document.getElementById('latlon-display').innerHTML = `${lon}°E, ${lat}°N`;
+    let lon = e.latlng.lng.toFixed(5); // Use 'let' instead of 'const'
+    
+    if (lon > 180) {
+        lon = (lon - 360).toFixed(5); // Convert to correct west longitude
+        document.getElementById('latlon-display').innerHTML = `${Math.abs(lon)}°W, ${lat}°N`;
+    } else {
+        document.getElementById('latlon-display').innerHTML = `${lon}°E, ${lat}°N`;
+    }
 });
+
 
 // Display popup of lat lon of clicked location ///////////////////////////////////////////////////////////////////////////////////// 
 map.on('click', function(e) {
@@ -181,11 +193,21 @@ map.on('click', function(e) {
     map.closePopup();
 
     // Create the popup content
-    const popupContent = `
-        <div style="text-align: center; font-size:14px;">
-            <p>${e.latlng.lng.toFixed(5)}°E, ${e.latlng.lat.toFixed(5)}°N</p>
-        </div>
-    `;
+    let popupContent;
+
+    if (e.latlng.lng > 180) {
+        popupContent = `
+            <div style="text-align: center; font-size:14px;">
+                <p>${(360 - e.latlng.lng).toFixed(5)}°W, ${e.latlng.lat.toFixed(5)}°N</p>
+            </div>
+        `;
+    } else {
+        popupContent = `
+            <div style="text-align: center; font-size:14px;">
+                <p>${e.latlng.lng.toFixed(5)}°E, ${e.latlng.lat.toFixed(5)}°N</p>
+            </div>
+        `;
+    }
 
     // Create and open the new popup at the clicked location
     L.popup()
@@ -237,26 +259,36 @@ Object.keys(groupedLocations).forEach((dataType) => {
         });
         
         // format lat, lon to 5 decimal places
-        var lon = parseFloat(loc.Longitude).toFixed(5);
+        var lon = parseFloat(loc.Longitude); // Keep as a number for calculations
+        var lon_label = '°E';
+        
+        if (lon > 180) {
+            lon = (360 - lon).toFixed(5); // Ensure correct calculation before converting to string
+            lon_label = '°W';
+        } else {
+            lon = lon.toFixed(5); // Convert to fixed decimal places after processing
+        }
+        
         var lat = parseFloat(loc.Latitude).toFixed(5);
-
+        
         // Bind a popup to each marker
         marker.bindPopup(`
             <i>${loc.DataType}</i><br>
             <b>Location: </b>${loc.Name}<br>
-            (${lon}°E, ${lat}°N)
+            (${lon}${lon_label}, ${lat}°N)
         `);
-
+        
         // Bind a tooltip to show on hover
         marker.bindTooltip(`
             <i>${loc.DataType}</i><br>
             <b>Location: </b>${loc.Name}<br>
-            (${lon}°E, ${lat}°N)
+            (${lon}${lon_label}, ${lat}°N)
         `, {
             permanent: false,  // Tooltip is not permanent
             direction: 'top',  // Show tooltip above the marker
             offset: L.point(0, -10)  // Adjust the tooltip position
         });
+        
 
         // Open URL on click (note: `loc.URL` instead of `loc.url`)
         marker.on('click', () => {
@@ -264,20 +296,6 @@ Object.keys(groupedLocations).forEach((dataType) => {
                 window.open(loc.URL, '_blank');
             }
         });
-
-        // // add larger clickable area around 
-        // const clickArea = L.circleMarker([lat, lon], {
-        //     radius: 25,  // Adjust the radius to widen the clickable area
-        //     color: 'transparent',  // No border
-        //     fillColor: 'transparent', // No fill color
-        //     fillOpacity: 1,
-        // }).addTo(map);
-        
-        // clickArea.on('click', () => {
-        //     if (loc.URL) {
-        //         window.open(loc.URL, '_blank');
-        //     }
-        // });
 
         // Add marker to the marker cluster for this DataType
         markers.addLayer(marker);
@@ -303,6 +321,11 @@ var geocoder = L.Control.geocoder({
 })
 .on('markgeocode', function(e) {
     var latlng = e.geocode.center;
+    
+    // Adjust longitude if negative
+    if (latlng.lng < 0) {
+        latlng.lng += 360;
+    }
     
     // Smoothly fly to the searched location
     map.flyTo(latlng, 12, { duration: 1.5 });

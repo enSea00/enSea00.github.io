@@ -19,8 +19,8 @@ extarct DataType subset from old urls_points.csv file and save to new json file
 # json_file = r'data\all_json_files\locations_willy.json'
 
 csv_file = "urls_points.csv"
-DataType = "Rain Radar"
-json_file = r'data\all_json_files\locations_radar.json'
+DataType = "Wave Buoy"
+json_file = r'data\all_json_files\locations_wave_buoy.json'
 
 # packages
 import csv
