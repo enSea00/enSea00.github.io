@@ -4,22 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Observer</title>
-    <!-- Leaflet CSS and JS -->
+    
+    <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css" />
+    
+    <!-- Leaflet JS  -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script src="https://unpkg.com/esri-leaflet"></script> <!-- Load Esri Leaflet -->
+    <script src="https://unpkg.com/esri-leaflet"></script>
     <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
 
     <!-- Leaflet MarkerCluster CSS and JS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.1/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.1/dist/MarkerCluster.Default.css" />
     <script src="https://unpkg.com/leaflet.markercluster@1.5.1/dist/leaflet.markercluster.js"></script>
-        
-    <script src="https://d3js.org/d3.v6.min.js"></script> <!-- Load d3.js color package-->
+
+    <!-- Include Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Load d3.js color package-->
+    <script src="https://d3js.org/d3.v6.min.js"></script> 
     <script src="https://cdn.plot.ly/plotly-3.0.1.min.js"></script>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to custom CSS file -->
+    
+    <!-- Link to page's custom CSS file -->
+    <link rel="stylesheet" href="styles.css"> 
 
 </head>
 <body>
@@ -54,6 +64,14 @@
     <!-- LatLon display (for PC only) -->
     <div id="latlon-display">
         Lat: -, Lon: -
+    </div>
+
+    <!-- Hidden popup notification Modal -->
+    <div id="custom-alert" style="display: none;">
+        <div id="alert-content">
+            <p id="alert-message">Coordinates copied to clipboard.</p>
+            <!-- <button id="alert-close-btn">Close</button> -->
+        </div>
     </div>
 
 <script src="locations_all.js"></script> <!-- Custom JS file with location data -->

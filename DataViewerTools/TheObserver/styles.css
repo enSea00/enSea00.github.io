@@ -96,6 +96,31 @@ a:hover {
     z-index: 1000; /* Make sure it appears above other content */
 }
 
+/* location right click popup **********************************************************************************/
+#custom-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    border-radius: 10px;
+    z-index: 9999;
+    color: white;
+    font-size: 14px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#alert-content {
+    text-align: center;
+}
+
+#alert-message {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
 /* Location Search bar  *********************************************************************************************************************/
 /* Center the geocoder control container */
 .leaflet-top.leaflet-left {
@@ -192,6 +217,7 @@ a:hover {
     font-weight: normal;
     font-size: var(--legend-label-font-size);
     opacity: 0.8;
+    padding: 5px;
     font-style: italic;
     margin-bottom: 5px;
 }

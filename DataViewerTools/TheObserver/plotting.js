@@ -5,13 +5,11 @@ document.getElementById('loading-spinner').style.display = 'block';
 
 // This code manually defines available data types and assigns color to their markers
 
-// const uniqueDataTypes = ['Weather Station', 'River Gauge', 'Rain Radar', 'Tide Gauge', 'Tide Prediction',  'Wave Buoy', 'Swellnet (Cam)',  'Surfline (No Cam)', 'Surfline (Cam)', 'Willy Weather', 'Web Camera', 'Ocean Buoy (Active)', 'Ocean Buoy (Historical)']
-// const predefinedColors = ["#a6cee3", "#1f78b4", "#ff7f00", "#b2df8a", "#33a02c", "#e31a1c", "#fdbf6f", "#cab2d6", "#6a3d9a", "#fb9a99", "#ffff99", "#b15928", "#ab8671"]
-
 const name_color = [
     ['Weather Station', '#a6cee3'],
     ['River Gauge', '#1f78b4'],
     ['Rain Radar', '#ff7f00'],
+    ['Rain Gauge', '#ffb061'],
     ['Tide Gauge', '#b2df8a'],
     ['Tide Prediction', '#33a02c'],
     ['Wave Buoy', '#e31a1c'],
@@ -103,26 +101,91 @@ map.on("overlayremove", function (event) {
     }
 });
 
-// Load labels only once when the catchment layer loads
 catchmentLayer.on("load", function () {
     catchmentLabels.clearLayers(); // Clear existing labels before reloading
 
     catchmentLayer.eachFeature(function (layer) {
         var props = layer.feature.properties;
         if (props && props.level2name) {
+            // Round albersarea to 2 decimal places, convert to km², and add thousands separator
+            var albersArea = (props.albersarea / 1000000).toFixed(2); // Convert to km² and round to 2 decimal places
+            var albersAreaFormatted = Number(albersArea).toLocaleString(); // Add comma separator
+            
+            var albersAreaHtml = `${albersAreaFormatted} km<sup>²</sup>`; // Format km² with superscript
+
+            // Create the HTML content for the popup
+            var popupHTML = `
+                <div class="catchment-popup-content">
+                    <strong>${props.level2name}</strong><br>
+                    Area: ${albersAreaHtml}
+                </div>
+            `;
+
+            // Create a temporary element to get the computed font size from CSS
+            var tempElement = document.createElement("div");
+            tempElement.classList.add("catchment-label"); // Add the same class as the label to get the correct styles
+            document.body.appendChild(tempElement); // Append to the body to get the style
+            var fontSize = window.getComputedStyle(tempElement).fontSize; // Get the computed font size
+            document.body.removeChild(tempElement); // Remove the temporary element
+
+            // Convert the font size from 'px' string to a number
+            var fontSizeNumber = parseFloat(fontSize);
+
+            // Calculate label height as 1.1 times the font size
+            var labelHeight = fontSizeNumber * 1.5; // 1.1 times the font size for height
+
+            // Estimate the width of the label based on the number of characters in the name
+            var nameLength = props.level2name.length;
+            var labelWidth = 10 * nameLength; // Approximate width based on character count (10px per character)
+
+            // Ensure the label width is at least 100px wide (fallback for short names)
+            labelWidth = Math.max(labelWidth, 100);
+
+            // Create the label marker (only for the position of the label)
             var label = L.marker(layer.getBounds().getCenter(), {
                 icon: L.divIcon({
-                    className: "catchment-label",
-                    html: props.level2name,
-                    iconSize: null // Ensures default size
+                    className: "catchment-label",  // Refer to CSS class for styling
+                    html: props.level2name,  // Display only the Level 2 Name in the label
+                    iconSize: [labelWidth, labelHeight], // Set the width dynamically, height is calculated based on font size
+                    iconAnchor: [labelWidth / 2, labelHeight]  // Position the label at its center
                 })
             });
+
+            // Set a custom offset to position the popup at the center of the label
+            // var popupOffset = L.point(0, -20);  // Adjust the offset to center the popup
+
+                // Bind a tooltip to show on hover
+            label.bindTooltip(popupHTML, {
+                permanent: false,  // Tooltip is not permanent
+                direction: 'top',  // Show tooltip above the marker
+                offset: L.point(0, -1.5*12)  // Adjust the tooltip position
+            });
+            
+            // Bind a popup with the HTML content to the marker (for hover or click interaction)
+            // label.bindPopup(popupHTML, {
+            //     // offset: popupOffset,  // Set the offset to center the popup
+            //     direction: 'top',
+            //     maxWidth: 300,
+            //     closeButton: false
+            // });
+
+            // // Event to open popup on mouseover (hover)
+            // label.on('mouseover', function () {
+            //     label.openPopup(); // Open the popup when mouse hovers over the marker
+            // });
+
+            // // Event to close the popup when mouseout
+            // label.on('mouseout', function () {
+            //     label.closePopup(); // Close the popup when mouse leaves the marker
+            // });
+
             catchmentLabels.addLayer(label);
         }
     });
 
     updateLabelsVisibility(); // Ensure correct label visibility on initial load
 });
+
 
 // Ensure labels update when zooming
 map.on("zoomend", updateLabelsVisibility);
@@ -183,38 +246,63 @@ map.on('mousemove', function(e) {
     }
 });
 
+// Display popup of lat lon of right-clicked location ///////////////////////////////////////////////////////////////////////////////////// 
+function hideCustomAlert() {
+    var alertElement = document.getElementById('custom-alert');
+    alertElement.style.display = 'none';
+    alertElement.classList.remove('show');
+}
 
-// Display popup of lat lon of clicked location ///////////////////////////////////////////////////////////////////////////////////// 
-map.on('click', function(e) {
-    // Get the latitude and longitude from the click event
-    const latLon = `${e.latlng.lat.toFixed(5)}, ${e.latlng.lng.toFixed(5)}`;
+map.on('contextmenu', function(e) {
+    // Hide any existing alert before showing a new one
+    hideCustomAlert(); 
 
-    // Close any open popup before opening a new one
-    map.closePopup();
-
-    // Create the popup content
-    let popupContent;
-
-    if (e.latlng.lng > 180) {
-        popupContent = `
-            <div style="text-align: center; font-size:14px;">
-                <p>${(360 - e.latlng.lng).toFixed(5)}°W, ${e.latlng.lat.toFixed(5)}°N</p>
-            </div>
-        `;
+    const lat = e.latlng.lat.toFixed(5);
+    let lon = e.latlng.lng.toFixed(5); 
+    let div_html;
+    if (lon > 180) {
+        lon = (lon - 360).toFixed(5); 
+        div_html = `${Math.abs(lon)}°W, ${lat}°N`;
     } else {
-        popupContent = `
-            <div style="text-align: center; font-size:14px;">
-                <p>${e.latlng.lng.toFixed(5)}°E, ${e.latlng.lat.toFixed(5)}°N</p>
-            </div>
-        `;
+        div_html = `${lon}°E, ${lat}°N`;
     }
 
-    // Create and open the new popup at the clicked location
-    L.popup()
+    map.closePopup();
+
+    let popupContent = `
+    <div style="text-align: center; font-size:14px; display: flex; align-items: center; justify-content: center; padding: 2px;">
+        <p style="margin: 0 10px 0 0; white-space: nowrap; line-height: 1.2;">${div_html}</p>
+        <i class="far fa-copy" style="font-size: 16px; cursor: pointer; padding: 0;"></i> <!-- Copy icon -->
+    </div>
+    `;
+
+    let popup = L.popup()
         .setLatLng(e.latlng)
         .setContent(popupContent)
         .openOn(map);
+
+    popup.getElement().addEventListener('click', function(event) {
+        if (event.target && event.target.classList.contains('fa-copy')) {
+            // Copy the coordinates to clipboard
+            navigator.clipboard.writeText(div_html).then(function() {
+                // Show custom alert
+                var alertElement = document.getElementById('custom-alert');
+                alertElement.style.display = 'block';
+                alertElement.classList.add('show');
+                setTimeout(function() {
+                    hideCustomAlert(); // Hide alert after 3 seconds
+                }, 3000); // Hide the alert after 3 seconds
+            }).catch(function(error) {
+                console.error('Failed to copy coordinates:', error);
+            });
+        }
+    });
 });
+
+map.on('click', function() {
+    hideCustomAlert();  // Hide the custom alert when a left-click occurs
+});
+
 
 // ADD LOCATION MARKERS TO MAP ////////////////////////////////////////////////////////////////////////////////
 
@@ -359,6 +447,62 @@ var geocoder = L.Control.geocoder({
 })
 .addTo(map);
 
+// Add the measurement tool //////////////////////////////////////////////
+
+// Feature group to store drawn layers
+const drawnItems = new L.FeatureGroup();
+map.addLayer(drawnItems);
+
+// Initialize Leaflet Draw Control for drawing shapes and measuring
+const drawControl = new L.Control.Draw({
+    position: 'bottomright',
+    draw: {
+        polygon: true,     // Allow polygon drawing (useful for measuring areas)
+        polyline: true,    // Allow polyline drawing (useful for measuring distance)
+        rectangle: true,  // Disable rectangle
+        circlemarker: false,     // Disable circle
+        circle: false,
+        marker: false,     // Disable marker
+        layers: false,
+    },
+    edit: {
+        featureGroup: drawnItems // Where drawn shapes will be stored
+    }
+});
+map.addControl(drawControl);
+
+// Function to calculate polyline distance
+function calculateDistance(latlngs) {
+    let totalDistance = 0;
+    for (let i = 0; i < latlngs.length - 1; i++) {
+        totalDistance += map.distance(latlngs[i], latlngs[i + 1]); // Distance in meters
+    }
+    return totalDistance;
+}
+
+// Function to calculate polygon area
+function calculateArea(latlngs) {
+    return L.GeometryUtil.geodesicArea(latlngs[0]); // Area in square meters
+}
+
+// Listen for drawing events to measure distance/area
+map.on('draw:created', function (e) {
+    const layer = e.layer;
+    drawnItems.addLayer(layer); // Add drawn layer to the map
+
+    if (e.layerType === 'polyline') {
+        const distance = calculateDistance(layer.getLatLngs());
+        alert(`Distance: ${(distance / 1000).toFixed(2)} km`); // Convert to km
+    } else if (e.layerType === 'polygon') {
+        const area = calculateArea(layer.getLatLngs());
+        alert(`Area: ${(area / 1000000).toFixed(2)} km²`); // Convert to km²
+    }
+
+    else if (e.layerType === 'rectangle') {
+        const area = calculateArea(layer.getLatLngs());
+        alert(`Area: ${(area / 1000000).toFixed(2)} km²`); // Convert to km²
+    }
+});
 
 // LEGEND ////////////////////////////////////////////////////////////////////////////////////////
 
@@ -417,6 +561,7 @@ document.getElementById('legend-container').addEventListener('click', (event) =>
 // Handle double-click to isolate or restore all groups
 document.getElementById('legend-container').addEventListener('dblclick', (event) => {
     const item = event.target.closest('.legend-item');
+    
     if (!item) return;
 
     const selectedType = item.dataset.type;

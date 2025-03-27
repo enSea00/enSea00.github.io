@@ -28,6 +28,9 @@ def extract_floodmap_links(html_content):
     return [area.get('href') for area in floodmap.find_all('area') if area.get('href')]
 
 # Function to parse station details
+import re
+from bs4 import BeautifulSoup
+
 def parse_station_details(url):
     state = url.split("/")[3].upper()
     html_content = get_html_content(url)
@@ -45,10 +48,16 @@ def parse_station_details(url):
         onmouseover = area.get('onmouseover', '')
         pattern = r"PopupRiver\('([^']*)','([^']*)','([^']*)','([^']*)','([^']*)','([^']*)','([^']*)','([^']*)','([^']*)','([^']*)','([^']*)','([^']*)'\)"
         match = re.search(pattern, onmouseover)
+
         if match:
+            name = match.group(1).strip()
+            data_type = 'River Gauge'
+            if "tide" in name.lower() or "tidal" in name.lower():
+                continue # skip tide gauges
+
             data = {
-                "DataType": "River Gauge",
-                "Name": match.group(1).strip(),
+                "DataType": data_type,
+                "Name": name,
                 "Longitude": float(match.group(4).strip()),
                 "Latitude": float(match.group(3).strip()),
                 "URL": 'http://www.bom.gov.au' + area.get('href', ''),
@@ -57,6 +66,7 @@ def parse_station_details(url):
                 "Country": "Australia",
                 "Notes": match.group(2).strip(),
             }
+
             if 'javascript:void(0)' not in data["URL"]:
                 station_details.append(data)
 
@@ -84,7 +94,7 @@ for state in list_of_states:
         all_station_details.extend(station_data)  # Flatten the list
 
 # Get script directory
-json_file_path = r'data\all_json_files\locations_river_gauges.json'
+json_file_path = r'data\all_json_files\locations_river_bom.json'
 
 # Save to JSON file
 with open(json_file_path, "w", encoding="utf-8") as json_file:
