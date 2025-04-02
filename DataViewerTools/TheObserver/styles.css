@@ -157,7 +157,7 @@ a:hover {
     position: absolute;
     top: 100%; /* Position right below the hamburger icon */
     left: 1vh; /* Align with the left edge of the icon */
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7);
     min-width: 200px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -181,6 +181,45 @@ a:hover {
 
 /* Show the dropdown when the hamburger icon is clicked */
 .show {
+    display: block;
+}
+
+/* INFO icon styling ****************************************/
+/* Style for the info icon button */
+.info-icon {
+    background: transparent;  /* Transparent background */
+    border: none;              /* No border */
+    font-size: 24px;           /* Size of the info icon */
+    cursor: pointer;          /* Pointer cursor on hover */
+    color: rgba(255,255,255,0.7);              /* White "i" */
+    margin-left: 0px;         /* Space between hamburger and info icon */
+    padding: 0;                /* Remove any padding */
+    outline: none;             /* Remove focus outline (optional) */
+    font-family: inherit; /* Use the same font as the page */
+}
+
+.info-icon:focus {
+    outline: none;             /* Remove focus outline on click */
+}
+
+/* Dropdown styling for the info */
+.info-dropdown {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    top: 100%;
+    left: 10px; /* Position it next to the info icon */
+    width: 250px;
+    z-index: 1100;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* Show dropdowns when active */
+.info-dropdown.active {
     display: block;
 }
 

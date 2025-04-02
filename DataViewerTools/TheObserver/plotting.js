@@ -253,8 +253,9 @@ function hideCustomAlert() {
     alertElement.classList.remove('show');
 }
 
-map.on('contextmenu', function(e) {
-    // Hide any existing alert before showing a new one
+// map.on('contextmenu', function(e) { // use 'contextmenu' for right click
+map.on('click', function(e) {   // use 'click' for left click
+        // Hide any existing alert before showing a new one
     hideCustomAlert(); 
 
     const lat = e.latlng.lat.toFixed(5);
@@ -303,7 +304,6 @@ map.on('click', function() {
     hideCustomAlert();  // Hide the custom alert when a left-click occurs
 });
 
-
 // ADD LOCATION MARKERS TO MAP ////////////////////////////////////////////////////////////////////////////////
 
 // Create a separate MarkerCluster group for each DataType
@@ -338,14 +338,18 @@ Object.keys(groupedLocations).forEach((dataType) => {
         }
     });
 
-    groupedLocations[dataType].forEach((loc) => {
+    groupedLocations[dataType].forEach((loc) => {       
         const marker = L.marker([loc.Latitude, loc.Longitude], {
             icon: L.divIcon({
                 className: 'custom-marker',
-                html: `<div class="marker-icon" style="background-color:${color};"></div>`
+                html: `
+                    <a href="${loc.URL}" target="_blank" download="${loc.Name || 'download'}" style="display:block; width:100%; height:100%; text-decoration:none; color:#000;">
+                        <div class="marker-icon" style="background-color:${color};"></div>
+                    </a>
+                `
             })
         });
-        
+
         // format lat, lon to 5 decimal places
         var lon = parseFloat(loc.Longitude); // Keep as a number for calculations
         var lon_label = '°E';
@@ -396,11 +400,11 @@ Object.keys(groupedLocations).forEach((dataType) => {
     map.addLayer(markers);
 });
 
+
 // SCALE BAR ////////////////////////////////////////////////////////////////////////////////////////
 L.control.scale().addTo(map);
 
 // LOCATION SEARCH ////////////////////////////////////////////////////////////////////////////////////////
-
 
 // Add geocoder search control
 var geocoder = L.Control.geocoder({
@@ -428,26 +432,10 @@ var geocoder = L.Control.geocoder({
     </div>
     `;
 
-    // Only open a popup at the searched location (no marker)
-    // map.openPopup(popupContent, latlng);
-
-    // Open a popup and display a marker
-
-    // Define a custom marker icon
-    // var customIcon = L.icon({
-    //     iconUrl: 'https://cdn-icons-png.flaticon.com/64/684/684908.png', // Custom marker image URL
-    //     iconSize: [50, 50], // Size of the icon [width, height]
-    //     iconAnchor: [20, 40], // Anchor point (where the tip is located)
-    //     popupAnchor: [0, -55] // Adjust popup position
-    // });
-
-    // L.marker(latlng, {icon: customIcon}).addTo(map)
-    // .bindPopup(popupContent)
-    // .openPopup();
 })
 .addTo(map);
 
-// Add the measurement tool //////////////////////////////////////////////
+// DISTANCE MEASUREMENT TOOL ///////////////////////////////////////////////////////////////////////////////
 
 // Feature group to store drawn layers
 const drawnItems = new L.FeatureGroup();
@@ -541,34 +529,25 @@ setTimeout(() => {
 // Track if the map is in "isolated mode" (only one group shown)
 let isolatedType = null;
 
-// Handle single-click to toggle visibility
-document.getElementById('legend-container').addEventListener('click', (event) => {
-    const item = event.target.closest('.legend-item');
-    if (!item) return;
-
-    const dataType = item.dataset.type;
-    if (!dataType) return;
-
-    if (map.hasLayer(dataTypeGroups[dataType])) {
-        map.removeLayer(dataTypeGroups[dataType]);
-        item.classList.add('disabled'); // Visually indicate hidden
-    } else {
-        map.addLayer(dataTypeGroups[dataType]);
-        item.classList.remove('disabled');
-    }
+// Prevent map click event when interacting with the legend & close popups
+document.getElementById('legend-container').addEventListener('click', function(event) {
+    event.stopPropagation(); // Prevents click from reaching the map
+    map.closePopup(); // Closes any open lat/lon popup
 });
 
-// Handle double-click to isolate or restore all groups
-document.getElementById('legend-container').addEventListener('dblclick', (event) => {
+// Prevent lat/lon popup when double-clicking the legend
+document.getElementById('legend-container').addEventListener('dblclick', function(event) {
+    event.stopPropagation(); // Stops double click from triggering the map's click event
+    map.closePopup(); // Closes any open lat/lon popup
+
     const item = event.target.closest('.legend-item');
-    
     if (!item) return;
 
     const selectedType = item.dataset.type;
     if (!selectedType) return;
 
     if (isolatedType === selectedType) {
-        // If double-clicking the already isolated type → Restore all groups
+        // Restore all markers
         Object.keys(dataTypeGroups).forEach((dataType) => {
             map.addLayer(dataTypeGroups[dataType]);
             document.querySelector(`[data-type="${dataType}"]`).classList.remove('disabled');
@@ -608,11 +587,59 @@ function closeDropdown(event) {
 }
 
 // Add event listeners for both the hamburger icon and the menu label
-hamburgerToggle.addEventListener('click', toggleDropdown);
-// menuLabel.addEventListener('click', toggleDropdown);
+hamburgerToggle.addEventListener('click', function(event) {
+    // Toggle the hamburger dropdown
+    toggleDropdown(event, 'hamburger');
+    map.closePopup(); // Closes any open lat/lon popup
+});
 
-// Close dropdown if click is outside of the dropdown, hamburger icon, or menu label
-document.addEventListener('click', closeDropdown);
+// INFO DROPDOWN ///////////////////////////////////////////////////////////////////////////////////////////////////////
+document.getElementById('info-toggle').addEventListener('click', function(event) {
+    // Toggle the info dropdown
+    toggleDropdown(event, 'info');
+    map.closePopup(); // Closes any open lat/lon popup
+});
+
+// Function to toggle dropdown visibility
+function toggleDropdown(event, type) {
+    const hamburgerDropdown = document.getElementById('dropdown-menu');
+    const infoDropdown = document.getElementById('info-dropdown');
+
+    if (type === 'hamburger') {
+        // Close the info dropdown if it's open
+        if (infoDropdown.classList.contains('active')) {
+            infoDropdown.classList.remove('active');
+        }
+        // Toggle the hamburger dropdown
+        hamburgerDropdown.classList.toggle('show');
+    } else if (type === 'info') {
+        // Close the hamburger dropdown if it's open
+        if (hamburgerDropdown.classList.contains('show')) {
+            hamburgerDropdown.classList.remove('show');
+        }
+        // Toggle the info dropdown
+        infoDropdown.classList.toggle('active');
+    }
+
+    // Prevent event bubbling
+    event.stopPropagation();
+}
+
+// Close dropdown if clicked outside
+document.addEventListener('click', function(event) {
+    const hamburgerDropdown = document.getElementById('dropdown-menu');
+    const infoDropdown = document.getElementById('info-dropdown');
+    
+    // Close both dropdowns if the click is outside of both
+    if (!event.target.closest('#hamburger-toggle') && !event.target.closest('#info-toggle')) {
+        if (hamburgerDropdown.classList.contains('show')) {
+            hamburgerDropdown.classList.remove('show');
+        }
+        if (infoDropdown.classList.contains('active')) {
+            infoDropdown.classList.remove('active');
+        }
+    }
+});
 
 // Close the dropdown when a link inside the menu is clicked
 const menuLinks = document.querySelectorAll('.dropdown-content a');
@@ -622,6 +649,7 @@ menuLinks.forEach(link => {
         dropdownMenu.classList.remove('show'); // Hide the dropdown when any link is clicked
     });
 });
+
 
 // Hide loading spinner (when everything is loaded) /////////////////////////////////////////////////
 
