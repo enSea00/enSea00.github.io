@@ -202126,17 +202126,6 @@ const locations = [
     },
     {
         "DataType": "Wave Buoy",
-        "Name": "Wilsons Prom Drifting",
-        "Longitude": 156.0537,
-        "Latitude": -44.7761,
-        "URL": "https://vicwaves.com.au/",
-        "Owner": "Vic Gov",
-        "State": "VIC",
-        "Country": "Australia",
-        "Notes": "id=11014, label=WilsonsPromDrift"
-    },
-    {
-        "DataType": "Wave Buoy",
         "Name": "CapeBridgewater_DC",
         "Longitude": 141.2781,
         "Latitude": -38.3637,

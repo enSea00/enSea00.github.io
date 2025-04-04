@@ -23,17 +23,18 @@ locations = []
 for entry in json_data:
     # Check if the entry contains the required fields
     if "label" in entry and "lat" in entry and "lng" in entry and "web_display_name" in entry:
-        site_info = {'DataType': 'Wave Buoy'}
-        site_info['Name'] = entry["web_display_name"]
-        site_info['Longitude'] = float(entry["lng"])
-        site_info['Latitude'] = float(entry["lat"])
-        site_info['URL'] = 'https://vicwaves.com.au/'
-        site_info['Owner'] = 'Vic Gov'
-        site_info['State'] = 'VIC'
-        site_info['Country'] = 'Australia'
-        site_info['Notes'] = f'id={entry["id"]}, label={entry["label"]}'
+        if entry["drifting"] == "0": # ie only keep the non drifter buoys
+            site_info = {'DataType': 'Wave Buoy'}
+            site_info['Name'] = entry["web_display_name"]
+            site_info['Longitude'] = float(entry["lng"])
+            site_info['Latitude'] = float(entry["lat"])
+            site_info['URL'] = 'https://vicwaves.com.au/'
+            site_info['Owner'] = 'Vic Gov'
+            site_info['State'] = 'VIC'
+            site_info['Country'] = 'Australia'
+            site_info['Notes'] = f'id={entry["id"]}, label={entry["label"]}'
 
-        locations.append(site_info)
+            locations.append(site_info)
 
 with open(output_path, 'w', encoding='utf-8') as json_file:
         json.dump(locations, json_file, indent=4)
