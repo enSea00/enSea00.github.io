@@ -13,7 +13,7 @@ other WA gov featurelayers - https://services6.arcgis.com/67Ks15nDmWoIbK8b/ArcGI
 '''
 
 csv_file_path = r'data\WaveBuoys\wa_waves_live.csv'
-json_file_path = r'data\all_json_files\locations_wave_wa.json'
+json_file_path = r'data\all_json_files\locations_waves_wa_gov.json'
 
 
 # Define the column mapping (original column names -> new column names)

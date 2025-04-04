@@ -1,10 +1,9 @@
 // Activate loading spinner
-document.getElementById('loading-spinner').style.display = 'block';
+// document.getElementById('loading-spinner').style.display = 'block';
 
 // DATA PREPARATION ////////////////////////////////////////////////////////////////////////////////////////
 
 // This code manually defines available data types and assigns color to their markers
-
 const name_color = [
     ['Weather Station', '#a6cee3'],
     ['River Gauge', '#1f78b4'],
@@ -21,6 +20,7 @@ const name_color = [
     ['Ocean Buoy (Active)', '#b15928'],
     ['Ocean Buoy (Historical)', '#ab8671']
 ]
+
 const uniqueDataTypes = name_color.map(item => item[0]);
 const predefinedColors = name_color.map(item => item[1]);
 
@@ -51,6 +51,8 @@ const map = L.map('map', {
     maxBoundsViscosity: 1.0 // Makes panning feel "sticky" at the edges
 }).setView(Australia_Coordinates, 3); // Set initial map view (latitude, longitude, zoom level)
 
+// BASE LAYERS //////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // Available arcgis rest services
 // https://server.arcgisonline.com/ArcGIS/rest/services
 
@@ -71,7 +73,8 @@ var topo = L.tileLayer('https://server.arcgisonline.com/arcgis/rest/services/Wor
         attribution: '&copy; <a href="https://www.esri.com/" target="_blank">Esri</a>',
       });
 
-// OVERLAY - Catchment Boundaries Layer (Australian)
+// CATCHMENT LAYER OVERLAY (Australia only) ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 var catchmentLayer = L.esri.featureLayer({
     url: "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/6",
     attribution: '&copy; <a href="https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/73078" target="_blank">Geoscience Australia</a>',
@@ -151,34 +154,13 @@ catchmentLayer.on("load", function () {
                 })
             });
 
-            // Set a custom offset to position the popup at the center of the label
-            // var popupOffset = L.point(0, -20);  // Adjust the offset to center the popup
-
-                // Bind a tooltip to show on hover
+            // Bind a tooltip to show on hover
             label.bindTooltip(popupHTML, {
                 permanent: false,  // Tooltip is not permanent
                 direction: 'top',  // Show tooltip above the marker
                 offset: L.point(0, -1.5*12)  // Adjust the tooltip position
             });
             
-            // Bind a popup with the HTML content to the marker (for hover or click interaction)
-            // label.bindPopup(popupHTML, {
-            //     // offset: popupOffset,  // Set the offset to center the popup
-            //     direction: 'top',
-            //     maxWidth: 300,
-            //     closeButton: false
-            // });
-
-            // // Event to open popup on mouseover (hover)
-            // label.on('mouseover', function () {
-            //     label.openPopup(); // Open the popup when mouse hovers over the marker
-            // });
-
-            // // Event to close the popup when mouseout
-            // label.on('mouseout', function () {
-            //     label.closePopup(); // Close the popup when mouse leaves the marker
-            // });
-
             catchmentLabels.addLayer(label);
         }
     });
@@ -186,11 +168,10 @@ catchmentLayer.on("load", function () {
     updateLabelsVisibility(); // Ensure correct label visibility on initial load
 });
 
-
 // Ensure labels update when zooming
 map.on("zoomend", updateLabelsVisibility);
 
-// Create map layer control ////////////////////////////////////////////////////////////////////////////////
+// CREATE MAP LAYER OVERLAY CONTROL ////////////////////////////////////////////////////////////////////////////////
 
 // Get the loader element
 var loader = document.getElementById("loading-spinner");
@@ -233,7 +214,8 @@ map.on("baselayerchange", function (event) {
         map.removeLayer(locationLabels); // Hide labels when switching away
     }
 });
-// Display lat lon of mouse cursor location - PC ONLY ////////////////////////////////////////////////////////////////////////////////
+
+// DISPLAY LAT LON of mouse cursor location - PC ONLY ////////////////////////////////////////////////////////////////////////////////
 map.on('mousemove', function(e) {
     const lat = e.latlng.lat.toFixed(5);
     let lon = e.latlng.lng.toFixed(5); // Use 'let' instead of 'const'
@@ -246,7 +228,7 @@ map.on('mousemove', function(e) {
     }
 });
 
-// Display popup of lat lon of right-clicked location ///////////////////////////////////////////////////////////////////////////////////// 
+// DISPLAY LAT LON POPUP OF CLICKED LOCATION ///////////////////////////////////////////////////////////////////////////////////// 
 function hideCustomAlert() {
     var alertElement = document.getElementById('custom-alert');
     alertElement.style.display = 'none';
@@ -594,6 +576,7 @@ hamburgerToggle.addEventListener('click', function(event) {
 });
 
 // INFO DROPDOWN ///////////////////////////////////////////////////////////////////////////////////////////////////////
+
 document.getElementById('info-toggle').addEventListener('click', function(event) {
     // Toggle the info dropdown
     toggleDropdown(event, 'info');
@@ -650,20 +633,10 @@ menuLinks.forEach(link => {
     });
 });
 
-
-// Hide loading spinner (when everything is loaded) /////////////////////////////////////////////////
+// HIDE LOADING SPINNER (when everything is loaded) /////////////////////////////////////////////////////////////////////
 
 // Create an array to track loading promises
 const loadingPromises = [];
-
-// Wait for catchment layer to load
-// const catchmentLayerLoaded = new Promise((resolve) => {
-//     catchmentLayer.on("load", () => {
-//         // console.log("Catchment layer fully loaded");
-//         resolve();
-//     });
-// });
-// loadingPromises.push(catchmentLayerLoaded);
 
 // Show spinner when zooming starts
 map.on("zoomstart", () => {

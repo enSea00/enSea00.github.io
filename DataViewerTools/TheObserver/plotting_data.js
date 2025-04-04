@@ -1,11 +1,28 @@
 // Activate loading spinner
-document.getElementById('loading-spinner').style.display = 'block';
+// document.getElementById('loading-spinner').style.display = 'block';
 
 // DATA PREPARATION ////////////////////////////////////////////////////////////////////////////////////////
 
 // This code manually defines available data types and assigns color to their markers
-const uniqueDataTypes = ['Weather Station', 'River Gauge', 'Rain Radar', 'Tide Gauge', 'Tide Prediction',  'Wave Buoy', 'Swellnet (Cam)',  'Surfline (No Cam)', 'Surfline (Cam)', 'Willy Weather', 'Web Camera', 'Ocean Buoy (NDBC)']
-const predefinedColors = ["#a6cee3", "#1f78b4", "#ff7f00", "#b2df8a", "#33a02c", "#e31a1c", "#fdbf6f", "#cab2d6", "#6a3d9a", "#fb9a99", "#ffff99", "#b15928"]
+const name_color = [
+    ['Weather Station', '#a6cee3'],
+    ['River Gauge', '#1f78b4'],
+    ['Rain Radar', '#ff7f00'],
+    ['Rain Gauge', '#ffb061'],
+    ['Tide Gauge', '#b2df8a'],
+    ['Tide Prediction', '#33a02c'],
+    ['Wave Buoy', '#e31a1c'],
+    ['Swellnet (Cam)', '#fdbf6f'],
+    ['Surfline (Cam)', '#6a3d9a'],
+    ['Surfline (No Cam)', '#cab2d6'],
+    ['Willy Weather', '#fb9a99'],
+    ['Web Camera', '#ffff99'],
+    ['Ocean Buoy (Active)', '#b15928'],
+    ['Ocean Buoy (Historical)', '#ab8671']
+]
+
+const uniqueDataTypes = name_color.map(item => item[0]);
+const predefinedColors = name_color.map(item => item[1]);
 
 // Map each DataType to a corresponding color from the predefined list
 const colorScheme = uniqueDataTypes.reduce((acc, dataType, index) => {
@@ -27,7 +44,14 @@ const Australia_Coordinates = [-25.2744, 133.7751]; // Initial map center
 const map = L.map('map', {
     zoomControl: false, // This disables the default +/- zoom controls in the top left
     minZoom: 2,
+    maxBounds: [
+        [-90, -15], // Southwest corner (latitude, longitude)
+        [90, 370]   // Northeast corner (latitude, longitude)
+    ],
+    maxBoundsViscosity: 1.0 // Makes panning feel "sticky" at the edges
 }).setView(Australia_Coordinates, 3); // Set initial map view (latitude, longitude, zoom level)
+
+// BASE LAYERS //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Available arcgis rest services
 // https://server.arcgisonline.com/ArcGIS/rest/services
@@ -49,7 +73,8 @@ var topo = L.tileLayer('https://server.arcgisonline.com/arcgis/rest/services/Wor
         attribution: '&copy; <a href="https://www.esri.com/" target="_blank">Esri</a>',
       });
 
-// OVERLAY - Catchment Boundaries Layer (Australian)
+// CATCHMENT LAYER OVERLAY (Australia only) ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 var catchmentLayer = L.esri.featureLayer({
     url: "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/6",
     attribution: '&copy; <a href="https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/73078" target="_blank">Geoscience Australia</a>',
@@ -79,20 +104,63 @@ map.on("overlayremove", function (event) {
     }
 });
 
-// Load labels only once when the catchment layer loads
 catchmentLayer.on("load", function () {
     catchmentLabels.clearLayers(); // Clear existing labels before reloading
 
     catchmentLayer.eachFeature(function (layer) {
         var props = layer.feature.properties;
         if (props && props.level2name) {
+            // Round albersarea to 2 decimal places, convert to km², and add thousands separator
+            var albersArea = (props.albersarea / 1000000).toFixed(2); // Convert to km² and round to 2 decimal places
+            var albersAreaFormatted = Number(albersArea).toLocaleString(); // Add comma separator
+            
+            var albersAreaHtml = `${albersAreaFormatted} km<sup>²</sup>`; // Format km² with superscript
+
+            // Create the HTML content for the popup
+            var popupHTML = `
+                <div class="catchment-popup-content">
+                    <strong>${props.level2name}</strong><br>
+                    Area: ${albersAreaHtml}
+                </div>
+            `;
+
+            // Create a temporary element to get the computed font size from CSS
+            var tempElement = document.createElement("div");
+            tempElement.classList.add("catchment-label"); // Add the same class as the label to get the correct styles
+            document.body.appendChild(tempElement); // Append to the body to get the style
+            var fontSize = window.getComputedStyle(tempElement).fontSize; // Get the computed font size
+            document.body.removeChild(tempElement); // Remove the temporary element
+
+            // Convert the font size from 'px' string to a number
+            var fontSizeNumber = parseFloat(fontSize);
+
+            // Calculate label height as 1.1 times the font size
+            var labelHeight = fontSizeNumber * 1.5; // 1.1 times the font size for height
+
+            // Estimate the width of the label based on the number of characters in the name
+            var nameLength = props.level2name.length;
+            var labelWidth = 10 * nameLength; // Approximate width based on character count (10px per character)
+
+            // Ensure the label width is at least 100px wide (fallback for short names)
+            labelWidth = Math.max(labelWidth, 100);
+
+            // Create the label marker (only for the position of the label)
             var label = L.marker(layer.getBounds().getCenter(), {
                 icon: L.divIcon({
-                    className: "catchment-label",
-                    html: props.level2name,
-                    iconSize: null // Ensures default size
+                    className: "catchment-label",  // Refer to CSS class for styling
+                    html: props.level2name,  // Display only the Level 2 Name in the label
+                    iconSize: [labelWidth, labelHeight], // Set the width dynamically, height is calculated based on font size
+                    iconAnchor: [labelWidth / 2, labelHeight]  // Position the label at its center
                 })
             });
+
+            // Bind a tooltip to show on hover
+            label.bindTooltip(popupHTML, {
+                permanent: false,  // Tooltip is not permanent
+                direction: 'top',  // Show tooltip above the marker
+                offset: L.point(0, -1.5*12)  // Adjust the tooltip position
+            });
+            
             catchmentLabels.addLayer(label);
         }
     });
@@ -103,7 +171,7 @@ catchmentLayer.on("load", function () {
 // Ensure labels update when zooming
 map.on("zoomend", updateLabelsVisibility);
 
-// Create map layer control ////////////////////////////////////////////////////////////////////////////////
+// CREATE MAP LAYER OVERLAY CONTROL ////////////////////////////////////////////////////////////////////////////////
 
 // Get the loader element
 var loader = document.getElementById("loading-spinner");
@@ -146,61 +214,94 @@ map.on("baselayerchange", function (event) {
         map.removeLayer(locationLabels); // Hide labels when switching away
     }
 });
-// Display lat lon of mouse cursor location - PC ONLY ////////////////////////////////////////////////////////////////////////////////
+
+// DISPLAY LAT LON of mouse cursor location - PC ONLY ////////////////////////////////////////////////////////////////////////////////
 map.on('mousemove', function(e) {
     const lat = e.latlng.lat.toFixed(5);
-    const lon = e.latlng.lng.toFixed(5);
-    document.getElementById('latlon-display').innerHTML = `${lon}°E, ${lat}°N`;
+    let lon = e.latlng.lng.toFixed(5); // Use 'let' instead of 'const'
+    
+    if (lon > 180) {
+        lon = (lon - 360).toFixed(5); // Convert to correct west longitude
+        document.getElementById('latlon-display').innerHTML = `${Math.abs(lon)}°W, ${lat}°N`;
+    } else {
+        document.getElementById('latlon-display').innerHTML = `${lon}°E, ${lat}°N`;
+    }
 });
 
-// Display popup of lat lon of clicked location ///////////////////////////////////////////////////////////////////////////////////// 
-map.on('click', function(e) {
-    // Get the latitude and longitude from the click event
-    const latLon = `${e.latlng.lat.toFixed(5)}, ${e.latlng.lng.toFixed(5)}`;
+// DISPLAY LAT LON POPUP OF CLICKED LOCATION ///////////////////////////////////////////////////////////////////////////////////// 
+function hideCustomAlert() {
+    var alertElement = document.getElementById('custom-alert');
+    alertElement.style.display = 'none';
+    alertElement.classList.remove('show');
+}
 
-    // Close any open popup before opening a new one
+// map.on('contextmenu', function(e) { // use 'contextmenu' for right click
+map.on('click', function(e) {   // use 'click' for left click
+        // Hide any existing alert before showing a new one
+    hideCustomAlert(); 
+
+    const lat = e.latlng.lat.toFixed(5);
+    let lon = e.latlng.lng.toFixed(5); 
+    let div_html;
+    if (lon > 180) {
+        lon = (lon - 360).toFixed(5); 
+        div_html = `${Math.abs(lon)}°W, ${lat}°N`;
+    } else {
+        div_html = `${lon}°E, ${lat}°N`;
+    }
+
     map.closePopup();
 
-    // Create the popup content
-    const popupContent = `
-        <div style="text-align: center; font-size:14px;">
-            <p>${e.latlng.lng.toFixed(5)}°E, ${e.latlng.lat.toFixed(5)}°N</p>
-        </div>
+    let popupContent = `
+    <div style="text-align: center; font-size:14px; display: flex; align-items: center; justify-content: center; padding: 2px;">
+        <p style="margin: 0 10px 0 0; white-space: nowrap; line-height: 1.2;">${div_html}</p>
+        <i class="far fa-copy" style="font-size: 16px; cursor: pointer; padding: 0;"></i> <!-- Copy icon -->
+    </div>
     `;
 
-    // Create and open the new popup at the clicked location
-    L.popup()
+    let popup = L.popup()
         .setLatLng(e.latlng)
         .setContent(popupContent)
         .openOn(map);
+
+    popup.getElement().addEventListener('click', function(event) {
+        if (event.target && event.target.classList.contains('fa-copy')) {
+            // Copy the coordinates to clipboard
+            navigator.clipboard.writeText(div_html).then(function() {
+                // Show custom alert
+                var alertElement = document.getElementById('custom-alert');
+                alertElement.style.display = 'block';
+                alertElement.classList.add('show');
+                setTimeout(function() {
+                    hideCustomAlert(); // Hide alert after 3 seconds
+                }, 3000); // Hide the alert after 3 seconds
+            }).catch(function(error) {
+                console.error('Failed to copy coordinates:', error);
+            });
+        }
+    });
+});
+
+map.on('click', function() {
+    hideCustomAlert();  // Hide the custom alert when a left-click occurs
 });
 
 // ADD LOCATION MARKERS TO MAP ////////////////////////////////////////////////////////////////////////////////
 
 // Create a separate MarkerCluster group for each DataType
-const dataTypeGroups = {};  // To store each MarkerCluster group by DataType
+const dataTypeGroups = {};  
 Object.keys(groupedLocations).forEach((dataType) => {
-    const color = colorScheme[dataType];  // Get the color for the current DataType
+    const color = colorScheme[dataType];  
 
     // Create a MarkerCluster group for the current DataType
     const markers = L.markerClusterGroup({
         iconCreateFunction: function(cluster) {
             const childCount = cluster.getChildCount();
-            const zoomLevel = map.getZoom(); // Get current zoom level
+            const minClusterSize = 16;
+            let clusterSize = 1.3 * minClusterSize + childCount * 0.75; 
+            clusterSize = Math.max(clusterSize, minClusterSize);
+            clusterSize = Math.min(clusterSize, 42);
 
-            // Minimum size for clusters (same as individual marker size)
-            const minClusterSize = 20;
-
-            // Dynamically scale cluster size based on child count and zoom level
-            // let clusterSize = 1.3 * minClusterSize + Math.log(childCount) * 4; // Start from min size and scale up
-            let clusterSize = 1.3 * minClusterSize + childCount * 0.75; // Start from min size and scale up
-
-            clusterSize = Math.max(clusterSize, minClusterSize); // Ensure cluster size doesn't go below individual marker size
-
-            // Cap the size to a maximum value (e.g., 50px for larger clusters)
-            clusterSize = Math.min(clusterSize, 60);
-
-            // Set opacity for clusters
             return new L.DivIcon({
                 html: `<div class="cluster-icon" style="background-color:${color}; width:${clusterSize}px; height:${clusterSize}px;">${childCount}</div>`,
                 className: 'leaflet-marker-cluster',
@@ -209,7 +310,7 @@ Object.keys(groupedLocations).forEach((dataType) => {
         }
     });
 
-    groupedLocations[dataType].forEach((loc) => {
+    groupedLocations[dataType].forEach((loc) => {       
         const marker = L.marker([loc.Latitude, loc.Longitude], {
             icon: L.divIcon({
                 className: 'custom-marker',
@@ -217,40 +318,142 @@ Object.keys(groupedLocations).forEach((dataType) => {
             })
         });
 
-        // Bind a popup to each marker
-        marker.bindPopup(`
-            <i>${loc.DataType}</i><br>
-            <b>Location: </b>${loc.Name}<br>
-            (${loc.Longitude}°E, ${loc.Latitude}°N)
-        `);
+        // Format lat, lon to 5 decimal places
+        var lon = parseFloat(loc.Longitude);
+        var lon_label = '°E';
+        if (lon > 180) {
+            lon = (360 - lon).toFixed(5);
+            lon_label = '°W';
+        } else {
+            lon = lon.toFixed(5);
+        }
+        var lat = parseFloat(loc.Latitude).toFixed(5);
 
         // Bind a tooltip to show on hover
         marker.bindTooltip(`
             <i>${loc.DataType}</i><br>
             <b>Location: </b>${loc.Name}<br>
-            (${loc.Longitude}°E, ${loc.Latitude}°N)
+            (${lon}${lon_label}, ${lat}°N)
         `, {
-            permanent: false,  // Tooltip is not permanent
-            direction: 'top',  // Show tooltip above the marker
-            offset: L.point(0, -10)  // Adjust the tooltip position
+            permanent: false,  
+            direction: 'top',  
+            offset: L.point(0, -10)  
         });
 
-        // Open URL on click (note: `loc.URL` instead of `loc.url`)
-        marker.on('click', () => {
-            if (loc.URL) {
-                window.open(loc.URL, '_blank');
+        // Fetch and display Plotly graph in a popup on click
+        marker.on("click", async () => {
+            if (!loc.URL) {
+                marker.bindPopup("No data available").openPopup();
+                return;
+            }
+
+            const data = await fetchAndParseTable(loc.URL);
+            if (data) {
+                const plotDiv = createPlot(data.timestamps, data.waterLevels);
+                marker.bindPopup(plotDiv).openPopup();
+            } else {
+                marker.bindPopup("Failed to load data").openPopup();
             }
         });
-        
+
         // Add marker to the marker cluster for this DataType
         markers.addLayer(marker);
     });
 
     // Store the MarkerCluster group for this DataType
     dataTypeGroups[dataType] = markers;
-
-    // Add the MarkerCluster group for this DataType to the map
     map.addLayer(markers);
+});
+
+// SCALE BAR ////////////////////////////////////////////////////////////////////////////////////////
+L.control.scale().addTo(map);
+
+// LOCATION SEARCH ////////////////////////////////////////////////////////////////////////////////////////
+
+// Add geocoder search control
+var geocoder = L.Control.geocoder({
+    defaultMarkGeocode: false,
+    geocoder: L.Control.Geocoder.nominatim()  // Use Nominatim (OSM) for location search
+})
+.on('markgeocode', function(e) {
+    var latlng = e.geocode.center;
+    
+    // Adjust longitude if negative
+    if (latlng.lng < 0) {
+        latlng.lng += 360;
+    }
+    
+    // Smoothly fly to the searched location
+    map.flyTo(latlng, 12, { duration: 1.5 });
+
+    let shortName = e.geocode.name.split(',')[0].trim();
+
+    // Styled popup content
+    const popupContent = `
+    <div style="text-align: center; font-size:14px;">
+        <b>${shortName}</b><br>
+        (${latlng.lng.toFixed(5)}°E, ${latlng.lat.toFixed(5)}°N)
+    </div>
+    `;
+
+})
+.addTo(map);
+
+// DISTANCE MEASUREMENT TOOL ///////////////////////////////////////////////////////////////////////////////
+
+// Feature group to store drawn layers
+const drawnItems = new L.FeatureGroup();
+map.addLayer(drawnItems);
+
+// Initialize Leaflet Draw Control for drawing shapes and measuring
+const drawControl = new L.Control.Draw({
+    position: 'bottomright',
+    draw: {
+        polygon: true,     // Allow polygon drawing (useful for measuring areas)
+        polyline: true,    // Allow polyline drawing (useful for measuring distance)
+        rectangle: true,  // Disable rectangle
+        circlemarker: false,     // Disable circle
+        circle: false,
+        marker: false,     // Disable marker
+        layers: false,
+    },
+    edit: {
+        featureGroup: drawnItems // Where drawn shapes will be stored
+    }
+});
+map.addControl(drawControl);
+
+// Function to calculate polyline distance
+function calculateDistance(latlngs) {
+    let totalDistance = 0;
+    for (let i = 0; i < latlngs.length - 1; i++) {
+        totalDistance += map.distance(latlngs[i], latlngs[i + 1]); // Distance in meters
+    }
+    return totalDistance;
+}
+
+// Function to calculate polygon area
+function calculateArea(latlngs) {
+    return L.GeometryUtil.geodesicArea(latlngs[0]); // Area in square meters
+}
+
+// Listen for drawing events to measure distance/area
+map.on('draw:created', function (e) {
+    const layer = e.layer;
+    drawnItems.addLayer(layer); // Add drawn layer to the map
+
+    if (e.layerType === 'polyline') {
+        const distance = calculateDistance(layer.getLatLngs());
+        alert(`Distance: ${(distance / 1000).toFixed(2)} km`); // Convert to km
+    } else if (e.layerType === 'polygon') {
+        const area = calculateArea(layer.getLatLngs());
+        alert(`Area: ${(area / 1000000).toFixed(2)} km²`); // Convert to km²
+    }
+
+    else if (e.layerType === 'rectangle') {
+        const area = calculateArea(layer.getLatLngs());
+        alert(`Area: ${(area / 1000000).toFixed(2)} km²`); // Convert to km²
+    }
 });
 
 // LEGEND ////////////////////////////////////////////////////////////////////////////////////////
@@ -260,7 +463,7 @@ const legend = L.control({ position: 'topright' });
 
 legend.onAdd = function () {
     const div = L.DomUtil.create('div', 'info legend');
-    div.innerHTML = '';
+    div.innerHTML = '<div class="legend-title">Double click to isolate data type.<br>Single click to hide/show data type.</div>';
 
     uniqueDataTypes.forEach((dataType) => {
         div.innerHTML += `
@@ -290,25 +493,17 @@ setTimeout(() => {
 // Track if the map is in "isolated mode" (only one group shown)
 let isolatedType = null;
 
-// Handle single-click to toggle visibility
-document.getElementById('legend-container').addEventListener('click', (event) => {
-    const item = event.target.closest('.legend-item');
-    if (!item) return;
-
-    const dataType = item.dataset.type;
-    if (!dataType) return;
-
-    if (map.hasLayer(dataTypeGroups[dataType])) {
-        map.removeLayer(dataTypeGroups[dataType]);
-        item.classList.add('disabled'); // Visually indicate hidden
-    } else {
-        map.addLayer(dataTypeGroups[dataType]);
-        item.classList.remove('disabled');
-    }
+// Prevent map click event when interacting with the legend & close popups
+document.getElementById('legend-container').addEventListener('click', function(event) {
+    event.stopPropagation(); // Prevents click from reaching the map
+    map.closePopup(); // Closes any open lat/lon popup
 });
 
-// Handle double-click to isolate or restore all groups
-document.getElementById('legend-container').addEventListener('dblclick', (event) => {
+// Prevent lat/lon popup when double-clicking the legend
+document.getElementById('legend-container').addEventListener('dblclick', function(event) {
+    event.stopPropagation(); // Stops double click from triggering the map's click event
+    map.closePopup(); // Closes any open lat/lon popup
+
     const item = event.target.closest('.legend-item');
     if (!item) return;
 
@@ -316,7 +511,7 @@ document.getElementById('legend-container').addEventListener('dblclick', (event)
     if (!selectedType) return;
 
     if (isolatedType === selectedType) {
-        // If double-clicking the already isolated type → Restore all groups
+        // Restore all markers
         Object.keys(dataTypeGroups).forEach((dataType) => {
             map.addLayer(dataTypeGroups[dataType]);
             document.querySelector(`[data-type="${dataType}"]`).classList.remove('disabled');
@@ -356,11 +551,60 @@ function closeDropdown(event) {
 }
 
 // Add event listeners for both the hamburger icon and the menu label
-hamburgerToggle.addEventListener('click', toggleDropdown);
-// menuLabel.addEventListener('click', toggleDropdown);
+hamburgerToggle.addEventListener('click', function(event) {
+    // Toggle the hamburger dropdown
+    toggleDropdown(event, 'hamburger');
+    map.closePopup(); // Closes any open lat/lon popup
+});
 
-// Close dropdown if click is outside of the dropdown, hamburger icon, or menu label
-document.addEventListener('click', closeDropdown);
+// INFO DROPDOWN ///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+document.getElementById('info-toggle').addEventListener('click', function(event) {
+    // Toggle the info dropdown
+    toggleDropdown(event, 'info');
+    map.closePopup(); // Closes any open lat/lon popup
+});
+
+// Function to toggle dropdown visibility
+function toggleDropdown(event, type) {
+    const hamburgerDropdown = document.getElementById('dropdown-menu');
+    const infoDropdown = document.getElementById('info-dropdown');
+
+    if (type === 'hamburger') {
+        // Close the info dropdown if it's open
+        if (infoDropdown.classList.contains('active')) {
+            infoDropdown.classList.remove('active');
+        }
+        // Toggle the hamburger dropdown
+        hamburgerDropdown.classList.toggle('show');
+    } else if (type === 'info') {
+        // Close the hamburger dropdown if it's open
+        if (hamburgerDropdown.classList.contains('show')) {
+            hamburgerDropdown.classList.remove('show');
+        }
+        // Toggle the info dropdown
+        infoDropdown.classList.toggle('active');
+    }
+
+    // Prevent event bubbling
+    event.stopPropagation();
+}
+
+// Close dropdown if clicked outside
+document.addEventListener('click', function(event) {
+    const hamburgerDropdown = document.getElementById('dropdown-menu');
+    const infoDropdown = document.getElementById('info-dropdown');
+    
+    // Close both dropdowns if the click is outside of both
+    if (!event.target.closest('#hamburger-toggle') && !event.target.closest('#info-toggle')) {
+        if (hamburgerDropdown.classList.contains('show')) {
+            hamburgerDropdown.classList.remove('show');
+        }
+        if (infoDropdown.classList.contains('active')) {
+            infoDropdown.classList.remove('active');
+        }
+    }
+});
 
 // Close the dropdown when a link inside the menu is clicked
 const menuLinks = document.querySelectorAll('.dropdown-content a');
@@ -371,19 +615,20 @@ menuLinks.forEach(link => {
     });
 });
 
-// Hide loading spinner (when everything is loaded) /////////////////////////////////////////////////
+// HIDE LOADING SPINNER (when everything is loaded) /////////////////////////////////////////////////////////////////////
 
 // Create an array to track loading promises
 const loadingPromises = [];
 
-// Wait for catchment layer to load
-// const catchmentLayerLoaded = new Promise((resolve) => {
-//     catchmentLayer.on("load", () => {
-//         // console.log("Catchment layer fully loaded");
-//         resolve();
-//     });
-// });
-// loadingPromises.push(catchmentLayerLoaded);
+// Show spinner when zooming starts
+map.on("zoomstart", () => {
+    loader.style.display = "block";
+});
+
+// Hide spinner when zooming stops
+map.on("zoomend", () => {
+    loader.style.display = "none";
+});
 
 // Wait for base map (OSM) to load
 const satelliteLoaded = new Promise((resolve) => {
@@ -409,4 +654,4 @@ Promise.all(loadingPromises).then(() => {
     // console.log("All map elements are fully loaded.");
 });
 
-// END OF SCRIPT ////////////////////////////////////////////////////////////////////////////////////////
+// END ////////////////////////////////////////////////////////////////////////////////////////
