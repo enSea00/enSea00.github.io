@@ -46,13 +46,16 @@ async function getData_Weather_BoM(loc) {
   
   // Example: dynamically build a URL (you may already have this)
   const jsonUrl = loc.URL.replace('.shtml', '.json').replace('/products/', '/fwo/');
+  const proxyUrl = 'https://api.allorigins.win/raw?url=';
+  const url = `${proxyUrl}${encodeURIComponent(jsonUrl)}`;
 
   console.log(jsonUrl)
   console.log(loc.URL)
 
   // const proxiedUrl = `https://corsproxy.io/?${jsonUrl}`;
   // const data = await downloadJsonFile(jsonUrl);
-  const data = await downloadHtml(loc.URL);
+  const data = await downloadHtml(url);
+  console.log(data)
 
   // Extract times and temperatures from BoM data
   const observations = data.observations?.data || [];

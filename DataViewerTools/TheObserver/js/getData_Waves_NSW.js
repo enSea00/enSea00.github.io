@@ -1,10 +1,5 @@
 function getData_Waves_NSW(loc) {
 
-    var loader = document.getElementById("loading-spinner");
-    if (loader) {
-        loader.style.display = "block"; // Show the loader
-    }
-
     var name = loc.Name;
     var datatype = loc.DataType; 
 
@@ -149,11 +144,6 @@ function getData_Waves_NSW(loc) {
         const customAttribution = `
         <p>This wave buoy data is provided by the <a href="https://mhl.nsw.gov.au/Data-Wave" target="_blank">Manly Hydraulics Laboratory in the Biodiversity and Conservation Division, NSW Department of Planning and Environment</a> under a <a href="https://creativecommons.org/licenses/by/4.0/" taret="_blank">Creative Common license (CC BY 4.0)</a>.</p>`;
         showPlotOverlay(data, layout, loc, customAttribution);
-
-        if (loader) {
-            loader.style.display = "none"; // Show the loader
-        }
-    
     })
     .catch(err => {
         console.error('Failed to fetch data for the plot:', err);

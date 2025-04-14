@@ -411,10 +411,8 @@ Object.keys(groupedLocations).forEach((dataType) => {
         // popup plotting /////////////////////////////////////////////////////////////////////
 
         marker.on('click', async function () {
-            // const loader = document.getElementById("loading-spinner");
-            // if (loader) loader.style.display = "block";
-            showLoadingSpinnerDelayed(1500); // show only after 0.5s if still loading
 
+            showLoadingSpinnerDelayed(100); // show only after N ms if still loading
         
             const dataType = marker.options.dataType;
             const owner = marker.options.owner;
@@ -458,9 +456,9 @@ Object.keys(groupedLocations).forEach((dataType) => {
                     await loadScriptAsync('js/getData_OceanBuoys_NDBC.js');
                     await getData_OceanBuoys_NDBC(loc);
 
-                // // AWS Data- not working due to CORS blocking
+                // AWS Data- not working due to CORS blocking
                 // } else if (dataType === 'Weather Station' && owner === 'BoM') {
-                //     await loadScriptAsync('getData_Weather_BoM.js');
+                //     await loadScriptAsync('js/getData_Weather_BoM.js');
                 //     await getData_Weather_BoM(loc);
                 
                 // External Bookmark
