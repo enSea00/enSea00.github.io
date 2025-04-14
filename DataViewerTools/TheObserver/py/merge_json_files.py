@@ -9,7 +9,7 @@ import json
 
 # Inputs
 json_file_folder = r'data\all_json_files'
-js_file = r'locations_all.js'
+js_file = r'js/locations_all.js'
 
 def merge_json_to_js_and_print_unique_datatypes(input_folder, output_file):
     merged_data = []
