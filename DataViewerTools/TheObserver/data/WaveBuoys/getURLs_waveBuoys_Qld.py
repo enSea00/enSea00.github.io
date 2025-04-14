@@ -44,7 +44,7 @@ def scrape_locations(url):
                     'Longitude': float(match[2]),
                     'Latitude': float(match[1]),
                     "URL": 'https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/'+match[3],
-                    "Owner": "Queensland Government",
+                    "Owner": "Qld Gov",
                     "State": "QLD",
                     "Country": "Australia",
                     "Notes": "",

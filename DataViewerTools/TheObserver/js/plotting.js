@@ -633,6 +633,7 @@ menuLinks.forEach(link => {
     });
 });
 
+// 
 // HIDE LOADING SPINNER (when everything is loaded) /////////////////////////////////////////////////////////////////////
 
 // Create an array to track loading promises

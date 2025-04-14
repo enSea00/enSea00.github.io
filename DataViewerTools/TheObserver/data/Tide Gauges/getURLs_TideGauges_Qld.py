@@ -6,9 +6,15 @@ import json
 # URLs to scrape
 url_qld_tide_gauges = 'https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites'
 url_qld_storm_tide_gauges = 'https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites'
-json_file = r'data\Tide Gauges\locations_tide_gauges_qld.json'
+json_file = r'data\all_json_files\locations_tide_gauges_qld.json'
+
+name_map = {}
+
 # Function to scrape and parse data
 def scrape_and_parse_data(url):
+    
+    gauge_type=url.split('/')[-1].split('-')[0]
+
     response = requests.get(url)
     
     if response.status_code == 200:
@@ -27,10 +33,10 @@ def scrape_and_parse_data(url):
                     'Latitude': float(match[1]),
                     'Longitude': float(match[2]),
                     'URL': url + f'/{match[3]}',
-                    'Owner': 'QLD Government',
+                    'Owner': 'Qld Gov',
                     'State': 'QLD',
                     'Country': 'Australia',
-                    'Notes': ''
+                    'Notes': gauge_type,
                 }
                 for match in matches
             ]

@@ -1,0 +1,417 @@
+/* Root Styling ************************************************************** */
+:root {
+    --title-font-size: clamp(20px, 1vw, 24px);
+    --title-icon-size: clamp(24px, 1.5vw, 28px);
+    --legend-label-font-size: 14px;
+    --font-color: rgb(255, 255, 240);
+    --box-border: 1px solid rgba(255,255,255,0.8);
+    --box-font-size: 14px;
+}
+/* Body, fonmt styling *********************************************************/
+body, html {
+    margin: 0;
+    padding: 10;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    /* color:var(--font-color); */
+}
+
+a {
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Inherit color from surrounding text */
+    font-family: inherit; /* Inherit font from surrounding text */
+}
+
+a:hover {
+    text-decoration: none; /* Underline only on hover */
+}
+
+/* Title Overlay ************************************************************/
+#page-title {
+    position: absolute;
+    top: 10px;
+    left: 1%;
+    font-size: var(--title-font-size);
+    font-weight: bold;
+    color: white;
+    border-color: rgba(255,255,255,1);
+    border: var(--box-border);
+    /* box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); */
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 10px 10px;
+    border-radius: 8px;
+    z-index: 1000;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    font-family: Arial, sans-serif;
+}
+
+/* Icon Styling */
+#title-icon {
+    width: var(--title-icon-size); /* Adjust size */
+    height: var(--title-icon-size);
+    align-items: center;
+}
+
+/* Map styling ************************************************************ */
+#map {
+    width: 100%;
+    height: 100%;
+    position: relative; /*This is needed to position the legend absolutely inside it */
+}
+
+/* CSS for individual location markers ************************************************************/
+.custom-marker div {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+/* CSS for MarkerCluster group icons */
+.leaflet-marker-cluster div {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+/* Person location marker  *********************************************************************************/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 40
+}
+
+/* LatLon display - hide for small screen s(ie mobiles) *************************************************************************************/
+@media (max-width: 768px) { 
+    #latlon-display {
+        display: none; /* Hide on small screens */
+    }
+}
+
+#latlon-display {
+    position: fixed; /* Keep it fixed at the bottom of the page */
+    bottom: 10px; /* Distance from the bottom */
+    left: 50%; /* Move it to the center horizontally */
+    transform: translateX(-50%); /* Adjust the position to center it */
+    border: 1px solid black; /* Ensure the border is always applied */
+    border-radius: 5px; /* Add some border radius */
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add background color with some transparency */
+    z-index: 1000; /* Make sure it appears above other content */
+}
+
+/* location right click popup **********************************************************************************/
+#custom-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    border-radius: 10px;
+    z-index: 9999;
+    color: white;
+    font-size: 14px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#alert-content {
+    text-align: center;
+}
+
+#alert-message {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+/* Location Search bar  *********************************************************************************************************************/
+/* Center the geocoder control container */
+.leaflet-top.leaflet-left {
+    position: absolute;
+    top: 10px; /* Distance from the top */
+    left: 50%; /* Move to the center horizontally */
+    transform: translateX(-50%); /* Adjust to center it properly */
+    z-index: 1001; /* Ensure it appears above other elements */
+}
+
+/* Optional: Adjust the styling of the search input box */
+.leaflet-control-geocoder input {
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: white;
+    width: 300px; /* You can adjust the width of the input box */
+}
+
+/* Dropdown hamburger menu (which contains the Legend) ****************************************************************/
+.hamburger-icon {
+    background: none;
+    border: none;
+    font-size: var(--title-font-size);
+    cursor: pointer;
+    align-items: center;
+    font-family: inherit; /* Use the same font as the page */
+    color: white; /* Adjust if needed */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 120%; /* Position right below the hamburger icon */
+    left: 1vh; /* Align with the left edge of the icon */
+    background-color: rgba(0, 0, 0, 0.7);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1000; /* Ensure it appears above other elements */
+    border: var(--box-border);
+    font-weight: normal;
+    /* margin-left: 10px; */
+}
+
+/* Dropdown links */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Show the dropdown when the hamburger icon is clicked */
+.show {
+    display: block;
+}
+
+/* INFO icon styling ****************************************/
+/* Style for the info icon button */
+.info-icon {
+    background: transparent;  /* Transparent background */
+    border: none;              /* No border */
+    font-size: var(--title-font-size);           /* Size of the info icon */
+    cursor: pointer;          /* Pointer cursor on hover */
+    color: rgba(255,255,255,0.7);              /* White "i" */
+    margin-left: 0px;         /* Space between hamburger and info icon */
+    padding: 0;                /* Remove any padding */
+    outline: none;             /* Remove focus outline (optional) */
+    font-family: inherit; /* Use the same font as the page */
+}
+
+.info-icon:focus {
+    outline: none;             /* Remove focus outline on click */
+}
+
+/* Dropdown styling for the info */
+.info-dropdown {
+    /* display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    top: 100%;
+    left: 10px; 
+    width: 250px;
+    z-index: 1100;
+    font-size: 16px;
+    font-weight: normal; */
+
+    display: none;
+    position: absolute;
+    top: 120%;
+    left: 20%;
+    width: 200%;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #F8F8FF;
+    padding: 10px;
+    border: var(--box-border);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+/* Show dropdowns when active */
+.info-dropdown.active {
+    display: block;
+}
+
+/* Legend Styling *************************************************************************************/
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 16px;
+    color: white;
+    width: 100%;
+}
+
+.legend-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.legend-item.disabled {
+    opacity: 0.4; /* Dim disabled items */
+}
+
+#legend-container .legend-title {
+    font-weight: normal;
+    font-size: var(--legend-label-font-size);
+    opacity: 0.8;
+    padding: 5px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+/* Catchment Overlay Styling ***********************************************************************/
+.catchment-label {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    background:  rgba(255,215,0,0.4); /*rgba(173, 216, 230, 0.5);*/
+    padding: 2px 5px;
+    border-radius: 3px;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid black;
+}
+
+/* Page Loading Spinner styling ***************************************************************/
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    border: 12px solid rgba(243, 243, 243, 0.85);
+    border-top: 12px solid rgba(52, 152, 219, 0.85);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    z-index: 1000;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loader {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: block;
+    margin:15px auto;
+    position: relative;
+    color: #FFF;
+    box-sizing: border-box;
+    animation: animloader 2s linear infinite;
+  }
+  
+  @keyframes animloader {
+    0% {
+      box-shadow: 14px 0 0 -2px,  38px 0 0 -2px,  -14px 0 0 -2px,  -38px 0 0 -2px;
+    }
+    25% {
+      box-shadow: 14px 0 0 -2px,  38px 0 0 -2px,  -14px 0 0 -2px,  -38px 0 0 2px;
+    }
+    50% {
+      box-shadow: 14px 0 0 -2px,  38px 0 0 -2px,  -14px 0 0 2px,  -38px 0 0 -2px;
+    }
+    75% {
+      box-shadow: 14px 0 0 2px,  38px 0 0 -2px,  -14px 0 0 -2px,  -38px 0 0 -2px;
+    }
+    100% {
+      box-shadow: 14px 0 0 -2px,  38px 0 0 2px,  -14px 0 0 -2px,  -38px 0 0 -2px;
+    }
+  }
+
+/* Plot popup ******************************************************************************/
+#plotOverlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    padding: 0px;
+    background: rgba(0, 0, 0, 0.85);
+    width: 75%;
+    height: 85%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    border: var(--box-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+}
+
+#plotContainer {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#plotOverlayCloseBtn {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+#infoButton {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#infoBox {
+    display: none;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #F8F8FF;
+    padding: 10px;
+    border: var(--box-border);
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* END *************************************************************************************/

@@ -54,7 +54,20 @@ def filter_json_by_characteristic(input_json, characteristic_values):
                 "Owner": "MHL", #feature.get("properties", {}).get("ownership"),
                 "State": "NSW",
                 "Country": "Australia",
-                "Notes": "Source "+feature.get("properties", {}).get("ownership")
+                # "Notes": "Source "+feature.get("properties", {}).get("ownership")
+                "Notes": "IDs " + ", ".join(
+                    sensor.get("id", "")
+                    for group in feature.get("properties", {}).get("sensors", [])
+                    for sensor in group
+                    if sensor.get("id")
+                ) + " | Params " + ", ".join(
+                    sensor.get("parameter_id", "")
+                    for group in feature.get("properties", {}).get("sensors", [])
+                    for sensor in group
+                    if sensor.get("parameter_id")
+                )
+
+
             }
             filtered_features.append(filtered_feature)
 

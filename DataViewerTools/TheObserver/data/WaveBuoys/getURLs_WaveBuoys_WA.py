@@ -3,16 +3,19 @@ https://wawaves.org/ -> Inspect -> Network -> list? ..... to get the following u
 download/copy json data from 'https://wawaves.org/wp-json/waves/v1/list?type=all&sources=AKIAQXUN6NGKDLH7EQQN,AKIAQXUN6NGKEAGWLJ7C'
 run this script
 
-for future
-
-timeseries data can be obtained via - https://vicwaves.com.au/wp-json/waves/v1/buoys/{id}?type=waves&simplified=1, eg https://vicwaves.com.au/wp-json/waves/v1/buoys/11001?type=waves&simplified=1
-
 '''
 
 
 file_path = r'data\WaveBuoys\wa_waves_list.json'
 output_path = r'data\all_json_files\locations_waves_wa.json'
+
 import json
+import re
+
+def extract_acknowledgement(text):
+    """Extracts the text after 'acknowledgement of the' or 'acknowledgement of both the', stopping at the first sentence-ending punctuation."""
+    match = re.search(r'acknowledgement of (?:both )?the (.*?)[.?!]', text)
+    return match.group(1) if match else None
 
 # Open and load the JSON data from the file, specifying encoding
 with open(file_path, 'r', encoding='utf-8-sig') as file:
@@ -32,6 +35,9 @@ for entry in json_data:
             site_info['Owner'] = 'UWA'
             site_info['State'] = 'WA'
             site_info['Country'] = 'Australia'
+            print(extract_acknowledgement(entry["download_text"]))
+            site_info['Acknowledgement'] = extract_acknowledgement(entry["download_text"])
+            site_info['Licence'] = 'CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en'
             site_info['Notes'] = f'id={entry["id"]}, label={entry["label"]}'
 
             locations.append(site_info)

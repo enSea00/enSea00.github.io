@@ -48,8 +48,44 @@ const map = L.map('map', {
         [-90, -15], // Southwest corner (latitude, longitude)
         [90, 370]   // Northeast corner (latitude, longitude)
     ],
-    maxBoundsViscosity: 1.0 // Makes panning feel "sticky" at the edges
+    maxBoundsViscosity: 1.0, // Makes panning feel "sticky" at the edges
+    
 }).setView(Australia_Coordinates, 3); // Set initial map view (latitude, longitude, zoom level)
+
+// Ensure the map is already initialized as 'map'
+
+// Try to get user's location
+if ("geolocation" in navigator) {
+    navigator.geolocation.getCurrentPosition(
+        function (position) {
+            const userLat = position.coords.latitude;
+            const userLng = position.coords.longitude;
+
+            const userIcon = L.icon({
+            // className: 'material-icons',
+            // html: '<i class="material-icons">person_pin_circle</i>',
+            iconUrl: 'images/location_pin.png',
+            iconSize: [80, 80],
+            iconAnchor: [40, 80],
+            });
+                                        
+                          
+            // Add a marker at the user's location
+            L.marker([userLat, userLng], { icon: userIcon })
+            .addTo(map)
+            // .bindPopup("📍 You are here!")
+            .openPopup();
+          
+            // Optional: center the map on the user's location
+            map.setView([userLat, userLng], 9, { animate: true });
+        },
+        function (error) {
+            console.error("Geolocation error:", error.message);
+        }
+    );
+} else {
+    console.warn("Geolocation is not supported by this browser.");
+}
 
 // BASE LAYERS //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -235,8 +271,8 @@ function hideCustomAlert() {
     alertElement.classList.remove('show');
 }
 
-// map.on('contextmenu', function(e) { // use 'contextmenu' for right click
-map.on('click', function(e) {   // use 'click' for left click
+map.on('contextmenu', function(e) { // use 'contextmenu' for right click
+// map.on('click', function(e) {   // use 'click' for left click
         // Hide any existing alert before showing a new one
     hideCustomAlert(); 
 
@@ -288,6 +324,19 @@ map.on('click', function() {
 
 // ADD LOCATION MARKERS TO MAP ////////////////////////////////////////////////////////////////////////////////
 
+// Function to dynamically load a script
+function loadScript(src, callback) {
+    let script = document.createElement('script');
+    script.src = src;
+    script.onload = function() {
+        callback();
+    };
+    script.onerror = function() {
+        console.error('Failed to load script:', src); // Debug: Handle errors in script loading
+    };
+    document.head.appendChild(script);
+}
+
 // Create a separate MarkerCluster group for each DataType
 const dataTypeGroups = {};  
 Object.keys(groupedLocations).forEach((dataType) => {
@@ -310,12 +359,15 @@ Object.keys(groupedLocations).forEach((dataType) => {
         }
     });
 
-    groupedLocations[dataType].forEach((loc) => {       
+    groupedLocations[dataType].forEach((loc) => {
         const marker = L.marker([loc.Latitude, loc.Longitude], {
             icon: L.divIcon({
                 className: 'custom-marker',
-                html: `<div class="marker-icon" style="background-color:${color};"></div>`
-            })
+                html: `<div class="marker-icon" style="background-color:${color};"></div>`,
+            }),
+            owner: loc.Owner,
+            dataType: loc.DataType,
+            name: loc.Name,
         });
 
         // Format lat, lon to 5 decimal places
@@ -340,22 +392,76 @@ Object.keys(groupedLocations).forEach((dataType) => {
             offset: L.point(0, -10)  
         });
 
-        // Fetch and display Plotly graph in a popup on click
-        marker.on("click", async () => {
-            if (!loc.URL) {
-                marker.bindPopup("No data available").openPopup();
-                return;
-            }
+        // popup plotting /////////////////////////////////////////////////////////////////////
 
-            const data = await fetchAndParseTable(loc.URL);
-            if (data) {
-                const plotDiv = createPlot(data.timestamps, data.waterLevels);
-                marker.bindPopup(plotDiv).openPopup();
-            } else {
-                marker.bindPopup("Failed to load data").openPopup();
+        marker.on('click', async function () {
+            const loader = document.getElementById("loading-spinner");
+            if (loader) loader.style.display = "block";
+        
+            const dataType = marker.options.dataType;
+            const owner = marker.options.owner;
+        
+            try {
+                
+                // Wave Data
+                if (dataType === 'Wave Buoy' && owner === 'Qld Gov') {
+                    await loadScriptAsync('js/getData_Waves_Qld.js');
+                    await getData_Waves_Qld(loc);
+                } else if (dataType === 'Wave Buoy' && owner === 'MHL') {
+                    await loadScriptAsync('js/getData_Waves_NSW.js');
+                    await getData_Waves_NSW(loc);
+                } else if (dataType === 'Wave Buoy' && owner === 'Vic Gov') {
+                    await loadScriptAsync('js/getData_Waves_Vic.js');
+                    await getData_Waves_Vic(loc);
+                } else if (dataType === 'Wave Buoy' && owner === 'UWA') {
+                    await loadScriptAsync('js/getData_Waves_WA_UWA.js');
+                    await getData_Waves_WA_UWA(loc);
+                
+                // Tide Data
+                } else if (dataType === 'Tide Gauge' && owner === 'Qld Gov') {
+                    await loadScriptAsync('js/getData_Tides_Qld.js');
+                    await getData_Tides_Qld(loc);
+                } else if (dataType === 'Tide Gauge' && owner === 'MHL') {
+                    await loadScriptAsync('js/getData_Tides_NSW_MHL.js');
+                    await getData_Tides_NSW_MHL(loc);
+                
+                // River Data 
+                } else if (dataType === 'River Gauge' && owner === 'MHL') {
+                    await loadScriptAsync('js/getData_Rivers_NSW_MHL.js');
+                    await getData_Rivers_NSW_MHL(loc);
+
+                // Rain Data
+                } else if (dataType === 'Rain Gauge' && owner === 'MHL') {
+                    await loadScriptAsync('js/getData_Rain_NSW_MHL.js');
+                    await getData_Rain_NSW_MHL(loc);
+
+                // Ocean Buoy Data
+                } else if (dataType === 'Ocean Buoy (Active)' && owner === 'NDBC') {
+                    await loadScriptAsync('js/getData_OceanBuoys_NDBC.js');
+                    await getData_OceanBuoys_NDBC(loc);
+
+                // // AWS Data- not working due to CORS blocking
+                // } else if (dataType === 'Weather Station' && owner === 'BoM') {
+                //     await loadScriptAsync('getData_Weather_BoM.js');
+                //     await getData_Weather_BoM(loc);
+                
+                // External Bookmark
+                } else if (loc.URL) { // no data available so open bookmark url instead
+                    window.open(loc.URL, '_blank');
+                }
+            } catch (err) {
+                console.error('Error handling marker click:', err);
             }
+        
+            if (loader) loader.style.display = "none";
         });
 
+        function loadScriptAsync(src) {
+            return new Promise((resolve, reject) => {
+              loadScript(src, () => resolve(), reject);
+            });
+          }
+          
         // Add marker to the marker cluster for this DataType
         markers.addLayer(marker);
     });
@@ -497,7 +603,32 @@ let isolatedType = null;
 document.getElementById('legend-container').addEventListener('click', function(event) {
     event.stopPropagation(); // Prevents click from reaching the map
     map.closePopup(); // Closes any open lat/lon popup
+
+    const item = event.target.closest('.legend-item');
+    if (!item) return;
+
+    const selectedType = item.dataset.type;
+    if (!selectedType) return;
+
+    const layerGroup = dataTypeGroups[selectedType];
+    if (!layerGroup) return;
+
+    if (map.hasLayer(layerGroup)) {
+        map.removeLayer(layerGroup);
+        item.classList.add('disabled');
+    } else {
+        map.addLayer(layerGroup);
+        item.classList.remove('disabled');
+    }
+
+    // Exit isolation mode if more than one group is visible
+    const visibleCount = Object.keys(dataTypeGroups).filter((type) =>
+        map.hasLayer(dataTypeGroups[type])
+    ).length;
+
+    isolatedType = visibleCount === 1 ? selectedType : null;
 });
+
 
 // Prevent lat/lon popup when double-clicking the legend
 document.getElementById('legend-container').addEventListener('dblclick', function(event) {
@@ -531,6 +662,7 @@ document.getElementById('legend-container').addEventListener('dblclick', functio
     }
 });
 
+
 // DROPDOWN HAMBURGER MENU ////////////////////////////////////////////////////////////////////////////////////////
 
 // Select both the hamburger icon, menu label, and the dropdown menu
@@ -555,6 +687,12 @@ hamburgerToggle.addEventListener('click', function(event) {
     // Toggle the hamburger dropdown
     toggleDropdown(event, 'hamburger');
     map.closePopup(); // Closes any open lat/lon popup
+    // Close the plot overlay if it's open
+    const overlayDiv = document.getElementById('plotOverlay');
+    if (overlayDiv.style.display !== 'none') {
+        overlayDiv.style.display = 'none';
+        document.getElementById('infoBox').style.display = 'none';
+    }
 });
 
 // INFO DROPDOWN ///////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -563,6 +701,12 @@ document.getElementById('info-toggle').addEventListener('click', function(event)
     // Toggle the info dropdown
     toggleDropdown(event, 'info');
     map.closePopup(); // Closes any open lat/lon popup
+    // Close the plot overlay if it's open
+    const overlayDiv = document.getElementById('plotOverlay');
+    if (overlayDiv.style.display !== 'none') {
+        overlayDiv.style.display = 'none';
+        document.getElementById('infoBox').style.display = 'none';
+    }
 });
 
 // Function to toggle dropdown visibility
@@ -654,4 +798,27 @@ Promise.all(loadingPromises).then(() => {
     // console.log("All map elements are fully loaded.");
 });
 
+// PLOTTING OVERLAY ////////////////////////////////////////////////////////////////////////////////////////
+// function configureAxis(axis) {
+//         return {
+//             title: {text: axis.title},   // Axis title
+//             // domain: axis.domain,         // Axis domain (position)
+//             zeroline: axis.zeroline || false,     // Show zero line
+//             showgrid: true,              // Show grid lines
+//             gridcolor: 'rgba(240, 240, 240, 0.2)', // Grid color: off-white, partially transparent
+//             gridwidth: 1,                // Grid line width
+//             linecolor: 'rgba(240, 240, 240, 0.4)', // Axis line color
+//             linewidth: 2,                // Axis line width
+//             tickcolor: 'rgba(240, 240, 240, 0.4)', // Tick color
+//             ticks: 'outside',            // Tick marks outside the axis
+//             tickfont: { color: '#f0f0f0' }, // Tick label font color
+//             tickformat: axis.tickformat || '',  // Optional tick format
+//             showticklabels: axis.showticklabels || true,
+//             dash: 'dash',                 // Dotted grid lines
+//             showline: true,              // Show axis line
+//             mirror: false,                // Mirror axis lines on all sides
+//             title_standoff: axis.title_standoff || 25, // Ensure the right axis label has more space from the plot
+//         };
+//     }
+    
 // END ////////////////////////////////////////////////////////////////////////////////////////

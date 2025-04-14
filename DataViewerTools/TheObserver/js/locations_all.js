@@ -9116,7 +9116,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 5120 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -9127,7 +9127,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 5472 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -9138,7 +9138,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 5134 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -9149,7 +9149,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 5137 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9160,7 +9160,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 2612 | Params Level 2"
     },
     {
         "DataType": "River Gauge",
@@ -9171,7 +9171,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 2437 | Params Level 2"
     },
     {
         "DataType": "River Gauge",
@@ -9182,7 +9182,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 2840 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9193,7 +9193,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98729042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9204,7 +9204,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 112455042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9215,7 +9215,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98780042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9226,7 +9226,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98739042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9237,7 +9237,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 5148 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9248,7 +9248,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 99624042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9259,7 +9259,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98794042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9270,7 +9270,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98784042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9281,7 +9281,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98901042, 4852 | Params Level 1, Forecast Level"
     },
     {
         "DataType": "River Gauge",
@@ -9292,7 +9292,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98923042, 98924042 | Params Level 1, Level 2"
     },
     {
         "DataType": "River Gauge",
@@ -9303,7 +9303,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98935042 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -9314,7 +9314,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82978042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -9325,7 +9325,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 63955042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -9336,7 +9336,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1689 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9347,7 +9347,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1281 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9358,7 +9358,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 847 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9369,7 +9369,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 100630042, 100635042 | Params Level 1, Rain"
     },
     {
         "DataType": "River Gauge",
@@ -9380,7 +9380,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 57595042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9391,7 +9391,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 49151042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9402,7 +9402,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 49700042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9413,7 +9413,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 50049042 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -9424,7 +9424,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 63971042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -9435,7 +9435,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 51381042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9446,7 +9446,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 50038042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9457,7 +9457,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 50312042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9468,7 +9468,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 60482042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9479,7 +9479,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 51446042, 1623 | Params Level 1, Level 2"
     },
     {
         "DataType": "River Gauge",
@@ -9490,7 +9490,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 61352042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9501,7 +9501,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 61495042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9512,7 +9512,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 839, 64390042 | Params Level 1, Level 2"
     },
     {
         "DataType": "River Gauge",
@@ -9523,7 +9523,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 60307042, 74582042 | Params Level 1, Level 2"
     },
     {
         "DataType": "Rain Gauge",
@@ -9534,7 +9534,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82880042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -9545,7 +9545,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98711042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9556,7 +9556,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 51858042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9567,7 +9567,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98669042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9578,7 +9578,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98719042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9589,7 +9589,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 53380042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9600,7 +9600,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 135639042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9611,7 +9611,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 61539042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9622,7 +9622,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1266 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9633,7 +9633,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 89241042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9644,7 +9644,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 51337042, 98938042 | Params Level 1, Level 2"
     },
     {
         "DataType": "River Gauge",
@@ -9655,7 +9655,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 49425042, 74593042 | Params Level 1, Level 2"
     },
     {
         "DataType": "Rain Gauge",
@@ -9666,7 +9666,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 4778 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -9677,7 +9677,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 53151042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9688,7 +9688,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 130862042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9699,7 +9699,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98874042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9710,7 +9710,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 51587042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9721,7 +9721,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1885 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -9732,7 +9732,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1401 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -9743,7 +9743,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 60559042, 78402042 | Params Level 1, Level 3"
     },
     {
         "DataType": "River Gauge",
@@ -9754,7 +9754,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 53118042, 4859 | Params Level 1, Forecast Level"
     },
     {
         "DataType": "River Gauge",
@@ -9765,7 +9765,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98975042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9776,7 +9776,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 61780042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9787,7 +9787,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs  | Params "
     },
     {
         "DataType": "River Gauge",
@@ -9798,7 +9798,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98736042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9809,7 +9809,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 138193042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9820,7 +9820,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98892042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9831,7 +9831,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98726042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9842,7 +9842,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98746042 | Params Level 2"
     },
     {
         "DataType": "Rain Gauge",
@@ -9853,7 +9853,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82812042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -9864,7 +9864,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98724042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9875,7 +9875,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98877042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9886,7 +9886,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98692042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9897,7 +9897,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 2461, 4884 | Params Level 1, Forecast Level"
     },
     {
         "DataType": "River Gauge",
@@ -9908,7 +9908,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 2189 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -9919,7 +9919,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1400 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -9930,7 +9930,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98701042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9941,7 +9941,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98713042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9952,7 +9952,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98717042, 98718042 | Params Level 1, Level 2"
     },
     {
         "DataType": "River Gauge",
@@ -9963,7 +9963,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98768042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9974,7 +9974,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98738042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9985,7 +9985,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98731042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -9996,7 +9996,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98725042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10007,7 +10007,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98910042, 4857 | Params Level 1, Forecast Level"
     },
     {
         "DataType": "River Gauge",
@@ -10018,7 +10018,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98790042 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -10029,7 +10029,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 83044042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -10040,7 +10040,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98982042 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -10051,7 +10051,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82983042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10062,7 +10062,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82923042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10073,7 +10073,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82883042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10084,7 +10084,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82885042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10095,7 +10095,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 64621042 | Params Rain"
     },
     {
         "DataType": "Wave Buoy",
@@ -10106,7 +10106,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1012, 1014, 1015, 1079 | Params hsig, wdir, tp1, temp"
     },
     {
         "DataType": "Wave Buoy",
@@ -10117,7 +10117,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1005, 1007, 1008, 1078 | Params hsig, wdir, tp1, temp"
     },
     {
         "DataType": "Wave Buoy",
@@ -10128,7 +10128,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 991, 993, 994, 1073 | Params hsig, wdir, tp1, temp"
     },
     {
         "DataType": "Wave Buoy",
@@ -10139,7 +10139,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1033, 1035, 1036, 1076 | Params hsig, wdir, tp1, temp"
     },
     {
         "DataType": "River Gauge",
@@ -10150,7 +10150,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98872042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10161,7 +10161,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98886042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10172,7 +10172,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98916042 | Params Level 1"
     },
     {
         "DataType": "Tide Gauge",
@@ -10183,7 +10183,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 100198042, 106507042, 2361 | Params Level 1, Forecast Level, Residual"
     },
     {
         "DataType": "River Gauge",
@@ -10194,7 +10194,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98911042, 4853 | Params Level 1, Forecast Level"
     },
     {
         "DataType": "River Gauge",
@@ -10205,7 +10205,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1276 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -10216,7 +10216,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1273 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10227,7 +10227,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1274 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -10238,7 +10238,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98965042 | Params Level 1"
     },
     {
         "DataType": "Tide Gauge",
@@ -10249,7 +10249,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82251042, 106505042, 2362 | Params Level 1, Forecast Level, Residual"
     },
     {
         "DataType": "Tide Gauge",
@@ -10260,7 +10260,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 103934042, 106494042, 2364 | Params Level 1, Forecast Level, Residual"
     },
     {
         "DataType": "Rain Gauge",
@@ -10271,7 +10271,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82977042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10282,7 +10282,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82879042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -10293,7 +10293,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98981042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10304,7 +10304,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98976042 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -10315,7 +10315,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82889042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -10326,7 +10326,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98931042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10337,7 +10337,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98914042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10348,7 +10348,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98917042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10359,7 +10359,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98798042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10370,7 +10370,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98933042 | Params Level 1"
     },
     {
         "DataType": "Tide Gauge",
@@ -10381,7 +10381,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82271042, 106501042, 2363 | Params Level 1, Forecast Level, Residual"
     },
     {
         "DataType": "Rain Gauge",
@@ -10392,7 +10392,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82976042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10403,7 +10403,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82882042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10414,7 +10414,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 83623042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10425,7 +10425,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 64757042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10436,7 +10436,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 71857042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10447,7 +10447,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 71464042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -10458,7 +10458,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98673042 | Params Level 1"
     },
     {
         "DataType": "Wave Buoy",
@@ -10469,7 +10469,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 998, 1000, 1001, 1075 | Params hsig, wdir, tp1, temp"
     },
     {
         "DataType": "River Gauge",
@@ -10480,7 +10480,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98791042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10491,7 +10491,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98793042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10502,7 +10502,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98100042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10513,7 +10513,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98867042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10524,7 +10524,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98869042 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -10535,7 +10535,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82922042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10546,7 +10546,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 63987042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10557,7 +10557,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 71841042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10568,7 +10568,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 64433042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10579,7 +10579,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 64567042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -10590,7 +10590,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 64605042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -10601,7 +10601,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98688042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10612,7 +10612,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98684042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10623,7 +10623,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98706042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10634,7 +10634,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 61429042, 4863 | Params Level 1, Forecast Level"
     },
     {
         "DataType": "Rain Gauge",
@@ -10645,7 +10645,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82981042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -10656,7 +10656,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98797042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10667,7 +10667,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98894042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10678,7 +10678,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 51088042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10689,7 +10689,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98890042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10700,7 +10700,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98891042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10711,7 +10711,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98880042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10722,7 +10722,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98882042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10733,7 +10733,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98922042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10744,7 +10744,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98964042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10755,7 +10755,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98971042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10766,7 +10766,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98968042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10777,7 +10777,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98973042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10788,7 +10788,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98658042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10799,7 +10799,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 102680042 | Params Level 2"
     },
     {
         "DataType": "River Gauge",
@@ -10810,7 +10810,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98661042 | Params Level 2"
     },
     {
         "DataType": "River Gauge",
@@ -10821,7 +10821,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98690042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10832,7 +10832,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98980042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10843,7 +10843,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98776042 | Params Level 1"
     },
     {
         "DataType": "Wave Buoy",
@@ -10854,7 +10854,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1026, 1028, 1029, 1074 | Params hsig, wdir, tp1, temp"
     },
     {
         "DataType": "River Gauge",
@@ -10865,7 +10865,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98889042 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -10876,7 +10876,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 71873042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -10887,7 +10887,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs  | Params "
     },
     {
         "DataType": "Tide Gauge",
@@ -10898,7 +10898,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 99923042, 106497042, 2370 | Params Level 2, Forecast Level, Residual"
     },
     {
         "DataType": "River Gauge",
@@ -10909,7 +10909,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 99003042 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -10920,7 +10920,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82891042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -10931,7 +10931,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 57618042 | Params Level 1"
     },
     {
         "DataType": "Wave Buoy",
@@ -10942,7 +10942,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1019, 1021, 1022, 1077 | Params hsig, wdir, tp1, temp"
     },
     {
         "DataType": "River Gauge",
@@ -10953,7 +10953,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98918042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10964,7 +10964,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98985042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10975,7 +10975,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98984042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -10986,7 +10986,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98977042 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -10997,7 +10997,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82974042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -11008,7 +11008,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 83611042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -11019,7 +11019,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82984042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -11030,7 +11030,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82953042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -11041,7 +11041,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 119992042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11052,7 +11052,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98714042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11063,7 +11063,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98753042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11074,7 +11074,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98698042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11085,7 +11085,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98751042 | Params Level 2"
     },
     {
         "DataType": "River Gauge",
@@ -11096,7 +11096,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98737042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11107,7 +11107,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98769042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11118,7 +11118,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98764042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11129,7 +11129,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 89515042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11140,7 +11140,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98878042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11151,7 +11151,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98756042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11162,7 +11162,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98675042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11173,7 +11173,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98704042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11184,7 +11184,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98699042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11195,7 +11195,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98727042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11206,7 +11206,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98750042, 4955 | Params Level 1, Forecast Level"
     },
     {
         "DataType": "River Gauge",
@@ -11217,7 +11217,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98759042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11228,7 +11228,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98777042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11239,7 +11239,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98772042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11250,7 +11250,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98870042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11261,7 +11261,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98899042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11272,7 +11272,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98912042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11283,7 +11283,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98966042 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -11294,7 +11294,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82881042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -11305,7 +11305,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98667042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11316,7 +11316,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98659042 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -11327,7 +11327,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 86443042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -11338,7 +11338,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98670042, 1414 | Params Level 1, Forecast Level"
     },
     {
         "DataType": "River Gauge",
@@ -11349,7 +11349,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 58608042, 80821042 | Params Level 1, Level 2"
     },
     {
         "DataType": "River Gauge",
@@ -11360,7 +11360,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98671042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11371,7 +11371,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98694042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11382,7 +11382,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98779042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11393,7 +11393,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98885042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11404,7 +11404,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98897042, 4856 | Params Level 1, Forecast Level"
     },
     {
         "DataType": "River Gauge",
@@ -11415,7 +11415,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98907042, 4851 | Params Level 1, Forecast Level"
     },
     {
         "DataType": "River Gauge",
@@ -11426,7 +11426,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98921042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11437,7 +11437,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98970042 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -11448,7 +11448,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 83001042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -11459,7 +11459,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98666042 | Params Level 2"
     },
     {
         "DataType": "River Gauge",
@@ -11470,7 +11470,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98712042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11481,7 +11481,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98962042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11492,7 +11492,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98663042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11503,7 +11503,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98677042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11514,7 +11514,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98720042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11525,7 +11525,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98722042 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -11536,7 +11536,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82892042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -11547,7 +11547,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 165098042 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -11558,7 +11558,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 94409042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -11569,7 +11569,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82822042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -11580,7 +11580,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 82808042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -11591,7 +11591,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98748042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11602,7 +11602,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 2830 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11613,7 +11613,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs  | Params "
     },
     {
         "DataType": "River Gauge",
@@ -11624,7 +11624,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 3081 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11635,7 +11635,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1895 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11646,7 +11646,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98747042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11657,7 +11657,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98881042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11668,7 +11668,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98876042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11679,7 +11679,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 1626 | Params Level 2"
     },
     {
         "DataType": "River Gauge",
@@ -11690,7 +11690,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98741042 | Params Level 1"
     },
     {
         "DataType": "River Gauge",
@@ -11701,7 +11701,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 98757042 | Params Level 1"
     },
     {
         "DataType": "Rain Gauge",
@@ -11712,7 +11712,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 51602042 | Params Rain"
     },
     {
         "DataType": "River Gauge",
@@ -11723,7 +11723,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 57508042, 4864 | Params Level 1, Forecast Level"
     },
     {
         "DataType": "Rain Gauge",
@@ -11734,7 +11734,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 71825042 | Params Rain"
     },
     {
         "DataType": "Rain Gauge",
@@ -11745,7 +11745,7 @@ const locations = [
         "Owner": "MHL",
         "State": "NSW",
         "Country": "Australia",
-        "Notes": "Source DCCEEW CPHR"
+        "Notes": "IDs 71529042 | Params Rain"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -11753,7 +11753,7 @@ const locations = [
         "Longitude": 272.687,
         "Latitude": 44.794,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=0Y2W3",
-        "Owner": "NDBC U.S.C.G. Marine Reporting Stations",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -11764,7 +11764,7 @@ const locations = [
         "Longitude": 337.0,
         "Latitude": 12.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=13001",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -11775,7 +11775,7 @@ const locations = [
         "Longitude": 337.0,
         "Latitude": 21.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=13002",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -11786,7 +11786,7 @@ const locations = [
         "Longitude": 322.0,
         "Latitude": 15.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=13008",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -11797,7 +11797,7 @@ const locations = [
         "Longitude": 322.0,
         "Latitude": 8.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=13009",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -11808,7 +11808,7 @@ const locations = [
         "Longitude": 0.0,
         "Latitude": 0.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=13010",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -11819,7 +11819,7 @@ const locations = [
         "Longitude": 67.0,
         "Latitude": -8.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=14040",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -11830,7 +11830,7 @@ const locations = [
         "Longitude": 55.0,
         "Latitude": -8.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=14041",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -11841,7 +11841,7 @@ const locations = [
         "Longitude": 67.0,
         "Latitude": -12.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=14043",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -11852,7 +11852,7 @@ const locations = [
         "Longitude": 57.0,
         "Latitude": -4.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=14047",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -11863,7 +11863,7 @@ const locations = [
         "Longitude": 65.0,
         "Latitude": -8.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=14048",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -11874,7 +11874,7 @@ const locations = [
         "Longitude": 65.0,
         "Latitude": -12.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=14049",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -11885,7 +11885,7 @@ const locations = [
         "Longitude": 350.0,
         "Latitude": -10.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=15001",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -11896,7 +11896,7 @@ const locations = [
         "Longitude": 350.0,
         "Latitude": 0.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=15002",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -11907,7 +11907,7 @@ const locations = [
         "Longitude": 350.0,
         "Latitude": -6.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=15006",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -11918,7 +11918,7 @@ const locations = [
         "Longitude": 8.0,
         "Latitude": -6.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=15007",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -11929,21 +11929,21 @@ const locations = [
         "Longitude": 350.0,
         "Latitude": -20.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=15008",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "",
         "Longitude": 356.949,
         "Latitude": 0.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=15009",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -11951,7 +11951,7 @@ const locations = [
         "Longitude": 237.119,
         "Latitude": 37.356,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=1801583",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -11962,7 +11962,7 @@ const locations = [
         "Longitude": 237.119,
         "Latitude": 37.356,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=1801589",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -11970,10 +11970,10 @@ const locations = [
     {
         "DataType": "Ocean Buoy (Active)",
         "Name": "SD 1077 - 24 NM SSW of San Francisco, CA (Site of 46012)",
-        "Longitude": 237.07999999999998,
-        "Latitude": 37.39,
+        "Longitude": 237.1,
+        "Latitude": 37.28,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=1801593",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -11984,7 +11984,7 @@ const locations = [
         "Longitude": 273.09000000000003,
         "Latitude": 41.73,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=18CI3",
-        "Owner": "NDBC U.S.C.G. Marine Reporting Stations",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -11995,7 +11995,7 @@ const locations = [
         "Longitude": 273.09000000000003,
         "Latitude": 41.73,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=18CY3",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12006,7 +12006,7 @@ const locations = [
         "Longitude": 273.51,
         "Latitude": 42.09,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=20CM4",
-        "Owner": "NDBC U.S.C.G. Marine Reporting Stations",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12017,7 +12017,7 @@ const locations = [
         "Longitude": 133.62,
         "Latitude": 33.12,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21178",
-        "Owner": "NDBC Japanese Meteorological Agency",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12028,7 +12028,7 @@ const locations = [
         "Longitude": 146.192,
         "Latitude": 40.302,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21346",
-        "Owner": "NDBC Japanese Meteorological Agency",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12039,7 +12039,7 @@ const locations = [
         "Longitude": 145.799,
         "Latitude": 39.601,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21347",
-        "Owner": "NDBC Japanese Meteorological Agency",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12050,7 +12050,7 @@ const locations = [
         "Longitude": 145.595,
         "Latitude": 38.816,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21348",
-        "Owner": "NDBC Japanese Meteorological Agency",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12061,7 +12061,7 @@ const locations = [
         "Longitude": 152.583,
         "Latitude": 42.617,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21401",
-        "Owner": "NDBC Russian HYDROMET",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12072,7 +12072,7 @@ const locations = [
         "Longitude": 158.343,
         "Latitude": 46.488,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21402",
-        "Owner": "NDBC Russian HYDROMET",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12080,10 +12080,10 @@ const locations = [
     {
         "DataType": "Ocean Buoy (Historical)",
         "Name": "SOUTHEAST TOKYO - 700NM ESE of Tokyo, JP",
-        "Longitude": 157.563,
-        "Latitude": 30.2599,
+        "Longitude": 156.357,
+        "Latitude": 29.0996,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21413",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12094,7 +12094,7 @@ const locations = [
         "Longitude": 178.165,
         "Latitude": 48.97,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21414",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12105,7 +12105,7 @@ const locations = [
         "Longitude": 171.867,
         "Latitude": 50.12,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21415",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12116,7 +12116,7 @@ const locations = [
         "Longitude": 163.43,
         "Latitude": 48.12,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21416",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12127,7 +12127,7 @@ const locations = [
         "Longitude": 157.142,
         "Latitude": 43.192,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21417",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12138,7 +12138,7 @@ const locations = [
         "Longitude": 148.8,
         "Latitude": 38.73,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21418",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12149,7 +12149,7 @@ const locations = [
         "Longitude": 155.653,
         "Latitude": 44.401,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21419",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12157,10 +12157,10 @@ const locations = [
     {
         "DataType": "Ocean Buoy (Historical)",
         "Name": "SOUTHEAST MIYAZAKI - 260NM Southeast of Miyazaki",
-        "Longitude": 134.803,
-        "Latitude": 28.4785,
+        "Longitude": 133.203,
+        "Latitude": 27.6999,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21420",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12171,7 +12171,7 @@ const locations = [
         "Longitude": 227.833,
         "Latitude": 36.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21595",
-        "Owner": "NDBC Japanese Meteorological Agency",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12182,7 +12182,7 @@ const locations = [
         "Longitude": 155.2,
         "Latitude": 32.8,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21597",
-        "Owner": "NDBC Japanese Meteorological Agency",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12193,7 +12193,7 @@ const locations = [
         "Longitude": 152.7,
         "Latitude": 31.3,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21598",
-        "Owner": "NDBC Japanese Meteorological Agency",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12204,7 +12204,7 @@ const locations = [
         "Longitude": 154.5,
         "Latitude": 40.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21600",
-        "Owner": "NDBC Japanese Meteorological Agency",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12215,7 +12215,7 @@ const locations = [
         "Longitude": 127.4,
         "Latitude": 31.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21636",
-        "Owner": "NDBC Japanese Meteorological Agency",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12226,7 +12226,7 @@ const locations = [
         "Longitude": 141.25,
         "Latitude": 29.3,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21637",
-        "Owner": "NDBC Japanese Meteorological Agency",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12237,7 +12237,7 @@ const locations = [
         "Longitude": 135.5,
         "Latitude": 28.3,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21640",
-        "Owner": "NDBC Japanese Meteorological Agency",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12248,7 +12248,7 @@ const locations = [
         "Longitude": 136.0,
         "Latitude": 25.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=21707",
-        "Owner": "NDBC Japanese Meteorological Agency",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12259,7 +12259,7 @@ const locations = [
         "Longitude": 126.02,
         "Latitude": 37.23,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=22101",
-        "Owner": "NDBC Korean Meteorological Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12270,7 +12270,7 @@ const locations = [
         "Longitude": 125.77,
         "Latitude": 34.8,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=22102",
-        "Owner": "NDBC Korean Meteorological Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12281,21 +12281,21 @@ const locations = [
         "Longitude": 127.5,
         "Latitude": 34.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=22103",
-        "Owner": "NDBC Korean Meteorological Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "",
         "Longitude": 128.9,
         "Latitude": 34.77,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=22104",
-        "Owner": "NDBC Korean Meteorological Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -12303,7 +12303,7 @@ const locations = [
         "Longitude": 130.0,
         "Latitude": 37.53,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=22105",
-        "Owner": "NDBC Korean Meteorological Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12314,7 +12314,7 @@ const locations = [
         "Longitude": 129.78,
         "Latitude": 36.35,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=22106",
-        "Owner": "NDBC Korean Meteorological Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12325,7 +12325,7 @@ const locations = [
         "Longitude": 126.03,
         "Latitude": 33.08,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=22107",
-        "Owner": "NDBC Korean Meteorological Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12336,7 +12336,7 @@ const locations = [
         "Longitude": 125.75,
         "Latitude": 36.25,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=22108",
-        "Owner": "NDBC Korean Meteorological Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12347,7 +12347,7 @@ const locations = [
         "Longitude": 81.0,
         "Latitude": 0.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23001",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12358,7 +12358,7 @@ const locations = [
         "Longitude": 81.0,
         "Latitude": -2.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23003",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12369,7 +12369,7 @@ const locations = [
         "Longitude": 90.0,
         "Latitude": 0.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23004",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12380,18 +12380,7 @@ const locations = [
         "Longitude": 90.0,
         "Latitude": 4.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23006",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "",
-        "Longitude": 90.0,
-        "Latitude": 8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23007",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12400,9 +12389,20 @@ const locations = [
         "DataType": "Ocean Buoy (Active)",
         "Name": "",
         "Longitude": 90.0,
+        "Latitude": 8.0,
+        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23007",
+        "Owner": "NDBC",
+        "State": "",
+        "Country": "",
+        "Notes": "Ocean Buoy (Active)"
+    },
+    {
+        "DataType": "Ocean Buoy (Active)",
+        "Name": "",
+        "Longitude": 90.0,
         "Latitude": 12.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23008",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12413,21 +12413,21 @@ const locations = [
         "Longitude": 90.0,
         "Latitude": 15.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23009",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "",
         "Longitude": 81.0,
         "Latitude": -4.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23010",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -12435,7 +12435,29 @@ const locations = [
         "Longitude": 65.0,
         "Latitude": 15.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23011",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
+        "State": "",
+        "Country": "",
+        "Notes": "Ocean Buoy (Historical)"
+    },
+    {
+        "DataType": "Ocean Buoy (Historical)",
+        "Name": "",
+        "Longitude": 67.0,
+        "Latitude": 8.0,
+        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23012",
+        "Owner": "NDBC",
+        "State": "",
+        "Country": "",
+        "Notes": "Ocean Buoy (Historical)"
+    },
+    {
+        "DataType": "Ocean Buoy (Historical)",
+        "Name": "",
+        "Longitude": 67.0,
+        "Latitude": 4.0,
+        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23013",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12444,45 +12466,23 @@ const locations = [
         "DataType": "Ocean Buoy (Active)",
         "Name": "",
         "Longitude": 67.0,
-        "Latitude": 8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23012",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "",
-        "Longitude": 67.0,
-        "Latitude": 4.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23013",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "",
-        "Longitude": 67.0,
         "Latitude": 2.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23014",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "",
         "Longitude": 67.0,
         "Latitude": 0.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23015",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -12490,7 +12490,7 @@ const locations = [
         "Longitude": 67.0,
         "Latitude": -2.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23016",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12501,7 +12501,7 @@ const locations = [
         "Longitude": 67.0,
         "Latitude": -4.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23017",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12512,7 +12512,7 @@ const locations = [
         "Longitude": 65.0,
         "Latitude": -4.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23019",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12523,7 +12523,7 @@ const locations = [
         "Longitude": 38.5,
         "Latitude": 22.162,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23020",
-        "Owner": "NDBC King Abdullah University for Science and Tech (KAUST)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12534,7 +12534,7 @@ const locations = [
         "Longitude": 91.701,
         "Latitude": 3.798,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23217",
-        "Owner": "NDBC Indian National Center for Ocean Information Services INDIA",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12545,7 +12545,7 @@ const locations = [
         "Longitude": 88.5,
         "Latitude": 10.165,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23218",
-        "Owner": "NDBC National Institute for Ocean Technology INDIA",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12556,18 +12556,7 @@ const locations = [
         "Longitude": 88.998,
         "Latitude": 13.472,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23219",
-        "Owner": "NDBC Indian National Center for Ocean Information Services INDIA",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "Bay of Bengal",
-        "Longitude": 89.333,
-        "Latitude": 14.433,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23220",
-        "Owner": "NDBC National Institute for Ocean Technology INDIA",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12575,10 +12564,21 @@ const locations = [
     {
         "DataType": "Ocean Buoy (Active)",
         "Name": "Bay of Bengal",
+        "Longitude": 89.333,
+        "Latitude": 14.433,
+        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23220",
+        "Owner": "NDBC",
+        "State": "",
+        "Country": "",
+        "Notes": "Ocean Buoy (Active)"
+    },
+    {
+        "DataType": "Ocean Buoy (Active)",
+        "Name": "Bay of Bengal",
         "Longitude": 89.483,
         "Latitude": 17.333,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23223",
-        "Owner": "NDBC National Institute for Ocean Technology INDIA",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12589,7 +12589,7 @@ const locations = [
         "Longitude": 67.18,
         "Latitude": 18.63,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23225",
-        "Owner": "NDBC National Institute for Ocean Technology INDIA",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12600,7 +12600,7 @@ const locations = [
         "Longitude": 67.333,
         "Latitude": 20.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23226",
-        "Owner": "NDBC National Institute for Ocean Technology INDIA",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12611,7 +12611,7 @@ const locations = [
         "Longitude": 88.653,
         "Latitude": 6.265,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23227",
-        "Owner": "NDBC Indian National Center for Ocean Information Services INDIA",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12622,7 +12622,7 @@ const locations = [
         "Longitude": 65.284,
         "Latitude": 20.764,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23228",
-        "Owner": "NDBC Indian National Center for Ocean Information Services INDIA",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12633,32 +12633,32 @@ const locations = [
         "Longitude": 88.55,
         "Latitude": 8.86,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23401",
-        "Owner": "NDBC National Disaster Warning Center (NDWC), Department of Disaster Prevention and Mitigation, Ministry of the Interior, Thailand",
+        "Owner": "NDBC",
+        "State": "",
+        "Country": "",
+        "Notes": "Ocean Buoy (Active)"
+    },
+    {
+        "DataType": "Ocean Buoy (Active)",
+        "Name": "ANDAMAN SEA - 180 NM NW of Phuket, Thailand",
+        "Longitude": 95.669,
+        "Latitude": 9.534,
+        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23461",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
-        "Name": "ANDAMAN SEA - 180 NM NW of Phuket, Thailand",
-        "Longitude": 95.668,
-        "Latitude": 9.541,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=23461",
-        "Owner": "NDBC National Disaster Warning Center (NDWC), Department of Disaster Prevention and Mitigation, Ministry of the Interior, Thailand",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
         "Name": "Kuroshio Extension Observatory (KEO)",
         "Longitude": 144.54,
         "Latitude": 32.384,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=28401",
-        "Owner": "NDBC NOAA/PMEL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -12666,7 +12666,7 @@ const locations = [
         "Longitude": 325.0,
         "Latitude": 0.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=31001",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12677,7 +12677,7 @@ const locations = [
         "Longitude": 322.0,
         "Latitude": 4.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=31002",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12688,7 +12688,7 @@ const locations = [
         "Longitude": 330.0,
         "Latitude": -8.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=31003",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12699,7 +12699,7 @@ const locations = [
         "Longitude": 328.0,
         "Latitude": -14.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=31004",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12710,7 +12710,7 @@ const locations = [
         "Longitude": 326.0,
         "Latitude": -19.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=31005",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -12721,21 +12721,21 @@ const locations = [
         "Longitude": 337.0,
         "Latitude": 4.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=31006",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "Jazz",
         "Longitude": 337.0,
         "Latitude": 0.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=31007",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -12743,7 +12743,7 @@ const locations = [
         "Longitude": 315.067,
         "Latitude": -25.283,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=31051",
-        "Owner": "NDBC Brazilian Navy Hydrographic Center",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12754,7 +12754,7 @@ const locations = [
         "Longitude": 325.433,
         "Latitude": -8.15,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=31052",
-        "Owner": "NDBC Brazilian Navy Hydrographic Center",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12765,7 +12765,7 @@ const locations = [
         "Longitude": 308.647,
         "Latitude": -32.595,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=31053",
-        "Owner": "NDBC Brazilian Navy Hydrographic Center",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12776,7 +12776,7 @@ const locations = [
         "Longitude": 311.866,
         "Latitude": -27.705,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=31201",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12787,7 +12787,7 @@ const locations = [
         "Longitude": 316.912,
         "Latitude": -23.031,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=31260",
-        "Owner": "NDBC Brazilian Navy Hydrographic Center",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12798,7 +12798,7 @@ const locations = [
         "Longitude": 310.138,
         "Latitude": -31.538,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=31261",
-        "Owner": "NDBC INPE Brazil",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12809,7 +12809,7 @@ const locations = [
         "Longitude": 316.868,
         "Latitude": -22.882,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=31478",
-        "Owner": "NDBC INPE Brazil",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12820,7 +12820,7 @@ const locations = [
         "Longitude": 274.922,
         "Latitude": -19.425,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32012",
-        "Owner": "NDBC Woods Hole Oceanographic Institution",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12831,7 +12831,7 @@ const locations = [
         "Longitude": 278.235,
         "Latitude": -1.136,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32066",
-        "Owner": "NDBC Instituto Oceanografico y Antartico de la Armada (INOCAR)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12842,7 +12842,7 @@ const locations = [
         "Longitude": 278.738,
         "Latitude": 0.641,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32067",
-        "Owner": "NDBC Instituto Oceanografico y Antartico de la Armada (INOCAR)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12853,7 +12853,7 @@ const locations = [
         "Longitude": 278.336,
         "Latitude": -0.888,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32068",
-        "Owner": "NDBC Instituto Oceanografico y Antartico de la Armada (INOCAR)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12864,7 +12864,7 @@ const locations = [
         "Longitude": 278.789,
         "Latitude": 0.255,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32069",
-        "Owner": "NDBC Instituto Oceanografico y Antartico de la Armada (INOCAR)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12875,7 +12875,7 @@ const locations = [
         "Longitude": 254.8,
         "Latitude": -9.9,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32301",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -12886,139 +12886,7 @@ const locations = [
         "Longitude": 274.9,
         "Latitude": -18.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32302",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "5N 95W",
-        "Longitude": 265.0,
-        "Latitude": 5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32303",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "5S 95W",
-        "Longitude": 265.0,
-        "Latitude": -5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32304",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "8S 95W",
-        "Longitude": 265.0,
-        "Latitude": -8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32305",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "5N 110W",
-        "Longitude": 250.0,
-        "Latitude": 5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32315",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "2N 110W",
-        "Longitude": 250.0,
-        "Latitude": 2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32316",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "2S 110W",
-        "Longitude": 250.0,
-        "Latitude": -2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32317",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "5S 110W",
-        "Longitude": 250.0,
-        "Latitude": -5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32318",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "8S 110W",
-        "Longitude": 250.0,
-        "Latitude": -8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32319",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "2N 95W",
-        "Longitude": 265.0,
-        "Latitude": 2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32320",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "0 95W",
-        "Longitude": 265.0,
-        "Latitude": 0.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32321",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "2S 95W",
-        "Longitude": 265.0,
-        "Latitude": -2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32322",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "0 110W",
-        "Longitude": 250.0,
-        "Latitude": 0.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32323",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13029,7 +12897,7 @@ const locations = [
         "Longitude": 286.578,
         "Latitude": -20.442,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32401",
-        "Owner": "NDBC Hydrographic and Oceanographic Service of the Chilean Navy (SHOA)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13040,7 +12908,7 @@ const locations = [
         "Longitude": 286.017,
         "Latitude": -26.743,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32402",
-        "Owner": "NDBC Hydrographic and Oceanographic Service of the Chilean Navy (SHOA)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13051,7 +12919,7 @@ const locations = [
         "Longitude": 287.96299999999997,
         "Latitude": -23.163,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32403",
-        "Owner": "NDBC Cooperative Effort DART 4G",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13062,7 +12930,7 @@ const locations = [
         "Longitude": 286.203,
         "Latitude": -32.13,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32404",
-        "Owner": "NDBC Cooperative Effort DART 4G",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13073,7 +12941,7 @@ const locations = [
         "Longitude": 269.207,
         "Latitude": 4.979,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32411",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13084,7 +12952,7 @@ const locations = [
         "Longitude": 273.626,
         "Latitude": -17.984,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32412",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13095,7 +12963,7 @@ const locations = [
         "Longitude": 266.558,
         "Latitude": -7.435,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32413",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13106,7 +12974,7 @@ const locations = [
         "Longitude": 282.26300000000003,
         "Latitude": 3.517,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32487",
-        "Owner": "NDBC DIMAR Colombia - CCCP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13117,7 +12985,7 @@ const locations = [
         "Longitude": 282.48900000000003,
         "Latitude": 6.258,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32488",
-        "Owner": "NDBC DIMAR Colombia - CCCP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13128,7 +12996,7 @@ const locations = [
         "Longitude": 280.899,
         "Latitude": 2.998,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32489",
-        "Owner": "NDBC DIMAR Colombia",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13139,7 +13007,7 @@ const locations = [
         "Longitude": 273.67,
         "Latitude": -17.98,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32D12",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13150,7 +13018,7 @@ const locations = [
         "Longitude": 266.52,
         "Latitude": -7.43,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32D13",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13161,7 +13029,7 @@ const locations = [
         "Longitude": 275.0,
         "Latitude": -22.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=32ST0",
-        "Owner": "NDBC Woods Hole Oceanographic Institution",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13172,7 +13040,7 @@ const locations = [
         "Longitude": 270.0,
         "Latitude": -55.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=34002",
-        "Owner": "NDBC NSF Ocean Observatories Initiative",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13183,7 +13051,7 @@ const locations = [
         "Longitude": 284.757,
         "Latitude": -35.758,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=34420",
-        "Owner": "NDBC Cooperative Effort DART 4G",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13194,7 +13062,7 @@ const locations = [
         "Longitude": 287.758,
         "Latitude": 34.703,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41001",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13202,10 +13070,10 @@ const locations = [
     {
         "DataType": "Ocean Buoy (Historical)",
         "Name": "SOUTH HATTERAS - 225 NM South of Cape Hatteras",
-        "Longitude": 292.0223,
-        "Latitude": 27.5972,
+        "Longitude": 289.4918,
+        "Latitude": 28.9705,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41002",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13216,7 +13084,7 @@ const locations = [
         "Longitude": 279.9,
         "Latitude": 30.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41003",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13227,7 +13095,7 @@ const locations = [
         "Longitude": 280.901,
         "Latitude": 32.502,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41004",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13238,7 +13106,7 @@ const locations = [
         "Longitude": 280.3,
         "Latitude": 31.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41005",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13249,7 +13117,7 @@ const locations = [
         "Longitude": 282.6,
         "Latitude": 29.3,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41006",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13260,7 +13128,7 @@ const locations = [
         "Longitude": 283.5,
         "Latitude": 34.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41007",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13271,7 +13139,7 @@ const locations = [
         "Longitude": 279.134,
         "Latitude": 31.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41008",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13282,7 +13150,7 @@ const locations = [
         "Longitude": 279.815,
         "Latitude": 28.508,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41009",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13293,7 +13161,7 @@ const locations = [
         "Longitude": 281.533,
         "Latitude": 28.878,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41010",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13304,7 +13172,7 @@ const locations = [
         "Longitude": 279.9,
         "Latitude": 28.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41011",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13315,7 +13183,7 @@ const locations = [
         "Longitude": 279.466,
         "Latitude": 30.042,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41012",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13326,7 +13194,7 @@ const locations = [
         "Longitude": 282.236,
         "Latitude": 33.441,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41013",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13337,7 +13205,7 @@ const locations = [
         "Longitude": 284.7,
         "Latitude": 35.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41015",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13348,7 +13216,7 @@ const locations = [
         "Longitude": 283.5,
         "Latitude": 24.6,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41016",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13359,7 +13227,7 @@ const locations = [
         "Longitude": 284.9,
         "Latitude": 35.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41017",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13370,7 +13238,7 @@ const locations = [
         "Longitude": 285.0,
         "Latitude": 15.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41018",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13381,7 +13249,7 @@ const locations = [
         "Longitude": 279.15,
         "Latitude": 31.92,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41021",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13392,7 +13260,7 @@ const locations = [
         "Longitude": 279.14,
         "Latitude": 31.89,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41022",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13403,7 +13271,7 @@ const locations = [
         "Longitude": 279.07,
         "Latitude": 31.92,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41023",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13414,7 +13282,7 @@ const locations = [
         "Longitude": 281.523,
         "Latitude": 33.837,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41024",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13425,7 +13293,7 @@ const locations = [
         "Longitude": 284.546,
         "Latitude": 35.01,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41025",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13436,7 +13304,7 @@ const locations = [
         "Longitude": 322.0,
         "Latitude": 12.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41026",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13447,7 +13315,7 @@ const locations = [
         "Longitude": 281.863,
         "Latitude": 33.302,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41027",
-        "Owner": "NDBC CaroCOOPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13458,7 +13326,7 @@ const locations = [
         "Longitude": 280.376,
         "Latitude": 32.803,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41029",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13469,7 +13337,7 @@ const locations = [
         "Longitude": 280.65999999999997,
         "Latitude": 32.52,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41030",
-        "Owner": "NDBC CaroCOOPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13480,7 +13348,7 @@ const locations = [
         "Longitude": 279.594,
         "Latitude": 32.279,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41033",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13491,7 +13359,7 @@ const locations = [
         "Longitude": 282.72,
         "Latitude": 34.476,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41035",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13502,7 +13370,7 @@ const locations = [
         "Longitude": 283.051,
         "Latitude": 34.207,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41036",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13513,7 +13381,7 @@ const locations = [
         "Longitude": 282.63800000000003,
         "Latitude": 33.988,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41037",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13524,7 +13392,7 @@ const locations = [
         "Longitude": 282.28499999999997,
         "Latitude": 34.141,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41038",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13535,7 +13403,7 @@ const locations = [
         "Longitude": 306.864,
         "Latitude": 14.536,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41040",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13546,7 +13414,7 @@ const locations = [
         "Longitude": 313.673,
         "Latitude": 14.453,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41041",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13557,7 +13425,7 @@ const locations = [
         "Longitude": 295.207,
         "Latitude": 21.026,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41043",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13568,7 +13436,7 @@ const locations = [
         "Longitude": 301.37,
         "Latitude": 21.582,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41044",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13579,7 +13447,7 @@ const locations = [
         "Longitude": 291.60699999999997,
         "Latitude": 23.822,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41046",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13590,7 +13458,7 @@ const locations = [
         "Longitude": 288.548,
         "Latitude": 27.465,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41047",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13601,7 +13469,7 @@ const locations = [
         "Longitude": 290.427,
         "Latitude": 31.831,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41048",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13612,7 +13480,7 @@ const locations = [
         "Longitude": 297.729,
         "Latitude": 27.505,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41049",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13623,7 +13491,7 @@ const locations = [
         "Longitude": 294.996,
         "Latitude": 18.257,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41051",
-        "Owner": "NDBC Caribbean Integrated Coastal Ocean Observing System (CarICoos)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13634,7 +13502,7 @@ const locations = [
         "Longitude": 295.23699999999997,
         "Latitude": 18.249,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41052",
-        "Owner": "NDBC Caribbean Integrated Coastal Ocean Observing System (CarICoos)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13645,7 +13513,7 @@ const locations = [
         "Longitude": 293.901,
         "Latitude": 18.474,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41053",
-        "Owner": "NDBC Caribbean Integrated Coastal Ocean Observing System (CarICoos)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13656,7 +13524,7 @@ const locations = [
         "Longitude": 294.536,
         "Latitude": 18.261,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41056",
-        "Owner": "NDBC Caribbean Integrated Coastal Ocean Observing System (CarICoos)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13667,7 +13535,7 @@ const locations = [
         "Longitude": 289.269,
         "Latitude": 19.833,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41057",
-        "Owner": "NDBC Integrated Coral Observing Network (ICON)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13678,7 +13546,7 @@ const locations = [
         "Longitude": 294.843,
         "Latitude": 18.476,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41058",
-        "Owner": "NDBC Caribbean Integrated Coastal Ocean Observing System (CarICoos)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13689,7 +13557,7 @@ const locations = [
         "Longitude": 308.983,
         "Latitude": 14.824,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41060",
-        "Owner": "NDBC Woods Hole Oceanographic Institution",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13700,7 +13568,7 @@ const locations = [
         "Longitude": 322.0,
         "Latitude": 24.581,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41061",
-        "Owner": "NDBC Woods Hole Oceanographic Institution",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13711,7 +13579,7 @@ const locations = [
         "Longitude": 284.905,
         "Latitude": 35.778,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41062",
-        "Owner": "NDBC University of North Carolina",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13722,7 +13590,7 @@ const locations = [
         "Longitude": 284.05899999999997,
         "Latitude": 34.782,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41063",
-        "Owner": "NDBC University of North Carolina",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13733,21 +13601,21 @@ const locations = [
         "Longitude": 283.051,
         "Latitude": 34.207,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41064",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "Capers Nearshore Waves (CAP2WAVE)",
         "Longitude": 280.381,
         "Latitude": 32.802,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41065",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -13755,7 +13623,7 @@ const locations = [
         "Longitude": 280.344,
         "Latitude": 32.536,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41066",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13766,7 +13634,7 @@ const locations = [
         "Longitude": 279.594,
         "Latitude": 32.276,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41067",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13777,7 +13645,7 @@ const locations = [
         "Longitude": 279.81100000000004,
         "Latitude": 27.593,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41068",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13788,7 +13656,7 @@ const locations = [
         "Longitude": 279.197,
         "Latitude": 29.289,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41069",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13799,7 +13667,7 @@ const locations = [
         "Longitude": 279.197,
         "Latitude": 29.289,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41070",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13810,7 +13678,7 @@ const locations = [
         "Longitude": 280.341,
         "Latitude": 32.536,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41076",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13821,7 +13689,7 @@ const locations = [
         "Longitude": 284.875,
         "Latitude": 35.95,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41082",
-        "Owner": "NDBC NSF Ocean Observatories Initiative",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13832,7 +13700,7 @@ const locations = [
         "Longitude": 285.147,
         "Latitude": 35.725,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41083",
-        "Owner": "NDBC NSF Ocean Observatories Initiative",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13843,7 +13711,7 @@ const locations = [
         "Longitude": 298.596,
         "Latitude": 16.533,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41096",
-        "Owner": "NDBC Meteo France",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13854,7 +13722,7 @@ const locations = [
         "Longitude": 298.904,
         "Latitude": 14.48,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41097",
-        "Owner": "NDBC Meteo France",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13865,7 +13733,7 @@ const locations = [
         "Longitude": 298.887,
         "Latitude": 14.894,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41098",
-        "Owner": "NDBC Meteo France",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13876,7 +13744,7 @@ const locations = [
         "Longitude": 302.117,
         "Latitude": 15.9,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41100",
-        "Owner": "NDBC Meteo France",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13887,7 +13755,7 @@ const locations = [
         "Longitude": 303.799,
         "Latitude": 14.6,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41101",
-        "Owner": "NDBC Meteo France",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13898,7 +13766,7 @@ const locations = [
         "Longitude": 281.984,
         "Latitude": 33.721,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41108",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13909,7 +13777,7 @@ const locations = [
         "Longitude": 282.7,
         "Latitude": 34.484,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41109",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13920,7 +13788,7 @@ const locations = [
         "Longitude": 282.28499999999997,
         "Latitude": 34.142,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41110",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13931,7 +13799,7 @@ const locations = [
         "Longitude": 278.70799999999997,
         "Latitude": 30.709,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41112",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13942,7 +13810,7 @@ const locations = [
         "Longitude": 279.467,
         "Latitude": 28.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41113",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13953,7 +13821,7 @@ const locations = [
         "Longitude": 279.784,
         "Latitude": 27.552,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41114",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13964,7 +13832,7 @@ const locations = [
         "Longitude": 292.72,
         "Latitude": 18.376,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41115",
-        "Owner": "NDBC Caribbean Integrated Coastal Ocean Observing System (CarICoos)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13975,7 +13843,7 @@ const locations = [
         "Longitude": 279.812,
         "Latitude": 28.523,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41116",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -13986,7 +13854,7 @@ const locations = [
         "Longitude": 278.921,
         "Latitude": 29.999,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41117",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -13997,7 +13865,7 @@ const locations = [
         "Longitude": 279.40999999999997,
         "Latitude": 28.609,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41118",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14008,7 +13876,7 @@ const locations = [
         "Longitude": 281.517,
         "Latitude": 33.842,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41119",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14019,7 +13887,7 @@ const locations = [
         "Longitude": 284.71500000000003,
         "Latitude": 35.258,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41120",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14030,7 +13898,7 @@ const locations = [
         "Longitude": 293.299,
         "Latitude": 18.49,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41121",
-        "Owner": "NDBC Caribbean Integrated Coastal Ocean Observing System (CarICoos)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14041,7 +13909,7 @@ const locations = [
         "Longitude": 279.904,
         "Latitude": 26.001,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41122",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14052,7 +13920,7 @@ const locations = [
         "Longitude": 322.0,
         "Latitude": 20.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41139",
-        "Owner": "NDBC Prediction and Research Moored Array in the Atlantic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14063,7 +13931,7 @@ const locations = [
         "Longitude": 295.277,
         "Latitude": 17.769,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41140",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14074,7 +13942,7 @@ const locations = [
         "Longitude": 295.365,
         "Latitude": 17.684,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41141",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14085,7 +13953,7 @@ const locations = [
         "Longitude": 283.056,
         "Latitude": 34.211,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41159",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14096,7 +13964,7 @@ const locations = [
         "Longitude": 287.782,
         "Latitude": 12.351,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41193",
-        "Owner": "NDBC DIMAR Colombia - CCCP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14107,7 +13975,7 @@ const locations = [
         "Longitude": 285.319,
         "Latitude": 11.161,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41194",
-        "Owner": "NDBC DIMAR Colombia - CCCP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14118,7 +13986,7 @@ const locations = [
         "Longitude": 302.533,
         "Latitude": 15.85,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41300",
-        "Owner": "NDBC Meteo France",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14126,24 +13994,24 @@ const locations = [
     {
         "DataType": "Ocean Buoy (Historical)",
         "Name": "NORTH SANTO DOMINGO - 328NM NNE of Santo Domingo, DO",
-        "Longitude": 327.7196,
-        "Latitude": 37.8768,
+        "Longitude": 292.655,
+        "Latitude": 23.375,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41420",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "NORTH ST THOMAS - 300 NM North of St Thomas, Virgin Is",
-        "Longitude": 296.8025,
-        "Latitude": 22.3919,
+        "Longitude": 296.117,
+        "Latitude": 23.369,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41421",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -14151,7 +14019,7 @@ const locations = [
         "Longitude": 287.34000000000003,
         "Latitude": 33.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41424",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14162,7 +14030,7 @@ const locations = [
         "Longitude": 294.383,
         "Latitude": 28.673,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41425",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14173,7 +14041,7 @@ const locations = [
         "Longitude": 295.257,
         "Latitude": 18.078,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41554",
-        "Owner": "NDBC AOML",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14184,7 +14052,7 @@ const locations = [
         "Longitude": 331.58,
         "Latitude": 24.71,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41670",
-        "Owner": "NDBC AOML",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14195,7 +14063,7 @@ const locations = [
         "Longitude": 335.98,
         "Latitude": 23.24,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41852",
-        "Owner": "NDBC AOML",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14206,7 +14074,7 @@ const locations = [
         "Longitude": 90.9,
         "Latitude": 3.017,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41904",
-        "Owner": "NDBC AOML",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14217,7 +14085,7 @@ const locations = [
         "Longitude": 347.2,
         "Latitude": 44.95,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41933",
-        "Owner": "NDBC AOML",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14228,7 +14096,7 @@ const locations = [
         "Longitude": 291.66700000000003,
         "Latitude": 23.838,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41A46",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14239,18 +14107,7 @@ const locations = [
         "Longitude": 313.918,
         "Latitude": 14.329,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41B41",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "Adrift from 41420",
-        "Longitude": 292.71299999999997,
-        "Latitude": 23.508,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41D20",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14261,7 +14118,7 @@ const locations = [
         "Longitude": 309.0,
         "Latitude": 15.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41NT0",
-        "Owner": "NDBC Woods Hole Oceanographic Institution",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14272,7 +14129,7 @@ const locations = [
         "Longitude": 295.144,
         "Latitude": 21.132,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41S43",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14283,7 +14140,7 @@ const locations = [
         "Longitude": 291.519,
         "Latitude": 23.866,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=41S46",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14294,7 +14151,7 @@ const locations = [
         "Longitude": 270.33799999999997,
         "Latitude": 25.926,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42001",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14305,7 +14162,7 @@ const locations = [
         "Longitude": 266.22,
         "Latitude": 25.95,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42002",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14316,7 +14173,7 @@ const locations = [
         "Longitude": 274.384,
         "Latitude": 25.925,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42003",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14327,7 +14184,7 @@ const locations = [
         "Longitude": 274.5,
         "Latitude": 27.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42004",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14338,7 +14195,7 @@ const locations = [
         "Longitude": 274.1,
         "Latitude": 30.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42005",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14349,7 +14206,7 @@ const locations = [
         "Longitude": 264.0,
         "Latitude": 26.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42006",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14360,7 +14217,7 @@ const locations = [
         "Longitude": 271.231,
         "Latitude": 30.09,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42007",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14371,7 +14228,7 @@ const locations = [
         "Longitude": 264.7,
         "Latitude": 28.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42008",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14382,7 +14239,7 @@ const locations = [
         "Longitude": 272.5,
         "Latitude": 29.3,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42009",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14393,7 +14250,7 @@ const locations = [
         "Longitude": 266.6,
         "Latitude": 29.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42010",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14404,7 +14261,7 @@ const locations = [
         "Longitude": 266.5,
         "Latitude": 29.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42011",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14415,7 +14272,7 @@ const locations = [
         "Longitude": 272.452,
         "Latitude": 30.06,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42012",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14426,7 +14283,7 @@ const locations = [
         "Longitude": 277.076,
         "Latitude": 27.173,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42013",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14437,7 +14294,7 @@ const locations = [
         "Longitude": 277.78,
         "Latitude": 25.254,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42014",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14448,7 +14305,7 @@ const locations = [
         "Longitude": 271.8,
         "Latitude": 30.1,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42015",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14459,7 +14316,7 @@ const locations = [
         "Longitude": 271.9,
         "Latitude": 30.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42016",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14470,7 +14327,7 @@ const locations = [
         "Longitude": 269.1,
         "Latitude": 27.9,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42017",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14481,7 +14338,7 @@ const locations = [
         "Longitude": 271.8,
         "Latitude": 30.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42018",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14492,7 +14349,7 @@ const locations = [
         "Longitude": 264.657,
         "Latitude": 27.908,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42019",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14503,7 +14360,7 @@ const locations = [
         "Longitude": 263.321,
         "Latitude": 26.97,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42020",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14514,7 +14371,7 @@ const locations = [
         "Longitude": 276.694,
         "Latitude": 28.311,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42021",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14525,7 +14382,7 @@ const locations = [
         "Longitude": 276.259,
         "Latitude": 27.505,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42022",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14536,7 +14393,7 @@ const locations = [
         "Longitude": 276.914,
         "Latitude": 26.01,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42023",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14547,7 +14404,7 @@ const locations = [
         "Longitude": 275.781,
         "Latitude": 27.464,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42024",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14558,7 +14415,7 @@ const locations = [
         "Longitude": 279.6,
         "Latitude": 24.9,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42025",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14569,7 +14426,7 @@ const locations = [
         "Longitude": 276.525,
         "Latitude": 25.171,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42026",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14580,7 +14437,7 @@ const locations = [
         "Longitude": 271.788,
         "Latitude": 30.09,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42031",
-        "Owner": "NDBC Dauphin Island Sea Lab",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14591,7 +14448,7 @@ const locations = [
         "Longitude": 265.59000000000003,
         "Latitude": 29.235,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42035",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14602,7 +14459,7 @@ const locations = [
         "Longitude": 275.495,
         "Latitude": 28.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42036",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14613,7 +14470,7 @@ const locations = [
         "Longitude": 278.6,
         "Latitude": 24.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42037",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14624,7 +14481,7 @@ const locations = [
         "Longitude": 267.445,
         "Latitude": 27.421,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42038",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14635,7 +14492,7 @@ const locations = [
         "Longitude": 273.993,
         "Latitude": 28.787,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42039",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14646,7 +14503,7 @@ const locations = [
         "Longitude": 271.76300000000003,
         "Latitude": 29.207,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42040",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14657,7 +14514,7 @@ const locations = [
         "Longitude": 269.538,
         "Latitude": 27.504,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42041",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14668,7 +14525,7 @@ const locations = [
         "Longitude": 271.68,
         "Latitude": 29.88,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42042",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14679,7 +14536,7 @@ const locations = [
         "Longitude": 265.101,
         "Latitude": 28.982,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42043",
-        "Owner": "NDBC TABS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14690,7 +14547,7 @@ const locations = [
         "Longitude": 262.949,
         "Latitude": 26.191,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42044",
-        "Owner": "NDBC TABS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14701,7 +14558,7 @@ const locations = [
         "Longitude": 263.5,
         "Latitude": 26.217,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42045",
-        "Owner": "NDBC TABS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14712,7 +14569,7 @@ const locations = [
         "Longitude": 265.96299999999997,
         "Latitude": 27.89,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42046",
-        "Owner": "NDBC TABS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14723,7 +14580,7 @@ const locations = [
         "Longitude": 266.403,
         "Latitude": 27.897,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42047",
-        "Owner": "NDBC TABS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14734,7 +14591,7 @@ const locations = [
         "Longitude": 263.157,
         "Latitude": 27.939,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42048",
-        "Owner": "NDBC TABS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14745,7 +14602,7 @@ const locations = [
         "Longitude": 263.994,
         "Latitude": 28.351,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42049",
-        "Owner": "NDBC TABS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14756,7 +14613,7 @@ const locations = [
         "Longitude": 265.758,
         "Latitude": 28.842,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42050",
-        "Owner": "NDBC TABS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14767,7 +14624,7 @@ const locations = [
         "Longitude": 266.358,
         "Latitude": 29.635,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42051",
-        "Owner": "NDBC TABS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14778,7 +14635,7 @@ const locations = [
         "Longitude": 271.5,
         "Latitude": 29.55,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42053",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14789,7 +14646,7 @@ const locations = [
         "Longitude": 272.27,
         "Latitude": 26.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42054",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14800,7 +14657,7 @@ const locations = [
         "Longitude": 265.88800000000003,
         "Latitude": 22.14,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42055",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14811,7 +14668,7 @@ const locations = [
         "Longitude": 275.02,
         "Latitude": 19.82,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42056",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14819,10 +14676,10 @@ const locations = [
     {
         "DataType": "Ocean Buoy (Active)",
         "Name": "Western Caribbean - 195 NM WSW of Negril, Jamaica",
-        "Longitude": 278.425,
-        "Latitude": 16.973,
+        "Longitude": 278.422,
+        "Latitude": 16.975,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42057",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14833,21 +14690,21 @@ const locations = [
         "Longitude": 284.847,
         "Latitude": 14.512,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42058",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "Eastern Caribbean Sea - 180 NM SSW of Ponce, PR",
-        "Longitude": 292.517,
-        "Latitude": 15.3,
+        "Longitude": 292.433,
+        "Latitude": 15.285,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42059",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -14855,7 +14712,7 @@ const locations = [
         "Longitude": 296.671,
         "Latitude": 16.434,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42060",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14866,7 +14723,7 @@ const locations = [
         "Longitude": 284.954,
         "Latitude": 14.926,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42065",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14877,7 +14734,7 @@ const locations = [
         "Longitude": 271.41700000000003,
         "Latitude": 30.05,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42067",
-        "Owner": "NDBC USM",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14888,7 +14745,7 @@ const locations = [
         "Longitude": 278.749,
         "Latitude": 24.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42078",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14899,7 +14756,7 @@ const locations = [
         "Longitude": 278.758,
         "Latitude": 24.535,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42079",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14910,7 +14767,7 @@ const locations = [
         "Longitude": 278.06600000000003,
         "Latitude": 24.396,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42080",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14921,7 +14778,7 @@ const locations = [
         "Longitude": 270.351,
         "Latitude": 28.988,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42084",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14932,7 +14789,7 @@ const locations = [
         "Longitude": 293.46299999999997,
         "Latitude": 17.87,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42085",
-        "Owner": "NDBC Caribbean Integrated Coastal Ocean Observing System (CarICoos)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14943,7 +14800,7 @@ const locations = [
         "Longitude": 299.152,
         "Latitude": 11.185,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42087",
-        "Owner": "NDBC Integrated Coral Observing Network (ICON)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14954,7 +14811,7 @@ const locations = [
         "Longitude": 299.479,
         "Latitude": 11.301,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42088",
-        "Owner": "NDBC Integrated Coral Observing Network (ICON)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14965,7 +14822,7 @@ const locations = [
         "Longitude": 279.93899999999996,
         "Latitude": 19.699,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42089",
-        "Owner": "NDBC Integrated Coral Observing Network (ICON)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14976,7 +14833,7 @@ const locations = [
         "Longitude": 290.42,
         "Latitude": 18.432,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42090",
-        "Owner": "NDBC Integrated Coral Observing Network (ICON)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -14987,7 +14844,7 @@ const locations = [
         "Longitude": 267.495,
         "Latitude": 29.088,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42091",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -14998,7 +14855,7 @@ const locations = [
         "Longitude": 262.988,
         "Latitude": 27.64,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42092",
-        "Owner": "NDBC Conrad Blucher Institute (CBI) for Surveying and Science, Texas A&M University-Corpus Christi",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15009,7 +14866,7 @@ const locations = [
         "Longitude": 270.168,
         "Latitude": 29.017,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42093",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15020,7 +14877,7 @@ const locations = [
         "Longitude": 270.093,
         "Latitude": 29.085,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42094",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15031,7 +14888,7 @@ const locations = [
         "Longitude": 278.032,
         "Latitude": 24.409,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42095",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15042,7 +14899,7 @@ const locations = [
         "Longitude": 276.359,
         "Latitude": 25.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42097",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15053,7 +14910,7 @@ const locations = [
         "Longitude": 277.069,
         "Latitude": 27.59,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42098",
-        "Owner": "NDBC Greater Tampa Bay Marine Advisory Council-PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15064,7 +14921,7 @@ const locations = [
         "Longitude": 275.725,
         "Latitude": 27.352,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42099",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15075,21 +14932,21 @@ const locations = [
         "Longitude": 271.35699999999997,
         "Latitude": 29.579,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42354",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "SOUTH PUERTO RICO - 230 NM Southwest of San Juan, PR",
         "Longitude": 291.80899999999997,
         "Latitude": 15.276,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42407",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -15097,7 +14954,7 @@ const locations = [
         "Longitude": 273.0,
         "Latitude": 25.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42408",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15108,7 +14965,7 @@ const locations = [
         "Longitude": 270.709,
         "Latitude": 25.799,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42409",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15119,7 +14976,7 @@ const locations = [
         "Longitude": 274.329,
         "Latitude": 27.401,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42429",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15130,7 +14987,7 @@ const locations = [
         "Longitude": 270.343,
         "Latitude": 25.942,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42501",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15141,7 +14998,7 @@ const locations = [
         "Longitude": 274.385,
         "Latitude": 25.925,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42503",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15152,21 +15009,10 @@ const locations = [
         "Longitude": 266.161,
         "Latitude": 29.643,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=42534",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "8N 110W",
-        "Longitude": 250.0,
-        "Latitude": 8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=43001",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -15174,18 +15020,7 @@ const locations = [
         "Longitude": 234.96800000000002,
         "Latitude": 10.051,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=43010",
-        "Owner": "NDBC Woods Hole Oceanographic Institution",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "8N 95W",
-        "Longitude": 265.0,
-        "Latitude": 8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=43301",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15193,10 +15028,10 @@ const locations = [
     {
         "DataType": "Ocean Buoy (Active)",
         "Name": "SOUTHWEST MANZANILLO - 240 NM SW of Manzanillo, MX",
-        "Longitude": 253.011,
-        "Latitude": 16.003,
+        "Longitude": 252.99599999999998,
+        "Latitude": 16.012,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=43412",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15207,7 +15042,7 @@ const locations = [
         "Longitude": 259.97,
         "Latitude": 10.949,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=43413",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15218,7 +15053,7 @@ const locations = [
         "Longitude": 286.4,
         "Latitude": 38.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44001",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15229,7 +15064,7 @@ const locations = [
         "Longitude": 291.5,
         "Latitude": 40.8,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44003",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15240,7 +15075,7 @@ const locations = [
         "Longitude": 289.567,
         "Latitude": 38.484,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44004",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15251,7 +15086,7 @@ const locations = [
         "Longitude": 290.873,
         "Latitude": 43.201,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44005",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15262,7 +15097,7 @@ const locations = [
         "Longitude": 284.6,
         "Latitude": 36.3,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44006",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15273,7 +15108,7 @@ const locations = [
         "Longitude": 289.86,
         "Latitude": 43.525,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44007",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15284,7 +15119,7 @@ const locations = [
         "Longitude": 290.75,
         "Latitude": 40.496,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44008",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15295,7 +15130,7 @@ const locations = [
         "Longitude": 285.308,
         "Latitude": 38.46,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44009",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15306,7 +15141,7 @@ const locations = [
         "Longitude": 284.3,
         "Latitude": 36.9,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44010",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15317,7 +15152,7 @@ const locations = [
         "Longitude": 293.438,
         "Latitude": 41.093,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44011",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15328,7 +15163,7 @@ const locations = [
         "Longitude": 285.4,
         "Latitude": 38.8,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44012",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15339,7 +15174,7 @@ const locations = [
         "Longitude": 289.349,
         "Latitude": 42.346,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44013",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15350,7 +15185,7 @@ const locations = [
         "Longitude": 285.163,
         "Latitude": 36.603,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44014",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15361,7 +15196,7 @@ const locations = [
         "Longitude": 286.6,
         "Latitude": 37.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44015",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15372,7 +15207,7 @@ const locations = [
         "Longitude": 287.951,
         "Latitude": 40.693,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44017",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15383,7 +15218,7 @@ const locations = [
         "Longitude": 289.846,
         "Latitude": 42.203,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44018",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15394,7 +15229,7 @@ const locations = [
         "Longitude": 284.8,
         "Latitude": 36.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44019",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15405,7 +15240,7 @@ const locations = [
         "Longitude": 289.717,
         "Latitude": 41.497,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44020",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15416,7 +15251,7 @@ const locations = [
         "Longitude": 290.012,
         "Latitude": 43.762,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44021",
-        "Owner": "NDBC Northeastern Regional Association of Coastal Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15427,7 +15262,7 @@ const locations = [
         "Longitude": 286.272,
         "Latitude": 40.883,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44022",
-        "Owner": "NDBC MYSOUND",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15438,7 +15273,7 @@ const locations = [
         "Longitude": 285.6,
         "Latitude": 37.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44023",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15449,7 +15284,7 @@ const locations = [
         "Longitude": 294.091,
         "Latitude": 42.325,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44024",
-        "Owner": "NDBC Northeastern Regional Association of Coastal Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15460,7 +15295,7 @@ const locations = [
         "Longitude": 286.825,
         "Latitude": 40.258,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44025",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15471,7 +15306,7 @@ const locations = [
         "Longitude": 286.5,
         "Latitude": 36.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44026",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15482,7 +15317,7 @@ const locations = [
         "Longitude": 292.699,
         "Latitude": 44.284,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44027",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15493,7 +15328,7 @@ const locations = [
         "Longitude": 288.92,
         "Latitude": 41.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44028",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15504,7 +15339,7 @@ const locations = [
         "Longitude": 289.43399999999997,
         "Latitude": 42.523,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44029",
-        "Owner": "NDBC Northeastern Regional Association of Coastal Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15515,7 +15350,7 @@ const locations = [
         "Longitude": 289.574,
         "Latitude": 43.179,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44030",
-        "Owner": "NDBC Northeastern Regional Association of Coastal Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15526,7 +15361,7 @@ const locations = [
         "Longitude": 289.94,
         "Latitude": 43.57,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44031",
-        "Owner": "NDBC Northeastern Regional Association of Coastal Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15537,7 +15372,7 @@ const locations = [
         "Longitude": 290.645,
         "Latitude": 43.715,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44032",
-        "Owner": "NDBC Northeastern Regional Association of Coastal Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15548,7 +15383,7 @@ const locations = [
         "Longitude": 291.004,
         "Latitude": 44.055,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44033",
-        "Owner": "NDBC Northeastern Regional Association of Coastal Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15559,7 +15394,7 @@ const locations = [
         "Longitude": 291.88800000000003,
         "Latitude": 44.103,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44034",
-        "Owner": "NDBC Northeastern Regional Association of Coastal Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15570,7 +15405,7 @@ const locations = [
         "Longitude": 292.98,
         "Latitude": 44.89,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44035",
-        "Owner": "NDBC Northeastern Regional Association of Coastal Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15581,7 +15416,7 @@ const locations = [
         "Longitude": 293.98,
         "Latitude": 45.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44036",
-        "Owner": "NDBC Northeastern Regional Association of Coastal Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15592,7 +15427,7 @@ const locations = [
         "Longitude": 292.124,
         "Latitude": 43.497,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44037",
-        "Owner": "NDBC Northeastern Regional Association of Coastal Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15603,7 +15438,7 @@ const locations = [
         "Longitude": 293.45,
         "Latitude": 43.633,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44038",
-        "Owner": "NDBC Northeastern Regional Association of Coastal Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15614,7 +15449,7 @@ const locations = [
         "Longitude": 287.345,
         "Latitude": 41.138,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44039",
-        "Owner": "NDBC MYSOUND",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15625,7 +15460,7 @@ const locations = [
         "Longitude": 286.42,
         "Latitude": 40.956,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44040",
-        "Owner": "NDBC MYSOUND",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15636,7 +15471,7 @@ const locations = [
         "Longitude": 283.21299999999997,
         "Latitude": 37.211,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44041",
-        "Owner": "NDBC Chesapeake Bay Interpretive Buoy System (CBIBS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15647,7 +15482,7 @@ const locations = [
         "Longitude": 283.665,
         "Latitude": 38.033,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44042",
-        "Owner": "NDBC Chesapeake Bay Interpretive Buoy System (CBIBS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15658,7 +15493,7 @@ const locations = [
         "Longitude": 283.609,
         "Latitude": 39.152,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44043",
-        "Owner": "NDBC Chesapeake Bay Interpretive Buoy System (CBIBS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15669,7 +15504,7 @@ const locations = [
         "Longitude": 283.474,
         "Latitude": 38.389,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44044",
-        "Owner": "NDBC Chesapeake Biological Lab",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15680,7 +15515,7 @@ const locations = [
         "Longitude": 283.601,
         "Latitude": 37.236,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44052",
-        "Owner": "NDBC Virginia Institute of Marine Science (VIMS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15691,7 +15526,7 @@ const locations = [
         "Longitude": 283.5,
         "Latitude": 37.244,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44053",
-        "Owner": "NDBC Virginia Institute of Marine Science (VIMS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15702,7 +15537,7 @@ const locations = [
         "Longitude": 284.817,
         "Latitude": 38.883,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44054",
-        "Owner": "NDBC Delaware Coastal Management Program",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15713,7 +15548,7 @@ const locations = [
         "Longitude": 284.744,
         "Latitude": 39.122,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44055",
-        "Owner": "NDBC Delaware Coastal Management Program",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15724,7 +15559,7 @@ const locations = [
         "Longitude": 284.286,
         "Latitude": 36.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44056",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15735,21 +15570,21 @@ const locations = [
         "Longitude": 283.926,
         "Latitude": 39.54,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44057",
-        "Owner": "NDBC Chesapeake Bay Interpretive Buoy System (CBIBS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "Stingray Point, VA",
         "Longitude": 283.743,
         "Latitude": 37.567,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44058",
-        "Owner": "NDBC Chesapeake Bay Interpretive Buoy System (CBIBS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -15757,7 +15592,7 @@ const locations = [
         "Longitude": 283.702,
         "Latitude": 36.846,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44059",
-        "Owner": "NDBC Chesapeake Bay Interpretive Buoy System (CBIBS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15768,7 +15603,7 @@ const locations = [
         "Longitude": 287.933,
         "Latitude": 41.263,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44060",
-        "Owner": "NDBC MYSOUND",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15779,7 +15614,7 @@ const locations = [
         "Longitude": 282.964,
         "Latitude": 38.788,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44061",
-        "Owner": "NDBC Chesapeake Bay Interpretive Buoy System (CBIBS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15790,7 +15625,7 @@ const locations = [
         "Longitude": 283.585,
         "Latitude": 38.556,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44062",
-        "Owner": "NDBC Chesapeake Bay Interpretive Buoy System (CBIBS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15801,7 +15636,7 @@ const locations = [
         "Longitude": 283.552,
         "Latitude": 38.963,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44063",
-        "Owner": "NDBC Chesapeake Bay Interpretive Buoy System (CBIBS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15812,7 +15647,7 @@ const locations = [
         "Longitude": 283.913,
         "Latitude": 36.998,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44064",
-        "Owner": "NDBC Chesapeake Bay Interpretive Buoy System (CBIBS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15823,7 +15658,7 @@ const locations = [
         "Longitude": 286.299,
         "Latitude": 40.368,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44065",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15834,7 +15669,7 @@ const locations = [
         "Longitude": 287.356,
         "Latitude": 39.618,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44066",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15845,7 +15680,7 @@ const locations = [
         "Longitude": 283.004,
         "Latitude": 38.368,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44067",
-        "Owner": "NDBC Intellicheck Mobilisa",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15856,7 +15691,7 @@ const locations = [
         "Longitude": 282.80899999999997,
         "Latitude": 37.314,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44068",
-        "Owner": "NDBC Chesapeake Bay Interpretive Buoy System (CBIBS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15867,7 +15702,7 @@ const locations = [
         "Longitude": 286.913,
         "Latitude": 40.699,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44069",
-        "Owner": "NDBC Stony Brook University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15878,7 +15713,7 @@ const locations = [
         "Longitude": 288.996,
         "Latitude": 41.392,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44070",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15889,7 +15724,7 @@ const locations = [
         "Longitude": 284.30899999999997,
         "Latitude": 36.906,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44071",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15900,7 +15735,7 @@ const locations = [
         "Longitude": 283.734,
         "Latitude": 37.201,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44072",
-        "Owner": "NDBC Chesapeake Bay Interpretive Buoy System (CBIBS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15911,7 +15746,7 @@ const locations = [
         "Longitude": 289.46,
         "Latitude": 43.02,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44073",
-        "Owner": "NDBC University of New Hampshire",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15922,7 +15757,7 @@ const locations = [
         "Longitude": 289.117,
         "Latitude": 40.363,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44075",
-        "Owner": "NDBC NSF Ocean Observatories Initiative",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15933,7 +15768,7 @@ const locations = [
         "Longitude": 289.225,
         "Latitude": 40.137,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44076",
-        "Owner": "NDBC NSF Ocean Observatories Initiative",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15944,7 +15779,7 @@ const locations = [
         "Longitude": 289.117,
         "Latitude": 39.94,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44077",
-        "Owner": "NDBC NSF Ocean Observatories Initiative",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -15955,7 +15790,7 @@ const locations = [
         "Longitude": 320.48,
         "Latitude": 59.94,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44078",
-        "Owner": "NDBC NSF Ocean Observatories Initiative",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15966,7 +15801,7 @@ const locations = [
         "Longitude": 285.173,
         "Latitude": 36.175,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44079",
-        "Owner": "NDBC NSF Ocean Observatories Initiative",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15977,7 +15812,7 @@ const locations = [
         "Longitude": 284.956,
         "Latitude": 38.537,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44084",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15988,7 +15823,7 @@ const locations = [
         "Longitude": 288.968,
         "Latitude": 41.387,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44085",
-        "Owner": "NDBC Woods Hole Group/NERACOOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -15999,21 +15834,21 @@ const locations = [
         "Longitude": 284.579,
         "Latitude": 36.001,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44086",
-        "Owner": "NDBC UNC Coastal Studies Institute",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "Thimble Shoal, VA (240)",
         "Longitude": 283.851,
         "Latitude": 37.026,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44087",
-        "Owner": "NDBC U.S. Navy",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -16021,7 +15856,7 @@ const locations = [
         "Longitude": 285.161,
         "Latitude": 36.612,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44088",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16032,7 +15867,7 @@ const locations = [
         "Longitude": 284.675,
         "Latitude": 37.754,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44089",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16043,7 +15878,7 @@ const locations = [
         "Longitude": 289.671,
         "Latitude": 41.84,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44090",
-        "Owner": "NDBC Woods Hole Group/NERACOOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16054,7 +15889,7 @@ const locations = [
         "Longitude": 286.23,
         "Latitude": 39.768,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44091",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16065,7 +15900,7 @@ const locations = [
         "Longitude": 289.368,
         "Latitude": 42.942,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44092",
-        "Owner": "NDBC UNH/Oscilla Power/UW-APL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16076,7 +15911,7 @@ const locations = [
         "Longitude": 284.508,
         "Latitude": 36.872,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44093",
-        "Owner": "NDBC Virginia Department of Mines, Minerals, and Energy",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16087,7 +15922,7 @@ const locations = [
         "Longitude": 286.894,
         "Latitude": 40.585,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44094",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16098,7 +15933,7 @@ const locations = [
         "Longitude": 284.67,
         "Latitude": 35.75,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44095",
-        "Owner": "NDBC UNC Coastal Studies Institute",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16109,7 +15944,7 @@ const locations = [
         "Longitude": 284.19100000000003,
         "Latitude": 37.023,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44096",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16120,7 +15955,7 @@ const locations = [
         "Longitude": 288.876,
         "Latitude": 40.969,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44097",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16131,7 +15966,7 @@ const locations = [
         "Longitude": 289.829,
         "Latitude": 42.8,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44098",
-        "Owner": "NDBC University of New Hampshire",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16142,7 +15977,7 @@ const locations = [
         "Longitude": 284.278,
         "Latitude": 36.915,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44099",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16153,7 +15988,7 @@ const locations = [
         "Longitude": 284.407,
         "Latitude": 36.258,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44100",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16164,7 +15999,7 @@ const locations = [
         "Longitude": 297.97,
         "Latitude": 42.26,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44137",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16175,7 +16010,7 @@ const locations = [
         "Longitude": 306.37,
         "Latitude": 44.25,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44138",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16186,7 +16021,7 @@ const locations = [
         "Longitude": 302.9,
         "Latitude": 44.24,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44139",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16197,7 +16032,7 @@ const locations = [
         "Longitude": 308.53,
         "Latitude": 42.87,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44140",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16208,7 +16043,7 @@ const locations = [
         "Longitude": 302.04,
         "Latitude": 42.99,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44141",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16219,7 +16054,7 @@ const locations = [
         "Longitude": 295.967,
         "Latitude": 42.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44142",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16230,7 +16065,7 @@ const locations = [
         "Longitude": 295.98,
         "Latitude": 42.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44150",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16241,7 +16076,7 @@ const locations = [
         "Longitude": 296.592,
         "Latitude": 44.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44172",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16252,7 +16087,7 @@ const locations = [
         "Longitude": 299.178,
         "Latitude": 49.075,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44174",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16263,7 +16098,7 @@ const locations = [
         "Longitude": 298.0,
         "Latitude": 46.877,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44175",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16274,7 +16109,7 @@ const locations = [
         "Longitude": 295.473,
         "Latitude": 47.535,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44176",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16285,7 +16120,7 @@ const locations = [
         "Longitude": 302.659,
         "Latitude": 47.263,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44235",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16296,7 +16131,7 @@ const locations = [
         "Longitude": 306.61,
         "Latitude": 46.44,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44251",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16307,7 +16142,7 @@ const locations = [
         "Longitude": 302.65999999999997,
         "Latitude": 47.27,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44255",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16318,7 +16153,7 @@ const locations = [
         "Longitude": 296.6,
         "Latitude": 44.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44258",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16329,7 +16164,7 @@ const locations = [
         "Longitude": 309.97,
         "Latitude": 37.592,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44401",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16340,7 +16175,7 @@ const locations = [
         "Longitude": 289.283,
         "Latitude": 39.314,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44402",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16351,7 +16186,7 @@ const locations = [
         "Longitude": 298.33299999999997,
         "Latitude": 41.944,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44403",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16362,7 +16197,7 @@ const locations = [
         "Longitude": 299.05,
         "Latitude": 45.44,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44488",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16373,7 +16208,7 @@ const locations = [
         "Longitude": 298.86,
         "Latitude": 45.49,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44489",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -16384,7 +16219,7 @@ const locations = [
         "Longitude": 293.63,
         "Latitude": 44.66,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44490",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16395,7 +16230,7 @@ const locations = [
         "Longitude": 292.365,
         "Latitude": 43.354,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=44585",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16406,7 +16241,7 @@ const locations = [
         "Longitude": 272.207,
         "Latitude": 48.061,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45001",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16417,7 +16252,7 @@ const locations = [
         "Longitude": 273.589,
         "Latitude": 45.344,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45002",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16428,7 +16263,7 @@ const locations = [
         "Longitude": 277.15999999999997,
         "Latitude": 45.351,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45003",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16439,7 +16274,7 @@ const locations = [
         "Longitude": 273.415,
         "Latitude": 47.585,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45004",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16450,7 +16285,7 @@ const locations = [
         "Longitude": 277.602,
         "Latitude": 41.677,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45005",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16461,7 +16296,7 @@ const locations = [
         "Longitude": 270.207,
         "Latitude": 47.335,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45006",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16472,7 +16307,7 @@ const locations = [
         "Longitude": 272.974,
         "Latitude": 42.674,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45007",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16483,7 +16318,7 @@ const locations = [
         "Longitude": 277.584,
         "Latitude": 44.283,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45008",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16494,7 +16329,7 @@ const locations = [
         "Longitude": 278.0,
         "Latitude": 41.6,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45009",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16505,7 +16340,7 @@ const locations = [
         "Longitude": 272.2,
         "Latitude": 43.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45010",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16516,7 +16351,7 @@ const locations = [
         "Longitude": 273.73,
         "Latitude": 43.02,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45011",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16527,21 +16362,21 @@ const locations = [
         "Longitude": 282.599,
         "Latitude": 43.621,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45012",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "ATW20 - Atwater Park, WI",
         "Longitude": 272.15,
         "Latitude": 43.1,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45013",
-        "Owner": "NDBC University of Wisconsin-Milwaukee",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -16549,7 +16384,7 @@ const locations = [
         "Longitude": 272.242,
         "Latitude": 44.794,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45014",
-        "Owner": "NDBC University of Wisconsin-Milwaukee",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16560,7 +16395,7 @@ const locations = [
         "Longitude": 272.473,
         "Latitude": 41.714,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45015",
-        "Owner": "NDBC Chicago Park District",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16571,7 +16406,7 @@ const locations = [
         "Longitude": 272.427,
         "Latitude": 41.783,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45016",
-        "Owner": "NDBC Chicago Park District",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16582,7 +16417,7 @@ const locations = [
         "Longitude": 272.378,
         "Latitude": 41.903,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45017",
-        "Owner": "NDBC Chicago Park District",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16593,7 +16428,7 @@ const locations = [
         "Longitude": 272.363,
         "Latitude": 41.968,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45018",
-        "Owner": "NDBC Chicago Park District",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16604,7 +16439,7 @@ const locations = [
         "Longitude": 272.351,
         "Latitude": 41.979,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45019",
-        "Owner": "NDBC Chicago Park District",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16615,7 +16450,7 @@ const locations = [
         "Longitude": 274.396,
         "Latitude": 44.789,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45020",
-        "Owner": "NDBC Northwestern Michigan College",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16626,7 +16461,7 @@ const locations = [
         "Longitude": 274.507,
         "Latitude": 45.048,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45021",
-        "Owner": "NDBC University of Michigan",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16637,7 +16472,7 @@ const locations = [
         "Longitude": 274.91200000000003,
         "Latitude": 45.404,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45022",
-        "Owner": "NDBC University of Michigan CILER",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16648,7 +16483,7 @@ const locations = [
         "Longitude": 271.39300000000003,
         "Latitude": 47.27,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45023",
-        "Owner": "NDBC Michigan Technological University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16659,7 +16494,7 @@ const locations = [
         "Longitude": 273.44,
         "Latitude": 43.977,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45024",
-        "Owner": "NDBC University of Michigan CILER",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16670,21 +16505,21 @@ const locations = [
         "Longitude": 271.602,
         "Latitude": 46.969,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45025",
-        "Owner": "NDBC Michigan Technological University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "Cook Nuclear Plant Buoy, Stevensville, MI",
         "Longitude": 273.381,
         "Latitude": 41.982,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45026",
-        "Owner": "NDBC Limno Tech",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -16692,7 +16527,7 @@ const locations = [
         "Longitude": 268.07,
         "Latitude": 46.86,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45027",
-        "Owner": "NDBC University of Minnesota, Duluth",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16703,21 +16538,21 @@ const locations = [
         "Longitude": 268.171,
         "Latitude": 46.814,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45028",
-        "Owner": "NDBC University of Minnesota, Duluth",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "Holland Buoy, MI",
         "Longitude": 273.728,
         "Latitude": 42.9,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45029",
-        "Owner": "NDBC Limno Tech",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -16725,7 +16560,7 @@ const locations = [
         "Longitude": 278.78,
         "Latitude": 42.46,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45132",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16736,7 +16571,7 @@ const locations = [
         "Longitude": 283.13,
         "Latitude": 43.78,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45135",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16747,7 +16582,7 @@ const locations = [
         "Longitude": 273.05,
         "Latitude": 48.54,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45136",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16758,7 +16593,7 @@ const locations = [
         "Longitude": 278.98,
         "Latitude": 45.54,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45137",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16769,7 +16604,7 @@ const locations = [
         "Longitude": 294.29,
         "Latitude": 49.54,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45138",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16780,7 +16615,7 @@ const locations = [
         "Longitude": 280.47,
         "Latitude": 43.25,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45139",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16791,7 +16626,7 @@ const locations = [
         "Longitude": 263.27,
         "Latitude": 50.8,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45140",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16802,7 +16637,7 @@ const locations = [
         "Longitude": 244.69,
         "Latitude": 61.18,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45141",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16813,7 +16648,7 @@ const locations = [
         "Longitude": 280.71,
         "Latitude": 42.74,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45142",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16824,7 +16659,7 @@ const locations = [
         "Longitude": 279.373,
         "Latitude": 44.94,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45143",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16835,7 +16670,7 @@ const locations = [
         "Longitude": 261.71,
         "Latitude": 53.23,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45144",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16846,7 +16681,7 @@ const locations = [
         "Longitude": 263.03,
         "Latitude": 51.87,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45145",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16857,7 +16692,7 @@ const locations = [
         "Longitude": 277.32,
         "Latitude": 42.43,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45147",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16868,7 +16703,7 @@ const locations = [
         "Longitude": 265.5,
         "Latitude": 49.65,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45148",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16879,7 +16714,7 @@ const locations = [
         "Longitude": 277.92,
         "Latitude": 43.54,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45149",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16890,7 +16725,7 @@ const locations = [
         "Longitude": 245.87,
         "Latitude": 61.98,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45150",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16901,7 +16736,7 @@ const locations = [
         "Longitude": 280.63,
         "Latitude": 44.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45151",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16912,7 +16747,7 @@ const locations = [
         "Longitude": 280.28,
         "Latitude": 46.23,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45152",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16923,7 +16758,7 @@ const locations = [
         "Longitude": 277.36,
         "Latitude": 46.05,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45154",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16934,7 +16769,7 @@ const locations = [
         "Longitude": 280.61,
         "Latitude": 43.59,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45155",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16945,7 +16780,7 @@ const locations = [
         "Longitude": 266.0,
         "Latitude": 59.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45158",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16956,7 +16791,7 @@ const locations = [
         "Longitude": 281.02,
         "Latitude": 43.77,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45159",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16967,7 +16802,7 @@ const locations = [
         "Longitude": 280.367,
         "Latitude": 43.417,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45160",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16978,7 +16813,7 @@ const locations = [
         "Longitude": 273.648,
         "Latitude": 43.185,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45161",
-        "Owner": "NDBC GLERL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -16989,7 +16824,7 @@ const locations = [
         "Longitude": 276.729,
         "Latitude": 44.99,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45162",
-        "Owner": "NDBC GLERL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17000,7 +16835,7 @@ const locations = [
         "Longitude": 276.403,
         "Latitude": 43.984,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45163",
-        "Owner": "NDBC GLERL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17011,7 +16846,7 @@ const locations = [
         "Longitude": 278.302,
         "Latitude": 41.748,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45164",
-        "Owner": "NDBC Limno Tech",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17022,7 +16857,7 @@ const locations = [
         "Longitude": 276.73900000000003,
         "Latitude": 41.702,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45165",
-        "Owner": "NDBC Limno Tech",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17033,7 +16868,7 @@ const locations = [
         "Longitude": 286.742,
         "Latitude": 44.785,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45166",
-        "Owner": "NDBC Vermont EPSCOR",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17044,21 +16879,21 @@ const locations = [
         "Longitude": 279.865,
         "Latitude": 42.185,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45167",
-        "Owner": "NDBC Regional Science Consortium",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "South Haven Buoy, MI",
         "Longitude": 273.669,
         "Latitude": 42.397,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45168",
-        "Owner": "NDBC Limno Tech",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -17066,7 +16901,7 @@ const locations = [
         "Longitude": 278.179,
         "Latitude": 41.615,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45169",
-        "Owner": "NDBC Limno Tech",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17077,7 +16912,7 @@ const locations = [
         "Longitude": 273.032,
         "Latitude": 41.755,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45170",
-        "Owner": "NDBC Illinois-Indiana Sea Grant and Purdue Civil Engineering",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17088,7 +16923,7 @@ const locations = [
         "Longitude": 272.589,
         "Latitude": 46.724,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45171",
-        "Owner": "NDBC Northern Michigan University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17099,7 +16934,7 @@ const locations = [
         "Longitude": 274.02,
         "Latitude": 46.74,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45172",
-        "Owner": "NDBC Northern Michigan University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17110,7 +16945,7 @@ const locations = [
         "Longitude": 273.428,
         "Latitude": 46.573,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45173",
-        "Owner": "NDBC Northern Michigan University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17121,7 +16956,7 @@ const locations = [
         "Longitude": 272.345,
         "Latitude": 42.135,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45174",
-        "Owner": "NDBC Illinois-Indiana Sea Grant",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17132,7 +16967,7 @@ const locations = [
         "Longitude": 275.228,
         "Latitude": 45.825,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45175",
-        "Owner": "NDBC Michigan Technological University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17143,7 +16978,7 @@ const locations = [
         "Longitude": 278.235,
         "Latitude": 41.55,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45176",
-        "Owner": "NDBC Limno Tech",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17154,7 +16989,7 @@ const locations = [
         "Longitude": 272.387,
         "Latitude": 41.894,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45177",
-        "Owner": "NDBC Chicago Park District",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17165,7 +17000,7 @@ const locations = [
         "Longitude": 286.606,
         "Latitude": 44.603,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45178",
-        "Owner": "NDBC SUNY Plattsburgh Center for Earth and Environmental Science/Lake Champlain Research Institute",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17176,7 +17011,7 @@ const locations = [
         "Longitude": 272.776,
         "Latitude": 47.195,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45179",
-        "Owner": "NDBC Superior Watershed Partnership",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17187,7 +17022,7 @@ const locations = [
         "Longitude": 272.27,
         "Latitude": 48.034,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45180",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17198,7 +17033,7 @@ const locations = [
         "Longitude": 274.169,
         "Latitude": 44.982,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45183",
-        "Owner": "NDBC National Park Service - Sleeping Bear Dunes",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17209,7 +17044,7 @@ const locations = [
         "Longitude": 272.041,
         "Latitude": 44.55,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45184",
-        "Owner": "NDBC University of Wisconsin-Milwaukee",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17220,7 +17055,7 @@ const locations = [
         "Longitude": 272.01300000000003,
         "Latitude": 44.577,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45185",
-        "Owner": "NDBC University of Wisconsin-Milwaukee",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17231,7 +17066,7 @@ const locations = [
         "Longitude": 272.205,
         "Latitude": 42.368,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45186",
-        "Owner": "NDBC University of Illinois at Urbana-Champaign",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17242,7 +17077,7 @@ const locations = [
         "Longitude": 272.221,
         "Latitude": 42.491,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45187",
-        "Owner": "NDBC University of Illinois at Urbana-Champaign",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17253,7 +17088,7 @@ const locations = [
         "Longitude": 286.577,
         "Latitude": 44.094,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45188",
-        "Owner": "NDBC SUNY Plattsburgh Center for Earth and Environmental Science/Lake Champlain Research Institute",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17264,7 +17099,7 @@ const locations = [
         "Longitude": 275.20799999999997,
         "Latitude": 45.804,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45194",
-        "Owner": "NDBC Michigan Technological University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17275,7 +17110,7 @@ const locations = [
         "Longitude": 286.661,
         "Latitude": 44.488,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45195",
-        "Owner": "NDBC GLERL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17286,7 +17121,7 @@ const locations = [
         "Longitude": 278.12,
         "Latitude": 41.521,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45196",
-        "Owner": "NDBC Limno Tech",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17297,7 +17132,7 @@ const locations = [
         "Longitude": 278.383,
         "Latitude": 41.619,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45197",
-        "Owner": "NDBC Limno Tech",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17308,7 +17143,7 @@ const locations = [
         "Longitude": 272.437,
         "Latitude": 41.892,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45198",
-        "Owner": "NDBC Illinois-Indiana Sea Grant and Purdue Civil Engineering",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17319,7 +17154,7 @@ const locations = [
         "Longitude": 272.353,
         "Latitude": 42.702,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45199",
-        "Owner": "NDBC Salmon Unlimited Wisconsin",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17330,7 +17165,7 @@ const locations = [
         "Longitude": 276.63,
         "Latitude": 41.724,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45200",
-        "Owner": "NDBC Cleveland Water Alliance",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17341,7 +17176,7 @@ const locations = [
         "Longitude": 277.219,
         "Latitude": 41.601,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45201",
-        "Owner": "NDBC Cleveland Water Alliance",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17352,7 +17187,7 @@ const locations = [
         "Longitude": 277.05899999999997,
         "Latitude": 41.532,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45202",
-        "Owner": "NDBC Cleveland Water Alliance",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17363,7 +17198,7 @@ const locations = [
         "Longitude": 277.488,
         "Latitude": 41.393,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45203",
-        "Owner": "NDBC Cleveland Water Alliance",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17374,7 +17209,7 @@ const locations = [
         "Longitude": 277.885,
         "Latitude": 41.508,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45204",
-        "Owner": "NDBC Cleveland Water Alliance",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17385,7 +17220,7 @@ const locations = [
         "Longitude": 278.252,
         "Latitude": 41.501,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45205",
-        "Owner": "NDBC Cleveland Water Alliance",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17396,7 +17231,7 @@ const locations = [
         "Longitude": 278.41700000000003,
         "Latitude": 41.585,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45206",
-        "Owner": "NDBC Cleveland Water Alliance",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17407,7 +17242,7 @@ const locations = [
         "Longitude": 278.63,
         "Latitude": 41.725,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45207",
-        "Owner": "NDBC Cleveland Water Alliance",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17418,7 +17253,7 @@ const locations = [
         "Longitude": 279.187,
         "Latitude": 41.908,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45208",
-        "Owner": "NDBC Cleveland Water Alliance",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17429,7 +17264,7 @@ const locations = [
         "Longitude": 277.609,
         "Latitude": 43.129,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45209",
-        "Owner": "NDBC Great Lakes Water Authority",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17440,7 +17275,7 @@ const locations = [
         "Longitude": 272.95,
         "Latitude": 44.055,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45210",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17451,7 +17286,7 @@ const locations = [
         "Longitude": 273.432,
         "Latitude": 46.973,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45211",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17462,7 +17297,7 @@ const locations = [
         "Longitude": 277.15999999999997,
         "Latitude": 45.351,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45212",
-        "Owner": "NDBC Michigan Technological University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17473,7 +17308,7 @@ const locations = [
         "Longitude": 273.415,
         "Latitude": 47.585,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45213",
-        "Owner": "NDBC Michigan Technological University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17484,7 +17319,7 @@ const locations = [
         "Longitude": 272.974,
         "Latitude": 42.674,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45214",
-        "Owner": "NDBC Michigan Technological University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17495,7 +17330,7 @@ const locations = [
         "Longitude": 283.461,
         "Latitude": 43.501,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45215",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17506,7 +17341,7 @@ const locations = [
         "Longitude": 270.651,
         "Latitude": 46.932,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45216",
-        "Owner": "NDBC Michigan Technological University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17517,7 +17352,7 @@ const locations = [
         "Longitude": 272.376,
         "Latitude": 43.731,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45218",
-        "Owner": "NDBC University of Wisconsin-Madison, Division of Extension",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17528,7 +17363,7 @@ const locations = [
         "Longitude": 268.375,
         "Latitude": 47.021,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=45219",
-        "Owner": "NDBC University of Minnesota, Duluth",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17539,7 +17374,7 @@ const locations = [
         "Longitude": 211.973,
         "Latitude": 56.296,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46001",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17550,7 +17385,7 @@ const locations = [
         "Longitude": 229.493,
         "Latitude": 42.662,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46002",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17561,7 +17396,7 @@ const locations = [
         "Longitude": 204.15,
         "Latitude": 51.831,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46003",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17572,7 +17407,7 @@ const locations = [
         "Longitude": 223.9,
         "Latitude": 50.93,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46004",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17583,7 +17418,7 @@ const locations = [
         "Longitude": 228.91,
         "Latitude": 46.143,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46005",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17594,7 +17429,7 @@ const locations = [
         "Longitude": 222.623,
         "Latitude": 40.764,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46006",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17605,7 +17440,7 @@ const locations = [
         "Longitude": 207.3,
         "Latitude": 59.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46007",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17616,7 +17451,7 @@ const locations = [
         "Longitude": 208.3,
         "Latitude": 57.1,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46008",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17627,7 +17462,7 @@ const locations = [
         "Longitude": 213.2,
         "Latitude": 60.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46009",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17638,7 +17473,7 @@ const locations = [
         "Longitude": 235.8,
         "Latitude": 46.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46010",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17649,7 +17484,7 @@ const locations = [
         "Longitude": 239.001,
         "Latitude": 34.937,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46011",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17660,7 +17495,7 @@ const locations = [
         "Longitude": 237.119,
         "Latitude": 37.356,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46012",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17671,7 +17506,7 @@ const locations = [
         "Longitude": 236.683,
         "Latitude": 38.235,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46013",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17682,7 +17517,7 @@ const locations = [
         "Longitude": 236.01999999999998,
         "Latitude": 39.225,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46014",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17693,7 +17528,7 @@ const locations = [
         "Longitude": 235.161,
         "Latitude": 42.754,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46015",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17704,7 +17539,7 @@ const locations = [
         "Longitude": 189.7,
         "Latitude": 63.283,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46016",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17715,7 +17550,7 @@ const locations = [
         "Longitude": 187.7,
         "Latitude": 60.283,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46017",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17726,7 +17561,7 @@ const locations = [
         "Longitude": 183.0,
         "Latitude": 60.283,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46018",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17737,7 +17572,7 @@ const locations = [
         "Longitude": 189.7,
         "Latitude": 57.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46019",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17748,7 +17583,7 @@ const locations = [
         "Longitude": 192.0,
         "Latitude": 55.883,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46020",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17759,7 +17594,7 @@ const locations = [
         "Longitude": 200.0,
         "Latitude": 57.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46021",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17770,7 +17605,7 @@ const locations = [
         "Longitude": 235.45999999999998,
         "Latitude": 40.716,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46022",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17781,7 +17616,7 @@ const locations = [
         "Longitude": 239.03300000000002,
         "Latitude": 34.714,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46023",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17792,7 +17627,7 @@ const locations = [
         "Longitude": 240.8,
         "Latitude": 33.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46024",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17803,7 +17638,7 @@ const locations = [
         "Longitude": 240.95499999999998,
         "Latitude": 33.755,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46025",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17814,7 +17649,7 @@ const locations = [
         "Longitude": 237.161,
         "Latitude": 37.754,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46026",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17825,7 +17660,7 @@ const locations = [
         "Longitude": 235.618,
         "Latitude": 41.84,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46027",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17836,7 +17671,7 @@ const locations = [
         "Longitude": 238.09699999999998,
         "Latitude": 35.77,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46028",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17847,7 +17682,7 @@ const locations = [
         "Longitude": 235.513,
         "Latitude": 46.163,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46029",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17858,7 +17693,7 @@ const locations = [
         "Longitude": 235.475,
         "Latitude": 40.423,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46030",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17869,7 +17704,7 @@ const locations = [
         "Longitude": 198.317,
         "Latitude": 55.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46031",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17880,7 +17715,7 @@ const locations = [
         "Longitude": 194.2,
         "Latitude": 54.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46032",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17891,7 +17726,7 @@ const locations = [
         "Longitude": 200.2,
         "Latitude": 55.783,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46033",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17902,7 +17737,7 @@ const locations = [
         "Longitude": 196.9,
         "Latitude": 55.1,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46034",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17913,7 +17748,7 @@ const locations = [
         "Longitude": 182.532,
         "Latitude": 57.034,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46035",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17924,7 +17759,7 @@ const locations = [
         "Longitude": 226.06,
         "Latitude": 48.36,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46036",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17935,7 +17770,7 @@ const locations = [
         "Longitude": 226.2,
         "Latitude": 48.3,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46037",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17946,7 +17781,7 @@ const locations = [
         "Longitude": 235.6,
         "Latitude": 41.9,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46038",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17957,7 +17792,7 @@ const locations = [
         "Longitude": 236.6,
         "Latitude": 48.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46039",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17968,7 +17803,7 @@ const locations = [
         "Longitude": 235.7,
         "Latitude": 44.8,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46040",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -17979,7 +17814,7 @@ const locations = [
         "Longitude": 235.261,
         "Latitude": 47.352,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46041",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -17990,7 +17825,7 @@ const locations = [
         "Longitude": 237.60399999999998,
         "Latitude": 36.785,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46042",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18001,7 +17836,7 @@ const locations = [
         "Longitude": 235.8,
         "Latitude": 46.9,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46043",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18012,7 +17847,7 @@ const locations = [
         "Longitude": 237.622,
         "Latitude": 36.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46044",
-        "Owner": "NDBC MBARI",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18023,7 +17858,7 @@ const locations = [
         "Longitude": 241.55,
         "Latitude": 33.84,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46045",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18031,10 +17866,10 @@ const locations = [
     {
         "DataType": "Ocean Buoy (Historical)",
         "Name": "TANNER BANK - 121 NM West of San Diego, CA",
-        "Longitude": 243.63400000000001,
-        "Latitude": 29.8289,
+        "Longitude": 245.78199999999998,
+        "Latitude": 25.8887,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46047",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18045,7 +17880,7 @@ const locations = [
         "Longitude": 242.1,
         "Latitude": 32.9,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46048",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18056,7 +17891,7 @@ const locations = [
         "Longitude": 235.454,
         "Latitude": 44.669,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46050",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18067,7 +17902,7 @@ const locations = [
         "Longitude": 239.31,
         "Latitude": 34.48,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46051",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18078,7 +17913,7 @@ const locations = [
         "Longitude": 240.161,
         "Latitude": 34.241,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46053",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18089,7 +17924,7 @@ const locations = [
         "Longitude": 239.53199999999998,
         "Latitude": 34.274,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46054",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18100,7 +17935,7 @@ const locations = [
         "Longitude": 230.024,
         "Latitude": 38.069,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46059",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18111,7 +17946,7 @@ const locations = [
         "Longitude": 213.205,
         "Latitude": 60.571,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46060",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18122,7 +17957,7 @@ const locations = [
         "Longitude": 213.163,
         "Latitude": 60.23,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46061",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18133,7 +17968,7 @@ const locations = [
         "Longitude": 238.99,
         "Latitude": 35.101,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46062",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18144,7 +17979,7 @@ const locations = [
         "Longitude": 239.301,
         "Latitude": 34.273,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46063",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18155,7 +17990,7 @@ const locations = [
         "Longitude": 204.991,
         "Latitude": 52.765,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46066",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18166,7 +18001,7 @@ const locations = [
         "Longitude": 239.787,
         "Latitude": 33.677,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46069",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18177,7 +18012,7 @@ const locations = [
         "Longitude": 175.261,
         "Latitude": 55.05,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46070",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18188,7 +18023,7 @@ const locations = [
         "Longitude": 179.764,
         "Latitude": 51.04,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46071",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18199,7 +18034,7 @@ const locations = [
         "Longitude": 187.855,
         "Latitude": 51.645,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46072",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18210,7 +18045,7 @@ const locations = [
         "Longitude": 187.988,
         "Latitude": 55.008,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46073",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18221,7 +18056,7 @@ const locations = [
         "Longitude": 199.206,
         "Latitude": 53.969,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46075",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18232,7 +18067,7 @@ const locations = [
         "Longitude": 211.995,
         "Latitude": 59.508,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46076",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18243,7 +18078,7 @@ const locations = [
         "Longitude": 205.789,
         "Latitude": 57.869,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46077",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18254,7 +18089,7 @@ const locations = [
         "Longitude": 207.401,
         "Latitude": 55.561,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46078",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18265,7 +18100,7 @@ const locations = [
         "Longitude": 207.77,
         "Latitude": 59.05,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46079",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18276,7 +18111,7 @@ const locations = [
         "Longitude": 209.871,
         "Latitude": 57.91,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46080",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18287,7 +18122,7 @@ const locations = [
         "Longitude": 211.717,
         "Latitude": 60.802,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46081",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18298,7 +18133,7 @@ const locations = [
         "Longitude": 216.647,
         "Latitude": 59.67,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46082",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18309,7 +18144,7 @@ const locations = [
         "Longitude": 221.981,
         "Latitude": 58.27,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46083",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18320,7 +18155,7 @@ const locations = [
         "Longitude": 223.96,
         "Latitude": 56.614,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46084",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18331,7 +18166,7 @@ const locations = [
         "Longitude": 217.124,
         "Latitude": 55.878,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46085",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18342,7 +18177,7 @@ const locations = [
         "Longitude": 241.94799999999998,
         "Latitude": 32.499,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46086",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18353,7 +18188,7 @@ const locations = [
         "Longitude": 235.273,
         "Latitude": 48.493,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46087",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18364,7 +18199,7 @@ const locations = [
         "Longitude": 236.821,
         "Latitude": 48.332,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46088",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18375,7 +18210,7 @@ const locations = [
         "Longitude": 234.185,
         "Latitude": 45.928,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46089",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18386,7 +18221,7 @@ const locations = [
         "Longitude": 239.28199999999998,
         "Latitude": 32.876,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46090",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18397,7 +18232,7 @@ const locations = [
         "Longitude": 238.101,
         "Latitude": 36.835,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46091",
-        "Owner": "NDBC MBARI",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18408,7 +18243,7 @@ const locations = [
         "Longitude": 237.971,
         "Latitude": 36.751,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46092",
-        "Owner": "NDBC MBARI",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18419,7 +18254,7 @@ const locations = [
         "Longitude": 237.59,
         "Latitude": 36.69,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46093",
-        "Owner": "NDBC MBARI",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18430,7 +18265,7 @@ const locations = [
         "Longitude": 235.7,
         "Latitude": 44.642,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46094",
-        "Owner": "NDBC Northwest Association of Networked Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18441,7 +18276,7 @@ const locations = [
         "Longitude": 235.873,
         "Latitude": 46.173,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46096",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18452,7 +18287,7 @@ const locations = [
         "Longitude": 235.696,
         "Latitude": 44.639,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46097",
-        "Owner": "NDBC NSF Ocean Observatories Initiative",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18463,7 +18298,7 @@ const locations = [
         "Longitude": 235.053,
         "Latitude": 44.378,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46098",
-        "Owner": "NDBC NSF Ocean Observatories Initiative",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18474,7 +18309,7 @@ const locations = [
         "Longitude": 235.433,
         "Latitude": 46.988,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46099",
-        "Owner": "NDBC NSF Ocean Observatories Initiative",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18485,7 +18320,7 @@ const locations = [
         "Longitude": 235.036,
         "Latitude": 46.851,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46100",
-        "Owner": "NDBC NSF Ocean Observatories Initiative",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18496,7 +18331,7 @@ const locations = [
         "Longitude": 207.767,
         "Latitude": 59.049,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46105",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18507,7 +18342,7 @@ const locations = [
         "Longitude": 207.91,
         "Latitude": 59.76,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46106",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18518,7 +18353,7 @@ const locations = [
         "Longitude": 212.008,
         "Latitude": 59.925,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46107",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18529,7 +18364,7 @@ const locations = [
         "Longitude": 208.172,
         "Latitude": 59.598,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46108",
-        "Owner": "NDBC Alaska Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18540,7 +18375,7 @@ const locations = [
         "Longitude": 236.60500000000002,
         "Latitude": 48.123,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46109",
-        "Owner": "NDBC Intellicheck Mobilisa",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18551,7 +18386,7 @@ const locations = [
         "Longitude": 236.96800000000002,
         "Latitude": 48.115,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46110",
-        "Owner": "NDBC Intellicheck Mobilisa",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18562,7 +18397,7 @@ const locations = [
         "Longitude": 237.252,
         "Latitude": 48.131,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46111",
-        "Owner": "NDBC Intellicheck Mobilisa",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18573,7 +18408,7 @@ const locations = [
         "Longitude": 237.26999999999998,
         "Latitude": 48.1,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46112",
-        "Owner": "NDBC Intellicheck Mobilisa",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18584,7 +18419,7 @@ const locations = [
         "Longitude": 237.35399999999998,
         "Latitude": 47.73,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46113",
-        "Owner": "NDBC Intellicheck Mobilisa",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18595,7 +18430,7 @@ const locations = [
         "Longitude": 237.65699999999998,
         "Latitude": 36.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46114",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18606,7 +18441,7 @@ const locations = [
         "Longitude": 182.25,
         "Latitude": 57.069,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46115",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18617,7 +18452,7 @@ const locations = [
         "Longitude": 235.98399999999998,
         "Latitude": 46.287,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46116",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18628,7 +18463,7 @@ const locations = [
         "Longitude": 236.131,
         "Latitude": 46.176,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46117",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18639,7 +18474,7 @@ const locations = [
         "Longitude": 237.424,
         "Latitude": 48.724,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46118",
-        "Owner": "NDBC Northwest Association of Networked Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18650,7 +18485,7 @@ const locations = [
         "Longitude": 235.05,
         "Latitude": 47.967,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46119",
-        "Owner": "NDBC Northwest Association of Networked Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18661,7 +18496,7 @@ const locations = [
         "Longitude": 237.603,
         "Latitude": 47.761,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46120",
-        "Owner": "NDBC University of Washington",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18672,32 +18507,32 @@ const locations = [
         "Longitude": 237.26999999999998,
         "Latitude": 47.28,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46121",
-        "Owner": "NDBC University of Washington",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "Dabob Bay, WA (U of Wash)",
         "Longitude": 237.197,
         "Latitude": 47.803,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46122",
-        "Owner": "NDBC University of Washington",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "Twanoh - Hood Canal, WA (U of Wash)",
         "Longitude": 236.99200000000002,
         "Latitude": 47.375,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46123",
-        "Owner": "NDBC University of Washington",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -18705,7 +18540,7 @@ const locations = [
         "Longitude": 236.887,
         "Latitude": 47.422,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46124",
-        "Owner": "NDBC University of Washington",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18716,7 +18551,7 @@ const locations = [
         "Longitude": 237.373,
         "Latitude": 47.907,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46125",
-        "Owner": "NDBC University of Washington",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18727,7 +18562,7 @@ const locations = [
         "Longitude": 193.398,
         "Latitude": 53.951,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46126",
-        "Owner": "NDBC Shell Oil",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18738,7 +18573,7 @@ const locations = [
         "Longitude": 235.937,
         "Latitude": 46.215,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46127",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18749,7 +18584,7 @@ const locations = [
         "Longitude": 235.462,
         "Latitude": 43.292,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46128",
-        "Owner": "NDBC Northwest Association of Networked Ocean Observing Systems",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18760,7 +18595,7 @@ const locations = [
         "Longitude": 235.01999999999998,
         "Latitude": 49.91,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46131",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18771,7 +18606,7 @@ const locations = [
         "Longitude": 232.11,
         "Latitude": 49.78,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46132",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18782,7 +18617,7 @@ const locations = [
         "Longitude": 236.5,
         "Latitude": 48.65,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46134",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18793,7 +18628,7 @@ const locations = [
         "Longitude": 230.205,
         "Latitude": 52.437,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46138",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18804,7 +18639,7 @@ const locations = [
         "Longitude": 233.99,
         "Latitude": 48.844,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46139",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -18815,7 +18650,7 @@ const locations = [
         "Longitude": 227.58,
         "Latitude": 54.37,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46145",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18826,7 +18661,7 @@ const locations = [
         "Longitude": 236.26999999999998,
         "Latitude": 49.34,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46146",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18837,7 +18672,7 @@ const locations = [
         "Longitude": 228.78,
         "Latitude": 51.83,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46147",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18848,7 +18683,7 @@ const locations = [
         "Longitude": 231.17,
         "Latitude": 53.83,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46181",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18859,21 +18694,21 @@ const locations = [
         "Longitude": 228.9,
         "Latitude": 53.62,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46183",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "North Nomad",
         "Longitude": 221.15,
         "Latitude": 53.92,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46184",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -18881,7 +18716,7 @@ const locations = [
         "Longitude": 230.21,
         "Latitude": 52.42,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46185",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18892,7 +18727,7 @@ const locations = [
         "Longitude": 231.23,
         "Latitude": 51.38,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46204",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18903,7 +18738,7 @@ const locations = [
         "Longitude": 225.68,
         "Latitude": 54.18,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46205",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18914,7 +18749,7 @@ const locations = [
         "Longitude": 234.0,
         "Latitude": 48.84,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46206",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18925,7 +18760,7 @@ const locations = [
         "Longitude": 230.08,
         "Latitude": 50.87,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46207",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18936,7 +18771,7 @@ const locations = [
         "Longitude": 227.31,
         "Latitude": 52.52,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46208",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18947,7 +18782,7 @@ const locations = [
         "Longitude": 235.757,
         "Latitude": 46.857,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46211",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18958,21 +18793,21 @@ const locations = [
         "Longitude": 235.687,
         "Latitude": 40.753,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46212",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "Cape Mendocino, CA (094)",
         "Longitude": 235.252,
         "Latitude": 40.292,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46213",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -18980,7 +18815,7 @@ const locations = [
         "Longitude": 236.537,
         "Latitude": 37.937,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46214",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -18991,7 +18826,7 @@ const locations = [
         "Longitude": 239.14100000000002,
         "Latitude": 35.204,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46215",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19002,7 +18837,7 @@ const locations = [
         "Longitude": 240.197,
         "Latitude": 34.333,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46216",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19013,7 +18848,7 @@ const locations = [
         "Longitude": 240.565,
         "Latitude": 34.167,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46217",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19024,7 +18859,7 @@ const locations = [
         "Longitude": 239.22,
         "Latitude": 34.452,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46218",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19035,7 +18870,7 @@ const locations = [
         "Longitude": 240.10899999999998,
         "Latitude": 33.226,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46219",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19046,7 +18881,7 @@ const locations = [
         "Longitude": 241.554,
         "Latitude": 33.897,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46220",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19057,7 +18892,7 @@ const locations = [
         "Longitude": 241.35899999999998,
         "Latitude": 33.86,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46221",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19068,7 +18903,7 @@ const locations = [
         "Longitude": 241.683,
         "Latitude": 33.618,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46222",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19079,7 +18914,7 @@ const locations = [
         "Longitude": 242.233,
         "Latitude": 33.458,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46223",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19090,7 +18925,7 @@ const locations = [
         "Longitude": 242.52800000000002,
         "Latitude": 33.178,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46224",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19101,7 +18936,7 @@ const locations = [
         "Longitude": 242.60899999999998,
         "Latitude": 32.933,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46225",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19112,7 +18947,7 @@ const locations = [
         "Longitude": 242.647,
         "Latitude": 32.848,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46226",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19123,7 +18958,7 @@ const locations = [
         "Longitude": 242.55599999999998,
         "Latitude": 32.632,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46227",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19134,7 +18969,7 @@ const locations = [
         "Longitude": 240.583,
         "Latitude": 34.317,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46228",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19145,7 +18980,7 @@ const locations = [
         "Longitude": 235.451,
         "Latitude": 43.772,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46229",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19156,7 +18991,7 @@ const locations = [
         "Longitude": 241.988,
         "Latitude": 33.623,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46230",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19167,7 +19002,7 @@ const locations = [
         "Longitude": 242.63,
         "Latitude": 32.747,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46231",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19178,7 +19013,7 @@ const locations = [
         "Longitude": 242.575,
         "Latitude": 32.517,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46232",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19189,7 +19024,7 @@ const locations = [
         "Longitude": 242.68,
         "Latitude": 32.936,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46233",
-        "Owner": "NDBC SCCOOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19200,7 +19035,7 @@ const locations = [
         "Longitude": 240.832,
         "Latitude": 34.1,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46234",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19211,7 +19046,7 @@ const locations = [
         "Longitude": 242.83100000000002,
         "Latitude": 32.57,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46235",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19222,7 +19057,7 @@ const locations = [
         "Longitude": 238.05,
         "Latitude": 36.759,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46236",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19233,7 +19068,7 @@ const locations = [
         "Longitude": 237.36599999999999,
         "Latitude": 37.788,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46237",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19244,7 +19079,7 @@ const locations = [
         "Longitude": 240.45,
         "Latitude": 33.76,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46238",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19255,7 +19090,7 @@ const locations = [
         "Longitude": 237.89600000000002,
         "Latitude": 36.335,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46239",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19266,7 +19101,7 @@ const locations = [
         "Longitude": 238.09300000000002,
         "Latitude": 36.626,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46240",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19277,7 +19112,7 @@ const locations = [
         "Longitude": 242.708,
         "Latitude": 33.003,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46241",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19288,7 +19123,7 @@ const locations = [
         "Longitude": 242.561,
         "Latitude": 33.22,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46242",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19299,7 +19134,7 @@ const locations = [
         "Longitude": 235.874,
         "Latitude": 46.214,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46243",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19310,7 +19145,7 @@ const locations = [
         "Longitude": 235.642,
         "Latitude": 40.896,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46244",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19321,7 +19156,7 @@ const locations = [
         "Longitude": 240.692,
         "Latitude": 34.251,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46245",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19332,7 +19167,7 @@ const locations = [
         "Longitude": 214.83,
         "Latitude": 50.042,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46246",
-        "Owner": "NDBC APL-UW, University of Washington Applied Physics Laboratory",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19343,7 +19178,7 @@ const locations = [
         "Longitude": 237.167,
         "Latitude": 37.753,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46247",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19354,7 +19189,7 @@ const locations = [
         "Longitude": 235.36,
         "Latitude": 46.133,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46248",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19365,7 +19200,7 @@ const locations = [
         "Longitude": 240.292,
         "Latitude": 33.821,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46249",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19376,7 +19211,7 @@ const locations = [
         "Longitude": 240.91,
         "Latitude": 34.034,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46250",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19387,7 +19222,7 @@ const locations = [
         "Longitude": 240.435,
         "Latitude": 33.769,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46251",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19398,7 +19233,7 @@ const locations = [
         "Longitude": 240.743,
         "Latitude": 33.953,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46252",
-        "Owner": "NDBC U.S. Navy and U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19409,7 +19244,7 @@ const locations = [
         "Longitude": 241.81900000000002,
         "Latitude": 33.576,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46253",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19420,7 +19255,7 @@ const locations = [
         "Longitude": 242.733,
         "Latitude": 32.868,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46254",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19431,7 +19266,7 @@ const locations = [
         "Longitude": 240.349,
         "Latitude": 33.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46255",
-        "Owner": "NDBC APL-UW, University of Washington Applied Physics Laboratory",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19442,7 +19277,7 @@ const locations = [
         "Longitude": 241.799,
         "Latitude": 33.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46256",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19453,7 +19288,7 @@ const locations = [
         "Longitude": 239.23399999999998,
         "Latitude": 34.439,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46257",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19464,7 +19299,7 @@ const locations = [
         "Longitude": 242.498,
         "Latitude": 32.749,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46258",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19475,7 +19310,7 @@ const locations = [
         "Longitude": 238.50900000000001,
         "Latitude": 34.774,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46259",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19486,7 +19321,7 @@ const locations = [
         "Longitude": 235.70999999999998,
         "Latitude": 43.586,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46260",
-        "Owner": "NDBC National Renewable Energy Laboratory",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19497,7 +19332,7 @@ const locations = [
         "Longitude": 235.775,
         "Latitude": 43.76,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46261",
-        "Owner": "NDBC National Renewable Energy Laboratory",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19508,7 +19343,7 @@ const locations = [
         "Longitude": 240.99599999999998,
         "Latitude": 33.704,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46262",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19519,7 +19354,7 @@ const locations = [
         "Longitude": 236.088,
         "Latitude": 39.37,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46263",
-        "Owner": "NDBC National Renewable Energy Laboratory",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19530,7 +19365,7 @@ const locations = [
         "Longitude": 208.305,
         "Latitude": 57.479,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46264",
-        "Owner": "NDBC National Renewable Energy Laboratory",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19541,7 +19376,7 @@ const locations = [
         "Longitude": 194.521,
         "Latitude": 64.474,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46265",
-        "Owner": "NDBC Alaska Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19552,7 +19387,7 @@ const locations = [
         "Longitude": 242.721,
         "Latitude": 32.957,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46266",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19563,7 +19398,7 @@ const locations = [
         "Longitude": 236.393,
         "Latitude": 48.173,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46267",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19574,7 +19409,7 @@ const locations = [
         "Longitude": 241.422,
         "Latitude": 34.022,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46268",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19585,7 +19420,7 @@ const locations = [
         "Longitude": 237.966,
         "Latitude": 36.934,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46269",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19596,7 +19431,7 @@ const locations = [
         "Longitude": 175.284,
         "Latitude": 55.003,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46270",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19607,7 +19442,7 @@ const locations = [
         "Longitude": 242.726,
         "Latitude": 32.93,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46273",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19618,7 +19453,7 @@ const locations = [
         "Longitude": 242.686,
         "Latitude": 33.062,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46274",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19629,7 +19464,7 @@ const locations = [
         "Longitude": 242.499,
         "Latitude": 33.291,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46275",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19640,7 +19475,7 @@ const locations = [
         "Longitude": 238.175,
         "Latitude": 36.845,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46276",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19651,7 +19486,7 @@ const locations = [
         "Longitude": 242.341,
         "Latitude": 33.336,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46277",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19662,7 +19497,7 @@ const locations = [
         "Longitude": 236.00900000000001,
         "Latitude": 45.561,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46278",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19673,7 +19508,7 @@ const locations = [
         "Longitude": 238.18,
         "Latitude": 36.838,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46279",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19684,7 +19519,7 @@ const locations = [
         "Longitude": 235.76600000000002,
         "Latitude": 44.575,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46280",
-        "Owner": "NDBC National Renewable Energy Laboratory",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19695,7 +19530,7 @@ const locations = [
         "Longitude": 235.767,
         "Latitude": 44.559,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46281",
-        "Owner": "NDBC National Renewable Energy Laboratory",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19706,7 +19541,7 @@ const locations = [
         "Longitude": 238.079,
         "Latitude": 36.951,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46282",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19717,7 +19552,7 @@ const locations = [
         "Longitude": 235.763,
         "Latitude": 44.567,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46283",
-        "Owner": "NDBC National Renewable Energy Laboratory",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19728,7 +19563,7 @@ const locations = [
         "Longitude": 238.066,
         "Latitude": 36.93,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46284",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19739,7 +19574,7 @@ const locations = [
         "Longitude": 239.37,
         "Latitude": 32.659,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46290",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19750,7 +19585,7 @@ const locations = [
         "Longitude": 236.57,
         "Latitude": 49.02,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46303",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19761,7 +19596,7 @@ const locations = [
         "Longitude": 236.64,
         "Latitude": 49.3,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46304",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19772,7 +19607,7 @@ const locations = [
         "Longitude": 189.21,
         "Latitude": 46.638,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46401",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19783,7 +19618,7 @@ const locations = [
         "Longitude": 195.853,
         "Latitude": 50.913,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46402",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19794,7 +19629,7 @@ const locations = [
         "Longitude": 203.187,
         "Latitude": 52.654,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46403",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19805,7 +19640,7 @@ const locations = [
         "Longitude": 231.244,
         "Latitude": 45.87,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46404",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19816,7 +19651,7 @@ const locations = [
         "Longitude": 229.091,
         "Latitude": 42.903,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46405",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19827,7 +19662,7 @@ const locations = [
         "Longitude": 234.978,
         "Latitude": -8.491,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46406",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19838,7 +19673,7 @@ const locations = [
         "Longitude": 231.175,
         "Latitude": 42.715,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46407",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19849,7 +19684,7 @@ const locations = [
         "Longitude": 190.105,
         "Latitude": 49.652,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46408",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19860,7 +19695,7 @@ const locations = [
         "Longitude": 211.425,
         "Latitude": 55.338,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46409",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19871,7 +19706,7 @@ const locations = [
         "Longitude": 216.231,
         "Latitude": 57.649,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46410",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19882,7 +19717,7 @@ const locations = [
         "Longitude": 232.95999999999998,
         "Latitude": 39.337,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46411",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19893,7 +19728,7 @@ const locations = [
         "Longitude": 239.418,
         "Latitude": 32.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46412",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19904,7 +19739,7 @@ const locations = [
         "Longitude": 186.103,
         "Latitude": 48.045,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46413",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19915,7 +19750,7 @@ const locations = [
         "Longitude": 207.584,
         "Latitude": 53.764,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46414",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19926,7 +19761,7 @@ const locations = [
         "Longitude": 220.116,
         "Latitude": 53.035,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46415",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19937,7 +19772,7 @@ const locations = [
         "Longitude": 225.573,
         "Latitude": 49.892,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46416",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19948,7 +19783,7 @@ const locations = [
         "Longitude": 230.377,
         "Latitude": 48.815,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46419",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -19959,7 +19794,7 @@ const locations = [
         "Longitude": 239.44299999999998,
         "Latitude": 32.455,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46490",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19970,7 +19805,7 @@ const locations = [
         "Longitude": 190.0,
         "Latitude": 44.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46518",
-        "Owner": "NDBC NWS Alaska Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19981,7 +19816,7 @@ const locations = [
         "Longitude": 195.0,
         "Latitude": 41.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46531",
-        "Owner": "NDBC NWS Alaska Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -19992,7 +19827,7 @@ const locations = [
         "Longitude": 195.0,
         "Latitude": 48.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46534",
-        "Owner": "NDBC NWS Alaska Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20003,7 +19838,7 @@ const locations = [
         "Longitude": 232.1,
         "Latitude": 24.14,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46538",
-        "Owner": "NDBC NWS Alaska Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20014,7 +19849,7 @@ const locations = [
         "Longitude": 198.19,
         "Latitude": 53.033,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46551",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20025,7 +19860,7 @@ const locations = [
         "Longitude": 194.56,
         "Latitude": 54.54,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46553",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20036,7 +19871,7 @@ const locations = [
         "Longitude": 211.0,
         "Latitude": 57.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46779",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20047,7 +19882,7 @@ const locations = [
         "Longitude": 192.86,
         "Latitude": 56.04,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46780",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20058,7 +19893,7 @@ const locations = [
         "Longitude": 182.052,
         "Latitude": 54.634,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46781",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20069,7 +19904,7 @@ const locations = [
         "Longitude": 187.0,
         "Latitude": 55.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46785",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20080,7 +19915,7 @@ const locations = [
         "Longitude": 182.25,
         "Latitude": 57.069,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46B35",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20091,7 +19926,7 @@ const locations = [
         "Longitude": 231.225,
         "Latitude": 45.848,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=46D04",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20102,7 +19937,7 @@ const locations = [
         "Longitude": 195.815,
         "Latitude": 67.582,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=48011",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20113,7 +19948,7 @@ const locations = [
         "Longitude": 193.929,
         "Latitude": 70.025,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=48012",
-        "Owner": "NDBC University of Alaska, Fairbanks",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20124,7 +19959,7 @@ const locations = [
         "Longitude": 227.0,
         "Latitude": 70.35,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=48021",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20135,7 +19970,7 @@ const locations = [
         "Longitude": 190.546,
         "Latitude": 65.011,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=48114",
-        "Owner": "NDBC Alaska Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20146,7 +19981,7 @@ const locations = [
         "Longitude": 213.96,
         "Latitude": 70.37,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=48211",
-        "Owner": "NDBC Shell Arctic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20157,7 +19992,7 @@ const locations = [
         "Longitude": 209.721,
         "Latitude": 70.874,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=48212",
-        "Owner": "NDBC Shell Arctic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20168,7 +20003,7 @@ const locations = [
         "Longitude": 195.867,
         "Latitude": 71.502,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=48213",
-        "Owner": "NDBC Shell Arctic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20179,7 +20014,7 @@ const locations = [
         "Longitude": 194.752,
         "Latitude": 70.872,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=48214",
-        "Owner": "NDBC Shell Arctic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20190,7 +20025,7 @@ const locations = [
         "Longitude": 195.867,
         "Latitude": 71.502,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=48215",
-        "Owner": "NDBC Statoil Hydro",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20201,7 +20036,7 @@ const locations = [
         "Longitude": 192.048,
         "Latitude": 71.758,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=48216",
-        "Owner": "NDBC Shell Arctic",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20212,7 +20047,7 @@ const locations = [
         "Longitude": 215.127,
         "Latitude": 50.055,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=48400",
-        "Owner": "NDBC NOAA/PMEL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20223,7 +20058,7 @@ const locations = [
         "Longitude": 182.39,
         "Latitude": 72.568,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=48677",
-        "Owner": "NDBC Shell Oil",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20234,7 +20069,7 @@ const locations = [
         "Longitude": 187.013,
         "Latitude": 74.076,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=48678",
-        "Owner": "NDBC Shell Oil",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20245,7 +20080,7 @@ const locations = [
         "Longitude": 200.11,
         "Latitude": 75.778,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=48679",
-        "Owner": "NDBC Shell Oil",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20256,7 +20091,7 @@ const locations = [
         "Longitude": 202.764,
         "Latitude": 74.776,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=48680",
-        "Owner": "NDBC Shell Oil",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20267,7 +20102,7 @@ const locations = [
         "Longitude": 206.208,
         "Latitude": 23.528,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51000",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20278,7 +20113,7 @@ const locations = [
         "Longitude": 197.97,
         "Latitude": 24.475,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51001",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20289,7 +20124,7 @@ const locations = [
         "Longitude": 202.245,
         "Latitude": 17.07,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51002",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20297,10 +20132,10 @@ const locations = [
     {
         "DataType": "Ocean Buoy (Historical)",
         "Name": "WESTERN  HAWAII - 205 NM SW of Honolulu, HI",
-        "Longitude": 192.825,
-        "Latitude": 20.5674,
+        "Longitude": 190.897,
+        "Latitude": 21.4271,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51003",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20311,7 +20146,7 @@ const locations = [
         "Longitude": 207.77,
         "Latitude": 17.538,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51004",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20322,186 +20157,10 @@ const locations = [
         "Longitude": 203.9,
         "Latitude": 20.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51005",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "9N 140W",
-        "Longitude": 220.0,
-        "Latitude": 9.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51006",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "5N 140W",
-        "Longitude": 220.0,
-        "Latitude": 5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51007",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "2N 140W",
-        "Longitude": 220.0,
-        "Latitude": 2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51008",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "2S 140W",
-        "Longitude": 220.0,
-        "Latitude": -2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51009",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "0 170W",
-        "Longitude": 190.0,
-        "Latitude": 0.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51010",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "0 125W",
-        "Longitude": 235.0,
-        "Latitude": 0.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51011",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "5S 140W",
-        "Longitude": 220.0,
-        "Latitude": -5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51014",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "5N 125W",
-        "Longitude": 235.0,
-        "Latitude": 5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51015",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "2N 125W",
-        "Longitude": 235.0,
-        "Latitude": 2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51016",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "2S 125W",
-        "Longitude": 235.0,
-        "Latitude": -2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51017",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "5S 125W",
-        "Longitude": 235.0,
-        "Latitude": -5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51018",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "5S 155W",
-        "Longitude": 205.0,
-        "Latitude": -5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51019",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "5N 155W",
-        "Longitude": 205.0,
-        "Latitude": 5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51020",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "2N 155W",
-        "Longitude": 205.0,
-        "Latitude": 2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51021",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "2S 155W",
-        "Longitude": 205.0,
-        "Latitude": -2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51022",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "0 155W",
-        "Longitude": 205.0,
-        "Latitude": 0.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51023",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -20509,7 +20168,7 @@ const locations = [
         "Longitude": 203.07,
         "Latitude": 21.35,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51026",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20520,7 +20179,7 @@ const locations = [
         "Longitude": 202.9,
         "Latitude": 20.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51027",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20531,7 +20190,7 @@ const locations = [
         "Longitude": 206.087,
         "Latitude": 0.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51028",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20542,7 +20201,7 @@ const locations = [
         "Longitude": 204.918,
         "Latitude": 19.734,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51045",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20553,7 +20212,7 @@ const locations = [
         "Longitude": 204.172,
         "Latitude": 20.024,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51046",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20564,7 +20223,7 @@ const locations = [
         "Longitude": 206.1,
         "Latitude": 23.558,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51100",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20575,7 +20234,7 @@ const locations = [
         "Longitude": 197.919,
         "Latitude": 24.359,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51101",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20586,7 +20245,7 @@ const locations = [
         "Longitude": 201.697,
         "Latitude": 21.096,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51200",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20597,7 +20256,7 @@ const locations = [
         "Longitude": 201.882,
         "Latitude": 21.671,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51201",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20608,7 +20267,7 @@ const locations = [
         "Longitude": 202.32,
         "Latitude": 21.417,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51202",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20619,7 +20278,7 @@ const locations = [
         "Longitude": 202.99,
         "Latitude": 20.788,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51203",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20630,21 +20289,21 @@ const locations = [
         "Longitude": 201.876,
         "Latitude": 21.281,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51204",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "Pauwela, Maui, HI (187)",
-        "Longitude": 203.575,
+        "Longitude": 203.579,
         "Latitude": 21.018,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51205",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -20652,7 +20311,7 @@ const locations = [
         "Longitude": 205.03,
         "Latitude": 19.779,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51206",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20663,7 +20322,7 @@ const locations = [
         "Longitude": 202.248,
         "Latitude": 21.477,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51207",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20674,7 +20333,7 @@ const locations = [
         "Longitude": 200.426,
         "Latitude": 22.285,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51208",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20685,7 +20344,7 @@ const locations = [
         "Longitude": 189.499,
         "Latitude": -14.273,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51209",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20696,7 +20355,7 @@ const locations = [
         "Longitude": 202.243,
         "Latitude": 21.477,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51210",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20707,7 +20366,7 @@ const locations = [
         "Longitude": 202.041,
         "Latitude": 21.297,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51211",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20718,7 +20377,7 @@ const locations = [
         "Longitude": 201.851,
         "Latitude": 21.323,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51212",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20729,7 +20388,7 @@ const locations = [
         "Longitude": 202.998,
         "Latitude": 20.75,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51213",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20740,128 +20399,7 @@ const locations = [
         "Longitude": 189.125,
         "Latitude": -14.296,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51214",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "8N 155W",
-        "Longitude": 205.0,
-        "Latitude": 8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51301",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "8S 155W",
-        "Longitude": 205.0,
-        "Latitude": -8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51302",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "5N 170W",
-        "Longitude": 190.0,
-        "Latitude": 5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51303",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "5S 170W",
-        "Longitude": 190.0,
-        "Latitude": -5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51304",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "2N 170W",
-        "Longitude": 190.0,
-        "Latitude": 2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51305",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "2S 170W",
-        "Longitude": 190.0,
-        "Latitude": -2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51306",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "8N 125W",
-        "Longitude": 235.0,
-        "Latitude": 8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51307",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "8S 125W",
-        "Longitude": 235.0,
-        "Latitude": -8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51308",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "8N 170W",
-        "Longitude": 190.0,
-        "Latitude": 8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51309",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "8S 170W",
-        "Longitude": 190.0,
-        "Latitude": -8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51310",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "0 140W",
-        "Longitude": 220.0,
-        "Latitude": 0.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51311",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20872,7 +20410,7 @@ const locations = [
         "Longitude": 234.973,
         "Latitude": -8.48,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51406",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20883,7 +20421,7 @@ const locations = [
         "Longitude": 203.438,
         "Latitude": 19.614,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51407",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20894,7 +20432,7 @@ const locations = [
         "Longitude": 183.742,
         "Latitude": -9.511,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51425",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -20905,7 +20443,7 @@ const locations = [
         "Longitude": 191.615,
         "Latitude": -23.11,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51426",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20916,7 +20454,7 @@ const locations = [
         "Longitude": 180.097,
         "Latitude": 0.018,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51542",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -20927,73 +20465,7 @@ const locations = [
         "Longitude": 203.0,
         "Latitude": 22.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=51WH0",
-        "Owner": "NDBC Woods Hole Oceanographic Institution",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "2N 165E",
-        "Longitude": 165.0,
-        "Latitude": 2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52001",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "2S 165E",
-        "Longitude": 165.0,
-        "Latitude": -2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52002",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "5N 165E",
-        "Longitude": 165.0,
-        "Latitude": 5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52003",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "5S 165E",
-        "Longitude": 165.0,
-        "Latitude": -5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52004",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "8N 165E",
-        "Longitude": 165.0,
-        "Latitude": 8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52006",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "8S 165E",
-        "Longitude": 165.0,
-        "Latitude": -8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52007",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21004,7 +20476,7 @@ const locations = [
         "Longitude": 215.332,
         "Latitude": 13.729,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52009",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21015,7 +20487,7 @@ const locations = [
         "Longitude": 144.788,
         "Latitude": 13.354,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52200",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21026,7 +20498,7 @@ const locations = [
         "Longitude": 171.384,
         "Latitude": 7.079,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52201",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21037,7 +20509,7 @@ const locations = [
         "Longitude": 144.816,
         "Latitude": 13.683,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52202",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21048,7 +20520,7 @@ const locations = [
         "Longitude": 145.662,
         "Latitude": 15.268,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52211",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21059,7 +20531,7 @@ const locations = [
         "Longitude": 134.671,
         "Latitude": 7.63,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52212",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21070,7 +20542,7 @@ const locations = [
         "Longitude": 158.244,
         "Latitude": 7.081,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52213",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21081,7 +20553,7 @@ const locations = [
         "Longitude": 138.178,
         "Latitude": 9.677,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52214",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21092,95 +20564,7 @@ const locations = [
         "Longitude": 163.001,
         "Latitude": 5.241,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52215",
-        "Owner": "NDBC Pacific Islands Ocean Observing System",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "5N 180W",
-        "Longitude": 180.0,
-        "Latitude": 5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52309",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "2N 180W",
-        "Longitude": 180.0,
-        "Latitude": 2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52310",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "0 180W",
-        "Longitude": 180.0,
-        "Latitude": 0.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52311",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "2S 180W",
-        "Longitude": 180.0,
-        "Latitude": -2.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52312",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Active)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "5S 180W",
-        "Longitude": 180.0,
-        "Latitude": -5.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52313",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "8N 180W",
-        "Longitude": 180.0,
-        "Latitude": 8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52315",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Historical)",
-        "Name": "8S 180W",
-        "Longitude": 180.0,
-        "Latitude": -8.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52316",
-        "Owner": "NDBC NDBC",
-        "State": "",
-        "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
-    },
-    {
-        "DataType": "Ocean Buoy (Active)",
-        "Name": "0 165E",
-        "Longitude": 165.0,
-        "Latitude": 0.0,
-        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52321",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21191,7 +20575,7 @@ const locations = [
         "Longitude": 155.739,
         "Latitude": 19.285,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52401",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21202,7 +20586,7 @@ const locations = [
         "Longitude": 153.876,
         "Latitude": 11.928,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52402",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21210,10 +20594,10 @@ const locations = [
     {
         "DataType": "Ocean Buoy (Historical)",
         "Name": "NORTH MANUS - 345NM North of Manus Is , New Guinea",
-        "Longitude": 163.831,
-        "Latitude": 5.8427,
+        "Longitude": 161.977,
+        "Latitude": 6.4807,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52403",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21224,7 +20608,7 @@ const locations = [
         "Longitude": 132.25,
         "Latitude": 20.685,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52404",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21235,7 +20619,7 @@ const locations = [
         "Longitude": 132.232,
         "Latitude": 12.992,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52405",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21246,7 +20630,7 @@ const locations = [
         "Longitude": 164.985,
         "Latitude": -5.371,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52406",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21257,7 +20641,7 @@ const locations = [
         "Longitude": 154.953,
         "Latitude": 14.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52834",
-        "Owner": "NDBC AOML",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21268,7 +20652,7 @@ const locations = [
         "Longitude": 137.0,
         "Latitude": 9.777,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52837",
-        "Owner": "NDBC AOML",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21279,7 +20663,7 @@ const locations = [
         "Longitude": 140.0,
         "Latitude": 7.774,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52838",
-        "Owner": "NDBC AOML",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21290,7 +20674,7 @@ const locations = [
         "Longitude": 143.0,
         "Latitude": 5.758,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52839",
-        "Owner": "NDBC AOML",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21301,7 +20685,7 @@ const locations = [
         "Longitude": 151.0,
         "Latitude": 8.731,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52840",
-        "Owner": "NDBC AOML",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21312,7 +20696,7 @@ const locations = [
         "Longitude": 149.0,
         "Latitude": 5.943,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52841",
-        "Owner": "NDBC AOML",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21323,7 +20707,7 @@ const locations = [
         "Longitude": 150.0,
         "Latitude": 6.759,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52842",
-        "Owner": "NDBC AOML",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21334,7 +20718,7 @@ const locations = [
         "Longitude": 134.0,
         "Latitude": 11.761,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52843",
-        "Owner": "NDBC AOML",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21345,7 +20729,7 @@ const locations = [
         "Longitude": 155.256,
         "Latitude": 16.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52849",
-        "Owner": "NDBC AOML",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21356,7 +20740,7 @@ const locations = [
         "Longitude": 155.104,
         "Latitude": 15.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52901",
-        "Owner": "NDBC AOML",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21367,21 +20751,21 @@ const locations = [
         "Longitude": 164.99,
         "Latitude": -5.373,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=52D06",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "",
         "Longitude": 81.0,
         "Latitude": -8.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=53005",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -21389,7 +20773,7 @@ const locations = [
         "Longitude": 81.0,
         "Latitude": -12.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=53006",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21400,7 +20784,7 @@ const locations = [
         "Longitude": 93.0,
         "Latitude": -12.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=53009",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21411,7 +20795,7 @@ const locations = [
         "Longitude": 95.0,
         "Latitude": -8.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=53040",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21422,7 +20806,7 @@ const locations = [
         "Longitude": 113.607,
         "Latitude": -11.445,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=53046",
-        "Owner": "NDBC Australian Bureau of Meteorology",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21433,7 +20817,7 @@ const locations = [
         "Longitude": 95.0,
         "Latitude": -5.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=53056",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21444,7 +20828,7 @@ const locations = [
         "Longitude": 90.0,
         "Latitude": -2.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=53057",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21455,32 +20839,32 @@ const locations = [
         "Longitude": 91.899,
         "Latitude": 0.05,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=53401",
-        "Owner": "NDBC Indonesian Agency for Assessment and Application of Technology (BPPT)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "NZC - Offshore Gisborne Hikurangi",
         "Longitude": 180.203,
         "Latitude": -38.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=5401000",
-        "Owner": "NDBC New Zealand National Emergency Management Agency by Te Pu Ao GNS Science and NIWA Taihoro Nukurangi",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "NZE - Offshore East Cape Kermadec",
         "Longitude": 182.292,
         "Latitude": -36.049,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=5401001",
-        "Owner": "NDBC New Zealand National Emergency Management Agency by Te Pu Ao GNS Science and NIWA Taihoro Nukurangi",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -21488,7 +20872,7 @@ const locations = [
         "Longitude": 184.988,
         "Latitude": -29.683,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=5401002",
-        "Owner": "NDBC New Zealand National Emergency Management Agency by Te Pu Ao GNS Science and NIWA Taihoro Nukurangi",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21499,7 +20883,7 @@ const locations = [
         "Longitude": 186.598,
         "Latitude": -23.352,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=5401003",
-        "Owner": "NDBC New Zealand National Emergency Management Agency by Te Pu Ao GNS Science and NIWA Taihoro Nukurangi",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21510,7 +20894,7 @@ const locations = [
         "Longitude": 188.137,
         "Latitude": -20.088,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=5401004",
-        "Owner": "NDBC New Zealand National Emergency Management Agency by Te Pu Ao GNS Science and NIWA Taihoro Nukurangi",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21521,7 +20905,7 @@ const locations = [
         "Longitude": 188.809,
         "Latitude": -16.889,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=5401005",
-        "Owner": "NDBC New Zealand National Emergency Management Agency by Te Pu Ao GNS Science and NIWA Taihoro Nukurangi",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21532,7 +20916,7 @@ const locations = [
         "Longitude": 186.845,
         "Latitude": -33.109,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=54401",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21543,7 +20927,7 @@ const locations = [
         "Longitude": 176.911,
         "Latitude": -42.371,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=5501002",
-        "Owner": "NDBC New Zealand National Emergency Management Agency by Te Pu Ao GNS Science and NIWA Taihoro Nukurangi",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21554,7 +20938,7 @@ const locations = [
         "Longitude": 179.096,
         "Latitude": -40.599,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=5501003",
-        "Owner": "NDBC New Zealand National Emergency Management Agency by Te Pu Ao GNS Science and NIWA Taihoro Nukurangi",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21565,7 +20949,7 @@ const locations = [
         "Longitude": 178.604,
         "Latitude": -36.1,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=5501004",
-        "Owner": "NDBC New Zealand National Emergency Management Agency by Te Pu Ao GNS Science and NIWA Taihoro Nukurangi",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21576,7 +20960,7 @@ const locations = [
         "Longitude": 163.955,
         "Latitude": -26.667,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=5501005",
-        "Owner": "NDBC New Zealand National Emergency Management Agency by Te Pu Ao GNS Science and NIWA Taihoro Nukurangi",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21587,7 +20971,7 @@ const locations = [
         "Longitude": 169.499,
         "Latitude": -24.309,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=5501006",
-        "Owner": "NDBC New Zealand National Emergency Management Agency by Te Pu Ao GNS Science and NIWA Taihoro Nukurangi",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21598,7 +20982,7 @@ const locations = [
         "Longitude": 166.782,
         "Latitude": -19.31,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=5501007",
-        "Owner": "NDBC New Zealand National Emergency Management Agency by Te Pu Ao GNS Science and NIWA Taihoro Nukurangi",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21609,7 +20993,7 @@ const locations = [
         "Longitude": 158.453,
         "Latitude": -15.664,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=55012",
-        "Owner": "NDBC Australian Bureau of Meteorology",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21620,21 +21004,21 @@ const locations = [
         "Longitude": 161.001,
         "Latitude": -46.665,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=55013",
-        "Owner": "NDBC Australian Bureau of Meteorology",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "TASMAN SEA 1     -     1110km ESE of Hobart",
         "Longitude": 160.343,
         "Latitude": -46.956,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=55015",
-        "Owner": "NDBC Australian Bureau of Meteorology",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -21642,7 +21026,7 @@ const locations = [
         "Longitude": 176.0,
         "Latitude": -26.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=55016",
-        "Owner": "NDBC Australian Bureau of Meteorology",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21653,7 +21037,7 @@ const locations = [
         "Longitude": 153.537,
         "Latitude": -14.715,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=55023",
-        "Owner": "NDBC Australian Bureau of Meteorology",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21664,7 +21048,7 @@ const locations = [
         "Longitude": 148.11,
         "Latitude": -38.36,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=55039",
-        "Owner": "NDBC Esso Petroleum, Australia",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21675,7 +21059,7 @@ const locations = [
         "Longitude": 161.7,
         "Latitude": -44.79,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=55042",
-        "Owner": "NDBC Australian Bureau of Meteorology",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21686,7 +21070,7 @@ const locations = [
         "Longitude": 160.562,
         "Latitude": -46.922,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=55401",
-        "Owner": "NDBC Australian Bureau of Meteorology",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21697,7 +21081,7 @@ const locations = [
         "Longitude": 110.028,
         "Latitude": -14.046,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=56001",
-        "Owner": "NDBC Australian Bureau of Meteorology",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21708,7 +21092,7 @@ const locations = [
         "Longitude": 118.073,
         "Latitude": -15.019,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=56003",
-        "Owner": "NDBC Australian Bureau of Meteorology",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21719,7 +21103,7 @@ const locations = [
         "Longitude": 81.0,
         "Latitude": -16.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=56053",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21730,7 +21114,7 @@ const locations = [
         "Longitude": 100.0,
         "Latitude": -25.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=56055",
-        "Owner": "NDBC Research Moored Array for African-Asian-Australian Monsoon Analysis and Prediction",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21741,7 +21125,7 @@ const locations = [
         "Longitude": 7.8,
         "Latitude": 43.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=61001",
-        "Owner": "NDBC Meteo France",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21752,7 +21136,7 @@ const locations = [
         "Longitude": 4.703,
         "Latitude": 42.102,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=61002",
-        "Owner": "NDBC Meteo France",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21763,7 +21147,7 @@ const locations = [
         "Longitude": 355.0,
         "Latitude": 45.23,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62001",
-        "Owner": "NDBC Meteo France",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21774,7 +21158,7 @@ const locations = [
         "Longitude": 357.782,
         "Latitude": 49.082,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62027",
-        "Owner": "NDBC Meteorological Dept, States of Jersey",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21785,7 +21169,7 @@ const locations = [
         "Longitude": 357.7,
         "Latitude": 50.59,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62028",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21796,7 +21180,7 @@ const locations = [
         "Longitude": 347.57,
         "Latitude": 48.72,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62029",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21807,7 +21191,7 @@ const locations = [
         "Longitude": 355.783,
         "Latitude": 50.25,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62030",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21818,7 +21202,7 @@ const locations = [
         "Longitude": 355.6,
         "Latitude": 50.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62050",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21829,7 +21213,7 @@ const locations = [
         "Longitude": 354.4,
         "Latitude": 48.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62052",
-        "Owner": "NDBC Meteo France",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21840,7 +21224,7 @@ const locations = [
         "Longitude": 346.45,
         "Latitude": 51.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62081",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21851,7 +21235,7 @@ const locations = [
         "Longitude": 348.8,
         "Latitude": 53.127,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62090",
-        "Owner": "NDBC Met Eireann",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21862,7 +21246,7 @@ const locations = [
         "Longitude": 354.582,
         "Latitude": 53.469,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62091",
-        "Owner": "NDBC Met Eireann",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21873,7 +21257,7 @@ const locations = [
         "Longitude": 349.67,
         "Latitude": 51.13,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62092",
-        "Owner": "NDBC Met Eireann",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21884,7 +21268,7 @@ const locations = [
         "Longitude": 350.0,
         "Latitude": 55.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62093",
-        "Owner": "NDBC Met Eireann",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21895,7 +21279,7 @@ const locations = [
         "Longitude": 353.58,
         "Latitude": 51.41,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62094",
-        "Owner": "NDBC Met Eireann",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21906,7 +21290,7 @@ const locations = [
         "Longitude": 344.47,
         "Latitude": 53.04,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62095",
-        "Owner": "NDBC Met Eireann",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -21917,7 +21301,7 @@ const locations = [
         "Longitude": 357.1,
         "Latitude": 49.9,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62103",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21928,7 +21312,7 @@ const locations = [
         "Longitude": 348.19,
         "Latitude": 55.41,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62105",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21939,7 +21323,7 @@ const locations = [
         "Longitude": 353.9,
         "Latitude": 50.102,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62107",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21950,21 +21334,21 @@ const locations = [
         "Longitude": 340.5,
         "Latitude": 53.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62108",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "Tartan \"A\" AWS",
         "Longitude": 0.0,
         "Latitude": 58.3,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62114",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -21972,7 +21356,7 @@ const locations = [
         "Longitude": 2.7,
         "Latitude": 53.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62121",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21983,7 +21367,7 @@ const locations = [
         "Longitude": 356.4,
         "Latitude": 53.6,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62124",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -21994,7 +21378,7 @@ const locations = [
         "Longitude": 356.5,
         "Latitude": 53.8,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62125",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22005,7 +21389,7 @@ const locations = [
         "Longitude": 356.4,
         "Latitude": 53.9,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62126",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22016,7 +21400,7 @@ const locations = [
         "Longitude": 0.7,
         "Latitude": 54.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62127",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22027,7 +21411,7 @@ const locations = [
         "Longitude": 1.3,
         "Latitude": 58.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62130",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22038,7 +21422,7 @@ const locations = [
         "Longitude": 1.6,
         "Latitude": 54.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62135",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22049,7 +21433,7 @@ const locations = [
         "Longitude": 2.101,
         "Latitude": 53.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62142",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22060,7 +21444,7 @@ const locations = [
         "Longitude": 1.7,
         "Latitude": 53.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62144",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22071,7 +21455,7 @@ const locations = [
         "Longitude": 2.8,
         "Latitude": 53.102,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62145",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22082,7 +21466,7 @@ const locations = [
         "Longitude": 2.1,
         "Latitude": 57.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62146",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22093,7 +21477,7 @@ const locations = [
         "Longitude": 4.7,
         "Latitude": 55.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62147",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22104,7 +21488,7 @@ const locations = [
         "Longitude": 1.5,
         "Latitude": 53.6,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62148",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22115,7 +21499,7 @@ const locations = [
         "Longitude": 1.1,
         "Latitude": 53.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62149",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22126,7 +21510,7 @@ const locations = [
         "Longitude": 0.7,
         "Latitude": 53.6,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62150",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22137,7 +21521,7 @@ const locations = [
         "Longitude": 351.53,
         "Latitude": 47.55,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62163",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22148,7 +21532,7 @@ const locations = [
         "Longitude": 0.8,
         "Latitude": 57.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62164",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22159,7 +21543,7 @@ const locations = [
         "Longitude": 1.1,
         "Latitude": 54.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62165",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22170,7 +21554,7 @@ const locations = [
         "Longitude": 2.5,
         "Latitude": 53.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62166",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22181,7 +21565,7 @@ const locations = [
         "Longitude": 2.0,
         "Latitude": 51.24,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62170",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22192,7 +21576,7 @@ const locations = [
         "Longitude": 351.4,
         "Latitude": 49.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62298",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22203,7 +21587,7 @@ const locations = [
         "Longitude": 355.58,
         "Latitude": 52.22,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62301",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22214,7 +21598,7 @@ const locations = [
         "Longitude": 354.9,
         "Latitude": 51.602,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62303",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22225,7 +21609,7 @@ const locations = [
         "Longitude": 1.8,
         "Latitude": 51.102,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62304",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22236,7 +21620,7 @@ const locations = [
         "Longitude": 0.0,
         "Latitude": 50.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62305",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22247,7 +21631,7 @@ const locations = [
         "Longitude": 343.5,
         "Latitude": 49.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=62442",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22258,7 +21642,7 @@ const locations = [
         "Longitude": 1.692,
         "Latitude": 61.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=63105",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22269,7 +21653,7 @@ const locations = [
         "Longitude": 1.5,
         "Latitude": 59.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=63110",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22280,7 +21664,7 @@ const locations = [
         "Longitude": 1.0,
         "Latitude": 61.1,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=63112",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22291,7 +21675,7 @@ const locations = [
         "Longitude": 1.708,
         "Latitude": 61.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=63113",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22302,7 +21686,7 @@ const locations = [
         "Longitude": 1.3,
         "Latitude": 61.6,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=63115",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22313,7 +21697,7 @@ const locations = [
         "Longitude": 1.1,
         "Latitude": 61.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=63117",
-        "Owner": "NDBC Private Industry Oil Platform",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22324,7 +21708,7 @@ const locations = [
         "Longitude": 348.21,
         "Latitude": 59.15,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=64045",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22335,7 +21719,7 @@ const locations = [
         "Longitude": 355.833,
         "Latitude": 60.483,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=64046",
-        "Owner": "NDBC UK Met Office",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22346,7 +21730,7 @@ const locations = [
         "Longitude": 139.7,
         "Latitude": 9.9,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=91204",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22357,7 +21741,7 @@ const locations = [
         "Longitude": 145.77,
         "Latitude": 18.13,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=91222",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22368,7 +21752,7 @@ const locations = [
         "Longitude": 162.35,
         "Latitude": 11.43,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=91251",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22379,7 +21763,7 @@ const locations = [
         "Longitude": 149.67,
         "Latitude": 8.6,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=91328",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22390,7 +21774,7 @@ const locations = [
         "Longitude": 153.65,
         "Latitude": 5.28,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=91338",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22401,7 +21785,7 @@ const locations = [
         "Longitude": 155.16,
         "Latitude": 7.63,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=91343",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22412,7 +21796,7 @@ const locations = [
         "Longitude": 160.7,
         "Latitude": 6.21,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=91352",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22423,7 +21807,7 @@ const locations = [
         "Longitude": 162.96,
         "Latitude": 5.36,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=91355",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22434,7 +21818,7 @@ const locations = [
         "Longitude": 165.75,
         "Latitude": 8.93,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=91365",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22445,7 +21829,7 @@ const locations = [
         "Longitude": 171.2,
         "Latitude": 8.7,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=91374",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22456,7 +21840,7 @@ const locations = [
         "Longitude": 172.1,
         "Latitude": 6.1,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=91377",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22467,7 +21851,7 @@ const locations = [
         "Longitude": 137.5,
         "Latitude": 8.3,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=91411",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22478,7 +21862,7 @@ const locations = [
         "Longitude": 168.7,
         "Latitude": 4.6,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=91442",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22489,7 +21873,7 @@ const locations = [
         "Longitude": 237.7,
         "Latitude": 37.772,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=AAMC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22500,7 +21884,7 @@ const locations = [
         "Longitude": 284.067,
         "Latitude": 44.333,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ABAN6",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22511,7 +21895,7 @@ const locations = [
         "Longitude": 225.354,
         "Latitude": 58.381,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ABYA2",
-        "Owner": "NDBC NWS Alaska Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22522,7 +21906,7 @@ const locations = [
         "Longitude": 279.587,
         "Latitude": 32.664,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ACFS1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22533,7 +21917,7 @@ const locations = [
         "Longitude": 285.58,
         "Latitude": 39.38,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ACMN4",
-        "Owner": "NDBC Stevens",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22544,7 +21928,7 @@ const locations = [
         "Longitude": 279.64300000000003,
         "Latitude": 32.523,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ACQS1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22555,7 +21939,7 @@ const locations = [
         "Longitude": 279.546,
         "Latitude": 32.559,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ACXS1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22566,7 +21950,7 @@ const locations = [
         "Longitude": 285.582,
         "Latitude": 39.357,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ACYN4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22577,7 +21961,7 @@ const locations = [
         "Longitude": 274.942,
         "Latitude": 29.675,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ADBF1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22588,7 +21972,7 @@ const locations = [
         "Longitude": 183.363,
         "Latitude": 51.861,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ADKA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22599,7 +21983,7 @@ const locations = [
         "Longitude": 277.473,
         "Latitude": 42.621,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=AGCM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22610,7 +21994,7 @@ const locations = [
         "Longitude": 272.567,
         "Latitude": 44.608,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=AGMW3",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22621,7 +22005,7 @@ const locations = [
         "Longitude": 241.75400000000002,
         "Latitude": 33.716,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=AGXC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22632,7 +22016,7 @@ const locations = [
         "Longitude": 225.602,
         "Latitude": 58.287,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=AJXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22643,7 +22027,7 @@ const locations = [
         "Longitude": 194.218,
         "Latitude": 54.132,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=AKXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22654,7 +22038,7 @@ const locations = [
         "Longitude": 205.753,
         "Latitude": 56.898,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ALIA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22665,7 +22049,7 @@ const locations = [
         "Longitude": 279.4,
         "Latitude": 24.9,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ALRF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22676,7 +22060,7 @@ const locations = [
         "Longitude": 286.2,
         "Latitude": 40.45,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ALSN6",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22687,7 +22071,7 @@ const locations = [
         "Longitude": 284.06600000000003,
         "Latitude": 44.331,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ALXN6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22698,7 +22082,7 @@ const locations = [
         "Longitude": 208.048,
         "Latitude": 58.915,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=AMAA2",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22709,7 +22093,7 @@ const locations = [
         "Longitude": 268.66200000000003,
         "Latitude": 29.45,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=AMRL1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22720,7 +22104,7 @@ const locations = [
         "Longitude": 277.211,
         "Latitude": 28.193,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ANCF1",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22731,7 +22115,7 @@ const locations = [
         "Longitude": 277.26099999999997,
         "Latitude": 27.538,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ANMF1",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22742,7 +22126,7 @@ const locations = [
         "Longitude": 286.08299999999997,
         "Latitude": 42.018,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ANMN6",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22753,7 +22137,7 @@ const locations = [
         "Longitude": 262.961,
         "Latitude": 27.837,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ANPT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22764,7 +22148,7 @@ const locations = [
         "Longitude": 286.074,
         "Latitude": 42.027,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ANRN6",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22775,7 +22159,7 @@ const locations = [
         "Longitude": 210.11,
         "Latitude": 61.238,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ANTA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22786,7 +22170,7 @@ const locations = [
         "Longitude": 236.289,
         "Latitude": 38.915,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ANVC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22797,7 +22181,7 @@ const locations = [
         "Longitude": 283.521,
         "Latitude": 38.983,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=APAM2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22808,7 +22192,7 @@ const locations = [
         "Longitude": 275.02,
         "Latitude": 29.724,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=APCF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22819,7 +22203,7 @@ const locations = [
         "Longitude": 210.113,
         "Latitude": 61.238,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=APMA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22830,7 +22214,7 @@ const locations = [
         "Longitude": 276.576,
         "Latitude": 45.06,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=APNM4",
-        "Owner": "NDBC GLERL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22841,7 +22225,7 @@ const locations = [
         "Longitude": 275.125,
         "Latitude": 29.786,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=APQF1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22852,7 +22236,7 @@ const locations = [
         "Longitude": 144.657,
         "Latitude": 13.444,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=APRP7",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22863,7 +22247,7 @@ const locations = [
         "Longitude": 208.132,
         "Latitude": 59.77,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=APXA2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22874,7 +22258,7 @@ const locations = [
         "Longitude": 275.119,
         "Latitude": 29.769,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=APXF1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22885,7 +22269,7 @@ const locations = [
         "Longitude": 293.298,
         "Latitude": 18.48,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=AROP4",
-        "Owner": "NDBC Puerto Rico Seismic Network",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22896,7 +22280,7 @@ const locations = [
         "Longitude": 277.33299999999997,
         "Latitude": 28.433,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ARPF1",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22907,7 +22291,7 @@ const locations = [
         "Longitude": 279.204,
         "Latitude": 41.918,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ASBO1",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22918,7 +22302,7 @@ const locations = [
         "Longitude": 236.232,
         "Latitude": 46.207,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ASTO3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22929,7 +22313,7 @@ const locations = [
         "Longitude": 291.796,
         "Latitude": 44.392,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ATGM1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22940,7 +22324,7 @@ const locations = [
         "Longitude": 185.827,
         "Latitude": 52.232,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ATKA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22951,7 +22335,7 @@ const locations = [
         "Longitude": 292.835,
         "Latitude": 18.457,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=AUDP4",
-        "Owner": "NDBC Puerto Rico Seismic Network",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22962,7 +22346,7 @@ const locations = [
         "Longitude": 206.652,
         "Latitude": 59.378,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=AUGA2",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22973,7 +22357,7 @@ const locations = [
         "Longitude": 285.28,
         "Latitude": 39.09,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=AVAN4",
-        "Owner": "NDBC Stevens",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -22984,7 +22368,7 @@ const locations = [
         "Longitude": 263.204,
         "Latitude": 28.227,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=AWRT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -22995,7 +22379,7 @@ const locations = [
         "Longitude": 262.595,
         "Latitude": 27.297,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BABT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23006,7 +22390,7 @@ const locations = [
         "Longitude": 298.179,
         "Latitude": 17.591,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BARA9",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23017,7 +22401,7 @@ const locations = [
         "Longitude": 280.405,
         "Latitude": 42.345,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BARN6",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23028,7 +22412,7 @@ const locations = [
         "Longitude": 285.986,
         "Latitude": 40.701,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BATN6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23039,21 +22423,21 @@ const locations = [
         "Longitude": 241.76,
         "Latitude": 33.766,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BAXC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "BBCW8",
         "Longitude": 279.694,
         "Latitude": 25.601,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BBNF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -23061,7 +22445,7 @@ const locations = [
         "Longitude": 279.651,
         "Latitude": 25.472,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BBSF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23072,7 +22456,7 @@ const locations = [
         "Longitude": 285.13,
         "Latitude": 40.082,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BDRN4",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23083,7 +22467,7 @@ const locations = [
         "Longitude": 284.921,
         "Latitude": 39.98,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BDSP1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23094,21 +22478,21 @@ const locations = [
         "Longitude": 279.01099999999997,
         "Latitude": 25.478,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BDVF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "Bodega, CA",
         "Longitude": 236.929,
         "Latitude": 38.317,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BDXC1",
-        "Owner": "NDBC University of California Davis, Bodega Marine Laboratory",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -23116,7 +22500,7 @@ const locations = [
         "Longitude": 279.675,
         "Latitude": 32.504,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BEIS1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23127,7 +22511,7 @@ const locations = [
         "Longitude": 295.299,
         "Latitude": 32.374,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BEPB6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23138,7 +22522,7 @@ const locations = [
         "Longitude": 198.251,
         "Latitude": 60.791,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BEXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23149,7 +22533,7 @@ const locations = [
         "Longitude": 283.329,
         "Latitude": 34.717,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BFTN7",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23160,7 +22544,7 @@ const locations = [
         "Longitude": 278.119,
         "Latitude": 26.404,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BGCF1",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23171,7 +22555,7 @@ const locations = [
         "Longitude": 285.854,
         "Latitude": 40.639,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BGNN6",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23182,7 +22566,7 @@ const locations = [
         "Longitude": 289.17,
         "Latitude": 43.059,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BGXN3",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23193,7 +22577,7 @@ const locations = [
         "Longitude": 288.95,
         "Latitude": 42.355,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BHBM3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23204,7 +22588,7 @@ const locations = [
         "Longitude": 286.815,
         "Latitude": 41.175,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BHRC3",
-        "Owner": "NDBC Long Island Ferry",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23215,7 +22599,7 @@ const locations = [
         "Longitude": 272.853,
         "Latitude": 41.646,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BHRI3",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23226,7 +22610,7 @@ const locations = [
         "Longitude": 272.273,
         "Latitude": 46.827,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BIGM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23237,7 +22621,7 @@ const locations = [
         "Longitude": 267.93600000000004,
         "Latitude": 46.722,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BILW3",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23248,7 +22632,7 @@ const locations = [
         "Longitude": 283.961,
         "Latitude": 38.22,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BISM2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23259,7 +22643,7 @@ const locations = [
         "Longitude": 278.308,
         "Latitude": 30.192,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BKBF1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23270,7 +22654,7 @@ const locations = [
         "Longitude": 266.699,
         "Latitude": 30.19,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BKTL1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23281,7 +22665,7 @@ const locations = [
         "Longitude": 279.166,
         "Latitude": 25.119,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BKYF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23292,7 +22676,7 @@ const locations = [
         "Longitude": 213.116,
         "Latitude": 60.839,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BLIA2",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23303,7 +22687,7 @@ const locations = [
         "Longitude": 278.477,
         "Latitude": 30.393,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BLIF1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23314,7 +22698,7 @@ const locations = [
         "Longitude": 224.111,
         "Latitude": 58.455,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BLTA2",
-        "Owner": "NDBC NWS Alaska Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23325,7 +22709,7 @@ const locations = [
         "Longitude": 283.421,
         "Latitude": 39.267,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BLTM2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23336,7 +22720,7 @@ const locations = [
         "Longitude": 288.826,
         "Latitude": 41.704,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BLTM3",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23347,7 +22731,7 @@ const locations = [
         "Longitude": 237.374,
         "Latitude": 47.562,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BMTW1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23358,7 +22742,7 @@ const locations = [
         "Longitude": 279.481,
         "Latitude": 25.087,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BNKF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23369,7 +22753,7 @@ const locations = [
         "Longitude": 279.319,
         "Latitude": 25.027,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BOBF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23380,7 +22764,7 @@ const locations = [
         "Longitude": 277.429,
         "Latitude": 27.608,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BPHF1",
-        "Owner": "NDBC Terra Ceia Aquatic Preserve",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23391,7 +22775,7 @@ const locations = [
         "Longitude": 285.8,
         "Latitude": 39.61,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BRBN4",
-        "Owner": "NDBC Stevens",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23402,7 +22786,7 @@ const locations = [
         "Longitude": 286.819,
         "Latitude": 41.174,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BRHC3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23413,7 +22797,7 @@ const locations = [
         "Longitude": 283.286,
         "Latitude": 38.781,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BRIM2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23424,7 +22808,7 @@ const locations = [
         "Longitude": 284.887,
         "Latitude": 38.987,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BRND1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23435,7 +22819,7 @@ const locations = [
         "Longitude": 273.486,
         "Latitude": 44.055,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BSBM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23446,21 +22830,21 @@ const locations = [
         "Longitude": 272.171,
         "Latitude": 30.329,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BSCA1",
-        "Owner": "NDBC Dauphin Island Sea Lab",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "Big Sable Creek, FL",
         "Longitude": 278.83799999999997,
         "Latitude": 25.266,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BSKF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -23468,7 +22852,7 @@ const locations = [
         "Longitude": 283.29200000000003,
         "Latitude": 38.781,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BSLM2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23479,7 +22863,7 @@ const locations = [
         "Longitude": 284.954,
         "Latitude": 38.537,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BTHD1",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23490,7 +22874,7 @@ const locations = [
         "Longitude": 281.11,
         "Latitude": 42.878,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BUFN6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23501,7 +22885,7 @@ const locations = [
         "Longitude": 270.571,
         "Latitude": 28.906,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BURL1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23512,7 +22896,7 @@ const locations = [
         "Longitude": 269.1,
         "Latitude": 27.883,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BUSL1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23523,7 +22907,7 @@ const locations = [
         "Longitude": 288.967,
         "Latitude": 41.397,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BUZM3",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23534,7 +22918,7 @@ const locations = [
         "Longitude": 237.499,
         "Latitude": 48.496,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BVQW1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23545,7 +22929,7 @@ const locations = [
         "Longitude": 279.562,
         "Latitude": 25.178,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BWSF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23556,7 +22940,7 @@ const locations = [
         "Longitude": 269.58,
         "Latitude": 29.789,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BYGL1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23567,7 +22951,7 @@ const locations = [
         "Longitude": 289.329,
         "Latitude": 41.524,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BZBM3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23578,7 +22962,7 @@ const locations = [
         "Longitude": 262.845,
         "Latitude": 26.067,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=BZST2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23589,7 +22973,7 @@ const locations = [
         "Longitude": 272.437,
         "Latitude": 44.146,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=C58W3",
-        "Owner": "NDBC U.S.C.G. Marine Reporting Stations",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23600,7 +22984,7 @@ const locations = [
         "Longitude": 277.351,
         "Latitude": 27.765,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CAMF1",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23611,7 +22995,7 @@ const locations = [
         "Longitude": 283.931,
         "Latitude": 38.574,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CAMM2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23622,7 +23006,7 @@ const locations = [
         "Longitude": 279.058,
         "Latitude": 25.422,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CANF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23633,7 +23017,7 @@ const locations = [
         "Longitude": 266.657,
         "Latitude": 29.768,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CAPL1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23644,7 +23028,7 @@ const locations = [
         "Longitude": 269.865,
         "Latitude": 29.933,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CARL1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23655,7 +23039,7 @@ const locations = [
         "Longitude": 235.625,
         "Latitude": 43.342,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CARO3",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23666,7 +23050,7 @@ const locations = [
         "Longitude": 289.754,
         "Latitude": 43.656,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CASM1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23677,7 +23061,7 @@ const locations = [
         "Longitude": 283.66700000000003,
         "Latitude": 44.13,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CAVN6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23688,7 +23072,7 @@ const locations = [
         "Longitude": 283.88599999999997,
         "Latitude": 36.967,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CBBV2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23699,7 +23083,7 @@ const locations = [
         "Longitude": 283.46,
         "Latitude": 39.223,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CBCM2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23710,7 +23094,7 @@ const locations = [
         "Longitude": 283.549,
         "Latitude": 38.317,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CBIM2",
-        "Owner": "NDBC Chesapeake Biological Lab",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23721,7 +23105,7 @@ const locations = [
         "Longitude": 279.444,
         "Latitude": 41.981,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CBLO1",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23732,7 +23116,7 @@ const locations = [
         "Longitude": 272.64,
         "Latitude": 45.198,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CBRW3",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23743,7 +23127,7 @@ const locations = [
         "Longitude": 277.382,
         "Latitude": 27.663,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CCUF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23754,7 +23138,7 @@ const locations = [
         "Longitude": 277.486,
         "Latitude": 27.754,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CDCF1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23765,7 +23149,7 @@ const locations = [
         "Longitude": 225.864,
         "Latitude": 56.001,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CDEA2",
-        "Owner": "NDBC NWS Alaska Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23776,7 +23160,7 @@ const locations = [
         "Longitude": 276.971,
         "Latitude": 29.136,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CDRF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23787,7 +23171,7 @@ const locations = [
         "Longitude": 225.864,
         "Latitude": 56.001,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CDXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23798,7 +23182,7 @@ const locations = [
         "Longitude": 235.816,
         "Latitude": 41.746,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CECC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23809,7 +23193,7 @@ const locations = [
         "Longitude": 292.795,
         "Latitude": 44.657,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CFWM1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23820,7 +23204,7 @@ const locations = [
         "Longitude": 270.944,
         "Latitude": 28.791,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CGCL1",
-        "Owner": "NDBC Shell Oil",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23831,7 +23215,7 @@ const locations = [
         "Longitude": 235.663,
         "Latitude": 43.351,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CHAO3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23842,7 +23226,7 @@ const locations = [
         "Longitude": 295.08,
         "Latitude": 18.335,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CHAV3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23853,7 +23237,7 @@ const locations = [
         "Longitude": 283.91700000000003,
         "Latitude": 37.032,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CHBV2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23864,7 +23248,7 @@ const locations = [
         "Longitude": 284.19,
         "Latitude": 39.527,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CHCM2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23875,7 +23259,7 @@ const locations = [
         "Longitude": 277.801,
         "Latitude": 33.661,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CHDS1",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23886,7 +23270,7 @@ const locations = [
         "Longitude": 272.428,
         "Latitude": 41.916,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CHII2",
-        "Owner": "NDBC GLERL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23897,7 +23281,7 @@ const locations = [
         "Longitude": 284.28700000000003,
         "Latitude": 36.905,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CHLV2",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23908,7 +23292,7 @@ const locations = [
         "Longitude": 235.671,
         "Latitude": 43.345,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CHNO3",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -23919,7 +23303,7 @@ const locations = [
         "Longitude": 235.68,
         "Latitude": 43.282,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CHQO3",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23930,7 +23314,7 @@ const locations = [
         "Longitude": 295.301,
         "Latitude": 17.748,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CHSV3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23941,7 +23325,7 @@ const locations = [
         "Longitude": 290.05,
         "Latitude": 41.688,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CHTM3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23952,7 +23336,7 @@ const locations = [
         "Longitude": 280.076,
         "Latitude": 32.781,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CHTS1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23963,7 +23347,7 @@ const locations = [
         "Longitude": 283.993,
         "Latitude": 36.926,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CHYV2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23974,7 +23358,7 @@ const locations = [
         "Longitude": 237.24099999999999,
         "Latitude": 48.863,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CHYW1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23985,7 +23369,7 @@ const locations = [
         "Longitude": 276.969,
         "Latitude": 29.134,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CKYF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -23996,7 +23380,7 @@ const locations = [
         "Longitude": 277.31399999999996,
         "Latitude": 27.736,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CLBF1",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24007,7 +23391,7 @@ const locations = [
         "Longitude": 294.698,
         "Latitude": 18.301,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CLBP4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24018,7 +23402,7 @@ const locations = [
         "Longitude": 283.475,
         "Latitude": 34.622,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CLKN7",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24029,7 +23413,7 @@ const locations = [
         "Longitude": 264.933,
         "Latitude": 29.563,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CLLT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24040,7 +23424,7 @@ const locations = [
         "Longitude": 277.123,
         "Latitude": 42.471,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CLSM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24051,7 +23435,7 @@ const locations = [
         "Longitude": 285.04,
         "Latitude": 38.968,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CMAN4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24062,7 +23446,7 @@ const locations = [
         "Longitude": 289.3,
         "Latitude": 43.07,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CMLN3",
-        "Owner": "NDBC University of New Hampshire",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24073,7 +23457,7 @@ const locations = [
         "Longitude": 276.985,
         "Latitude": 41.547,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CMPO1",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24084,7 +23468,7 @@ const locations = [
         "Longitude": 272.462,
         "Latitude": 41.73,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CMTI2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24095,7 +23479,7 @@ const locations = [
         "Longitude": 278.81399999999996,
         "Latitude": 25.702,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CNBF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24106,7 +23490,7 @@ const locations = [
         "Longitude": 278.363,
         "Latitude": 41.542,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CNDO1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24117,7 +23501,7 @@ const locations = [
         "Longitude": 272.391,
         "Latitude": 41.856,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CNII2",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24128,7 +23512,7 @@ const locations = [
         "Longitude": 283.615,
         "Latitude": 38.402,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=COVM2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24139,7 +23523,7 @@ const locations = [
         "Longitude": 214.234,
         "Latitude": 60.542,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=COXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24150,7 +23534,7 @@ const locations = [
         "Longitude": 237.244,
         "Latitude": 48.86,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CPMW1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24161,7 +23545,7 @@ const locations = [
         "Longitude": 262.976,
         "Latitude": 28.114,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CPNT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24172,7 +23556,7 @@ const locations = [
         "Longitude": 237.24200000000002,
         "Latitude": 48.863,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CPNW1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24183,7 +23567,7 @@ const locations = [
         "Longitude": 199.858,
         "Latitude": 56.397,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CPSA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24194,7 +23578,7 @@ const locations = [
         "Longitude": 288.655,
         "Latitude": 41.717,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CPTR1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24205,7 +23589,7 @@ const locations = [
         "Longitude": 283.61199999999997,
         "Latitude": 38.995,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CPVM2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24216,7 +23600,7 @@ const locations = [
         "Longitude": 193.417,
         "Latitude": 53.843,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CPXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24227,7 +23611,7 @@ const locations = [
         "Longitude": 239.25900000000001,
         "Latitude": 35.17,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CPXC1",
-        "Owner": "NDBC California Polytechnic State University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24238,7 +23622,7 @@ const locations = [
         "Longitude": 237.76999999999998,
         "Latitude": 38.066,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CQUC1",
-        "Owner": "NDBC Central and Northern California Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24249,7 +23633,7 @@ const locations = [
         "Longitude": 226.864,
         "Latitude": 55.474,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CRGA2",
-        "Owner": "NDBC NWS Alaska Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24260,7 +23644,7 @@ const locations = [
         "Longitude": 271.86,
         "Latitude": 30.308,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CRTA1",
-        "Owner": "NDBC Dauphin Island Sea Lab",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24271,7 +23655,7 @@ const locations = [
         "Longitude": 214.248,
         "Latitude": 60.558,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CRVA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24282,7 +23666,7 @@ const locations = [
         "Longitude": 283.66200000000003,
         "Latitude": 36.888,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CRYV2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24293,7 +23677,7 @@ const locations = [
         "Longitude": 274.64300000000003,
         "Latitude": 29.672,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CSBF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24304,7 +23688,7 @@ const locations = [
         "Longitude": 223.36,
         "Latitude": 58.199,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CSPA2",
-        "Owner": "NDBC NWS Alaska Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24315,7 +23699,7 @@ const locations = [
         "Longitude": 223.359,
         "Latitude": 58.199,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CSXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24326,7 +23710,7 @@ const locations = [
         "Longitude": 292.703,
         "Latitude": 44.642,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CTGM1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24337,21 +23721,21 @@ const locations = [
         "Longitude": 283.116,
         "Latitude": 37.571,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CVQV2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "Clear Water Pass, FL ",
         "Longitude": 278.98699999999997,
         "Latitude": 25.297,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CWAF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -24359,7 +23743,7 @@ const locations = [
         "Longitude": 277.168,
         "Latitude": 27.978,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CWBF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24370,7 +23754,7 @@ const locations = [
         "Longitude": 274.16700000000003,
         "Latitude": 47.334,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CWCI",
-        "Owner": "NDBC Environment and Climate Change Canada",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24381,7 +23765,7 @@ const locations = [
         "Longitude": 235.679,
         "Latitude": 43.338,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CWQO3",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24392,7 +23776,7 @@ const locations = [
         "Longitude": 262.966,
         "Latitude": 28.132,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CWQT2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24403,10 +23787,21 @@ const locations = [
         "Longitude": 262.799,
         "Latitude": 28.084,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CWWT2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
+    },
+    {
+        "DataType": "Ocean Buoy (Active)",
+        "Name": "Cooperative Oxford Laboratory",
+        "Longitude": 283.826,
+        "Latitude": 38.679,
+        "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CXLM2",
+        "Owner": "NDBC",
+        "State": "",
+        "Country": "",
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -24414,7 +23809,7 @@ const locations = [
         "Longitude": 275.536,
         "Latitude": 45.658,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=CYGM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24425,7 +23820,7 @@ const locations = [
         "Longitude": 280.646,
         "Latitude": 42.494,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DBLN6",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24436,7 +23831,7 @@ const locations = [
         "Longitude": 280.83299999999997,
         "Latitude": 33.36,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DBQS1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24447,7 +23842,7 @@ const locations = [
         "Longitude": 284.411,
         "Latitude": 39.582,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DELD1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24458,7 +23853,7 @@ const locations = [
         "Longitude": 284.501,
         "Latitude": 39.114,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DEQD1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24469,7 +23864,7 @@ const locations = [
         "Longitude": 235.515,
         "Latitude": 47.675,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DESW1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24480,7 +23875,7 @@ const locations = [
         "Longitude": 211.581,
         "Latitude": 70.222,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DHXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24491,7 +23886,7 @@ const locations = [
         "Longitude": 271.925,
         "Latitude": 30.25,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DILA1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24502,7 +23897,7 @@ const locations = [
         "Longitude": 269.272,
         "Latitude": 47.079,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DISW3",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24513,7 +23908,7 @@ const locations = [
         "Longitude": 271.433,
         "Latitude": 30.356,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DKCM6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24524,7 +23919,7 @@ const locations = [
         "Longitude": 279.51,
         "Latitude": 25.18,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DKKF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24535,7 +23930,7 @@ const locations = [
         "Longitude": 237.88299999999998,
         "Latitude": 37.507,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DMBC1",
-        "Owner": "NDBC California State University, East Bay",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24546,7 +23941,7 @@ const locations = [
         "Longitude": 236.04500000000002,
         "Latitude": 46.226,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DMNO3",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24557,7 +23952,7 @@ const locations = [
         "Longitude": 278.44100000000003,
         "Latitude": 30.387,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DMSF1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24568,7 +23963,7 @@ const locations = [
         "Longitude": 283.576,
         "Latitude": 36.962,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DOMV2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24579,7 +23974,7 @@ const locations = [
         "Longitude": 271.922,
         "Latitude": 30.251,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DPHA1",
-        "Owner": "NDBC Dauphin Island Sea Lab",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24590,7 +23985,7 @@ const locations = [
         "Longitude": 271.925,
         "Latitude": 30.25,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DPIA1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24601,7 +23996,7 @@ const locations = [
         "Longitude": 193.469,
         "Latitude": 53.884,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DPLA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24612,7 +24007,7 @@ const locations = [
         "Longitude": 193.472,
         "Latitude": 53.903,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DPOA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24623,7 +24018,7 @@ const locations = [
         "Longitude": 193.458,
         "Latitude": 53.889,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DPXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24634,7 +24029,7 @@ const locations = [
         "Longitude": 237.736,
         "Latitude": 38.056,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DPXC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24645,7 +24040,7 @@ const locations = [
         "Longitude": 207.863,
         "Latitude": 60.553,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DRFA2",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24656,7 +24051,7 @@ const locations = [
         "Longitude": 284.563,
         "Latitude": 39.089,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DRSD1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24667,7 +24062,7 @@ const locations = [
         "Longitude": 277.13800000000003,
         "Latitude": 24.638,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DRYF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24678,7 +24073,7 @@ const locations = [
         "Longitude": 284.703,
         "Latitude": 35.153,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DSLN7",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24689,7 +24084,7 @@ const locations = [
         "Longitude": 276.102,
         "Latitude": 45.993,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DTLM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24700,7 +24095,7 @@ const locations = [
         "Longitude": 284.255,
         "Latitude": 36.184,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DUCN7",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24711,7 +24106,7 @@ const locations = [
         "Longitude": 284.254,
         "Latitude": 36.184,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DUKN7",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24722,7 +24117,7 @@ const locations = [
         "Longitude": 267.908,
         "Latitude": 46.776,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=DULM5",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24733,7 +24128,7 @@ const locations = [
         "Longitude": 238.24599999999998,
         "Latitude": 36.846,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EAZC1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24744,7 +24139,7 @@ const locations = [
         "Longitude": 286.5,
         "Latitude": 36.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EB01",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24755,7 +24150,7 @@ const locations = [
         "Longitude": 272.0,
         "Latitude": 27.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EB10",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24766,7 +24161,7 @@ const locations = [
         "Longitude": 274.0,
         "Latitude": 27.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EB31",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24777,7 +24172,7 @@ const locations = [
         "Longitude": 275.7,
         "Latitude": 27.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EB32",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24788,7 +24183,7 @@ const locations = [
         "Longitude": 219.0,
         "Latitude": 58.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EB33",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24799,7 +24194,7 @@ const locations = [
         "Longitude": 203.0,
         "Latitude": 55.3,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EB35",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24810,7 +24205,7 @@ const locations = [
         "Longitude": 275.2,
         "Latitude": 26.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EB36",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24821,7 +24216,7 @@ const locations = [
         "Longitude": 218.0,
         "Latitude": 59.8,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EB43",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24832,7 +24227,7 @@ const locations = [
         "Longitude": 285.7,
         "Latitude": 38.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EB52",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24843,7 +24238,7 @@ const locations = [
         "Longitude": 271.7,
         "Latitude": 28.9,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EB53",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24854,7 +24249,7 @@ const locations = [
         "Longitude": 275.4,
         "Latitude": 26.9,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EB61",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24865,7 +24260,7 @@ const locations = [
         "Longitude": 274.4,
         "Latitude": 29.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EB62",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24876,7 +24271,7 @@ const locations = [
         "Longitude": 217.7,
         "Latitude": 59.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EB70",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24887,7 +24282,7 @@ const locations = [
         "Longitude": 229.1,
         "Latitude": 47.0,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EB90",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24898,7 +24293,7 @@ const locations = [
         "Longitude": 270.0,
         "Latitude": 28.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EB92",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24909,7 +24304,7 @@ const locations = [
         "Longitude": 277.579,
         "Latitude": 27.923,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EBEF1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24920,7 +24315,7 @@ const locations = [
         "Longitude": 237.662,
         "Latitude": 47.602,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EBSW1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24931,7 +24326,7 @@ const locations = [
         "Longitude": 271.99,
         "Latitude": 30.429,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EFLA1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24942,7 +24337,7 @@ const locations = [
         "Longitude": 277.241,
         "Latitude": 27.601,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EGKF1",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -24953,7 +24348,7 @@ const locations = [
         "Longitude": 238.262,
         "Latitude": 36.835,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EHSC1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24964,7 +24359,7 @@ const locations = [
         "Longitude": 268.616,
         "Latitude": 29.373,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EINL1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24975,7 +24370,7 @@ const locations = [
         "Longitude": 223.653,
         "Latitude": 58.193,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ELFA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24986,7 +24381,7 @@ const locations = [
         "Longitude": 238.261,
         "Latitude": 36.818,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ELQC1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -24997,7 +24392,7 @@ const locations = [
         "Longitude": 238.262,
         "Latitude": 36.815,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ELXC1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25008,7 +24403,7 @@ const locations = [
         "Longitude": 264.086,
         "Latitude": 28.71,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EMAT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25019,7 +24414,7 @@ const locations = [
         "Longitude": 265.08299999999997,
         "Latitude": 29.481,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EPTT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25030,7 +24425,7 @@ const locations = [
         "Longitude": 279.902,
         "Latitude": 42.172,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EREP1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25041,7 +24436,7 @@ const locations = [
         "Longitude": 235.804,
         "Latitude": 40.778,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ERKC1",
-        "Owner": "NDBC Humboldt State University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25052,7 +24447,7 @@ const locations = [
         "Longitude": 224.779,
         "Latitude": 58.971,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EROA2",
-        "Owner": "NDBC NWS Alaska Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25063,7 +24458,7 @@ const locations = [
         "Longitude": 277.558,
         "Latitude": 27.92,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ERTF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25074,7 +24469,7 @@ const locations = [
         "Longitude": 224.779,
         "Latitude": 58.971,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ERXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25085,21 +24480,21 @@ const locations = [
         "Longitude": 294.529,
         "Latitude": 18.094,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ESPP4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "Vierra Mouth, Elkhorn Slough Reserve, CA",
         "Longitude": 238.221,
         "Latitude": 36.811,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=EVMC1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -25107,7 +24502,7 @@ const locations = [
         "Longitude": 278.719,
         "Latitude": 41.764,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FAIO1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25118,7 +24513,7 @@ const locations = [
         "Longitude": 144.583,
         "Latitude": 8.583,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FARP2",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25129,7 +24524,7 @@ const locations = [
         "Longitude": 280.11199999999997,
         "Latitude": 32.685,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FBIS1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25140,7 +24535,7 @@ const locations = [
         "Longitude": 280.062,
         "Latitude": 32.652,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FBPS1",
-        "Owner": "NDBC South Carolina Nearshore Monitoring System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25151,7 +24546,7 @@ const locations = [
         "Longitude": 264.698,
         "Latitude": 28.943,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FCGT2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25162,7 +24557,7 @@ const locations = [
         "Longitude": 237.96699999999998,
         "Latitude": 38.195,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FFFC1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25173,7 +24568,7 @@ const locations = [
         "Longitude": 226.37,
         "Latitude": 57.272,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FFIA2",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25184,7 +24579,7 @@ const locations = [
         "Longitude": 266.33,
         "Latitude": 28.118,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FGBL1",
-        "Owner": "NDBC Mariner Energy Inc.",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25195,7 +24590,7 @@ const locations = [
         "Longitude": 277.199,
         "Latitude": 28.153,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FHPF1",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25204,9 +24599,9 @@ const locations = [
         "DataType": "Ocean Buoy (Active)",
         "Name": "Flat Island Light, AK",
         "Longitude": 208.005,
-        "Latitude": 59.332,
+        "Latitude": 59.331,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FILA2",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25217,7 +24612,7 @@ const locations = [
         "Longitude": 286.211,
         "Latitude": 42.354,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FLQN6",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25228,7 +24623,7 @@ const locations = [
         "Longitude": 280.101,
         "Latitude": 32.753,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FMNS1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25239,7 +24634,7 @@ const locations = [
         "Longitude": 271.976,
         "Latitude": 30.228,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FMOA1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25250,7 +24645,7 @@ const locations = [
         "Longitude": 278.129,
         "Latitude": 26.647,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FMRF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25261,7 +24656,7 @@ const locations = [
         "Longitude": 288.599,
         "Latitude": 41.807,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FOXR1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25272,7 +24667,7 @@ const locations = [
         "Longitude": 279.097,
         "Latitude": 32.035,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FPKG1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25283,7 +24678,7 @@ const locations = [
         "Longitude": 282.40999999999997,
         "Latitude": 33.485,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FPSN7",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25294,21 +24689,21 @@ const locations = [
         "Longitude": 264.706,
         "Latitude": 28.936,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FPST2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "Fairport, MI",
         "Longitude": 273.34000000000003,
         "Latitude": 45.619,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FPTM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -25316,7 +24711,7 @@ const locations = [
         "Longitude": 264.692,
         "Latitude": 28.948,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FPTT2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25327,7 +24722,7 @@ const locations = [
         "Longitude": 237.534,
         "Latitude": 37.807,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FPXC1",
-        "Owner": "NDBC University of California Davis, Bodega Marine Laboratory",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25338,7 +24733,7 @@ const locations = [
         "Longitude": 295.305,
         "Latitude": 32.37,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FRCB6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25349,7 +24744,7 @@ const locations = [
         "Longitude": 278.53499999999997,
         "Latitude": 30.675,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FRDF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25360,7 +24755,7 @@ const locations = [
         "Longitude": 294.369,
         "Latitude": 18.335,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FRDP4",
-        "Owner": "NDBC Puerto Rico Seismic Network",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25371,7 +24766,7 @@ const locations = [
         "Longitude": 236.988,
         "Latitude": 48.545,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FRDW1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25382,7 +24777,7 @@ const locations = [
         "Longitude": 269.578,
         "Latitude": 30.106,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FREL1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25393,7 +24788,7 @@ const locations = [
         "Longitude": 284.26099999999997,
         "Latitude": 36.19,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FRFN7",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25404,7 +24799,7 @@ const locations = [
         "Longitude": 277.448,
         "Latitude": 27.591,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FRKF1",
-        "Owner": "NDBC Terra Ceia Aquatic Preserve",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25415,7 +24810,7 @@ const locations = [
         "Longitude": 272.006,
         "Latitude": 30.234,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FRMA1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25426,7 +24821,7 @@ const locations = [
         "Longitude": 279.54,
         "Latitude": 32.34,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FRPS1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25437,7 +24832,7 @@ const locations = [
         "Longitude": 288.836,
         "Latitude": 41.704,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FRVM3",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25448,7 +24843,7 @@ const locations = [
         "Longitude": 267.695,
         "Latitude": 29.552,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FRWL1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25459,7 +24854,7 @@ const locations = [
         "Longitude": 288.82,
         "Latitude": 41.696,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FRXM3",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25470,7 +24865,7 @@ const locations = [
         "Longitude": 283.472,
         "Latitude": 39.219,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FSKM2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25481,7 +24876,7 @@ const locations = [
         "Longitude": 283.475,
         "Latitude": 39.219,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FSNM2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25492,7 +24887,7 @@ const locations = [
         "Longitude": 272.352,
         "Latitude": 41.976,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FSTI2",
-        "Owner": "NDBC Chicago Park District",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25503,7 +24898,7 @@ const locations = [
         "Longitude": 277.578,
         "Latitude": 43.007,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FTGM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25514,7 +24909,7 @@ const locations = [
         "Longitude": 237.534,
         "Latitude": 37.806,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FTPC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25525,7 +24920,7 @@ const locations = [
         "Longitude": 286.828,
         "Latitude": 41.15,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FWIC3",
-        "Owner": "NDBC Long Island Ferry",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25536,7 +24931,7 @@ const locations = [
         "Longitude": 279.903,
         "Latitude": 25.591,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=FWYF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25547,7 +24942,7 @@ const locations = [
         "Longitude": 266.9,
         "Latitude": 27.8,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GBCL1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25558,7 +24953,7 @@ const locations = [
         "Longitude": 271.56399999999996,
         "Latitude": 30.384,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GBCM6",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25569,7 +24964,7 @@ const locations = [
         "Longitude": 271.595,
         "Latitude": 30.418,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GBHM6",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25580,7 +24975,7 @@ const locations = [
         "Longitude": 278.971,
         "Latitude": 25.378,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GBIF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25591,7 +24986,7 @@ const locations = [
         "Longitude": 272.099,
         "Latitude": 44.653,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GBLW3",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25602,7 +24997,7 @@ const locations = [
         "Longitude": 289.06600000000003,
         "Latitude": 43.08,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GBQN3",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25613,7 +25008,7 @@ const locations = [
         "Longitude": 271.597,
         "Latitude": 30.413,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GBRM6",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25624,7 +25019,7 @@ const locations = [
         "Longitude": 279.199,
         "Latitude": 25.167,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GBTF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25635,7 +25030,7 @@ const locations = [
         "Longitude": 271.997,
         "Latitude": 44.538,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GBWW3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25646,7 +25041,7 @@ const locations = [
         "Longitude": 188.285,
         "Latitude": 63.777,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GBXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25657,7 +25052,7 @@ const locations = [
         "Longitude": 277.483,
         "Latitude": 27.774,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GCTF1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25668,7 +25063,7 @@ const locations = [
         "Longitude": 278.366,
         "Latitude": 29.982,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GCVF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25679,7 +25074,7 @@ const locations = [
         "Longitude": 270.043,
         "Latitude": 29.267,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GDIL1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25690,7 +25085,7 @@ const locations = [
         "Longitude": 283.596,
         "Latitude": 37.222,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GDIV2",
-        "Owner": "NDBC Virginia Institute of Marine Science (VIMS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25701,21 +25096,21 @@ const locations = [
         "Longitude": 269.659,
         "Latitude": 47.749,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GDMM5",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "Bangs Lake, Grand Bay Reserve, MS",
         "Longitude": 271.53700000000003,
         "Latitude": 30.357,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GDQM6",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -25723,7 +25118,7 @@ const locations = [
         "Longitude": 283.60699999999997,
         "Latitude": 37.216,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GDWV2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25734,7 +25129,7 @@ const locations = [
         "Longitude": 271.58,
         "Latitude": 30.359,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GDXM6",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25745,7 +25140,7 @@ const locations = [
         "Longitude": 279.025,
         "Latitude": 41.859,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GELO1",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25756,7 +25151,7 @@ const locations = [
         "Longitude": 223.619,
         "Latitude": 58.213,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GEXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25767,7 +25162,7 @@ const locations = [
         "Longitude": 237.49099999999999,
         "Latitude": 38.016,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GGGC1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25778,7 +25173,7 @@ const locations = [
         "Longitude": 270.04200000000003,
         "Latitude": 29.265,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GISL1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25789,7 +25184,7 @@ const locations = [
         "Longitude": 228.119,
         "Latitude": 55.446,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GIXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25800,7 +25195,7 @@ const locations = [
         "Longitude": 277.128,
         "Latitude": 24.627,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GKYF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25811,7 +25206,7 @@ const locations = [
         "Longitude": 283.55,
         "Latitude": 43.89,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GLLN6",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25822,7 +25217,7 @@ const locations = [
         "Longitude": 265.206,
         "Latitude": 29.3,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GLPT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25833,7 +25228,7 @@ const locations = [
         "Longitude": 265.275,
         "Latitude": 29.357,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GNJT2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25844,7 +25239,7 @@ const locations = [
         "Longitude": 276.132,
         "Latitude": 24.899,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GOM01",
-        "Owner": "NDBC Mississippi State University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25855,7 +25250,7 @@ const locations = [
         "Longitude": 271.01800000000003,
         "Latitude": 30.23,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GPOM6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25866,7 +25261,7 @@ const locations = [
         "Longitude": 265.212,
         "Latitude": 29.285,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GPST2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25877,7 +25272,7 @@ const locations = [
         "Longitude": 236.233,
         "Latitude": 46.273,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GPTW1",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25888,7 +25283,7 @@ const locations = [
         "Longitude": 225.949,
         "Latitude": 58.062,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GPXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25899,7 +25294,7 @@ const locations = [
         "Longitude": 270.022,
         "Latitude": 29.101,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GRBL1",
-        "Owner": "NDBC LSU CSI",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25910,7 +25305,7 @@ const locations = [
         "Longitude": 272.58799999999997,
         "Latitude": 46.721,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GRIM4",
-        "Owner": "NDBC Northern Michigan University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25921,7 +25316,7 @@ const locations = [
         "Longitude": 274.028,
         "Latitude": 46.684,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GRMM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25932,21 +25327,21 @@ const locations = [
         "Longitude": 265.104,
         "Latitude": 29.302,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GRRT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "Gravelly Shoal Light, MI",
         "Longitude": 276.46299999999997,
         "Latitude": 44.018,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GSLM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -25954,7 +25349,7 @@ const locations = [
         "Longitude": 274.39300000000003,
         "Latitude": 44.767,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GTBM4",
-        "Owner": "NDBC University of Michigan",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25965,7 +25360,7 @@ const locations = [
         "Longitude": 274.45,
         "Latitude": 45.211,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GTLM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25976,7 +25371,7 @@ const locations = [
         "Longitude": 265.20799999999997,
         "Latitude": 29.311,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GTOT2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -25987,7 +25382,7 @@ const locations = [
         "Longitude": 278.743,
         "Latitude": 29.667,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GTQF1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -25998,7 +25393,7 @@ const locations = [
         "Longitude": 271.759,
         "Latitude": 47.179,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GTRM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26009,7 +25404,7 @@ const locations = [
         "Longitude": 278.767,
         "Latitude": 29.658,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GTXF1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26020,7 +25415,7 @@ const locations = [
         "Longitude": 224.274,
         "Latitude": 58.408,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GUXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26031,7 +25426,7 @@ const locations = [
         "Longitude": 270.913,
         "Latitude": 30.348,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=GWPM6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26042,7 +25437,7 @@ const locations = [
         "Longitude": 224.558,
         "Latitude": 59.234,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HAXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26053,7 +25448,7 @@ const locations = [
         "Longitude": 286.015,
         "Latitude": 41.314,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HBMN6",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26064,7 +25459,7 @@ const locations = [
         "Longitude": 235.803,
         "Latitude": 40.777,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HBXC1",
-        "Owner": "NDBC Central and Northern California Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26075,7 +25470,7 @@ const locations = [
         "Longitude": 235.78300000000002,
         "Latitude": 40.767,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HBYC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26086,7 +25481,7 @@ const locations = [
         "Longitude": 279.556,
         "Latitude": 25.254,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HCEF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26097,7 +25492,7 @@ const locations = [
         "Longitude": 284.296,
         "Latitude": 35.209,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HCGN7",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26108,7 +25503,7 @@ const locations = [
         "Longitude": 277.455,
         "Latitude": 41.401,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HHLO1",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26119,7 +25514,7 @@ const locations = [
         "Longitude": 265.61,
         "Latitude": 29.595,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HIST2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26130,7 +25525,7 @@ const locations = [
         "Longitude": 262.93,
         "Latitude": 27.844,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HIVT2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26141,7 +25536,7 @@ const locations = [
         "Longitude": 273.78700000000003,
         "Latitude": 42.773,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HLNM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26152,7 +25547,7 @@ const locations = [
         "Longitude": 236.049,
         "Latitude": 46.204,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HMDO3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26163,7 +25558,7 @@ const locations = [
         "Longitude": 236.048,
         "Latitude": 46.203,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HMNO3",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26174,7 +25569,7 @@ const locations = [
         "Longitude": 208.59,
         "Latitude": 59.601,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HMRA2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26185,7 +25580,7 @@ const locations = [
         "Longitude": 208.583,
         "Latitude": 59.602,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HMSA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26196,7 +25591,7 @@ const locations = [
         "Longitude": 283.867,
         "Latitude": 38.59,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HPLM2",
-        "Owner": "NDBC University of Maryland Horn Point Laboratory",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26207,7 +25602,7 @@ const locations = [
         "Longitude": 277.35699999999997,
         "Latitude": 43.846,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HRBM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26218,7 +25613,7 @@ const locations = [
         "Longitude": 278.94,
         "Latitude": 25.424,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HREF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26229,7 +25624,7 @@ const locations = [
         "Longitude": 202.185,
         "Latitude": 21.431,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HRRH1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26240,7 +25635,7 @@ const locations = [
         "Longitude": 239.31799999999998,
         "Latitude": 34.469,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HRVC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26251,7 +25646,7 @@ const locations = [
         "Longitude": 277.293,
         "Latitude": 28.772,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HSSF1",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26262,7 +25657,7 @@ const locations = [
         "Longitude": 286.075,
         "Latitude": 42.036,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HUQN6",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26273,7 +25668,7 @@ const locations = [
         "Longitude": 283.468,
         "Latitude": 39.214,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HWPM2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26284,7 +25679,7 @@ const locations = [
         "Longitude": 202.189,
         "Latitude": 21.438,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=HWWH1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26295,7 +25690,7 @@ const locations = [
         "Longitude": 241.5,
         "Latitude": 34.008,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ICAC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26306,7 +25701,7 @@ const locations = [
         "Longitude": 218.641,
         "Latitude": 59.923,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ICYA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26317,7 +25712,7 @@ const locations = [
         "Longitude": 242.82299999999998,
         "Latitude": 32.714,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=IIWC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26328,7 +25723,7 @@ const locations = [
         "Longitude": 269.467,
         "Latitude": 29.053,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ILDL1",
-        "Owner": "NDBC LSU CSI",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26339,7 +25734,7 @@ const locations = [
         "Longitude": 204.944,
         "Latitude": 19.73,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ILOH1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26350,7 +25745,7 @@ const locations = [
         "Longitude": 292.956,
         "Latitude": 17.969,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=IMGP4",
-        "Owner": "NDBC Caribbean Integrated Coastal Ocean Observing System (CarICoos)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26361,7 +25756,7 @@ const locations = [
         "Longitude": 289.377,
         "Latitude": 42.967,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=IOSN3",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26372,7 +25767,7 @@ const locations = [
         "Longitude": 262.678,
         "Latitude": 27.48,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=IRDT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26383,7 +25778,7 @@ const locations = [
         "Longitude": 224.658,
         "Latitude": 57.052,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ITKA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26394,7 +25789,7 @@ const locations = [
         "Longitude": 272.427,
         "Latitude": 41.781,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JAKI2",
-        "Owner": "NDBC Chicago Park District",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26405,7 +25800,7 @@ const locations = [
         "Longitude": 279.459,
         "Latitude": 25.224,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JBYF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26416,7 +25811,7 @@ const locations = [
         "Longitude": 285.539,
         "Latitude": 39.548,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JCQN4",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26427,7 +25822,7 @@ const locations = [
         "Longitude": 285.536,
         "Latitude": 39.535,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JCRN4",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26438,7 +25833,7 @@ const locations = [
         "Longitude": 285.66200000000003,
         "Latitude": 39.508,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JCTN4",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26449,7 +25844,7 @@ const locations = [
         "Longitude": 279.096,
         "Latitude": 25.053,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JKYF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26460,7 +25855,7 @@ const locations = [
         "Longitude": 225.595,
         "Latitude": 58.298,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JLXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26471,7 +25866,7 @@ const locations = [
         "Longitude": 225.61,
         "Latitude": 58.286,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JMLA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26482,7 +25877,7 @@ const locations = [
         "Longitude": 282.214,
         "Latitude": 34.213,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JMPN7",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26493,7 +25888,7 @@ const locations = [
         "Longitude": 225.589,
         "Latitude": 58.298,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JNEA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26504,7 +25899,7 @@ const locations = [
         "Longitude": 225.606,
         "Latitude": 58.291,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JNGA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26515,7 +25910,7 @@ const locations = [
         "Longitude": 293.762,
         "Latitude": 17.944,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JOBP4",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26526,7 +25921,7 @@ const locations = [
         "Longitude": 293.789,
         "Latitude": 17.93,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JOQP4",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26537,7 +25932,7 @@ const locations = [
         "Longitude": 293.777,
         "Latitude": 17.956,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JOXP4",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26548,7 +25943,7 @@ const locations = [
         "Longitude": 284.413,
         "Latitude": 35.912,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JPRN7",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26559,7 +25954,7 @@ const locations = [
         "Longitude": 235.962,
         "Latitude": 46.266,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JTAW1",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26570,7 +25965,7 @@ const locations = [
         "Longitude": 278.38800000000003,
         "Latitude": 30.354,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=JXUF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26581,7 +25976,7 @@ const locations = [
         "Longitude": 271.78700000000003,
         "Latitude": 30.258,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KATA1",
-        "Owner": "NDBC Dauphin Island Sea Lab",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26592,7 +25987,7 @@ const locations = [
         "Longitude": 269.973,
         "Latitude": 27.195,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KATP",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26603,7 +25998,7 @@ const locations = [
         "Longitude": 264.128,
         "Latitude": 28.058,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KBBF",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26614,7 +26009,7 @@ const locations = [
         "Longitude": 278.51300000000003,
         "Latitude": 30.777,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KBMG1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26625,7 +26020,7 @@ const locations = [
         "Longitude": 264.38,
         "Latitude": 28.314,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KBQX",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26636,7 +26031,7 @@ const locations = [
         "Longitude": 208.591,
         "Latitude": 59.602,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KCHA2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26647,7 +26042,7 @@ const locations = [
         "Longitude": 267.021,
         "Latitude": 29.441,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KCMB",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26658,7 +26053,7 @@ const locations = [
         "Longitude": 266.698,
         "Latitude": 28.909,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KCRH",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26669,7 +26064,7 @@ const locations = [
         "Longitude": 266.7,
         "Latitude": 29.784,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KCVW",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26680,7 +26075,7 @@ const locations = [
         "Longitude": 197.674,
         "Latitude": 55.057,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KCXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26691,7 +26086,7 @@ const locations = [
         "Longitude": 207.489,
         "Latitude": 57.731,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KDAA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26702,7 +26097,7 @@ const locations = [
         "Longitude": 270.453,
         "Latitude": 29.121,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KDLP",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26713,7 +26108,7 @@ const locations = [
         "Longitude": 228.375,
         "Latitude": 55.331,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KECA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26724,7 +26119,7 @@ const locations = [
         "Longitude": 267.122,
         "Latitude": 28.429,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KEHC",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26735,7 +26130,7 @@ const locations = [
         "Longitude": 268.51099999999997,
         "Latitude": 28.634,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KEIR",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26746,7 +26141,7 @@ const locations = [
         "Longitude": 265.677,
         "Latitude": 27.819,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KEMK",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26757,7 +26152,7 @@ const locations = [
         "Longitude": 228.316,
         "Latitude": 55.352,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KEXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26768,7 +26163,7 @@ const locations = [
         "Longitude": 267.797,
         "Latitude": 27.204,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KGBK",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26779,7 +26174,7 @@ const locations = [
         "Longitude": 197.673,
         "Latitude": 55.062,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KGCA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26790,7 +26185,7 @@ const locations = [
         "Longitude": 268.012,
         "Latitude": 27.84,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KGHB",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26801,21 +26196,21 @@ const locations = [
         "Longitude": 269.654,
         "Latitude": 47.745,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KGNA",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "Green Canyon 338 / Front Runner (Murphy E&P)",
         "Longitude": 269.55899999999997,
         "Latitude": 27.625,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KGRY",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -26823,7 +26218,7 @@ const locations = [
         "Longitude": 266.462,
         "Latitude": 27.304,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KGUL",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26834,7 +26229,7 @@ const locations = [
         "Longitude": 265.45,
         "Latitude": 29.13,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KGVW",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26845,7 +26240,7 @@ const locations = [
         "Longitude": 265.024,
         "Latitude": 28.577,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KGVX",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26856,7 +26251,7 @@ const locations = [
         "Longitude": 207.575,
         "Latitude": 57.777,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KGXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26867,7 +26262,7 @@ const locations = [
         "Longitude": 265.31100000000004,
         "Latitude": 26.939,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KHHV",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26878,7 +26273,7 @@ const locations = [
         "Longitude": 266.331,
         "Latitude": 27.934,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KHQI",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26889,7 +26284,7 @@ const locations = [
         "Longitude": 271.711,
         "Latitude": 28.521,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KIKT",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26900,7 +26295,7 @@ const locations = [
         "Longitude": 272.014,
         "Latitude": 28.085,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KIPN",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26911,7 +26306,7 @@ const locations = [
         "Longitude": 203.531,
         "Latitude": 20.895,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KLIH1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26922,7 +26317,7 @@ const locations = [
         "Longitude": 237.16500000000002,
         "Latitude": 45.983,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KLMW1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26933,7 +26328,7 @@ const locations = [
         "Longitude": 270.206,
         "Latitude": 28.643,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KMDJ",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26944,7 +26339,7 @@ const locations = [
         "Longitude": 271.158,
         "Latitude": 29.296,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KMIS",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26955,7 +26350,7 @@ const locations = [
         "Longitude": 263.264,
         "Latitude": 27.289,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KMIU",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26966,7 +26361,7 @@ const locations = [
         "Longitude": 207.561,
         "Latitude": 57.782,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KMXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -26977,7 +26372,7 @@ const locations = [
         "Longitude": 270.385,
         "Latitude": 28.221,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KMYT",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26988,7 +26383,7 @@ const locations = [
         "Longitude": 263.80899999999997,
         "Latitude": 27.727,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KMZG",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -26999,7 +26394,7 @@ const locations = [
         "Longitude": 202.135,
         "Latitude": 21.288,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KNOH1",
-        "Owner": "NDBC University of Hawaii",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27010,7 +26405,7 @@ const locations = [
         "Longitude": 272.19100000000003,
         "Latitude": 42.589,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KNSW3",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27021,7 +26416,7 @@ const locations = [
         "Longitude": 208.726,
         "Latitude": 60.552,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KNXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27032,7 +26427,7 @@ const locations = [
         "Longitude": 263.06,
         "Latitude": 26.833,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KOPM",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27043,7 +26438,7 @@ const locations = [
         "Longitude": 197.411,
         "Latitude": 66.901,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KOZA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27054,7 +26449,7 @@ const locations = [
         "Longitude": 273.35,
         "Latitude": 46.417,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KP53",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27065,7 +26460,7 @@ const locations = [
         "Longitude": 277.2,
         "Latitude": 44.017,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KP58",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27076,7 +26471,7 @@ const locations = [
         "Longitude": 272.117,
         "Latitude": 47.467,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KP59",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27087,7 +26482,7 @@ const locations = [
         "Longitude": 286.235,
         "Latitude": 40.811,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KPTN6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27098,7 +26493,7 @@ const locations = [
         "Longitude": 284.012,
         "Latitude": 37.165,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KPTV2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27109,7 +26504,7 @@ const locations = [
         "Longitude": 268.129,
         "Latitude": 29.116,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KSCF",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27120,7 +26515,7 @@ const locations = [
         "Longitude": 268.794,
         "Latitude": 28.599,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KSPR",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27131,7 +26526,7 @@ const locations = [
         "Longitude": 269.181,
         "Latitude": 28.083,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KSQE",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27142,7 +26537,7 @@ const locations = [
         "Longitude": 269.334,
         "Latitude": 28.16,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KSTZ",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27153,7 +26548,7 @@ const locations = [
         "Longitude": 276.407,
         "Latitude": 29.819,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KTNF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27164,7 +26559,7 @@ const locations = [
         "Longitude": 265.375,
         "Latitude": 27.354,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KVAF",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27175,7 +26570,7 @@ const locations = [
         "Longitude": 266.36199999999997,
         "Latitude": 29.478,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KVBS",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27186,7 +26581,7 @@ const locations = [
         "Longitude": 271.55899999999997,
         "Latitude": 29.248,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KVKY",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27197,7 +26592,7 @@ const locations = [
         "Longitude": 267.632,
         "Latitude": 29.467,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KVNP",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27208,7 +26603,7 @@ const locations = [
         "Longitude": 272.219,
         "Latitude": 29.229,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KVOA",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27219,7 +26614,7 @@ const locations = [
         "Longitude": 267.736,
         "Latitude": 28.27,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KVQT",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27230,7 +26625,7 @@ const locations = [
         "Longitude": 204.171,
         "Latitude": 20.037,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KWHH1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27241,7 +26636,7 @@ const locations = [
         "Longitude": 167.734,
         "Latitude": 8.732,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KWJP8",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27252,7 +26647,7 @@ const locations = [
         "Longitude": 272.504,
         "Latitude": 44.465,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KWNW3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27263,7 +26658,7 @@ const locations = [
         "Longitude": 265.479,
         "Latitude": 29.18,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KXIH",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27274,7 +26669,7 @@ const locations = [
         "Longitude": 269.798,
         "Latitude": 29.123,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KXPY",
-        "Owner": "NDBC Federal Aviation Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27285,7 +26680,7 @@ const locations = [
         "Longitude": 278.192,
         "Latitude": 24.556,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=KYWF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27296,7 +26691,7 @@ const locations = [
         "Longitude": 269.632,
         "Latitude": 30.05,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LABL1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27307,7 +26702,7 @@ const locations = [
         "Longitude": 295.276,
         "Latitude": 18.318,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LAMV3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27318,7 +26713,7 @@ const locations = [
         "Longitude": 235.363,
         "Latitude": 47.913,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LAPW1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27329,7 +26724,7 @@ const locations = [
         "Longitude": 278.867,
         "Latitude": 25.484,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LBRF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27340,7 +26735,7 @@ const locations = [
         "Longitude": 279.568,
         "Latitude": 25.214,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LBSF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27351,7 +26746,7 @@ const locations = [
         "Longitude": 279.94,
         "Latitude": 19.699,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LCIY2",
-        "Owner": "NDBC Integrated Coral Observing Network (ICON)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27362,7 +26757,7 @@ const locations = [
         "Longitude": 266.778,
         "Latitude": 30.224,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LCLL1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27373,7 +26768,7 @@ const locations = [
         "Longitude": 227.31,
         "Latitude": 56.058,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LCNA2",
-        "Owner": "NDBC NWS Alaska Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27384,7 +26779,7 @@ const locations = [
         "Longitude": 287.923,
         "Latitude": 41.306,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LDLC3",
-        "Owner": "NDBC MYSOUND",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27395,7 +26790,7 @@ const locations = [
         "Longitude": 273.55899999999997,
         "Latitude": 43.947,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LDTM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27406,7 +26801,7 @@ const locations = [
         "Longitude": 224.953,
         "Latitude": 58.54,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LIXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27417,7 +26812,7 @@ const locations = [
         "Longitude": 242.743,
         "Latitude": 32.867,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LJAC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27428,7 +26823,7 @@ const locations = [
         "Longitude": 242.743,
         "Latitude": 32.867,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LJPC1",
-        "Owner": "NDBC SCRIPPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27439,7 +26834,7 @@ const locations = [
         "Longitude": 269.719,
         "Latitude": 30.315,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LKPL1",
-        "Owner": "NDBC LUMCON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27450,7 +26845,7 @@ const locations = [
         "Longitude": 279.966,
         "Latitude": 26.613,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LKWF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27461,7 +26856,7 @@ const locations = [
         "Longitude": 145.77,
         "Latitude": 15.157,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LLBP7",
-        "Owner": "NDBC Integrated Coral Observing Network (ICON)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27472,7 +26867,7 @@ const locations = [
         "Longitude": 263.621,
         "Latitude": 19.594,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LMBV4",
-        "Owner": "NDBC EPA & Mexican Government Cooperative Program",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27483,21 +26878,21 @@ const locations = [
         "Longitude": 279.367,
         "Latitude": 25.176,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LMDF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "Lake Murray SC",
         "Longitude": 278.729,
         "Latitude": 34.107,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LMFS1",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -27505,7 +26900,7 @@ const locations = [
         "Longitude": 278.831,
         "Latitude": 25.556,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LMRF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27516,7 +26911,7 @@ const locations = [
         "Longitude": 279.499,
         "Latitude": 33.552,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LMSS1",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27527,7 +26922,7 @@ const locations = [
         "Longitude": 237.719,
         "Latitude": 37.795,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LNDC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27538,7 +26933,7 @@ const locations = [
         "Longitude": 270.9,
         "Latitude": 28.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LNEL1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27549,7 +26944,7 @@ const locations = [
         "Longitude": 279.13599999999997,
         "Latitude": 24.844,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LONF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27560,7 +26955,7 @@ const locations = [
         "Longitude": 269.975,
         "Latitude": 28.885,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LOPL1",
-        "Owner": "NDBC Louisiana Offshore Oil Port",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27571,7 +26966,7 @@ const locations = [
         "Longitude": 237.046,
         "Latitude": 46.106,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LOPW1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27582,7 +26977,7 @@ const locations = [
         "Longitude": 277.805,
         "Latitude": 41.481,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LORO1",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27593,7 +26988,7 @@ const locations = [
         "Longitude": 276.571,
         "Latitude": 45.063,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LPNM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27604,7 +26999,7 @@ const locations = [
         "Longitude": 243.5,
         "Latitude": 48.06,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LPOI1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27615,7 +27010,7 @@ const locations = [
         "Longitude": 292.948,
         "Latitude": 17.939,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LPRP4",
-        "Owner": "NDBC Integrated Coral Observing Network (ICON)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27626,7 +27021,7 @@ const locations = [
         "Longitude": 225.363,
         "Latitude": 56.388,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LPWA2",
-        "Owner": "NDBC National Marine Fisheries Service",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27637,7 +27032,7 @@ const locations = [
         "Longitude": 262.71500000000003,
         "Latitude": 27.881,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LQAT2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27648,7 +27043,7 @@ const locations = [
         "Longitude": 279.106,
         "Latitude": 25.284,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LRIF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27659,7 +27054,7 @@ const locations = [
         "Longitude": 279.174,
         "Latitude": 24.982,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LRKF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27670,7 +27065,7 @@ const locations = [
         "Longitude": 277.245,
         "Latitude": 42.465,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LSCM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27681,7 +27076,7 @@ const locations = [
         "Longitude": 236.018,
         "Latitude": 46.256,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LSIO3",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27692,7 +27087,7 @@ const locations = [
         "Longitude": 279.543,
         "Latitude": 25.235,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LSNF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27703,7 +27098,7 @@ const locations = [
         "Longitude": 295.246,
         "Latitude": 17.695,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LTBV3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27714,7 +27109,7 @@ const locations = [
         "Longitude": 278.554,
         "Latitude": 30.379,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LTJF1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27725,7 +27120,7 @@ const locations = [
         "Longitude": 283.725,
         "Latitude": 39.451,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LTQM2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27736,7 +27131,7 @@ const locations = [
         "Longitude": 275.698,
         "Latitude": 46.486,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LTRM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27747,7 +27142,7 @@ const locations = [
         "Longitude": 264.878,
         "Latitude": 29.076,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LUIT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27758,7 +27153,7 @@ const locations = [
         "Longitude": 269.336,
         "Latitude": 29.255,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LUML1",
-        "Owner": "NDBC LUMCON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27769,7 +27164,7 @@ const locations = [
         "Longitude": 284.881,
         "Latitude": 38.783,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LWSD1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27780,7 +27175,7 @@ const locations = [
         "Longitude": 283.53499999999997,
         "Latitude": 37.995,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LWTV2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27791,7 +27186,7 @@ const locations = [
         "Longitude": 264.921,
         "Latitude": 29.765,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=LYBT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27802,7 +27197,7 @@ const locations = [
         "Longitude": 275.279,
         "Latitude": 45.777,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MACM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27813,7 +27208,7 @@ const locations = [
         "Longitude": 262.971,
         "Latitude": 27.98,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MAQT2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27824,7 +27219,7 @@ const locations = [
         "Longitude": 262.966,
         "Latitude": 28.132,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MAXT2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27835,7 +27230,7 @@ const locations = [
         "Longitude": 263.673,
         "Latitude": 28.422,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MBET2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27846,7 +27241,7 @@ const locations = [
         "Longitude": 282.132,
         "Latitude": 34.091,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MBIN7",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27857,7 +27252,7 @@ const locations = [
         "Longitude": 271.98900000000003,
         "Latitude": 30.437,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MBLA1",
-        "Owner": "NDBC Dauphin Island Sea Lab",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27868,7 +27263,7 @@ const locations = [
         "Longitude": 282.176,
         "Latitude": 34.171,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MBNN7",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27879,7 +27274,7 @@ const locations = [
         "Longitude": 271.914,
         "Latitude": 30.527,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MBPA1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27890,7 +27285,7 @@ const locations = [
         "Longitude": 277.581,
         "Latitude": 42.975,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MBRM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27901,7 +27296,7 @@ const locations = [
         "Longitude": 239.14100000000002,
         "Latitude": 35.371,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MBXC1",
-        "Owner": "NDBC California Polytechnic State University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27912,7 +27307,7 @@ const locations = [
         "Longitude": 271.942,
         "Latitude": 30.649,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MCGA1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27923,7 +27318,7 @@ const locations = [
         "Longitude": 272.621,
         "Latitude": 46.546,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MCGM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27934,7 +27329,7 @@ const locations = [
         "Longitude": 277.575,
         "Latitude": 27.914,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MCYF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -27945,7 +27340,7 @@ const locations = [
         "Longitude": 273.08799999999997,
         "Latitude": 41.729,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MCYI3",
-        "Owner": "NDBC GLERL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27956,7 +27351,7 @@ const locations = [
         "Longitude": 279.604,
         "Latitude": 25.289,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MDKF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27967,7 +27362,7 @@ const locations = [
         "Longitude": 291.872,
         "Latitude": 43.969,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MDRM1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27978,7 +27373,7 @@ const locations = [
         "Longitude": 213.673,
         "Latitude": 59.438,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MDXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -27989,7 +27384,7 @@ const locations = [
         "Longitude": 273.658,
         "Latitude": 44.251,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MEEM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28000,7 +27395,7 @@ const locations = [
         "Longitude": 238.111,
         "Latitude": 36.605,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MEYC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28011,7 +27406,7 @@ const locations = [
         "Longitude": 292.954,
         "Latitude": 17.97,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MGIP4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28022,7 +27417,7 @@ const locations = [
         "Longitude": 265.015,
         "Latitude": 29.682,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MGPT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28033,7 +27428,7 @@ const locations = [
         "Longitude": 292.841,
         "Latitude": 18.218,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MGZP4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28044,7 +27439,7 @@ const locations = [
         "Longitude": 262.799,
         "Latitude": 27.828,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MHBT2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28055,7 +27450,7 @@ const locations = [
         "Longitude": 272.06399999999996,
         "Latitude": 30.667,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MHPA1",
-        "Owner": "NDBC Dauphin Island Sea Lab",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28066,7 +27461,7 @@ const locations = [
         "Longitude": 285.83799999999997,
         "Latitude": 40.641,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MHRN6",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28077,7 +27472,7 @@ const locations = [
         "Longitude": 286.866,
         "Latitude": 41.074,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MISC3",
-        "Owner": "NDBC Long Island Ferry",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28088,7 +27483,7 @@ const locations = [
         "Longitude": 291.145,
         "Latitude": 43.784,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MISM1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28099,7 +27494,7 @@ const locations = [
         "Longitude": 286.879,
         "Latitude": 41.049,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MISN6",
-        "Owner": "NDBC Long Island Ferry",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28110,7 +27505,7 @@ const locations = [
         "Longitude": 292.06100000000004,
         "Latitude": 18.09,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MISP4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28121,7 +27516,7 @@ const locations = [
         "Longitude": 262.95,
         "Latitude": 27.838,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MIST2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28132,7 +27527,7 @@ const locations = [
         "Longitude": 226.186,
         "Latitude": 57.837,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MIXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28143,7 +27538,7 @@ const locations = [
         "Longitude": 273.661,
         "Latitude": 43.228,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MKGM4",
-        "Owner": "NDBC GLERL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28154,7 +27549,7 @@ const locations = [
         "Longitude": 279.624,
         "Latitude": 25.012,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MLRF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28165,7 +27560,7 @@ const locations = [
         "Longitude": 238.209,
         "Latitude": 36.802,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MLSC1",
-        "Owner": "NDBC Moss Landing Marine Lab",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28176,7 +27571,7 @@ const locations = [
         "Longitude": 236.38,
         "Latitude": 46.214,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MLTO3",
-        "Owner": "NDBC CORIE",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28187,7 +27582,7 @@ const locations = [
         "Longitude": 272.116,
         "Latitude": 43.005,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MLWW3",
-        "Owner": "NDBC GLERL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28198,7 +27593,7 @@ const locations = [
         "Longitude": 279.578,
         "Latitude": 25.239,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MNBF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28209,7 +27604,7 @@ const locations = [
         "Longitude": 272.40999999999997,
         "Latitude": 45.096,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MNMM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28220,7 +27615,7 @@ const locations = [
         "Longitude": 283.698,
         "Latitude": 36.778,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MNPV2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28231,7 +27626,7 @@ const locations = [
         "Longitude": 202.21,
         "Latitude": 21.433,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MOKH1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28242,7 +27637,7 @@ const locations = [
         "Longitude": 271.4,
         "Latitude": 29.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MPCL1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28253,7 +27648,7 @@ const locations = [
         "Longitude": 263.171,
         "Latitude": 28.138,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MQMT2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28264,7 +27659,7 @@ const locations = [
         "Longitude": 262.783,
         "Latitude": 27.581,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MQTT2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28275,7 +27670,7 @@ const locations = [
         "Longitude": 284.585,
         "Latitude": 39.809,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MRCP1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28286,7 +27681,7 @@ const locations = [
         "Longitude": 277.269,
         "Latitude": 41.544,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MRHO1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28297,7 +27692,7 @@ const locations = [
         "Longitude": 213.338,
         "Latitude": 61.082,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MRKA2",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28308,7 +27703,7 @@ const locations = [
         "Longitude": 225.743,
         "Latitude": 58.198,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MRNA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28319,7 +27714,7 @@ const locations = [
         "Longitude": 281.084,
         "Latitude": 33.656,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MROS1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28330,7 +27725,7 @@ const locations = [
         "Longitude": 267.93899999999996,
         "Latitude": 29.441,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MRSL1",
-        "Owner": "NDBC LSU CSI",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28341,7 +27736,7 @@ const locations = [
         "Longitude": 228.818,
         "Latitude": 55.099,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MRYA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28352,7 +27747,7 @@ const locations = [
         "Longitude": 276.044,
         "Latitude": 28.184,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MSG10",
-        "Owner": "NDBC Mississippi State University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28363,7 +27758,7 @@ const locations = [
         "Longitude": 276.009,
         "Latitude": 26.006,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MSG12",
-        "Owner": "NDBC Mississippi State University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28374,7 +27769,7 @@ const locations = [
         "Longitude": 276.01300000000003,
         "Latitude": 27.487,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MSG14",
-        "Owner": "NDBC Mississippi State University",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28385,7 +27780,7 @@ const locations = [
         "Longitude": 277.406,
         "Latitude": 27.661,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MTBF1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28396,7 +27791,7 @@ const locations = [
         "Longitude": 288.041,
         "Latitude": 41.048,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MTKN6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28407,7 +27802,7 @@ const locations = [
         "Longitude": 279.058,
         "Latitude": 25.106,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MUKF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28418,7 +27813,7 @@ const locations = [
         "Longitude": 225.394,
         "Latitude": 58.364,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MVXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28429,7 +27824,7 @@ const locations = [
         "Longitude": 225.575,
         "Latitude": 58.301,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MXXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28440,7 +27835,7 @@ const locations = [
         "Longitude": 278.572,
         "Latitude": 30.398,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MYPF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28451,7 +27846,7 @@ const locations = [
         "Longitude": 238.111,
         "Latitude": 36.605,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MYXC1",
-        "Owner": "NDBC Central and Northern California Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28462,7 +27857,7 @@ const locations = [
         "Longitude": 237.875,
         "Latitude": 38.035,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=MZXC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28473,7 +27868,7 @@ const locations = [
         "Longitude": 274.556,
         "Latitude": 46.087,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NABM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28484,7 +27879,7 @@ const locations = [
         "Longitude": 288.679,
         "Latitude": 41.578,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NAQR1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28495,7 +27890,7 @@ const locations = [
         "Longitude": 288.661,
         "Latitude": 41.637,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NAXR1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28506,7 +27901,7 @@ const locations = [
         "Longitude": 245.272,
         "Latitude": 36.087,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NBBA3",
-        "Owner": "NDBC National Park Service - Lake Mead National Recreation Area",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28517,7 +27912,7 @@ const locations = [
         "Longitude": 289.094,
         "Latitude": 41.624,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NBGM3",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28528,7 +27923,7 @@ const locations = [
         "Longitude": 285.248,
         "Latitude": 40.137,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NBLP1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28539,7 +27934,7 @@ const locations = [
         "Longitude": 282.96299999999997,
         "Latitude": 38.32,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NCDV2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28550,7 +27945,7 @@ const locations = [
         "Longitude": 264.734,
         "Latitude": 29.726,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NCHT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28561,7 +27956,7 @@ const locations = [
         "Longitude": 286.853,
         "Latitude": 41.099,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NCSC3",
-        "Owner": "NDBC Long Island Ferry",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28572,7 +27967,7 @@ const locations = [
         "Longitude": 235.386,
         "Latitude": 48.367,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NEAW1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28583,7 +27978,7 @@ const locations = [
         "Longitude": 278.904,
         "Latitude": 25.084,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NFBF1",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28594,7 +27989,7 @@ const locations = [
         "Longitude": 278.373,
         "Latitude": 30.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NFDF1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28605,7 +28000,7 @@ const locations = [
         "Longitude": 262.796,
         "Latitude": 27.822,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NGLT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28616,7 +28011,7 @@ const locations = [
         "Longitude": 280.986,
         "Latitude": 43.077,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NIAN6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28627,7 +28022,7 @@ const locations = [
         "Longitude": 280.81100000000004,
         "Latitude": 33.349,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NIQS1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28638,7 +28033,7 @@ const locations = [
         "Longitude": 235.761,
         "Latitude": 40.769,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NJLC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28649,7 +28044,7 @@ const locations = [
         "Longitude": 191.145,
         "Latitude": 52.972,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NKLA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28660,7 +28055,7 @@ const locations = [
         "Longitude": 208.601,
         "Latitude": 60.683,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NKTA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28671,7 +28066,7 @@ const locations = [
         "Longitude": 225.055,
         "Latitude": 58.255,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NKXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28682,7 +28077,7 @@ const locations = [
         "Longitude": 237.808,
         "Latitude": 37.696,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NLEC1",
-        "Owner": "NDBC California State University, East Bay",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28693,7 +28088,7 @@ const locations = [
         "Longitude": 287.904,
         "Latitude": 41.372,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NLHC3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28704,7 +28099,7 @@ const locations = [
         "Longitude": 245.334,
         "Latitude": 35.458,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NLMA3",
-        "Owner": "NDBC National Park Service - Lake Mead National Recreation Area",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28715,7 +28110,7 @@ const locations = [
         "Longitude": 287.90999999999997,
         "Latitude": 41.361,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NLNC3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28726,7 +28121,7 @@ const locations = [
         "Longitude": 198.823,
         "Latitude": 56.005,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NLXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28737,7 +28132,7 @@ const locations = [
         "Longitude": 194.57,
         "Latitude": 64.5,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NMTA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28748,7 +28143,7 @@ const locations = [
         "Longitude": 194.56,
         "Latitude": 64.494,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NMXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28759,7 +28154,7 @@ const locations = [
         "Longitude": 282.15,
         "Latitude": 34.156,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NOQN7",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28770,7 +28165,7 @@ const locations = [
         "Longitude": 286.841,
         "Latitude": 41.125,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NOSC3",
-        "Owner": "NDBC Long Island Ferry",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28781,7 +28176,7 @@ const locations = [
         "Longitude": 282.149,
         "Latitude": 34.155,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NOXN7",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28792,7 +28187,7 @@ const locations = [
         "Longitude": 273.023,
         "Latitude": 45.291,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NPDW3",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28803,21 +28198,21 @@ const locations = [
         "Longitude": 242.88400000000001,
         "Latitude": 32.601,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NPQC1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "Norrie Point, Hudson River Reserve, NY",
         "Longitude": 286.058,
         "Latitude": 41.832,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NPQN6",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -28825,7 +28220,7 @@ const locations = [
         "Longitude": 278.193,
         "Latitude": 26.132,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NPSF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28836,7 +28231,7 @@ const locations = [
         "Longitude": 286.058,
         "Latitude": 41.831,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NPXN6",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28847,7 +28242,7 @@ const locations = [
         "Longitude": 280.20799999999997,
         "Latitude": 42.258,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NREP1",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28858,7 +28253,7 @@ const locations = [
         "Longitude": 279.089,
         "Latitude": 25.338,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NRRF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28869,7 +28264,7 @@ const locations = [
         "Longitude": 189.312,
         "Latitude": -14.28,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NSTP6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28880,7 +28275,7 @@ const locations = [
         "Longitude": 208.689,
         "Latitude": 60.74,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NSXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28891,7 +28286,7 @@ const locations = [
         "Longitude": 240.308,
         "Latitude": 34.405,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NTBC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28902,7 +28297,7 @@ const locations = [
         "Longitude": 289.904,
         "Latitude": 41.285,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NTKM3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28913,7 +28308,7 @@ const locations = [
         "Longitude": 262.514,
         "Latitude": 27.832,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NUET2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28924,7 +28319,7 @@ const locations = [
         "Longitude": 269.887,
         "Latitude": 30.027,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NWCL1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28935,7 +28330,7 @@ const locations = [
         "Longitude": 287.092,
         "Latitude": 41.283,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NWHC3",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28946,7 +28341,7 @@ const locations = [
         "Longitude": 235.933,
         "Latitude": 44.613,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NWPO3",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28957,7 +28352,7 @@ const locations = [
         "Longitude": 288.674,
         "Latitude": 41.504,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NWPR1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28968,7 +28363,7 @@ const locations = [
         "Longitude": 263.23199999999997,
         "Latitude": 27.75,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NWST2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -28979,7 +28374,7 @@ const locations = [
         "Longitude": 200.647,
         "Latitude": 21.954,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=NWWH1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -28990,7 +28385,7 @@ const locations = [
         "Longitude": 284.506,
         "Latitude": 44.702,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OBGN6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29001,21 +28396,21 @@ const locations = [
         "Longitude": 271.96,
         "Latitude": 30.705,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OBLA1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "9414797 - Oakland Berth 38, CA",
         "Longitude": 237.659,
         "Latitude": 37.804,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OBXC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -29023,7 +28418,7 @@ const locations = [
         "Longitude": 285.996,
         "Latitude": 40.209,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OCGN4",
-        "Owner": "NDBC Stevens",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29034,7 +28429,7 @@ const locations = [
         "Longitude": 284.909,
         "Latitude": 38.328,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OCIM2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29045,7 +28440,7 @@ const locations = [
         "Longitude": 281.853,
         "Latitude": 33.911,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OCPN7",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29056,7 +28451,7 @@ const locations = [
         "Longitude": 284.93,
         "Latitude": 38.338,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OCSM2",
-        "Owner": "NDBC U.S. Army Corps of Engineers",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29067,7 +28462,7 @@ const locations = [
         "Longitude": 286.91700000000003,
         "Latitude": 40.973,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OFPN6",
-        "Owner": "NDBC Long Island Ferry",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29078,7 +28473,7 @@ const locations = [
         "Longitude": 241.727,
         "Latitude": 33.72,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OHBC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29089,7 +28484,7 @@ const locations = [
         "Longitude": 272.376,
         "Latitude": 41.912,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OKSI2",
-        "Owner": "NDBC Chicago Park District",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29100,7 +28495,7 @@ const locations = [
         "Longitude": 237.667,
         "Latitude": 37.811,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OKXC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29111,7 +28506,7 @@ const locations = [
         "Longitude": 281.281,
         "Latitude": 43.341,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OLCN6",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29122,7 +28517,7 @@ const locations = [
         "Longitude": 191.13,
         "Latitude": 52.94,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OLSA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29133,7 +28528,7 @@ const locations = [
         "Longitude": 237.67000000000002,
         "Latitude": 37.801,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OMHC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29144,7 +28539,7 @@ const locations = [
         "Longitude": 202.135,
         "Latitude": 21.303,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OOUH1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29155,7 +28550,7 @@ const locations = [
         "Longitude": 277.447,
         "Latitude": 27.858,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OPTF1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29166,7 +28561,7 @@ const locations = [
         "Longitude": 284.452,
         "Latitude": 35.796,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ORIN7",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29177,7 +28572,7 @@ const locations = [
         "Longitude": 283.48900000000003,
         "Latitude": 43.464,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OSGN6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29188,7 +28583,7 @@ const locations = [
         "Longitude": 270.67,
         "Latitude": 46.87,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OTNM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29199,7 +28594,7 @@ const locations = [
         "Longitude": 208.28,
         "Latitude": 59.44,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OVIA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29210,7 +28605,7 @@ const locations = [
         "Longitude": 277.495,
         "Latitude": 41.365,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OWDO1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29221,7 +28616,7 @@ const locations = [
         "Longitude": 277.546,
         "Latitude": 41.247,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OWMO1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29232,7 +28627,7 @@ const locations = [
         "Longitude": 277.486,
         "Latitude": 41.382,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OWQO1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29243,21 +28638,21 @@ const locations = [
         "Longitude": 277.486,
         "Latitude": 41.383,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OWSO1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "Railroad, Old Woman Creek Reserve, OH",
         "Longitude": 277.48699999999997,
         "Latitude": 41.373,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OWWO1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -29265,7 +28660,7 @@ const locations = [
         "Longitude": 277.492,
         "Latitude": 41.378,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=OWXO1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29276,7 +28671,7 @@ const locations = [
         "Longitude": 274.33299999999997,
         "Latitude": 30.152,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PACF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29287,7 +28682,7 @@ const locations = [
         "Longitude": 262.76300000000003,
         "Latitude": 27.634,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PACT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29298,7 +28693,7 @@ const locations = [
         "Longitude": 189.729,
         "Latitude": 57.124,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PAUA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29309,7 +28704,7 @@ const locations = [
         "Longitude": 225.822,
         "Latitude": 58.159,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PAXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29320,7 +28715,7 @@ const locations = [
         "Longitude": 237.531,
         "Latitude": 48.464,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PBFW1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29331,7 +28726,7 @@ const locations = [
         "Longitude": 237.526,
         "Latitude": 48.518,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PBJW1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29342,7 +28737,7 @@ const locations = [
         "Longitude": 237.47,
         "Latitude": 48.556,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PBLW1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29353,7 +28748,7 @@ const locations = [
         "Longitude": 225.852,
         "Latitude": 58.203,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PBPA2",
-        "Owner": "NDBC NWS Alaska Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29364,7 +28759,7 @@ const locations = [
         "Longitude": 277.577,
         "Latitude": 43.002,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PBWM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29375,7 +28770,7 @@ const locations = [
         "Longitude": 274.12,
         "Latitude": 30.213,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PCBF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29386,7 +28781,7 @@ const locations = [
         "Longitude": 262.83299999999997,
         "Latitude": 26.072,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PCGT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29397,7 +28792,7 @@ const locations = [
         "Longitude": 272.789,
         "Latitude": 30.404,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PCLF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29408,7 +28803,7 @@ const locations = [
         "Longitude": 271.472,
         "Latitude": 47.276,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PCLM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29419,7 +28814,7 @@ const locations = [
         "Longitude": 263.604,
         "Latitude": 28.446,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PCNT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29430,7 +28825,7 @@ const locations = [
         "Longitude": 237.961,
         "Latitude": 38.056,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PCOC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29441,7 +28836,7 @@ const locations = [
         "Longitude": 225.133,
         "Latitude": 57.463,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PCXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29452,7 +28847,7 @@ const locations = [
         "Longitude": 288.59000000000003,
         "Latitude": 41.611,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PDVR1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29463,7 +28858,7 @@ const locations = [
         "Longitude": 279.884,
         "Latitude": 26.086,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PEGF1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29474,7 +28869,7 @@ const locations = [
         "Longitude": 223.773,
         "Latitude": 57.958,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PEXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29485,7 +28880,7 @@ const locations = [
         "Longitude": 241.75900000000001,
         "Latitude": 33.735,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PFDC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29496,7 +28891,7 @@ const locations = [
         "Longitude": 241.785,
         "Latitude": 33.747,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PFXC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29507,7 +28902,7 @@ const locations = [
         "Longitude": 144.796,
         "Latitude": 13.428,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PGBP7",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29518,7 +28913,7 @@ const locations = [
         "Longitude": 225.382,
         "Latitude": 57.016,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PGXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29529,7 +28924,7 @@ const locations = [
         "Longitude": 284.858,
         "Latitude": 39.933,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PHBP1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29540,7 +28935,7 @@ const locations = [
         "Longitude": 210.53,
         "Latitude": 59.742,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PILA2",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29551,7 +28946,7 @@ const locations = [
         "Longitude": 270.741,
         "Latitude": 29.179,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PILL1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29562,7 +28957,7 @@ const locations = [
         "Longitude": 271.634,
         "Latitude": 48.223,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PILM4",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29573,7 +28968,7 @@ const locations = [
         "Longitude": 267.86400000000003,
         "Latitude": 46.672,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PKBW3",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29584,7 +28979,7 @@ const locations = [
         "Longitude": 279.253,
         "Latitude": 24.918,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PKYF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29595,7 +28990,7 @@ const locations = [
         "Longitude": 277.227,
         "Latitude": 24.693,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PLSF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29606,7 +29001,7 @@ const locations = [
         "Longitude": 293.238,
         "Latitude": 17.973,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PLSP4",
-        "Owner": "NDBC Puerto Rico Seismic Network",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29617,7 +29012,7 @@ const locations = [
         "Longitude": 225.353,
         "Latitude": 56.247,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PLXA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29628,7 +29023,7 @@ const locations = [
         "Longitude": 277.438,
         "Latitude": 27.638,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PMAF1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29639,7 +29034,7 @@ const locations = [
         "Longitude": 262.576,
         "Latitude": 26.559,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PMNT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29650,7 +29045,7 @@ const locations = [
         "Longitude": 199.438,
         "Latitude": 55.99,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PMOA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29661,7 +29056,7 @@ const locations = [
         "Longitude": 268.61400000000003,
         "Latitude": 46.792,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PNGW3",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29672,7 +29067,7 @@ const locations = [
         "Longitude": 274.131,
         "Latitude": 45.968,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PNLM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29683,7 +29078,7 @@ const locations = [
         "Longitude": 271.437,
         "Latitude": 30.368,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PNLM6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29694,7 +29089,7 @@ const locations = [
         "Longitude": 235.502,
         "Latitude": 42.739,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PORO3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29705,7 +29100,7 @@ const locations = [
         "Longitude": 266.069,
         "Latitude": 29.867,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PORT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29716,7 +29111,7 @@ const locations = [
         "Longitude": 213.3,
         "Latitude": 61.06,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=POTA2",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29727,7 +29122,7 @@ const locations = [
         "Longitude": 202.177,
         "Latitude": 21.409,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PPHH1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29738,7 +29133,7 @@ const locations = [
         "Longitude": 272.444,
         "Latitude": 30.279,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PPTA1",
-        "Owner": "NDBC Dauphin Island Sea Lab",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29749,7 +29144,7 @@ const locations = [
         "Longitude": 283.467,
         "Latitude": 38.134,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PPTM2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29760,7 +29155,7 @@ const locations = [
         "Longitude": 211.643,
         "Latitude": 60.801,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PPXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29771,7 +29166,7 @@ const locations = [
         "Longitude": 237.635,
         "Latitude": 37.906,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PPXC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29782,7 +29177,7 @@ const locations = [
         "Longitude": 211.473,
         "Latitude": 70.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PRDA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29793,21 +29188,21 @@ const locations = [
         "Longitude": 202.036,
         "Latitude": 21.367,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PRHH1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "Presque Isle Light, MI",
         "Longitude": 276.508,
         "Latitude": 45.357,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PRIM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -29815,7 +29210,7 @@ const locations = [
         "Longitude": 241.814,
         "Latitude": 33.733,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PRJC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29826,7 +29221,7 @@ const locations = [
         "Longitude": 225.045,
         "Latitude": 58.411,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PRTA2",
-        "Owner": "NDBC NWS Alaska Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29837,7 +29232,7 @@ const locations = [
         "Longitude": 237.33100000000002,
         "Latitude": 45.518,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PRTO3",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29848,7 +29243,7 @@ const locations = [
         "Longitude": 288.696,
         "Latitude": 41.605,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PRUR1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29859,7 +29254,7 @@ const locations = [
         "Longitude": 237.023,
         "Latitude": 37.996,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PRYC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29870,7 +29265,7 @@ const locations = [
         "Longitude": 238.113,
         "Latitude": 38.04,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PSBC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29881,7 +29276,7 @@ const locations = [
         "Longitude": 293.017,
         "Latitude": 44.905,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PSBM1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29892,7 +29287,7 @@ const locations = [
         "Longitude": 277.46,
         "Latitude": 43.42,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PSCM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29903,7 +29298,7 @@ const locations = [
         "Longitude": 239.24599999999998,
         "Latitude": 35.169,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PSLC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29914,7 +29309,7 @@ const locations = [
         "Longitude": 270.593,
         "Latitude": 28.932,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PSTL1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29925,7 +29320,7 @@ const locations = [
         "Longitude": 280.952,
         "Latitude": 42.691,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PSTN6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29936,7 +29331,7 @@ const locations = [
         "Longitude": 241.774,
         "Latitude": 33.768,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PSXC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29947,7 +29342,7 @@ const locations = [
         "Longitude": 236.25900000000001,
         "Latitude": 38.955,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PTAC1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -29958,7 +29353,7 @@ const locations = [
         "Longitude": 262.949,
         "Latitude": 27.826,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PTAT2",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29969,7 +29364,7 @@ const locations = [
         "Longitude": 236.559,
         "Latitude": 48.125,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PTAW1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29980,7 +29375,7 @@ const locations = [
         "Longitude": 271.495,
         "Latitude": 30.213,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PTBM6",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -29991,7 +29386,7 @@ const locations = [
         "Longitude": 288.65999999999997,
         "Latitude": 41.638,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PTCR1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30002,7 +29397,7 @@ const locations = [
         "Longitude": 269.801,
         "Latitude": 29.114,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PTFL1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30013,7 +29408,7 @@ const locations = [
         "Longitude": 239.352,
         "Latitude": 34.577,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PTGC1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30024,7 +29419,7 @@ const locations = [
         "Longitude": 275.369,
         "Latitude": 46.485,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PTIM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30035,7 +29430,7 @@ const locations = [
         "Longitude": 262.78499999999997,
         "Latitude": 26.061,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PTIT2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30046,7 +29441,7 @@ const locations = [
         "Longitude": 286.93,
         "Latitude": 40.948,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PTJN6",
-        "Owner": "NDBC Long Island Ferry",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30057,7 +29452,7 @@ const locations = [
         "Longitude": 225.248,
         "Latitude": 58.346,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PTLA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30068,7 +29463,7 @@ const locations = [
         "Longitude": 271.969,
         "Latitude": 30.671,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PTOA1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30079,7 +29474,7 @@ const locations = [
         "Longitude": 277.267,
         "Latitude": 28.285,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PTRF1",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30090,7 +29485,7 @@ const locations = [
         "Longitude": 292.749,
         "Latitude": 18.367,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PTRP4",
-        "Owner": "NDBC Caribbean Integrated Coastal Ocean Observing System (CarICoos)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30101,7 +29496,7 @@ const locations = [
         "Longitude": 237.24,
         "Latitude": 48.111,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PTWW1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30112,7 +29507,7 @@ const locations = [
         "Longitude": 288.617,
         "Latitude": 41.786,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PVDR1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30123,7 +29518,7 @@ const locations = [
         "Longitude": 279.891,
         "Latitude": 26.092,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PVGF1",
-        "Owner": "NDBC Integrated Coral Observing Network (ICON)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30134,7 +29529,7 @@ const locations = [
         "Longitude": 272.133,
         "Latitude": 43.388,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PWAW3",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30145,7 +29540,7 @@ const locations = [
         "Longitude": 241.735,
         "Latitude": 33.764,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PXAC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30156,7 +29551,7 @@ const locations = [
         "Longitude": 237.607,
         "Latitude": 37.798,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PXOC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30167,7 +29562,7 @@ const locations = [
         "Longitude": 237.603,
         "Latitude": 37.803,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=PXSC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30178,7 +29573,7 @@ const locations = [
         "Longitude": 288.593,
         "Latitude": 41.586,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=QPTR1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30189,7 +29584,7 @@ const locations = [
         "Longitude": 271.48900000000003,
         "Latitude": 30.343,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RARM6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30200,7 +29595,7 @@ const locations = [
         "Longitude": 275.80899999999997,
         "Latitude": 46.264,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RCKM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30211,7 +29606,7 @@ const locations = [
         "Longitude": 237.59,
         "Latitude": 37.923,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RCMC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30222,7 +29617,7 @@ const locations = [
         "Longitude": 262.952,
         "Latitude": 28.024,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RCPT2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30233,7 +29628,7 @@ const locations = [
         "Longitude": 282.374,
         "Latitude": 43.269,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RCRN6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30244,7 +29639,7 @@ const locations = [
         "Longitude": 278.45,
         "Latitude": 29.8,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RCYF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30255,7 +29650,7 @@ const locations = [
         "Longitude": 195.933,
         "Latitude": 67.575,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RDDA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30266,7 +29661,7 @@ const locations = [
         "Longitude": 284.428,
         "Latitude": 39.558,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RDYD1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30277,7 +29672,7 @@ const locations = [
         "Longitude": 224.948,
         "Latitude": 58.177,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RIXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30288,7 +29683,7 @@ const locations = [
         "Longitude": 278.266,
         "Latitude": 26.027,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RKQF1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30299,7 +29694,7 @@ const locations = [
         "Longitude": 278.299,
         "Latitude": 26.05,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RKXF1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30310,7 +29705,7 @@ const locations = [
         "Longitude": 262.71500000000003,
         "Latitude": 26.262,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RLIT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30321,7 +29716,7 @@ const locations = [
         "Longitude": 265.48699999999997,
         "Latitude": 29.515,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RLOT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30332,7 +29727,7 @@ const locations = [
         "Longitude": 270.685,
         "Latitude": 47.867,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ROAM4",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30343,7 +29738,7 @@ const locations = [
         "Longitude": 285.935,
         "Latitude": 40.657,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ROBN4",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30354,7 +29749,7 @@ const locations = [
         "Longitude": 283.986,
         "Latitude": 37.538,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RPLV2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30365,7 +29760,7 @@ const locations = [
         "Longitude": 282.402,
         "Latitude": 43.263,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RPRN6",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30376,7 +29771,7 @@ const locations = [
         "Longitude": 262.529,
         "Latitude": 26.801,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RSJT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30387,7 +29782,7 @@ const locations = [
         "Longitude": 262.928,
         "Latitude": 27.84,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RTAT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30398,7 +29793,7 @@ const locations = [
         "Longitude": 263.033,
         "Latitude": 27.753,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RTOT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30409,7 +29804,7 @@ const locations = [
         "Longitude": 237.788,
         "Latitude": 37.507,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RTYC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30420,7 +29815,7 @@ const locations = [
         "Longitude": 237.986,
         "Latitude": 38.184,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=RYEC1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30431,7 +29826,7 @@ const locations = [
         "Longitude": 263.907,
         "Latitude": 19.174,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SACV4",
-        "Owner": "NDBC EPA & Mexican Government Cooperative Program",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30442,7 +29837,7 @@ const locations = [
         "Longitude": 278.123,
         "Latitude": 24.456,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SANF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30453,7 +29848,7 @@ const locations = [
         "Longitude": 277.373,
         "Latitude": 27.761,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SAPF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30464,7 +29859,7 @@ const locations = [
         "Longitude": 278.704,
         "Latitude": 31.418,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SAQG1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30475,7 +29870,7 @@ const locations = [
         "Longitude": 278.736,
         "Latitude": 29.857,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SAUF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30486,7 +29881,7 @@ const locations = [
         "Longitude": 278.704,
         "Latitude": 31.418,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SAXG1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30497,7 +29892,7 @@ const locations = [
         "Longitude": 245.252,
         "Latitude": 36.05,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SBBN2",
-        "Owner": "NDBC National Park Service - Lake Mead National Recreation Area",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30508,7 +29903,7 @@ const locations = [
         "Longitude": 235.95499999999998,
         "Latitude": 44.625,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SBEO3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30519,7 +29914,7 @@ const locations = [
         "Longitude": 277.159,
         "Latitude": 41.629,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SBIO1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30530,7 +29925,7 @@ const locations = [
         "Longitude": 277.555,
         "Latitude": 27.923,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SBLF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30541,7 +29936,7 @@ const locations = [
         "Longitude": 276.28,
         "Latitude": 43.81,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SBLM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30552,7 +29947,7 @@ const locations = [
         "Longitude": 266.13,
         "Latitude": 29.728,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SBPT2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30563,7 +29958,7 @@ const locations = [
         "Longitude": 280.293,
         "Latitude": 32.857,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SCIS1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30574,7 +29969,7 @@ const locations = [
         "Longitude": 284.539,
         "Latitude": 39.085,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SCLD1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30585,7 +29980,7 @@ const locations = [
         "Longitude": 237.54000000000002,
         "Latitude": 38.001,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SCQC1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30596,7 +29991,7 @@ const locations = [
         "Longitude": 286.089,
         "Latitude": 42.046,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SCQN6",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30607,7 +30002,7 @@ const locations = [
         "Longitude": 286.892,
         "Latitude": 41.024,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SCSN6",
-        "Owner": "NDBC Long Island Ferry",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30618,7 +30013,7 @@ const locations = [
         "Longitude": 225.354,
         "Latitude": 58.205,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SCXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30629,7 +30024,7 @@ const locations = [
         "Longitude": 242.826,
         "Latitude": 32.714,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SDBC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30640,7 +30035,7 @@ const locations = [
         "Longitude": 285.991,
         "Latitude": 40.467,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SDHN4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30651,7 +30046,7 @@ const locations = [
         "Longitude": 225.611,
         "Latitude": 58.277,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SDIA2",
-        "Owner": "NDBC NWS Alaska Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30662,7 +30057,7 @@ const locations = [
         "Longitude": 263.288,
         "Latitude": 28.407,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SDRT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30673,7 +30068,7 @@ const locations = [
         "Longitude": 279.68399999999997,
         "Latitude": 30.8,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SECG1",
-        "Owner": "NDBC NC-COOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30684,7 +30079,7 @@ const locations = [
         "Longitude": 236.24099999999999,
         "Latitude": 46.204,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SEFO3",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30695,7 +30090,7 @@ const locations = [
         "Longitude": 289.258,
         "Latitude": 43.08,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SEIM1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30706,7 +30101,7 @@ const locations = [
         "Longitude": 208.279,
         "Latitude": 59.441,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SEQA2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30717,7 +30112,7 @@ const locations = [
         "Longitude": 236.059,
         "Latitude": 46.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SETO3",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30728,7 +30123,7 @@ const locations = [
         "Longitude": 237.974,
         "Latitude": 38.2,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SFXC1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30739,7 +30134,7 @@ const locations = [
         "Longitude": 264.383,
         "Latitude": 28.771,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SGNT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30750,7 +30145,7 @@ const locations = [
         "Longitude": 272.307,
         "Latitude": 43.749,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SGNW3",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30761,7 +30156,7 @@ const locations = [
         "Longitude": 275.142,
         "Latitude": 29.408,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SGOF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30772,7 +30167,7 @@ const locations = [
         "Longitude": 285.97,
         "Latitude": 40.12,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SGRN4",
-        "Owner": "NDBC Stevens",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30783,7 +30178,7 @@ const locations = [
         "Longitude": 190.458,
         "Latitude": 56.599,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SGXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30794,7 +30189,7 @@ const locations = [
         "Longitude": 270.327,
         "Latitude": 29.868,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SHBL1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30805,7 +30200,7 @@ const locations = [
         "Longitude": 275.709,
         "Latitude": 30.058,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SHPF1",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30816,7 +30211,7 @@ const locations = [
         "Longitude": 224.651,
         "Latitude": 57.055,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SHXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30827,7 +30222,7 @@ const locations = [
         "Longitude": 279.555,
         "Latitude": 27.862,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SIPF1",
-        "Owner": "NDBC Florida Institute of Technology",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30838,7 +30233,7 @@ const locations = [
         "Longitude": 270.983,
         "Latitude": 30.267,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SIPM6",
-        "Owner": "NDBC LSU CSI",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30849,7 +30244,7 @@ const locations = [
         "Longitude": 224.741,
         "Latitude": 58.177,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SISA2",
-        "Owner": "NDBC NWS Alaska Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30860,7 +30255,7 @@ const locations = [
         "Longitude": 237.16899999999998,
         "Latitude": 48.321,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SISW1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30871,7 +30266,7 @@ const locations = [
         "Longitude": 227.797,
         "Latitude": 55.599,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SIXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30882,7 +30277,7 @@ const locations = [
         "Longitude": 278.6,
         "Latitude": 30.4,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SJLF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30893,7 +30288,7 @@ const locations = [
         "Longitude": 293.884,
         "Latitude": 18.459,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SJNP4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30904,7 +30299,7 @@ const locations = [
         "Longitude": 273.506,
         "Latitude": 42.098,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SJOM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30915,7 +30310,7 @@ const locations = [
         "Longitude": 284.623,
         "Latitude": 39.305,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SJSN4",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30926,7 +30321,7 @@ const locations = [
         "Longitude": 277.555,
         "Latitude": 27.921,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SKCF1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30937,7 +30332,7 @@ const locations = [
         "Longitude": 279.764,
         "Latitude": 31.534,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SKMG1",
-        "Owner": "NDBC Skidaway",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30948,7 +30343,7 @@ const locations = [
         "Longitude": 286.085,
         "Latitude": 42.017,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SKQN6",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -30959,7 +30354,7 @@ const locations = [
         "Longitude": 224.673,
         "Latitude": 59.45,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SKTA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30970,7 +30365,7 @@ const locations = [
         "Longitude": 224.674,
         "Latitude": 59.448,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SKXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30981,7 +30376,7 @@ const locations = [
         "Longitude": 283.548,
         "Latitude": 38.321,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SLIM2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -30992,21 +30387,21 @@ const locations = [
         "Longitude": 245.37900000000002,
         "Latitude": 35.389,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SLMN2",
-        "Owner": "NDBC National Park Service - Lake Mead National Recreation Area",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Active)",
+        "DataType": "Ocean Buoy (Historical)",
         "Name": "Elliot Creek - South Slough Reserve, OR",
         "Longitude": 235.689,
         "Latitude": 43.296,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SLOO3",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Active)"
+        "Notes": "Ocean Buoy (Historical)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -31014,7 +30409,7 @@ const locations = [
         "Longitude": 268.45,
         "Latitude": 29.517,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SLPL1",
-        "Owner": "NDBC LSU CSI",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31025,7 +30420,7 @@ const locations = [
         "Longitude": 268.73,
         "Latitude": 47.278,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SLVM5",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31036,7 +30431,7 @@ const locations = [
         "Longitude": 228.356,
         "Latitude": 55.34,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SLXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31047,7 +30442,7 @@ const locations = [
         "Longitude": 281.082,
         "Latitude": 33.655,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SMBS1",
-        "Owner": "NDBC South Carolina Nearshore Monitoring System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31058,7 +30453,7 @@ const locations = [
         "Longitude": 278.891,
         "Latitude": 24.628,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SMKF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31069,7 +30464,7 @@ const locations = [
         "Longitude": 241.5,
         "Latitude": 34.008,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SMOC1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31080,7 +30475,7 @@ const locations = [
         "Longitude": 199.498,
         "Latitude": 55.336,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SNDA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31091,7 +30486,7 @@ const locations = [
         "Longitude": 182.639,
         "Latitude": 28.215,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SNDP5",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31102,7 +30497,7 @@ const locations = [
         "Longitude": 281.493,
         "Latitude": 33.865,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SNSN7",
-        "Owner": "NDBC CaroCOOPS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31113,7 +30508,7 @@ const locations = [
         "Longitude": 235.68200000000002,
         "Latitude": 43.279,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SNTO3",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31124,7 +30519,7 @@ const locations = [
         "Longitude": 235.678,
         "Latitude": 43.317,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SOQO3",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31135,7 +30530,7 @@ const locations = [
         "Longitude": 286.905,
         "Latitude": 40.998,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SOSN6",
-        "Owner": "NDBC Long Island Ferry",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31146,7 +30541,7 @@ const locations = [
         "Longitude": 279.433,
         "Latitude": 31.375,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SPAG1",
-        "Owner": "NDBC Skidaway",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31157,7 +30552,7 @@ const locations = [
         "Longitude": 281.005,
         "Latitude": 26.704,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SPGF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31168,21 +30563,21 @@ const locations = [
         "Longitude": 269.517,
         "Latitude": 28.867,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SPLL1",
-        "Owner": "NDBC LSU CSI",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "Sturgeon Point Light, MI",
         "Longitude": 276.727,
         "Latitude": 44.713,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SPTM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Historical)",
@@ -31190,7 +30585,7 @@ const locations = [
         "Longitude": 237.62099999999998,
         "Latitude": 45.572,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SRAW1",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31201,7 +30596,7 @@ const locations = [
         "Longitude": 295.238,
         "Latitude": 17.784,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SRBV3",
-        "Owner": "NDBC Integrated Coral Observing Network (ICON)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31212,7 +30607,7 @@ const locations = [
         "Longitude": 278.9,
         "Latitude": 25.352,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SREF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31223,7 +30618,7 @@ const locations = [
         "Longitude": 236.812,
         "Latitude": 46.185,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SRFW1",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31234,7 +30629,7 @@ const locations = [
         "Longitude": 275.863,
         "Latitude": 45.773,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SRLM4",
-        "Owner": "NDBC GLERL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31245,7 +30640,7 @@ const locations = [
         "Longitude": 265.967,
         "Latitude": 29.683,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SRST2",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31256,7 +30651,7 @@ const locations = [
         "Longitude": 225.348,
         "Latitude": 58.383,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SRXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31267,7 +30662,7 @@ const locations = [
         "Longitude": 281.516,
         "Latitude": 33.838,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SSBN7",
-        "Owner": "NDBC CORMP",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31278,7 +30673,7 @@ const locations = [
         "Longitude": 272.775,
         "Latitude": 47.184,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=STDM4",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31289,7 +30684,7 @@ const locations = [
         "Longitude": 224.609,
         "Latitude": 57.116,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=STXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31300,7 +30695,7 @@ const locations = [
         "Longitude": 284.2,
         "Latitude": 44.467,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SUPN6",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31311,7 +30706,7 @@ const locations = [
         "Longitude": 279.32,
         "Latitude": 31.95,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SVLS1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31322,7 +30717,7 @@ const locations = [
         "Longitude": 273.712,
         "Latitude": 42.401,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SVNM4",
-        "Owner": "NDBC GLERL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31333,7 +30728,7 @@ const locations = [
         "Longitude": 189.508,
         "Latitude": 63.693,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SVXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31344,7 +30739,7 @@ const locations = [
         "Longitude": 210.573,
         "Latitude": 60.12,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SWLA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31355,7 +30750,7 @@ const locations = [
         "Longitude": 275.628,
         "Latitude": 46.501,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SWPM4",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31366,7 +30761,7 @@ const locations = [
         "Longitude": 283.671,
         "Latitude": 36.943,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SWPV2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31377,7 +30772,7 @@ const locations = [
         "Longitude": 210.566,
         "Latitude": 60.116,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SWXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31388,7 +30783,7 @@ const locations = [
         "Longitude": 269.563,
         "Latitude": 46.563,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SXHW3",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31399,7 +30794,7 @@ const locations = [
         "Longitude": 228.404,
         "Latitude": 55.315,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SXXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31410,7 +30805,7 @@ const locations = [
         "Longitude": 272.879,
         "Latitude": 45.202,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=SYWW3",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31421,7 +30816,7 @@ const locations = [
         "Longitude": 269.335,
         "Latitude": 29.188,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TAML1",
-        "Owner": "NDBC LUMCON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31432,7 +30827,7 @@ const locations = [
         "Longitude": 236.08100000000002,
         "Latitude": 46.189,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TANO3",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31443,7 +30838,7 @@ const locations = [
         "Longitude": 262.611,
         "Latitude": 27.815,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TAQT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31454,21 +30849,21 @@ const locations = [
         "Longitude": 277.242,
         "Latitude": 28.156,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TARF1",
-        "Owner": "NDBC COMPS (University of South Florida)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "Tawas Point, MI",
         "Longitude": 276.551,
         "Latitude": 44.254,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TAWM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -31476,7 +30871,7 @@ const locations = [
         "Longitude": 276.806,
         "Latitude": 45.035,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TBIM4",
-        "Owner": "NDBC GLERL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31487,7 +30882,7 @@ const locations = [
         "Longitude": 279.278,
         "Latitude": 25.155,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TBYF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31498,7 +30893,7 @@ const locations = [
         "Longitude": 283.756,
         "Latitude": 39.213,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TCBM2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31509,7 +30904,7 @@ const locations = [
         "Longitude": 237.582,
         "Latitude": 47.276,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TCMW1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31520,7 +30915,7 @@ const locations = [
         "Longitude": 237.587,
         "Latitude": 47.267,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TCNW1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31531,7 +30926,7 @@ const locations = [
         "Longitude": 283.286,
         "Latitude": 37.415,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TCSV2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31542,7 +30937,7 @@ const locations = [
         "Longitude": 279.467,
         "Latitude": 25.213,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TCVF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31553,7 +30948,7 @@ const locations = [
         "Longitude": 235.853,
         "Latitude": 41.055,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TDPC1",
-        "Owner": "NDBC Central and Northern California Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31564,7 +30959,7 @@ const locations = [
         "Longitude": 268.76300000000003,
         "Latitude": 29.668,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TESL1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31575,7 +30970,7 @@ const locations = [
         "Longitude": 335.222,
         "Latitude": 65.698,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TFBLK",
-        "Owner": "NDBC Icelandic Maritime Administration",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31586,7 +30981,7 @@ const locations = [
         "Longitude": 199.666,
         "Latitude": 59.055,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TGXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31597,7 +30992,7 @@ const locations = [
         "Longitude": 284.017,
         "Latitude": 44.3,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=THIN6",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31608,7 +31003,7 @@ const locations = [
         "Longitude": 276.806,
         "Latitude": 41.826,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=THLO1",
-        "Owner": "NDBC GLERL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31619,7 +31014,7 @@ const locations = [
         "Longitude": 279.628,
         "Latitude": 25.203,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=THRF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31630,7 +31025,7 @@ const locations = [
         "Longitude": 276.527,
         "Latitude": 41.694,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=THRO1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31641,7 +31036,7 @@ const locations = [
         "Longitude": 237.553,
         "Latitude": 37.892,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TIBC1",
-        "Owner": "NDBC Central and Northern California Ocean Observing System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31652,7 +31047,7 @@ const locations = [
         "Longitude": 242.869,
         "Latitude": 32.568,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TIQC1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31663,7 +31058,7 @@ const locations = [
         "Longitude": 242.873,
         "Latitude": 32.575,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TIXC1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31674,7 +31069,7 @@ const locations = [
         "Longitude": 224.781,
         "Latitude": 57.779,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TKEA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31685,7 +31080,7 @@ const locations = [
         "Longitude": 286.06100000000004,
         "Latitude": 42.014,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TKPN6",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31696,7 +31091,7 @@ const locations = [
         "Longitude": 236.08100000000002,
         "Latitude": 45.555,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TLBO3",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31707,7 +31102,7 @@ const locations = [
         "Longitude": 262.546,
         "Latitude": 27.819,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TLVT2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31718,7 +31113,7 @@ const locations = [
         "Longitude": 236.53199999999998,
         "Latitude": 46.238,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TNSO3",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31729,7 +31124,7 @@ const locations = [
         "Longitude": 236.03300000000002,
         "Latitude": 46.707,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TOKW1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31740,7 +31135,7 @@ const locations = [
         "Longitude": 277.567,
         "Latitude": 27.933,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TPAF1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31751,7 +31146,7 @@ const locations = [
         "Longitude": 284.957,
         "Latitude": 40.012,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TPBN4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31762,7 +31157,7 @@ const locations = [
         "Longitude": 279.036,
         "Latitude": 25.41,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TPEF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31773,7 +31168,7 @@ const locations = [
         "Longitude": 283.56399999999996,
         "Latitude": 38.899,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TPLM2",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31784,7 +31179,7 @@ const locations = [
         "Longitude": 229.066,
         "Latitude": 54.802,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TPXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31795,7 +31190,7 @@ const locations = [
         "Longitude": 269.392,
         "Latitude": 29.187,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TRBL1",
-        "Owner": "NDBC LUMCON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31806,7 +31201,7 @@ const locations = [
         "Longitude": 279.407,
         "Latitude": 28.416,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TRDF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31817,7 +31212,7 @@ const locations = [
         "Longitude": 279.35,
         "Latitude": 25.217,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TRRF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31828,7 +31223,7 @@ const locations = [
         "Longitude": 277.574,
         "Latitude": 27.929,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TSHF1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31839,7 +31234,7 @@ const locations = [
         "Longitude": 235.265,
         "Latitude": 48.392,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TTIW1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31850,7 +31245,7 @@ const locations = [
         "Longitude": 276.741,
         "Latitude": 41.699,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TWCO1",
-        "Owner": "NDBC Limno Tech",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31861,7 +31256,7 @@ const locations = [
         "Longitude": 266.158,
         "Latitude": 29.689,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TXPT2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31872,7 +31267,7 @@ const locations = [
         "Longitude": 262.611,
         "Latitude": 27.813,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TXVT2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31883,7 +31278,7 @@ const locations = [
         "Longitude": 280.075,
         "Latitude": 31.633,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=TYBG1",
-        "Owner": "NDBC Skidaway",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31894,7 +31289,7 @@ const locations = [
         "Longitude": 271.495,
         "Latitude": 30.348,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ULAM6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31905,7 +31300,7 @@ const locations = [
         "Longitude": 199.216,
         "Latitude": 63.872,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ULRA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31916,7 +31311,7 @@ const locations = [
         "Longitude": 193.463,
         "Latitude": 53.88,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=UNLA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31927,7 +31322,7 @@ const locations = [
         "Longitude": 237.87900000000002,
         "Latitude": 38.038,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=UPBC1",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31938,7 +31333,7 @@ const locations = [
         "Longitude": 203.278,
         "Latitude": 71.315,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=UQXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31949,7 +31344,7 @@ const locations = [
         "Longitude": 262.948,
         "Latitude": 27.838,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=UTVT2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31960,7 +31355,7 @@ const locations = [
         "Longitude": 279.83799999999997,
         "Latitude": 25.731,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=VAKF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31971,7 +31366,7 @@ const locations = [
         "Longitude": 245.588,
         "Latitude": 36.132,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=VBBA3",
-        "Owner": "NDBC National Park Service - Lake Mead National Recreation Area",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -31982,7 +31377,7 @@ const locations = [
         "Longitude": 278.89300000000003,
         "Latitude": 24.711,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=VCAF1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -31993,7 +31388,7 @@ const locations = [
         "Longitude": 263.391,
         "Latitude": 28.64,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=VCAT2",
-        "Owner": "NDBC TCOON",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32004,7 +31399,7 @@ const locations = [
         "Longitude": 189.715,
         "Latitude": 57.125,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=VCVA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32015,7 +31410,7 @@ const locations = [
         "Longitude": 213.656,
         "Latitude": 61.127,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=VDXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32026,7 +31421,7 @@ const locations = [
         "Longitude": 213.639,
         "Latitude": 61.125,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=VDZA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32037,7 +31432,7 @@ const locations = [
         "Longitude": 277.547,
         "Latitude": 27.072,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=VENF1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32048,7 +31443,7 @@ const locations = [
         "Longitude": 263.887,
         "Latitude": 19.204,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=VERV4",
-        "Owner": "NDBC EPA & Mexican Government Cooperative Program",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32059,7 +31454,7 @@ const locations = [
         "Longitude": 283.5,
         "Latitude": 37.246,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=VMSV2",
-        "Owner": "NDBC Virginia Institute of Marine Science (VIMS)",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32070,7 +31465,7 @@ const locations = [
         "Longitude": 294.556,
         "Latitude": 18.153,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=VQSP4",
-        "Owner": "NDBC Puerto Rico Seismic Network",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32081,7 +31476,7 @@ const locations = [
         "Longitude": 277.63599999999997,
         "Latitude": 41.428,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=VRMO1",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32092,7 +31487,7 @@ const locations = [
         "Longitude": 262.48,
         "Latitude": 27.841,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=VTBT2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32103,7 +31498,7 @@ const locations = [
         "Longitude": 284.31399999999996,
         "Latitude": 37.608,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WAHV2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32114,7 +31509,7 @@ const locations = [
         "Longitude": 166.618,
         "Latitude": 19.291,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WAKP8",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32125,7 +31520,7 @@ const locations = [
         "Longitude": 289.451,
         "Latitude": 41.552,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WAQM3",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32136,7 +31531,7 @@ const locations = [
         "Longitude": 282.979,
         "Latitude": 38.873,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WASD2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32147,7 +31542,7 @@ const locations = [
         "Longitude": 279.298,
         "Latitude": 34.335,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WATS1",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32158,7 +31553,7 @@ const locations = [
         "Longitude": 270.633,
         "Latitude": 30.282,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WAVM6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32169,7 +31564,7 @@ const locations = [
         "Longitude": 289.475,
         "Latitude": 41.582,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WAXM3",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32180,7 +31575,7 @@ const locations = [
         "Longitude": 272.175,
         "Latitude": 30.417,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WBYA1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32191,7 +31586,7 @@ const locations = [
         "Longitude": 279.76,
         "Latitude": 42.077,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WCRP1",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32202,7 +31597,7 @@ const locations = [
         "Longitude": 228.271,
         "Latitude": 55.402,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WCXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32213,7 +31608,7 @@ const locations = [
         "Longitude": 270.449,
         "Latitude": 28.662,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WDEL1",
-        "Owner": "NDBC Shell Oil",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32224,7 +31619,7 @@ const locations = [
         "Longitude": 283.685,
         "Latitude": 36.977,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WDSV2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32235,7 +31630,7 @@ const locations = [
         "Longitude": 236.466,
         "Latitude": 46.252,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WDYO3",
-        "Owner": "NDBC Columbia River Inter-Tribal Fish Commission",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32246,7 +31641,7 @@ const locations = [
         "Longitude": 289.437,
         "Latitude": 43.32,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WEBM1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32257,7 +31652,7 @@ const locations = [
         "Longitude": 289.437,
         "Latitude": 43.32,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WELM1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32268,7 +31663,7 @@ const locations = [
         "Longitude": 289.451,
         "Latitude": 43.345,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WEQM1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32279,7 +31674,7 @@ const locations = [
         "Longitude": 289.451,
         "Latitude": 43.337,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WEXM1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32290,7 +31685,7 @@ const locations = [
         "Longitude": 275.03,
         "Latitude": 46.76,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WFPM4",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32301,7 +31696,7 @@ const locations = [
         "Longitude": 227.618,
         "Latitude": 56.467,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WGXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32312,7 +31707,7 @@ const locations = [
         "Longitude": 272.187,
         "Latitude": 42.361,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WHRI2",
-        "Owner": "NDBC NWS Central Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32323,7 +31718,7 @@ const locations = [
         "Longitude": 278.956,
         "Latitude": 25.587,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WIWF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32334,7 +31729,7 @@ const locations = [
         "Longitude": 211.318,
         "Latitude": 60.777,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WIXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32345,7 +31740,7 @@ const locations = [
         "Longitude": 272.177,
         "Latitude": 30.417,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WKQA1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32356,7 +31751,7 @@ const locations = [
         "Longitude": 272.172,
         "Latitude": 30.421,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WKXA1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32367,7 +31762,7 @@ const locations = [
         "Longitude": 282.046,
         "Latitude": 34.228,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WLON7",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32378,7 +31773,7 @@ const locations = [
         "Longitude": 283.71,
         "Latitude": 37.615,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WNDV2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32389,7 +31784,7 @@ const locations = [
         "Longitude": 275.79,
         "Latitude": 46.285,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WNEM4",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32400,7 +31795,7 @@ const locations = [
         "Longitude": 278.751,
         "Latitude": 25.71,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WPLF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32411,7 +31806,7 @@ const locations = [
         "Longitude": 237.565,
         "Latitude": 47.662,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WPOW1",
-        "Owner": "NDBC NDBC",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32422,7 +31817,7 @@ const locations = [
         "Longitude": 235.89499999999998,
         "Latitude": 46.904,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WPTW1",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32433,7 +31828,7 @@ const locations = [
         "Longitude": 289.413,
         "Latitude": 43.298,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WQQM1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32444,7 +31839,7 @@ const locations = [
         "Longitude": 279.265,
         "Latitude": 25.072,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WRBF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32455,7 +31850,7 @@ const locations = [
         "Longitude": 199.966,
         "Latitude": 70.636,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WRXA2",
-        "Owner": "NDBC Marine Exchange of Alaska",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32466,21 +31861,21 @@ const locations = [
         "Longitude": 274.865,
         "Latitude": 45.842,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WSLM4",
-        "Owner": "NDBC GLERL",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
     },
     {
-        "DataType": "Ocean Buoy (Historical)",
+        "DataType": "Ocean Buoy (Active)",
         "Name": "Whitewater Bay-East, FL",
         "Longitude": 279.062,
         "Latitude": 25.232,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WWEF1",
-        "Owner": "NDBC Everglades National Park",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
-        "Notes": "Ocean Buoy (Historical)"
+        "Notes": "Ocean Buoy (Active)"
     },
     {
         "DataType": "Ocean Buoy (Active)",
@@ -32488,7 +31883,7 @@ const locations = [
         "Longitude": 280.711,
         "Latitude": 33.309,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WYBS1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32499,7 +31894,7 @@ const locations = [
         "Longitude": 270.674,
         "Latitude": 30.326,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WYCM6",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32510,7 +31905,7 @@ const locations = [
         "Longitude": 280.711,
         "Latitude": 33.309,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=WYSS1",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32521,7 +31916,7 @@ const locations = [
         "Longitude": 294.16700000000003,
         "Latitude": 18.055,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=YABP4",
-        "Owner": "NDBC Puerto Rico Seismic Network",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32532,7 +31927,7 @@ const locations = [
         "Longitude": 220.267,
         "Latitude": 59.548,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=YATA2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32543,7 +31938,7 @@ const locations = [
         "Longitude": 280.93600000000004,
         "Latitude": 43.262,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=YGNN6",
-        "Owner": "NDBC NWS Eastern Region",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32554,7 +31949,7 @@ const locations = [
         "Longitude": 283.658,
         "Latitude": 37.251,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=YKRV2",
-        "Owner": "NDBC NOAA NOS PORTS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -32565,7 +31960,7 @@ const locations = [
         "Longitude": 283.521,
         "Latitude": 37.227,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=YKTV2",
-        "Owner": "NDBC NOS",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32576,7 +31971,7 @@ const locations = [
         "Longitude": 283.288,
         "Latitude": 37.414,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=YRSV2",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Active)"
@@ -32587,7 +31982,7 @@ const locations = [
         "Longitude": 282.065,
         "Latitude": 33.955,
         "URL": "https://www.ndbc.noaa.gov/station_page.php?station=ZBQN7",
-        "Owner": "NDBC National Estuarine Research Reserve System",
+        "Owner": "NDBC",
         "State": "",
         "Country": "",
         "Notes": "Ocean Buoy (Historical)"
@@ -193132,10 +192527,10 @@ const locations = [
         "Latitude": -27.939668,
         "Longitude": 153.421,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/gold-coast-seaway",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide | gcseaway"
     },
     {
         "DataType": "Tide Gauge",
@@ -193143,10 +192538,10 @@ const locations = [
         "Latitude": -27.91845,
         "Longitude": 153.344167,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/coombabah-lake-south",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide | coombabahst"
     },
     {
         "DataType": "Tide Gauge",
@@ -193154,10 +192549,10 @@ const locations = [
         "Latitude": -27.7042667,
         "Longitude": 153.3610667,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/russell-island-west",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide | russellislandw"
     },
     {
         "DataType": "Tide Gauge",
@@ -193165,10 +192560,10 @@ const locations = [
         "Latitude": -27.4016,
         "Longitude": 153.1574,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/brisbane-bar",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide | whyteislandnx"
     },
     {
         "DataType": "Tide Gauge",
@@ -193176,10 +192571,10 @@ const locations = [
         "Latitude": -27.43191666666667,
         "Longitude": 153.11146666666667,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/brisbane-river",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide"
     },
     {
         "DataType": "Tide Gauge",
@@ -193187,10 +192582,10 @@ const locations = [
         "Latitude": -27.177469,
         "Longitude": 153.368135,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/tangalooma",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide | tangalooma"
     },
     {
         "DataType": "Tide Gauge",
@@ -193198,10 +192593,10 @@ const locations = [
         "Latitude": -27.5411,
         "Longitude": 153.33675,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/banana-bank",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide | bananabank"
     },
     {
         "DataType": "Tide Gauge",
@@ -193209,10 +192604,10 @@ const locations = [
         "Latitude": -26.998017,
         "Longitude": 153.070867,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/donnybrook",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide"
     },
     {
         "DataType": "Tide Gauge",
@@ -193220,10 +192615,10 @@ const locations = [
         "Latitude": -27.474667,
         "Longitude": 153.21905,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/birkdale",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide | birkdale"
     },
     {
         "DataType": "Tide Gauge",
@@ -193231,10 +192626,10 @@ const locations = [
         "Latitude": -27.51555,
         "Longitude": 153.279617,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/raby-bay",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide | rabybay"
     },
     {
         "DataType": "Tide Gauge",
@@ -193242,10 +192637,10 @@ const locations = [
         "Latitude": -26.64305,
         "Longitude": 153.08875,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/maroochydore",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide | maroochydore"
     },
     {
         "DataType": "Tide Gauge",
@@ -193253,10 +192648,10 @@ const locations = [
         "Latitude": -26.394367,
         "Longitude": 153.078367,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/noosa-river-munna-point",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide"
     },
     {
         "DataType": "Tide Gauge",
@@ -193264,10 +192659,10 @@ const locations = [
         "Latitude": -26.395417,
         "Longitude": 153.0421,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/noosa-river-tewantin",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide"
     },
     {
         "DataType": "Tide Gauge",
@@ -193275,10 +192670,10 @@ const locations = [
         "Latitude": -26.90405,
         "Longitude": 153.079133,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/the-skids",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide | theskids"
     },
     {
         "DataType": "Tide Gauge",
@@ -193286,10 +192681,10 @@ const locations = [
         "Latitude": -26.879683,
         "Longitude": 153.117,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/halls-bay",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide | hallsbay"
     },
     {
         "DataType": "Tide Gauge",
@@ -193297,10 +192692,10 @@ const locations = [
         "Latitude": -24.7704,
         "Longitude": 152.381933,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/bundaberg-port",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide | bundaberg"
     },
     {
         "DataType": "Tide Gauge",
@@ -193308,10 +192703,10 @@ const locations = [
         "Latitude": -25.89905,
         "Longitude": 153.013917,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/tin-can-bay",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide"
     },
     {
         "DataType": "Tide Gauge",
@@ -193319,10 +192714,10 @@ const locations = [
         "Latitude": -20.2608283,
         "Longitude": 148.7081446,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/abell-point-marina",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide | abellpoint"
     },
     {
         "DataType": "Tide Gauge",
@@ -193330,10 +192725,10 @@ const locations = [
         "Latitude": -18.523033,
         "Longitude": 146.330917,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/lucinda-inshore",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide"
     },
     {
         "DataType": "Tide Gauge",
@@ -193341,10 +192736,10 @@ const locations = [
         "Latitude": -9.229317,
         "Longitude": 142.22085,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/boigu-jetty",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide"
     },
     {
         "DataType": "Tide Gauge",
@@ -193352,10 +192747,10 @@ const locations = [
         "Latitude": -10.204183,
         "Longitude": 142.822217,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites/warraber",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "tide | warraber"
     },
     {
         "DataType": "Tide Gauge",
@@ -193363,10 +192758,10 @@ const locations = [
         "Latitude": -9.24368,
         "Longitude": 142.25396,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/boigu",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | boigu"
     },
     {
         "DataType": "Tide Gauge",
@@ -193374,10 +192769,10 @@ const locations = [
         "Latitude": -20.0245,
         "Longitude": 148.2506,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/bowen",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | bowen"
     },
     {
         "DataType": "Tide Gauge",
@@ -193385,10 +192780,10 @@ const locations = [
         "Latitude": -17.73335,
         "Longitude": 139.5929,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/burketown",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | burketown"
     },
     {
         "DataType": "Tide Gauge",
@@ -193396,10 +192791,10 @@ const locations = [
         "Latitude": -24.7611,
         "Longitude": 152.4005,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/burnett-heads",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | burnett"
     },
     {
         "DataType": "Tide Gauge",
@@ -193407,10 +192802,10 @@ const locations = [
         "Latitude": -16.9276,
         "Longitude": 145.7788,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/cairns",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | cairns"
     },
     {
         "DataType": "Tide Gauge",
@@ -193418,10 +192813,10 @@ const locations = [
         "Latitude": -19.279,
         "Longitude": 147.0575,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/cape-ferguson",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | capeferg"
     },
     {
         "DataType": "Tide Gauge",
@@ -193429,10 +192824,10 @@ const locations = [
         "Latitude": -18.2636,
         "Longitude": 146.0261,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/cardwell",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | cardwell"
     },
     {
         "DataType": "Tide Gauge",
@@ -193440,10 +192835,10 @@ const locations = [
         "Latitude": -17.8515,
         "Longitude": 146.1053,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/clump-point",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | clumppoint"
     },
     {
         "DataType": "Tide Gauge",
@@ -193451,10 +192846,10 @@ const locations = [
         "Latitude": -15.4608,
         "Longitude": 145.2486,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/cooktown",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | cooktown"
     },
     {
         "DataType": "Tide Gauge",
@@ -193462,10 +192857,10 @@ const locations = [
         "Latitude": -21.2519,
         "Longitude": 149.3032,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/dalrymple-bay",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | dalbay"
     },
     {
         "DataType": "Tide Gauge",
@@ -193473,10 +192868,10 @@ const locations = [
         "Latitude": -27.9385,
         "Longitude": 153.43267,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/gold-coast",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | goldcoast"
     },
     {
         "DataType": "Tide Gauge",
@@ -193484,10 +192879,10 @@ const locations = [
         "Latitude": -9.89919,
         "Longitude": 142.766,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/iama",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | iama"
     },
     {
         "DataType": "Tide Gauge",
@@ -193495,10 +192890,10 @@ const locations = [
         "Latitude": -17.4883,
         "Longitude": 140.8346,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/karumba",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | karumba"
     },
     {
         "DataType": "Tide Gauge",
@@ -193506,10 +192901,10 @@ const locations = [
         "Latitude": -26.814503,
         "Longitude": 153.119811,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/golden-beach",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | goldenbeach"
     },
     {
         "DataType": "Tide Gauge",
@@ -193517,10 +192912,10 @@ const locations = [
         "Latitude": -18.5216,
         "Longitude": 146.3853,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/lucinda",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | lucinda"
     },
     {
         "DataType": "Tide Gauge",
@@ -193528,10 +192923,10 @@ const locations = [
         "Latitude": -21.1066,
         "Longitude": 149.2258,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/mackay",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | mackaynew"
     },
     {
         "DataType": "Tide Gauge",
@@ -193539,10 +192934,10 @@ const locations = [
         "Latitude": -20.9016516,
         "Longitude": 148.9758108,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/seaforth",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | seaforth"
     },
     {
         "DataType": "Tide Gauge",
@@ -193550,10 +192945,10 @@ const locations = [
         "Latitude": -10.23609,
         "Longitude": 142.21449,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/kubin",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | kubin"
     },
     {
         "DataType": "Tide Gauge",
@@ -193561,10 +192956,10 @@ const locations = [
         "Latitude": -10.19568,
         "Longitude": 142.33412,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/stpauls",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | stpauls"
     },
     {
         "DataType": "Tide Gauge",
@@ -193572,10 +192967,10 @@ const locations = [
         "Latitude": -26.6856,
         "Longitude": 153.1326,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/mooloolaba",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | mooloolaba"
     },
     {
         "DataType": "Tide Gauge",
@@ -193583,10 +192978,10 @@ const locations = [
         "Latitude": -16.6678,
         "Longitude": 139.1708,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/mornington-island",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | morningtonA"
     },
     {
         "DataType": "Tide Gauge",
@@ -193594,10 +192989,10 @@ const locations = [
         "Latitude": -16.4358,
         "Longitude": 145.4031,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/mossman",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | mossman"
     },
     {
         "DataType": "Tide Gauge",
@@ -193605,10 +193000,10 @@ const locations = [
         "Latitude": -17.6011,
         "Longitude": 146.1238,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/mourilyan",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | mourilyan"
     },
     {
         "DataType": "Tide Gauge",
@@ -193616,10 +193011,10 @@ const locations = [
         "Latitude": -26.383033,
         "Longitude": 153.080167,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/noosa-river-sand-jetty2",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | noosasandstg"
     },
     {
         "DataType": "Tide Gauge",
@@ -193627,10 +193022,10 @@ const locations = [
         "Latitude": -16.7397,
         "Longitude": 145.6727,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/palm-cove",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | palmcove"
     },
     {
         "DataType": "Tide Gauge",
@@ -193638,10 +193033,10 @@ const locations = [
         "Latitude": -23.5856,
         "Longitude": 150.8595,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/port-alma",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | portalma"
     },
     {
         "DataType": "Tide Gauge",
@@ -193649,10 +193044,10 @@ const locations = [
         "Latitude": -16.484617,
         "Longitude": 145.459433,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/port-douglas",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | portdouglas"
     },
     {
         "DataType": "Tide Gauge",
@@ -193660,10 +193055,10 @@ const locations = [
         "Latitude": -23.1666,
         "Longitude": 150.7916,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/rosslyn-bay",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | rosslyn"
     },
     {
         "DataType": "Tide Gauge",
@@ -193671,10 +193066,10 @@ const locations = [
         "Latitude": -27.1936,
         "Longitude": 153.109283,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/scarborough",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | scarborough"
     },
     {
         "DataType": "Tide Gauge",
@@ -193682,10 +193077,10 @@ const locations = [
         "Latitude": -27.323611,
         "Longitude": 153.089722,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/shorncliffe",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | shorncliffe"
     },
     {
         "DataType": "Tide Gauge",
@@ -193693,10 +193088,10 @@ const locations = [
         "Latitude": -23.8538,
         "Longitude": 151.3136,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/south-trees-island",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | southtrees"
     },
     {
         "DataType": "Tide Gauge",
@@ -193704,10 +193099,10 @@ const locations = [
         "Latitude": -10.5863,
         "Longitude": 142.2215,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/thursday-island",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | thursdayisland"
     },
     {
         "DataType": "Tide Gauge",
@@ -193715,10 +193110,10 @@ const locations = [
         "Latitude": -19.2538,
         "Longitude": 146.8295,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/townsville",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | townsville"
     },
     {
         "DataType": "Tide Gauge",
@@ -193726,10 +193121,10 @@ const locations = [
         "Latitude": -9.50458,
         "Longitude": 143.5468,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/ugar",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | ugar"
     },
     {
         "DataType": "Tide Gauge",
@@ -193737,10 +193132,10 @@ const locations = [
         "Latitude": -25.2961,
         "Longitude": 152.9105,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/urangan",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | urangan"
     },
     {
         "DataType": "Tide Gauge",
@@ -193748,10 +193143,10 @@ const locations = [
         "Latitude": -28.171767,
         "Longitude": 153.558733,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/tweed-sand-bypass-jetty",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | tweedsbj"
     },
     {
         "DataType": "Tide Gauge",
@@ -193759,10 +193154,76 @@ const locations = [
         "Latitude": -12.67,
         "Longitude": 141.8623,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites/weipa",
-        "Owner": "QLD Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
-        "Notes": ""
+        "Notes": "storm | weipanx"
+    },
+    {
+        "DataType": "Tide Gauge",
+        "Name": "Dalrymple Bay",
+        "Latitude": -21.2503,
+        "Longitude": 149.3044,
+        "URL": "https://apps.des.qld.gov.au/data-sets/storm-tides/tide-7dayopdata.csv",
+        "Owner": "Qld Gov",
+        "State": "QLD",
+        "Country": "Australia",
+        "Notes": "dalbay"
+    },
+    {
+        "DataType": "Tide Gauge",
+        "Name": "Hussey Creek",
+        "Latitude": -26.9244,
+        "Longitude": 153.0706,
+        "URL": "https://apps.des.qld.gov.au/data-sets/storm-tides/tide-7dayopdata.csv",
+        "Owner": "Qld Gov",
+        "State": "QLD",
+        "Country": "Australia",
+        "Notes": "husseycreek"
+    },
+    {
+        "DataType": "Tide Gauge",
+        "Name": "Noosa River Sand Jetty",
+        "Latitude": -26.383,
+        "Longitude": 153.0802,
+        "URL": "https://apps.des.qld.gov.au/data-sets/storm-tides/tide-7dayopdata.csv",
+        "Owner": "Qld Gov",
+        "State": "QLD",
+        "Country": "Australia",
+        "Notes": "noosasandstg"
+    },
+    {
+        "DataType": "Tide Gauge",
+        "Name": "Wave Break Island North",
+        "Latitude": -27.9318,
+        "Longitude": 153.4197,
+        "URL": "https://apps.des.qld.gov.au/data-sets/storm-tides/tide-7dayopdata.csv",
+        "Owner": "Qld Gov",
+        "State": "QLD",
+        "Country": "Australia",
+        "Notes": "wavebreaknc"
+    },
+    {
+        "DataType": "Tide Gauge",
+        "Name": "Wave Break Island West",
+        "Latitude": -27.9382,
+        "Longitude": 153.4096,
+        "URL": "https://apps.des.qld.gov.au/data-sets/storm-tides/tide-7dayopdata.csv",
+        "Owner": "Qld Gov",
+        "State": "QLD",
+        "Country": "Australia",
+        "Notes": "wavebreakwc"
+    },
+    {
+        "DataType": "Tide Gauge",
+        "Name": "Brisbane Bar",
+        "Latitude": -27.4017,
+        "Longitude": 153.1574,
+        "URL": "https://apps.des.qld.gov.au/data-sets/storm-tides/tide-7dayopdata.csv",
+        "Owner": "Qld Gov",
+        "State": "QLD",
+        "Country": "Australia",
+        "Notes": "whyteislandnx"
     },
     {
         "DataType": "Tide Gauge",
@@ -193771,7 +193232,7 @@ const locations = [
         "Latitude": -32.521931,
         "URL": "https://www.transport.wa.gov.au/imarine/mandurah-tide.asp",
         "Notes": "MHMAN02",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193782,7 +193243,7 @@ const locations = [
         "Latitude": -31.495819,
         "URL": "https://www.transport.wa.gov.au/imarine/two-rocks-tide.asp",
         "Notes": "TRTRK03",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193793,7 +193254,7 @@ const locations = [
         "Latitude": -32.601376,
         "URL": "https://www.transport.wa.gov.au/imarine/cape-bouvard-tide.asp",
         "Notes": "DVBVD01",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193804,7 +193265,7 @@ const locations = [
         "Latitude": -31.899747,
         "URL": "",
         "Notes": "SCHS201",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193815,7 +193276,7 @@ const locations = [
         "Latitude": -32.023121,
         "URL": "",
         "Notes": "SCHC101",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193826,7 +193287,7 @@ const locations = [
         "Latitude": -33.630431,
         "URL": "https://www.transport.wa.gov.au/imarine/busselton-port-geographe-tide.asp",
         "Notes": "BSGEO01",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193837,7 +193298,7 @@ const locations = [
         "Latitude": -33.323437,
         "URL": "https://www.transport.wa.gov.au/imarine/bunbury-inner-harbour-tide.asp",
         "Notes": "BUBNY02",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193848,7 +193309,7 @@ const locations = [
         "Latitude": -30.287293,
         "URL": "https://www.transport.wa.gov.au/imarine/jurien-bay-tide.asp",
         "Notes": "JUJUR01",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193859,7 +193320,7 @@ const locations = [
         "Latitude": -21.954848,
         "URL": "https://www.transport.wa.gov.au/imarine/exmouth-tide.asp",
         "Notes": "EXEXM02",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193870,7 +193331,7 @@ const locations = [
         "Latitude": -21.617765,
         "URL": "https://www.transport.wa.gov.au/imarine/onslow-salt-tide.asp",
         "Notes": "NWOST02",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193881,7 +193342,7 @@ const locations = [
         "Latitude": -32.592209,
         "URL": "https://www.transport.wa.gov.au/imarine/peel-inlet-tide.asp",
         "Notes": "PLPEE01",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193892,7 +193353,7 @@ const locations = [
         "Latitude": -32.683431,
         "URL": "https://www.transport.wa.gov.au/imarine/harvey-tide.asp",
         "Notes": "DVHAR01",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193903,7 +193364,7 @@ const locations = [
         "Latitude": -33.320766,
         "URL": "https://www.transport.wa.gov.au/imarine/bunbury-storm-surge-barrier-tide.asp#",
         "Notes": "BUBSI01",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193914,7 +193375,7 @@ const locations = [
         "Latitude": -24.898681,
         "URL": "https://www.transport.wa.gov.au/imarine/carnarvon-tide.asp",
         "Notes": "CNCAR02",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193925,7 +193386,7 @@ const locations = [
         "Latitude": -34.424792,
         "URL": "https://www.transport.wa.gov.au/imarine/bremer-bay-tide.asp",
         "Notes": "BBBRE01",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193936,7 +193397,7 @@ const locations = [
         "Latitude": -35.033737,
         "URL": "https://www.transport.wa.gov.au/imarine/albany-tide.asp",
         "Notes": "ALALB01",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193947,7 +193408,7 @@ const locations = [
         "Latitude": -31.959681,
         "URL": "https://www.transport.wa.gov.au/imarine/perth-barrack-street-tide.asp",
         "Notes": "PTBAR02",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193958,7 +193419,7 @@ const locations = [
         "Latitude": -15.453264,
         "URL": "https://www.transport.wa.gov.au/imarine/wyndham-tide.asp",
         "Notes": "WYWYN01",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193969,7 +193430,7 @@ const locations = [
         "Latitude": -21.649657,
         "URL": "https://www.transport.wa.gov.au/imarine/onslow-tide.asp",
         "Notes": "NWONS01",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193980,7 +193441,7 @@ const locations = [
         "Latitude": -32.609626,
         "URL": "https://www.transport.wa.gov.au/imarine/caddadup-tide.asp",
         "Notes": "DVCAD01",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -193991,7 +193452,7 @@ const locations = [
         "Latitude": -31.933301,
         "URL": "https://www.transport.wa.gov.au/imarine/coastaldata/tidesandwaves/live_gfx/HS1_TIDE.GIF",
         "Notes": "SCHS101",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -194002,7 +193463,7 @@ const locations = [
         "Latitude": -33.320612,
         "URL": "https://www.transport.wa.gov.au/imarine/bunbury-storm-surge-barrier-tide.asp#",
         "Notes": "BUBSO01",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -194013,7 +193474,7 @@ const locations = [
         "Latitude": -28.775959,
         "URL": "https://www.transport.wa.gov.au/imarine/geraldton-tide.asp",
         "Notes": "GNGER02",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -194024,7 +193485,7 @@ const locations = [
         "Latitude": -32.065543,
         "URL": "https://www.transport.wa.gov.au/imarine/fremantle-fishing-boat-harbour-tide.asp",
         "Notes": "FFFBH01",
-        "Owner": "WA Government",
+        "Owner": "WA Gov",
         "State": "WA",
         "Country": "Australia"
     },
@@ -201979,6 +201440,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=8000006, label=SPOT-8000006"
     },
     {
@@ -201990,6 +201452,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11001, label=MtEliza"
     },
     {
@@ -202001,6 +201464,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11002, label=IndentedHead"
     },
     {
@@ -202012,6 +201476,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11003, label=Werribee"
     },
     {
@@ -202023,6 +201488,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11004, label=DuttonWay"
     },
     {
@@ -202034,6 +201500,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11005, label=ApolloBay"
     },
     {
@@ -202045,6 +201512,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11006, label=CapeBridgewater"
     },
     {
@@ -202056,6 +201524,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11007, label=Central"
     },
     {
@@ -202067,6 +201536,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11008, label=WilsonsProm"
     },
     {
@@ -202078,6 +201548,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11009, label=Inverloch"
     },
     {
@@ -202089,6 +201560,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11010, label=PortFairy"
     },
     {
@@ -202100,6 +201572,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11011, label=Sandringham"
     },
     {
@@ -202111,6 +201584,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11012, label=CapeBridgewater_HSM"
     },
     {
@@ -202122,6 +201596,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11013, label=Rosebud"
     },
     {
@@ -202133,6 +201608,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11015, label=CapeBridgewater_DC"
     },
     {
@@ -202144,6 +201620,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11016, label=CapeBridgewater_FB"
     },
     {
@@ -202155,6 +201632,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11017, label=CapeBridgewater_SC"
     },
     {
@@ -202166,6 +201644,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11018, label=CapeNelson"
     },
     {
@@ -202177,6 +201656,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11019, label=InverlochInshore"
     },
     {
@@ -202188,6 +201668,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11020, label=LakesEntrance"
     },
     {
@@ -202199,6 +201680,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11021, label=Bob"
     },
     {
@@ -202210,6 +201692,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11022, label=CapeBridgewaterTriAXYS"
     },
     {
@@ -202221,6 +201704,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11023, label=LakesEntranceTriAXYS"
     },
     {
@@ -202232,6 +201716,7 @@ const locations = [
         "Owner": "Vic Gov",
         "State": "VIC",
         "Country": "Australia",
+        "Acknowledgement": null,
         "Notes": "id=11024, label=WilsonsPromTriAXYS"
     },
     {
@@ -202243,6 +201728,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10040, label=Hillarys"
     },
     {
@@ -202254,6 +201741,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10043, label=Mandurah01"
     },
     {
@@ -202265,6 +201754,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10047, label=YanchepLagoon"
     },
     {
@@ -202276,6 +201767,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10049, label=QuinnsDogBeach"
     },
     {
@@ -202287,6 +201780,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10001, label=Torbay"
     },
     {
@@ -202298,6 +201793,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10048, label=QuinnsBeach"
     },
     {
@@ -202309,6 +201806,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10006, label=KingGeorgeSound"
     },
     {
@@ -202320,6 +201819,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": "University of Western Australia and the Integrated Marine Observing System (IMOS)",
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10014, label=TorbayWest"
     },
     {
@@ -202331,6 +201832,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10037, label=CowaramupBay"
     },
     {
@@ -202342,6 +201845,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10039, label=OceanBeach"
     },
     {
@@ -202353,6 +201858,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10052, label=JurienBayOffshore"
     },
     {
@@ -202364,6 +201871,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10053, label=JurienBayInshore"
     },
     {
@@ -202375,6 +201884,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10057, label=DongaraOffshore"
     },
     {
@@ -202386,6 +201897,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10058, label=DongaraInshore"
     },
     {
@@ -202397,6 +201910,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10029, label=TantabiddiAQL"
     },
     {
@@ -202408,6 +201923,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10027, label=Bundegi"
     },
     {
@@ -202419,6 +201936,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10042, label=MermaidReef"
     },
     {
@@ -202430,6 +201949,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10054, label=ExmouthGulfNorth"
     },
     {
@@ -202441,6 +201962,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": "University of Western Australia and the Integrated Marine Observing System (IMOS)",
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10073, label=CoralBay02"
     },
     {
@@ -202452,6 +201975,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10055, label=ExmouthGulfSouth"
     },
     {
@@ -202463,6 +201988,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10041, label=CocosLagoon"
     },
     {
@@ -202474,6 +202001,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": "University of Western Australia and the Integrated Marine Observing System (IMOS)",
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10078, label=SharkBay02"
     },
     {
@@ -202485,6 +202014,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10051, label=CableBeach"
     },
     {
@@ -202496,6 +202027,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10050, label=CygnetBay"
     },
     {
@@ -202507,6 +202040,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": "University of Western Australia and the Integrated Marine Observing System (IMOS)",
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10002, label=Tantabiddi"
     },
     {
@@ -202518,6 +202053,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10003, label=ExmouthGulf"
     },
     {
@@ -202529,6 +202066,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10064, label=Abbey"
     },
     {
@@ -202540,6 +202079,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10004, label=Hilarys"
     },
     {
@@ -202551,6 +202092,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10065, label=Dunsborough"
     },
     {
@@ -202562,6 +202105,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10005, label=PerthCanyon"
     },
     {
@@ -202573,6 +202118,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10021, label=BusseltonJetty"
     },
     {
@@ -202584,6 +202131,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10066, label=BusseltonJetty02"
     },
     {
@@ -202595,6 +202144,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10007, label=Dampier"
     },
     {
@@ -202606,6 +202157,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10067, label=HillarysSS"
     },
     {
@@ -202617,6 +202170,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10072, label=Hillarys_HSM"
     },
     {
@@ -202628,6 +202183,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10079, label=TorbayWest_HSM"
     },
     {
@@ -202639,6 +202196,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10080, label=HillarysSolarPanelTest"
     },
     {
@@ -202650,6 +202209,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": "University of Western Australia and the Integrated Marine Observing System (IMOS)",
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10008, label=GoodrichBank"
     },
     {
@@ -202661,6 +202222,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10010, label=BremerCanyon_Drifting"
     },
     {
@@ -202672,6 +202235,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10011, label=CoralBay"
     },
     {
@@ -202683,6 +202248,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10071, label=OceanBeach_HSM"
     },
     {
@@ -202694,6 +202261,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10012, label=Abrolhos"
     },
     {
@@ -202705,6 +202274,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": "University of Western Australia and the Integrated Marine Observing System (IMOS)",
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10013, label=TorbayEast"
     },
     {
@@ -202716,6 +202287,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10015, label=SharkBay"
     },
     {
@@ -202727,6 +202300,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10016, label=Thevenard"
     },
     {
@@ -202738,6 +202313,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10017, label=MontebelloIslands"
     },
     {
@@ -202749,6 +202326,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10018, label=MermaidLagoon"
     },
     {
@@ -202760,6 +202339,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10019, label=ClerkeLagoon"
     },
     {
@@ -202771,6 +202352,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10020, label=ClerkeReef"
     },
     {
@@ -202782,6 +202365,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10023, label=Augusta"
     },
     {
@@ -202793,6 +202378,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10024, label=KingGeorgeSound_M401"
     },
     {
@@ -202804,6 +202391,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10025, label=KingGeorgeSound_M402"
     },
     {
@@ -202815,6 +202404,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10026, label=KingGeorgeSound_M403"
     },
     {
@@ -202826,6 +202417,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10028, label=SalmonHoles"
     },
     {
@@ -202837,6 +202430,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10030, label=TorbayArray01"
     },
     {
@@ -202848,6 +202443,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10031, label=TorbayArray02"
     },
     {
@@ -202859,6 +202456,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10032, label=TorbayArray03"
     },
     {
@@ -202870,6 +202469,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10033, label=GoodrichBank02"
     },
     {
@@ -202881,6 +202482,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10036, label=HamelinBay"
     },
     {
@@ -202892,6 +202495,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10038, label=CanalRocks"
     },
     {
@@ -202903,6 +202508,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=10044, label=Mandurah02"
     },
     {
@@ -202914,6 +202521,8 @@ const locations = [
         "Owner": "UWA",
         "State": "WA",
         "Country": "Australia",
+        "Acknowledgement": null,
+        "Licence": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.en",
         "Notes": "id=20000, label=M4"
     },
     {
@@ -203021,7 +202630,7 @@ const locations = [
         "Longitude": 148.094333,
         "Latitude": -19.860567,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/abbot-point",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203032,7 +202641,7 @@ const locations = [
         "Longitude": 141.684767,
         "Latitude": -12.689,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/albatross-bay",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203043,7 +202652,7 @@ const locations = [
         "Longitude": 153.511967,
         "Latitude": -28.143067,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/bilinga",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203054,7 +202663,7 @@ const locations = [
         "Longitude": 153.6290951,
         "Latitude": -27.487167,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/brisbane",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203065,7 +202674,7 @@ const locations = [
         "Longitude": 152.502033,
         "Latitude": -24.68175,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/bundaberg",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203076,7 +202685,7 @@ const locations = [
         "Longitude": 145.7125951,
         "Latitude": -16.7305,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/cairns",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203087,7 +202696,7 @@ const locations = [
         "Longitude": 153.154733,
         "Latitude": -26.846133,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/caloundra",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203098,7 +202707,7 @@ const locations = [
         "Longitude": 151.0703,
         "Latitude": -23.303317,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/emu-park",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203109,7 +202718,7 @@ const locations = [
         "Longitude": 151.5037,
         "Latitude": -23.89512,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/gladstone",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203120,7 +202729,7 @@ const locations = [
         "Longitude": 153.44095,
         "Latitude": -27.9649,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/gold-coast",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203131,7 +202740,7 @@ const locations = [
         "Longitude": 149.297,
         "Latitude": -21.227,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/hay-point",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203142,7 +202751,7 @@ const locations = [
         "Longitude": 149.547817,
         "Latitude": -21.034733,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/mackay",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203153,7 +202762,7 @@ const locations = [
         "Longitude": 149.242483,
         "Latitude": -21.112567,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/mackay-harbour",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203164,7 +202773,7 @@ const locations = [
         "Longitude": 153.182483,
         "Latitude": -26.56605,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/mooloolaba",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203175,7 +202784,7 @@ const locations = [
         "Longitude": 153.2815167,
         "Latitude": -26.8999,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/north-moreton-bay",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203186,7 +202795,7 @@ const locations = [
         "Longitude": 153.486367,
         "Latitude": -28.099867,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/palm-beach",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203197,7 +202806,7 @@ const locations = [
         "Longitude": 143.051883,
         "Latitude": -10.053283,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/poruma-west",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203208,7 +202817,7 @@ const locations = [
         "Longitude": 141.834567,
         "Latitude": -11.746383,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/skardon-river-outer",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203219,7 +202828,7 @@ const locations = [
         "Longitude": 141.720167,
         "Latitude": -11.722717,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/skardon-river-offshore-wave-monitoring",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203230,7 +202839,7 @@ const locations = [
         "Longitude": 153.576333,
         "Latitude": -28.177083,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/tweed-heads",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203241,7 +202850,7 @@ const locations = [
         "Longitude": 153.680283,
         "Latitude": -28.212,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/tweed-offshore",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203252,7 +202861,7 @@ const locations = [
         "Longitude": 147.074867,
         "Latitude": -19.1761,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/townsville",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203263,7 +202872,7 @@ const locations = [
         "Longitude": 153.2033,
         "Latitude": -25.760333,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/wide-bay",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""
@@ -203274,7 +202883,7 @@ const locations = [
         "Longitude": 140.280067,
         "Latitude": -12.169367,
         "URL": "https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/amrun-offshore",
-        "Owner": "Queensland Government",
+        "Owner": "Qld Gov",
         "State": "QLD",
         "Country": "Australia",
         "Notes": ""

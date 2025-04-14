@@ -231,7 +231,7 @@ function plotData(groupedData, site) {
         y: filterData(siteData.Hsig), // Filter Hsig data
         mode: 'lines',
         name: `H<sub>sig</sub>`,
-        // xaxis: 'x',
+        xaxis: 'x',
         yaxis: 'y1',
         line: { color: '#1f77b4' } // Example color for Hsig
     });
@@ -241,7 +241,7 @@ function plotData(groupedData, site) {
         y: filterData(siteData.Hmax), // Filter Hmax data
         mode: 'lines',
         name: `H<sub>max</sub>`,
-        // xaxis: 'x',
+        xaxis: 'x',
         yaxis: 'y1',
         line: { color: '#ff7f0e' } // Example color for Hmax
     });
@@ -252,7 +252,7 @@ function plotData(groupedData, site) {
         y: filterData(siteData.Tp), // Filter Tp data
         mode: 'lines',
         name: `T<sub>p</sub>`,
-        // xaxis: 'x',
+        xaxis: 'x2',
         yaxis: 'y2',
         line: { color: '#9467bd' } // Example color for Tp
     });
@@ -262,7 +262,7 @@ function plotData(groupedData, site) {
         y: filterData(siteData.Tz), // Filter Tz data
         mode: 'lines',
         name: `T<sub>z</sub>`,
-        // xaxis: 'x',
+        xaxis: 'x2',
         yaxis: 'y2',
         line: { color: '#2ca02c' } // Example color for Tz
     });
@@ -273,7 +273,7 @@ function plotData(groupedData, site) {
         y: filterData(siteData.Direction), // Filter Direction data
         mode: 'lines',
         name: `Direction`,
-        // xaxis: 'x',
+        xaxis: 'x3',
         yaxis: 'y3',
         line: { color: '#17becf' } // Example color for Direction
     });
@@ -284,7 +284,7 @@ function plotData(groupedData, site) {
         y: filterData(siteData.SST), // Filter SST data
         mode: 'lines',
         name: `SST`,
-        // xaxis: 'x',
+        xaxis: 'x4',
         yaxis: 'y4',
         line: { color: 'coral' } // Example color for SST
     });
@@ -312,7 +312,7 @@ function plotData(groupedData, site) {
         font: { color: 'white' },
     
         // Apply settings to x-axes
-        xaxis: configureAxis({ title: '', zeroline: false}),
+        xaxis: configureAxis({ title: '', zeroline: true}),
         xaxis2: configureAxis({ title: '', zeroline: false}),
         xaxis3: configureAxis({ title: '', zeroline: false}),
         xaxis4: configureAxis({ title: '', zeroline: false}),

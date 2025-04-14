@@ -76,7 +76,7 @@ def csv_to_json_with_column_mapping(csv_file_path, json_file_path, column_mappin
             if 'Longitude' in filtered_row:
                 filtered_row['Longitude'] = clean_lat_lon(filtered_row['Longitude'])
 
-            filtered_row['Owner'] = 'WA Government'
+            filtered_row['Owner'] = 'WA Gov'
             filtered_row['State'] = 'WA'
             filtered_row['Country'] = 'Australia'
 
