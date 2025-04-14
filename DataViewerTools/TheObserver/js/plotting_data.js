@@ -324,6 +324,22 @@ map.on('click', function() {
 
 // ADD LOCATION MARKERS TO MAP ////////////////////////////////////////////////////////////////////////////////
 
+// loading spinner helper functions
+let loadingTimeout;
+
+function showLoadingSpinnerDelayed(delay = 500) {
+    loadingTimeout = setTimeout(() => {
+        const loader = document.getElementById("loading-spinner");
+        if (loader) loader.style.display = "block";
+    }, delay);
+}
+
+function hideLoadingSpinner() {
+    clearTimeout(loadingTimeout);
+    const loader = document.getElementById("loading-spinner");
+    if (loader) loader.style.display = "none";
+}
+
 // Function to dynamically load a script
 function loadScript(src, callback) {
     let script = document.createElement('script');
@@ -395,8 +411,10 @@ Object.keys(groupedLocations).forEach((dataType) => {
         // popup plotting /////////////////////////////////////////////////////////////////////
 
         marker.on('click', async function () {
-            const loader = document.getElementById("loading-spinner");
-            if (loader) loader.style.display = "block";
+            // const loader = document.getElementById("loading-spinner");
+            // if (loader) loader.style.display = "block";
+            showLoadingSpinnerDelayed(1500); // show only after 0.5s if still loading
+
         
             const dataType = marker.options.dataType;
             const owner = marker.options.owner;
@@ -453,7 +471,9 @@ Object.keys(groupedLocations).forEach((dataType) => {
                 console.error('Error handling marker click:', err);
             }
         
-            if (loader) loader.style.display = "none";
+            // if (loader) loader.style.display = "none";
+            hideLoadingSpinner();
+
         });
 
         function loadScriptAsync(src) {
