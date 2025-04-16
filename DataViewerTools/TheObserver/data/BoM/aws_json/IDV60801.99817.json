@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:52 pm EST Wednesday 16 April 2025",
+				"refresh_message": "Issued at  5:02 pm EST Wednesday 16 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Victoria Portable AWS E (CFA)",
@@ -2647,43 +2647,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 71,
-				"wmo": 99817,
-				"name": "Victoria Portable AWS E (CFA)",
-				"history_product": "IDV60801",
-				"local_date_time": "13/05:00pm",
-				"local_date_time_full": "20250413170000",
-				"aifstime_utc": "20250413070000",
-				"lat": -37.6,
-				"lon": 146.6,
-				"apparent_t": 20.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 9.3,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 24.6,
-				"dewpt": 7.4,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 33,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
