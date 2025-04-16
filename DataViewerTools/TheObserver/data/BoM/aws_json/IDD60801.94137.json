@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:21 am CST Thursday 17 April 2025",
+				"refresh_message": "Issued at  8:31 am CST Thursday 17 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Jabiru",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 143,
-				"wmo": 94137,
-				"name": "Jabiru",
-				"history_product": "IDD60801",
-				"local_date_time": "14/08:30am",
-				"local_date_time_full": "20250414083000",
-				"aifstime_utc": "20250413230000",
-				"lat": -12.7,
-				"lon": 132.9,
-				"apparent_t": 32.5,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 570,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.7,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 28.4,
-				"dewpt": 24.6,
-				"press": 1009.3,
-				"press_msl": 1009.3,
-				"press_qnh": 1009.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 80,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}

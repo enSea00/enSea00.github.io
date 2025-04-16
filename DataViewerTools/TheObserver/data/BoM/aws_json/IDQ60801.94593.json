@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:43 am EST Thursday 17 April 2025",
+				"refresh_message": "Issued at  9:03 am EST Thursday 17 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Point Lookout",
@@ -94,43 +94,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94593,
-				"name": "Point Lookout",
-				"history_product": "IDQ60801",
-				"local_date_time": "14/09:00am",
-				"local_date_time_full": "20250414090000",
-				"aifstime_utc": "20250413230000",
-				"lat": -27.4,
-				"lon": 153.5,
-				"apparent_t": 26.8,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.9,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 23.9,
-				"dewpt": 21.0,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "1.0",
-				"rel_hum": 84,
-				"sea_state": "3",
-				"swell_dir_worded": "E",
-				"swell_height": 2.1,
-				"swell_period": 9,
-				"vis_km": "20",
-				"weather": "Fine",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
