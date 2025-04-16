@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 12:01 am CST Thursday 17 April 2025",
+				"refresh_message": "Issued at 12:11 am CST Thursday 17 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Middle Point",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 149,
-				"wmo": 95121,
-				"name": "Middle Point",
-				"history_product": "IDD60801",
-				"local_date_time": "14/12:03am",
-				"local_date_time_full": "20250414000300",
-				"aifstime_utc": "20250413143300",
-				"lat": -12.6,
-				"lon": 131.3,
-				"apparent_t": 30.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 25.4,
-				"dewpt": 24.9,
-				"press": 1010.3,
-				"press_msl": 1010.3,
-				"press_qnh": 1010.4,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
