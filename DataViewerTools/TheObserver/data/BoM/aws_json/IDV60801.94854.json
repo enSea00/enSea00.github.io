@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:32 am EST Thursday 17 April 2025",
+				"refresh_message": "Issued at  5:42 am EST Thursday 17 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Avalon",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 149,
-				"wmo": 94854,
-				"name": "Avalon",
-				"history_product": "IDV60801",
-				"local_date_time": "14/05:32am",
-				"local_date_time_full": "20250414053200",
-				"aifstime_utc": "20250413193200",
-				"lat": -38.0,
-				"lon": 144.5,
-				"apparent_t": 17.2,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 390,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.0,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 17.1,
-				"dewpt": 15.4,
-				"press": 1025.6,
-				"press_msl": 1025.6,
-				"press_qnh": 1025.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 90,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}

@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:33 am EST Thursday 17 April 2025",
+				"refresh_message": "Issued at  5:43 am EST Thursday 17 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Lord Howe Island",
@@ -6976,43 +6976,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 188,
-				"wmo": 94995,
-				"name": "Lord Howe Island",
-				"history_product": "IDN60801",
-				"local_date_time": "14/05:39am",
-				"local_date_time_full": "20250414053900",
-				"aifstime_utc": "20250413193900",
-				"lat": -31.5,
-				"lon": 159.1,
-				"apparent_t": 20.1,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 690,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.8,
-				"gust_kmh": 33,
-				"gust_kt": 18,
-				"air_temp": 20.1,
-				"dewpt": 17.1,
-				"press": 1023.3,
-				"press_msl": 1023.3,
-				"press_qnh": 1023.4,
-				"press_tend": "-",
-				"rain_trace": "3.4",
-				"rel_hum": 83,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
