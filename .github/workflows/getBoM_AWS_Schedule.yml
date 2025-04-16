@@ -23,8 +23,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r .github/workflows/data/BoM/requirements.txt
 
-      - name: Run .github/workflows/data/BoM/getData_AWS.py
-        run: python .github/workflows/data/BoM/getData_AWS.py
+      - name: Run DataViewerTools/TheObserver/data/BoM/getData_AWS.py
+        run: python DataViewerTools/TheObserver/data/BoM/getData_AWS.py
 
       - name: Commit and push downloaded files (optional)
         run: |
