@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:03 pm EST Wednesday 16 April 2025",
+				"refresh_message": "Issued at  5:22 pm EST Wednesday 16 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Cape Flattery",
@@ -6606,43 +6606,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 35,
 				"wind_spd_kt": 19
-			},
-			{
-				"sort_order": 178,
-				"wmo": 94188,
-				"name": "Cape Flattery",
-				"history_product": "IDQ60801",
-				"local_date_time": "13/05:03pm",
-				"local_date_time_full": "20250413170300",
-				"aifstime_utc": "20250413070300",
-				"lat": -15.0,
-				"lon": 145.3,
-				"apparent_t": 27.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.6,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 28.1,
-				"dewpt": 24.3,
-				"press": 1009.9,
-				"press_msl": 1009.9,
-				"press_qnh": 1010.0,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 80,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
