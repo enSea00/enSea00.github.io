@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:31 pm EST Wednesday 16 April 2025",
+				"refresh_message": "Issued at  7:41 pm EST Wednesday 16 April 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Maatsuyker Island",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94962,
-				"name": "Maatsuyker Island",
-				"history_product": "IDT60801",
-				"local_date_time": "13/07:39pm",
-				"local_date_time_full": "20250413193900",
-				"aifstime_utc": "20250413093900",
-				"lat": -43.7,
-				"lon": 146.3,
-				"apparent_t": 3.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 59,
-				"gust_kt": 32,
-				"air_temp": 10.4,
-				"dewpt": 10.4,
-				"press": 1021.9,
-				"press_msl": 1021.9,
-				"press_qnh": 1021.8,
-				"press_tend": "-",
-				"rain_trace": "9.2",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 35,
-				"wind_spd_kt": 19
 			}
 		]
 	}
