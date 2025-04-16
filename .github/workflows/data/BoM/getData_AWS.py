@@ -4,9 +4,9 @@ import os
 import time
 
 # Path to the local JSON file
-json_file_path = '.github/workflows/data/BoM/locations_aws.json'
+json_file_path = 'DataViewerTools/TheObserver/data/all_json_files/locations_aws.json'
  # Path to your JSON file
-output_path = '.github/workflows/data/BoM/aws_json'
+output_path = 'DataViewerTools/TheObserver/data/BoM/aws_json'
 
 os.makedirs(output_path, exist_ok=True)
 
