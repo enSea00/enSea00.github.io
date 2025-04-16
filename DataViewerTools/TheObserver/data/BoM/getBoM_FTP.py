@@ -1,76 +1,111 @@
-### import library
-import datetime
-import time
-from ftplib import FTP
-import pandas as pd
-import io
+import ftplib
 import os
+import tarfile
+import logging
+import time
 
-username = 'anonymous'
-password = 'nbcart@hotmail.com' 
+# Setup logging
+logging.basicConfig(
+    filename="ftp_download_log.txt",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
 
-## Set start and end time, to filter last 12 months files
-today = datetime.datetime.now()
+# FTP server details
+ftp_host = "ftp.bom.gov.au"
+ftp_file_path = "anon/gen/fwo/IDN11036.pdf"
+local_file_path = "IDN11036.pdf"
+extracted_folder = "extracted_files"
 
-starttime  = today.replace(day=1) - datetime.timedelta(days=365) ### last 12 month
-endtime = today.replace(day=1) - datetime.timedelta(days=1) ### last month
+# Log that the script started
+logging.info("Script started")
 
-# Generate list of YYYY-MM dates
-date_list = []
-current_datetime = starttime
-while current_datetime <= endtime:
-    date_list.append(current_datetime.strftime('%Y%m'))
-    current_datetime += datetime.timedelta(days=31)  # Add one month
+# Delete existing file if it exists
+if os.path.exists(local_file_path):
+    try:
+        os.remove(local_file_path)
+        logging.info(f"Deleted existing file '{local_file_path}'.")
+    except Exception as e:
+        logging.error(f"Failed to delete existing file: {e}")
+        exit(1)
 
-# print("List of YYYY-MM dates between start and end time:")
-# print(date_list)
+# Connect to FTP server with retry logic
+ftp = None
+max_attempts = 3
+for attempt in range(max_attempts):
+    try:
+        ftp = ftplib.FTP(ftp_host, timeout=120)
+        ftp.set_pasv(True)
+        logging.info(f"Connected to FTP server '{ftp_host}' (Attempt {attempt + 1})")
+        break
+    except ftplib.all_errors as e:
+        logging.warning(f"Connection attempt {attempt + 1} failed: {e}")
+        if attempt < max_attempts - 1:
+            time.sleep(5)
+        else:
+            logging.error("Exceeded maximum connection attempts.")
+            exit(1)
 
-# Connect to the FTP server to get list of location in NSW
-def get_observation_location(ftp_server, ftp_directory ):
-    with FTP(ftp_server) as ftp:
-        ftp.login(username, password)
-        ftp.cwd(ftp_directory)
-        
-        # Get list of directories in the current directory
-        observe_locations_list = ftp.nlst()
-        return observe_locations_list
-    
-# Function to download files from FTP server
-def download_files_from_ftp(ftp_server, ftp_directory, local_directory, observe_location, date_list):
-      with FTP(ftp_server) as ftp:
+# Login anonymously
+try:
+    ftp.login()
+    logging.info("Logged in anonymously.")
+except ftplib.all_errors as e:
+    logging.error(f"Failed to login: {e}")
+    ftp.quit()
+    exit(1)
 
-        ftp.login(username, password)
-        ftp_directory_location = ftp_directory +  observe_location + '/'
-        ftp.cwd(ftp_directory_location)
-        filenames = [f"{observe_location}-{date}" for date in date_list ]
-                    
-        for filename in filenames:
-            remote_filepath = f"{filename}.csv"
-            local_filepath = f"{local_directory}/{filename}.csv"
+def list_files_with_retry(ftp, retries=3):
+    for attempt in range(retries):
+        try:
+            return ftp.nlst(os.path.dirname(ftp_file_path))
+        except ftplib.all_errors as e:
+            logging.warning(f"Attempt {attempt + 1} to list files failed: {e}")
+            if attempt < retries - 1:
+                time.sleep(5)  # Delay before retrying
+            else:
+                logging.error("Failed to list files after multiple attempts.")
+                exit(1)
 
-            try:
-                with open(local_filepath, "wb") as local_file:
-                    ftp.retrbinary(f"RETR {remote_filepath}", local_file.write)   
-                    print(f"File '{remote_filepath}' downloaded to '{local_filepath}'")
+files = list_files_with_retry(ftp)
+logging.info(f"Files on server: {files}")
 
-            except Exception as e:
-                print(f"Error downloading file '{remote_filepath}': {e}")
 
-# Define FTP server details
-ftp_server = "ftp.bom.gov.au"
-ftp_directory = "/anon/gen/fwo/"
-# ftp://ftp.bom.gov.au/anon/gen/fwo/
 
-# Define local directory to save files
-local_directory = r"C:\Users\nickc\OneDrive\Desktop"
+# Attempt to download the file
+try:
+    with open(local_file_path, "wb") as local_file:
+        ftp.retrbinary(f"RETR {ftp_file_path}", local_file.write)
+    logging.info(f"File '{ftp_file_path}' downloaded successfully as '{local_file_path}'.")
+except ftplib.all_errors as e:
+    logging.error(f"Failed to download the file: {e}")
+    ftp.quit()
+    exit(1)
+finally:
+    if ftp:
+        try:
+            ftp.quit()
+            logging.info("FTP connection closed.")
+        except Exception as e:
+            logging.warning(f"Error closing FTP: {e}")
 
-# Get observation locations from FTP server
-observe_locations = get_observation_location(ftp_server, ftp_directory)
 
-# Download files from FTP server
-for observe_location in observe_locations:
-    print(observe_location)
-    # with FTP(ftp_server) as ftp:
-    #     ftp.login()
-    #     download_files_from_ftp(ftp_server, ftp_directory, local_directory, observe_location, date_list)
-    #     time.sleep(20)
+# Optional: Check magic bytes to confirm gzip format
+try:
+    with open(local_file_path, 'rb') as f:
+        magic = f.read(4)
+    logging.info(f"File magic bytes: {magic}")
+except Exception as e:
+    logging.warning(f"Could not read magic bytes: {e}")
+
+# Extract if it's a .tgz (gzip-compressed tar)
+try:
+    with tarfile.open(local_file_path, "r:gz") as tar:
+        tar.extractall(path=extracted_folder)
+    logging.info(f"File extracted successfully into '{extracted_folder}'.")
+except tarfile.TarError as e:
+    logging.error(f"Error extracting the .tgz file: {e}")
+
+# Script complete
+logging.info("Script finished.")
+time.sleep(5)  # Optional delay to help prevent FTP reconnect issues

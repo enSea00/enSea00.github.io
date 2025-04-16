@@ -1,18 +1,11 @@
-2025-04-14 17:28:26,328 - INFO - Script started
-2025-04-14 17:28:26,452 - INFO - Connected to FTP server 'ftp.bom.gov.au'
-2025-04-14 17:28:26,524 - INFO - Logged in anonymously
-2025-04-14 17:28:47,669 - ERROR - Failed to download the file: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
-2025-04-14 17:29:41,588 - INFO - Script started
-2025-04-14 17:29:41,589 - INFO - File 'IDQ60910.tgz' already exists. Deleting it...
-2025-04-14 17:29:41,590 - INFO - File 'IDQ60910.tgz' deleted successfully.
-2025-04-14 17:29:41,712 - INFO - Connected to FTP server 'ftp.bom.gov.au'
-2025-04-14 17:29:41,784 - INFO - Logged in anonymously
-2025-04-14 17:30:02,900 - ERROR - Failed to download the file: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
-2025-04-14 17:35:15,287 - INFO - Script started
-2025-04-14 17:35:15,413 - INFO - Connected to FTP server 'ftp.bom.gov.au'
-2025-04-14 17:35:15,479 - INFO - Logged in anonymously
-2025-04-14 17:35:36,575 - ERROR - Failed to download the file: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
-2025-04-14 17:47:41,410 - INFO - Script started
-2025-04-14 17:47:41,530 - INFO - Connected to FTP server 'ftp.bom.gov.au'
-2025-04-14 17:47:41,599 - INFO - Logged in anonymously
-2025-04-14 17:48:02,713 - ERROR - Failed to download the file: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-04-16 09:56:42,493 - INFO - Script started
+2025-04-16 09:56:42,608 - INFO - Connected to FTP server 'ftp.bom.gov.au' (Attempt 1)
+2025-04-16 09:56:42,685 - INFO - Logged in anonymously.
+2025-04-16 09:57:03,787 - ERROR - Failed to list files on server: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-04-16 09:59:41,721 - INFO - Script started
+2025-04-16 09:59:41,838 - INFO - Connected to FTP server 'ftp.bom.gov.au' (Attempt 1)
+2025-04-16 09:59:41,954 - INFO - Logged in anonymously.
+2025-04-16 10:00:03,081 - WARNING - Attempt 1 to list files failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-04-16 10:00:29,203 - WARNING - Attempt 2 to list files failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-04-16 10:00:55,339 - WARNING - Attempt 3 to list files failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-04-16 10:00:55,339 - ERROR - Failed to list files after multiple attempts.

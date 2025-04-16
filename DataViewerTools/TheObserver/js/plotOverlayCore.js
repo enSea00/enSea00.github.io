@@ -37,20 +37,20 @@ const definitionsByType = {
     <h3>Definitions</h3>
     <ul>
     <li>HEIGHT - Water column height (depth).</li>
-    <li>WDIR - Wind direction (the direction the wind is coming from in degrees clockwise from true N)</li>
+    <li>WDIR - Wind direction (the direction the wind is coming from, &deg;N)</li>
     <li>WSPD - Wind speed (m/s) averaged over an eight-minute period. Reported Hourly. </li>
     <li>GST - Peak 5 or 8 second gust speed (m/s) measured during the eight-minute</li>
-    <li>WVHT - Significant wave height (meters) is calculated as the average of the highest one-third of all of the wave heights during the 20-minute sampling period.</li>
-    <li>DPD - Dominant wave period (seconds) is the period with the maximum wave energy. </li>
-    <li>APD - Average wave period (seconds) of all waves during the 20-minute period.</li>
-    <li>MWD - The direction from which the waves at the dominant period (DPD) are coming. </li>
+    <li>WVHT - Significant wave height (m), the average of the highest one-third of all of the wave heights during the 20-minute sampling period.</li>
+    <li>DPD - Dominant wave period (s) is the period with the maximum wave energy. </li>
+    <li>APD - Average wave period (s) of all waves during the 20-minute period.</li>
+    <li>MWD - The direction from which the waves at the dominant period (DPD) are coming (&deg;N). </li>
     <li>PRES - Sea level pressure (hPa).</li>
-    <li>ATMP - Air temperature (Celsius)</li>
-    <li>WTMP - Sea surface temperature (Celsius)</li>
-    <li>DEWP - Dewpoint temperature taken at the same height as the air temperature measurement.</li>
+    <li>ATMP - Air temperature (&deg;C)</li>
+    <li>WTMP - Sea surface temperature (&deg;C)</li>
+    <li>DEWP - Dewpoint temperature (&deg;C).</li>
     <li>VIS - Station visibility (nautical miles).</li>
-    <li>PTDY - Pressure Tendency is the direction (plus or minus) and the amount of pressure change (hPa) for a three hour period ending at the time of observation.</li>
-    <li>TIDE - The water level in feet above or below <a href="https://tidesandcurrents.noaa.gov/datum_options.html#MLLW" target="_blank">Mean Lower Low Water (MLLW)</a>.</li>
+    <li>PTDY - Pressure Tendency is the direction and amount of pressure change (hPa) for a three hour period ending at the time of observation.</li>
+    <li>TIDE - The water level (ft) above or below <a href="https://tidesandcurrents.noaa.gov/datum_options.html#MLLW" target="_blank">Mean Lower Low Water (MLLW)</a>.</li>
     </ul>
     <p><a href="https://www.ndbc.noaa.gov/faq/measdes.shtml#stdmet" target="_blank">Click here for Further Information</a></p>
     `,

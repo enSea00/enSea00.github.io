@@ -461,9 +461,17 @@ Object.keys(groupedLocations).forEach((dataType) => {
                 //     await loadScriptAsync('js/getData_Weather_BoM.js');
                 //     await getData_Weather_BoM(loc);
                 
-                // External Bookmark
+                // Open External Bookmarked page
                 } else if (loc.URL) { // no data available so open bookmark url instead
-                    window.open(loc.URL, '_blank');
+                    let lastClick = 0;
+                    marker.on('click', function () {
+                        const now = Date.now();
+                        if (now - lastClick < 1000) return; // Ignore double clicks within 1 second - for ipad duplicate opening issue
+                        lastClick = now;
+                        if (loc.URL) {
+                            window.open(loc.URL, '_blank');
+                        }
+                    });
                 }
             } catch (err) {
                 console.error('Error handling marker click:', err);

@@ -1,0 +1,48 @@
+import json
+
+'''
+manual collation because spread amongst states and only a few of them
+'''
+
+
+locations = [
+    {
+        "DataType": "Wave Buoy",
+        "Name": "Cape du Couedic",
+        "Longitude": 136.61,
+        "Latitude": -36.07,
+        "URL": "http://www.bom.gov.au/products/IDS65030.shtml",
+        "Owner": "BoM",
+        "State": "SA",
+        "Country": "Australia",
+        "Notes": "IDS65030"
+    },
+
+    {
+        "DataType": "Wave Buoy",
+        "Name": "Cape Sorrell",
+        "Longitude": 145.05,
+        "Latitude": -42.20,
+        "URL": "http://www.bom.gov.au/products/IDT65014.shtml",
+        "Owner": "BoM",
+        "State": "Tas",
+        "Country": "Australia",
+        "Notes": "IDT65014"
+    },
+
+    {
+        "DataType": "Wave Buoy",
+        "Name": "Maria Island",
+        "Longitude": 148.35,
+        "Latitude": -42.52,
+        "URL": "http://www.bom.gov.au/products/IDT65091.shtml",
+        "Owner": "BoM",
+        "State": "Tas",
+        "Country": "Australia",
+        "Notes": "IDT65091"
+    },
+]
+
+# write to json file
+with open(r'data\all_json_files\locations_waves_bom.json', 'w') as json_file:
+    json.dump(locations, json_file, indent=4)
