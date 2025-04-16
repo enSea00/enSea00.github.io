@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:11 pm CST Wednesday 16 April 2025",
+				"refresh_message": "Issued at 11:21 pm CST Wednesday 16 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Point Stuart",
@@ -5422,43 +5422,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 146,
-				"wmo": 94127,
-				"name": "Point Stuart",
-				"history_product": "IDD60801",
-				"local_date_time": "13/11:16pm",
-				"local_date_time_full": "20250413231600",
-				"aifstime_utc": "20250413134600",
-				"lat": -12.2,
-				"lon": 131.9,
-				"apparent_t": 28.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.8,
-				"gust_kmh": 39,
-				"gust_kt": 21,
-				"air_temp": 26.0,
-				"dewpt": 24.8,
-				"press": 1009.7,
-				"press_msl": 1009.7,
-				"press_qnh": 1009.7,
-				"press_tend": "-",
-				"rain_trace": "5.4",
-				"rel_hum": 93,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 22,
-				"wind_spd_kt": 12
 			}
 		]
 	}

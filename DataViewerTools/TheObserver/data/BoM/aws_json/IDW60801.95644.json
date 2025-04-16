@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:43 pm WST Wednesday 16 April 2025",
+				"refresh_message": "Issued at  9:53 pm WST Wednesday 16 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Munglinup West",
@@ -5755,43 +5755,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 155,
-				"wmo": 95644,
-				"name": "Munglinup West",
-				"history_product": "IDW60801",
-				"local_date_time": "13/09:44pm",
-				"local_date_time_full": "20250413214400",
-				"aifstime_utc": "20250413134400",
-				"lat": -33.6,
-				"lon": 120.7,
-				"apparent_t": 16.6,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 18.0,
-				"dewpt": 17.0,
-				"press": 1015.2,
-				"press_msl": 1015.2,
-				"press_qnh": 1015.8,
-				"press_tend": "-",
-				"rain_trace": "27.0",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NE",
-				"wind_spd_kmh": 20,
-				"wind_spd_kt": 11
 			}
 		]
 	}
