@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:33 am EST Wednesday 16 April 2025",
+				"refresh_message": "Issued at 11:44 am EST Wednesday 16 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "PORTABLE QFRA BR",
@@ -15930,43 +15930,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 430,
-				"wmo": 99082,
-				"name": "PORTABLE QFRA BR",
-				"history_product": "IDQ60801",
-				"local_date_time": "13/11:40am",
-				"local_date_time_full": "20250413114000",
-				"aifstime_utc": "20250413014000",
-				"lat": -27.1,
-				"lon": 153.2,
-				"apparent_t": 27.6,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 7.3,
-				"gust_kmh": 17,
-				"gust_kt": 9,
-				"air_temp": 28.0,
-				"dewpt": 16.2,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 48,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}

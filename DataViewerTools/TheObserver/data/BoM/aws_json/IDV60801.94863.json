@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:32 am EST Wednesday 16 April 2025",
+				"refresh_message": "Issued at 11:42 am EST Wednesday 16 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "She Oaks",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94863,
-				"name": "She Oaks",
-				"history_product": "IDV60801",
-				"local_date_time": "13/11:38am",
-				"local_date_time_full": "20250413113800",
-				"aifstime_utc": "20250413013800",
-				"lat": -37.9,
-				"lon": 144.1,
-				"apparent_t": 21.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 12.0,
-				"gust_kmh": 56,
-				"gust_kt": 30,
-				"air_temp": 28.6,
-				"dewpt": 6.1,
-				"press": 1024.5,
-				"press_msl": 1024.5,
-				"press_qnh": 1024.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 24,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
