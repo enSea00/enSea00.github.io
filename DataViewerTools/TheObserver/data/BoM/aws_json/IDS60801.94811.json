@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:41 pm CST Wednesday 16 April 2025",
+				"refresh_message": "Issued at  7:01 pm CST Wednesday 16 April 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Parawa West",
@@ -4830,43 +4830,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 130,
-				"wmo": 94811,
-				"name": "Parawa West",
-				"history_product": "IDS60801",
-				"local_date_time": "13/07:00pm",
-				"local_date_time_full": "20250413190000",
-				"aifstime_utc": "20250413093000",
-				"lat": -35.6,
-				"lon": 138.3,
-				"apparent_t": 21.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 7.0,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 22.4,
-				"dewpt": 9.6,
-				"press": 1023.5,
-				"press_msl": 1023.5,
-				"press_qnh": 1024.0,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 44,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
