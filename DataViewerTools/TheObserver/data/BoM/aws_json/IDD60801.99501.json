@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:11 pm CST Wednesday 16 April 2025",
+				"refresh_message": "Issued at  4:21 pm CST Wednesday 16 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Gunn Point",
@@ -5792,43 +5792,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 156,
-				"wmo": 99501,
-				"name": "Gunn Point",
-				"history_product": "IDD60801",
-				"local_date_time": "13/04:13pm",
-				"local_date_time_full": "20250413161300",
-				"aifstime_utc": "20250413064300",
-				"lat": -12.2,
-				"lon": 131.0,
-				"apparent_t": 36.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.9,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 31.7,
-				"dewpt": 24.8,
-				"press": 1006.9,
-				"press_msl": 1006.9,
-				"press_qnh": 1007.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 67,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}

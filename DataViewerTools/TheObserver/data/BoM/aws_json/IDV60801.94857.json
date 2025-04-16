@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:32 pm EST Wednesday 16 April 2025",
+				"refresh_message": "Issued at  4:52 pm EST Wednesday 16 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Geelong Racecourse",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94857,
-				"name": "Geelong Racecourse",
-				"history_product": "IDV60801",
-				"local_date_time": "13/04:41pm",
-				"local_date_time_full": "20250413164100",
-				"aifstime_utc": "20250413064100",
-				"lat": -38.2,
-				"lon": 144.4,
-				"apparent_t": 23.6,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 8.6,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 25.9,
-				"dewpt": 10.5,
-				"press": 1021.1,
-				"press_msl": 1021.1,
-				"press_qnh": 1021.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 38,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
