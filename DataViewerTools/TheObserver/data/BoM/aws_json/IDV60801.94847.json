@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:12 am EST Thursday 17 April 2025",
+				"refresh_message": "Issued at  2:32 am EST Thursday 17 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Point Wilson",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 143,
-				"wmo": 94847,
-				"name": "Point Wilson",
-				"history_product": "IDV60801",
-				"local_date_time": "14/02:30am",
-				"local_date_time_full": "20250414023000",
-				"aifstime_utc": "20250413163000",
-				"lat": -38.1,
-				"lon": 144.5,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": null,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}
