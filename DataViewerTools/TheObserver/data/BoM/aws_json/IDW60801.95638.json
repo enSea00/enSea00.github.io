@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:33 pm WST Wednesday 16 April 2025",
+				"refresh_message": "Issued at  3:43 pm WST Wednesday 16 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Esperance Airport",
@@ -7346,43 +7346,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 198,
-				"wmo": 95638,
-				"name": "Esperance Airport",
-				"history_product": "IDW60801",
-				"local_date_time": "13/03:40pm",
-				"local_date_time_full": "20250413154000",
-				"aifstime_utc": "20250413074000",
-				"lat": -33.7,
-				"lon": 121.8,
-				"apparent_t": 19.4,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 300,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.4,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": 19.9,
-				"dewpt": 17.7,
-				"press": 1015.3,
-				"press_msl": 1015.3,
-				"press_qnh": 1015.6,
-				"press_tend": "-",
-				"rain_trace": "3.8",
-				"rel_hum": 87,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
