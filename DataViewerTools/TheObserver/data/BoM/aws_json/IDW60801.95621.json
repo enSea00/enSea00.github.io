@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:13 am WST Thursday 17 April 2025",
+				"refresh_message": "Issued at  3:23 am WST Thursday 17 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Collie East",
@@ -5422,43 +5422,6 @@
 				"wind_dir": "NE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 146,
-				"wmo": 95621,
-				"name": "Collie East",
-				"history_product": "IDW60801",
-				"local_date_time": "14/03:18am",
-				"local_date_time_full": "20250414031800",
-				"aifstime_utc": "20250413191800",
-				"lat": -33.4,
-				"lon": 116.2,
-				"apparent_t": 15.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 15.2,
-				"dewpt": 14.4,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "30.0",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
