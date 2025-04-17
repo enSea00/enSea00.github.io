@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:21 am CST Friday 18 April 2025",
+				"refresh_message": "Issued at  5:41 am CST Friday 18 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Cape Wessel",
@@ -5237,43 +5237,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 141,
-				"wmo": 94147,
-				"name": "Cape Wessel",
-				"history_product": "IDD60801",
-				"local_date_time": "15/05:30am",
-				"local_date_time_full": "20250415053000",
-				"aifstime_utc": "20250414200000",
-				"lat": -11.0,
-				"lon": 136.8,
-				"apparent_t": 30.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": 26.0,
-				"dewpt": 25.7,
-				"press": 1007.4,
-				"press_msl": 1007.4,
-				"press_qnh": 1007.5,
-				"press_tend": "-",
-				"rain_trace": "8.8",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
