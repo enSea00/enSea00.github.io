@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:51 am EST Friday 18 April 2025",
+				"refresh_message": "Issued at  3:01 am EST Friday 18 April 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Dove River (PWS)",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 143,
-				"wmo": 99151,
-				"name": "Dove River (PWS)",
-				"history_product": "IDT60801",
-				"local_date_time": "15/03:00am",
-				"local_date_time_full": "20250415030000",
-				"aifstime_utc": "20250414170000",
-				"lat": -41.6,
-				"lon": 146.0,
-				"apparent_t": -5.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 35,
-				"gust_kt": 19,
-				"air_temp": 2.8,
-				"dewpt": 1.4,
-				"press": 1028.7,
-				"press_msl": null,
-				"press_qnh": 1028.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 90,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
