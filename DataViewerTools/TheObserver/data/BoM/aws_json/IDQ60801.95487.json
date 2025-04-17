@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:22 pm EST Thursday 17 April 2025",
+				"refresh_message": "Issued at  3:43 pm EST Thursday 17 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Ballera",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 143,
-				"wmo": 95487,
-				"name": "Ballera",
-				"history_product": "IDQ60801",
-				"local_date_time": "14/03:30pm",
-				"local_date_time_full": "20250414153000",
-				"aifstime_utc": "20250414053000",
-				"lat": -27.4,
-				"lon": 141.8,
-				"apparent_t": 26.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 10.1,
-				"gust_kmh": 30,
-				"gust_kt": 16,
-				"air_temp": 29.7,
-				"dewpt": 12.6,
-				"press": 1017.6,
-				"press_msl": 1017.6,
-				"press_qnh": 1018.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 35,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 24,
-				"wind_spd_kt": 13
 			}
 		]
 	}
