@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:01 am EST Friday 18 April 2025",
+				"refresh_message": "Issued at  3:21 am EST Friday 18 April 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Hobart Airport",
@@ -32,9 +32,9 @@
 				"lat": -42.8,
 				"lon": 147.5,
 				"apparent_t": 10.8,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 2340,
-				"cloud_oktas": 5,
+				"cloud": "Cloudy",
+				"cloud_base_m": 2000,
+				"cloud_oktas": 8,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 0.2,
@@ -53,7 +53,7 @@
 				"swell_height": null,
 				"swell_period": null,
 				"vis_km": "10",
-				"weather": "-",
+				"weather": "Rain",
 				"wind_dir": "NW",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
