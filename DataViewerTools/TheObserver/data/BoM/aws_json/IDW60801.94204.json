@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:33 pm WST Thursday 17 April 2025",
+				"refresh_message": "Issued at 11:43 pm WST Thursday 17 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Curtin",
@@ -5718,43 +5718,6 @@
 				"wind_dir": "NE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 154,
-				"wmo": 94204,
-				"name": "Curtin",
-				"history_product": "IDW60801",
-				"local_date_time": "14/11:33pm",
-				"local_date_time_full": "20250414233300",
-				"aifstime_utc": "20250414153300",
-				"lat": -17.6,
-				"lon": 123.8,
-				"apparent_t": 30.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 25.0,
-				"dewpt": 24.1,
-				"press": 1008.7,
-				"press_msl": 1008.7,
-				"press_qnh": 1009.2,
-				"press_tend": "-",
-				"rain_trace": "2.2",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 2,
-				"wind_spd_kt": 1
 			}
 		]
 	}
