@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:11 pm CST Thursday 17 April 2025",
+				"refresh_message": "Issued at  1:21 pm CST Thursday 17 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Victoria River Downs",
@@ -31,15 +31,15 @@
 				"aifstime_utc": "20250417033000",
 				"lat": -16.4,
 				"lon": 131.0,
-				"apparent_t": 32.8,
+				"apparent_t": null,
 				"cloud": "-",
 				"cloud_base_m": null,
 				"cloud_oktas": null,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 11.8,
-				"gust_kmh": 9,
-				"gust_kt": 5,
+				"gust_kmh": null,
+				"gust_kt": null,
 				"air_temp": 33.0,
 				"dewpt": 13.6,
 				"press": 1007.7,
@@ -54,9 +54,9 @@
 				"swell_period": null,
 				"vis_km": "-",
 				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
+				"wind_dir": "-",
+				"wind_spd_kmh": null,
+				"wind_spd_kt": null
 			},
 			{
 				"sort_order": 1,
