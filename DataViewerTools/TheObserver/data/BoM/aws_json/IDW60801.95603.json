@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:43 am WST Thursday 17 April 2025",
+				"refresh_message": "Issued at 10:23 am WST Thursday 17 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Kellerberrin",
@@ -94,43 +94,6 @@
 				"wind_dir": "NE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 2,
-				"wmo": 95603,
-				"name": "Kellerberrin",
-				"history_product": "IDW60801",
-				"local_date_time": "14/09:00am",
-				"local_date_time_full": "20250414090000",
-				"aifstime_utc": "20250414010000",
-				"lat": -31.6,
-				"lon": 117.7,
-				"apparent_t": 23.1,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 1.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 21.5,
-				"dewpt": 20.0,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "10.0",
-				"rel_hum": 91,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "30",
-				"weather": "Fine",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
