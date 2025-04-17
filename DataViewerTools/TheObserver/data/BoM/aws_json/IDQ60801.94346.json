@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:33 pm EST Thursday 17 April 2025",
+				"refresh_message": "Issued at  4:52 pm EST Thursday 17 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Longreach",
@@ -31,15 +31,15 @@
 				"aifstime_utc": "20250417063000",
 				"lat": -23.4,
 				"lon": 144.3,
-				"apparent_t": 26.3,
-				"cloud": "Clear",
+				"apparent_t": null,
+				"cloud": "-",
 				"cloud_base_m": null,
-				"cloud_oktas": 0,
+				"cloud_oktas": null,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 9.7,
-				"gust_kmh": 13,
-				"gust_kt": 7,
+				"gust_kmh": null,
+				"gust_kt": null,
 				"air_temp": 28.0,
 				"dewpt": 11.1,
 				"press": 1009.6,
@@ -54,9 +54,9 @@
 				"swell_period": null,
 				"vis_km": "10",
 				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
+				"wind_dir": "-",
+				"wind_spd_kmh": null,
+				"wind_spd_kt": null
 			},
 			{
 				"sort_order": 1,
