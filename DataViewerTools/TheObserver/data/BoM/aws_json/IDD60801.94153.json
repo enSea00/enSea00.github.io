@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:11 pm CST Thursday 17 April 2025",
+				"refresh_message": "Issued at  3:21 pm CST Thursday 17 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Groote Eylandt Airport",
@@ -5570,43 +5570,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 150,
-				"wmo": 94153,
-				"name": "Groote Eylandt Airport",
-				"history_product": "IDD60801",
-				"local_date_time": "14/03:20pm",
-				"local_date_time_full": "20250414152000",
-				"aifstime_utc": "20250414055000",
-				"lat": -14.0,
-				"lon": 136.5,
-				"apparent_t": 29.2,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 570,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.6,
-				"gust_kmh": 39,
-				"gust_kt": 21,
-				"air_temp": 26.5,
-				"dewpt": 24.2,
-				"press": 1008.4,
-				"press_msl": 1008.4,
-				"press_qnh": 1008.5,
-				"press_tend": "-",
-				"rain_trace": "0.8",
-				"rel_hum": 87,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "9",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
