@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:33 am EST Friday 18 April 2025",
+				"refresh_message": "Issued at  9:43 am EST Friday 18 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Gladstone",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 24,
 				"wind_spd_kt": 13
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94380,
-				"name": "Gladstone",
-				"history_product": "IDQ60801",
-				"local_date_time": "15/09:32am",
-				"local_date_time_full": "20250415093200",
-				"aifstime_utc": "20250414233200",
-				"lat": -23.9,
-				"lon": 151.3,
-				"apparent_t": 21.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.6,
-				"gust_kmh": 46,
-				"gust_kt": 25,
-				"air_temp": 25.2,
-				"dewpt": 16.1,
-				"press": 1017.3,
-				"press_msl": 1017.3,
-				"press_qnh": 1017.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 57,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
