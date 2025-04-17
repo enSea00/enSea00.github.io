@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:52 pm EST Thursday 17 April 2025",
+				"refresh_message": "Issued at  3:03 pm EST Thursday 17 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Tin Can Bay (Defence)",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 143,
-				"wmo": 94420,
-				"name": "Tin Can Bay (Defence)",
-				"history_product": "IDQ60801",
-				"local_date_time": "14/03:00pm",
-				"local_date_time_full": "20250414150000",
-				"aifstime_utc": "20250414050000",
-				"lat": -25.9,
-				"lon": 153.0,
-				"apparent_t": 25.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.2,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 25.2,
-				"dewpt": 18.6,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "4.0",
-				"rel_hum": 67,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "Recent precip.",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
