@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:12 pm WST Thursday 17 April 2025",
+				"refresh_message": "Issued at  5:23 pm WST Thursday 17 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Koolan Island / Koolan Central",
@@ -6051,43 +6051,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 163,
-				"wmo": 99200,
-				"name": "Koolan Island / Koolan Central",
-				"history_product": "IDW60801",
-				"local_date_time": "14/05:13pm",
-				"local_date_time_full": "20250414171300",
-				"aifstime_utc": "20250414091300",
-				"lat": -16.1,
-				"lon": 123.7,
-				"apparent_t": 28.2,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 1710,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 24.4,
-				"dewpt": 23.5,
-				"press": 1009.9,
-				"press_msl": null,
-				"press_qnh": 1009.9,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
