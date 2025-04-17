@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:11 pm CST Thursday 17 April 2025",
+				"refresh_message": "Issued at 11:21 pm CST Thursday 17 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Noonamah",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 149,
-				"wmo": 94105,
-				"name": "Noonamah",
-				"history_product": "IDD60801",
-				"local_date_time": "14/11:13pm",
-				"local_date_time_full": "20250414231300",
-				"aifstime_utc": "20250414134300",
-				"lat": -12.6,
-				"lon": 131.0,
-				"apparent_t": 32.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 4,
-				"gust_kt": 2,
-				"air_temp": 26.3,
-				"dewpt": 25.6,
-				"press": 1010.0,
-				"press_msl": 1010.0,
-				"press_qnh": 1010.2,
-				"press_tend": "-",
-				"rain_trace": "15.8",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 2,
-				"wind_spd_kt": 1
 			}
 		]
 	}
