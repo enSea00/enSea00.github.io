@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:21 am CST Thursday 17 April 2025",
+				"refresh_message": "Issued at 10:21 am CST Thursday 17 April 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Warburto Point",
@@ -1315,43 +1315,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 35,
-				"wmo": 94666,
-				"name": "Warburto Point",
-				"history_product": "IDS60801",
-				"local_date_time": "14/10:00am",
-				"local_date_time_full": "20250414100000",
-				"aifstime_utc": "20250414003000",
-				"lat": -34.0,
-				"lon": 137.5,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": null,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
