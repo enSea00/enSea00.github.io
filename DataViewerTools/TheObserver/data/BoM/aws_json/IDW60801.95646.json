@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:13 pm WST Thursday 17 April 2025",
+				"refresh_message": "Issued at  1:33 pm WST Thursday 17 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Forrest",
@@ -5644,43 +5644,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 152,
-				"wmo": 95646,
-				"name": "Forrest",
-				"history_product": "IDW60801",
-				"local_date_time": "14/01:30pm",
-				"local_date_time_full": "20250414133000",
-				"aifstime_utc": "20250414053000",
-				"lat": -30.8,
-				"lon": 128.1,
-				"apparent_t": 29.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 15.7,
-				"gust_kmh": 32,
-				"gust_kt": 17,
-				"air_temp": 34.8,
-				"dewpt": 6.2,
-				"press": 1012.9,
-				"press_msl": 1012.9,
-				"press_qnh": 1013.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 17,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 22,
-				"wind_spd_kt": 12
 			}
 		]
 	}

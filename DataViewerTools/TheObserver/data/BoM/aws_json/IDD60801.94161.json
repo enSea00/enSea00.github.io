@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:41 pm CST Thursday 17 April 2025",
+				"refresh_message": "Issued at  3:01 pm CST Thursday 17 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Kangaroo Flats (Defence)",
@@ -5570,43 +5570,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 150,
-				"wmo": 94161,
-				"name": "Kangaroo Flats (Defence)",
-				"history_product": "IDD60801",
-				"local_date_time": "14/03:00pm",
-				"local_date_time_full": "20250414150000",
-				"aifstime_utc": "20250414053000",
-				"lat": -12.8,
-				"lon": 130.9,
-				"apparent_t": 38.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 6.4,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 33.7,
-				"dewpt": 24.6,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 59,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}

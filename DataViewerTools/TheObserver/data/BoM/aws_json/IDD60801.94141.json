@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:41 pm CST Thursday 17 April 2025",
+				"refresh_message": "Issued at  3:01 pm CST Thursday 17 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Central Arnhem Plateau",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94141,
-				"name": "Central Arnhem Plateau",
-				"history_product": "IDD60801",
-				"local_date_time": "14/03:00pm",
-				"local_date_time_full": "20250414150000",
-				"aifstime_utc": "20250414053000",
-				"lat": -13.3,
-				"lon": 133.1,
-				"apparent_t": 33.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 6.3,
-				"gust_kmh": 17,
-				"gust_kt": 9,
-				"air_temp": 30.9,
-				"dewpt": 21.7,
-				"press": 1006.8,
-				"press_msl": 1006.8,
-				"press_qnh": 1009.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 58,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
