@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:21 pm CST Thursday 17 April 2025",
+				"refresh_message": "Issued at  3:41 pm CST Thursday 17 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Bradshaw",
@@ -5274,43 +5274,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 142,
-				"wmo": 94130,
-				"name": "Bradshaw",
-				"history_product": "IDD60801",
-				"local_date_time": "14/03:30pm",
-				"local_date_time_full": "20250414153000",
-				"aifstime_utc": "20250414060000",
-				"lat": -14.9,
-				"lon": 130.8,
-				"apparent_t": 36.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 9.3,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 35.0,
-				"dewpt": 21.3,
-				"press": 1007.6,
-				"press_msl": 1007.6,
-				"press_qnh": 1008.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 45,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}

@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:21 pm CST Thursday 17 April 2025",
+				"refresh_message": "Issued at  3:41 pm CST Thursday 17 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Douglas River",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 143,
-				"wmo": 94128,
-				"name": "Douglas River",
-				"history_product": "IDD60801",
-				"local_date_time": "14/03:30pm",
-				"local_date_time_full": "20250414153000",
-				"aifstime_utc": "20250414060000",
-				"lat": -13.8,
-				"lon": 131.2,
-				"apparent_t": 37.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 7.5,
-				"gust_kmh": 17,
-				"gust_kt": 9,
-				"air_temp": 34.3,
-				"dewpt": 23.6,
-				"press": 1006.7,
-				"press_msl": 1006.7,
-				"press_qnh": 1007.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 53,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}

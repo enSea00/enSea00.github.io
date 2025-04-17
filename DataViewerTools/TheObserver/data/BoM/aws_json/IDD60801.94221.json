@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:21 pm CST Thursday 17 April 2025",
+				"refresh_message": "Issued at  3:41 pm CST Thursday 17 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Bradshaw-Angallari Valley (Defence)",
@@ -5274,43 +5274,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 142,
-				"wmo": 94221,
-				"name": "Bradshaw-Angallari Valley (Defence)",
-				"history_product": "IDD60801",
-				"local_date_time": "14/03:30pm",
-				"local_date_time_full": "20250414153000",
-				"aifstime_utc": "20250414060000",
-				"lat": -15.4,
-				"lon": 130.6,
-				"apparent_t": 36.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 9.2,
-				"gust_kmh": 19,
-				"gust_kt": 10,
-				"air_temp": 34.4,
-				"dewpt": 20.7,
-				"press": 1007.4,
-				"press_msl": 1007.4,
-				"press_qnh": 1007.8,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 44,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
