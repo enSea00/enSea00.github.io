@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:33 pm EST Friday 18 April 2025",
+				"refresh_message": "Issued at  1:43 pm EST Friday 18 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Coffs Harbour Airport",
@@ -5755,43 +5755,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 41,
 				"wind_spd_kt": 22
-			},
-			{
-				"sort_order": 155,
-				"wmo": 95729,
-				"name": "Coffs Harbour Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "15/01:34pm",
-				"local_date_time_full": "20250415133400",
-				"aifstime_utc": "20250415033400",
-				"lat": -30.3,
-				"lon": 153.1,
-				"apparent_t": null,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 660,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 57,
-				"gust_kt": 31,
-				"air_temp": 21.7,
-				"dewpt": null,
-				"press": 1020.8,
-				"press_msl": 1020.8,
-				"press_qnh": 1020.8,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 39,
-				"wind_spd_kt": 21
 			}
 		]
 	}
