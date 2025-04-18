@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:04 pm EST Friday 18 April 2025",
+				"refresh_message": "Issued at  7:22 pm EST Friday 18 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Flinders Reef",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 43,
 				"wind_spd_kt": 23
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94290,
-				"name": "Flinders Reef",
-				"history_product": "IDQ60801",
-				"local_date_time": "15/07:14pm",
-				"local_date_time_full": "20250415191400",
-				"aifstime_utc": "20250415091400",
-				"lat": -17.7,
-				"lon": 148.4,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 54,
-				"gust_kt": 29,
-				"air_temp": 26.7,
-				"dewpt": null,
-				"press": 1011.6,
-				"press_msl": 1011.6,
-				"press_qnh": 1011.7,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 44,
-				"wind_spd_kt": 24
 			}
 		]
 	}
