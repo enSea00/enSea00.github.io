@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:43 am EST Saturday 19 April 2025",
+				"refresh_message": "Issued at  9:03 am EST Saturday 19 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Dunedoo",
@@ -57,43 +57,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 1,
-				"wmo": 95727,
-				"name": "Dunedoo",
-				"history_product": "IDN60801",
-				"local_date_time": "16/09:00am",
-				"local_date_time_full": "20250416090000",
-				"aifstime_utc": "20250415230000",
-				"lat": -32.0,
-				"lon": 149.4,
-				"apparent_t": 10.8,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 600,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": 31,
-				"delta_t": 2.6,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 15.2,
-				"dewpt": 10.4,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 73,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "50",
-				"weather": "Fine",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 24,
-				"wind_spd_kt": 13
 			}
 		]
 	}
