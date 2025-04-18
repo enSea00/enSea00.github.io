@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:03 am EST Saturday 19 April 2025",
+				"refresh_message": "Issued at  1:22 am EST Saturday 19 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Norfolk Island",
@@ -8493,43 +8493,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 24,
 				"wind_spd_kt": 13
-			},
-			{
-				"sort_order": 229,
-				"wmo": 94996,
-				"name": "Norfolk Island",
-				"history_product": "IDN60801",
-				"local_date_time": "16/01:17am",
-				"local_date_time_full": "20250416011700",
-				"aifstime_utc": "20250415151700",
-				"lat": -29.0,
-				"lon": 167.9,
-				"apparent_t": 20.2,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 300,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 33,
-				"gust_kt": 18,
-				"air_temp": 21.2,
-				"dewpt": 20.4,
-				"press": 1002.1,
-				"press_msl": 1002.1,
-				"press_qnh": 1002.5,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 26,
-				"wind_spd_kt": 14
 			}
 		]
 	}
