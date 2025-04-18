@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:22 am EST Saturday 19 April 2025",
+				"refresh_message": "Issued at  5:33 am EST Saturday 19 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Lochington",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 143,
-				"wmo": 94399,
-				"name": "Lochington",
-				"history_product": "IDQ60801",
-				"local_date_time": "16/05:30am",
-				"local_date_time_full": "20250416053000",
-				"aifstime_utc": "20250415193000",
-				"lat": -23.9,
-				"lon": 147.5,
-				"apparent_t": 14.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.2,
-				"gust_kmh": 4,
-				"gust_kt": 2,
-				"air_temp": 14.4,
-				"dewpt": 12.3,
-				"press": 1015.8,
-				"press_msl": 1015.8,
-				"press_qnh": 1017.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 87,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 2,
-				"wind_spd_kt": 1
 			}
 		]
 	}
