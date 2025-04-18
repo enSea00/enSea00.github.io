@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:02 am EST Saturday 19 April 2025",
+				"refresh_message": "Issued at  6:22 am EST Saturday 19 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Point Cook",
@@ -32,9 +32,9 @@
 				"lat": -37.9,
 				"lon": 144.8,
 				"apparent_t": 17.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
+				"cloud": "Cloudy",
+				"cloud_base_m": 2500,
+				"cloud_oktas": 8,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 1.3,
