@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:42 am EST Saturday 19 April 2025",
+				"refresh_message": "Issued at  2:53 am EST Saturday 19 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Lord Howe Island Windy Point",
@@ -6606,43 +6606,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 24,
 				"wind_spd_kt": 13
-			},
-			{
-				"sort_order": 178,
-				"wmo": 95995,
-				"name": "Lord Howe Island Windy Point",
-				"history_product": "IDN60801",
-				"local_date_time": "16/02:47am",
-				"local_date_time_full": "20250416024700",
-				"aifstime_utc": "20250415164700",
-				"lat": -31.5,
-				"lon": 159.1,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 61,
-				"gust_kt": 33,
-				"air_temp": null,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 26,
-				"wind_spd_kt": 14
 			}
 		]
 	}
