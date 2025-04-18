@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:52 pm EST Friday 18 April 2025",
+				"refresh_message": "Issued at  3:12 pm EST Friday 18 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Kerang",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94844,
+				"name": "Kerang",
+				"history_product": "IDV60801",
+				"local_date_time": "18/03:00pm",
+				"local_date_time_full": "20250418150000",
+				"aifstime_utc": "20250418050000",
+				"lat": -35.7,
+				"lon": 143.9,
+				"apparent_t": 29.0,
+				"cloud": "Partly cloudy",
+				"cloud_base_m": null,
+				"cloud_oktas": 5,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 12.6,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 30.8,
+				"dewpt": 7.9,
+				"press": null,
+				"press_msl": null,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "0.0",
+				"rel_hum": 24,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "30",
+				"weather": "Fine",
+				"wind_dir": "NE",
+				"wind_spd_kmh": 7,
+				"wind_spd_kt": 4
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94844,
 				"name": "Kerang",
 				"history_product": "IDV60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 3
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94844,
 				"name": "Kerang",
 				"history_product": "IDV60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 2
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94844,
 				"name": "Kerang",
 				"history_product": "IDV60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 1
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94844,
 				"name": "Kerang",
 				"history_product": "IDV60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 3
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94844,
 				"name": "Kerang",
 				"history_product": "IDV60801",
@@ -205,43 +242,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 5,
-				"wmo": 94844,
-				"name": "Kerang",
-				"history_product": "IDV60801",
-				"local_date_time": "15/03:00pm",
-				"local_date_time_full": "20250415150000",
-				"aifstime_utc": "20250415050000",
-				"lat": -35.7,
-				"lon": 143.9,
-				"apparent_t": 28.7,
-				"cloud": "Mostly clear",
-				"cloud_base_m": null,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 10.9,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 29.4,
-				"dewpt": 10.2,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 30,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "30",
-				"weather": "Fine",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
