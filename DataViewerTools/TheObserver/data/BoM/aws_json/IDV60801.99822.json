@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:52 pm EST Friday 18 April 2025",
+				"refresh_message": "Issued at 12:02 am EST Saturday 19 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Glenburn (CFA)",
@@ -15856,43 +15856,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 428,
-				"wmo": 99822,
-				"name": "Glenburn (CFA)",
-				"history_product": "IDV60801",
-				"local_date_time": "16/12:00am",
-				"local_date_time_full": "20250416000000",
-				"aifstime_utc": "20250415140000",
-				"lat": -37.3,
-				"lon": 145.5,
-				"apparent_t": 12.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.4,
-				"gust_kmh": 4,
-				"gust_kt": 2,
-				"air_temp": 12.4,
-				"dewpt": 9.6,
-				"press": 1021.0,
-				"press_msl": null,
-				"press_qnh": 1021.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 83,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 2,
-				"wind_spd_kt": 1
 			}
 		]
 	}
