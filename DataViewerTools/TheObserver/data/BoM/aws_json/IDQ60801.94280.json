@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:03 am EST Sunday 20 April 2025",
+				"refresh_message": "Issued at  6:22 am EST Sunday 20 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Innisfail Aero",
@@ -7050,43 +7050,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 190,
-				"wmo": 94280,
-				"name": "Innisfail Aero",
-				"history_product": "IDQ60801",
-				"local_date_time": "17/06:08am",
-				"local_date_time_full": "20250417060800",
-				"aifstime_utc": "20250416200800",
-				"lat": -17.6,
-				"lon": 146.0,
-				"apparent_t": 21.9,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 1800,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 18.8,
-				"dewpt": 18.6,
-				"press": 1011.7,
-				"press_msl": 1011.7,
-				"press_qnh": 1011.7,
-				"press_tend": "-",
-				"rain_trace": "2.0",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}
