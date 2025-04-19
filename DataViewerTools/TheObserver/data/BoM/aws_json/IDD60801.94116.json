@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:21 pm CST Saturday 19 April 2025",
+				"refresh_message": "Issued at  7:31 pm CST Saturday 19 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Dum In Mirrie",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 143,
-				"wmo": 94116,
-				"name": "Dum In Mirrie",
-				"history_product": "IDD60801",
-				"local_date_time": "16/07:30pm",
-				"local_date_time_full": "20250416193000",
-				"aifstime_utc": "20250416100000",
-				"lat": -12.6,
-				"lon": 130.4,
-				"apparent_t": 35.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.8,
-				"gust_kmh": 2,
-				"gust_kt": 1,
-				"air_temp": 28.3,
-				"dewpt": 25.7,
-				"press": 1008.0,
-				"press_msl": 1008.0,
-				"press_qnh": 1008.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 86,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}

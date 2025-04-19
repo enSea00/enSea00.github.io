@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:51 pm EST Saturday 19 April 2025",
+				"refresh_message": "Issued at  8:01 pm EST Saturday 19 April 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "PWS C",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 143,
-				"wmo": 99142,
-				"name": "PWS C",
-				"history_product": "IDT60801",
-				"local_date_time": "16/08:00pm",
-				"local_date_time_full": "20250416200000",
-				"aifstime_utc": "20250416100000",
-				"lat": -43.4,
-				"lon": 146.2,
-				"apparent_t": 13.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.3,
-				"gust_kmh": 2,
-				"gust_kt": 1,
-				"air_temp": 13.7,
-				"dewpt": 9.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 74,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 2,
-				"wind_spd_kt": 1
 			}
 		]
 	}
