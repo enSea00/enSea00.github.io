@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:51 pm EST Saturday 19 April 2025",
+				"refresh_message": "Issued at  7:01 pm EST Saturday 19 April 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Macquarie Island",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94998,
-				"name": "Macquarie Island",
-				"history_product": "IDT60801",
-				"local_date_time": "16/07:00pm",
-				"local_date_time_full": "20250416190000",
-				"aifstime_utc": "20250416090000",
-				"lat": -54.5,
-				"lon": 158.9,
-				"apparent_t": 1.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 35,
-				"gust_kt": 19,
-				"air_temp": 6.9,
-				"dewpt": 6.3,
-				"press": 1016.5,
-				"press_msl": 1016.5,
-				"press_qnh": 1016.5,
-				"press_tend": "-",
-				"rain_trace": "13.6",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 24,
-				"wind_spd_kt": 13
 			}
 		]
 	}
