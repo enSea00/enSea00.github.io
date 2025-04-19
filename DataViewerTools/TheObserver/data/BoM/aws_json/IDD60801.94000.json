@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 12:41 am CST Sunday 20 April 2025",
+				"refresh_message": "Issued at 12:51 am CST Sunday 20 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Knuckey Lagoon",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 149,
-				"wmo": 94000,
-				"name": "Knuckey Lagoon",
-				"history_product": "IDD60801",
-				"local_date_time": "17/12:44am",
-				"local_date_time_full": "20250417004400",
-				"aifstime_utc": "20250416151400",
-				"lat": -12.4,
-				"lon": 131.0,
-				"apparent_t": 33.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 0,
-				"gust_kt": 0,
-				"air_temp": 26.1,
-				"dewpt": 25.9,
-				"press": 1009.4,
-				"press_msl": 1009.4,
-				"press_qnh": 1009.7,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}
