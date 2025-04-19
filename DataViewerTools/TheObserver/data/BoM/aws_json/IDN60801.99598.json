@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:12 pm EST Saturday 19 April 2025",
+				"refresh_message": "Issued at  2:23 pm EST Saturday 19 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "PORTABLE RFSNSW59",
@@ -15930,43 +15930,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 430,
-				"wmo": 99598,
-				"name": "PORTABLE RFSNSW59",
-				"history_product": "IDN60801",
-				"local_date_time": "16/02:20pm",
-				"local_date_time_full": "20250416142000",
-				"aifstime_utc": "20250416042000",
-				"lat": -35.7,
-				"lon": 148.0,
-				"apparent_t": 22.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 8.8,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 23.6,
-				"dewpt": 7.3,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 35,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
