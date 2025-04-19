@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:43 am WST Saturday 19 April 2025",
+				"refresh_message": "Issued at 10:13 am WST Saturday 19 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Warmun",
@@ -57,43 +57,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 1,
-				"wmo": 94213,
-				"name": "Warmun",
-				"history_product": "IDW60801",
-				"local_date_time": "16/09:00am",
-				"local_date_time_full": "20250416090000",
-				"aifstime_utc": "20250416010000",
-				"lat": -17.0,
-				"lon": 128.2,
-				"apparent_t": 44.1,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 9.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 38.0,
-				"dewpt": 25.6,
-				"press": 1010.8,
-				"press_msl": 1010.8,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "14.0",
-				"rel_hum": 49,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "25",
-				"weather": "Fine",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
