@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:03 pm WST Saturday 19 April 2025",
+				"refresh_message": "Issued at  1:33 pm WST Saturday 19 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Telfer",
@@ -3646,43 +3646,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 98,
-				"wmo": 94319,
-				"name": "Telfer",
-				"history_product": "IDW60801",
-				"local_date_time": "16/01:30pm",
-				"local_date_time_full": "20250416133000",
-				"aifstime_utc": "20250416053000",
-				"lat": -21.7,
-				"lon": 122.2,
-				"apparent_t": 34.0,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 3300,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 16.4,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 37.1,
-				"dewpt": 8.8,
-				"press": 1008.4,
-				"press_msl": 1008.4,
-				"press_qnh": 1010.3,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 18,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NE",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
