@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 10:33 pm WST Saturday 19 April 2025",
+				"refresh_message": "Issued at 10:42 pm WST Saturday 19 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Cunderdin Airport",
@@ -5644,43 +5644,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 152,
-				"wmo": 95625,
-				"name": "Cunderdin Airport",
-				"history_product": "IDW60801",
-				"local_date_time": "16/10:39pm",
-				"local_date_time_full": "20250416223900",
-				"aifstime_utc": "20250416143900",
-				"lat": -31.6,
-				"lon": 117.2,
-				"apparent_t": 17.9,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 3450,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.9,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 20.6,
-				"dewpt": 11.8,
-				"press": 1015.0,
-				"press_msl": 1015.0,
-				"press_qnh": 1015.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 57,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
