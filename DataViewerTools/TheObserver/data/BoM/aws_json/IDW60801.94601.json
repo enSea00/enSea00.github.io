@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:03 am WST Sunday 20 April 2025",
+				"refresh_message": "Issued at  7:23 am WST Sunday 20 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Cape Leeuwin",
@@ -5829,43 +5829,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 44,
 				"wind_spd_kt": 24
-			},
-			{
-				"sort_order": 157,
-				"wmo": 94601,
-				"name": "Cape Leeuwin",
-				"history_product": "IDW60801",
-				"local_date_time": "17/07:09am",
-				"local_date_time_full": "20250417070900",
-				"aifstime_utc": "20250416230900",
-				"lat": -34.4,
-				"lon": 115.1,
-				"apparent_t": 15.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.8,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 18.0,
-				"dewpt": 16.7,
-				"press": 1016.4,
-				"press_msl": 1016.4,
-				"press_qnh": 1016.4,
-				"press_tend": "-",
-				"rain_trace": "6.8",
-				"rel_hum": 92,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 24,
-				"wind_spd_kt": 13
 			}
 		]
 	}

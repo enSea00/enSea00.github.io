@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:41 am CST Sunday 20 April 2025",
+				"refresh_message": "Issued at  9:01 am CST Sunday 20 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Channel Point",
@@ -94,43 +94,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94121,
-				"name": "Channel Point",
-				"history_product": "IDD60801",
-				"local_date_time": "17/09:00am",
-				"local_date_time_full": "20250417090000",
-				"aifstime_utc": "20250416233000",
-				"lat": -13.2,
-				"lon": 130.1,
-				"apparent_t": 33.3,
-				"cloud": "Mostly clear",
-				"cloud_base_m": null,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 1.9,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 27.9,
-				"dewpt": 25.2,
-				"press": 1009.5,
-				"press_msl": 1009.5,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 85,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "25",
-				"weather": "Fine",
-				"wind_dir": "E",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
