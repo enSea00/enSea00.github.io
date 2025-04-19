@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:03 am EST Sunday 20 April 2025",
+				"refresh_message": "Issued at  4:23 am EST Sunday 20 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Canterbury",
@@ -5940,43 +5940,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 160,
-				"wmo": 94766,
-				"name": "Canterbury",
-				"history_product": "IDN60801",
-				"local_date_time": "17/04:11am",
-				"local_date_time_full": "20250417041100",
-				"aifstime_utc": "20250416181100",
-				"lat": -33.9,
-				"lon": 151.1,
-				"apparent_t": 15.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.8,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 15.6,
-				"dewpt": 14.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.8",
-				"rel_hum": 91,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
