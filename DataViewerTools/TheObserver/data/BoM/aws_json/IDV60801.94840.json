@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:02 am EST Sunday 20 April 2025",
+				"refresh_message": "Issued at  3:22 am EST Sunday 20 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Mortlake",
@@ -31,15 +31,15 @@
 				"aifstime_utc": "20250419170000",
 				"lat": -38.1,
 				"lon": 142.8,
-				"apparent_t": 13.8,
+				"apparent_t": null,
 				"cloud": "-",
 				"cloud_base_m": null,
 				"cloud_oktas": null,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 2.9,
-				"gust_kmh": 20,
-				"gust_kt": 11,
+				"gust_kmh": null,
+				"gust_kt": null,
 				"air_temp": 16.9,
 				"dewpt": 11.6,
 				"press": 1004.6,
@@ -54,9 +54,9 @@
 				"swell_period": null,
 				"vis_km": "-",
 				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
+				"wind_dir": "-",
+				"wind_spd_kmh": null,
+				"wind_spd_kt": null
 			},
 			{
 				"sort_order": 1,

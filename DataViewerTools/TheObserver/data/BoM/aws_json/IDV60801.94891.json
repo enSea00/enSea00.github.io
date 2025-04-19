@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:02 am EST Sunday 20 April 2025",
+				"refresh_message": "Issued at  3:22 am EST Sunday 20 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Latrobe Valley",
@@ -5792,43 +5792,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 156,
-				"wmo": 94891,
-				"name": "Latrobe Valley",
-				"history_product": "IDV60801",
-				"local_date_time": "17/03:07am",
-				"local_date_time_full": "20250417030700",
-				"aifstime_utc": "20250416170700",
-				"lat": -38.2,
-				"lon": 146.5,
-				"apparent_t": 9.1,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 180,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.4,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 10.0,
-				"dewpt": 9.2,
-				"press": 1017.3,
-				"press_msl": 1017.3,
-				"press_qnh": 1017.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
