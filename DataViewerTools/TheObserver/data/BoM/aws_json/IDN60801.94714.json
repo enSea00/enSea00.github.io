@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Sunday 20 April 2025",
+				"refresh_message": "Issued at  9:03 am EST Sunday 20 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Cootamundra",
@@ -57,43 +57,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 1,
-				"wmo": 94714,
-				"name": "Cootamundra",
-				"history_product": "IDN60801",
-				"local_date_time": "17/09:00am",
-				"local_date_time_full": "20250417090000",
-				"aifstime_utc": "20250416230000",
-				"lat": -34.6,
-				"lon": 148.0,
-				"apparent_t": 13.1,
-				"cloud": "Clear",
-				"cloud_base_m": 2500,
-				"cloud_oktas": 0,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.2,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 14.6,
-				"dewpt": 10.5,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 76,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "9",
-				"weather": "Distant fog",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
