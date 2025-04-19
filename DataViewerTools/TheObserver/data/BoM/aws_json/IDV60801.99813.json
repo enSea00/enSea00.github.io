@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:32 pm EST Saturday 19 April 2025",
+				"refresh_message": "Issued at  5:42 pm EST Saturday 19 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Cressy (CFA)",
@@ -15930,43 +15930,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 430,
-				"wmo": 99813,
-				"name": "Cressy (CFA)",
-				"history_product": "IDV60801",
-				"local_date_time": "16/05:40pm",
-				"local_date_time_full": "20250416174000",
-				"aifstime_utc": "20250416074000",
-				"lat": -38.0,
-				"lon": 143.6,
-				"apparent_t": 17.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.1,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 19.3,
-				"dewpt": 15.7,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "7.2",
-				"rel_hum": 79,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 20,
-				"wind_spd_kt": 11
 			}
 		]
 	}
