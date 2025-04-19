@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:43 pm EST Saturday 19 April 2025",
+				"refresh_message": "Issued at  3:03 pm EST Saturday 19 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Beerburrum",
@@ -5237,43 +5237,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 141,
-				"wmo": 95566,
-				"name": "Beerburrum",
-				"history_product": "IDQ60801",
-				"local_date_time": "16/03:00pm",
-				"local_date_time_full": "20250416150000",
-				"aifstime_utc": "20250416050000",
-				"lat": -27.0,
-				"lon": 153.0,
-				"apparent_t": 25.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.1,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 24.2,
-				"dewpt": 17.7,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 67,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
