@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:03 pm WST Sunday 20 April 2025",
+				"refresh_message": "Issued at  6:33 pm WST Sunday 20 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Lombadina",
@@ -4719,43 +4719,6 @@
 				"wind_dir": "NE",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 127,
-				"wmo": 99206,
-				"name": "Lombadina",
-				"history_product": "IDW60801",
-				"local_date_time": "17/06:30pm",
-				"local_date_time_full": "20250417183000",
-				"aifstime_utc": "20250417103000",
-				"lat": -16.5,
-				"lon": 122.9,
-				"apparent_t": 30.9,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 1380,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.0,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 26.8,
-				"dewpt": 23.9,
-				"press": 1005.8,
-				"press_msl": 1005.8,
-				"press_qnh": 1006.1,
-				"press_tend": "-",
-				"rain_trace": "0.6",
-				"rel_hum": 84,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NE",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
