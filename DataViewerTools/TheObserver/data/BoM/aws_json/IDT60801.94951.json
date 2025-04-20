@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:31 am EST Monday 21 April 2025",
+				"refresh_message": "Issued at  7:41 am EST Monday 21 April 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Dunalley",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "NE",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94951,
-				"name": "Dunalley",
-				"history_product": "IDT60801",
-				"local_date_time": "18/07:40am",
-				"local_date_time_full": "20250418074000",
-				"aifstime_utc": "20250417214000",
-				"lat": -42.9,
-				"lon": 147.8,
-				"apparent_t": 13.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.8,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 15.9,
-				"dewpt": 12.6,
-				"press": 1011.5,
-				"press_msl": 1011.5,
-				"press_qnh": 1011.5,
-				"press_tend": "-",
-				"rain_trace": "2.4",
-				"rel_hum": 81,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
