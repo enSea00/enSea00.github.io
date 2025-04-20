@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:43 pm WST Sunday 20 April 2025",
+				"refresh_message": "Issued at  2:53 pm WST Sunday 20 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Coondewanna",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 24,
 				"wind_spd_kt": 13
-			},
-			{
-				"sort_order": 144,
-				"wmo": 99312,
-				"name": "Coondewanna",
-				"history_product": "IDW60801",
-				"local_date_time": "17/02:51pm",
-				"local_date_time_full": "20250417145100",
-				"aifstime_utc": "20250417065100",
-				"lat": -23.0,
-				"lon": 118.8,
-				"apparent_t": 28.5,
-				"cloud": "Cloudy",
-				"cloud_base_m": 2880,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 15.1,
-				"gust_kmh": 46,
-				"gust_kt": 25,
-				"air_temp": 34.3,
-				"dewpt": 8.1,
-				"press": 1003.6,
-				"press_msl": 1003.6,
-				"press_qnh": 1008.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 20,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
