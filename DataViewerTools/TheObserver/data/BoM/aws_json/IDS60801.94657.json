@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:51 am CST Monday 21 April 2025",
+				"refresh_message": "Issued at  9:01 am CST Monday 21 April 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Kyancutta",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94657,
+				"name": "Kyancutta",
+				"history_product": "IDS60801",
+				"local_date_time": "21/09:00am",
+				"local_date_time_full": "20250421090000",
+				"aifstime_utc": "20250420233000",
+				"lat": -33.1,
+				"lon": 135.6,
+				"apparent_t": 15.3,
+				"cloud": "Cloudy",
+				"cloud_base_m": null,
+				"cloud_oktas": 8,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 2.3,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 15.1,
+				"dewpt": 10.7,
+				"press": 1026.7,
+				"press_msl": 1026.7,
+				"press_qnh": null,
+				"press_tend": "R",
+				"rain_trace": "0.2",
+				"rel_hum": 75,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "35",
+				"weather": "Fine",
+				"wind_dir": "CALM",
+				"wind_spd_kmh": 0,
+				"wind_spd_kt": 0
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94657,
 				"name": "Kyancutta",
 				"history_product": "IDS60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 7
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94657,
 				"name": "Kyancutta",
 				"history_product": "IDS60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 20
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94657,
 				"name": "Kyancutta",
 				"history_product": "IDS60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 11
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94657,
 				"name": "Kyancutta",
 				"history_product": "IDS60801",
@@ -168,43 +205,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 4,
-				"wmo": 94657,
-				"name": "Kyancutta",
-				"history_product": "IDS60801",
-				"local_date_time": "18/09:00am",
-				"local_date_time_full": "20250418090000",
-				"aifstime_utc": "20250417233000",
-				"lat": -33.1,
-				"lon": 135.6,
-				"apparent_t": 24.8,
-				"cloud": "Mostly clear",
-				"cloud_base_m": null,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 7.2,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 24.8,
-				"dewpt": 12.3,
-				"press": 1010.0,
-				"press_msl": 1010.0,
-				"press_qnh": null,
-				"press_tend": "F",
-				"rain_trace": "0.0",
-				"rel_hum": 45,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "45",
-				"weather": "Fine",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
