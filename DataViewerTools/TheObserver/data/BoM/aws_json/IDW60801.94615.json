@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:33 pm WST Sunday 20 April 2025",
+				"refresh_message": "Issued at  4:42 pm WST Sunday 20 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Gooseberry Hill",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 28,
 				"wind_spd_kt": 15
-			},
-			{
-				"sort_order": 147,
-				"wmo": 94615,
-				"name": "Gooseberry Hill",
-				"history_product": "IDW60801",
-				"local_date_time": "17/04:35pm",
-				"local_date_time_full": "20250417163500",
-				"aifstime_utc": "20250417083500",
-				"lat": -31.9,
-				"lon": 116.1,
-				"apparent_t": 17.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.2,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 22.4,
-				"dewpt": 13.5,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 57,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
