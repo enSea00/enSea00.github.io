@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:51 pm EST Sunday 20 April 2025",
+				"refresh_message": "Issued at 10:21 pm EST Sunday 20 April 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Larapuna (Eddystone Point)",
@@ -4682,43 +4682,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 126,
-				"wmo": 94983,
-				"name": "Larapuna (Eddystone Point)",
-				"history_product": "IDT60801",
-				"local_date_time": "17/10:00pm",
-				"local_date_time_full": "20250417220000",
-				"aifstime_utc": "20250417120000",
-				"lat": -41.0,
-				"lon": 148.3,
-				"apparent_t": 14.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.9,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 15.6,
-				"dewpt": 14.0,
-				"press": 1016.4,
-				"press_msl": 1016.4,
-				"press_qnh": 1016.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 90,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
