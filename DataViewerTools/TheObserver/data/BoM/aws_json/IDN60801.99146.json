@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:33 pm EST Sunday 20 April 2025",
+				"refresh_message": "Issued at 11:42 pm EST Sunday 20 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "ACT PCS2",
@@ -15930,43 +15930,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 430,
-				"wmo": 99146,
-				"name": "ACT PCS2",
-				"history_product": "IDN60801",
-				"local_date_time": "17/11:40pm",
-				"local_date_time_full": "20250417234000",
-				"aifstime_utc": "20250417134000",
-				"lat": -35.4,
-				"lon": 149.0,
-				"apparent_t": 10.6,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.9,
-				"gust_kmh": 6,
-				"gust_kt": 3,
-				"air_temp": 12.1,
-				"dewpt": 8.4,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 78,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
