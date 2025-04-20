@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:33 pm WST Sunday 20 April 2025",
+				"refresh_message": "Issued at  6:42 pm WST Sunday 20 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Shark Bay Airport",
@@ -5570,43 +5570,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 150,
-				"wmo": 95402,
-				"name": "Shark Bay Airport",
-				"history_product": "IDW60801",
-				"local_date_time": "17/06:40pm",
-				"local_date_time_full": "20250417184000",
-				"aifstime_utc": "20250417104000",
-				"lat": -25.9,
-				"lon": 113.6,
-				"apparent_t": 21.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.7,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 24.1,
-				"dewpt": 18.3,
-				"press": 1010.9,
-				"press_msl": 1010.9,
-				"press_qnh": 1011.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 70,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
