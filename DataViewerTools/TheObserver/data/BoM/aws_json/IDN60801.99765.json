@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:42 am EST Monday 21 April 2025",
+				"refresh_message": "Issued at  4:03 am EST Monday 21 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Gudgenby",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 143,
-				"wmo": 99765,
-				"name": "Gudgenby",
-				"history_product": "IDN60801",
-				"local_date_time": "18/04:00am",
-				"local_date_time_full": "20250418040000",
-				"aifstime_utc": "20250417180000",
-				"lat": -35.7,
-				"lon": 149.0,
-				"apparent_t": 0.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.6,
-				"gust_kmh": 6,
-				"gust_kt": 3,
-				"air_temp": 3.6,
-				"dewpt": -0.3,
-				"press": 1017.2,
-				"press_msl": null,
-				"press_qnh": 1017.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 75,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
