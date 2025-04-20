@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:01 am CST Monday 21 April 2025",
+				"refresh_message": "Issued at  9:11 am CST Monday 21 April 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Port Augusta",
@@ -32,9 +32,9 @@
 				"lat": -32.5,
 				"lon": 137.7,
 				"apparent_t": 9.9,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 840,
-				"cloud_oktas": 3,
+				"cloud": "Cloudy",
+				"cloud_base_m": 600,
+				"cloud_oktas": 8,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 2.8,
@@ -53,7 +53,7 @@
 				"swell_height": null,
 				"swell_period": null,
 				"vis_km": "10",
-				"weather": "-",
+				"weather": "Recent precip.",
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 28,
 				"wind_spd_kt": 15

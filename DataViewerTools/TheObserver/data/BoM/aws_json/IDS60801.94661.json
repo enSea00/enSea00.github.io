@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:01 am CST Monday 21 April 2025",
+				"refresh_message": "Issued at  9:11 am CST Monday 21 April 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Cleve",
@@ -21,6 +21,43 @@
 			}
 		],
 		"data": [
+			{
+				"sort_order": 0,
+				"wmo": 94661,
+				"name": "Cleve",
+				"history_product": "IDS60801",
+				"local_date_time": "21/09:00am",
+				"local_date_time_full": "20250421090000",
+				"aifstime_utc": "20250420233000",
+				"lat": -33.7,
+				"lon": 136.5,
+				"apparent_t": 9.6,
+				"cloud": "Cloudy",
+				"cloud_base_m": null,
+				"cloud_oktas": 8,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 3.5,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 15.0,
+				"dewpt": 8.0,
+				"press": 1024.9,
+				"press_msl": 1024.9,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "2.0",
+				"rel_hum": 63,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "40",
+				"weather": "Fine",
+				"wind_dir": "SW",
+				"wind_spd_kmh": 26,
+				"wind_spd_kt": 14
+			}
 		]
 	}
 }
