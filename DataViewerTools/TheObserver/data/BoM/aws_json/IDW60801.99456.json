@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:33 pm WST Sunday 20 April 2025",
+				"refresh_message": "Issued at  3:43 pm WST Sunday 20 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "PORTABLE BCAB (DBCA)",
@@ -14820,43 +14820,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 400,
-				"wmo": 99456,
-				"name": "PORTABLE BCAB (DBCA)",
-				"history_product": "IDW60801",
-				"local_date_time": "17/03:40pm",
-				"local_date_time_full": "20250417154000",
-				"aifstime_utc": "20250417074000",
-				"lat": -30.3,
-				"lon": 115.1,
-				"apparent_t": 21.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 22,
-				"gust_kt": 12,
-				"air_temp": 25.1,
-				"dewpt": 10.9,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 41,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}
