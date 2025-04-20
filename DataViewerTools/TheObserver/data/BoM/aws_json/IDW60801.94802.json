@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:03 am WST Monday 21 April 2025",
+				"refresh_message": "Issued at  1:23 am WST Monday 21 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Albany Airport",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 147,
-				"wmo": 94802,
-				"name": "Albany Airport",
-				"history_product": "IDW60801",
-				"local_date_time": "18/01:18am",
-				"local_date_time_full": "20250418011800",
-				"aifstime_utc": "20250417171800",
-				"lat": -34.9,
-				"lon": 117.8,
-				"apparent_t": 11.6,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 360,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 13.7,
-				"dewpt": 13.7,
-				"press": 1015.4,
-				"press_msl": 1015.4,
-				"press_qnh": 1015.5,
-				"press_tend": "-",
-				"rain_trace": "4.4",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
