@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:33 pm EST Monday 21 April 2025",
+				"refresh_message": "Issued at 11:43 pm EST Monday 21 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Richmond",
@@ -5681,43 +5681,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 153,
-				"wmo": 94341,
-				"name": "Richmond",
-				"history_product": "IDQ60801",
-				"local_date_time": "18/11:38pm",
-				"local_date_time_full": "20250418233800",
-				"aifstime_utc": "20250418133800",
-				"lat": -20.7,
-				"lon": 143.1,
-				"apparent_t": 25.3,
-				"cloud": "Cloudy",
-				"cloud_base_m": 2850,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.7,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 23.8,
-				"dewpt": 18.0,
-				"press": 1009.6,
-				"press_msl": 1009.6,
-				"press_qnh": 1010.8,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 70,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "4",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
