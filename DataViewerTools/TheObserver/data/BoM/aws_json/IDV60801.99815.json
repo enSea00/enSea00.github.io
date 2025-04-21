@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:32 pm EST Monday 21 April 2025",
+				"refresh_message": "Issued at  3:42 pm EST Monday 21 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Wycheproof (CFA)",
@@ -15560,43 +15560,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 420,
-				"wmo": 99815,
-				"name": "Wycheproof (CFA)",
-				"history_product": "IDV60801",
-				"local_date_time": "18/03:40pm",
-				"local_date_time_full": "20250418154000",
-				"aifstime_utc": "20250418054000",
-				"lat": -36.1,
-				"lon": 143.2,
-				"apparent_t": 27.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 13.8,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 31.2,
-				"dewpt": 5.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 19,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
