@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:42 am EST Tuesday 22 April 2025",
+				"refresh_message": "Issued at  7:03 am EST Tuesday 22 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Inverell RS",
@@ -1426,43 +1426,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 38,
-				"wmo": 94541,
-				"name": "Inverell RS",
-				"history_product": "IDN60801",
-				"local_date_time": "19/07:00am",
-				"local_date_time_full": "20250419070000",
-				"aifstime_utc": "20250418210000",
-				"lat": -29.8,
-				"lon": 151.1,
-				"apparent_t": 9.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.8,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 11.1,
-				"dewpt": 7.4,
-				"press": 1014.7,
-				"press_msl": 1014.7,
-				"press_qnh": 1016.9,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 78,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
