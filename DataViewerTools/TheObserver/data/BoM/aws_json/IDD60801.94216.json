@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:01 pm CST Monday 21 April 2025",
+				"refresh_message": "Issued at  7:11 pm CST Monday 21 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Kununurra Airport",
@@ -6236,43 +6236,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 168,
-				"wmo": 94216,
-				"name": "Kununurra Airport",
-				"history_product": "IDD60801",
-				"local_date_time": "18/07:06pm",
-				"local_date_time_full": "20250418190600",
-				"aifstime_utc": "20250418093600",
-				"lat": -15.8,
-				"lon": 128.7,
-				"apparent_t": 26.3,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1140,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.7,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 23.2,
-				"dewpt": 22.2,
-				"press": 1008.5,
-				"press_msl": 1008.5,
-				"press_qnh": 1008.8,
-				"press_tend": "-",
-				"rain_trace": "11.4",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
