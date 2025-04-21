@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:01 am CST Tuesday 22 April 2025",
+				"refresh_message": "Issued at  7:11 am CST Tuesday 22 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Point Fawcett",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 149,
-				"wmo": 94122,
-				"name": "Point Fawcett",
-				"history_product": "IDD60801",
-				"local_date_time": "19/07:09am",
-				"local_date_time_full": "20250419070900",
-				"aifstime_utc": "20250418213900",
-				"lat": -11.8,
-				"lon": 130.0,
-				"apparent_t": 31.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 26.3,
-				"dewpt": 25.6,
-				"press": 1007.2,
-				"press_msl": 1007.2,
-				"press_qnh": 1007.3,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
