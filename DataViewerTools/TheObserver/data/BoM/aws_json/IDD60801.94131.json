@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:11 pm CST Monday 21 April 2025",
+				"refresh_message": "Issued at  7:21 pm CST Monday 21 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Tindal",
@@ -5496,43 +5496,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 148,
-				"wmo": 94131,
-				"name": "Tindal",
-				"history_product": "IDD60801",
-				"local_date_time": "18/07:19pm",
-				"local_date_time_full": "20250418191900",
-				"aifstime_utc": "20250418094900",
-				"lat": -14.5,
-				"lon": 132.4,
-				"apparent_t": 30.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 6.2,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 28.3,
-				"dewpt": 18.7,
-				"press": 1007.1,
-				"press_msl": 1007.1,
-				"press_qnh": 1007.9,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 56,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
