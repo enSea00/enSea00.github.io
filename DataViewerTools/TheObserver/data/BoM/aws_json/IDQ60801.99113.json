@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:22 pm EST Monday 21 April 2025",
+				"refresh_message": "Issued at  5:32 pm EST Monday 21 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "PORTABLE QFRE NCR",
@@ -5274,43 +5274,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 142,
-				"wmo": 99113,
-				"name": "PORTABLE QFRE NCR",
-				"history_product": "IDQ60801",
-				"local_date_time": "18/05:30pm",
-				"local_date_time_full": "20250418173000",
-				"aifstime_utc": "20250418073000",
-				"lat": -26.2,
-				"lon": 152.6,
-				"apparent_t": 24.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.7,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 23.4,
-				"dewpt": 17.4,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 69,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
