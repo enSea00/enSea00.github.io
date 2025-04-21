@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:01 am CST Tuesday 22 April 2025",
+				"refresh_message": "Issued at  8:11 am CST Tuesday 22 April 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Roxby Downs",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 147,
-				"wmo": 95658,
-				"name": "Roxby Downs",
-				"history_product": "IDS60801",
-				"local_date_time": "19/08:10am",
-				"local_date_time_full": "20250419081000",
-				"aifstime_utc": "20250418224000",
-				"lat": -30.5,
-				"lon": 136.9,
-				"apparent_t": 19.2,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 2280,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.3,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 20.9,
-				"dewpt": 11.3,
-				"press": 1008.1,
-				"press_msl": 1008.1,
-				"press_qnh": 1008.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 54,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
