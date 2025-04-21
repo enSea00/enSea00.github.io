@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:41 pm CST Monday 21 April 2025",
+				"refresh_message": "Issued at  6:11 pm CST Monday 21 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Croker Island Airport",
@@ -21,6 +21,43 @@
 			}
 		],
 		"data": [
+			{
+				"sort_order": 0,
+				"wmo": 94108,
+				"name": "Croker Island Airport",
+				"history_product": "IDD60801",
+				"local_date_time": "21/06:00pm",
+				"local_date_time_full": "20250421180000",
+				"aifstime_utc": "20250421083000",
+				"lat": -11.2,
+				"lon": 132.5,
+				"apparent_t": null,
+				"cloud": "-",
+				"cloud_base_m": null,
+				"cloud_oktas": null,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": null,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": null,
+				"dewpt": null,
+				"press": null,
+				"press_msl": null,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "-",
+				"rel_hum": null,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "-",
+				"weather": "-",
+				"wind_dir": "-",
+				"wind_spd_kmh": null,
+				"wind_spd_kt": null
+			}
 		]
 	}
 }
