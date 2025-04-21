@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:11 am CST Tuesday 22 April 2025",
+				"refresh_message": "Issued at  8:21 am CST Tuesday 22 April 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Snowtown",
@@ -5940,43 +5940,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 39,
 				"wind_spd_kt": 21
-			},
-			{
-				"sort_order": 160,
-				"wmo": 95670,
-				"name": "Snowtown",
-				"history_product": "IDS60801",
-				"local_date_time": "19/08:18am",
-				"local_date_time_full": "20250419081800",
-				"aifstime_utc": "20250418224800",
-				"lat": -33.8,
-				"lon": 138.2,
-				"apparent_t": 17.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 9.7,
-				"gust_kmh": 54,
-				"gust_kt": 29,
-				"air_temp": 24.8,
-				"dewpt": 6.1,
-				"press": 1006.3,
-				"press_msl": 1006.3,
-				"press_qnh": 1006.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 30,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 35,
-				"wind_spd_kt": 19
 			}
 		]
 	}
