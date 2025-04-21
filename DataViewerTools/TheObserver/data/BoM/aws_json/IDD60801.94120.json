@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:51 am CST Tuesday 22 April 2025",
+				"refresh_message": "Issued at  9:01 am CST Tuesday 22 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Darwin Airport",
@@ -5607,43 +5607,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 151,
-				"wmo": 94120,
-				"name": "Darwin Airport",
-				"history_product": "IDD60801",
-				"local_date_time": "19/09:00am",
-				"local_date_time_full": "20250419090000",
-				"aifstime_utc": "20250418233000",
-				"lat": -12.4,
-				"lon": 130.9,
-				"apparent_t": 33.6,
-				"cloud": "Mostly cloudy",
-				"cloud_base_m": 300,
-				"cloud_oktas": 7,
-				"cloud_type": "-",
-				"cloud_type_id": 38,
-				"delta_t": 3.2,
-				"gust_kmh": 22,
-				"gust_kt": 12,
-				"air_temp": 29.6,
-				"dewpt": 25.1,
-				"press": 1009.0,
-				"press_msl": 1009.0,
-				"press_qnh": 1009.2,
-				"press_tend": "R",
-				"rain_trace": "0.0",
-				"rel_hum": 77,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "30",
-				"weather": "Fine",
-				"wind_dir": "N",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
