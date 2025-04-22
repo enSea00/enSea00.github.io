@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:32 pm EST Tuesday 22 April 2025",
+				"refresh_message": "Issued at  4:42 pm EST Tuesday 22 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Hopetoun Airport",
@@ -5496,43 +5496,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 148,
-				"wmo": 94838,
-				"name": "Hopetoun Airport",
-				"history_product": "IDV60801",
-				"local_date_time": "19/04:35pm",
-				"local_date_time_full": "20250419163500",
-				"aifstime_utc": "20250419063500",
-				"lat": -35.7,
-				"lon": 142.4,
-				"apparent_t": 18.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 8.6,
-				"gust_kmh": 61,
-				"gust_kt": 33,
-				"air_temp": 24.9,
-				"dewpt": 9.2,
-				"press": 1005.6,
-				"press_msl": 1005.6,
-				"press_qnh": 1005.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 37,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
