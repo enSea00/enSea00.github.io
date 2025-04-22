@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:33 am EST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  1:43 am EST Wednesday 23 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Lismore Airport",
@@ -6939,43 +6939,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 187,
-				"wmo": 94572,
-				"name": "Lismore Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "20/01:36am",
-				"local_date_time_full": "20250420013600",
-				"aifstime_utc": "20250419153600",
-				"lat": -28.8,
-				"lon": 153.3,
-				"apparent_t": 15.0,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 30,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 15.4,
-				"dewpt": 15.1,
-				"press": 1014.3,
-				"press_msl": 1014.3,
-				"press_qnh": 1014.3,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "0.4",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
