@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:11 am EST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  8:31 am EST Wednesday 23 April 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Launceston",
@@ -4386,43 +4386,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 118,
-				"wmo": 94969,
-				"name": "Launceston",
-				"history_product": "IDT60801",
-				"local_date_time": "20/08:30am",
-				"local_date_time_full": "20250420083000",
-				"aifstime_utc": "20250419223000",
-				"lat": -41.4,
-				"lon": 147.1,
-				"apparent_t": 14.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 4,
-				"gust_kt": 2,
-				"air_temp": 14.2,
-				"dewpt": 13.2,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "1.0",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 2,
-				"wind_spd_kt": 1
 			}
 		]
 	}
