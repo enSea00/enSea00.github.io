@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:32 pm EST Tuesday 22 April 2025",
+				"refresh_message": "Issued at  6:42 pm EST Tuesday 22 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Mildura",
@@ -5829,43 +5829,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 157,
-				"wmo": 94693,
-				"name": "Mildura",
-				"history_product": "IDV60801",
-				"local_date_time": "19/06:35pm",
-				"local_date_time_full": "20250419183500",
-				"aifstime_utc": "20250419083500",
-				"lat": -34.2,
-				"lon": 142.1,
-				"apparent_t": 24.1,
-				"cloud": "Cloudy",
-				"cloud_base_m": 3300,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 10.2,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 26.2,
-				"dewpt": 6.8,
-				"press": 1006.1,
-				"press_msl": 1006.1,
-				"press_qnh": 1006.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 29,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "7",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
