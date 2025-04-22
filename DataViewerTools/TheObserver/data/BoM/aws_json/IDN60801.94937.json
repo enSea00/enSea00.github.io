@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:03 am EST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  9:23 am EST Wednesday 23 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Moruya Heads",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94937,
+				"name": "Moruya Heads",
+				"history_product": "IDN60801",
+				"local_date_time": "23/09:00am",
+				"local_date_time_full": "20250423090000",
+				"aifstime_utc": "20250422230000",
+				"lat": -35.9,
+				"lon": 150.2,
+				"apparent_t": 20.1,
+				"cloud": "Mostly clear",
+				"cloud_base_m": 600,
+				"cloud_oktas": 2,
+				"cloud_type": "Towering Cumulus",
+				"cloud_type_id": 32,
+				"delta_t": 3.4,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 22.1,
+				"dewpt": 16.5,
+				"press": 1024.2,
+				"press_msl": 1024.2,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "62.0",
+				"rel_hum": 70,
+				"sea_state": "1",
+				"swell_dir_worded": "SE",
+				"swell_height": 2.0,
+				"swell_period": 7,
+				"vis_km": "10",
+				"weather": "Distant precip.",
+				"wind_dir": "ESE",
+				"wind_spd_kmh": 22,
+				"wind_spd_kt": 12
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94937,
 				"name": "Moruya Heads",
 				"history_product": "IDN60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 18
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94937,
 				"name": "Moruya Heads",
 				"history_product": "IDN60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 12
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94937,
 				"name": "Moruya Heads",
 				"history_product": "IDN60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 10
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94937,
 				"name": "Moruya Heads",
 				"history_product": "IDN60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94937,
 				"name": "Moruya Heads",
 				"history_product": "IDN60801",

@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:02 am EST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  9:22 am EST Wednesday 23 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Mount Hotham",
@@ -6643,43 +6643,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 46,
 				"wind_spd_kt": 25
-			},
-			{
-				"sort_order": 179,
-				"wmo": 94906,
-				"name": "Mount Hotham",
-				"history_product": "IDV60801",
-				"local_date_time": "20/09:07am",
-				"local_date_time_full": "20250420090700",
-				"aifstime_utc": "20250419230700",
-				"lat": -37.0,
-				"lon": 147.1,
-				"apparent_t": 0.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.9,
-				"gust_kmh": 65,
-				"gust_kt": 35,
-				"air_temp": 10.7,
-				"dewpt": 2.5,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 57,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 44,
-				"wind_spd_kt": 24
 			}
 		]
 	}

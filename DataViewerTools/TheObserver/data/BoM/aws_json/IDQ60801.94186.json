@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:04 am EST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  9:22 am EST Wednesday 23 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Lockhart River",
@@ -7346,43 +7346,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 198,
-				"wmo": 94186,
-				"name": "Lockhart River",
-				"history_product": "IDQ60801",
-				"local_date_time": "20/09:19am",
-				"local_date_time_full": "20250420091900",
-				"aifstime_utc": "20250419231900",
-				"lat": -12.8,
-				"lon": 143.3,
-				"apparent_t": 30.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 270,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.7,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 26.8,
-				"dewpt": 25.8,
-				"press": 1010.3,
-				"press_msl": 1010.3,
-				"press_qnh": 1010.4,
-				"press_tend": "-",
-				"rain_trace": "0.4",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NE",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
