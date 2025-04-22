@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:51 am CST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  9:01 am CST Wednesday 23 April 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Murray Bridge",
@@ -57,43 +57,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 1,
-				"wmo": 95812,
-				"name": "Murray Bridge",
-				"history_product": "IDS60801",
-				"local_date_time": "20/09:00am",
-				"local_date_time_full": "20250420090000",
-				"aifstime_utc": "20250419233000",
-				"lat": -35.1,
-				"lon": 139.3,
-				"apparent_t": 14.7,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 600,
-				"cloud_oktas": 2,
-				"cloud_type": "-",
-				"cloud_type_id": 35,
-				"delta_t": 1.5,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 15.8,
-				"dewpt": 13.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.6",
-				"rel_hum": 84,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "20",
-				"weather": "Fine",
-				"wind_dir": "W",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
