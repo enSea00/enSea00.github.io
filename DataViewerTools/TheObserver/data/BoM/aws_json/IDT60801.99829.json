@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:31 am EST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  9:41 am EST Wednesday 23 April 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Hobart Bushland Operations Depot (HCC)",
@@ -15782,43 +15782,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 426,
-				"wmo": 99829,
-				"name": "Hobart Bushland Operations Depot (HCC)",
-				"history_product": "IDT60801",
-				"local_date_time": "20/09:40am",
-				"local_date_time_full": "20250420094000",
-				"aifstime_utc": "20250419234000",
-				"lat": -42.9,
-				"lon": 147.3,
-				"apparent_t": 12.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 13.2,
-				"dewpt": 12.8,
-				"press": 1008.7,
-				"press_msl": null,
-				"press_qnh": 1008.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
