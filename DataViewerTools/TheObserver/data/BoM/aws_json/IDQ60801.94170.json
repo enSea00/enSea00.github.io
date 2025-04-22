@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:33 am EST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  2:43 am EST Wednesday 23 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Weipa",
@@ -7309,43 +7309,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 197,
-				"wmo": 94170,
-				"name": "Weipa",
-				"history_product": "IDQ60801",
-				"local_date_time": "20/02:35am",
-				"local_date_time_full": "20250420023500",
-				"aifstime_utc": "20250419163500",
-				"lat": -12.7,
-				"lon": 141.9,
-				"apparent_t": 28.2,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 180,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 25.2,
-				"dewpt": 24.7,
-				"press": 1005.7,
-				"press_msl": 1005.7,
-				"press_qnh": 1005.8,
-				"press_tend": "-",
-				"rain_trace": "16.8",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
