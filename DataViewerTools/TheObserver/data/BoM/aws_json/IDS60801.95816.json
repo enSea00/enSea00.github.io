@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:01 am CST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  8:11 am CST Wednesday 23 April 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Robe Airport",
@@ -6125,43 +6125,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 44,
 				"wind_spd_kt": 24
-			},
-			{
-				"sort_order": 165,
-				"wmo": 95816,
-				"name": "Robe Airport",
-				"history_product": "IDS60801",
-				"local_date_time": "20/08:09am",
-				"local_date_time_full": "20250420080900",
-				"aifstime_utc": "20250419223900",
-				"lat": -37.2,
-				"lon": 139.8,
-				"apparent_t": 8.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.0,
-				"gust_kmh": 70,
-				"gust_kt": 38,
-				"air_temp": 15.9,
-				"dewpt": 12.3,
-				"press": 1003.5,
-				"press_msl": 1003.5,
-				"press_qnh": 1003.5,
-				"press_tend": "-",
-				"rain_trace": "2.0",
-				"rel_hum": 79,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 41,
-				"wind_spd_kt": 22
 			}
 		]
 	}

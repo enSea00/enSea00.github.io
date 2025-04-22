@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:31 am EST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  8:41 am EST Wednesday 23 April 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "St Helens",
@@ -6717,43 +6717,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 181,
-				"wmo": 95981,
-				"name": "St Helens",
-				"history_product": "IDT60801",
-				"local_date_time": "20/08:39am",
-				"local_date_time_full": "20250420083900",
-				"aifstime_utc": "20250419223900",
-				"lat": -41.3,
-				"lon": 148.3,
-				"apparent_t": 15.0,
-				"cloud": "Cloudy",
-				"cloud_base_m": 240,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.2,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 15.6,
-				"dewpt": 13.4,
-				"press": 1009.1,
-				"press_msl": 1009.1,
-				"press_qnh": 1009.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 87,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "2",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
