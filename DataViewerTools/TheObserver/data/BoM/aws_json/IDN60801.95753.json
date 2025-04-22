@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:03 pm EST Tuesday 22 April 2025",
+				"refresh_message": "Issued at  3:23 pm EST Tuesday 22 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Richmond",
@@ -32,9 +32,9 @@
 				"lat": -33.6,
 				"lon": 150.8,
 				"apparent_t": null,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 900,
-				"cloud_oktas": 1,
+				"cloud": "Partly cloudy",
+				"cloud_base_m": 600,
+				"cloud_oktas": 3,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 0.1,
@@ -53,7 +53,7 @@
 				"swell_height": null,
 				"swell_period": null,
 				"vis_km": "10",
-				"weather": "-",
+				"weather": "Rain",
 				"wind_dir": "-",
 				"wind_spd_kmh": null,
 				"wind_spd_kt": null

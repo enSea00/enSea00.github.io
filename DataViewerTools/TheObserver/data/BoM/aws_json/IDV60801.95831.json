@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:02 pm EST Tuesday 22 April 2025",
+				"refresh_message": "Issued at  3:22 pm EST Tuesday 22 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Walpeup",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 32,
 				"wind_spd_kt": 17
-			},
-			{
-				"sort_order": 149,
-				"wmo": 95831,
-				"name": "Walpeup",
-				"history_product": "IDV60801",
-				"local_date_time": "19/03:18pm",
-				"local_date_time_full": "20250419151800",
-				"aifstime_utc": "20250419051800",
-				"lat": -35.1,
-				"lon": 142.0,
-				"apparent_t": 23.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 12.0,
-				"gust_kmh": 46,
-				"gust_kt": 25,
-				"air_temp": 28.9,
-				"dewpt": 6.3,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 24,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 22,
-				"wind_spd_kt": 12
 			}
 		]
 	}
