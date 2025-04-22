@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:11 pm CST Tuesday 22 April 2025",
+				"refresh_message": "Issued at  2:21 pm CST Tuesday 22 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Charles Point",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 37,
 				"wind_spd_kt": 20
-			},
-			{
-				"sort_order": 145,
-				"wmo": 99510,
-				"name": "Charles Point",
-				"history_product": "IDD60801",
-				"local_date_time": "19/02:15pm",
-				"local_date_time_full": "20250419141500",
-				"aifstime_utc": "20250419044500",
-				"lat": -12.4,
-				"lon": 130.6,
-				"apparent_t": 30.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.3,
-				"gust_kmh": 44,
-				"gust_kt": 24,
-				"air_temp": 28.7,
-				"dewpt": 24.0,
-				"press": 1007.6,
-				"press_msl": 1007.6,
-				"press_qnh": 1007.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 76,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 22,
-				"wind_spd_kt": 12
 			}
 		]
 	}

@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:33 pm EST Tuesday 22 April 2025",
+				"refresh_message": "Issued at  2:43 pm EST Tuesday 22 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Scherger",
@@ -6162,43 +6162,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 166,
-				"wmo": 94171,
-				"name": "Scherger",
-				"history_product": "IDQ60801",
-				"local_date_time": "19/02:34pm",
-				"local_date_time_full": "20250419143400",
-				"aifstime_utc": "20250419043400",
-				"lat": -12.6,
-				"lon": 142.1,
-				"apparent_t": 29.4,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 390,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.0,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 25.8,
-				"dewpt": 24.4,
-				"press": 1004.8,
-				"press_msl": 1004.8,
-				"press_qnh": 1005.1,
-				"press_tend": "-",
-				"rain_trace": "2.4",
-				"rel_hum": 92,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
