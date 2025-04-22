@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:11 am CST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  8:21 am CST Wednesday 23 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Walungurru (Kintore)",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 32,
 				"wind_spd_kt": 17
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94321,
-				"name": "Walungurru (Kintore)",
-				"history_product": "IDD60801",
-				"local_date_time": "20/08:20am",
-				"local_date_time_full": "20250420082000",
-				"aifstime_utc": "20250419225000",
-				"lat": -23.3,
-				"lon": 129.4,
-				"apparent_t": 15.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.8,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 20.2,
-				"dewpt": 11.7,
-				"press": 1012.5,
-				"press_msl": 1012.5,
-				"press_qnh": 1015.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 58,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
