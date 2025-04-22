@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:13 pm EST Tuesday 22 April 2025",
+				"refresh_message": "Issued at  4:33 pm EST Tuesday 22 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Carters Bore",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 143,
-				"wmo": 94347,
-				"name": "Carters Bore",
-				"history_product": "IDQ60801",
-				"local_date_time": "19/04:30pm",
-				"local_date_time_full": "20250419163000",
-				"aifstime_utc": "20250419063000",
-				"lat": -20.9,
-				"lon": 139.3,
-				"apparent_t": 31.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 12.9,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 32.6,
-				"dewpt": 10.6,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 26,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
