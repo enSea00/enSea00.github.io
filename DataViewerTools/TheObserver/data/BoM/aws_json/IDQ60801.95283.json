@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:03 pm EST Tuesday 22 April 2025",
+				"refresh_message": "Issued at  9:22 pm EST Tuesday 22 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Cooktown",
@@ -5940,43 +5940,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 160,
-				"wmo": 95283,
-				"name": "Cooktown",
-				"history_product": "IDQ60801",
-				"local_date_time": "19/09:04pm",
-				"local_date_time_full": "20250419210400",
-				"aifstime_utc": "20250419110400",
-				"lat": -15.4,
-				"lon": 145.2,
-				"apparent_t": 28.1,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 540,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 23.9,
-				"dewpt": 23.2,
-				"press": 1011.8,
-				"press_msl": 1011.8,
-				"press_qnh": 1011.8,
-				"press_tend": "-",
-				"rain_trace": "9.0",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
