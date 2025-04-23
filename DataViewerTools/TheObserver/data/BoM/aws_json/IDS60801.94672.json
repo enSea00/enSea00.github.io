@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:11 pm CST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  9:21 pm CST Wednesday 23 April 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Adelaide Airport",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 33,
 				"wind_spd_kt": 18
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94672,
-				"name": "Adelaide Airport",
-				"history_product": "IDS60801",
-				"local_date_time": "20/09:12pm",
-				"local_date_time_full": "20250420211200",
-				"aifstime_utc": "20250420114200",
-				"lat": -35.0,
-				"lon": 138.5,
-				"apparent_t": 10.4,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 960,
-				"cloud_oktas": 4,
-				"cloud_type": "Stratocumulus",
-				"cloud_type_id": 6,
-				"delta_t": 2.5,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 15.5,
-				"dewpt": 10.7,
-				"press": 1017.8,
-				"press_msl": 1017.8,
-				"press_qnh": 1017.8,
-				"press_tend": "-",
-				"rain_trace": "3.8",
-				"rel_hum": 73,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "Rain",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
