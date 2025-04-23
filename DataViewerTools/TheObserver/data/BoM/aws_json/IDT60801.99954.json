@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:41 am EST Thursday 24 April 2025",
+				"refresh_message": "Issued at  7:51 am EST Thursday 24 April 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Waratah (TFS)",
@@ -15745,43 +15745,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 425,
-				"wmo": 99954,
-				"name": "Waratah (TFS)",
-				"history_product": "IDT60801",
-				"local_date_time": "21/07:50am",
-				"local_date_time_full": "20250421075000",
-				"aifstime_utc": "20250420215000",
-				"lat": -41.4,
-				"lon": 145.5,
-				"apparent_t": 8.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.4,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 11.2,
-				"dewpt": 10.5,
-				"press": 942.7,
-				"press_msl": null,
-				"press_qnh": 942.7,
-				"press_tend": "-",
-				"rain_trace": "0.4",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
