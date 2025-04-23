@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:43 am EST Thursday 24 April 2025",
+				"refresh_message": "Issued at  9:03 am EST Thursday 24 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Inverell RS",
@@ -26,6 +26,43 @@
 				"wmo": 94541,
 				"name": "Inverell RS",
 				"history_product": "IDN60801",
+				"local_date_time": "24/09:00am",
+				"local_date_time_full": "20250424090000",
+				"aifstime_utc": "20250423230000",
+				"lat": -29.8,
+				"lon": 151.1,
+				"apparent_t": 17.2,
+				"cloud": "-",
+				"cloud_base_m": null,
+				"cloud_oktas": null,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 4.3,
+				"gust_kmh": 13,
+				"gust_kt": 7,
+				"air_temp": 18.6,
+				"dewpt": 10.9,
+				"press": 1019.6,
+				"press_msl": 1019.6,
+				"press_qnh": 1021.7,
+				"press_tend": "-",
+				"rain_trace": "-",
+				"rel_hum": 61,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "-",
+				"weather": "-",
+				"wind_dir": "E",
+				"wind_spd_kmh": 9,
+				"wind_spd_kt": 5
+			},
+			{
+				"sort_order": 1,
+				"wmo": 94541,
+				"name": "Inverell RS",
+				"history_product": "IDN60801",
 				"local_date_time": "24/08:30am",
 				"local_date_time_full": "20250424083000",
 				"aifstime_utc": "20250423223000",
@@ -37,7 +74,7 @@
 				"cloud_oktas": null,
 				"cloud_type": "-",
 				"cloud_type_id": null,
-				"delta_t": 4.5,
+				"delta_t": 4.6,
 				"gust_kmh": 15,
 				"gust_kt": 8,
 				"air_temp": 17.8,
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94541,
 				"name": "Inverell RS",
 				"history_product": "IDN60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94541,
 				"name": "Inverell RS",
 				"history_product": "IDN60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94541,
 				"name": "Inverell RS",
 				"history_product": "IDN60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94541,
 				"name": "Inverell RS",
 				"history_product": "IDN60801",
@@ -207,7 +244,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 5,
+				"sort_order": 6,
 				"wmo": 94541,
 				"name": "Inverell RS",
 				"history_product": "IDN60801",
@@ -244,7 +281,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 6,
+				"sort_order": 7,
 				"wmo": 94541,
 				"name": "Inverell RS",
 				"history_product": "IDN60801",
@@ -281,7 +318,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 7,
+				"sort_order": 8,
 				"wmo": 94541,
 				"name": "Inverell RS",
 				"history_product": "IDN60801",
@@ -318,7 +355,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 8,
+				"sort_order": 9,
 				"wmo": 94541,
 				"name": "Inverell RS",
 				"history_product": "IDN60801",
@@ -355,7 +392,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 9,
+				"sort_order": 10,
 				"wmo": 94541,
 				"name": "Inverell RS",
 				"history_product": "IDN60801",
@@ -392,7 +429,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 10,
+				"sort_order": 11,
 				"wmo": 94541,
 				"name": "Inverell RS",
 				"history_product": "IDN60801",
@@ -429,7 +466,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 11,
+				"sort_order": 12,
 				"wmo": 94541,
 				"name": "Inverell RS",
 				"history_product": "IDN60801",
@@ -466,7 +503,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 12,
+				"sort_order": 13,
 				"wmo": 94541,
 				"name": "Inverell RS",
 				"history_product": "IDN60801",
@@ -503,7 +540,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 13,
+				"sort_order": 14,
 				"wmo": 94541,
 				"name": "Inverell RS",
 				"history_product": "IDN60801",
