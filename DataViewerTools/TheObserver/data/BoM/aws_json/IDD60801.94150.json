@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:01 pm CST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  3:11 pm CST Wednesday 23 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Gove Airport",
@@ -32,9 +32,9 @@
 				"lat": -12.3,
 				"lon": 136.8,
 				"apparent_t": 26.7,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 150,
-				"cloud_oktas": 3,
+				"cloud": "Cloudy",
+				"cloud_base_m": 100,
+				"cloud_oktas": 8,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 0.5,
@@ -53,7 +53,7 @@
 				"swell_height": null,
 				"swell_period": null,
 				"vis_km": "2",
-				"weather": "-",
+				"weather": "Thunderstorm",
 				"wind_dir": "E",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
