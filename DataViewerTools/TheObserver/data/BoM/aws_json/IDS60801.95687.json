@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:01 pm CST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  9:11 pm CST Wednesday 23 April 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Renmark Airport",
@@ -5755,43 +5755,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 155,
-				"wmo": 95687,
-				"name": "Renmark Airport",
-				"history_product": "IDS60801",
-				"local_date_time": "20/09:08pm",
-				"local_date_time_full": "20250420210800",
-				"aifstime_utc": "20250420113800",
-				"lat": -34.2,
-				"lon": 140.7,
-				"apparent_t": 11.6,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 870,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.9,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 13.8,
-				"dewpt": 12.2,
-				"press": 1016.3,
-				"press_msl": 1016.3,
-				"press_qnh": 1016.4,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 90,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
