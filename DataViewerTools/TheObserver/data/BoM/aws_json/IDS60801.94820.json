@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:01 pm CST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  2:21 pm CST Wednesday 23 April 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Naracoorte",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 37,
 				"wind_spd_kt": 20
-			},
-			{
-				"sort_order": 147,
-				"wmo": 94820,
-				"name": "Naracoorte",
-				"history_product": "IDS60801",
-				"local_date_time": "20/02:12pm",
-				"local_date_time_full": "20250420141200",
-				"aifstime_utc": "20250420044200",
-				"lat": -37.0,
-				"lon": 140.7,
-				"apparent_t": 12.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 16.1,
-				"dewpt": 15.1,
-				"press": 1004.7,
-				"press_msl": 1004.7,
-				"press_qnh": 1004.8,
-				"press_tend": "-",
-				"rain_trace": "2.4",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 26,
-				"wind_spd_kt": 14
 			}
 		]
 	}
