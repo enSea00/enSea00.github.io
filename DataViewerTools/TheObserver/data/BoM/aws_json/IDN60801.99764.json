@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:22 am EST Thursday 24 April 2025",
+				"refresh_message": "Issued at  7:33 am EST Thursday 24 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Kowen Forest",
@@ -15597,43 +15597,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 421,
-				"wmo": 99764,
-				"name": "Kowen Forest",
-				"history_product": "IDN60801",
-				"local_date_time": "21/07:30am",
-				"local_date_time_full": "20250421073000",
-				"aifstime_utc": "20250420213000",
-				"lat": -35.3,
-				"lon": 149.3,
-				"apparent_t": 11.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 12.4,
-				"dewpt": 12.2,
-				"press": 1014.2,
-				"press_msl": null,
-				"press_qnh": 1014.2,
-				"press_tend": "-",
-				"rain_trace": "4.2",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
