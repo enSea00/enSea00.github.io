@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:43 pm EST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  3:03 pm EST Wednesday 23 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Logan City",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 95581,
+				"name": "Logan City",
+				"history_product": "IDQ60801",
+				"local_date_time": "23/03:00pm",
+				"local_date_time_full": "20250423150000",
+				"aifstime_utc": "20250423050000",
+				"lat": -27.7,
+				"lon": 153.2,
+				"apparent_t": 25.7,
+				"cloud": "Mostly cloudy",
+				"cloud_base_m": null,
+				"cloud_oktas": 7,
+				"cloud_type": "-",
+				"cloud_type_id": 30,
+				"delta_t": 4.7,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 24.0,
+				"dewpt": 16.3,
+				"press": null,
+				"press_msl": null,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "0.0",
+				"rel_hum": 62,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "15",
+				"weather": "Fine",
+				"wind_dir": "E",
+				"wind_spd_kmh": 2,
+				"wind_spd_kt": 1
+			},
+			{
+				"sort_order": 1,
 				"wmo": 95581,
 				"name": "Logan City",
 				"history_product": "IDQ60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 2
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 95581,
 				"name": "Logan City",
 				"history_product": "IDQ60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 95581,
 				"name": "Logan City",
 				"history_product": "IDQ60801",
