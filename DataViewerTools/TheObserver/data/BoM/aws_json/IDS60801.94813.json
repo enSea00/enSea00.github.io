@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:11 pm CST Wednesday 23 April 2025",
+				"refresh_message": "Issued at  5:21 pm CST Wednesday 23 April 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Cape Jaffa",
@@ -5607,43 +5607,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 46,
 				"wind_spd_kt": 25
-			},
-			{
-				"sort_order": 151,
-				"wmo": 94813,
-				"name": "Cape Jaffa",
-				"history_product": "IDS60801",
-				"local_date_time": "20/05:20pm",
-				"local_date_time_full": "20250420172000",
-				"aifstime_utc": "20250420075000",
-				"lat": -37.0,
-				"lon": 139.7,
-				"apparent_t": 4.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.9,
-				"gust_kmh": 72,
-				"gust_kt": 39,
-				"air_temp": 13.4,
-				"dewpt": 11.8,
-				"press": 1009.2,
-				"press_msl": 1009.2,
-				"press_qnh": 1009.3,
-				"press_tend": "-",
-				"rain_trace": "2.6",
-				"rel_hum": 90,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 50,
-				"wind_spd_kt": 27
 			}
 		]
 	}
