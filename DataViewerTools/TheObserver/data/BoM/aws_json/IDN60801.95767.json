@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:03 pm EST Thursday 24 April 2025",
+				"refresh_message": "Issued at  9:22 pm EST Thursday 24 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Lake Macquarie - Cooranbong",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 147,
-				"wmo": 95767,
-				"name": "Lake Macquarie - Cooranbong",
-				"history_product": "IDN60801",
-				"local_date_time": "21/09:13pm",
-				"local_date_time_full": "20250421211300",
-				"aifstime_utc": "20250421111300",
-				"lat": -33.1,
-				"lon": 151.5,
-				"apparent_t": 16.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.0,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 16.1,
-				"dewpt": 14.3,
-				"press": 1012.4,
-				"press_msl": 1012.4,
-				"press_qnh": 1012.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 89,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
