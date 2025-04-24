@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:33 pm WST Thursday 24 April 2025",
+				"refresh_message": "Issued at 11:43 pm WST Thursday 24 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "PORTABLE BTSB (DFES)",
@@ -15930,43 +15930,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 430,
-				"wmo": 99457,
-				"name": "PORTABLE BTSB (DFES)",
-				"history_product": "IDW60801",
-				"local_date_time": "21/11:40pm",
-				"local_date_time_full": "20250421234000",
-				"aifstime_utc": "20250421154000",
-				"lat": -32.0,
-				"lon": 116.7,
-				"apparent_t": 17.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.3,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 19.0,
-				"dewpt": 11.2,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "2.4",
-				"rel_hum": 60,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NE",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
