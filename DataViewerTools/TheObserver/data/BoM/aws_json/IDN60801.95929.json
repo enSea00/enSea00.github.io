@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:23 pm EST Thursday 24 April 2025",
+				"refresh_message": "Issued at  5:33 pm EST Thursday 24 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Merimbula",
@@ -6051,43 +6051,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 163,
-				"wmo": 95929,
-				"name": "Merimbula",
-				"history_product": "IDN60801",
-				"local_date_time": "21/05:30pm",
-				"local_date_time_full": "20250421173000",
-				"aifstime_utc": "20250421073000",
-				"lat": -36.9,
-				"lon": 149.9,
-				"apparent_t": 17.2,
-				"cloud": "Cloudy",
-				"cloud_base_m": 2640,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.8,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": 18.8,
-				"dewpt": 13.9,
-				"press": 1013.3,
-				"press_msl": 1013.3,
-				"press_qnh": 1013.3,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 73,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}

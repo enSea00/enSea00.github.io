@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:22 pm EST Thursday 24 April 2025",
+				"refresh_message": "Issued at  5:33 pm EST Thursday 24 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Amberley",
@@ -6754,43 +6754,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 182,
-				"wmo": 94568,
-				"name": "Amberley",
-				"history_product": "IDQ60801",
-				"local_date_time": "21/05:30pm",
-				"local_date_time_full": "20250421173000",
-				"aifstime_utc": "20250421073000",
-				"lat": -27.6,
-				"lon": 152.7,
-				"apparent_t": 22.9,
-				"cloud": "Cloudy",
-				"cloud_base_m": 3600,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 20.5,
-				"dewpt": 20.0,
-				"press": 1011.3,
-				"press_msl": 1011.3,
-				"press_qnh": 1011.4,
-				"press_tend": "-",
-				"rain_trace": "1.2",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}

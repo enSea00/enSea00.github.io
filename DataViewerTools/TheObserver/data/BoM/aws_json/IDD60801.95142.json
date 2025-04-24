@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:01 pm CST Thursday 24 April 2025",
+				"refresh_message": "Issued at  5:11 pm CST Thursday 24 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Maningrida Airport",
@@ -5755,43 +5755,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 155,
-				"wmo": 95142,
-				"name": "Maningrida Airport",
-				"history_product": "IDD60801",
-				"local_date_time": "21/05:11pm",
-				"local_date_time_full": "20250421171100",
-				"aifstime_utc": "20250421074100",
-				"lat": -12.1,
-				"lon": 134.2,
-				"apparent_t": 29.0,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 330,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": 25.3,
-				"dewpt": 24.6,
-				"press": 1008.5,
-				"press_msl": 1008.5,
-				"press_qnh": 1008.7,
-				"press_tend": "-",
-				"rain_trace": "6.8",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "3",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
