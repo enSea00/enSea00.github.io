@@ -3,17 +3,17 @@ const definitionsByType = {
     'Weather Station' :`
         <h3>Definitions</h3>
             <ul>
-                <li>air_temp - Ambient air temperature  (°C)</li>
-                <li>apparent_t - Steadman apparent air temprature (°C) <a href="http://www.bom.gov.au/info/thermal_stress/" target="_blank">More information</a></li>
-                <li>dewpt - dew point temperature (°C)</li>
-                <li>rel_hum - Relative humidity (%)	</li>
-                <li>wind_dir - Wind direction relative to True North (°C), from which the wind is blowing</li>
-                <li>wind_spd_kmh - Wind speed (km/h) averaged over 10 minutes </li>
-                <li>gust_kmh - Wind gust (km/h)	measured over 3 seconds </li>
-                <li>rain_trace - Rain since 9 am (mm)</li>
-                <li>press - Station level atmospheric pressure (hPa)</li>
-                <li>press_msl - Atmospheric pressure reduced to mean sea level (hPa)</li>
-                <li>press_qnh - QNH pressure. The correction from station level pressure to QNH pressure is based on the conditions specified by the International Standard Atmosphere. QNH pressure is used by pilots to set the altimeter of their aircraft. QNH pressure is closely related to Mean Sea Level Pressure (MSLP) at low elevations, and can vary significantly from MSLP at high elevations.</li>
+                <li>T<sub>a</sub> - Ambient air temperature  (°C)</li>
+                <li>T<sub>d</sub> - dew point temperature (°C)</li>
+                <li>T<sub>app</sub> - Steadman apparent air temprature (°C) <a href="http://www.bom.gov.au/info/thermal_stress/" target="_blank">More information</a></li>
+                <li>R<sub>h</sub> - Relative humidity (%)	</li>
+                <li>Wind Dir - Wind direction relative to True North (°C), from which the wind is blowing</li>
+                <li>Wind Spd - Wind speed (km/h) averaged over 10 minutes </li>
+                <li>Wind Gust - Wind gust (km/h)	measured over 3 seconds </li>
+                <li>Rain - Cumulative rainfall since 9 am (mm)</li>
+                <li>Pressure - Station level atmospheric pressure (hPa)</li>
+                <li>P<sub>MSL</sub> - Atmospheric pressure reduced to mean sea level (hPa)</li>
+                <li>P<sub>MNH</sub> - QNH pressure. The correction from station level pressure to QNH pressure is based on the conditions specified by the International Standard Atmosphere. QNH pressure is used by pilots to set the altimeter of their aircraft. QNH pressure is closely related to Mean Sea Level Pressure (MSLP) at low elevations, and can vary significantly from MSLP at high elevations.</li>
             </ul>
             `,
     'Wave Buoy': `

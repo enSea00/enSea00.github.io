@@ -1,80 +1,65 @@
-// Function to fetch and parse the HTML table from the URL
-window.fetchAndParseTable = async function (url) {
+async function getData_Rivers_BoM(loc) {
+    const datatype = loc.DataType;
     try {
-        // Replace "plt" with "tbl" in the URL
-        const modifiedUrl = url.replace("plt", "tbl");
 
-        // Define request headers (customize as needed)
-        const headers = {
-            "Accept": "text/html",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+        const notes = loc.Notes; // e.g., "IDs 98791042, 1224345 | Params Level 1, Level 2"
+        const parts = notes.split('|');
+        const ids = parts[0].replace("IDs", "").trim().split(',').map(id => id.trim());
+        const params = parts[1].replace("Params", "").trim().split(',').map(p => p.trim());
+
+        const data_url = `https://api.manly.hydraulics.works/api.php?format=json&page=rawdatatable&id=${ids.join('%2C')}&interval=&username=publicwww&token=Ujc3...`;
+
+        async function loadAndParseTimeseries(url) {
+            const res = await fetch(url);
+            if (!res.ok) throw new Error("Failed to fetch timeseries data");
+            const json = await res.json();
+            const timestamps = [];
+            const WaterLevel = [];
+
+            for (const [datetimeStr, values] of Object.entries(json.readings)) {
+                const date = new Date(datetimeStr.replace(" ", "T"));
+                timestamps.push(date);
+                const observed = values[ids];
+                WaterLevel.push(observed);
+            }
+            return { timestamps, WaterLevel};
+        }
+
+        const parsed = await loadAndParseTimeseries(data_url);
+        if (!parsed) return;
+
+        // Construct Plotly traces
+        const traceWaterLevel = {
+            x: parsed.timestamps,
+            y: parsed.WaterLevel,
+            mode: 'lines',
+            name: 'Observed',
+            line: { color: '#ff7f0e' },
+            xaxis: 'x',
+            yaxis: 'y1'
+        };
+        const layout = {
+            title: {
+                text: `${datatype}: ${loc.Name} (Source: ${loc.Owner})`,
+                font: { color: 'white' }
+            },
+            plot_bgcolor: 'rgba(0,0,0,0)',
+            paper_bgcolor: 'rgba(0,0,0,0)',
+            font: { color: 'white' },
+            grid: { rows: 1, columns: 1 },
+            xaxis: configureAxis({ title: 'Date Time (Local)' }),
+            yaxis: configureAxis({ title: 'Level (m)' }),
+            showlegend: true,
+            margin: { l: 80, r: 20, t: 40, b: 40 },
         };
 
-        // Fetch the modified URL with headers
-        const response = await fetch(modifiedUrl, {
-            method: "GET",
-            headers: headers
-        });
+        const data = [traceWaterLevel];
 
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
+        const customAttribution = `
+        <p>This river data is provided by the <a href="https://mhl.nsw.gov.au/Data-Level" target="_blank">Manly Hydraulics Laboratory in the Biodiversity and Conservation Division, NSW Department of Planning and Environment</a> under a <a href="https://creativecommons.org/licenses/by/4.0/" taret="_blank">Creative Common license (CC BY 4.0)</a>.</p>`;
+        showPlotOverlay(data, layout, loc, customAttribution);
 
-        const htmlText = await response.text();
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(htmlText, "text/html");
-
-        // Select the table with class "tabledata rhb"
-        const table = doc.querySelector(".tabledata.rhb tbody");
-        if (!table) {
-            console.error("Table not found in the fetched HTML!");
-            return null;
-        }
-
-        let timestamps = [];
-        let waterLevels = [];
-
-        // Extract data from table rows
-        table.querySelectorAll("tr").forEach(row => {
-            const cols = row.querySelectorAll("td");
-            if (cols.length === 2) {
-                timestamps.push(cols[0].textContent.trim()); // Date/Time
-                waterLevels.push(parseFloat(cols[1].textContent.trim())); // Water Level
-            }
-        });
-
-        return { timestamps, waterLevels };
-    } catch (error) {
-        console.error("Error fetching or parsing the table:", error);
-        return null;
+    } catch (err) {
+        console.error("❌ Error:", err);
     }
-};
-
-
-// Function to create a Plotly plot
-function createPlot(timestamps, waterLevels) {
-    const trace = {
-        x: timestamps,
-        y: waterLevels,
-        type: "scatter",
-        mode: "lines+markers",
-        marker: { color: "blue" },
-        line: { shape: "spline" }
-    };
-
-    const layout = {
-        title: "River Water Level",
-        xaxis: { title: "Date/Time" },
-        yaxis: { title: "Water Level (m)", autorange: true }
-    };
-
-    const plotDiv = document.createElement("div");
-    plotDiv.style.width = "400px"; 
-    plotDiv.style.height = "300px"; 
-
-    Plotly.newPlot(plotDiv, [trace], layout);
-
-    return plotDiv;
 }
-
-
