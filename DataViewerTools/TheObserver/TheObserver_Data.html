@@ -37,6 +37,11 @@
     <!-- Marker Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!-- TimeZone lookup -->
+    <script src="https://unpkg.com/tz-lookup@latest/tz.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+
+
     <!-- Link to page's custom CSS file -->
     <link rel="stylesheet" href="css/styles_data.css"> 
 
@@ -46,9 +51,6 @@
     <!-- Map Div -->
     <div id="map" style="width: 100%; height: 100vh;"></div>
     
-    <!-- Page loading spinner -->
-    <!-- <div id="loading-spinner" class="spinner"></div> -->
-
     <!-- Data fetching popup -->
     <div id="loading-spinner" style="display: none;">
         <div class="loading-popup">
@@ -93,6 +95,7 @@
     <div id="plotOverlay" style="display: none;">
         <div id="plotOverlayCloseBtn">×</div>
         <div id="plotContainer"></div>
+        <div id="tableContainer" style="display: none;"></div>
         <div id="infoButton">ℹ️</div>
         <div id="infoBox" style="display: none;"></div>
     </div>
@@ -117,8 +120,6 @@
 
     <!-- Main plotting script incl. mapping and click event for timeseries plots -->
     <script src="js/plotting_data.js" defer></script> 
-
-
 
 </body>
 </html>

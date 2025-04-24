@@ -119,11 +119,13 @@ function getData_Waves_NSW(loc) {
 
         // Define layout with dark theme
         var layout = {
+
             title: {text: datatype +': '+ name +' (Source: '+loc.Owner+')', font: { color: 'white' }},
             plot_bgcolor: 'rgba(0,0,0,0)', // Dark background for the entire plot
             paper_bgcolor: 'rgba(0,0,0,0)', // Dark background for the paper (around the plot)
             font: { color: 'white' },       // White font for the whole plot
             grid: { rows: 4, columns: 1}, // Arrange as 4-row subplot
+            
             // Apply settings to x-axes
             xaxis: configureAxis({ title: '', showticklabels: false }),
             xaxis2: configureAxis({ title: '', showticklabels: false }),

@@ -102,7 +102,7 @@ async function getData_Tides_NSW_MHL(loc) {
         };
 
         const data = [traceWaterLevel, tracePrediction, traceResidual];
-
+        
         const customAttribution = `
         <p>This tide gauge data is provided by the <a href="https://mhl.nsw.gov.au/Data-OceanTide" target="_blank">Manly Hydraulics Laboratory in the Biodiversity and Conservation Division, NSW Department of Planning and Environment</a> under a <a href="https://creativecommons.org/licenses/by/4.0/" taret="_blank">Creative Common license (CC BY 4.0)</a>.</p>`;
         showPlotOverlay(data, layout, loc, customAttribution);

@@ -1,0 +1,470 @@
+{
+  "site_info": {
+    "name": "Franklin Harbor Entrance Beacon",
+    "aac": "SA_TP049"
+  },
+  "tide_predictions": [
+    {
+      "date": "Wed 16 Apr",
+      "entries": [
+        {
+          "type": "high",
+          "time_local": "2025-04-17T05:06:00+09:30",
+          "time_utc": "2025-04-16T19:36:00Z",
+          "time_str": "7:36 pm",
+          "height_m": "1.30 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-17T10:16:00+09:30",
+          "time_utc": "2025-04-17T00:46:00Z",
+          "time_str": "12:46 am",
+          "height_m": "0.57 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-17T17:08:00+09:30",
+          "time_utc": "2025-04-17T07:38:00Z",
+          "time_str": "7:38 am",
+          "height_m": "2.08 m"
+        },
+        {
+          "type": "",
+          "time_local": "",
+          "time_utc": "",
+          "time_str": "",
+          "height_m": ""
+        }
+      ]
+    },
+    {
+      "date": "Thu 17 Apr",
+      "entries": [
+        {
+          "type": "low",
+          "time_local": "2025-04-18T00:22:00+09:30",
+          "time_utc": "2025-04-17T14:52:00Z",
+          "time_str": "2:52 pm",
+          "height_m": "0.63 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-18T05:19:00+09:30",
+          "time_utc": "2025-04-17T19:49:00Z",
+          "time_str": "7:49 pm",
+          "height_m": "1.16 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-18T10:23:00+09:30",
+          "time_utc": "2025-04-18T00:53:00Z",
+          "time_str": "12:53 am",
+          "height_m": "0.56 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-18T17:29:00+09:30",
+          "time_utc": "2025-04-18T07:59:00Z",
+          "time_str": "7:59 am",
+          "height_m": "1.96 m"
+        }
+      ]
+    },
+    {
+      "date": "Fri 18 Apr",
+      "entries": [
+        {
+          "type": "low",
+          "time_local": "2025-04-19T00:59:00+09:30",
+          "time_utc": "2025-04-18T15:29:00Z",
+          "time_str": "3:29 pm",
+          "height_m": "0.72 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-19T05:22:00+09:30",
+          "time_utc": "2025-04-18T19:52:00Z",
+          "time_str": "7:52 pm",
+          "height_m": "1.01 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-19T10:25:00+09:30",
+          "time_utc": "2025-04-19T00:55:00Z",
+          "time_str": "12:55 am",
+          "height_m": "0.54 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-19T17:52:00+09:30",
+          "time_utc": "2025-04-19T08:22:00Z",
+          "time_str": "8:22 am",
+          "height_m": "1.83 m"
+        }
+      ]
+    },
+    {
+      "date": "Sat 19 Apr",
+      "entries": [
+        {
+          "type": "low",
+          "time_local": "2025-04-20T01:57:00+09:30",
+          "time_utc": "2025-04-19T16:27:00Z",
+          "time_str": "4:27 pm",
+          "height_m": "0.80 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-20T04:56:00+09:30",
+          "time_utc": "2025-04-19T19:26:00Z",
+          "time_str": "7:26 pm",
+          "height_m": "0.86 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-20T10:20:00+09:30",
+          "time_utc": "2025-04-20T00:50:00Z",
+          "time_str": "12:50 am",
+          "height_m": "0.53 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-20T18:20:00+09:30",
+          "time_utc": "2025-04-20T08:50:00Z",
+          "time_str": "8:50 am",
+          "height_m": "1.68 m"
+        }
+      ]
+    },
+    {
+      "date": "Sun 20 Apr",
+      "entries": [
+        {
+          "type": "low",
+          "time_local": "2025-04-21T09:55:00+09:30",
+          "time_utc": "2025-04-21T00:25:00Z",
+          "time_str": "12:25 am",
+          "height_m": "0.52 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-21T18:54:00+09:30",
+          "time_utc": "2025-04-21T09:24:00Z",
+          "time_str": "9:24 am",
+          "height_m": "1.51 m"
+        },
+        {
+          "type": "",
+          "time_local": "",
+          "time_utc": "",
+          "time_str": "",
+          "height_m": ""
+        },
+        {
+          "type": "",
+          "time_local": "",
+          "time_utc": "",
+          "time_str": "",
+          "height_m": ""
+        }
+      ]
+    },
+    {
+      "date": "Mon 21 Apr",
+      "entries": [
+        {
+          "type": "low",
+          "time_local": "2025-04-22T08:53:00+09:30",
+          "time_utc": "2025-04-21T23:23:00Z",
+          "time_str": "11:23 pm",
+          "height_m": "0.49 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-22T21:19:00+09:30",
+          "time_utc": "2025-04-22T11:49:00Z",
+          "time_str": "11:49 am",
+          "height_m": "1.32 m"
+        },
+        {
+          "type": "",
+          "time_local": "",
+          "time_utc": "",
+          "time_str": "",
+          "height_m": ""
+        },
+        {
+          "type": "",
+          "time_local": "",
+          "time_utc": "",
+          "time_str": "",
+          "height_m": ""
+        }
+      ]
+    },
+    {
+      "date": "Tue 22 Apr",
+      "entries": [
+        {
+          "type": "low",
+          "time_local": "2025-04-23T08:23:00+09:30",
+          "time_utc": "2025-04-22T22:53:00Z",
+          "time_str": "10:53 pm",
+          "height_m": "0.44 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-23T16:41:00+09:30",
+          "time_utc": "2025-04-23T07:11:00Z",
+          "time_str": "7:11 am",
+          "height_m": "1.14 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-23T19:51:00+09:30",
+          "time_utc": "2025-04-23T10:21:00Z",
+          "time_str": "10:21 am",
+          "height_m": "1.10 m"
+        },
+        {
+          "type": "",
+          "time_local": "",
+          "time_utc": "",
+          "time_str": "",
+          "height_m": ""
+        }
+      ]
+    },
+    {
+      "date": "Wed 23 Apr",
+      "entries": [
+        {
+          "type": "high",
+          "time_local": "2025-04-24T00:52:00+09:30",
+          "time_utc": "2025-04-23T15:22:00Z",
+          "time_str": "3:22 pm",
+          "height_m": "1.31 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-24T08:27:00+09:30",
+          "time_utc": "2025-04-23T22:57:00Z",
+          "time_str": "10:57 pm",
+          "height_m": "0.43 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-24T15:15:00+09:30",
+          "time_utc": "2025-04-24T05:45:00Z",
+          "time_str": "5:45 am",
+          "height_m": "1.22 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-24T20:35:00+09:30",
+          "time_utc": "2025-04-24T11:05:00Z",
+          "time_str": "11:05 am",
+          "height_m": "0.87 m"
+        }
+      ]
+    },
+    {
+      "date": "Thu 24 Apr",
+      "entries": [
+        {
+          "type": "high",
+          "time_local": "2025-04-25T02:05:00+09:30",
+          "time_utc": "2025-04-24T16:35:00Z",
+          "time_str": "4:35 pm",
+          "height_m": "1.35 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-25T08:39:00+09:30",
+          "time_utc": "2025-04-24T23:09:00Z",
+          "time_str": "11:09 pm",
+          "height_m": "0.46 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-25T15:06:00+09:30",
+          "time_utc": "2025-04-25T05:36:00Z",
+          "time_str": "5:36 am",
+          "height_m": "1.42 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-25T21:14:00+09:30",
+          "time_utc": "2025-04-25T11:44:00Z",
+          "time_str": "11:44 am",
+          "height_m": "0.67 m"
+        }
+      ]
+    },
+    {
+      "date": "Fri 25 Apr",
+      "entries": [
+        {
+          "type": "high",
+          "time_local": "2025-04-26T02:55:00+09:30",
+          "time_utc": "2025-04-25T17:25:00Z",
+          "time_str": "5:25 pm",
+          "height_m": "1.37 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-26T08:53:00+09:30",
+          "time_utc": "2025-04-25T23:23:00Z",
+          "time_str": "11:23 pm",
+          "height_m": "0.52 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-26T15:15:00+09:30",
+          "time_utc": "2025-04-26T05:45:00Z",
+          "time_str": "5:45 am",
+          "height_m": "1.65 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-26T21:51:00+09:30",
+          "time_utc": "2025-04-26T12:21:00Z",
+          "time_str": "12:21 pm",
+          "height_m": "0.51 m"
+        }
+      ]
+    },
+    {
+      "date": "Sat 26 Apr",
+      "entries": [
+        {
+          "type": "high",
+          "time_local": "2025-04-27T03:33:00+09:30",
+          "time_utc": "2025-04-26T18:03:00Z",
+          "time_str": "6:03 pm",
+          "height_m": "1.36 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-27T09:05:00+09:30",
+          "time_utc": "2025-04-26T23:35:00Z",
+          "time_str": "11:35 pm",
+          "height_m": "0.60 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-27T15:30:00+09:30",
+          "time_utc": "2025-04-27T06:00:00Z",
+          "time_str": "6:00 am",
+          "height_m": "1.88 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-27T22:27:00+09:30",
+          "time_utc": "2025-04-27T12:57:00Z",
+          "time_str": "12:57 pm",
+          "height_m": "0.43 m"
+        }
+      ]
+    },
+    {
+      "date": "Sun 27 Apr",
+      "entries": [
+        {
+          "type": "high",
+          "time_local": "2025-04-28T04:05:00+09:30",
+          "time_utc": "2025-04-27T18:35:00Z",
+          "time_str": "6:35 pm",
+          "height_m": "1.30 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-28T09:12:00+09:30",
+          "time_utc": "2025-04-27T23:42:00Z",
+          "time_str": "11:42 pm",
+          "height_m": "0.66 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-28T15:47:00+09:30",
+          "time_utc": "2025-04-28T06:17:00Z",
+          "time_str": "6:17 am",
+          "height_m": "2.07 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-28T23:02:00+09:30",
+          "time_utc": "2025-04-28T13:32:00Z",
+          "time_str": "1:32 pm",
+          "height_m": "0.42 m"
+        }
+      ]
+    },
+    {
+      "date": "Mon 28 Apr",
+      "entries": [
+        {
+          "type": "high",
+          "time_local": "2025-04-29T04:29:00+09:30",
+          "time_utc": "2025-04-28T18:59:00Z",
+          "time_str": "6:59 pm",
+          "height_m": "1.21 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-29T09:12:00+09:30",
+          "time_utc": "2025-04-28T23:42:00Z",
+          "time_str": "11:42 pm",
+          "height_m": "0.69 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-29T16:04:00+09:30",
+          "time_utc": "2025-04-29T06:34:00Z",
+          "time_str": "6:34 am",
+          "height_m": "2.20 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-29T23:36:00+09:30",
+          "time_utc": "2025-04-29T14:06:00Z",
+          "time_str": "2:06 pm",
+          "height_m": "0.49 m"
+        }
+      ]
+    },
+    {
+      "date": "Tue 29 Apr",
+      "entries": [
+        {
+          "type": "high",
+          "time_local": "2025-04-30T04:43:00+09:30",
+          "time_utc": "2025-04-29T19:13:00Z",
+          "time_str": "7:13 pm",
+          "height_m": "1.09 m"
+        },
+        {
+          "type": "low",
+          "time_local": "2025-04-30T09:10:00+09:30",
+          "time_utc": "2025-04-29T23:40:00Z",
+          "time_str": "11:40 pm",
+          "height_m": "0.66 m"
+        },
+        {
+          "type": "high",
+          "time_local": "2025-04-30T16:23:00+09:30",
+          "time_utc": "2025-04-30T06:53:00Z",
+          "time_str": "6:53 am",
+          "height_m": "2.27 m"
+        },
+        {
+          "type": "",
+          "time_local": "",
+          "time_utc": "",
+          "time_str": "",
+          "height_m": ""
+        }
+      ]
+    }
+  ]
+}

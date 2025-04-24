@@ -1,5 +1,21 @@
 // Definitions by DataType
 const definitionsByType = {
+    'Weather Station' :`
+        <h3>Definitions</h3>
+            <ul>
+                <li>air_temp - Ambient air temperature  (°C)</li>
+                <li>apparent_t - Steadman apparent air temprature (°C) <a href="http://www.bom.gov.au/info/thermal_stress/" target="_blank">More information</a></li>
+                <li>dewpt - dew point temperature (°C)</li>
+                <li>rel_hum - Relative humidity (%)	</li>
+                <li>wind_dir - Wind direction relative to True North (°C), from which the wind is blowing</li>
+                <li>wind_spd_kmh - Wind speed (km/h) averaged over 10 minutes </li>
+                <li>gust_kmh - Wind gust (km/h)	measured over 3 seconds </li>
+                <li>rain_trace - Rain since 9 am (mm)</li>
+                <li>press - Station level atmospheric pressure (hPa)</li>
+                <li>press_msl - Atmospheric pressure reduced to mean sea level (hPa)</li>
+                <li>press_qnh - QNH pressure. The correction from station level pressure to QNH pressure is based on the conditions specified by the International Standard Atmosphere. QNH pressure is used by pilots to set the altimeter of their aircraft. QNH pressure is closely related to Mean Sea Level Pressure (MSLP) at low elevations, and can vary significantly from MSLP at high elevations.</li>
+            </ul>
+            `,
     'Wave Buoy': `
         <h3>Definitions</h3>
             <ul>
@@ -100,36 +116,31 @@ function configureAxis(axis) {
 function showPlotOverlay(data, layout, loc, attributionHTML = '') {
     const overlayDiv = document.getElementById('plotOverlay');
     const plotContainer = document.getElementById('plotContainer');
+    const tableContainer = document.getElementById('tableContainer'); // new
     const closeButton = document.getElementById('plotOverlayCloseBtn');
     const infoButton = document.getElementById('infoButton');
     const infoBox = document.getElementById('infoBox');
     const pageTitleDiv = document.getElementById('page-title');
 
-    // Clear previous plot
+    // Clear and toggle visibility
     plotContainer.innerHTML = '';
+    plotContainer.style.display = 'block';
+    tableContainer.style.display = 'none';
 
-    // Show overlay
     overlayDiv.style.display = 'block';
-
-    // Update info content
     updateInfoBox(loc, attributionHTML);
 
-    // Close overlay
     closeButton.onclick = () => {
         overlayDiv.style.display = 'none';
         infoBox.style.display = 'none';
     };
 
-    
-    // Show info box
     infoButton.onclick = () => {
         infoBox.style.display = (infoBox.style.display === 'none') ? 'block' : 'none';
     };
 
-    // Close overlay or infoBox on click outside
-    const handleOutsideClick = function (event) {
+    const handleOutsideClick = (event) => {
         if (overlayDiv.style.display === 'none') return;
-
         const clickedOutside =
             !plotContainer.contains(event.target) &&
             !infoBox.contains(event.target) &&
@@ -141,23 +152,80 @@ function showPlotOverlay(data, layout, loc, attributionHTML = '') {
             overlayDiv.style.display = 'none';
             infoBox.style.display = 'none';
         } else if (!infoBox.contains(event.target) && event.target !== infoButton) {
-            infoBox.style.display = 'none'; // close infoBox even if overlay stays open
+            infoBox.style.display = 'none';
         }
     };
 
     document.addEventListener('click', handleOutsideClick);
 
-    // Close overlay when any element inside #page-title is clicked
     pageTitleDiv.addEventListener('click', () => {
         overlayDiv.style.display = 'none';
         infoBox.style.display = 'none';
     });
 
-    // Plot it
     Plotly.newPlot(plotContainer, data, layout, { displayModeBar: false });
 
-    // Ensure responsive resizing
-    window.addEventListener('resize', function () {
+    window.addEventListener('resize', () => {
         Plotly.Plots.resize(plotContainer);
     });
 }
+
+
+// table
+function showTableOverlay(tableHTML, loc, attributionHTML = '') {
+    // console.log(tableHTML)
+    const overlayDiv = document.getElementById('plotOverlay');
+    const tableContainer = document.getElementById('tableContainer');
+    const plotContainer = document.getElementById('plotContainer'); // new
+    const closeButton = document.getElementById('plotOverlayCloseBtn');
+    const infoButton = document.getElementById('infoButton');
+    const infoBox = document.getElementById('infoBox');
+    const pageTitleDiv = document.getElementById('page-title');
+
+    // Clear and toggle visibility
+    tableContainer.innerHTML = `
+        <div class="tide-table-wrapper overflow-auto bg-white text-black p-4 rounded-md shadow-md max-h-[80vh]">
+            ${tableHTML}
+        </div>
+    `;
+    tableContainer.style.display = 'block';
+    plotContainer.style.display = 'none';
+
+    overlayDiv.style.display = 'block';
+    updateInfoBox(loc, attributionHTML);
+
+    closeButton.onclick = () => {
+        overlayDiv.style.display = 'none';
+        infoBox.style.display = 'none';
+    };
+
+    infoButton.onclick = () => {
+        infoBox.style.display = (infoBox.style.display === 'none') ? 'block' : 'none';
+    };
+
+    const handleOutsideClick = (event) => {
+        if (overlayDiv.style.display === 'none') return;
+        const clickedOutside =
+            !tableContainer.contains(event.target) &&
+            !infoBox.contains(event.target) &&
+            !infoButton.contains(event.target) &&
+            !pageTitleDiv.contains(event.target) &&
+            !closeButton.contains(event.target);
+
+        if (clickedOutside) {
+            overlayDiv.style.display = 'none';
+            infoBox.style.display = 'none';
+        } else if (!infoBox.contains(event.target) && event.target !== infoButton) {
+            infoBox.style.display = 'none';
+        }
+    };
+
+    document.addEventListener('click', handleOutsideClick);
+
+    pageTitleDiv.addEventListener('click', () => {
+        overlayDiv.style.display = 'none';
+        infoBox.style.display = 'none';
+    });
+}
+
+

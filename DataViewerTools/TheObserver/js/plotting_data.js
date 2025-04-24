@@ -412,13 +412,12 @@ Object.keys(groupedLocations).forEach((dataType) => {
 
         marker.on('click', async function () {
 
-            showLoadingSpinnerDelayed(100); // show only after N ms if still loading
+            showLoadingSpinnerDelayed(1); // show only after N ms if still loading
         
             const dataType = marker.options.dataType;
             const owner = marker.options.owner;
         
             try {
-                
                 // Wave Data
                 if (dataType === 'Wave Buoy' && owner === 'Qld Gov') {
                     await loadScriptAsync('js/getData_Waves_Qld.js');
@@ -432,7 +431,7 @@ Object.keys(groupedLocations).forEach((dataType) => {
                 } else if (dataType === 'Wave Buoy' && owner === 'UWA') {
                     await loadScriptAsync('js/getData_Waves_WA_UWA.js');
                     await getData_Waves_WA_UWA(loc);
-                
+        
                 // Tide Data
                 } else if (dataType === 'Tide Gauge' && owner === 'Qld Gov') {
                     await loadScriptAsync('js/getData_Tides_Qld.js');
@@ -440,47 +439,46 @@ Object.keys(groupedLocations).forEach((dataType) => {
                 } else if (dataType === 'Tide Gauge' && owner === 'MHL') {
                     await loadScriptAsync('js/getData_Tides_NSW_MHL.js');
                     await getData_Tides_NSW_MHL(loc);
-                
+                } else if (dataType === 'Tide Prediction' && owner === 'BoM') {
+                    await loadScriptAsync('js/getData_TidePredictions_BoM.js');
+                    await getData_TidePredictions_BoM(loc);
+        
                 // River Data 
                 } else if (dataType === 'River Gauge' && owner === 'MHL') {
                     await loadScriptAsync('js/getData_Rivers_NSW_MHL.js');
                     await getData_Rivers_NSW_MHL(loc);
-
+        
                 // Rain Data
                 } else if (dataType === 'Rain Gauge' && owner === 'MHL') {
                     await loadScriptAsync('js/getData_Rain_NSW_MHL.js');
                     await getData_Rain_NSW_MHL(loc);
-
+        
                 // Ocean Buoy Data
                 } else if (dataType === 'Ocean Buoy (Active)' && owner === 'NDBC') {
                     await loadScriptAsync('js/getData_OceanBuoys_NDBC.js');
                     await getData_OceanBuoys_NDBC(loc);
-
-                // AWS Data- not working due to CORS blocking
-                // } else if (dataType === 'Weather Station' && owner === 'BoM') {
-                //     await loadScriptAsync('js/getData_Weather_BoM.js');
-                //     await getData_Weather_BoM(loc);
-                
-                // Open External Bookmarked page
-                } else if (loc.URL) { // no data available so open bookmark url instead
-                    let lastClick = 0;
-                    marker.on('click', function () {
-                        const now = Date.now();
-                        if (now - lastClick < 1000) return; // Ignore double clicks within 1 second - for ipad duplicate opening issue
-                        lastClick = now;
-                        if (loc.URL) {
-                            window.open(loc.URL, '_blank');
-                        }
-                    });
+        
+                // AWS Data - not working due to CORS blocking
+                } else if (dataType === 'Weather Station' && owner === 'BoM') {
+                    await loadScriptAsync('js/getData_Weather_BoM.js');
+                    await getData_Weather_BoM(loc);
+        
+                // Open external bookmarked page
+                } else if (loc.URL) {
+                    // Prevent accidental double-clicks (e.g., on iPads)
+                    const now = Date.now();
+                    if (!marker.lastClick || now - marker.lastClick > 1000) {
+                        marker.lastClick = now;
+                        window.open(loc.URL, '_blank');
+                    }
                 }
             } catch (err) {
                 console.error('Error handling marker click:', err);
             }
         
-            // if (loader) loader.style.display = "none";
             hideLoadingSpinner();
-
         });
+        
 
         function loadScriptAsync(src) {
             return new Promise((resolve, reject) => {
@@ -824,27 +822,4 @@ Promise.all(loadingPromises).then(() => {
     // console.log("All map elements are fully loaded.");
 });
 
-// PLOTTING OVERLAY ////////////////////////////////////////////////////////////////////////////////////////
-// function configureAxis(axis) {
-//         return {
-//             title: {text: axis.title},   // Axis title
-//             // domain: axis.domain,         // Axis domain (position)
-//             zeroline: axis.zeroline || false,     // Show zero line
-//             showgrid: true,              // Show grid lines
-//             gridcolor: 'rgba(240, 240, 240, 0.2)', // Grid color: off-white, partially transparent
-//             gridwidth: 1,                // Grid line width
-//             linecolor: 'rgba(240, 240, 240, 0.4)', // Axis line color
-//             linewidth: 2,                // Axis line width
-//             tickcolor: 'rgba(240, 240, 240, 0.4)', // Tick color
-//             ticks: 'outside',            // Tick marks outside the axis
-//             tickfont: { color: '#f0f0f0' }, // Tick label font color
-//             tickformat: axis.tickformat || '',  // Optional tick format
-//             showticklabels: axis.showticklabels || true,
-//             dash: 'dash',                 // Dotted grid lines
-//             showline: true,              // Show axis line
-//             mirror: false,                // Mirror axis lines on all sides
-//             title_standoff: axis.title_standoff || 25, // Ensure the right axis label has more space from the plot
-//         };
-//     }
-    
 // END ////////////////////////////////////////////////////////////////////////////////////////

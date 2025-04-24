@@ -1,0 +1,49 @@
+{
+  "site_info": {
+    "station_number": "037040",
+    "name": "Thomson R Stonehenge (East)",
+    "owner": "BOM:3920",
+    "url": "http://www.bom.gov.au/fwo/IDQ65398/IDQ65398.037040.tbl.shtml",
+    "minor_flood_level": 2.0,
+    "moderate_flood_level": 3.0,
+    "major_flood_level": 5.0
+  },
+  "data": [
+    {
+      "datetime": "09/04/2025 09:00",
+      "height_m": 3.8
+    },
+    {
+      "datetime": "09/04/2025 17:45",
+      "height_m": 3.75
+    },
+    {
+      "datetime": "10/04/2025 09:00",
+      "height_m": 3.7
+    },
+    {
+      "datetime": "12/04/2025 08:10",
+      "height_m": 3.35
+    },
+    {
+      "datetime": "12/04/2025 09:00",
+      "height_m": 3.35
+    },
+    {
+      "datetime": "13/04/2025 09:00",
+      "height_m": 3.25
+    },
+    {
+      "datetime": "14/04/2025 10:15",
+      "height_m": 3.2
+    },
+    {
+      "datetime": "15/04/2025 09:35",
+      "height_m": 3.0
+    },
+    {
+      "datetime": "16/04/2025 12:20",
+      "height_m": 2.95
+    }
+  ]
+}

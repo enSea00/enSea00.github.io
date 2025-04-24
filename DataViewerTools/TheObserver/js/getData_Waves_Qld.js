@@ -125,6 +125,20 @@ function getData_Waves_Qld(loc) {
                     paper_bgcolor: 'rgba(0,0,0,0)', // Dark background for the paper (around the plot)
                     font: { color: 'white' },       // White font for the whole plot
                     grid: { rows: 5, columns: 1}, // Arrange as 4-row subplot
+
+                    // Link hovers across subplots
+                    hovermode: 'x unified',  // <- key part
+                    hoversubplots:"axis",
+                    hoverlabel: {
+                        bgcolor: '#333333',        // Background of hover box
+                        bordercolor: '#AAAAAA',    // Border color
+                        font: {
+                            color: 'white',        // Font color inside the box
+                            family: 'Arial',       // Font family
+                            size: 12               // Font size
+                        },
+                    },
+                    
                     // Apply settings to x-axes
                     xaxis: configureAxis({ title: '', showticklabels: false }),
                     xaxis2: configureAxis({ title: '', showticklabels: false }),
@@ -146,7 +160,7 @@ function getData_Waves_Qld(loc) {
 
                 // Make the plot overlay
                 const customAttribution = `
-                <p>This wave buoy data is provided by the <a href="https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring" target="_blank">Queensland Government</a> under a <a href="https://creativecommons.org/licenses/by/4.0/" taret="_blank">Creative Common license (CC BY 4.0)</a>.</p>
+                <p>This wave buoy data is provided by the <a href="https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring" target="_blank">Queensland Government</a> under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Common license (CC BY 4.0)</a>.</p>
                 `;
                 showPlotOverlay(data, layout, loc, customAttribution);
                 
