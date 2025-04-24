@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:32 am EST Friday 25 April 2025",
+				"refresh_message": "Issued at  7:42 am EST Friday 25 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Mallacoota",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 39,
 				"wind_spd_kt": 21
-			},
-			{
-				"sort_order": 149,
-				"wmo": 94935,
-				"name": "Mallacoota",
-				"history_product": "IDV60801",
-				"local_date_time": "22/07:39am",
-				"local_date_time_full": "20250422073900",
-				"aifstime_utc": "20250421213900",
-				"lat": -37.6,
-				"lon": 149.7,
-				"apparent_t": 14.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.4,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 18.1,
-				"dewpt": 17.5,
-				"press": 1019.7,
-				"press_msl": 1019.7,
-				"press_qnh": 1019.7,
-				"press_tend": "-",
-				"rain_trace": "63.8",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
