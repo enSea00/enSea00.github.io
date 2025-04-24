@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:43 am WST Thursday 24 April 2025",
+				"refresh_message": "Issued at 11:53 am WST Thursday 24 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Badgingarra",
@@ -5829,43 +5829,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 28,
 				"wind_spd_kt": 15
-			},
-			{
-				"sort_order": 157,
-				"wmo": 94603,
-				"name": "Badgingarra",
-				"history_product": "IDW60801",
-				"local_date_time": "21/11:47am",
-				"local_date_time_full": "20250421114700",
-				"aifstime_utc": "20250421034700",
-				"lat": -30.3,
-				"lon": 115.5,
-				"apparent_t": 23.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 10.8,
-				"gust_kmh": 35,
-				"gust_kt": 19,
-				"air_temp": 28.4,
-				"dewpt": 9.2,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 30,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 26,
-				"wind_spd_kt": 14
 			}
 		]
 	}
