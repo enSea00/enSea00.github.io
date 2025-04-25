@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:11 pm CST Friday 25 April 2025",
+				"refresh_message": "Issued at  5:21 pm CST Friday 25 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Warruwi",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94139,
-				"name": "Warruwi",
-				"history_product": "IDD60801",
-				"local_date_time": "22/05:19pm",
-				"local_date_time_full": "20250422171900",
-				"aifstime_utc": "20250422074900",
-				"lat": -11.7,
-				"lon": 133.4,
-				"apparent_t": 26.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 25.6,
-				"dewpt": 25.3,
-				"press": 1009.2,
-				"press_msl": 1009.2,
-				"press_qnh": 1009.4,
-				"press_tend": "-",
-				"rain_trace": "2.8",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
