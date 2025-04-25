@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:33 am EST Saturday 26 April 2025",
+				"refresh_message": "Issued at  7:43 am EST Saturday 26 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Albion Park",
@@ -6088,43 +6088,6 @@
 				"wind_dir": "NE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 164,
-				"wmo": 95748,
-				"name": "Albion Park",
-				"history_product": "IDN60801",
-				"local_date_time": "23/07:34am",
-				"local_date_time_full": "20250423073400",
-				"aifstime_utc": "20250422213400",
-				"lat": -34.6,
-				"lon": 150.8,
-				"apparent_t": 17.9,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 480,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 39,
-				"gust_kt": 21,
-				"air_temp": 18.4,
-				"dewpt": 17.9,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "24.8",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
