@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:22 pm WST Friday 25 April 2025",
+				"refresh_message": "Issued at  7:33 pm WST Friday 25 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Mandora",
@@ -4238,43 +4238,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 114,
-				"wmo": 94200,
-				"name": "Mandora",
-				"history_product": "IDW60801",
-				"local_date_time": "22/07:30pm",
-				"local_date_time_full": "20250422193000",
-				"aifstime_utc": "20250422113000",
-				"lat": -19.7,
-				"lon": 120.8,
-				"apparent_t": 32.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.0,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 27.3,
-				"dewpt": 24.4,
-				"press": 1012.3,
-				"press_msl": 1012.3,
-				"press_qnh": 1012.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 84,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
