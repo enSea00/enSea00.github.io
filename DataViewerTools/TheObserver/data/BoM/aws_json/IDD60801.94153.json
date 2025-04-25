@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:01 pm CST Friday 25 April 2025",
+				"refresh_message": "Issued at  3:11 pm CST Friday 25 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Groote Eylandt Airport",
@@ -32,9 +32,9 @@
 				"lat": -14.0,
 				"lon": 136.5,
 				"apparent_t": 29.4,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 330,
-				"cloud_oktas": 3,
+				"cloud": "Cloudy",
+				"cloud_base_m": 300,
+				"cloud_oktas": 8,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 0.5,
@@ -53,7 +53,7 @@
 				"swell_height": null,
 				"swell_period": null,
 				"vis_km": "5",
-				"weather": "-",
+				"weather": "Rain",
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
