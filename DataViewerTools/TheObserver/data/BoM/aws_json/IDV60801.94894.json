@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:42 pm EST Friday 25 April 2025",
+				"refresh_message": "Issued at 11:52 pm EST Friday 25 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Mount Buller",
@@ -5644,43 +5644,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 33,
 				"wind_spd_kt": 18
-			},
-			{
-				"sort_order": 152,
-				"wmo": 94894,
-				"name": "Mount Buller",
-				"history_product": "IDV60801",
-				"local_date_time": "22/11:50pm",
-				"local_date_time_full": "20250422235000",
-				"aifstime_utc": "20250422135000",
-				"lat": -37.1,
-				"lon": 146.4,
-				"apparent_t": -0.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.2,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 6.6,
-				"dewpt": 4.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 84,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
