@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:53 am EST Sunday 27 April 2025",
+				"refresh_message": "Issued at  7:03 am EST Sunday 27 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Hervey Bay",
@@ -2351,43 +2351,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 63,
-				"wmo": 95565,
-				"name": "Hervey Bay",
-				"history_product": "IDQ60801",
-				"local_date_time": "24/07:00am",
-				"local_date_time_full": "20250424070000",
-				"aifstime_utc": "20250423210000",
-				"lat": -25.3,
-				"lon": 152.9,
-				"apparent_t": 18.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.9,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 18.3,
-				"dewpt": 16.8,
-				"press": 1014.6,
-				"press_msl": 1014.6,
-				"press_qnh": 1014.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 91,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
