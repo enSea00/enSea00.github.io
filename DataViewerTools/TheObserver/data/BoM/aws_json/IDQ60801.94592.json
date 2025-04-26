@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:33 am EST Sunday 27 April 2025",
+				"refresh_message": "Issued at  3:43 am EST Sunday 27 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Coolangatta",
@@ -7531,43 +7531,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 203,
-				"wmo": 94592,
-				"name": "Coolangatta",
-				"history_product": "IDQ60801",
-				"local_date_time": "24/03:37am",
-				"local_date_time_full": "20250424033700",
-				"aifstime_utc": "20250423173700",
-				"lat": -28.2,
-				"lon": 153.5,
-				"apparent_t": 19.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 600,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.9,
-				"gust_kmh": 37,
-				"gust_kt": 20,
-				"air_temp": 19.8,
-				"dewpt": 18.3,
-				"press": 1015.3,
-				"press_msl": 1015.3,
-				"press_qnh": 1015.4,
-				"press_tend": "-",
-				"rain_trace": "6.8",
-				"rel_hum": 91,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
