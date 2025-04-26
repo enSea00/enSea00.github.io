@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:43 am EST Sunday 27 April 2025",
+				"refresh_message": "Issued at  9:03 am EST Sunday 27 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Katoomba",
@@ -94,43 +94,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94744,
-				"name": "Katoomba",
-				"history_product": "IDN60801",
-				"local_date_time": "24/09:00am",
-				"local_date_time_full": "20250424090000",
-				"aifstime_utc": "20250423230000",
-				"lat": -33.7,
-				"lon": 150.3,
-				"apparent_t": 11.6,
-				"cloud": "Mostly cloudy",
-				"cloud_base_m": 300,
-				"cloud_oktas": 7,
-				"cloud_type": "-",
-				"cloud_type_id": 31,
-				"delta_t": 0.5,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 13.0,
-				"dewpt": 12.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "10.0",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "18",
-				"weather": "Fine",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}

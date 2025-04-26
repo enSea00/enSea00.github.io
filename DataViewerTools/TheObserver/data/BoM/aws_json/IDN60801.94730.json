@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:43 am EST Sunday 27 April 2025",
+				"refresh_message": "&nbsp;",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Bathurst",
@@ -21,43 +21,6 @@
 			}
 		],
 		"data": [
-			{
-				"sort_order": 0,
-				"wmo": 94730,
-				"name": "Bathurst",
-				"history_product": "IDN60801",
-				"local_date_time": "24/09:00am",
-				"local_date_time_full": "20250424090000",
-				"aifstime_utc": "20250423230000",
-				"lat": -33.4,
-				"lon": 149.6,
-				"apparent_t": 17.1,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 600,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": 31,
-				"delta_t": 3.7,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 18.0,
-				"dewpt": 11.5,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 65,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "Fine",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
-			}
 		]
 	}
 }
