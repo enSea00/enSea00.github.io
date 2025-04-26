@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:01 am CST Sunday 27 April 2025",
+				"refresh_message": "Issued at  6:11 am CST Sunday 27 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Gove Airport",
@@ -8123,43 +8123,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 219,
-				"wmo": 94150,
-				"name": "Gove Airport",
-				"history_product": "IDD60801",
-				"local_date_time": "24/06:04am",
-				"local_date_time_full": "20250424060400",
-				"aifstime_utc": "20250423203400",
-				"lat": -12.3,
-				"lon": 136.8,
-				"apparent_t": 28.2,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 30,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 23.9,
-				"dewpt": 23.6,
-				"press": 1007.6,
-				"press_msl": 1007.6,
-				"press_qnh": 1008.0,
-				"press_tend": "-",
-				"rain_trace": "46.2",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
