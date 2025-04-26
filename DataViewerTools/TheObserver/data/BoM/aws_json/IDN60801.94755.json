@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:03 pm EST Saturday 26 April 2025",
+				"refresh_message": "Issued at  6:23 pm EST Saturday 26 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Camden",
@@ -32,9 +32,9 @@
 				"lat": -34.0,
 				"lon": 150.7,
 				"apparent_t": 20.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 720,
-				"cloud_oktas": 5,
+				"cloud": "Cloudy",
+				"cloud_base_m": 600,
+				"cloud_oktas": 8,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 0.8,
@@ -53,7 +53,7 @@
 				"swell_height": null,
 				"swell_period": null,
 				"vis_km": "10",
-				"weather": "-",
+				"weather": "Thunderstorm",
 				"wind_dir": "NW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
