@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:03 pm EST Sunday 27 April 2025",
+				"refresh_message": "Issued at  9:22 pm EST Sunday 27 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Greenbank (Defence)",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94419,
-				"name": "Greenbank (Defence)",
-				"history_product": "IDQ60801",
-				"local_date_time": "24/09:06pm",
-				"local_date_time_full": "20250424210600",
-				"aifstime_utc": "20250424110600",
-				"lat": -27.7,
-				"lon": 153.0,
-				"apparent_t": 21.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 0,
-				"gust_kt": 0,
-				"air_temp": 18.9,
-				"dewpt": 18.4,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "7.2",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}
