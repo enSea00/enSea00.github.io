@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:33 pm WST Sunday 27 April 2025",
+				"refresh_message": "Issued at  5:43 pm WST Sunday 27 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Esperance",
@@ -6680,43 +6680,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 180,
-				"wmo": 94638,
-				"name": "Esperance",
-				"history_product": "IDW60801",
-				"local_date_time": "24/05:32pm",
-				"local_date_time_full": "20250424173200",
-				"aifstime_utc": "20250424093200",
-				"lat": -33.8,
-				"lon": 121.9,
-				"apparent_t": 10.0,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1200,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.0,
-				"gust_kmh": 56,
-				"gust_kt": 30,
-				"air_temp": 16.4,
-				"dewpt": 8.6,
-				"press": 1020.1,
-				"press_msl": 1020.1,
-				"press_qnh": 1020.2,
-				"press_tend": "-",
-				"rain_trace": "2.0",
-				"rel_hum": 60,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
