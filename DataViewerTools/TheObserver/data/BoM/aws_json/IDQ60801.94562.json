@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:43 pm EST Sunday 27 April 2025",
+				"refresh_message": "Issued at  4:52 pm EST Sunday 27 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Gatton",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "NE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94562,
-				"name": "Gatton",
-				"history_product": "IDQ60801",
-				"local_date_time": "24/04:43pm",
-				"local_date_time_full": "20250424164300",
-				"aifstime_utc": "20250424064300",
-				"lat": -27.5,
-				"lon": 152.3,
-				"apparent_t": 23.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.7,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 21.4,
-				"dewpt": 17.0,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 76,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
