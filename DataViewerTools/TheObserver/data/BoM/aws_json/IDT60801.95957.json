@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:41 pm EST Sunday 27 April 2025",
+				"refresh_message": "Issued at  3:51 pm EST Sunday 27 April 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Wynyard",
@@ -6643,43 +6643,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 179,
-				"wmo": 95957,
-				"name": "Wynyard",
-				"history_product": "IDT60801",
-				"local_date_time": "24/03:45pm",
-				"local_date_time_full": "20250424154500",
-				"aifstime_utc": "20250424054500",
-				"lat": -41.0,
-				"lon": 145.7,
-				"apparent_t": 18.2,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 210,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 17.9,
-				"dewpt": 17.1,
-				"press": 1015.4,
-				"press_msl": 1015.4,
-				"press_qnh": 1015.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
