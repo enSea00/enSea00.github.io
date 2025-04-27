@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:31 pm EST Sunday 27 April 2025",
+				"refresh_message": "Issued at  8:41 pm EST Sunday 27 April 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Flinders Island Airport",
@@ -5977,43 +5977,6 @@
 				"wind_dir": "NE",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 161,
-				"wmo": 94980,
-				"name": "Flinders Island Airport",
-				"history_product": "IDT60801",
-				"local_date_time": "24/08:40pm",
-				"local_date_time_full": "20250424204000",
-				"aifstime_utc": "20250424104000",
-				"lat": -40.1,
-				"lon": 148.0,
-				"apparent_t": 15.5,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 600,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 35,
-				"gust_kt": 19,
-				"air_temp": 18.0,
-				"dewpt": 17.0,
-				"press": 1016.8,
-				"press_msl": 1016.8,
-				"press_qnh": 1016.8,
-				"press_tend": "-",
-				"rain_trace": "2.8",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 26,
-				"wind_spd_kt": 14
 			}
 		]
 	}
