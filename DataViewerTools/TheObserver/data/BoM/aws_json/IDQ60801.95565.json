@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:22 am EST Monday 28 April 2025",
+				"refresh_message": "Issued at  8:33 am EST Monday 28 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Hervey Bay",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 95565,
+				"name": "Hervey Bay",
+				"history_product": "IDQ60801",
+				"local_date_time": "28/08:30am",
+				"local_date_time_full": "20250428083000",
+				"aifstime_utc": "20250427223000",
+				"lat": -25.3,
+				"lon": 152.9,
+				"apparent_t": 19.9,
+				"cloud": "Clear",
+				"cloud_base_m": null,
+				"cloud_oktas": 0,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 4.4,
+				"gust_kmh": 24,
+				"gust_kt": 13,
+				"air_temp": 21.5,
+				"dewpt": 13.9,
+				"press": 1012.7,
+				"press_msl": 1012.7,
+				"press_qnh": 1012.8,
+				"press_tend": "-",
+				"rain_trace": "-",
+				"rel_hum": 62,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "10",
+				"weather": "-",
+				"wind_dir": "WSW",
+				"wind_spd_kmh": 15,
+				"wind_spd_kt": 8
+			},
+			{
+				"sort_order": 1,
 				"wmo": 95565,
 				"name": "Hervey Bay",
 				"history_product": "IDQ60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 95565,
 				"name": "Hervey Bay",
 				"history_product": "IDQ60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 95565,
 				"name": "Hervey Bay",
 				"history_product": "IDQ60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 95565,
 				"name": "Hervey Bay",
 				"history_product": "IDQ60801",
@@ -168,43 +205,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 4,
-				"wmo": 95565,
-				"name": "Hervey Bay",
-				"history_product": "IDQ60801",
-				"local_date_time": "25/08:30am",
-				"local_date_time_full": "20250425083000",
-				"aifstime_utc": "20250424223000",
-				"lat": -25.3,
-				"lon": 152.9,
-				"apparent_t": 22.9,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 240,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.5,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 21.6,
-				"dewpt": 19.2,
-				"press": 1013.4,
-				"press_msl": 1013.4,
-				"press_qnh": 1013.5,
-				"press_tend": "-",
-				"rain_trace": "1.6",
-				"rel_hum": 86,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
