@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:03 am EST Tuesday 29 April 2025",
+				"refresh_message": "Issued at  7:13 am EST Tuesday 29 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Cobar Airport",
@@ -6236,43 +6236,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 168,
-				"wmo": 94710,
-				"name": "Cobar Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "26/07:06am",
-				"local_date_time_full": "20250426070600",
-				"aifstime_utc": "20250425210600",
-				"lat": -31.5,
-				"lon": 145.8,
-				"apparent_t": 13.9,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 120,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.4,
-				"gust_kmh": 32,
-				"gust_kt": 17,
-				"air_temp": 16.2,
-				"dewpt": 15.6,
-				"press": 1013.4,
-				"press_msl": 1013.4,
-				"press_qnh": 1013.9,
-				"press_tend": "-",
-				"rain_trace": "9.2",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 22,
-				"wind_spd_kt": 12
 			}
 		]
 	}
