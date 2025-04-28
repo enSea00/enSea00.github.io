@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:32 am EST Tuesday 29 April 2025",
+				"refresh_message": "Issued at  5:42 am EST Tuesday 29 April 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Horsham",
@@ -5644,43 +5644,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 152,
-				"wmo": 95839,
-				"name": "Horsham",
-				"history_product": "IDV60801",
-				"local_date_time": "26/05:40am",
-				"local_date_time_full": "20250426054000",
-				"aifstime_utc": "20250425194000",
-				"lat": -36.7,
-				"lon": 142.2,
-				"apparent_t": 15.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 900,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 6,
-				"gust_kt": 3,
-				"air_temp": 14.5,
-				"dewpt": 14.2,
-				"press": 1014.2,
-				"press_msl": 1014.2,
-				"press_qnh": 1014.4,
-				"press_tend": "-",
-				"rain_trace": "1.8",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "0.9",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 2,
-				"wind_spd_kt": 1
 			}
 		]
 	}

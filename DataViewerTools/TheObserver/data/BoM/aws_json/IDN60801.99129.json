@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:33 am EST Tuesday 29 April 2025",
+				"refresh_message": "Issued at  5:43 am EST Tuesday 29 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "PORTABLE WN01 (Water NSW)",
@@ -15930,43 +15930,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 430,
-				"wmo": 99129,
-				"name": "PORTABLE WN01 (Water NSW)",
-				"history_product": "IDN60801",
-				"local_date_time": "26/05:40am",
-				"local_date_time_full": "20250426054000",
-				"aifstime_utc": "20250425194000",
-				"lat": -34.3,
-				"lon": 150.6,
-				"apparent_t": 15.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 2,
-				"gust_kt": 1,
-				"air_temp": 14.4,
-				"dewpt": 14.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}
