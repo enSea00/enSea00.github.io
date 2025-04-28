@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:01 pm CST Monday 28 April 2025",
+				"refresh_message": "Issued at  4:21 pm CST Monday 28 April 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Point Avoid",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 147,
-				"wmo": 95649,
-				"name": "Point Avoid",
-				"history_product": "IDS60801",
-				"local_date_time": "25/04:17pm",
-				"local_date_time_full": "20250425161700",
-				"aifstime_utc": "20250425064700",
-				"lat": -34.7,
-				"lon": 135.3,
-				"apparent_t": 17.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.5,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 20.1,
-				"dewpt": 12.1,
-				"press": 1011.2,
-				"press_msl": 1011.2,
-				"press_qnh": 1011.3,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 60,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
