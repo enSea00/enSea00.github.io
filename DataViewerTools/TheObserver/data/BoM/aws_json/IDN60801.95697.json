@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:03 am EST Tuesday 29 April 2025",
+				"refresh_message": "Issued at  6:23 am EST Tuesday 29 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Ivanhoe Airport",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 144,
-				"wmo": 95697,
-				"name": "Ivanhoe Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "26/06:09am",
-				"local_date_time_full": "20250426060900",
-				"aifstime_utc": "20250425200900",
-				"lat": -32.9,
-				"lon": 144.3,
-				"apparent_t": 13.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 14.8,
-				"dewpt": 14.6,
-				"press": 1014.1,
-				"press_msl": 1014.1,
-				"press_qnh": 1014.3,
-				"press_tend": "-",
-				"rain_trace": "34.0",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
