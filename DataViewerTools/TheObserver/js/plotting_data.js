@@ -1,6 +1,3 @@
-// Activate loading spinner
-// document.getElementById('loading-spinner').style.display = 'block';
-
 // DATA PREPARATION ////////////////////////////////////////////////////////////////////////////////////////
 
 // This code manually defines available data types and assigns color to their markers
@@ -89,8 +86,7 @@ if ("geolocation" in navigator) {
 
 // BASE LAYERS //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Available arcgis rest services
-// https://server.arcgisonline.com/ArcGIS/rest/services
+// Available arcgis rest services - https://server.arcgisonline.com/ArcGIS/rest/services
 
 // BASE LAYER - Satellite layer (No Labels)
 var satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
@@ -241,7 +237,6 @@ var overlayLayers = {
 // Add overlay layer control
 var layerControl = L.control.layers(baseLayers, overlayLayers).addTo(map);
 
-
 // Function to toggle label layer visibility
 map.on("baselayerchange", function (event) {
     if (event.layer === satellite) {
@@ -250,6 +245,9 @@ map.on("baselayerchange", function (event) {
         map.removeLayer(locationLabels); // Hide labels when switching away
     }
 });
+
+// SCALE BAR ////////////////////////////////////////////////////////////////////////////////////////
+L.control.scale().addTo(map);
 
 // DISPLAY LAT LON of mouse cursor location - PC ONLY ////////////////////////////////////////////////////////////////////////////////
 map.on('mousemove', function(e) {
@@ -273,7 +271,8 @@ function hideCustomAlert() {
 
 map.on('contextmenu', function(e) { // use 'contextmenu' for right click
 // map.on('click', function(e) {   // use 'click' for left click
-        // Hide any existing alert before showing a new one
+    
+    // Hide any existing alert before showing a new one
     hideCustomAlert(); 
 
     const lat = e.latlng.lat.toFixed(5);
@@ -322,7 +321,10 @@ map.on('click', function() {
     hideCustomAlert();  // Hide the custom alert when a left-click occurs
 });
 
-// ADD LOCATION MARKERS TO MAP ////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// ADD OBSERVATION LOCATION MARKERS TO MAP 
+// This section also handles the getData and timeseries plot calls
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // loading spinner helper functions
 let loadingTimeout;
@@ -408,8 +410,7 @@ Object.keys(groupedLocations).forEach((dataType) => {
             offset: L.point(0, -10)  
         });
 
-        // popup plotting /////////////////////////////////////////////////////////////////////
-
+        // popup plotting calls /////////////////////////////////////////////////////////////////////
         marker.on('click', async function () {
 
             showLoadingSpinnerDelayed(1); // show only after N ms if still loading
@@ -495,8 +496,7 @@ Object.keys(groupedLocations).forEach((dataType) => {
     map.addLayer(markers);
 });
 
-// SCALE BAR ////////////////////////////////////////////////////////////////////////////////////////
-L.control.scale().addTo(map);
+
 
 // LOCATION SEARCH ////////////////////////////////////////////////////////////////////////////////////////
 
@@ -586,7 +586,7 @@ map.on('draw:created', function (e) {
     }
 });
 
-// LEGEND ////////////////////////////////////////////////////////////////////////////////////////
+// CREATE INTERACTIVE LEGEND ////////////////////////////////////////////////////////////////////////////////////////
 
 // Add an interactive legend to the map
 const legend = L.control({ position: 'topright' });
@@ -687,7 +687,7 @@ document.getElementById('legend-container').addEventListener('dblclick', functio
 });
 
 
-// DROPDOWN HAMBURGER MENU ////////////////////////////////////////////////////////////////////////////////////////
+// DROPDOWN HAMBURGER INTERACTIVE LEGEND MENU ////////////////////////////////////////////////////////////////////////////////////////
 
 // Select both the hamburger icon, menu label, and the dropdown menu
 const hamburgerToggle = document.getElementById('hamburger-toggle');
@@ -719,7 +719,7 @@ hamburgerToggle.addEventListener('click', function(event) {
     }
 });
 
-// INFO DROPDOWN ///////////////////////////////////////////////////////////////////////////////////////////////////////
+// PAGE INFO DROPDOWN ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 document.getElementById('info-toggle').addEventListener('click', function(event) {
     // Toggle the info dropdown
