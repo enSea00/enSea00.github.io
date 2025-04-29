@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:51 pm CST Tuesday 29 April 2025",
+				"refresh_message": "Issued at  2:01 pm CST Tuesday 29 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Kalumburu",
@@ -5200,43 +5200,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 140,
-				"wmo": 94100,
-				"name": "Kalumburu",
-				"history_product": "IDD60801",
-				"local_date_time": "26/02:00pm",
-				"local_date_time_full": "20250426140000",
-				"aifstime_utc": "20250426043000",
-				"lat": -14.3,
-				"lon": 126.6,
-				"apparent_t": 33.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 10.3,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 32.8,
-				"dewpt": 16.6,
-				"press": 1009.3,
-				"press_msl": 1009.3,
-				"press_qnh": 1009.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 37,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
