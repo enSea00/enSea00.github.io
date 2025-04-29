@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:12 pm EST Tuesday 29 April 2025",
+				"refresh_message": "Issued at  7:23 pm EST Tuesday 29 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Narrabri",
@@ -5792,43 +5792,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 156,
-				"wmo": 95734,
-				"name": "Narrabri",
-				"history_product": "IDN60801",
-				"local_date_time": "26/07:15pm",
-				"local_date_time_full": "20250426191500",
-				"aifstime_utc": "20250426091500",
-				"lat": -30.3,
-				"lon": 149.8,
-				"apparent_t": 20.1,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 300,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 18.3,
-				"dewpt": 18.3,
-				"press": 1012.1,
-				"press_msl": 1012.1,
-				"press_qnh": 1012.8,
-				"press_tend": "-",
-				"rain_trace": "4.2",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
