@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:01 pm CST Tuesday 29 April 2025",
+				"refresh_message": "Issued at  3:11 pm CST Tuesday 29 April 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Leigh Creek",
@@ -5422,43 +5422,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 146,
-				"wmo": 94674,
-				"name": "Leigh Creek",
-				"history_product": "IDS60801",
-				"local_date_time": "26/03:06pm",
-				"local_date_time_full": "20250426150600",
-				"aifstime_utc": "20250426053600",
-				"lat": -30.6,
-				"lon": 138.4,
-				"apparent_t": 13.5,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 1560,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.0,
-				"gust_kmh": 41,
-				"gust_kt": 22,
-				"air_temp": 18.0,
-				"dewpt": 12.7,
-				"press": 1014.2,
-				"press_msl": 1014.2,
-				"press_qnh": 1015.0,
-				"press_tend": "-",
-				"rain_trace": "1.4",
-				"rel_hum": 71,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
