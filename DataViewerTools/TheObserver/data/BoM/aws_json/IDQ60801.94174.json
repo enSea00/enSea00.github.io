@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:04 am EST Wednesday 30 April 2025",
+				"refresh_message": "Issued at  5:22 am EST Wednesday 30 April 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Horn Island",
@@ -5829,43 +5829,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 157,
-				"wmo": 94174,
-				"name": "Horn Island",
-				"history_product": "IDQ60801",
-				"local_date_time": "27/05:04am",
-				"local_date_time_full": "20250427050400",
-				"aifstime_utc": "20250426190400",
-				"lat": -10.6,
-				"lon": 142.3,
-				"apparent_t": 28.3,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 600,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 24.1,
-				"dewpt": 23.4,
-				"press": 1009.3,
-				"press_msl": 1009.3,
-				"press_qnh": 1009.3,
-				"press_tend": "-",
-				"rain_trace": "51.8",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
