@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:03 pm EST Tuesday 29 April 2025",
+				"refresh_message": "Issued at  5:23 pm EST Tuesday 29 April 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Walgett",
@@ -6088,43 +6088,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 28,
 				"wind_spd_kt": 15
-			},
-			{
-				"sort_order": 164,
-				"wmo": 95715,
-				"name": "Walgett",
-				"history_product": "IDN60801",
-				"local_date_time": "26/05:21pm",
-				"local_date_time_full": "20250426172100",
-				"aifstime_utc": "20250426072100",
-				"lat": -30.0,
-				"lon": 148.1,
-				"apparent_t": 14.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 540,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 41,
-				"gust_kt": 22,
-				"air_temp": 17.0,
-				"dewpt": 16.2,
-				"press": 1011.2,
-				"press_msl": 1011.2,
-				"press_qnh": 1011.6,
-				"press_tend": "-",
-				"rain_trace": "12.4",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "3",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 24,
-				"wind_spd_kt": 13
 			}
 		]
 	}
