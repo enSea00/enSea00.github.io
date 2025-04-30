@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:03 am EST Thursday  1 May 2025",
+				"refresh_message": "Issued at  1:33 am EST Thursday  1 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Palmerville",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 143,
-				"wmo": 94276,
-				"name": "Palmerville",
-				"history_product": "IDQ60801",
-				"local_date_time": "28/01:30am",
-				"local_date_time_full": "20250428013000",
-				"aifstime_utc": "20250427153000",
-				"lat": -16.0,
-				"lon": 144.1,
-				"apparent_t": 26.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 6,
-				"gust_kt": 3,
-				"air_temp": 22.3,
-				"dewpt": 21.8,
-				"press": 1010.8,
-				"press_msl": 1010.8,
-				"press_qnh": 1012.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
