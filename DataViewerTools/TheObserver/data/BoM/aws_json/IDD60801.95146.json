@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:11 pm CST Wednesday 30 April 2025",
+				"refresh_message": "Issued at  4:21 pm CST Wednesday 30 April 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Ngayawili (Elcho Island)",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 149,
-				"wmo": 95146,
-				"name": "Ngayawili (Elcho Island)",
-				"history_product": "IDD60801",
-				"local_date_time": "27/04:15pm",
-				"local_date_time_full": "20250427161500",
-				"aifstime_utc": "20250427064500",
-				"lat": -12.0,
-				"lon": 135.6,
-				"apparent_t": 28.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 33,
-				"gust_kt": 18,
-				"air_temp": 25.8,
-				"dewpt": 25.8,
-				"press": 1006.4,
-				"press_msl": 1006.4,
-				"press_qnh": 1006.5,
-				"press_tend": "-",
-				"rain_trace": "6.0",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 24,
-				"wind_spd_kt": 13
 			}
 		]
 	}
