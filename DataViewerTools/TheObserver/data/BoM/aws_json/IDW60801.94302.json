@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:23 pm WST Wednesday 30 April 2025",
+				"refresh_message": "Issued at  3:33 pm WST Wednesday 30 April 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Learmonth",
@@ -5163,43 +5163,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 139,
-				"wmo": 94302,
-				"name": "Learmonth",
-				"history_product": "IDW60801",
-				"local_date_time": "27/03:30pm",
-				"local_date_time_full": "20250427153000",
-				"aifstime_utc": "20250427073000",
-				"lat": -22.2,
-				"lon": 114.1,
-				"apparent_t": 29.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 13.4,
-				"gust_kmh": 22,
-				"gust_kt": 12,
-				"air_temp": 33.4,
-				"dewpt": 10.1,
-				"press": 1011.4,
-				"press_msl": 1011.4,
-				"press_qnh": 1011.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 24,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}
