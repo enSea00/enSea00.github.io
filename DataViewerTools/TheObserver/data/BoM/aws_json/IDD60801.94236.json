@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:41 am CST Thursday  1 May 2025",
+				"refresh_message": "Issued at  9:01 am CST Thursday  1 May 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Elliott",
@@ -57,43 +57,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 35,
 				"wind_spd_kt": 19
-			},
-			{
-				"sort_order": 1,
-				"wmo": 94236,
-				"name": "Elliott",
-				"history_product": "IDD60801",
-				"local_date_time": "28/09:00am",
-				"local_date_time_full": "20250428090000",
-				"aifstime_utc": "20250427233000",
-				"lat": -17.6,
-				"lon": 133.5,
-				"apparent_t": 21.1,
-				"cloud": "Mostly cloudy",
-				"cloud_base_m": 300,
-				"cloud_oktas": 7,
-				"cloud_type": "-",
-				"cloud_type_id": 34,
-				"delta_t": 5.2,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 22.7,
-				"dewpt": 13.9,
-				"press": 1014.0,
-				"press_msl": 1014.0,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 57,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "24",
-				"weather": "Fine",
-				"wind_dir": "E",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
