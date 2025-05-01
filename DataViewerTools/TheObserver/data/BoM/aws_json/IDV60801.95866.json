@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:32 am EST Friday  2 May 2025",
+				"refresh_message": "Issued at  2:42 am EST Friday  2 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Essendon Airport",
@@ -6236,43 +6236,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 168,
-				"wmo": 95866,
-				"name": "Essendon Airport",
-				"history_product": "IDV60801",
-				"local_date_time": "29/02:35am",
-				"local_date_time_full": "20250429023500",
-				"aifstime_utc": "20250428163500",
-				"lat": -37.7,
-				"lon": 144.9,
-				"apparent_t": 11.4,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 150,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": 13.5,
-				"dewpt": 13.5,
-				"press": 1019.2,
-				"press_msl": 1019.2,
-				"press_qnh": 1019.3,
-				"press_tend": "-",
-				"rain_trace": "7.6",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
