@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:41 am EST Friday  2 May 2025",
+				"refresh_message": "Issued at  3:51 am EST Friday  2 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Cape Bruny AWS",
@@ -5496,43 +5496,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 32,
 				"wind_spd_kt": 17
-			},
-			{
-				"sort_order": 148,
-				"wmo": 95967,
-				"name": "Cape Bruny AWS",
-				"history_product": "IDT60801",
-				"local_date_time": "29/03:49am",
-				"local_date_time_full": "20250429034900",
-				"aifstime_utc": "20250428174900",
-				"lat": -43.5,
-				"lon": 147.1,
-				"apparent_t": 3.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.8,
-				"gust_kmh": 46,
-				"gust_kt": 25,
-				"air_temp": 9.7,
-				"dewpt": 5.7,
-				"press": 1021.1,
-				"press_msl": 1021.1,
-				"press_qnh": 1021.1,
-				"press_tend": "-",
-				"rain_trace": "1.0",
-				"rel_hum": 76,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
