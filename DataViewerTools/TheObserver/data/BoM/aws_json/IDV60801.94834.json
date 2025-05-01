@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Friday  2 May 2025",
+				"refresh_message": "Issued at  9:02 am EST Friday  2 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Ararat",
@@ -316,43 +316,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 8,
-				"wmo": 94834,
-				"name": "Ararat",
-				"history_product": "IDV60801",
-				"local_date_time": "29/09:00am",
-				"local_date_time_full": "20250429090000",
-				"aifstime_utc": "20250428230000",
-				"lat": -37.3,
-				"lon": 143.0,
-				"apparent_t": 8.7,
-				"cloud": "Fog",
-				"cloud_base_m": null,
-				"cloud_oktas": 9,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 10.6,
-				"dewpt": 10.4,
-				"press": 1022.9,
-				"press_msl": 1022.9,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "Fog",
-				"wind_dir": "S",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
