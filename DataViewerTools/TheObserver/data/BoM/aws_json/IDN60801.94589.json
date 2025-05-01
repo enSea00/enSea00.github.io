@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:42 pm EST Thursday  1 May 2025",
+				"refresh_message": "Issued at  6:03 pm EST Thursday  1 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Yamba",
@@ -5496,43 +5496,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 148,
-				"wmo": 94589,
-				"name": "Yamba",
-				"history_product": "IDN60801",
-				"local_date_time": "28/06:00pm",
-				"local_date_time_full": "20250428180000",
-				"aifstime_utc": "20250428080000",
-				"lat": -29.4,
-				"lon": 153.4,
-				"apparent_t": 22.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.1,
-				"gust_kmh": 22,
-				"gust_kt": 12,
-				"air_temp": 22.3,
-				"dewpt": 17.2,
-				"press": 1011.7,
-				"press_msl": 1011.7,
-				"press_qnh": 1011.7,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 73,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
