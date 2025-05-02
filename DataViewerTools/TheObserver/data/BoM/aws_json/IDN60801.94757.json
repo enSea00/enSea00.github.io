@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:33 pm EST Friday  2 May 2025",
+				"refresh_message": "Issued at  2:42 pm EST Friday  2 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Campbelltown",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94757,
-				"name": "Campbelltown",
-				"history_product": "IDN60801",
-				"local_date_time": "29/02:36pm",
-				"local_date_time_full": "20250429143600",
-				"aifstime_utc": "20250429043600",
-				"lat": -34.1,
-				"lon": 150.8,
-				"apparent_t": 18.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.2,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 18.0,
-				"dewpt": 16.0,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "1.0",
-				"rel_hum": 88,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
