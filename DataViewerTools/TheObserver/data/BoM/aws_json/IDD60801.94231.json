@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:21 am CST Saturday  3 May 2025",
+				"refresh_message": "Issued at  8:41 am CST Saturday  3 May 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Lajamanu",
@@ -3276,43 +3276,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 88,
-				"wmo": 94231,
-				"name": "Lajamanu",
-				"history_product": "IDD60801",
-				"local_date_time": "30/08:30am",
-				"local_date_time_full": "20250430083000",
-				"aifstime_utc": "20250429230000",
-				"lat": -18.3,
-				"lon": 130.6,
-				"apparent_t": 19.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.8,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 21.5,
-				"dewpt": 11.2,
-				"press": 1018.1,
-				"press_msl": 1018.1,
-				"press_qnh": 1020.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 52,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
