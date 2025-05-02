@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:33 pm EST Friday  2 May 2025",
+				"refresh_message": "Issued at  3:42 pm EST Friday  2 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Mangrove Mountain",
@@ -5422,43 +5422,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 146,
-				"wmo": 95774,
-				"name": "Mangrove Mountain",
-				"history_product": "IDN60801",
-				"local_date_time": "29/03:33pm",
-				"local_date_time_full": "20250429153300",
-				"aifstime_utc": "20250429053300",
-				"lat": -33.3,
-				"lon": 151.2,
-				"apparent_t": 20.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.3,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 19.6,
-				"dewpt": 15.7,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 78,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
