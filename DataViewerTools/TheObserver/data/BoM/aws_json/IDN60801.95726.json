@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:33 am EST Saturday  3 May 2025",
+				"refresh_message": "Issued at  2:42 am EST Saturday  3 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Orange Airport",
@@ -5755,43 +5755,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 155,
-				"wmo": 95726,
-				"name": "Orange Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "30/02:37am",
-				"local_date_time_full": "20250430023700",
-				"aifstime_utc": "20250429163700",
-				"lat": -33.4,
-				"lon": 149.1,
-				"apparent_t": 6.4,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 180,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 0,
-				"gust_kt": 0,
-				"air_temp": 7.1,
-				"dewpt": 7.0,
-				"press": 1018.8,
-				"press_msl": 1018.8,
-				"press_qnh": 1020.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}
