@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:03 am WST Saturday  3 May 2025",
+				"refresh_message": "Issued at  3:23 am WST Saturday  3 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Troughton Island",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 46,
 				"wind_spd_kt": 25
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94102,
-				"name": "Troughton Island",
-				"history_product": "IDW60801",
-				"local_date_time": "30/03:21am",
-				"local_date_time_full": "20250430032100",
-				"aifstime_utc": "20250429192100",
-				"lat": -13.8,
-				"lon": 126.1,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 61,
-				"gust_kt": 33,
-				"air_temp": 28.5,
-				"dewpt": null,
-				"press": 1011.0,
-				"press_msl": 1011.0,
-				"press_qnh": 1011.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 43,
-				"wind_spd_kt": 23
 			}
 		]
 	}
