@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:13 am EST Saturday  3 May 2025",
+				"refresh_message": "Issued at  5:22 am EST Saturday  3 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Ulladulla",
@@ -5644,43 +5644,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 46,
 				"wind_spd_kt": 25
-			},
-			{
-				"sort_order": 152,
-				"wmo": 94938,
-				"name": "Ulladulla",
-				"history_product": "IDN60801",
-				"local_date_time": "30/05:15am",
-				"local_date_time_full": "20250430051500",
-				"aifstime_utc": "20250429191500",
-				"lat": -35.4,
-				"lon": 150.5,
-				"apparent_t": 11.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 14.7,
-				"dewpt": 14.2,
-				"press": 1021.6,
-				"press_msl": 1021.6,
-				"press_qnh": 1021.6,
-				"press_tend": "-",
-				"rain_trace": "48.8",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 24,
-				"wind_spd_kt": 13
 			}
 		]
 	}
