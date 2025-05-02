@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:33 am EST Saturday  3 May 2025",
+				"refresh_message": "Issued at  3:42 am EST Saturday  3 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Merriwa",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 147,
-				"wmo": 95754,
-				"name": "Merriwa",
-				"history_product": "IDN60801",
-				"local_date_time": "30/03:38am",
-				"local_date_time_full": "20250430033800",
-				"aifstime_utc": "20250429173800",
-				"lat": -32.2,
-				"lon": 150.2,
-				"apparent_t": 9.3,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 180,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 10.4,
-				"dewpt": 10.1,
-				"press": 1018.6,
-				"press_msl": 1018.6,
-				"press_qnh": 1019.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
