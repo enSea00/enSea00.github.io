@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:22 am EST Sunday  4 May 2025",
+				"refresh_message": "Issued at  3:33 am EST Sunday  4 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Gabo Island",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 35,
 				"wind_spd_kt": 19
-			},
-			{
-				"sort_order": 149,
-				"wmo": 94933,
-				"name": "Gabo Island",
-				"history_product": "IDN60801",
-				"local_date_time": "01/03:30am",
-				"local_date_time_full": "20250501033000",
-				"aifstime_utc": "20250430173000",
-				"lat": -37.6,
-				"lon": 149.9,
-				"apparent_t": 7.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.5,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 14.5,
-				"dewpt": 11.7,
-				"press": 1028.2,
-				"press_msl": 1028.2,
-				"press_qnh": 1028.2,
-				"press_tend": "-",
-				"rain_trace": "6.0",
-				"rel_hum": 83,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 41,
-				"wind_spd_kt": 22
 			}
 		]
 	}
