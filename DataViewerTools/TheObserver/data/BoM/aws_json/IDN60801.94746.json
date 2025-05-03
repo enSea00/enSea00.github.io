@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:03 pm EST Saturday  3 May 2025",
+				"refresh_message": "Issued at  5:12 pm EST Saturday  3 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Moss Vale",
@@ -8049,43 +8049,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 217,
-				"wmo": 94746,
-				"name": "Moss Vale",
-				"history_product": "IDN60801",
-				"local_date_time": "30/05:06pm",
-				"local_date_time_full": "20250430170600",
-				"aifstime_utc": "20250430070600",
-				"lat": -34.5,
-				"lon": 150.4,
-				"apparent_t": 4.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 35,
-				"gust_kt": 19,
-				"air_temp": 9.4,
-				"dewpt": 8.3,
-				"press": 1023.4,
-				"press_msl": 1023.4,
-				"press_qnh": 1024.7,
-				"press_tend": "-",
-				"rain_trace": "0.8",
-				"rel_hum": 93,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 22,
-				"wind_spd_kt": 12
 			}
 		]
 	}
