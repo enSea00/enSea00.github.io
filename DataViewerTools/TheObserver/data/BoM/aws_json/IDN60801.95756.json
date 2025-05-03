@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:12 pm EST Saturday  3 May 2025",
+				"refresh_message": "Issued at  5:22 pm EST Saturday  3 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Kurnell",
@@ -6088,43 +6088,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 33,
 				"wind_spd_kt": 18
-			},
-			{
-				"sort_order": 164,
-				"wmo": 95756,
-				"name": "Kurnell",
-				"history_product": "IDN60801",
-				"local_date_time": "30/05:19pm",
-				"local_date_time_full": "20250430171900",
-				"aifstime_utc": "20250430071900",
-				"lat": -34.0,
-				"lon": 151.2,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": null,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}

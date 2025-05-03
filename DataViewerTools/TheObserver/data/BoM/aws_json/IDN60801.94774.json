@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:12 pm EST Saturday  3 May 2025",
+				"refresh_message": "Issued at  5:22 pm EST Saturday  3 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Newcastle Nobbys",
@@ -6347,43 +6347,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 44,
 				"wind_spd_kt": 24
-			},
-			{
-				"sort_order": 171,
-				"wmo": 94774,
-				"name": "Newcastle Nobbys",
-				"history_product": "IDN60801",
-				"local_date_time": "30/05:21pm",
-				"local_date_time_full": "20250430172100",
-				"aifstime_utc": "20250430072100",
-				"lat": -32.9,
-				"lon": 151.8,
-				"apparent_t": 11.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.4,
-				"gust_kmh": 59,
-				"gust_kt": 32,
-				"air_temp": 16.8,
-				"dewpt": 14.3,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "33.2",
-				"rel_hum": 85,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 37,
-				"wind_spd_kt": 20
 			}
 		]
 	}
