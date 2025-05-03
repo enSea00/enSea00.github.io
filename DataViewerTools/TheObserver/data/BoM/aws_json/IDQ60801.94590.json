@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:52 am EST Sunday  4 May 2025",
+				"refresh_message": "Issued at  5:04 am EST Sunday  4 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Inner Beacon",
@@ -649,43 +649,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 17,
-				"wmo": 94590,
-				"name": "Inner Beacon",
-				"history_product": "IDQ60801",
-				"local_date_time": "01/05:00am",
-				"local_date_time_full": "20250501050000",
-				"aifstime_utc": "20250430190000",
-				"lat": -27.3,
-				"lon": 153.2,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 30,
-				"gust_kt": 16,
-				"air_temp": null,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 26,
-				"wind_spd_kt": 14
 			}
 		]
 	}
