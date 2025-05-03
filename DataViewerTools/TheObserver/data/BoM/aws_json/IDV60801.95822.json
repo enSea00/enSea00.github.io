@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:42 pm EST Saturday  3 May 2025",
+				"refresh_message": "Issued at 12:02 am EST Sunday  4 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Dartmoor",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 145,
-				"wmo": 95822,
-				"name": "Dartmoor",
-				"history_product": "IDV60801",
-				"local_date_time": "01/12:00am",
-				"local_date_time_full": "20250501000000",
-				"aifstime_utc": "20250430140000",
-				"lat": -37.9,
-				"lon": 141.3,
-				"apparent_t": 10.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 6,
-				"gust_kt": 3,
-				"air_temp": 11.4,
-				"dewpt": 10.3,
-				"press": 1032.6,
-				"press_msl": 1032.6,
-				"press_qnh": 1032.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 93,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
