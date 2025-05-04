@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:32 am EST Monday  5 May 2025",
+				"refresh_message": "Issued at  2:42 am EST Monday  5 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Mount Hotham Airport",
@@ -5496,43 +5496,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 148,
-				"wmo": 94905,
-				"name": "Mount Hotham Airport",
-				"history_product": "IDV60801",
-				"local_date_time": "02/02:38am",
-				"local_date_time_full": "20250502023800",
-				"aifstime_utc": "20250501163800",
-				"lat": -37.0,
-				"lon": 147.3,
-				"apparent_t": -5.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": -0.1,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": -2.3,
-				"dewpt": -2.4,
-				"press": 1032.0,
-				"press_msl": 1032.0,
-				"press_qnh": 1031.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
