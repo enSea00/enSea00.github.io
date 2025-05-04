@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:22 am EST Monday  5 May 2025",
+				"refresh_message": "Issued at  9:32 am EST Monday  5 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Pindari Dam",
@@ -21,6 +21,43 @@
 			}
 		],
 		"data": [
+			{
+				"sort_order": 0,
+				"wmo": 94544,
+				"name": "Pindari Dam",
+				"history_product": "IDN60801",
+				"local_date_time": "05/09:00am",
+				"local_date_time_full": "20250505090000",
+				"aifstime_utc": "20250504230000",
+				"lat": -29.4,
+				"lon": 151.2,
+				"apparent_t": 18.6,
+				"cloud": "Mostly clear",
+				"cloud_base_m": null,
+				"cloud_oktas": 2,
+				"cloud_type": "-",
+				"cloud_type_id": 30,
+				"delta_t": 4.0,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 19.2,
+				"dewpt": 12.2,
+				"press": null,
+				"press_msl": null,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "0.0",
+				"rel_hum": 64,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "20",
+				"weather": "Fine",
+				"wind_dir": "E",
+				"wind_spd_kmh": 7,
+				"wind_spd_kt": 4
+			}
 		]
 	}
 }
