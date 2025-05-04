@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:52 am EST Monday  5 May 2025",
+				"refresh_message": "Issued at  3:03 am EST Monday  5 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "St George",
@@ -4349,43 +4349,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 117,
-				"wmo": 94517,
-				"name": "St George",
-				"history_product": "IDQ60801",
-				"local_date_time": "02/03:00am",
-				"local_date_time_full": "20250502030000",
-				"aifstime_utc": "20250501170000",
-				"lat": -28.0,
-				"lon": 148.6,
-				"apparent_t": 9.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.8,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 12.4,
-				"dewpt": 8.9,
-				"press": 1024.1,
-				"press_msl": 1024.1,
-				"press_qnh": 1024.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 79,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
