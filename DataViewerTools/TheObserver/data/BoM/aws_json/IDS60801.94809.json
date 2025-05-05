@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:01 am CST Tuesday  6 May 2025",
+				"refresh_message": "Issued at  1:11 am CST Tuesday  6 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Edithburgh",
@@ -5792,43 +5792,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 156,
-				"wmo": 94809,
-				"name": "Edithburgh",
-				"history_product": "IDS60801",
-				"local_date_time": "03/01:08am",
-				"local_date_time_full": "20250503010800",
-				"aifstime_utc": "20250502153800",
-				"lat": -35.1,
-				"lon": 137.7,
-				"apparent_t": 13.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.4,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 14.4,
-				"dewpt": 13.6,
-				"press": 1028.1,
-				"press_msl": 1028.1,
-				"press_qnh": 1028.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
