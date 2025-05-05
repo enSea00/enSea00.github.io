@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:33 am EST Tuesday  6 May 2025",
+				"refresh_message": "Issued at  3:43 am EST Tuesday  6 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Gannett Cay",
@@ -5866,43 +5866,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 56,
 				"wind_spd_kt": 30
-			},
-			{
-				"sort_order": 158,
-				"wmo": 94379,
-				"name": "Gannett Cay",
-				"history_product": "IDQ60801",
-				"local_date_time": "03/03:37am",
-				"local_date_time_full": "20250503033700",
-				"aifstime_utc": "20250502173700",
-				"lat": -22.0,
-				"lon": 152.5,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 57,
-				"gust_kt": 31,
-				"air_temp": 22.3,
-				"dewpt": null,
-				"press": 1019.6,
-				"press_msl": 1019.6,
-				"press_qnh": 1019.6,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
