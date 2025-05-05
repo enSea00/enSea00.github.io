@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:42 pm WST Monday  5 May 2025",
+				"refresh_message": "Issued at  1:53 pm WST Monday  5 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Katanning RS",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 41,
 				"wind_spd_kt": 22
-			},
-			{
-				"sort_order": 149,
-				"wmo": 94641,
-				"name": "Katanning RS",
-				"history_product": "IDW60801",
-				"local_date_time": "02/01:42pm",
-				"local_date_time_full": "20250502134200",
-				"aifstime_utc": "20250502054200",
-				"lat": -33.7,
-				"lon": 117.6,
-				"apparent_t": 19.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 8.5,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 25.4,
-				"dewpt": 10.4,
-				"press": 1010.9,
-				"press_msl": 1010.9,
-				"press_qnh": 1011.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 39,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
