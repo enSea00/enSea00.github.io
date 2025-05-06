@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:51 am CST Wednesday  7 May 2025",
+				"refresh_message": "Issued at  9:01 am CST Wednesday  7 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Keith",
@@ -94,43 +94,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94816,
-				"name": "Keith",
-				"history_product": "IDS60801",
-				"local_date_time": "04/09:00am",
-				"local_date_time_full": "20250504090000",
-				"aifstime_utc": "20250503233000",
-				"lat": -36.1,
-				"lon": 140.4,
-				"apparent_t": 14.3,
-				"cloud": "Mostly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 6,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.3,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 17.5,
-				"dewpt": 6.8,
-				"press": 1027.4,
-				"press_msl": 1027.4,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 49,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "50",
-				"weather": "Fine",
-				"wind_dir": "N",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
