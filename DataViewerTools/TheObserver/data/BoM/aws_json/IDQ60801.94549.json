@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:43 am EST Wednesday  7 May 2025",
+				"refresh_message": "Issued at  9:52 am EST Wednesday  7 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Kingaroy",
@@ -6088,43 +6088,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 164,
-				"wmo": 94549,
-				"name": "Kingaroy",
-				"history_product": "IDQ60801",
-				"local_date_time": "04/09:42am",
-				"local_date_time_full": "20250504094200",
-				"aifstime_utc": "20250503234200",
-				"lat": -26.6,
-				"lon": 151.8,
-				"apparent_t": null,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 570,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 33,
-				"gust_kt": 18,
-				"air_temp": 17.6,
-				"dewpt": null,
-				"press": 1029.0,
-				"press_msl": 1029.0,
-				"press_qnh": 1029.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 24,
-				"wind_spd_kt": 13
 			}
 		]
 	}
