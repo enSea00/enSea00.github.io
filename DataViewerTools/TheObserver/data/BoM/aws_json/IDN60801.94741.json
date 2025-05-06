@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Wednesday  7 May 2025",
+				"refresh_message": "Issued at  9:03 am EST Wednesday  7 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Lithgow",
@@ -94,43 +94,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94741,
-				"name": "Lithgow",
-				"history_product": "IDN60801",
-				"local_date_time": "04/09:00am",
-				"local_date_time_full": "20250504090000",
-				"aifstime_utc": "20250503230000",
-				"lat": -33.5,
-				"lon": 150.1,
-				"apparent_t": 7.7,
-				"cloud": "Mostly clear",
-				"cloud_base_m": null,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 8.2,
-				"dewpt": 8.0,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.1",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "Mist",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}
