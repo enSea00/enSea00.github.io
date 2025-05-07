@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Thursday  8 May 2025",
+				"refresh_message": "Issued at  9:02 am EST Thursday  8 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Mount Baw Baw",
@@ -5607,43 +5607,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 151,
-				"wmo": 95901,
-				"name": "Mount Baw Baw",
-				"history_product": "IDV60801",
-				"local_date_time": "05/09:00am",
-				"local_date_time_full": "20250505090000",
-				"aifstime_utc": "20250504230000",
-				"lat": -37.8,
-				"lon": 146.3,
-				"apparent_t": 4.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.1,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 7.7,
-				"dewpt": 5.5,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 86,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
