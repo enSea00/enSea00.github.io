@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:33 am EST Thursday  8 May 2025",
+				"refresh_message": "Issued at  4:43 am EST Thursday  8 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Bankstown",
@@ -5681,43 +5681,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 153,
-				"wmo": 94765,
-				"name": "Bankstown",
-				"history_product": "IDN60801",
-				"local_date_time": "05/04:41am",
-				"local_date_time_full": "20250505044100",
-				"aifstime_utc": "20250504184100",
-				"lat": -33.9,
-				"lon": 151.0,
-				"apparent_t": 14.7,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 600,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 14.5,
-				"dewpt": 14.3,
-				"press": 1029.9,
-				"press_msl": 1029.9,
-				"press_qnh": 1029.9,
-				"press_tend": "-",
-				"rain_trace": "0.6",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
