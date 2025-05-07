@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:43 am EST Thursday  8 May 2025",
+				"refresh_message": "Issued at  1:52 am EST Thursday  8 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Proserpine",
@@ -6162,43 +6162,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 166,
-				"wmo": 94365,
-				"name": "Proserpine",
-				"history_product": "IDQ60801",
-				"local_date_time": "05/01:48am",
-				"local_date_time_full": "20250505014800",
-				"aifstime_utc": "20250504154800",
-				"lat": -20.5,
-				"lon": 148.6,
-				"apparent_t": 19.2,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 510,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.8,
-				"gust_kmh": 32,
-				"gust_kt": 17,
-				"air_temp": 19.9,
-				"dewpt": 18.6,
-				"press": 1018.5,
-				"press_msl": 1018.5,
-				"press_qnh": 1018.6,
-				"press_tend": "-",
-				"rain_trace": "0.4",
-				"rel_hum": 92,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 20,
-				"wind_spd_kt": 11
 			}
 		]
 	}
