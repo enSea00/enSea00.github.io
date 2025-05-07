@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:31 am CST Thursday  8 May 2025",
+				"refresh_message": "Issued at  6:51 am CST Thursday  8 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Ceduna",
@@ -6125,43 +6125,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 165,
-				"wmo": 94653,
-				"name": "Ceduna",
-				"history_product": "IDS60801",
-				"local_date_time": "05/06:49am",
-				"local_date_time_full": "20250505064900",
-				"aifstime_utc": "20250504211900",
-				"lat": -32.1,
-				"lon": 133.7,
-				"apparent_t": 12.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.8,
-				"gust_kmh": 17,
-				"gust_kt": 9,
-				"air_temp": 15.7,
-				"dewpt": 5.6,
-				"press": 1019.8,
-				"press_msl": 1019.8,
-				"press_qnh": 1019.8,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 51,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}

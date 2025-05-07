@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:02 am EST Thursday  8 May 2025",
+				"refresh_message": "Issued at  7:22 am EST Thursday  8 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Pound Creek",
@@ -6310,43 +6310,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 170,
-				"wmo": 94886,
-				"name": "Pound Creek",
-				"history_product": "IDV60801",
-				"local_date_time": "05/07:13am",
-				"local_date_time_full": "20250505071300",
-				"aifstime_utc": "20250504211300",
-				"lat": -38.6,
-				"lon": 145.8,
-				"apparent_t": 11.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.2,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 12.7,
-				"dewpt": 8.2,
-				"press": 1023.4,
-				"press_msl": 1023.4,
-				"press_qnh": 1023.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 74,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
