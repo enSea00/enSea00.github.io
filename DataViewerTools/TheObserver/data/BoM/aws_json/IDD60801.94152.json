@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:41 pm CST Wednesday  7 May 2025",
+				"refresh_message": "Issued at  2:01 pm CST Wednesday  7 May 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Borroloola",
@@ -5274,43 +5274,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 142,
-				"wmo": 94152,
-				"name": "Borroloola",
-				"history_product": "IDD60801",
-				"local_date_time": "04/02:00pm",
-				"local_date_time_full": "20250504140000",
-				"aifstime_utc": "20250504043000",
-				"lat": -16.1,
-				"lon": 136.3,
-				"apparent_t": 32.6,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 8.0,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 32.1,
-				"dewpt": 20.0,
-				"press": 1011.5,
-				"press_msl": 1011.5,
-				"press_qnh": 1011.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 48,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
