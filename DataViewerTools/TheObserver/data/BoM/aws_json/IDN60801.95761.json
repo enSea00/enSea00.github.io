@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:33 am EST Thursday  8 May 2025",
+				"refresh_message": "Issued at  5:42 am EST Thursday  8 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Holsworthy",
@@ -5681,43 +5681,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 153,
-				"wmo": 95761,
-				"name": "Holsworthy",
-				"history_product": "IDN60801",
-				"local_date_time": "05/05:41am",
-				"local_date_time_full": "20250505054100",
-				"aifstime_utc": "20250504194100",
-				"lat": -34.0,
-				"lon": 150.9,
-				"apparent_t": 15.0,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 330,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 14.5,
-				"dewpt": 14.0,
-				"press": 1030.1,
-				"press_msl": 1030.1,
-				"press_qnh": 1030.2,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
