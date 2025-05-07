@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:03 am EST Thursday  8 May 2025",
+				"refresh_message": "Issued at  9:22 am EST Thursday  8 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Thredbo Top Station",
@@ -6865,43 +6865,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 48,
 				"wind_spd_kt": 26
-			},
-			{
-				"sort_order": 185,
-				"wmo": 95909,
-				"name": "Thredbo Top Station",
-				"history_product": "IDN60801",
-				"local_date_time": "05/09:04am",
-				"local_date_time_full": "20250505090400",
-				"aifstime_utc": "20250504230400",
-				"lat": -36.5,
-				"lon": 148.3,
-				"apparent_t": -5.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.1,
-				"gust_kmh": 69,
-				"gust_kt": 37,
-				"air_temp": 5.9,
-				"dewpt": 3.6,
-				"press": 1030.8,
-				"press_msl": 1030.8,
-				"press_qnh": 1030.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 85,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 50,
-				"wind_spd_kt": 27
 			}
 		]
 	}
