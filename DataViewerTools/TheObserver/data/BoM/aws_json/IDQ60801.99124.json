@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:33 pm EST Wednesday  7 May 2025",
+				"refresh_message": "Issued at  7:43 pm EST Wednesday  7 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "PORTABLE QFRK (Ravenshoe)",
@@ -15782,43 +15782,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 426,
-				"wmo": 99124,
-				"name": "PORTABLE QFRK (Ravenshoe)",
-				"history_product": "IDQ60801",
-				"local_date_time": "04/07:40pm",
-				"local_date_time_full": "20250504194000",
-				"aifstime_utc": "20250504094000",
-				"lat": -17.6,
-				"lon": 145.5,
-				"apparent_t": 14.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.4,
-				"gust_kmh": 33,
-				"gust_kt": 18,
-				"air_temp": 16.7,
-				"dewpt": 16.0,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "5.2",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 20,
-				"wind_spd_kt": 11
 			}
 		]
 	}
