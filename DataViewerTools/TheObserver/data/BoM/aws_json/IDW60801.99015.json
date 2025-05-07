@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:53 am WST Thursday  8 May 2025",
+				"refresh_message": "Issued at  3:03 am WST Thursday  8 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "West Musgrave Airport",
@@ -5052,43 +5052,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 136,
-				"wmo": 99015,
-				"name": "West Musgrave Airport",
-				"history_product": "IDW60801",
-				"local_date_time": "05/03:00am",
-				"local_date_time_full": "20250505030000",
-				"aifstime_utc": "20250504190000",
-				"lat": -26.1,
-				"lon": 127.7,
-				"apparent_t": 9.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 6.3,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 13.7,
-				"dewpt": -1.5,
-				"press": 1019.6,
-				"press_msl": null,
-				"press_qnh": 1019.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 35,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}

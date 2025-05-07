@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:21 am CST Thursday  8 May 2025",
+				"refresh_message": "Issued at  4:31 am CST Thursday  8 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Lameroo AWS",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94690,
-				"name": "Lameroo AWS",
-				"history_product": "IDS60801",
-				"local_date_time": "05/04:30am",
-				"local_date_time_full": "20250505043000",
-				"aifstime_utc": "20250504190000",
-				"lat": -35.4,
-				"lon": 140.5,
-				"apparent_t": 10.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.3,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": 14.3,
-				"dewpt": 7.6,
-				"press": 1022.3,
-				"press_msl": 1022.3,
-				"press_qnh": 1022.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 64,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}
