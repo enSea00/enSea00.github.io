@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:31 pm EST Thursday  8 May 2025",
+				"refresh_message": "Issued at  1:51 pm EST Thursday  8 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Bushy Park",
@@ -6162,43 +6162,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 39,
 				"wind_spd_kt": 21
-			},
-			{
-				"sort_order": 166,
-				"wmo": 94964,
-				"name": "Bushy Park",
-				"history_product": "IDT60801",
-				"local_date_time": "05/01:51pm",
-				"local_date_time_full": "20250505135100",
-				"aifstime_utc": "20250505035100",
-				"lat": -42.7,
-				"lon": 146.9,
-				"apparent_t": 17.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 8.0,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 23.7,
-				"dewpt": 8.9,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 39,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
