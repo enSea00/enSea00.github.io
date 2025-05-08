@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:31 am EST Friday  9 May 2025",
+				"refresh_message": "Issued at  3:41 am EST Friday  9 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Strahan",
@@ -10639,43 +10639,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 39,
 				"wind_spd_kt": 21
-			},
-			{
-				"sort_order": 287,
-				"wmo": 94956,
-				"name": "Strahan",
-				"history_product": "IDT60801",
-				"local_date_time": "06/03:32am",
-				"local_date_time_full": "20250506033200",
-				"aifstime_utc": "20250505173200",
-				"lat": -42.2,
-				"lon": 145.3,
-				"apparent_t": 10.1,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 450,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 57,
-				"gust_kt": 31,
-				"air_temp": 15.6,
-				"dewpt": 14.6,
-				"press": 1007.2,
-				"press_msl": 1007.2,
-				"press_qnh": 1007.2,
-				"press_tend": "-",
-				"rain_trace": "11.2",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "4",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 37,
-				"wind_spd_kt": 20
 			}
 		]
 	}

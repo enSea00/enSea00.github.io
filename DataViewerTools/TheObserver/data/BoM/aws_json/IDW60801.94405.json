@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:23 am WST Friday  9 May 2025",
+				"refresh_message": "Issued at  1:42 am WST Friday  9 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "North Island",
@@ -5089,43 +5089,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 32,
 				"wind_spd_kt": 17
-			},
-			{
-				"sort_order": 137,
-				"wmo": 94405,
-				"name": "North Island",
-				"history_product": "IDW60801",
-				"local_date_time": "06/01:30am",
-				"local_date_time_full": "20250506013000",
-				"aifstime_utc": "20250505173000",
-				"lat": -28.3,
-				"lon": 113.6,
-				"apparent_t": 18.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.1,
-				"gust_kmh": 43,
-				"gust_kt": 23,
-				"air_temp": 22.3,
-				"dewpt": 17.2,
-				"press": 1021.4,
-				"press_msl": 1021.4,
-				"press_qnh": 1021.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 73,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
