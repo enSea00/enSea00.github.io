@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 12:13 pm WST Thursday  8 May 2025",
+				"refresh_message": "Issued at 12:33 pm WST Thursday  8 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Marble Bar",
@@ -5237,43 +5237,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 141,
-				"wmo": 95317,
-				"name": "Marble Bar",
-				"history_product": "IDW60801",
-				"local_date_time": "05/12:30pm",
-				"local_date_time_full": "20250505123000",
-				"aifstime_utc": "20250505043000",
-				"lat": -21.2,
-				"lon": 119.7,
-				"apparent_t": 31.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 15.6,
-				"gust_kmh": 22,
-				"gust_kt": 12,
-				"air_temp": 34.4,
-				"dewpt": 5.8,
-				"press": 1015.0,
-				"press_msl": 1015.0,
-				"press_qnh": 1015.8,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 17,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NE",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
