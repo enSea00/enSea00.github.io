@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:31 pm EST Thursday  8 May 2025",
+				"refresh_message": "Issued at  3:41 pm EST Thursday  8 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Ouse",
@@ -5977,43 +5977,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 24,
 				"wind_spd_kt": 13
-			},
-			{
-				"sort_order": 161,
-				"wmo": 94957,
-				"name": "Ouse",
-				"history_product": "IDT60801",
-				"local_date_time": "05/03:40pm",
-				"local_date_time_full": "20250505154000",
-				"aifstime_utc": "20250505054000",
-				"lat": -42.5,
-				"lon": 146.7,
-				"apparent_t": 15.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 7.4,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 21.8,
-				"dewpt": 7.6,
-				"press": 1011.7,
-				"press_msl": 1011.7,
-				"press_qnh": 1011.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 40,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}

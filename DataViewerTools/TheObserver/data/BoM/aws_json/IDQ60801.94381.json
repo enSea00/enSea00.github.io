@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:33 pm EST Thursday  8 May 2025",
+				"refresh_message": "Issued at  3:43 pm EST Thursday  8 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Gladstone Airport",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94381,
-				"name": "Gladstone Airport",
-				"history_product": "IDQ60801",
-				"local_date_time": "05/03:40pm",
-				"local_date_time_full": "20250505154000",
-				"aifstime_utc": "20250505054000",
-				"lat": -23.9,
-				"lon": 151.2,
-				"apparent_t": 20.9,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 360,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.0,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 21.0,
-				"dewpt": 19.5,
-				"press": 1019.6,
-				"press_msl": 1019.6,
-				"press_qnh": 1019.6,
-				"press_tend": "-",
-				"rain_trace": "2.6",
-				"rel_hum": 91,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}
