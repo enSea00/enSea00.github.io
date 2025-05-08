@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:52 pm EST Thursday  8 May 2025",
+				"refresh_message": "Issued at  7:03 pm EST Thursday  8 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Deniliquin",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 145,
-				"wmo": 95869,
-				"name": "Deniliquin",
-				"history_product": "IDN60801",
-				"local_date_time": "05/07:00pm",
-				"local_date_time_full": "20250505190000",
-				"aifstime_utc": "20250505090000",
-				"lat": -35.6,
-				"lon": 144.9,
-				"apparent_t": 17.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 6.1,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 19.6,
-				"dewpt": 7.7,
-				"press": 1022.2,
-				"press_msl": 1022.2,
-				"press_qnh": 1022.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 46,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
