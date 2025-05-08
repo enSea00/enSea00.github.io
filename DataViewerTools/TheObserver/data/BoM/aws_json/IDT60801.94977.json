@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:41 pm EST Thursday  8 May 2025",
+				"refresh_message": "Issued at  8:51 pm EST Thursday  8 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Hartz Mountains",
@@ -9122,43 +9122,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 44,
 				"wind_spd_kt": 24
-			},
-			{
-				"sort_order": 246,
-				"wmo": 94977,
-				"name": "Hartz Mountains",
-				"history_product": "IDT60801",
-				"local_date_time": "05/08:51pm",
-				"local_date_time_full": "20250505205100",
-				"aifstime_utc": "20250505105100",
-				"lat": -43.2,
-				"lon": 146.8,
-				"apparent_t": 1.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 98,
-				"gust_kt": 53,
-				"air_temp": 9.1,
-				"dewpt": 8.6,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "5.2",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 41,
-				"wind_spd_kt": 22
 			}
 		]
 	}
