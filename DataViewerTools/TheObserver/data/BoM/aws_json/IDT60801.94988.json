@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:41 pm EST Thursday  8 May 2025",
+				"refresh_message": "Issued at 11:51 pm EST Thursday  8 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Dennes Point",
@@ -6125,43 +6125,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 28,
 				"wind_spd_kt": 15
-			},
-			{
-				"sort_order": 165,
-				"wmo": 94988,
-				"name": "Dennes Point",
-				"history_product": "IDT60801",
-				"local_date_time": "05/11:43pm",
-				"local_date_time_full": "20250505234300",
-				"aifstime_utc": "20250505134300",
-				"lat": -43.1,
-				"lon": 147.4,
-				"apparent_t": 13.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.1,
-				"gust_kmh": 56,
-				"gust_kt": 30,
-				"air_temp": 17.2,
-				"dewpt": 11.5,
-				"press": 1006.5,
-				"press_msl": 1006.5,
-				"press_qnh": 1006.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 69,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 24,
-				"wind_spd_kt": 13
 			}
 		]
 	}
