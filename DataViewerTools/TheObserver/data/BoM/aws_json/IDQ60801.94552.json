@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:52 am EST Friday  9 May 2025",
+				"refresh_message": "Issued at  7:03 am EST Friday  9 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Oakey",
@@ -5496,43 +5496,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 148,
-				"wmo": 94552,
-				"name": "Oakey",
-				"history_product": "IDQ60801",
-				"local_date_time": "06/07:00am",
-				"local_date_time_full": "20250506070000",
-				"aifstime_utc": "20250505210000",
-				"lat": -27.4,
-				"lon": 151.7,
-				"apparent_t": 7.8,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 450,
-				"cloud_oktas": 1,
-				"cloud_type": "Stratocumulus",
-				"cloud_type_id": 6,
-				"delta_t": 0.1,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 9.6,
-				"dewpt": 9.5,
-				"press": 1023.9,
-				"press_msl": 1023.9,
-				"press_qnh": 1024.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
