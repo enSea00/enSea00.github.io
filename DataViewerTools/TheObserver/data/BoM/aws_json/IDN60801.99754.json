@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:52 pm EST Thursday  8 May 2025",
+				"refresh_message": "Issued at  5:03 pm EST Thursday  8 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "PORTABLE RFSNSW12",
@@ -15671,43 +15671,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 423,
-				"wmo": 99754,
-				"name": "PORTABLE RFSNSW12",
-				"history_product": "IDN60801",
-				"local_date_time": "05/05:00pm",
-				"local_date_time_full": "20250505170000",
-				"aifstime_utc": "20250505070000",
-				"lat": -30.4,
-				"lon": 150.2,
-				"apparent_t": 18.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.4,
-				"gust_kmh": 4,
-				"gust_kt": 2,
-				"air_temp": 18.3,
-				"dewpt": 12.5,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 69,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
