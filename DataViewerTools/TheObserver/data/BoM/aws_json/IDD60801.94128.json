@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:11 am CST Friday  9 May 2025",
+				"refresh_message": "Issued at  6:21 am CST Friday  9 May 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Douglas River",
@@ -31,15 +31,15 @@
 				"aifstime_utc": "20250508203000",
 				"lat": -13.8,
 				"lon": 131.2,
-				"apparent_t": 22.5,
+				"apparent_t": null,
 				"cloud": "-",
 				"cloud_base_m": null,
 				"cloud_oktas": null,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 2.5,
-				"gust_kmh": 0,
-				"gust_kt": 0,
+				"gust_kmh": null,
+				"gust_kt": null,
 				"air_temp": 20.4,
 				"dewpt": 16.2,
 				"press": 1011.9,
@@ -54,9 +54,9 @@
 				"swell_period": null,
 				"vis_km": "-",
 				"weather": "-",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
+				"wind_dir": "-",
+				"wind_spd_kmh": null,
+				"wind_spd_kt": null
 			},
 			{
 				"sort_order": 1,
