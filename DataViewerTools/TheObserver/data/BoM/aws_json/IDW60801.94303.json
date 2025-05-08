@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:53 am WST Friday  9 May 2025",
+				"refresh_message": "Issued at  3:03 am WST Friday  9 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Thevenard Island",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 143,
-				"wmo": 94303,
-				"name": "Thevenard Island",
-				"history_product": "IDW60801",
-				"local_date_time": "06/03:00am",
-				"local_date_time_full": "20250506030000",
-				"aifstime_utc": "20250505190000",
-				"lat": -21.5,
-				"lon": 115.0,
-				"apparent_t": 26.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.6,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 24.8,
-				"dewpt": 19.2,
-				"press": 1014.7,
-				"press_msl": 1014.7,
-				"press_qnh": 1014.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 71,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
