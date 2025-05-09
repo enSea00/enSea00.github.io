@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:41 pm EST Friday  9 May 2025",
+				"refresh_message": "Issued at  4:51 pm EST Friday  9 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Ross (TFS)",
@@ -15523,43 +15523,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 48,
 				"wind_spd_kt": 26
-			},
-			{
-				"sort_order": 419,
-				"wmo": 99953,
-				"name": "Ross (TFS)",
-				"history_product": "IDT60801",
-				"local_date_time": "06/04:50pm",
-				"local_date_time_full": "20250506165000",
-				"aifstime_utc": "20250506065000",
-				"lat": -42.0,
-				"lon": 147.5,
-				"apparent_t": 6.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.7,
-				"gust_kmh": 57,
-				"gust_kt": 31,
-				"air_temp": 15.5,
-				"dewpt": 12.4,
-				"press": 978.7,
-				"press_msl": null,
-				"press_qnh": 978.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 82,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 50,
-				"wind_spd_kt": 27
 			}
 		]
 	}
