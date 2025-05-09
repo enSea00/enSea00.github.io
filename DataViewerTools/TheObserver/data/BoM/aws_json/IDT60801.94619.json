@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:41 am EST Saturday 10 May 2025",
+				"refresh_message": "Issued at  5:51 am EST Saturday 10 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Hobart Airport",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94619,
-				"name": "Hobart Airport",
-				"history_product": "IDT60801",
-				"local_date_time": "07/05:51am",
-				"local_date_time_full": "20250507055100",
-				"aifstime_utc": "20250506195100",
-				"lat": -42.8,
-				"lon": 147.5,
-				"apparent_t": 7.7,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 1590,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.1,
-				"gust_kmh": 37,
-				"gust_kt": 20,
-				"air_temp": 13.2,
-				"dewpt": 4.1,
-				"press": 1003.3,
-				"press_msl": 1003.3,
-				"press_qnh": 1003.3,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 54,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 22,
-				"wind_spd_kt": 12
 			}
 		]
 	}
