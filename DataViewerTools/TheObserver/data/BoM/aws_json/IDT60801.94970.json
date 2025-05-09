@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:31 pm EST Friday  9 May 2025",
+				"refresh_message": "Issued at  3:41 pm EST Friday  9 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Hobart",
@@ -6310,43 +6310,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 170,
-				"wmo": 94970,
-				"name": "Hobart",
-				"history_product": "IDT60801",
-				"local_date_time": "06/03:35pm",
-				"local_date_time_full": "20250506153500",
-				"aifstime_utc": "20250506053500",
-				"lat": -42.9,
-				"lon": 147.3,
-				"apparent_t": 14.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.8,
-				"gust_kmh": 63,
-				"gust_kt": 34,
-				"air_temp": 19.9,
-				"dewpt": 8.9,
-				"press": 1000.7,
-				"press_msl": 1000.7,
-				"press_qnh": 1000.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 49,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 26,
-				"wind_spd_kt": 14
 			}
 		]
 	}
