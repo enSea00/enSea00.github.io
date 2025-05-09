@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:11 pm CST Friday  9 May 2025",
+				"refresh_message": "Issued at  3:21 pm CST Friday  9 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Padthaway",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 144,
-				"wmo": 95823,
-				"name": "Padthaway",
-				"history_product": "IDS60801",
-				"local_date_time": "06/03:12pm",
-				"local_date_time_full": "20250506151200",
-				"aifstime_utc": "20250506054200",
-				"lat": -36.7,
-				"lon": 140.5,
-				"apparent_t": 13.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.6,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 18.0,
-				"dewpt": 13.5,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 75,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
