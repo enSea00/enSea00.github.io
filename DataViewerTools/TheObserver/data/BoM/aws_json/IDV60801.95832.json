@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:32 pm EST Friday  9 May 2025",
+				"refresh_message": "Issued at  2:42 pm EST Friday  9 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Edenhope",
@@ -5496,43 +5496,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 33,
 				"wind_spd_kt": 18
-			},
-			{
-				"sort_order": 148,
-				"wmo": 95832,
-				"name": "Edenhope",
-				"history_product": "IDV60801",
-				"local_date_time": "06/02:38pm",
-				"local_date_time_full": "20250506143800",
-				"aifstime_utc": "20250506043800",
-				"lat": -37.0,
-				"lon": 141.3,
-				"apparent_t": 16.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.6,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 21.6,
-				"dewpt": 11.6,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 53,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
