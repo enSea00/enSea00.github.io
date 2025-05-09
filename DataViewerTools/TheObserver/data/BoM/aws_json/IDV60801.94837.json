@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:02 pm EST Friday  9 May 2025",
+				"refresh_message": "Issued at  5:22 pm EST Friday  9 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Warrnambool",
@@ -6458,43 +6458,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 174,
-				"wmo": 94837,
-				"name": "Warrnambool",
-				"history_product": "IDV60801",
-				"local_date_time": "06/05:16pm",
-				"local_date_time_full": "20250506171600",
-				"aifstime_utc": "20250506071600",
-				"lat": -38.3,
-				"lon": 142.5,
-				"apparent_t": 12.9,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 660,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.0,
-				"gust_kmh": 35,
-				"gust_kt": 19,
-				"air_temp": 16.1,
-				"dewpt": 14.3,
-				"press": 1013.3,
-				"press_msl": 1013.3,
-				"press_qnh": 1013.3,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 89,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 24,
-				"wind_spd_kt": 13
 			}
 		]
 	}
