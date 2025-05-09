@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:51 am EST Saturday 10 May 2025",
+				"refresh_message": "Issued at  9:11 am EST Saturday 10 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Swansea",
@@ -94,43 +94,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94981,
-				"name": "Swansea",
-				"history_product": "IDT60801",
-				"local_date_time": "07/09:00am",
-				"local_date_time_full": "20250507090000",
-				"aifstime_utc": "20250506230000",
-				"lat": -42.1,
-				"lon": 148.1,
-				"apparent_t": 13.4,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 600,
-				"cloud_oktas": 2,
-				"cloud_type": "-",
-				"cloud_type_id": 31,
-				"delta_t": 3.1,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 14.8,
-				"dewpt": 8.7,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.4",
-				"rel_hum": 67,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "30",
-				"weather": "Fine",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
