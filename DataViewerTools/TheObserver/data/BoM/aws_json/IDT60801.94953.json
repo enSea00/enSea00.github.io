@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:41 am EST Saturday 10 May 2025",
+				"refresh_message": "Issued at  2:51 am EST Saturday 10 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Smithton",
@@ -6125,43 +6125,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 165,
-				"wmo": 94953,
-				"name": "Smithton",
-				"history_product": "IDT60801",
-				"local_date_time": "07/02:50am",
-				"local_date_time_full": "20250507025000",
-				"aifstime_utc": "20250506165000",
-				"lat": -40.8,
-				"lon": 145.1,
-				"apparent_t": 7.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.7,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 12.9,
-				"dewpt": 11.6,
-				"press": 1007.1,
-				"press_msl": 1007.1,
-				"press_qnh": 1007.1,
-				"press_tend": "-",
-				"rain_trace": "7.6",
-				"rel_hum": 92,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
