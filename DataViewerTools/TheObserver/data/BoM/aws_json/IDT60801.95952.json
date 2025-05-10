@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:41 am EST Sunday 11 May 2025",
+				"refresh_message": "Issued at  3:51 am EST Sunday 11 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Mount Read",
@@ -5940,43 +5940,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 52,
 				"wind_spd_kt": 28
-			},
-			{
-				"sort_order": 160,
-				"wmo": 95952,
-				"name": "Mount Read",
-				"history_product": "IDT60801",
-				"local_date_time": "08/03:51am",
-				"local_date_time_full": "20250508035100",
-				"aifstime_utc": "20250507175100",
-				"lat": -41.8,
-				"lon": 145.5,
-				"apparent_t": -10.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 67,
-				"gust_kt": 36,
-				"air_temp": -0.2,
-				"dewpt": -0.2,
-				"press": 1014.6,
-				"press_msl": 1014.6,
-				"press_qnh": 1013.5,
-				"press_tend": "-",
-				"rain_trace": "7.6",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 43,
-				"wind_spd_kt": 23
 			}
 		]
 	}
