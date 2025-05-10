@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:11 am EST Sunday 11 May 2025",
+				"refresh_message": "Issued at  7:21 am EST Sunday 11 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Tasman Island",
@@ -5681,43 +5681,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 153,
-				"wmo": 95986,
-				"name": "Tasman Island",
-				"history_product": "IDT60801",
-				"local_date_time": "08/07:21am",
-				"local_date_time_full": "20250508072100",
-				"aifstime_utc": "20250507212100",
-				"lat": -43.2,
-				"lon": 148.0,
-				"apparent_t": 0.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.7,
-				"gust_kmh": 61,
-				"gust_kt": 33,
-				"air_temp": 6.1,
-				"dewpt": 4.6,
-				"press": 1013.7,
-				"press_msl": 1013.7,
-				"press_qnh": 1013.6,
-				"press_tend": "-",
-				"rain_trace": "9.6",
-				"rel_hum": 90,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 26,
-				"wind_spd_kt": 14
 			}
 		]
 	}
