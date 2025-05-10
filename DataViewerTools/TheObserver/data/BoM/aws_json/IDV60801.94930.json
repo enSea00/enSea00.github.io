@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:02 pm EST Saturday 10 May 2025",
+				"refresh_message": "Issued at  3:22 pm EST Saturday 10 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Mount Nowa Nowa",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94930,
-				"name": "Mount Nowa Nowa",
-				"history_product": "IDV60801",
-				"local_date_time": "07/03:20pm",
-				"local_date_time_full": "20250507152000",
-				"aifstime_utc": "20250507052000",
-				"lat": -37.7,
-				"lon": 148.1,
-				"apparent_t": 14.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.2,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 16.0,
-				"dewpt": 12.0,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 77,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}

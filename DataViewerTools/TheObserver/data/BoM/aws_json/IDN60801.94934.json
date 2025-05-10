@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:03 pm EST Saturday 10 May 2025",
+				"refresh_message": "Issued at  3:22 pm EST Saturday 10 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Green Cape",
@@ -5681,43 +5681,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 33,
 				"wind_spd_kt": 18
-			},
-			{
-				"sort_order": 153,
-				"wmo": 94934,
-				"name": "Green Cape",
-				"history_product": "IDN60801",
-				"local_date_time": "07/03:14pm",
-				"local_date_time_full": "20250507151400",
-				"aifstime_utc": "20250507051400",
-				"lat": -37.3,
-				"lon": 150.1,
-				"apparent_t": 19.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.5,
-				"gust_kmh": 43,
-				"gust_kt": 23,
-				"air_temp": 22.0,
-				"dewpt": 12.3,
-				"press": 1010.8,
-				"press_msl": 1010.8,
-				"press_qnh": 1010.8,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 54,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
