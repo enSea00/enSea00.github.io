@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:31 pm EST Saturday 10 May 2025",
+				"refresh_message": "Issued at  5:41 pm EST Saturday 10 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Cape Sorell",
@@ -6643,43 +6643,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 59,
 				"wind_spd_kt": 32
-			},
-			{
-				"sort_order": 179,
-				"wmo": 94974,
-				"name": "Cape Sorell",
-				"history_product": "IDT60801",
-				"local_date_time": "07/05:41pm",
-				"local_date_time_full": "20250507174100",
-				"aifstime_utc": "20250507074100",
-				"lat": -42.2,
-				"lon": 145.2,
-				"apparent_t": -0.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.4,
-				"gust_kmh": 63,
-				"gust_kt": 34,
-				"air_temp": 9.4,
-				"dewpt": 4.0,
-				"press": 1009.3,
-				"press_msl": 1009.3,
-				"press_qnh": 1009.3,
-				"press_tend": "-",
-				"rain_trace": "1.6",
-				"rel_hum": 69,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 44,
-				"wind_spd_kt": 24
 			}
 		]
 	}
