@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:31 pm EST Saturday 10 May 2025",
+				"refresh_message": "Issued at 11:41 pm EST Saturday 10 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Luncheon Hill",
@@ -5607,43 +5607,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 151,
-				"wmo": 95956,
-				"name": "Luncheon Hill",
-				"history_product": "IDT60801",
-				"local_date_time": "07/11:32pm",
-				"local_date_time_full": "20250507233200",
-				"aifstime_utc": "20250507133200",
-				"lat": -41.1,
-				"lon": 145.2,
-				"apparent_t": -2.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.8,
-				"gust_kmh": 46,
-				"gust_kt": 25,
-				"air_temp": 4.5,
-				"dewpt": 2.5,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "6.2",
-				"rel_hum": 87,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
