@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:11 pm CST Saturday 10 May 2025",
+				"refresh_message": "Issued at  1:21 pm CST Saturday 10 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Keith West",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 32,
 				"wind_spd_kt": 17
-			},
-			{
-				"sort_order": 145,
-				"wmo": 95815,
-				"name": "Keith West",
-				"history_product": "IDS60801",
-				"local_date_time": "07/01:14pm",
-				"local_date_time_full": "20250507131400",
-				"aifstime_utc": "20250507034400",
-				"lat": -36.1,
-				"lon": 140.3,
-				"apparent_t": 11.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.0,
-				"gust_kmh": 56,
-				"gust_kt": 30,
-				"air_temp": 17.8,
-				"dewpt": 8.1,
-				"press": 1020.5,
-				"press_msl": 1020.5,
-				"press_qnh": 1020.5,
-				"press_tend": "-",
-				"rain_trace": "1.2",
-				"rel_hum": 53,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
