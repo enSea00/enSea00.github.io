@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:32 am EST Sunday 11 May 2025",
+				"refresh_message": "Issued at  1:42 am EST Sunday 11 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Wilsons Promontory",
@@ -8826,43 +8826,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 61,
 				"wind_spd_kt": 33
-			},
-			{
-				"sort_order": 238,
-				"wmo": 94893,
-				"name": "Wilsons Promontory",
-				"history_product": "IDV60801",
-				"local_date_time": "08/01:37am",
-				"local_date_time_full": "20250508013700",
-				"aifstime_utc": "20250507153700",
-				"lat": -39.1,
-				"lon": 146.4,
-				"apparent_t": -3.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.1,
-				"gust_kmh": 93,
-				"gust_kt": 50,
-				"air_temp": 11.8,
-				"dewpt": 5.2,
-				"press": 1019.1,
-				"press_msl": 1019.1,
-				"press_qnh": 1019.1,
-				"press_tend": "-",
-				"rain_trace": "11.2",
-				"rel_hum": 64,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 74,
-				"wind_spd_kt": 40
 			}
 		]
 	}
