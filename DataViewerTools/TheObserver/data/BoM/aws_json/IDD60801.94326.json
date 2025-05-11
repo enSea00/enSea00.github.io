@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:01 am CST Monday 12 May 2025",
+				"refresh_message": "Issued at  8:11 am CST Monday 12 May 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Alice Springs Airport",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 147,
-				"wmo": 94326,
-				"name": "Alice Springs Airport",
-				"history_product": "IDD60801",
-				"local_date_time": "09/08:05am",
-				"local_date_time_full": "20250509080500",
-				"aifstime_utc": "20250508223500",
-				"lat": -23.8,
-				"lon": 133.9,
-				"apparent_t": 14.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.8,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 15.8,
-				"dewpt": 10.6,
-				"press": 1024.8,
-				"press_msl": 1024.8,
-				"press_qnh": 1025.9,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 71,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
