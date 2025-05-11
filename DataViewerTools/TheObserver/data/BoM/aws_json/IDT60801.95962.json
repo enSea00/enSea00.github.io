@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:51 am EST Monday 12 May 2025",
+				"refresh_message": "Issued at  3:01 am EST Monday 12 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Warra",
@@ -2425,43 +2425,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 65,
-				"wmo": 95962,
-				"name": "Warra",
-				"history_product": "IDT60801",
-				"local_date_time": "09/03:00am",
-				"local_date_time_full": "20250509030000",
-				"aifstime_utc": "20250508170000",
-				"lat": -43.1,
-				"lon": 146.7,
-				"apparent_t": 6.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.9,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 9.2,
-				"dewpt": 5.2,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "1.0",
-				"rel_hum": 76,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
