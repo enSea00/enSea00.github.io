@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:43 am EST Monday 12 May 2025",
+				"refresh_message": "Issued at  9:03 am EST Monday 12 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Bedourie",
@@ -94,43 +94,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94334,
-				"name": "Bedourie",
-				"history_product": "IDQ60801",
-				"local_date_time": "09/09:00am",
-				"local_date_time_full": "20250509090000",
-				"aifstime_utc": "20250508230000",
-				"lat": -24.4,
-				"lon": 139.5,
-				"apparent_t": 20.6,
-				"cloud": "Clear",
-				"cloud_base_m": 2500,
-				"cloud_oktas": 0,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 21.1,
-				"dewpt": 12.2,
-				"press": 1023.6,
-				"press_msl": 1023.6,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 56,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "50",
-				"weather": "Fine",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
