@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:21 am CST Monday 12 May 2025",
+				"refresh_message": "Issued at  3:41 am CST Monday 12 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Oodnadatta",
@@ -2832,43 +2832,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 76,
-				"wmo": 94476,
-				"name": "Oodnadatta",
-				"history_product": "IDS60801",
-				"local_date_time": "09/03:30am",
-				"local_date_time_full": "20250509033000",
-				"aifstime_utc": "20250508180000",
-				"lat": -27.6,
-				"lon": 135.4,
-				"apparent_t": 10.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.2,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 15.0,
-				"dewpt": 6.3,
-				"press": 1025.8,
-				"press_msl": 1025.8,
-				"press_qnh": 1025.9,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 56,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 20,
-				"wind_spd_kt": 11
 			}
 		]
 	}
