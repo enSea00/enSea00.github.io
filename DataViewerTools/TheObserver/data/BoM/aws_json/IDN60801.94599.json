@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:32 am EST Monday 12 May 2025",
+				"refresh_message": "Issued at  5:42 am EST Monday 12 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Cape Byron",
@@ -8123,43 +8123,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 44,
 				"wind_spd_kt": 24
-			},
-			{
-				"sort_order": 219,
-				"wmo": 94599,
-				"name": "Cape Byron",
-				"history_product": "IDN60801",
-				"local_date_time": "09/05:38am",
-				"local_date_time_full": "20250509053800",
-				"aifstime_utc": "20250508193800",
-				"lat": -28.6,
-				"lon": 153.6,
-				"apparent_t": 12.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.0,
-				"gust_kmh": 65,
-				"gust_kt": 35,
-				"air_temp": 19.4,
-				"dewpt": 16.1,
-				"press": 1024.5,
-				"press_msl": 1024.5,
-				"press_qnh": 1024.7,
-				"press_tend": "-",
-				"rain_trace": "5.4",
-				"rel_hum": 81,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 46,
-				"wind_spd_kt": 25
 			}
 		]
 	}
