@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:22 am WST Monday 12 May 2025",
+				"refresh_message": "Issued at  4:42 am WST Monday 12 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Esperance",
@@ -4978,43 +4978,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 134,
-				"wmo": 94638,
-				"name": "Esperance",
-				"history_product": "IDW60801",
-				"local_date_time": "09/04:30am",
-				"local_date_time_full": "20250509043000",
-				"aifstime_utc": "20250508203000",
-				"lat": -33.8,
-				"lon": 121.9,
-				"apparent_t": 9.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.4,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 13.3,
-				"dewpt": 8.6,
-				"press": 1023.3,
-				"press_msl": 1023.3,
-				"press_qnh": 1023.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 73,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}
