@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:21 am CST Tuesday 13 May 2025",
+				"refresh_message": "Issued at  7:31 am CST Tuesday 13 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Cape Borda",
@@ -4312,43 +4312,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 116,
-				"wmo": 95805,
-				"name": "Cape Borda",
-				"history_product": "IDS60801",
-				"local_date_time": "10/07:30am",
-				"local_date_time_full": "20250510073000",
-				"aifstime_utc": "20250509220000",
-				"lat": -35.8,
-				"lon": 136.6,
-				"apparent_t": 11.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.7,
-				"gust_kmh": 22,
-				"gust_kt": 12,
-				"air_temp": 14.4,
-				"dewpt": 9.0,
-				"press": 1028.2,
-				"press_msl": 1028.2,
-				"press_qnh": 1028.3,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 70,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
