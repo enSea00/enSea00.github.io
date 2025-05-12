@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:03 am EST Tuesday 13 May 2025",
+				"refresh_message": "Issued at  7:22 am EST Tuesday 13 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Redcliffe",
@@ -5644,43 +5644,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 152,
-				"wmo": 95591,
-				"name": "Redcliffe",
-				"history_product": "IDQ60801",
-				"local_date_time": "10/07:06am",
-				"local_date_time_full": "20250510070600",
-				"aifstime_utc": "20250509210600",
-				"lat": -27.2,
-				"lon": 153.1,
-				"apparent_t": 13.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.4,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 17.3,
-				"dewpt": 14.8,
-				"press": 1025.2,
-				"press_msl": 1025.2,
-				"press_qnh": 1025.2,
-				"press_tend": "-",
-				"rain_trace": "1.4",
-				"rel_hum": 85,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
