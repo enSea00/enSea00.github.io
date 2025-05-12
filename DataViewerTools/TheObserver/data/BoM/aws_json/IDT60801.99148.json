@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:11 am EST Tuesday 13 May 2025",
+				"refresh_message": "Issued at  9:31 am EST Tuesday 13 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Davey Gorge (PWS)",
@@ -5274,43 +5274,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 142,
-				"wmo": 99148,
-				"name": "Davey Gorge (PWS)",
-				"history_product": "IDT60801",
-				"local_date_time": "10/09:30am",
-				"local_date_time_full": "20250510093000",
-				"aifstime_utc": "20250509233000",
-				"lat": -43.1,
-				"lon": 145.9,
-				"apparent_t": 9.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.4,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 13.0,
-				"dewpt": 10.4,
-				"press": 1017.9,
-				"press_msl": null,
-				"press_qnh": 1017.9,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 84,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 22,
-				"wind_spd_kt": 12
 			}
 		]
 	}

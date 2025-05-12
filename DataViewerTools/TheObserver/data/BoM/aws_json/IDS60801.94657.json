@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:31 am CST Tuesday 13 May 2025",
+				"refresh_message": "Issued at  9:01 am CST Tuesday 13 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Kyancutta",
@@ -205,43 +205,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 5,
-				"wmo": 94657,
-				"name": "Kyancutta",
-				"history_product": "IDS60801",
-				"local_date_time": "10/09:00am",
-				"local_date_time_full": "20250510090000",
-				"aifstime_utc": "20250509233000",
-				"lat": -33.1,
-				"lon": 135.6,
-				"apparent_t": 8.7,
-				"cloud": "Clear",
-				"cloud_base_m": 2500,
-				"cloud_oktas": 0,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.9,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 10.4,
-				"dewpt": 3.8,
-				"press": 1029.0,
-				"press_msl": 1029.0,
-				"press_qnh": null,
-				"press_tend": "F",
-				"rain_trace": "0.0",
-				"rel_hum": 63,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "45",
-				"weather": "Fine",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 2,
-				"wind_spd_kt": 1
 			}
 		]
 	}
