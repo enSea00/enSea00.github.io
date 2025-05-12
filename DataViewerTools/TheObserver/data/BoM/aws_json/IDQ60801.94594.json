@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:33 pm EST Monday 12 May 2025",
+				"refresh_message": "Issued at  6:52 pm EST Monday 12 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Cape Moreton",
@@ -7050,43 +7050,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 52,
 				"wind_spd_kt": 28
-			},
-			{
-				"sort_order": 190,
-				"wmo": 94594,
-				"name": "Cape Moreton",
-				"history_product": "IDQ60801",
-				"local_date_time": "09/06:51pm",
-				"local_date_time_full": "20250509185100",
-				"aifstime_utc": "20250509085100",
-				"lat": -27.0,
-				"lon": 153.5,
-				"apparent_t": 10.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.2,
-				"gust_kmh": 72,
-				"gust_kt": 39,
-				"air_temp": 18.8,
-				"dewpt": 16.8,
-				"press": 1023.7,
-				"press_msl": 1023.7,
-				"press_qnh": 1024.0,
-				"press_tend": "-",
-				"rain_trace": "0.4",
-				"rel_hum": 88,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 54,
-				"wind_spd_kt": 29
 			}
 		]
 	}
