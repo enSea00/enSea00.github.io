@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:33 pm EST Monday 12 May 2025",
+				"refresh_message": "Issued at  7:43 pm EST Monday 12 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Middle Percy Island",
@@ -6458,43 +6458,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 46,
 				"wind_spd_kt": 25
-			},
-			{
-				"sort_order": 174,
-				"wmo": 94372,
-				"name": "Middle Percy Island",
-				"history_product": "IDQ60801",
-				"local_date_time": "09/07:36pm",
-				"local_date_time_full": "20250509193600",
-				"aifstime_utc": "20250509093600",
-				"lat": -21.7,
-				"lon": 150.3,
-				"apparent_t": 17.6,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.5,
-				"gust_kmh": 63,
-				"gust_kt": 34,
-				"air_temp": 22.8,
-				"dewpt": 18.8,
-				"press": 1018.4,
-				"press_msl": 1018.4,
-				"press_qnh": 1019.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 78,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 44,
-				"wind_spd_kt": 24
 			}
 		]
 	}
