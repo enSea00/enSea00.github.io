@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:33 pm EST Monday 12 May 2025",
+				"refresh_message": "Issued at 11:42 pm EST Monday 12 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Camden",
@@ -7309,43 +7309,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 197,
-				"wmo": 94755,
-				"name": "Camden",
-				"history_product": "IDN60801",
-				"local_date_time": "09/11:32pm",
-				"local_date_time_full": "20250509233200",
-				"aifstime_utc": "20250509133200",
-				"lat": -34.0,
-				"lon": 150.7,
-				"apparent_t": 11.0,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 90,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 11.1,
-				"dewpt": 10.9,
-				"press": 1032.3,
-				"press_msl": 1032.3,
-				"press_qnh": 1032.3,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "0.7",
-				"weather": "-",
-				"wind_dir": "NE",
-				"wind_spd_kmh": 2,
-				"wind_spd_kt": 1
 			}
 		]
 	}
