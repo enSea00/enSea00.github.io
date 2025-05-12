@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:33 pm EST Monday 12 May 2025",
+				"refresh_message": "Issued at  1:52 pm EST Monday 12 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Century Mine",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 24,
 				"wind_spd_kt": 13
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94261,
-				"name": "Century Mine",
-				"history_product": "IDQ60801",
-				"local_date_time": "09/01:33pm",
-				"local_date_time_full": "20250509133300",
-				"aifstime_utc": "20250509033300",
-				"lat": -18.8,
-				"lon": 138.7,
-				"apparent_t": 25.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 10.7,
-				"gust_kmh": 46,
-				"gust_kt": 25,
-				"air_temp": 29.9,
-				"dewpt": 11.4,
-				"press": 1014.8,
-				"press_msl": 1014.8,
-				"press_qnh": 1015.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 32,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 26,
-				"wind_spd_kt": 14
 			}
 		]
 	}
