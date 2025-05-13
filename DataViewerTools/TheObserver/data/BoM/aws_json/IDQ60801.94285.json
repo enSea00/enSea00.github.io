@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:33 am EST Wednesday 14 May 2025",
+				"refresh_message": "Issued at  2:52 am EST Wednesday 14 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Low Isles",
@@ -5607,43 +5607,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 46,
 				"wind_spd_kt": 25
-			},
-			{
-				"sort_order": 151,
-				"wmo": 94285,
-				"name": "Low Isles",
-				"history_product": "IDQ60801",
-				"local_date_time": "11/02:38am",
-				"local_date_time_full": "20250511023800",
-				"aifstime_utc": "20250510163800",
-				"lat": -16.4,
-				"lon": 145.6,
-				"apparent_t": 24.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.4,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 25.1,
-				"dewpt": 23.0,
-				"press": 1011.9,
-				"press_msl": 1011.9,
-				"press_qnh": 1012.0,
-				"press_tend": "-",
-				"rain_trace": "13.0",
-				"rel_hum": 88,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
