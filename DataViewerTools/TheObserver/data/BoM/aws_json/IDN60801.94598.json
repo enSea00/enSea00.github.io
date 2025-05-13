@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:03 pm EST Tuesday 13 May 2025",
+				"refresh_message": "Issued at  5:22 pm EST Tuesday 13 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Evans Head",
@@ -5496,43 +5496,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 24,
 				"wind_spd_kt": 13
-			},
-			{
-				"sort_order": 148,
-				"wmo": 94598,
-				"name": "Evans Head",
-				"history_product": "IDN60801",
-				"local_date_time": "10/05:09pm",
-				"local_date_time_full": "20250510170900",
-				"aifstime_utc": "20250510070900",
-				"lat": -29.2,
-				"lon": 153.4,
-				"apparent_t": 13.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.2,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 17.2,
-				"dewpt": 15.2,
-				"press": 1025.0,
-				"press_msl": 1025.0,
-				"press_qnh": 1025.1,
-				"press_tend": "-",
-				"rain_trace": "6.8",
-				"rel_hum": 88,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
