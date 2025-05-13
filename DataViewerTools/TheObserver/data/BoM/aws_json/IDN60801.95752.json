@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:53 pm EST Tuesday 13 May 2025",
+				"refresh_message": "Issued at  5:03 pm EST Tuesday 13 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Wattamolla",
@@ -5052,43 +5052,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 136,
-				"wmo": 95752,
-				"name": "Wattamolla",
-				"history_product": "IDN60801",
-				"local_date_time": "10/05:00pm",
-				"local_date_time_full": "20250510170000",
-				"aifstime_utc": "20250510070000",
-				"lat": -34.1,
-				"lon": 151.1,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": null,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
