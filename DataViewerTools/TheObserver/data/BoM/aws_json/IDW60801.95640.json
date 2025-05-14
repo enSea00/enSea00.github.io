@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:52 am WST Thursday 15 May 2025",
+				"refresh_message": "Issued at  3:02 am WST Thursday 15 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Wandering",
@@ -5274,43 +5274,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 142,
-				"wmo": 95640,
-				"name": "Wandering",
-				"history_product": "IDW60801",
-				"local_date_time": "12/03:00am",
-				"local_date_time_full": "20250512030000",
-				"aifstime_utc": "20250511190000",
-				"lat": -32.7,
-				"lon": 116.7,
-				"apparent_t": 12.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.7,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 13.5,
-				"dewpt": 12.2,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 92,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
