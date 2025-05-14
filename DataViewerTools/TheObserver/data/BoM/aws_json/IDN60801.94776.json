@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:03 am EST Thursday 15 May 2025",
+				"refresh_message": "Issued at  9:22 am EST Thursday 15 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Williamtown",
@@ -35,8 +35,8 @@
 				"cloud": "Cloudy",
 				"cloud_base_m": 100,
 				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
+				"cloud_type": "Stratus",
+				"cloud_type_id": 7,
 				"delta_t": 0.4,
 				"gust_kmh": 7,
 				"gust_kt": 4,
@@ -46,7 +46,7 @@
 				"press_msl": 1020.6,
 				"press_qnh": 1020.7,
 				"press_tend": "R",
-				"rain_trace": "6.0",
+				"rain_trace": "5.8",
 				"rel_hum": 96,
 				"sea_state": "-",
 				"swell_dir_worded": "-",
