@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:33 pm EST Thursday 15 May 2025",
+				"refresh_message": "Issued at  9:43 pm EST Thursday 15 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Cairns",
@@ -6236,43 +6236,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 168,
-				"wmo": 94287,
-				"name": "Cairns",
-				"history_product": "IDQ60801",
-				"local_date_time": "12/09:35pm",
-				"local_date_time_full": "20250512213500",
-				"aifstime_utc": "20250512113500",
-				"lat": -16.9,
-				"lon": 145.7,
-				"apparent_t": 21.8,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 690,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.0,
-				"gust_kmh": 37,
-				"gust_kt": 20,
-				"air_temp": 22.5,
-				"dewpt": 21.0,
-				"press": 1014.5,
-				"press_msl": 1014.5,
-				"press_qnh": 1014.5,
-				"press_tend": "-",
-				"rain_trace": "3.0",
-				"rel_hum": 91,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 26,
-				"wind_spd_kt": 14
 			}
 		]
 	}

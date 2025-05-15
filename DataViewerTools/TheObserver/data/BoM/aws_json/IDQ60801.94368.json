@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:33 pm EST Thursday 15 May 2025",
+				"refresh_message": "Issued at  9:43 pm EST Thursday 15 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Hamilton Island",
@@ -7309,43 +7309,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 43,
 				"wind_spd_kt": 23
-			},
-			{
-				"sort_order": 197,
-				"wmo": 94368,
-				"name": "Hamilton Island",
-				"history_product": "IDQ60801",
-				"local_date_time": "12/09:33pm",
-				"local_date_time_full": "20250512213300",
-				"aifstime_utc": "20250512113300",
-				"lat": -20.4,
-				"lon": 149.0,
-				"apparent_t": 20.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 270,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.7,
-				"gust_kmh": 44,
-				"gust_kt": 24,
-				"air_temp": 22.6,
-				"dewpt": 21.6,
-				"press": 1016.3,
-				"press_msl": 1016.3,
-				"press_qnh": 1016.5,
-				"press_tend": "-",
-				"rain_trace": "4.0",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 35,
-				"wind_spd_kt": 19
 			}
 		]
 	}
