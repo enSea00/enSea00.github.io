@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      color: #333;
+    }
+
+    .print-button {
+      display: inline-block;
+      margin-bottom: 20px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .print-button:hover {
+      background-color: #0056b3;
+    }
+
+    h1, h2 {
+      color: #007BFF;
+    }
+
+    .section {
+      margin-bottom: 1.5rem;
+    }
+
+    @media print {
+      .print-button {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <button class="print-button" onclick="window.print()">Print to PDF</button>
+
+  <h1>John Doe</h1>
+  <p>Email: john.doe@example.com | Phone: 123-456-7890 | LinkedIn: linkedin.com/in/johndoe</p>
+
+  <div class="section">
+    <h2>Profile</h2>
+    <p>Experienced software developer with a passion for building efficient and scalable web applications.</p>
+  </div>
+
+  <div class="section">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Senior Developer</strong>, ABC Corp (2020–Present)</li>
+      <li><strong>Web Developer</strong>, XYZ Ltd (2017–2020)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>BSc Computer Science</strong>, University of Example (2013–2016)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>JavaScript, HTML, CSS, React</li>
+      <li>Node.js, Python, SQL</li>
+      <li>Git, Docker, REST APIs</li>
+    </ul>
+  </div>
+
+</body>
+</html>
