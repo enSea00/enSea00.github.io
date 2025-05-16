@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:32 am WST Saturday 17 May 2025",
+				"refresh_message": "Issued at  2:52 am WST Saturday 17 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Bickley",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 144,
-				"wmo": 95610,
-				"name": "Bickley",
-				"history_product": "IDW60801",
-				"local_date_time": "14/02:42am",
-				"local_date_time_full": "20250514024200",
-				"aifstime_utc": "20250513184200",
-				"lat": -32.0,
-				"lon": 116.1,
-				"apparent_t": 5.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.5,
-				"gust_kmh": 46,
-				"gust_kt": 25,
-				"air_temp": 11.5,
-				"dewpt": 8.5,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 82,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
