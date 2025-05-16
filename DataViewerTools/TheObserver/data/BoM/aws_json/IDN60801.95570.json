@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:03 am EST Saturday 17 May 2025",
+				"refresh_message": "Issued at  8:23 am EST Saturday 17 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Grafton Airport",
@@ -6199,43 +6199,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 167,
-				"wmo": 95570,
-				"name": "Grafton Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "14/08:19am",
-				"local_date_time_full": "20250514081900",
-				"aifstime_utc": "20250513221900",
-				"lat": -29.8,
-				"lon": 153.0,
-				"apparent_t": 18.4,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 150,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 18.0,
-				"dewpt": 17.2,
-				"press": 1022.3,
-				"press_msl": 1022.3,
-				"press_qnh": 1022.3,
-				"press_tend": "-",
-				"rain_trace": "1.4",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
