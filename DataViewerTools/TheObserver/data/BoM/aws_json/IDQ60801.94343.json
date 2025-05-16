@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:32 pm EST Friday 16 May 2025",
+				"refresh_message": "Issued at  9:43 pm EST Friday 16 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Hughenden",
@@ -5681,43 +5681,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 153,
-				"wmo": 94343,
-				"name": "Hughenden",
-				"history_product": "IDQ60801",
-				"local_date_time": "13/09:34pm",
-				"local_date_time_full": "20250513213400",
-				"aifstime_utc": "20250513113400",
-				"lat": -20.8,
-				"lon": 144.2,
-				"apparent_t": 20.9,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1170,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": 20.6,
-				"dewpt": 19.6,
-				"press": 1016.7,
-				"press_msl": 1016.7,
-				"press_qnh": 1017.9,
-				"press_tend": "-",
-				"rain_trace": "5.6",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
