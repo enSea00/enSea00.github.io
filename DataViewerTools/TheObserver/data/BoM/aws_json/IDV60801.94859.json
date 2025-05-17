@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:12 pm EST Saturday 17 May 2025",
+				"refresh_message": "Issued at  3:32 pm EST Saturday 17 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Redesdale",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 143,
-				"wmo": 94859,
-				"name": "Redesdale",
-				"history_product": "IDV60801",
-				"local_date_time": "14/03:30pm",
-				"local_date_time_full": "20250514153000",
-				"aifstime_utc": "20250514053000",
-				"lat": -37.0,
-				"lon": 144.5,
-				"apparent_t": 18.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 8.4,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 21.4,
-				"dewpt": 4.5,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 33,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
