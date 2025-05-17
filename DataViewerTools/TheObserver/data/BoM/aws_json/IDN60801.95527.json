@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:33 am EST Sunday 18 May 2025",
+				"refresh_message": "Issued at  2:42 am EST Sunday 18 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Moree",
@@ -6495,43 +6495,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 175,
-				"wmo": 95527,
-				"name": "Moree",
-				"history_product": "IDN60801",
-				"local_date_time": "15/02:36am",
-				"local_date_time_full": "20250515023600",
-				"aifstime_utc": "20250514163600",
-				"lat": -29.5,
-				"lon": 149.8,
-				"apparent_t": 16.7,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 1080,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 15.9,
-				"dewpt": 15.9,
-				"press": 1018.6,
-				"press_msl": 1018.6,
-				"press_qnh": 1018.8,
-				"press_tend": "-",
-				"rain_trace": "41.4",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "8",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}

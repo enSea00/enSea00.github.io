@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:33 am EST Sunday 18 May 2025",
+				"refresh_message": "Issued at  2:42 am EST Sunday 18 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Maitland Airport",
@@ -7235,43 +7235,6 @@
 				"wind_dir": "NE",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 195,
-				"wmo": 94650,
-				"name": "Maitland Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "15/02:35am",
-				"local_date_time_full": "20250515023500",
-				"aifstime_utc": "20250514163500",
-				"lat": -32.7,
-				"lon": 151.5,
-				"apparent_t": 15.9,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 30,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 0,
-				"gust_kt": 0,
-				"air_temp": 14.5,
-				"dewpt": 14.3,
-				"press": 1019.4,
-				"press_msl": 1019.4,
-				"press_qnh": 1019.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "8",
-				"weather": "-",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}
