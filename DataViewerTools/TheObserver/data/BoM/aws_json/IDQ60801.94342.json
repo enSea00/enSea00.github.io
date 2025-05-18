@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:04 am EST Monday 19 May 2025",
+				"refresh_message": "Issued at  8:22 am EST Monday 19 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Winton",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94342,
-				"name": "Winton",
-				"history_product": "IDQ60801",
-				"local_date_time": "16/08:04am",
-				"local_date_time_full": "20250516080400",
-				"aifstime_utc": "20250515220400",
-				"lat": -22.4,
-				"lon": 143.1,
-				"apparent_t": 15.0,
-				"cloud": "Cloudy",
-				"cloud_base_m": 180,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 14.8,
-				"dewpt": 14.8,
-				"press": 1016.1,
-				"press_msl": 1016.1,
-				"press_qnh": 1016.8,
-				"press_tend": "-",
-				"rain_trace": "2.0",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
