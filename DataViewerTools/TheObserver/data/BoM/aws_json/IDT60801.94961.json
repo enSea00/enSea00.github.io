@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:51 am EST Monday 19 May 2025",
+				"refresh_message": "Issued at  9:11 am EST Monday 19 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Dover",
@@ -94,43 +94,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94961,
-				"name": "Dover",
-				"history_product": "IDT60801",
-				"local_date_time": "16/09:00am",
-				"local_date_time_full": "20250516090000",
-				"aifstime_utc": "20250515230000",
-				"lat": -43.3,
-				"lon": 147.0,
-				"apparent_t": 10.2,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 600,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": 38,
-				"delta_t": 2.3,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 13.3,
-				"dewpt": 8.7,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 73,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "30",
-				"weather": "Distant precip.",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
