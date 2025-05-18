@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:12 pm EST Sunday 18 May 2025",
+				"refresh_message": "Issued at  3:32 pm EST Sunday 18 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Stawell",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94836,
-				"name": "Stawell",
-				"history_product": "IDV60801",
-				"local_date_time": "15/03:30pm",
-				"local_date_time_full": "20250515153000",
-				"aifstime_utc": "20250515053000",
-				"lat": -37.1,
-				"lon": 142.7,
-				"apparent_t": 14.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.5,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 16.5,
-				"dewpt": 7.7,
-				"press": 1021.8,
-				"press_msl": 1021.8,
-				"press_qnh": 1021.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 56,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
