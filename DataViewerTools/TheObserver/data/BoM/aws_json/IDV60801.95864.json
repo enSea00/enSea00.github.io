@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:12 am EST Tuesday 20 May 2025",
+				"refresh_message": "Issued at  1:32 am EST Tuesday 20 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "St Kilda Harbour RMYS",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 149,
-				"wmo": 95864,
-				"name": "St Kilda Harbour RMYS",
-				"history_product": "IDV60801",
-				"local_date_time": "17/01:30am",
-				"local_date_time_full": "20250517013000",
-				"aifstime_utc": "20250516153000",
-				"lat": -37.9,
-				"lon": 145.0,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": null,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
