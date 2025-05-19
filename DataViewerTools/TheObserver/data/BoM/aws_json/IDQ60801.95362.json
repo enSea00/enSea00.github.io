@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:43 am EST Tuesday 20 May 2025",
+				"refresh_message": "Issued at  9:03 am EST Tuesday 20 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Springsure",
@@ -94,43 +94,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 2,
-				"wmo": 95362,
-				"name": "Springsure",
-				"history_product": "IDQ60801",
-				"local_date_time": "17/09:00am",
-				"local_date_time_full": "20250517090000",
-				"aifstime_utc": "20250516230000",
-				"lat": -24.1,
-				"lon": 148.1,
-				"apparent_t": 16.0,
-				"cloud": "Mostly cloudy",
-				"cloud_base_m": 300,
-				"cloud_oktas": 7,
-				"cloud_type": "-",
-				"cloud_type_id": 35,
-				"delta_t": 0.4,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 16.8,
-				"dewpt": 16.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "6.0",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "50",
-				"weather": "Fine",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
