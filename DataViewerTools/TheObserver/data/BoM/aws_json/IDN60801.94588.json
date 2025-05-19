@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:33 am EST Tuesday 20 May 2025",
+				"refresh_message": "Issued at  7:43 am EST Tuesday 20 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Glen Innes Airport",
@@ -6828,43 +6828,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 184,
-				"wmo": 94588,
-				"name": "Glen Innes Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "17/07:39am",
-				"local_date_time_full": "20250517073900",
-				"aifstime_utc": "20250516213900",
-				"lat": -29.7,
-				"lon": 151.7,
-				"apparent_t": 8.2,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 30,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 9.9,
-				"dewpt": 9.8,
-				"press": 1016.0,
-				"press_msl": 1016.0,
-				"press_qnh": 1017.2,
-				"press_tend": "-",
-				"rain_trace": "5.0",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "1",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
