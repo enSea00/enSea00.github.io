@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:12 am EST Tuesday 20 May 2025",
+				"refresh_message": "Issued at  3:32 am EST Tuesday 20 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Nhill Aerodrome",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94827,
-				"name": "Nhill Aerodrome",
-				"history_product": "IDV60801",
-				"local_date_time": "17/03:30am",
-				"local_date_time_full": "20250517033000",
-				"aifstime_utc": "20250516173000",
-				"lat": -36.3,
-				"lon": 141.6,
-				"apparent_t": 5.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 7.7,
-				"dewpt": 7.6,
-				"press": 1019.2,
-				"press_msl": 1019.2,
-				"press_qnh": 1019.1,
-				"press_tend": "-",
-				"rain_trace": "0.4",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
