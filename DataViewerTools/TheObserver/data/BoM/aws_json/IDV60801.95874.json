@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:12 am EST Tuesday 20 May 2025",
+				"refresh_message": "Issued at  6:32 am EST Tuesday 20 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Viewbank",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 143,
-				"wmo": 95874,
-				"name": "Viewbank",
-				"history_product": "IDV60801",
-				"local_date_time": "17/06:30am",
-				"local_date_time_full": "20250517063000",
-				"aifstime_utc": "20250516203000",
-				"lat": -37.7,
-				"lon": 145.1,
-				"apparent_t": 9.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.7,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 10.8,
-				"dewpt": 9.4,
-				"press": 1018.0,
-				"press_msl": 1018.0,
-				"press_qnh": 1018.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 91,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
