@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 12:12 am EST Tuesday 20 May 2025",
+				"refresh_message": "Issued at 12:32 am EST Tuesday 20 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Warracknabeal Airport",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94920,
-				"name": "Warracknabeal Airport",
-				"history_product": "IDV60801",
-				"local_date_time": "17/12:30am",
-				"local_date_time_full": "20250517003000",
-				"aifstime_utc": "20250516143000",
-				"lat": -36.3,
-				"lon": 142.4,
-				"apparent_t": 9.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.8,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 11.4,
-				"dewpt": 9.8,
-				"press": 1018.7,
-				"press_msl": 1018.7,
-				"press_qnh": 1018.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 90,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
