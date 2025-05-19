@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:33 am EST Tuesday 20 May 2025",
+				"refresh_message": "Issued at  2:53 am EST Tuesday 20 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Lady Elliot Island",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94388,
-				"name": "Lady Elliot Island",
-				"history_product": "IDQ60801",
-				"local_date_time": "17/02:38am",
-				"local_date_time_full": "20250517023800",
-				"aifstime_utc": "20250516163800",
-				"lat": -24.1,
-				"lon": 152.7,
-				"apparent_t": 23.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.2,
-				"gust_kmh": 39,
-				"gust_kt": 21,
-				"air_temp": 22.3,
-				"dewpt": 20.4,
-				"press": 1012.4,
-				"press_msl": 1012.4,
-				"press_qnh": 1012.4,
-				"press_tend": "-",
-				"rain_trace": "1.4",
-				"rel_hum": 89,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
