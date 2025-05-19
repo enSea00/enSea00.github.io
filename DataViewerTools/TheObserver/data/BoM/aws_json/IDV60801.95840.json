@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:52 am EST Tuesday 20 May 2025",
+				"refresh_message": "Issued at  2:12 am EST Tuesday 20 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Westmere",
@@ -5274,43 +5274,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 142,
-				"wmo": 95840,
-				"name": "Westmere",
-				"history_product": "IDV60801",
-				"local_date_time": "17/02:00am",
-				"local_date_time_full": "20250517020000",
-				"aifstime_utc": "20250516160000",
-				"lat": -37.7,
-				"lon": 142.9,
-				"apparent_t": 7.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 6,
-				"gust_kt": 3,
-				"air_temp": 9.0,
-				"dewpt": 8.4,
-				"press": 1018.7,
-				"press_msl": 1018.7,
-				"press_qnh": 1018.6,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
