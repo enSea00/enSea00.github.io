@@ -259,5 +259,11 @@ animation-duration: 1.5s;
 .text {font-size: 11px}
 }
 
+/* --- icons -----------------------------------*/
+.icon-img {
+  width: 1em;
+  height: 1em;
+  vertical-align: text-top;
+}
 
 /* --- End of Styling --------------------------------------------------*/
