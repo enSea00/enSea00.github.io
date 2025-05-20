@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:23 am EST Wednesday 21 May 2025",
+				"refresh_message": "Issued at  7:33 am EST Wednesday 21 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Sydney Airport",
@@ -7235,43 +7235,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 195,
-				"wmo": 94767,
-				"name": "Sydney Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "18/07:30am",
-				"local_date_time_full": "20250518073000",
-				"aifstime_utc": "20250517213000",
-				"lat": -33.9,
-				"lon": 151.2,
-				"apparent_t": 11.0,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 540,
-				"cloud_oktas": 1,
-				"cloud_type": "Stratus",
-				"cloud_type_id": 7,
-				"delta_t": 0.9,
-				"gust_kmh": 19,
-				"gust_kt": 10,
-				"air_temp": 13.6,
-				"dewpt": 12.0,
-				"press": 1020.7,
-				"press_msl": 1020.7,
-				"press_qnh": 1020.7,
-				"press_tend": "-",
-				"rain_trace": "3.8",
-				"rel_hum": 90,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "Drizzle",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
