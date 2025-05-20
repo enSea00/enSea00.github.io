@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:03 am EST Wednesday 21 May 2025",
+				"refresh_message": "Issued at  8:23 am EST Wednesday 21 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Point Perpendicular",
@@ -6088,43 +6088,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 164,
-				"wmo": 95940,
-				"name": "Point Perpendicular",
-				"history_product": "IDN60801",
-				"local_date_time": "18/08:21am",
-				"local_date_time_full": "20250518082100",
-				"aifstime_utc": "20250517222100",
-				"lat": -35.1,
-				"lon": 150.8,
-				"apparent_t": 8.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.3,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 14.6,
-				"dewpt": 8.1,
-				"press": 1021.8,
-				"press_msl": 1021.8,
-				"press_qnh": 1021.9,
-				"press_tend": "-",
-				"rain_trace": "3.6",
-				"rel_hum": 65,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
