@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:33 am EST Wednesday 21 May 2025",
+				"refresh_message": "Issued at  7:42 am EST Wednesday 21 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Jervis Bay Airfield",
@@ -7198,43 +7198,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 35,
 				"wind_spd_kt": 19
-			},
-			{
-				"sort_order": 194,
-				"wmo": 94751,
-				"name": "Jervis Bay Airfield",
-				"history_product": "IDN60801",
-				"local_date_time": "18/07:34am",
-				"local_date_time_full": "20250518073400",
-				"aifstime_utc": "20250517213400",
-				"lat": -35.1,
-				"lon": 150.7,
-				"apparent_t": 7.6,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1080,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.2,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 14.2,
-				"dewpt": 7.7,
-				"press": 1021.6,
-				"press_msl": 1021.6,
-				"press_qnh": 1021.7,
-				"press_tend": "-",
-				"rain_trace": "8.2",
-				"rel_hum": 65,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
