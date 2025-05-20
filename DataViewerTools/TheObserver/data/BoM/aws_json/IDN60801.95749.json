@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:03 am EST Wednesday 21 May 2025",
+				"refresh_message": "Issued at  9:23 am EST Wednesday 21 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Kiama",
@@ -6273,43 +6273,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 33,
 				"wind_spd_kt": 18
-			},
-			{
-				"sort_order": 169,
-				"wmo": 95749,
-				"name": "Kiama",
-				"history_product": "IDN60801",
-				"local_date_time": "18/09:03am",
-				"local_date_time_full": "20250518090300",
-				"aifstime_utc": "20250517230300",
-				"lat": -34.7,
-				"lon": 150.9,
-				"apparent_t": 7.6,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.3,
-				"gust_kmh": 54,
-				"gust_kt": 29,
-				"air_temp": 14.7,
-				"dewpt": 8.0,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 64,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 35,
-				"wind_spd_kt": 19
 			}
 		]
 	}
