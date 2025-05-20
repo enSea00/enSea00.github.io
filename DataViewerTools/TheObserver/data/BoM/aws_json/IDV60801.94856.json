@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:32 am EST Wednesday 21 May 2025",
+				"refresh_message": "Issued at  9:42 am EST Wednesday 21 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Puckapunyal West (Defence)",
@@ -5681,43 +5681,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 35,
 				"wind_spd_kt": 19
-			},
-			{
-				"sort_order": 153,
-				"wmo": 94856,
-				"name": "Puckapunyal West (Defence)",
-				"history_product": "IDV60801",
-				"local_date_time": "18/09:32am",
-				"local_date_time_full": "20250518093200",
-				"aifstime_utc": "20250517233200",
-				"lat": -37.0,
-				"lon": 144.9,
-				"apparent_t": -0.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.5,
-				"gust_kmh": 59,
-				"gust_kt": 32,
-				"air_temp": 8.8,
-				"dewpt": 0.3,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 55,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 39,
-				"wind_spd_kt": 21
 			}
 		]
 	}

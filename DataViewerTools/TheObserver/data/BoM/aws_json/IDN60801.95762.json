@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:33 am EST Wednesday 21 May 2025",
+				"refresh_message": "Issued at  9:43 am EST Wednesday 21 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Tamworth Airport",
@@ -5718,43 +5718,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 154,
-				"wmo": 95762,
-				"name": "Tamworth Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "18/09:34am",
-				"local_date_time_full": "20250518093400",
-				"aifstime_utc": "20250517233400",
-				"lat": -31.1,
-				"lon": 150.8,
-				"apparent_t": 10.2,
-				"cloud": "Cloudy",
-				"cloud_base_m": 60,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 10.8,
-				"dewpt": 10.5,
-				"press": 1020.4,
-				"press_msl": 1020.4,
-				"press_qnh": 1020.8,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "1",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
