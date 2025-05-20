@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:32 pm EST Tuesday 20 May 2025",
+				"refresh_message": "Issued at  9:42 pm EST Tuesday 20 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Laverton",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94865,
-				"name": "Laverton",
-				"history_product": "IDV60801",
-				"local_date_time": "17/09:32pm",
-				"local_date_time_full": "20250517213200",
-				"aifstime_utc": "20250517113200",
-				"lat": -37.9,
-				"lon": 144.8,
-				"apparent_t": 7.3,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1020,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 9.2,
-				"dewpt": 9.1,
-				"press": 1025.2,
-				"press_msl": 1025.2,
-				"press_qnh": 1025.2,
-				"press_tend": "-",
-				"rain_trace": "8.6",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
