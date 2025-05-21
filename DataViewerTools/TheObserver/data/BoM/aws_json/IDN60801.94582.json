@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Thursday 22 May 2025",
+				"refresh_message": "Issued at  9:03 am EST Thursday 22 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Murwillumbah",
@@ -205,43 +205,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 5,
-				"wmo": 94582,
-				"name": "Murwillumbah",
-				"history_product": "IDN60801",
-				"local_date_time": "19/09:00am",
-				"local_date_time_full": "20250519090000",
-				"aifstime_utc": "20250518230000",
-				"lat": -28.3,
-				"lon": 153.4,
-				"apparent_t": 17.1,
-				"cloud": "Mostly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 7,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.8,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 18.1,
-				"dewpt": 11.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 63,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "30",
-				"weather": "Fine",
-				"wind_dir": "S",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
