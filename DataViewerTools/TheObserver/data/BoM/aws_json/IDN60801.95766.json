@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:13 am EST Thursday 22 May 2025",
+				"refresh_message": "Issued at  1:23 am EST Thursday 22 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Sydney Harbour",
@@ -6347,43 +6347,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 43,
 				"wind_spd_kt": 23
-			},
-			{
-				"sort_order": 171,
-				"wmo": 95766,
-				"name": "Sydney Harbour",
-				"history_product": "IDN60801",
-				"local_date_time": "19/01:14am",
-				"local_date_time_full": "20250519011400",
-				"aifstime_utc": "20250518151400",
-				"lat": -33.8,
-				"lon": 151.3,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 65,
-				"gust_kt": 35,
-				"air_temp": 16.0,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 46,
-				"wind_spd_kt": 25
 			}
 		]
 	}
