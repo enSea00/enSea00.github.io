@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:03 am EST Thursday 22 May 2025",
+				"refresh_message": "Issued at  3:22 am EST Thursday 22 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Norah Head",
@@ -6347,43 +6347,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 39,
 				"wind_spd_kt": 21
-			},
-			{
-				"sort_order": 171,
-				"wmo": 95770,
-				"name": "Norah Head",
-				"history_product": "IDN60801",
-				"local_date_time": "19/03:03am",
-				"local_date_time_full": "20250519030300",
-				"aifstime_utc": "20250518170300",
-				"lat": -33.3,
-				"lon": 151.6,
-				"apparent_t": 7.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.9,
-				"gust_kmh": 67,
-				"gust_kt": 36,
-				"air_temp": 15.4,
-				"dewpt": 13.8,
-				"press": 1022.5,
-				"press_msl": 1022.5,
-				"press_qnh": 1022.6,
-				"press_tend": "-",
-				"rain_trace": "46.2",
-				"rel_hum": 90,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 46,
-				"wind_spd_kt": 25
 			}
 		]
 	}
