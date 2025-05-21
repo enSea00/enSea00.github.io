@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:33 pm EST Wednesday 21 May 2025",
+				"refresh_message": "Issued at  8:43 pm EST Wednesday 21 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Rockhampton",
@@ -5570,43 +5570,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 150,
-				"wmo": 94374,
-				"name": "Rockhampton",
-				"history_product": "IDQ60801",
-				"local_date_time": "18/08:41pm",
-				"local_date_time_full": "20250518204100",
-				"aifstime_utc": "20250518104100",
-				"lat": -23.4,
-				"lon": 150.5,
-				"apparent_t": 19.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 2190,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.7,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 18.6,
-				"dewpt": 13.9,
-				"press": 1016.8,
-				"press_msl": 1016.8,
-				"press_qnh": 1016.9,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 74,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 2,
-				"wind_spd_kt": 1
 			}
 		]
 	}
