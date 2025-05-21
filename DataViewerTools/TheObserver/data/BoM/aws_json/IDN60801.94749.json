@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:34 am EST Thursday 22 May 2025",
+				"refresh_message": "Issued at  7:43 am EST Thursday 22 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Bellambi",
@@ -6310,43 +6310,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 170,
-				"wmo": 94749,
-				"name": "Bellambi",
-				"history_product": "IDN60801",
-				"local_date_time": "19/07:34am",
-				"local_date_time_full": "20250519073400",
-				"aifstime_utc": "20250518213400",
-				"lat": -34.4,
-				"lon": 150.9,
-				"apparent_t": 6.0,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1470,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.7,
-				"gust_kmh": 56,
-				"gust_kt": 30,
-				"air_temp": 14.8,
-				"dewpt": 7.4,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "5.2",
-				"rel_hum": 61,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 43,
-				"wind_spd_kt": 23
 			}
 		]
 	}
