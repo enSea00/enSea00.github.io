@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:21 pm CST Wednesday 21 May 2025",
+				"refresh_message": "Issued at  5:41 pm CST Wednesday 21 May 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Jervois",
@@ -4978,43 +4978,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 134,
-				"wmo": 94327,
-				"name": "Jervois",
-				"history_product": "IDD60801",
-				"local_date_time": "18/05:30pm",
-				"local_date_time_full": "20250518173000",
-				"aifstime_utc": "20250518080000",
-				"lat": -22.9,
-				"lon": 136.1,
-				"apparent_t": 13.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 8.3,
-				"gust_kmh": 32,
-				"gust_kt": 17,
-				"air_temp": 19.6,
-				"dewpt": 1.6,
-				"press": 1022.9,
-				"press_msl": 1022.9,
-				"press_qnh": 1023.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 30,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 22,
-				"wind_spd_kt": 12
 			}
 		]
 	}
