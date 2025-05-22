@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:02 am EST Friday 23 May 2025",
+				"refresh_message": "Issued at  7:22 am EST Friday 23 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "East Sale Airport",
@@ -35,8 +35,8 @@
 				"cloud": "Cloudy",
 				"cloud_base_m": 210,
 				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
+				"cloud_type": "Stratus",
+				"cloud_type_id": 7,
 				"delta_t": 0.0,
 				"gust_kmh": 11,
 				"gust_kt": 6,
@@ -52,7 +52,7 @@
 				"swell_dir_worded": "-",
 				"swell_height": null,
 				"swell_period": null,
-				"vis_km": "5",
+				"vis_km": "2",
 				"weather": "-",
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 9,
