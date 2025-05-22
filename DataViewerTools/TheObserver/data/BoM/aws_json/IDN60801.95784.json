@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 pm EST Thursday 22 May 2025",
+				"refresh_message": "Issued at  8:52 pm EST Thursday 22 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Taree Airport",
@@ -10195,43 +10195,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 39,
 				"wind_spd_kt": 21
-			},
-			{
-				"sort_order": 275,
-				"wmo": 95784,
-				"name": "Taree Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "19/08:42pm",
-				"local_date_time_full": "20250519204200",
-				"aifstime_utc": "20250519104200",
-				"lat": -31.9,
-				"lon": 152.5,
-				"apparent_t": 8.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 510,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 61,
-				"gust_kt": 33,
-				"air_temp": 15.0,
-				"dewpt": 15.0,
-				"press": 1022.4,
-				"press_msl": 1022.4,
-				"press_qnh": 1022.4,
-				"press_tend": "-",
-				"rain_trace": "65.6",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 43,
-				"wind_spd_kt": 23
 			}
 		]
 	}
