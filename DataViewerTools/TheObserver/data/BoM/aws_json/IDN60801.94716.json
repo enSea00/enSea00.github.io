@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:43 am EST Friday 23 May 2025",
+				"refresh_message": "Issued at  9:03 am EST Friday 23 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Goulburn",
@@ -94,43 +94,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94716,
-				"name": "Goulburn",
-				"history_product": "IDN60801",
-				"local_date_time": "20/09:00am",
-				"local_date_time_full": "20250520090000",
-				"aifstime_utc": "20250519230000",
-				"lat": -34.7,
-				"lon": 149.7,
-				"apparent_t": 6.7,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 200,
-				"cloud_oktas": 2,
-				"cloud_type": "-",
-				"cloud_type_id": 38,
-				"delta_t": 1.2,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 9.2,
-				"dewpt": 6.7,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.1",
-				"rel_hum": 84,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "30",
-				"weather": "Fine",
-				"wind_dir": "E",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
