@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:33 am EST Friday 23 May 2025",
+				"refresh_message": "Issued at  3:42 am EST Friday 23 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "North Head",
@@ -6310,43 +6310,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 33,
 				"wind_spd_kt": 18
-			},
-			{
-				"sort_order": 170,
-				"wmo": 95768,
-				"name": "North Head",
-				"history_product": "IDN60801",
-				"local_date_time": "20/03:38am",
-				"local_date_time_full": "20250520033800",
-				"aifstime_utc": "20250519173800",
-				"lat": -33.8,
-				"lon": 151.3,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 56,
-				"gust_kt": 30,
-				"air_temp": null,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 37,
-				"wind_spd_kt": 20
 			}
 		]
 	}
