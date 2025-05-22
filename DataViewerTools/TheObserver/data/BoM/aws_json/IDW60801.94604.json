@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:33 am WST Thursday 22 May 2025",
+				"refresh_message": "Issued at 11:53 am WST Thursday 22 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Bunbury",
@@ -5422,43 +5422,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 33,
 				"wind_spd_kt": 18
-			},
-			{
-				"sort_order": 146,
-				"wmo": 94604,
-				"name": "Bunbury",
-				"history_product": "IDW60801",
-				"local_date_time": "19/11:43am",
-				"local_date_time_full": "20250519114300",
-				"aifstime_utc": "20250519034300",
-				"lat": -33.4,
-				"lon": 115.6,
-				"apparent_t": 15.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.0,
-				"gust_kmh": 54,
-				"gust_kt": 29,
-				"air_temp": 18.9,
-				"dewpt": 17.2,
-				"press": 1020.7,
-				"press_msl": 1020.7,
-				"press_qnh": 1020.8,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 90,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
