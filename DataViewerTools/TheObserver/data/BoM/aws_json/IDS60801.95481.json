@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:21 pm CST Thursday 22 May 2025",
+				"refresh_message": "Issued at  2:41 pm CST Thursday 22 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Moomba Airport",
@@ -5274,43 +5274,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 142,
-				"wmo": 95481,
-				"name": "Moomba Airport",
-				"history_product": "IDS60801",
-				"local_date_time": "19/02:30pm",
-				"local_date_time_full": "20250519143000",
-				"aifstime_utc": "20250519050000",
-				"lat": -28.1,
-				"lon": 140.2,
-				"apparent_t": 14.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 8.5,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 19.7,
-				"dewpt": 0.7,
-				"press": 1024.9,
-				"press_msl": 1024.9,
-				"press_qnh": 1025.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 28,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 20,
-				"wind_spd_kt": 11
 			}
 		]
 	}
