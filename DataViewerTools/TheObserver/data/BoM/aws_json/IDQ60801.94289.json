@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:03 pm EST Thursday 22 May 2025",
+				"refresh_message": "Issued at  9:22 pm EST Thursday 22 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Holmes Reef",
@@ -38,8 +38,8 @@
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": null,
-				"gust_kmh": 39,
-				"gust_kt": 21,
+				"gust_kmh": null,
+				"gust_kt": null,
 				"air_temp": 26.2,
 				"dewpt": null,
 				"press": 1011.8,
@@ -54,9 +54,9 @@
 				"swell_period": null,
 				"vis_km": "-",
 				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 37,
-				"wind_spd_kt": 20
+				"wind_dir": "-",
+				"wind_spd_kmh": null,
+				"wind_spd_kt": null
 			},
 			{
 				"sort_order": 1,
