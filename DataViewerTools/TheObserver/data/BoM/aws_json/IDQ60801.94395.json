@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:03 am EST Friday 23 May 2025",
+				"refresh_message": "Issued at  3:22 am EST Friday 23 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Clermont Airport",
@@ -32,9 +32,9 @@
 				"lat": -22.8,
 				"lon": 147.6,
 				"apparent_t": 13.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
+				"cloud": "Cloudy",
+				"cloud_base_m": 2500,
+				"cloud_oktas": 8,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 1.2,
