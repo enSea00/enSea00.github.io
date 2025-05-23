@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:22 am EST Saturday 24 May 2025",
+				"refresh_message": "Issued at  1:33 am EST Saturday 24 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Fort Denison",
@@ -5903,43 +5903,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 159,
-				"wmo": 94769,
-				"name": "Fort Denison",
-				"history_product": "IDN60801",
-				"local_date_time": "21/01:30am",
-				"local_date_time_full": "20250521013000",
-				"aifstime_utc": "20250520153000",
-				"lat": -33.9,
-				"lon": 151.2,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": null,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
