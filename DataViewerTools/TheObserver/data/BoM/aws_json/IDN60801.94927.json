@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:03 pm EST Friday 23 May 2025",
+				"refresh_message": "Issued at  3:22 pm EST Friday 23 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Braidwood",
@@ -7716,43 +7716,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 208,
-				"wmo": 94927,
-				"name": "Braidwood",
-				"history_product": "IDN60801",
-				"local_date_time": "20/03:12pm",
-				"local_date_time_full": "20250520151200",
-				"aifstime_utc": "20250520051200",
-				"lat": -35.4,
-				"lon": 149.8,
-				"apparent_t": 7.8,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 360,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.1,
-				"gust_kmh": 19,
-				"gust_kt": 10,
-				"air_temp": 10.6,
-				"dewpt": 8.5,
-				"press": 1030.6,
-				"press_msl": 1030.6,
-				"press_qnh": 1030.4,
-				"press_tend": "-",
-				"rain_trace": "1.2",
-				"rel_hum": 87,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
