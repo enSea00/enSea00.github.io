@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:41 am CST Saturday 24 May 2025",
+				"refresh_message": "Issued at  9:01 am CST Saturday 24 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Maitland",
@@ -94,43 +94,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94665,
-				"name": "Maitland",
-				"history_product": "IDS60801",
-				"local_date_time": "21/09:00am",
-				"local_date_time_full": "20250521090000",
-				"aifstime_utc": "20250520233000",
-				"lat": -34.4,
-				"lon": 137.7,
-				"apparent_t": 11.9,
-				"cloud": "Mostly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 6,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.1,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 13.2,
-				"dewpt": 11.1,
-				"press": 1028.5,
-				"press_msl": 1028.5,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "3.0",
-				"rel_hum": 87,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "25",
-				"weather": "Fine",
-				"wind_dir": "N",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
