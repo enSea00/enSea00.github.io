@@ -15,7 +15,7 @@ async function getData_Weather_BoM(loc) {
             console.warn('No observation data found.');
             return null;
         }
-        console.log(observations)
+
         // map from raw cardinal wind direction to degN
         const compassToDegrees = {
             N: 0, NNE: 22.5, NE: 45, ENE: 67.5,
@@ -53,6 +53,8 @@ async function getData_Weather_BoM(loc) {
             return newObs; // <--- THIS was missing
         });
         
+        observations.sort((a, b) => a.timestamp - b.timestamp); // sort with from earliest to latets (the raw data is latest to earliest)
+
         // map from raw variable names to print-friendly names - the strings 
         const variableNameMap = {
             local_date_time_full: "DateTime",

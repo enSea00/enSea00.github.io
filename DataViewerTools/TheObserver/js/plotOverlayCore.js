@@ -5,7 +5,7 @@ const definitionsByType = {
         <h3>Definitions</h3>
             <ul>
                 <li>T<sub>a</sub> - Ambient air temperature (°C)</li>
-                <li>T<sub>d</sub> - dew point temperature (°C)</li>
+                <li>T<sub>d</sub> - Dew point temperature (°C)</li>
                 <li>T<sub>app</sub> - Steadman apparent air temprature (°C) <a href="http://www.bom.gov.au/info/thermal_stress/" target="_blank">More information</a></li>
                 <li>R<sub>h</sub> - Relative humidity (%)	</li>
                 <li>Wind Dir - Wind direction relative to True North (°C), from which the wind is blowing</li>
@@ -147,8 +147,6 @@ function createTimeseriesSubplots(observations, variableNameMap, subplotGroups, 
     .filter(group => group.length > 0); // Remove empty groups
 
 
-
-  
     const traces = [];
     const timestamps = cleanedObservations.map(obs => obs.timestamp);
 
@@ -194,23 +192,35 @@ function createTimeseriesSubplots(observations, variableNameMap, subplotGroups, 
         group.forEach(variable => {
             const yData = cleanedObservations.map(obs => obs[variable] ?? null);
             if (!yData.some(val => val !== null)) return; // Skip empty
-    
+
+            // const latestValidIndex = [...yData].reverse().findIndex(val => val !== null && val !== undefined && !Number.isNaN(val));
+            const latestValue = yData.length > 0 ? yData[yData.length-1] : 'n/a';
+            const includeMarkers = timestamps.length < 10; // arbitrarily set minimum timeseries length below which markers are included
+
             traces.push({
                 x: timestamps,
                 y: yData,
-                name: variable,
-                line: { color: variableColors[variable] },
+                name: `${variable} :: [${latestValue}]`,  // 💡 append latest value to name
                 xaxis: `x`,
                 yaxis: `y${index + 1}`,
-                mode: "lines",
+                mode: includeMarkers ? "lines+markers" : "lines",
+                line: includeMarkers ?  { color: variableColors[variable], dash: 'dash'  } : { color: variableColors[variable] },
+                marker: {
+                    color: variableColors[variable],
+                    size: 14,
+                    symbol: 'circle',
+                    opacity: 0.8,
+                },
                 connectgaps: false,
                 type: "scatter",
                 hovertemplate: yData.every(v => v === null)
-                    ? '' // suppress hover entirely
+                    ? '' 
                     : `${variable}: %{y}<extra></extra>`,
             });
+
         });
 
+        
         const axisId = index === 0 ? "" : index + 1;
         layout[`xaxis${axisId}`] = configureAxis({
             title: index === subplotGroups.length - 1 ? 'Date Time (Local)' : '',
@@ -219,6 +229,22 @@ function createTimeseriesSubplots(observations, variableNameMap, subplotGroups, 
 
         const yTitle = group[0].split(' ').pop();
         layout[`yaxis${axisId}`] = configureAxis({ title: yTitle });
+
+        const latestTime = new Date(Math.max(...timestamps.map(t => new Date(t).getTime())));
+        // const timeString = latestTime.toLocaleString(); // or use your preferred format
+        const timeString = new Intl.DateTimeFormat('en-GB', {
+                                day: '2-digit', month: '2-digit', year: 'numeric',
+                                hour: '2-digit', minute: '2-digit',
+                                hour12: false
+                                }).format(latestTime).replace(',', '');
+
+        layout.legend = {
+        title: {
+            text: `Legend [Latest] <br>[<i>${timeString}</i>]`
+        },
+        font: { color: 'white' },
+        bgcolor: 'rgba(0,0,0,0)',
+        };
 
     });
   
@@ -247,6 +273,76 @@ function configureAxis(axis) {
         title_standoff: axis.title_standoff || 25, // Ensure the right axis label has more space from the plot
     };
 }
+
+// Get and display latest data values in a box
+function updateLatestValuesBox(container, data) {
+  // Remove any previous box
+  const existingBox = container.querySelector('.latest-values-box');
+  if (existingBox) existingBox.remove();
+
+  // Determine the latest timestamp (assumes all traces share the same x-axis)
+  const latestTimestamps = data.map(trace => {
+    const len = trace.x.length;
+    return trace.x[len - 1]; // ISO string or Date object
+  });
+
+  // Use the most recent of all latest timestamps
+  const latestTimestamp = new Date(Math.max(...latestTimestamps.map(t => new Date(t).getTime())));
+  const timestampStr = latestTimestamp.toLocaleString(); // format as local date/time string
+
+  // Build the list of latest values
+  const latestValues = data.map(trace => {
+    const len = trace.x.length;
+    return {
+      name: trace.name || 'Trace',
+      color: trace.line?.color || '#000',
+      value: trace.y[len - 1],
+    };
+  });
+
+  // Create the info box
+  const latestValueBox = document.createElement('div');
+  latestValueBox.className = 'latest-values-box';
+  latestValueBox.style.position = 'absolute';
+  latestValueBox.style.background = 'rgba(255,255,255,0.85)';
+  latestValueBox.style.border = '1px solid #ccc';
+  latestValueBox.style.borderRadius = '8px';
+  latestValueBox.style.padding = '8px';
+  latestValueBox.style.fontSize = '12px';
+  latestValueBox.style.zIndex = 10;
+  latestValueBox.style.boxShadow = '0 2px 5px rgba(0,0,0,0.2)';
+
+  latestValueBox.innerHTML = `
+    <b>Latest Values</b><br>
+    <div style="margin-bottom: 6px; color: #444;"><i>${timestampStr}</i></div>
+    ${latestValues.map(val => `
+      <div>
+        <span style="display:inline-block;width:10px;height:10px;background:${val.color};margin-right:6px;border-radius:50%;"></span>
+        <strong>${val.name}:</strong> ${val.value}
+      </div>
+    `).join('')}
+  `;
+
+  container.appendChild(latestValueBox);
+
+  // Position the box below the legend
+  setTimeout(() => {
+    const legend = container.querySelector('.legend');
+    if (legend) {
+      const rect = legend.getBoundingClientRect();
+      const containerRect = container.getBoundingClientRect();
+      const top = rect.top - containerRect.top + rect.height + 10;
+      const left = rect.left - containerRect.left;
+      latestValueBox.style.top = `${top}px`;
+      latestValueBox.style.left = `${left}px`;
+    } else {
+      latestValueBox.style.top = '50px';
+      latestValueBox.style.right = '10px';
+    }
+  }, 0);
+}
+
+
 
 // Show the overlay with the plot
 function showPlotOverlay(data, layout, loc, attributionHTML = '') {
@@ -300,6 +396,10 @@ function showPlotOverlay(data, layout, loc, attributionHTML = '') {
     });
 
     Plotly.newPlot(plotContainer, data, layout, { displayModeBar: false });
+//     Plotly.newPlot(plotContainer, data, layout, { displayModeBar: false }).then(() => {
+//      updateLatestValuesBox(plotContainer, data);  // pass the actual DOM element
+// });
+
 
     window.addEventListener('resize', () => {
         Plotly.Plots.resize(plotContainer);

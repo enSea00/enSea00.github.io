@@ -69,7 +69,21 @@ async function getData_TidePredictions_BoM(loc) {
         const dateStrings = daysData.map(d => parseBoMDateLabel(d.day));
         // const allShapes = await getDayNightShapes(loc.Latitude, loc.Longitude, dateStrings);
         const allShapes = await getDayNightShapes(loc.Latitude, loc.Longitude, dateStrings, timeZone);
-
+        const now = DateTime.now().setZone(timeZone).toISO();
+        allShapes.push({
+            type: 'line',
+            x0: now,
+            x1: now,
+            y0: 0,
+            y1: 1,
+            xref: 'x',
+            yref: 'paper',
+            line: {
+                color: 'red',
+                width: 2,
+                dash: 'dot'
+            }
+        });
 
         // Annotations
         const allAnnotations = [];
@@ -120,7 +134,7 @@ async function getData_TidePredictions_BoM(loc) {
         const data = [tracePrediction];
         const customAttribution = `
         <p>This tide prediction is based on the <a href="http://www.bom.gov.au/australia/tides/" target="_blank">Australian Bureau of Meteorology tide tables</a> 
-        with the tide curves being interpolated from the <a href="https://services.hydro.gov.au/antt2025/?page=Calculating-Times-and-Heights-of-High-and-Low-Waters" target="_blank">Australian National Tide Tables</a>.</p>`;
+        with the tide curves being interpolated using the method provided in the <a href="https://services.hydro.gov.au/antt2025/?page=Calculating-Times-and-Heights-of-High-and-Low-Waters" target="_blank">Australian National Tide Tables</a>.</p>`;
         
         showPlotOverlay(data, layout, loc, customAttribution);
 
