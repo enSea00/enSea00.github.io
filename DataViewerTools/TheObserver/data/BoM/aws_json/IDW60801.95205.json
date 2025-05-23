@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:53 pm WST Friday 23 May 2025",
+				"refresh_message": "Issued at  3:13 pm WST Friday 23 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Derby",
@@ -5200,43 +5200,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 140,
-				"wmo": 95205,
-				"name": "Derby",
-				"history_product": "IDW60801",
-				"local_date_time": "20/03:00pm",
-				"local_date_time_full": "20250520150000",
-				"aifstime_utc": "20250520070000",
-				"lat": -17.4,
-				"lon": 123.7,
-				"apparent_t": 26.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 13.1,
-				"gust_kmh": 19,
-				"gust_kt": 10,
-				"air_temp": 29.8,
-				"dewpt": 4.4,
-				"press": 1012.0,
-				"press_msl": 1012.0,
-				"press_qnh": 1012.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 20,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
