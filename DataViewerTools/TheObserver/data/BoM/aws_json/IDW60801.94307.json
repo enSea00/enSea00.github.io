@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:42 am WST Saturday 24 May 2025",
+				"refresh_message": "Issued at  2:52 am WST Saturday 24 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Legendre Island",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 50,
 				"wind_spd_kt": 27
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94307,
-				"name": "Legendre Island",
-				"history_product": "IDW60801",
-				"local_date_time": "21/02:51am",
-				"local_date_time_full": "20250521025100",
-				"aifstime_utc": "20250520185100",
-				"lat": -20.4,
-				"lon": 116.8,
-				"apparent_t": 14.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 8.4,
-				"gust_kmh": 63,
-				"gust_kt": 34,
-				"air_temp": 23.8,
-				"dewpt": 7.8,
-				"press": 1017.3,
-				"press_msl": 1017.3,
-				"press_qnh": 1017.5,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 36,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 44,
-				"wind_spd_kt": 24
 			}
 		]
 	}
