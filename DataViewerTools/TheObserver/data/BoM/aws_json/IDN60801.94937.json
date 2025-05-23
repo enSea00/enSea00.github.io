@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:43 am EST Saturday 24 May 2025",
+				"refresh_message": "Issued at  9:03 am EST Saturday 24 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Moruya Heads",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94937,
+				"name": "Moruya Heads",
+				"history_product": "IDN60801",
+				"local_date_time": "24/09:00am",
+				"local_date_time_full": "20250524090000",
+				"aifstime_utc": "20250523230000",
+				"lat": -35.9,
+				"lon": 150.2,
+				"apparent_t": 13.9,
+				"cloud": "Mostly clear",
+				"cloud_base_m": 1000,
+				"cloud_oktas": 1,
+				"cloud_type": "-",
+				"cloud_type_id": 31,
+				"delta_t": 2.0,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 16.0,
+				"dewpt": 12.4,
+				"press": 1010.0,
+				"press_msl": 1010.0,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "24.0",
+				"rel_hum": 79,
+				"sea_state": "1",
+				"swell_dir_worded": "NE",
+				"swell_height": 2.5,
+				"swell_period": 11,
+				"vis_km": "30",
+				"weather": "Fine",
+				"wind_dir": "NNE",
+				"wind_spd_kmh": 15,
+				"wind_spd_kt": 8
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94937,
 				"name": "Moruya Heads",
 				"history_product": "IDN60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 10
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94937,
 				"name": "Moruya Heads",
 				"history_product": "IDN60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 22
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94937,
 				"name": "Moruya Heads",
 				"history_product": "IDN60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94937,
 				"name": "Moruya Heads",
 				"history_product": "IDN60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94937,
 				"name": "Moruya Heads",
 				"history_product": "IDN60801",
@@ -205,43 +242,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 5,
-				"wmo": 94937,
-				"name": "Moruya Heads",
-				"history_product": "IDN60801",
-				"local_date_time": "21/09:00am",
-				"local_date_time_full": "20250521090000",
-				"aifstime_utc": "20250520230000",
-				"lat": -35.9,
-				"lon": 150.2,
-				"apparent_t": 12.3,
-				"cloud": "Mostly cloudy",
-				"cloud_base_m": 1000,
-				"cloud_oktas": 6,
-				"cloud_type": "-",
-				"cloud_type_id": 35,
-				"delta_t": 1.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 13.8,
-				"dewpt": 11.9,
-				"press": 1029.4,
-				"press_msl": 1029.4,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "5.0",
-				"rel_hum": 88,
-				"sea_state": "1",
-				"swell_dir_worded": "NE",
-				"swell_height": 2.0,
-				"swell_period": 9,
-				"vis_km": "30",
-				"weather": "Fine",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}

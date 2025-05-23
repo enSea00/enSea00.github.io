@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:43 am EST Saturday 24 May 2025",
+				"refresh_message": "Issued at  9:03 am EST Saturday 24 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Lake Cargelligo",
@@ -94,43 +94,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 2,
-				"wmo": 95707,
-				"name": "Lake Cargelligo",
-				"history_product": "IDN60801",
-				"local_date_time": "21/09:00am",
-				"local_date_time_full": "20250521090000",
-				"aifstime_utc": "20250520230000",
-				"lat": -33.3,
-				"lon": 146.4,
-				"apparent_t": 8.9,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 2.1,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 11.9,
-				"dewpt": 7.6,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 75,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "15",
-				"weather": "Fine",
-				"wind_dir": "S",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
