@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:33 pm EST Saturday 24 May 2025",
+				"refresh_message": "Issued at 11:42 pm EST Saturday 24 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Moruya Airport",
@@ -7975,43 +7975,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 215,
-				"wmo": 95937,
-				"name": "Moruya Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "21/11:33pm",
-				"local_date_time_full": "20250521233300",
-				"aifstime_utc": "20250521133300",
-				"lat": -35.9,
-				"lon": 150.1,
-				"apparent_t": 14.0,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 570,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 14.6,
-				"dewpt": 13.5,
-				"press": 1026.0,
-				"press_msl": 1026.0,
-				"press_qnh": 1026.0,
-				"press_tend": "-",
-				"rain_trace": "1.8",
-				"rel_hum": 93,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
