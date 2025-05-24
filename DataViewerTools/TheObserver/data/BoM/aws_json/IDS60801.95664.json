@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:01 pm CST Saturday 24 May 2025",
+				"refresh_message": "Issued at  7:11 pm CST Saturday 24 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Whyalla",
@@ -6014,43 +6014,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 162,
-				"wmo": 95664,
-				"name": "Whyalla",
-				"history_product": "IDS60801",
-				"local_date_time": "21/07:07pm",
-				"local_date_time_full": "20250521190700",
-				"aifstime_utc": "20250521093700",
-				"lat": -33.1,
-				"lon": 137.5,
-				"apparent_t": 11.8,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 270,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.7,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 14.4,
-				"dewpt": 9.2,
-				"press": 1026.1,
-				"press_msl": 1026.1,
-				"press_qnh": 1026.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 71,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "9",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
