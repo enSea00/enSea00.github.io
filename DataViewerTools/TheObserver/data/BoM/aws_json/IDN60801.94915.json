@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:33 am EST Monday 26 May 2025",
+				"refresh_message": "Issued at  6:42 am EST Monday 26 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Perisher Valley",
@@ -5755,43 +5755,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 155,
-				"wmo": 94915,
-				"name": "Perisher Valley",
-				"history_product": "IDN60801",
-				"local_date_time": "23/06:38am",
-				"local_date_time_full": "20250523063800",
-				"aifstime_utc": "20250522203800",
-				"lat": -36.4,
-				"lon": 148.4,
-				"apparent_t": 0.6,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 6.7,
-				"dewpt": 6.7,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "44.4",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
