@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:42 pm EST Sunday 25 May 2025",
+				"refresh_message": "Issued at  6:52 pm EST Sunday 25 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Lucas Heights (ANSTO)",
@@ -10639,43 +10639,6 @@
 				"wind_dir": "NE",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 287,
-				"wmo": 95757,
-				"name": "Lucas Heights (ANSTO)",
-				"history_product": "IDN60801",
-				"local_date_time": "22/06:45pm",
-				"local_date_time_full": "20250522184500",
-				"aifstime_utc": "20250522084500",
-				"lat": -34.1,
-				"lon": 151.0,
-				"apparent_t": 15.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.4,
-				"gust_kmh": 41,
-				"gust_kt": 22,
-				"air_temp": 17.4,
-				"dewpt": 16.8,
-				"press": 1017.3,
-				"press_msl": null,
-				"press_qnh": 1017.3,
-				"press_tend": "-",
-				"rain_trace": "21.6",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 22,
-				"wind_spd_kt": 12
 			}
 		]
 	}
