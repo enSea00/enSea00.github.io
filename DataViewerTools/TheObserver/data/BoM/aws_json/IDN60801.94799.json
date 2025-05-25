@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:03 pm EST Sunday 25 May 2025",
+				"refresh_message": "Issued at  3:22 pm EST Sunday 25 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Port Macquarie Airport",
@@ -7346,43 +7346,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 198,
-				"wmo": 94799,
-				"name": "Port Macquarie Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "22/03:13pm",
-				"local_date_time_full": "20250522151300",
-				"aifstime_utc": "20250522051300",
-				"lat": -31.4,
-				"lon": 152.9,
-				"apparent_t": 20.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 690,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.4,
-				"gust_kmh": 32,
-				"gust_kt": 17,
-				"air_temp": 20.7,
-				"dewpt": 18.5,
-				"press": 1012.7,
-				"press_msl": 1012.7,
-				"press_qnh": 1012.7,
-				"press_tend": "-",
-				"rain_trace": "18.4",
-				"rel_hum": 87,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
