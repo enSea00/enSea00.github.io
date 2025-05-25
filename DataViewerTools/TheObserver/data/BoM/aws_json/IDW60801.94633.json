@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:53 am WST Sunday 25 May 2025",
+				"refresh_message": "Issued at 10:53 am WST Sunday 25 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Corrigin",
@@ -57,43 +57,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 1,
-				"wmo": 94633,
-				"name": "Corrigin",
-				"history_product": "IDW60801",
-				"local_date_time": "22/09:00am",
-				"local_date_time_full": "20250522090000",
-				"aifstime_utc": "20250522010000",
-				"lat": -32.3,
-				"lon": 117.9,
-				"apparent_t": 9.8,
-				"cloud": "Clear",
-				"cloud_base_m": 2500,
-				"cloud_oktas": 0,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.5,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 15.0,
-				"dewpt": 10.3,
-				"press": 1021.7,
-				"press_msl": 1021.7,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 73,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "30",
-				"weather": "Fine",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
