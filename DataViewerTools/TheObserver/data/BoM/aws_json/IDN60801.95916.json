@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:03 am EST Monday 26 May 2025",
+				"refresh_message": "Issued at  3:22 am EST Monday 26 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Cabramurra",
@@ -6088,43 +6088,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 54,
 				"wind_spd_kt": 29
-			},
-			{
-				"sort_order": 164,
-				"wmo": 95916,
-				"name": "Cabramurra",
-				"history_product": "IDN60801",
-				"local_date_time": "23/03:06am",
-				"local_date_time_full": "20250523030600",
-				"aifstime_utc": "20250522170600",
-				"lat": -35.9,
-				"lon": 148.4,
-				"apparent_t": -0.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 67,
-				"gust_kt": 36,
-				"air_temp": 8.4,
-				"dewpt": 7.5,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "2.6",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 46,
-				"wind_spd_kt": 25
 			}
 		]
 	}
