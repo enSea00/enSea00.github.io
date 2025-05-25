@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 12:01 am CST Monday 26 May 2025",
+				"refresh_message": "Issued at 12:21 am CST Monday 26 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Adelaide Airport",
@@ -33,8 +33,8 @@
 				"lon": 138.5,
 				"apparent_t": 11.3,
 				"cloud": "Partly cloudy",
-				"cloud_base_m": 3000,
-				"cloud_oktas": 5,
+				"cloud_base_m": 2500,
+				"cloud_oktas": 4,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 5.1,
@@ -45,7 +45,7 @@
 				"press": 1005.5,
 				"press_msl": 1005.5,
 				"press_qnh": 1005.5,
-				"press_tend": "-",
+				"press_tend": "R",
 				"rain_trace": "0.0",
 				"rel_hum": 51,
 				"sea_state": "-",
