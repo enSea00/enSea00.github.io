@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:41 am CST Tuesday 27 May 2025",
+				"refresh_message": "Issued at  8:01 am CST Tuesday 27 May 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Pirlangimpi",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 143,
-				"wmo": 94119,
-				"name": "Pirlangimpi",
-				"history_product": "IDD60801",
-				"local_date_time": "24/08:00am",
-				"local_date_time_full": "20250524080000",
-				"aifstime_utc": "20250523223000",
-				"lat": -11.4,
-				"lon": 130.4,
-				"apparent_t": 27.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.9,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 23.9,
-				"dewpt": 21.0,
-				"press": 1010.9,
-				"press_msl": 1010.9,
-				"press_qnh": 1011.0,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 84,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
