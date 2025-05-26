@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:43 am WST Tuesday 27 May 2025",
+				"refresh_message": "Issued at  6:53 am WST Tuesday 27 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Solomon Airport",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 147,
-				"wmo": 99217,
-				"name": "Solomon Airport",
-				"history_product": "IDW60801",
-				"local_date_time": "24/06:47am",
-				"local_date_time_full": "20250524064700",
-				"aifstime_utc": "20250523224700",
-				"lat": -22.3,
-				"lon": 117.8,
-				"apparent_t": 4.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.4,
-				"gust_kmh": 6,
-				"gust_kt": 3,
-				"air_temp": 8.0,
-				"dewpt": -8.1,
-				"press": 1012.1,
-				"press_msl": 1012.1,
-				"press_qnh": 1015.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 31,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 2,
-				"wind_spd_kt": 1
 			}
 		]
 	}
