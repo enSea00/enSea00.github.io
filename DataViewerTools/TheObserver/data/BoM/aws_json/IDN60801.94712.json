@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:42 pm EST Monday 26 May 2025",
+				"refresh_message": "Issued at 11:52 pm EST Monday 26 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Young",
@@ -6236,43 +6236,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 168,
-				"wmo": 94712,
-				"name": "Young",
-				"history_product": "IDN60801",
-				"local_date_time": "23/11:47pm",
-				"local_date_time_full": "20250523234700",
-				"aifstime_utc": "20250523134700",
-				"lat": -34.2,
-				"lon": 148.2,
-				"apparent_t": 9.1,
-				"cloud": "Cloudy",
-				"cloud_base_m": 180,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 12.0,
-				"dewpt": 11.1,
-				"press": 1013.7,
-				"press_msl": 1013.7,
-				"press_qnh": 1013.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
