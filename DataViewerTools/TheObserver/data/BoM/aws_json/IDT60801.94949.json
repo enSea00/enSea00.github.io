@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:41 am EST Tuesday 27 May 2025",
+				"refresh_message": "Issued at  1:51 am EST Tuesday 27 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Hogan Island",
@@ -6606,43 +6606,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 48,
 				"wind_spd_kt": 26
-			},
-			{
-				"sort_order": 178,
-				"wmo": 94949,
-				"name": "Hogan Island",
-				"history_product": "IDT60801",
-				"local_date_time": "24/01:43am",
-				"local_date_time_full": "20250524014300",
-				"aifstime_utc": "20250523154300",
-				"lat": -39.2,
-				"lon": 147.0,
-				"apparent_t": 7.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.1,
-				"gust_kmh": 59,
-				"gust_kt": 32,
-				"air_temp": 14.7,
-				"dewpt": 12.7,
-				"press": 1003.4,
-				"press_msl": 1003.4,
-				"press_qnh": 1003.5,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 88,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 41,
-				"wind_spd_kt": 22
 			}
 		]
 	}
