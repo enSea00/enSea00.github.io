@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:31 am EST Tuesday 27 May 2025",
+				"refresh_message": "Issued at  8:41 am EST Tuesday 27 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Launceston Airport",
@@ -6347,43 +6347,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 171,
-				"wmo": 95966,
-				"name": "Launceston Airport",
-				"history_product": "IDT60801",
-				"local_date_time": "24/08:39am",
-				"local_date_time_full": "20250524083900",
-				"aifstime_utc": "20250523223900",
-				"lat": -41.5,
-				"lon": 147.2,
-				"apparent_t": 13.4,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 420,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 13.7,
-				"dewpt": 13.4,
-				"press": 999.3,
-				"press_msl": 999.3,
-				"press_qnh": 999.1,
-				"press_tend": "-",
-				"rain_trace": "13.8",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}

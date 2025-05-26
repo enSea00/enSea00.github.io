@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:01 am CST Tuesday 27 May 2025",
+				"refresh_message": "Issued at  8:11 am CST Tuesday 27 May 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Argyle",
@@ -5718,43 +5718,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 154,
-				"wmo": 94217,
-				"name": "Argyle",
-				"history_product": "IDD60801",
-				"local_date_time": "24/08:11am",
-				"local_date_time_full": "20250524081100",
-				"aifstime_utc": "20250523224100",
-				"lat": -16.6,
-				"lon": 128.5,
-				"apparent_t": 22.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.4,
-				"gust_kmh": 0,
-				"gust_kt": 0,
-				"air_temp": 22.0,
-				"dewpt": 12.5,
-				"press": 1012.5,
-				"press_msl": 1012.5,
-				"press_qnh": 1013.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 54,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}
