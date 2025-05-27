@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:01 am EST Wednesday 28 May 2025",
+				"refresh_message": "Issued at  9:31 am EST Wednesday 28 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Dover",
@@ -31,7 +31,7 @@
 				"aifstime_utc": "20250527230000",
 				"lat": -43.3,
 				"lon": 147.0,
-				"apparent_t": null,
+				"apparent_t": 4.4,
 				"cloud": "Partly cloudy",
 				"cloud_base_m": 300,
 				"cloud_oktas": 5,
@@ -54,9 +54,9 @@
 				"swell_period": null,
 				"vis_km": "20",
 				"weather": "Distant precip.",
-				"wind_dir": "-",
-				"wind_spd_kmh": null,
-				"wind_spd_kt": null
+				"wind_dir": "SW",
+				"wind_spd_kmh": 22,
+				"wind_spd_kt": 12
 			},
 			{
 				"sort_order": 1,
