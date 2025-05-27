@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:52 pm EST Tuesday 27 May 2025",
+				"refresh_message": "Issued at  2:22 pm EST Tuesday 27 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Combienbar",
@@ -5126,43 +5126,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 138,
-				"wmo": 94914,
-				"name": "Combienbar",
-				"history_product": "IDV60801",
-				"local_date_time": "24/02:00pm",
-				"local_date_time_full": "20250524140000",
-				"aifstime_utc": "20250524040000",
-				"lat": -37.3,
-				"lon": 149.0,
-				"apparent_t": 12.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.1,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 15.4,
-				"dewpt": 5.0,
-				"press": 1008.5,
-				"press_msl": 1008.5,
-				"press_qnh": 1009.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 50,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
