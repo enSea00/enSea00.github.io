@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:33 am WST Wednesday 28 May 2025",
+				"refresh_message": "Issued at  6:43 am WST Wednesday 28 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Hopetoun North",
@@ -5607,43 +5607,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 35,
 				"wind_spd_kt": 19
-			},
-			{
-				"sort_order": 151,
-				"wmo": 95635,
-				"name": "Hopetoun North",
-				"history_product": "IDW60801",
-				"local_date_time": "25/06:33am",
-				"local_date_time_full": "20250525063300",
-				"aifstime_utc": "20250524223300",
-				"lat": -33.9,
-				"lon": 120.1,
-				"apparent_t": 7.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.6,
-				"gust_kmh": 54,
-				"gust_kt": 29,
-				"air_temp": 13.9,
-				"dewpt": 8.7,
-				"press": 1006.0,
-				"press_msl": 1006.0,
-				"press_qnh": 1006.0,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 71,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
