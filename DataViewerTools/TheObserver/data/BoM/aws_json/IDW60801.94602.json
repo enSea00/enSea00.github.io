@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:03 am WST Wednesday 28 May 2025",
+				"refresh_message": "Issued at  3:23 am WST Wednesday 28 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Rottnest Island",
@@ -6495,43 +6495,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 28,
 				"wind_spd_kt": 15
-			},
-			{
-				"sort_order": 175,
-				"wmo": 94602,
-				"name": "Rottnest Island",
-				"history_product": "IDW60801",
-				"local_date_time": "25/03:16am",
-				"local_date_time_full": "20250525031600",
-				"aifstime_utc": "20250524191600",
-				"lat": -32.0,
-				"lon": 115.5,
-				"apparent_t": 9.6,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.1,
-				"gust_kmh": 54,
-				"gust_kt": 29,
-				"air_temp": 14.8,
-				"dewpt": 12.8,
-				"press": 1013.8,
-				"press_msl": 1013.8,
-				"press_qnh": 1013.9,
-				"press_tend": "-",
-				"rain_trace": "10.0",
-				"rel_hum": 88,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
