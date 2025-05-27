@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:31 am CST Wednesday 28 May 2025",
+				"refresh_message": "Issued at  7:01 am CST Wednesday 28 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Port Lincoln Airport",
@@ -7420,43 +7420,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 200,
-				"wmo": 95661,
-				"name": "Port Lincoln Airport",
-				"history_product": "IDS60801",
-				"local_date_time": "25/07:00am",
-				"local_date_time_full": "20250525070000",
-				"aifstime_utc": "20250524213000",
-				"lat": -34.6,
-				"lon": 135.9,
-				"apparent_t": 5.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.5,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": 9.8,
-				"dewpt": 6.7,
-				"press": 1010.6,
-				"press_msl": 1010.6,
-				"press_qnh": 1010.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 81,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
