@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:31 am EST Wednesday 28 May 2025",
+				"refresh_message": "Issued at  3:41 am EST Wednesday 28 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Swan Island",
@@ -5718,43 +5718,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 50,
 				"wind_spd_kt": 27
-			},
-			{
-				"sort_order": 154,
-				"wmo": 95985,
-				"name": "Swan Island",
-				"history_product": "IDT60801",
-				"local_date_time": "25/03:36am",
-				"local_date_time_full": "20250525033600",
-				"aifstime_utc": "20250524173600",
-				"lat": -40.7,
-				"lon": 148.1,
-				"apparent_t": 6.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.5,
-				"gust_kmh": 72,
-				"gust_kt": 39,
-				"air_temp": 16.4,
-				"dewpt": 9.8,
-				"press": 1005.5,
-				"press_msl": 1005.5,
-				"press_qnh": 1005.5,
-				"press_tend": "-",
-				"rain_trace": "0.6",
-				"rel_hum": 65,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 52,
-				"wind_spd_kt": 28
 			}
 		]
 	}
