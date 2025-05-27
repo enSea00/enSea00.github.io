@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:42 pm EST Tuesday 27 May 2025",
+				"refresh_message": "Issued at  2:52 pm EST Tuesday 27 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Mount Gellibrand",
@@ -6014,43 +6014,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 54,
 				"wind_spd_kt": 29
-			},
-			{
-				"sort_order": 162,
-				"wmo": 95845,
-				"name": "Mount Gellibrand",
-				"history_product": "IDV60801",
-				"local_date_time": "24/02:45pm",
-				"local_date_time_full": "20250524144500",
-				"aifstime_utc": "20250524044500",
-				"lat": -38.2,
-				"lon": 143.8,
-				"apparent_t": 4.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.4,
-				"gust_kmh": 74,
-				"gust_kt": 40,
-				"air_temp": 16.3,
-				"dewpt": 5.0,
-				"press": 1006.2,
-				"press_msl": 1006.2,
-				"press_qnh": 1006.2,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 47,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 56,
-				"wind_spd_kt": 30
 			}
 		]
 	}
