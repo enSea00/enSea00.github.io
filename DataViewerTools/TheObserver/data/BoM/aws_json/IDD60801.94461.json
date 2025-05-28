@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:31 pm CST Wednesday 28 May 2025",
+				"refresh_message": "Issued at  1:51 pm CST Wednesday 28 May 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Giles*",
@@ -6606,43 +6606,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 32,
 				"wind_spd_kt": 17
-			},
-			{
-				"sort_order": 178,
-				"wmo": 94461,
-				"name": "Giles*",
-				"history_product": "IDD60801",
-				"local_date_time": "25/01:38pm",
-				"local_date_time_full": "20250525133800",
-				"aifstime_utc": "20250525040800",
-				"lat": -25.0,
-				"lon": 128.3,
-				"apparent_t": 21.3,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 2550,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 11.9,
-				"gust_kmh": 46,
-				"gust_kt": 25,
-				"air_temp": 27.7,
-				"dewpt": 5.3,
-				"press": 1011.7,
-				"press_msl": 1011.7,
-				"press_qnh": 1013.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 24,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
