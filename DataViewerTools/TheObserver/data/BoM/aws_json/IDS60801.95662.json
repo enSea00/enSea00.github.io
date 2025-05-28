@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:01 pm CST Wednesday 28 May 2025",
+				"refresh_message": "Issued at  3:11 pm CST Wednesday 28 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Minnipa RS",
@@ -5792,43 +5792,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 41,
 				"wind_spd_kt": 22
-			},
-			{
-				"sort_order": 156,
-				"wmo": 95662,
-				"name": "Minnipa RS",
-				"history_product": "IDS60801",
-				"local_date_time": "25/03:06pm",
-				"local_date_time_full": "20250525150600",
-				"aifstime_utc": "20250525053600",
-				"lat": -32.8,
-				"lon": 135.2,
-				"apparent_t": 10.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 9.5,
-				"gust_kmh": 67,
-				"gust_kt": 36,
-				"air_temp": 21.5,
-				"dewpt": 0.7,
-				"press": 1006.5,
-				"press_msl": 1006.5,
-				"press_qnh": 1006.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 25,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 48,
-				"wind_spd_kt": 26
 			}
 		]
 	}
