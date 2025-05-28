@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:11 am CST Thursday 29 May 2025",
+				"refresh_message": "Issued at  9:21 am CST Thursday 29 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Pallamana",
@@ -6236,43 +6236,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 50,
 				"wind_spd_kt": 27
-			},
-			{
-				"sort_order": 168,
-				"wmo": 95818,
-				"name": "Pallamana",
-				"history_product": "IDS60801",
-				"local_date_time": "26/09:20am",
-				"local_date_time_full": "20250526092000",
-				"aifstime_utc": "20250525235000",
-				"lat": -35.1,
-				"lon": 139.2,
-				"apparent_t": 5.6,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 120,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.0,
-				"gust_kmh": 76,
-				"gust_kt": 41,
-				"air_temp": 16.7,
-				"dewpt": 6.5,
-				"press": 1002.2,
-				"press_msl": 1002.2,
-				"press_qnh": 1002.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 51,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "0.8",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 54,
-				"wind_spd_kt": 29
 			}
 		]
 	}

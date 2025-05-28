@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:43 am EST Thursday 29 May 2025",
+				"refresh_message": "Issued at  9:52 am EST Thursday 29 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "PORTABLE QFRB BR",
@@ -15856,43 +15856,6 @@
 				"wind_dir": "NE",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 428,
-				"wmo": 99083,
-				"name": "PORTABLE QFRB BR",
-				"history_product": "IDQ60801",
-				"local_date_time": "26/09:50am",
-				"local_date_time_full": "20250526095000",
-				"aifstime_utc": "20250525235000",
-				"lat": -25.6,
-				"lon": 153.1,
-				"apparent_t": 28.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.7,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 25.8,
-				"dewpt": 20.2,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 71,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
