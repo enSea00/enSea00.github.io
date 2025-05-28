@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:11 am CST Thursday 29 May 2025",
+				"refresh_message": "Issued at  3:21 am CST Thursday 29 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Stenhouse Bay",
@@ -6939,43 +6939,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 37,
 				"wind_spd_kt": 20
-			},
-			{
-				"sort_order": 187,
-				"wmo": 95806,
-				"name": "Stenhouse Bay",
-				"history_product": "IDS60801",
-				"local_date_time": "26/03:17am",
-				"local_date_time_full": "20250526031700",
-				"aifstime_utc": "20250525174700",
-				"lat": -35.3,
-				"lon": 136.9,
-				"apparent_t": 7.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.4,
-				"gust_kmh": 56,
-				"gust_kt": 30,
-				"air_temp": 14.9,
-				"dewpt": 8.2,
-				"press": 1001.4,
-				"press_msl": 1001.4,
-				"press_qnh": 1001.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 64,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 35,
-				"wind_spd_kt": 19
 			}
 		]
 	}
