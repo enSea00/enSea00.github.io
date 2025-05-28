@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:01 pm CST Wednesday 28 May 2025",
+				"refresh_message": "Issued at  1:21 pm CST Wednesday 28 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Strathalbyn",
@@ -6273,43 +6273,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 35,
 				"wind_spd_kt": 19
-			},
-			{
-				"sort_order": 169,
-				"wmo": 94814,
-				"name": "Strathalbyn",
-				"history_product": "IDS60801",
-				"local_date_time": "25/01:05pm",
-				"local_date_time_full": "20250525130500",
-				"aifstime_utc": "20250525033500",
-				"lat": -35.3,
-				"lon": 138.9,
-				"apparent_t": 13.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 7.9,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 20.9,
-				"dewpt": 4.9,
-				"press": 1007.9,
-				"press_msl": 1007.9,
-				"press_qnh": 1007.9,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 35,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
