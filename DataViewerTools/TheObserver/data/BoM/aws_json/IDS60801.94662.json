@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:01 pm CST Wednesday 28 May 2025",
+				"refresh_message": "Issued at  9:11 pm CST Wednesday 28 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Cleve Airport",
@@ -6162,43 +6162,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 39,
 				"wind_spd_kt": 21
-			},
-			{
-				"sort_order": 166,
-				"wmo": 94662,
-				"name": "Cleve Airport",
-				"history_product": "IDS60801",
-				"local_date_time": "25/09:11pm",
-				"local_date_time_full": "20250525211100",
-				"aifstime_utc": "20250525114100",
-				"lat": -33.7,
-				"lon": 136.5,
-				"apparent_t": 8.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 6.2,
-				"gust_kmh": 54,
-				"gust_kt": 29,
-				"air_temp": 16.2,
-				"dewpt": 2.6,
-				"press": 1006.2,
-				"press_msl": 1006.2,
-				"press_qnh": 1006.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 40,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 35,
-				"wind_spd_kt": 19
 			}
 		]
 	}
