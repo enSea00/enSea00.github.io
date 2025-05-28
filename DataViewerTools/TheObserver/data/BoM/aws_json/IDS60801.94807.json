@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:11 am CST Thursday 29 May 2025",
+				"refresh_message": "Issued at  5:21 am CST Thursday 29 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Parndana",
@@ -6421,43 +6421,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 173,
-				"wmo": 94807,
-				"name": "Parndana",
-				"history_product": "IDS60801",
-				"local_date_time": "26/05:13am",
-				"local_date_time_full": "20250526051300",
-				"aifstime_utc": "20250525194300",
-				"lat": -35.8,
-				"lon": 137.2,
-				"apparent_t": 4.6,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.0,
-				"gust_kmh": 57,
-				"gust_kt": 31,
-				"air_temp": 10.3,
-				"dewpt": 8.2,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "15.2",
-				"rel_hum": 87,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
