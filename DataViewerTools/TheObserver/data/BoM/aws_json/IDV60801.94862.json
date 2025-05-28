@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:42 am EST Thursday 29 May 2025",
+				"refresh_message": "Issued at  6:02 am EST Thursday 29 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Yarrawonga",
@@ -4978,43 +4978,6 @@
 				"wind_dir": "NE",
 				"wind_spd_kmh": 24,
 				"wind_spd_kt": 13
-			},
-			{
-				"sort_order": 134,
-				"wmo": 94862,
-				"name": "Yarrawonga",
-				"history_product": "IDV60801",
-				"local_date_time": "26/06:00am",
-				"local_date_time_full": "20250526060000",
-				"aifstime_utc": "20250525200000",
-				"lat": -36.0,
-				"lon": 146.0,
-				"apparent_t": 6.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.1,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": 10.8,
-				"dewpt": 6.4,
-				"press": 1012.1,
-				"press_msl": 1012.1,
-				"press_qnh": 1012.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 74,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NE",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}
