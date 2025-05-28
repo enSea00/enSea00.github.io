@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:03 pm WST Wednesday 28 May 2025",
+				"refresh_message": "Issued at  1:33 pm WST Wednesday 28 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Halls Creek",
@@ -6014,43 +6014,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 162,
-				"wmo": 94212,
-				"name": "Halls Creek",
-				"history_product": "IDW60801",
-				"local_date_time": "25/01:30pm",
-				"local_date_time_full": "20250525133000",
-				"aifstime_utc": "20250525053000",
-				"lat": -18.2,
-				"lon": 127.7,
-				"apparent_t": 31.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 12.0,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 32.6,
-				"dewpt": 12.8,
-				"press": 1009.5,
-				"press_msl": 1009.5,
-				"press_qnh": 1011.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 30,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}

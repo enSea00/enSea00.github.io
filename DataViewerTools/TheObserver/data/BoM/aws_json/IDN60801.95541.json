@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:22 pm EST Wednesday 28 May 2025",
+				"refresh_message": "Issued at  3:23 pm EST Wednesday 28 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Inverell",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 95541,
+				"name": "Inverell",
+				"history_product": "IDN60801",
+				"local_date_time": "28/03:00pm",
+				"local_date_time_full": "20250528150000",
+				"aifstime_utc": "20250528050000",
+				"lat": -29.8,
+				"lon": 151.1,
+				"apparent_t": 12.9,
+				"cloud": "Partly cloudy",
+				"cloud_base_m": 2500,
+				"cloud_oktas": 3,
+				"cloud_type": "-",
+				"cloud_type_id": 31,
+				"delta_t": 5.8,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 16.6,
+				"dewpt": 4.7,
+				"press": null,
+				"press_msl": null,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "0.0",
+				"rel_hum": 45,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "35",
+				"weather": "Fine",
+				"wind_dir": "SW",
+				"wind_spd_kmh": 13,
+				"wind_spd_kt": 7
+			},
+			{
+				"sort_order": 1,
 				"wmo": 95541,
 				"name": "Inverell",
 				"history_product": "IDN60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 95541,
 				"name": "Inverell",
 				"history_product": "IDN60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 95541,
 				"name": "Inverell",
 				"history_product": "IDN60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 7
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 95541,
 				"name": "Inverell",
 				"history_product": "IDN60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 95541,
 				"name": "Inverell",
 				"history_product": "IDN60801",
@@ -205,43 +242,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 5,
-				"wmo": 95541,
-				"name": "Inverell",
-				"history_product": "IDN60801",
-				"local_date_time": "25/03:00pm",
-				"local_date_time_full": "20250525150000",
-				"aifstime_utc": "20250525050000",
-				"lat": -29.8,
-				"lon": 151.1,
-				"apparent_t": 20.6,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": 31,
-				"delta_t": 7.2,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 22.7,
-				"dewpt": 9.8,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 44,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "35",
-				"weather": "Fine",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
