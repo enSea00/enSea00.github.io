@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:04 am EST Friday 30 May 2025",
+				"refresh_message": "Issued at  6:22 am EST Friday 30 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Bundaberg",
@@ -32,9 +32,9 @@
 				"lat": -24.9,
 				"lon": 152.3,
 				"apparent_t": 14.3,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1590,
-				"cloud_oktas": 5,
+				"cloud": "Cloudy",
+				"cloud_base_m": 1500,
+				"cloud_oktas": 8,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 0.3,
@@ -53,7 +53,7 @@
 				"swell_height": null,
 				"swell_period": null,
 				"vis_km": "10",
-				"weather": "-",
+				"weather": "Rain",
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
