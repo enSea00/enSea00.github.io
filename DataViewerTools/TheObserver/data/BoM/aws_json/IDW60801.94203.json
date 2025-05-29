@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 10:33 pm WST Thursday 29 May 2025",
+				"refresh_message": "Issued at 10:42 pm WST Thursday 29 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Broome",
@@ -6088,43 +6088,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 164,
-				"wmo": 94203,
-				"name": "Broome",
-				"history_product": "IDW60801",
-				"local_date_time": "26/10:34pm",
-				"local_date_time_full": "20250526223400",
-				"aifstime_utc": "20250526143400",
-				"lat": -17.9,
-				"lon": 122.2,
-				"apparent_t": 20.0,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 180,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 19.8,
-				"dewpt": 19.3,
-				"press": 1015.4,
-				"press_msl": 1015.4,
-				"press_qnh": 1015.5,
-				"press_tend": "-",
-				"rain_trace": "70.0",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
