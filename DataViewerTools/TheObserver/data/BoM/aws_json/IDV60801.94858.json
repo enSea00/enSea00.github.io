@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:42 pm EST Thursday 29 May 2025",
+				"refresh_message": "Issued at  4:52 pm EST Thursday 29 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Puckapunyal-Lyon Hill (Defence)",
@@ -5792,43 +5792,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 156,
-				"wmo": 94858,
-				"name": "Puckapunyal-Lyon Hill (Defence)",
-				"history_product": "IDV60801",
-				"local_date_time": "26/04:46pm",
-				"local_date_time_full": "20250526164600",
-				"aifstime_utc": "20250526064600",
-				"lat": -36.9,
-				"lon": 145.1,
-				"apparent_t": 10.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 8.1,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 18.4,
-				"dewpt": 0.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 29,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
