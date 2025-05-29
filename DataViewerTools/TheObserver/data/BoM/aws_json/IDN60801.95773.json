@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:03 am EST Friday 30 May 2025",
+				"refresh_message": "Issued at  8:22 am EST Friday 30 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Armidale Airport",
@@ -6754,43 +6754,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 182,
-				"wmo": 95773,
-				"name": "Armidale Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "27/08:20am",
-				"local_date_time_full": "20250527082000",
-				"aifstime_utc": "20250526222000",
-				"lat": -30.5,
-				"lon": 151.6,
-				"apparent_t": 7.3,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 240,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 44,
-				"gust_kt": 24,
-				"air_temp": 12.8,
-				"dewpt": 12.0,
-				"press": 1013.1,
-				"press_msl": 1013.1,
-				"press_qnh": 1014.7,
-				"press_tend": "-",
-				"rain_trace": "7.4",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
