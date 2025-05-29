@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:32 pm EST Thursday 29 May 2025",
+				"refresh_message": "Issued at  9:42 pm EST Thursday 29 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Trangie",
@@ -5570,43 +5570,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 150,
-				"wmo": 95710,
-				"name": "Trangie",
-				"history_product": "IDN60801",
-				"local_date_time": "26/09:37pm",
-				"local_date_time_full": "20250526213700",
-				"aifstime_utc": "20250526113700",
-				"lat": -32.0,
-				"lon": 147.9,
-				"apparent_t": 15.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 16.2,
-				"dewpt": 15.4,
-				"press": 1012.7,
-				"press_msl": 1012.7,
-				"press_qnh": 1012.8,
-				"press_tend": "-",
-				"rain_trace": "13.6",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
