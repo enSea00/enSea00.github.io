@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:01 am CST Friday 30 May 2025",
+				"refresh_message": "Issued at  3:11 am CST Friday 30 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Roseworthy",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 147,
-				"wmo": 95671,
-				"name": "Roseworthy",
-				"history_product": "IDS60801",
-				"local_date_time": "27/03:03am",
-				"local_date_time_full": "20250527030300",
-				"aifstime_utc": "20250526173300",
-				"lat": -34.5,
-				"lon": 138.7,
-				"apparent_t": 4.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.9,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 9.9,
-				"dewpt": 8.0,
-				"press": 1009.8,
-				"press_msl": 1009.8,
-				"press_qnh": 1009.8,
-				"press_tend": "-",
-				"rain_trace": "9.0",
-				"rel_hum": 88,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 26,
-				"wind_spd_kt": 14
 			}
 		]
 	}
