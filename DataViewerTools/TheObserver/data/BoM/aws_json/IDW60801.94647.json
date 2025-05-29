@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:33 pm WST Thursday 29 May 2025",
+				"refresh_message": "Issued at  1:43 pm WST Thursday 29 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Eucla",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 28,
 				"wind_spd_kt": 15
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94647,
-				"name": "Eucla",
-				"history_product": "IDW60801",
-				"local_date_time": "26/01:41pm",
-				"local_date_time_full": "20250526134100",
-				"aifstime_utc": "20250526054100",
-				"lat": -31.7,
-				"lon": 128.9,
-				"apparent_t": 10.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.8,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 16.5,
-				"dewpt": 6.9,
-				"press": 1018.0,
-				"press_msl": 1018.0,
-				"press_qnh": 1018.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 53,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
