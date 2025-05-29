@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:22 am EST Friday 30 May 2025",
+				"refresh_message": "Issued at  5:32 am EST Friday 30 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Mullion",
@@ -15930,43 +15930,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 37,
 				"wind_spd_kt": 20
-			},
-			{
-				"sort_order": 430,
-				"wmo": 99763,
-				"name": "Mullion",
-				"history_product": "IDN60801",
-				"local_date_time": "27/05:30am",
-				"local_date_time_full": "20250527053000",
-				"aifstime_utc": "20250526193000",
-				"lat": -35.1,
-				"lon": 148.8,
-				"apparent_t": -2.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.0,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 7.5,
-				"dewpt": 3.0,
-				"press": 1009.2,
-				"press_msl": null,
-				"press_qnh": 1009.2,
-				"press_tend": "-",
-				"rain_trace": "8.8",
-				"rel_hum": 73,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 44,
-				"wind_spd_kt": 24
 			}
 		]
 	}
