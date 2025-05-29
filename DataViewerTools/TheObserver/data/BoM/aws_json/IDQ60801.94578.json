@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:43 am EST Friday 30 May 2025",
+				"refresh_message": "Issued at  6:04 am EST Friday 30 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Brisbane Airport",
@@ -5422,43 +5422,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 146,
-				"wmo": 94578,
-				"name": "Brisbane Airport",
-				"history_product": "IDQ60801",
-				"local_date_time": "27/06:00am",
-				"local_date_time_full": "20250527060000",
-				"aifstime_utc": "20250526200000",
-				"lat": -27.4,
-				"lon": 153.1,
-				"apparent_t": 17.1,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 50,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": 36,
-				"delta_t": 0.0,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 16.3,
-				"dewpt": 16.3,
-				"press": 1015.4,
-				"press_msl": 1015.4,
-				"press_qnh": 1015.4,
-				"press_tend": "F",
-				"rain_trace": "0.0",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "15",
-				"weather": "Shallow fog",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
