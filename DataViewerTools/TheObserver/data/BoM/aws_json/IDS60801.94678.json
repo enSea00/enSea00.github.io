@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:01 pm CST Thursday 29 May 2025",
+				"refresh_message": "Issued at 11:11 pm CST Thursday 29 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Mount Crawford",
@@ -5681,43 +5681,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 37,
 				"wind_spd_kt": 20
-			},
-			{
-				"sort_order": 153,
-				"wmo": 94678,
-				"name": "Mount Crawford",
-				"history_product": "IDS60801",
-				"local_date_time": "26/11:03pm",
-				"local_date_time_full": "20250526230300",
-				"aifstime_utc": "20250526133300",
-				"lat": -34.7,
-				"lon": 138.9,
-				"apparent_t": -1.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 63,
-				"gust_kt": 34,
-				"air_temp": 7.2,
-				"dewpt": 6.6,
-				"press": 1005.8,
-				"press_msl": 1005.8,
-				"press_qnh": 1006.2,
-				"press_tend": "-",
-				"rain_trace": "17.0",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 41,
-				"wind_spd_kt": 22
 			}
 		]
 	}
