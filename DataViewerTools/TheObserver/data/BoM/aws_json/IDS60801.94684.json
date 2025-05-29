@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:31 pm CST Thursday 29 May 2025",
+				"refresh_message": "Issued at  1:51 pm CST Thursday 29 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Yunta",
@@ -5681,43 +5681,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 61,
 				"wind_spd_kt": 33
-			},
-			{
-				"sort_order": 153,
-				"wmo": 94684,
-				"name": "Yunta",
-				"history_product": "IDS60801",
-				"local_date_time": "26/01:34pm",
-				"local_date_time_full": "20250526133400",
-				"aifstime_utc": "20250526040400",
-				"lat": -32.6,
-				"lon": 139.6,
-				"apparent_t": 6.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 8.8,
-				"gust_kmh": 82,
-				"gust_kt": 44,
-				"air_temp": 19.0,
-				"dewpt": -1.4,
-				"press": 1005.9,
-				"press_msl": 1005.9,
-				"press_qnh": 1006.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 25,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 56,
-				"wind_spd_kt": 30
 			}
 		]
 	}
