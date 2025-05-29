@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:01 pm CST Thursday 29 May 2025",
+				"refresh_message": "Issued at  9:11 pm CST Thursday 29 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Kadina",
@@ -5607,43 +5607,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 44,
 				"wind_spd_kt": 24
-			},
-			{
-				"sort_order": 151,
-				"wmo": 94685,
-				"name": "Kadina",
-				"history_product": "IDS60801",
-				"local_date_time": "26/09:02pm",
-				"local_date_time_full": "20250526210200",
-				"aifstime_utc": "20250526113200",
-				"lat": -34.0,
-				"lon": 137.7,
-				"apparent_t": 4.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.8,
-				"gust_kmh": 59,
-				"gust_kt": 32,
-				"air_temp": 13.3,
-				"dewpt": 7.5,
-				"press": 1010.3,
-				"press_msl": 1010.3,
-				"press_qnh": 1010.3,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 68,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 41,
-				"wind_spd_kt": 22
 			}
 		]
 	}
