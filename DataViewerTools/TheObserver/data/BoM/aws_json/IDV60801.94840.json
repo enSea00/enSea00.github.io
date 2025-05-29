@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:42 pm EST Thursday 29 May 2025",
+				"refresh_message": "Issued at  2:52 pm EST Thursday 29 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Mortlake",
@@ -5644,43 +5644,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 152,
-				"wmo": 94840,
-				"name": "Mortlake",
-				"history_product": "IDV60801",
-				"local_date_time": "26/02:42pm",
-				"local_date_time_full": "20250526144200",
-				"aifstime_utc": "20250526044200",
-				"lat": -38.1,
-				"lon": 142.8,
-				"apparent_t": 2.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.0,
-				"gust_kmh": 67,
-				"gust_kt": 36,
-				"air_temp": 11.3,
-				"dewpt": 9.4,
-				"press": 998.9,
-				"press_msl": 998.9,
-				"press_qnh": 998.9,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 88,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 44,
-				"wind_spd_kt": 24
 			}
 		]
 	}

@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:42 pm EST Thursday 29 May 2025",
+				"refresh_message": "Issued at  2:52 pm EST Thursday 29 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Nerriga",
@@ -5903,43 +5903,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 159,
-				"wmo": 94943,
-				"name": "Nerriga",
-				"history_product": "IDN60801",
-				"local_date_time": "26/02:44pm",
-				"local_date_time_full": "20250526144400",
-				"aifstime_utc": "20250526044400",
-				"lat": -35.1,
-				"lon": 150.1,
-				"apparent_t": 8.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.3,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 14.7,
-				"dewpt": 8.4,
-				"press": 1013.0,
-				"press_msl": 1013.0,
-				"press_qnh": 1013.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 66,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
