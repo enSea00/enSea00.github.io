@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:13 pm WST Friday 30 May 2025",
+				"refresh_message": "Issued at  3:23 pm WST Friday 30 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Fitzroy Crossing",
@@ -5422,43 +5422,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 146,
-				"wmo": 94206,
-				"name": "Fitzroy Crossing",
-				"history_product": "IDW60801",
-				"local_date_time": "27/03:17pm",
-				"local_date_time_full": "20250527151700",
-				"aifstime_utc": "20250527071700",
-				"lat": -18.2,
-				"lon": 125.6,
-				"apparent_t": 17.6,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.9,
-				"gust_kmh": 46,
-				"gust_kt": 25,
-				"air_temp": 19.9,
-				"dewpt": 18.4,
-				"press": 1010.6,
-				"press_msl": 1010.6,
-				"press_qnh": 1011.1,
-				"press_tend": "-",
-				"rain_trace": "9.8",
-				"rel_hum": 91,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
