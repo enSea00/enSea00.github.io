@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:01 am CST Saturday 31 May 2025",
+				"refresh_message": "Issued at  9:11 am CST Saturday 31 May 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Tennant Creek",
@@ -5718,43 +5718,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 24,
 				"wind_spd_kt": 13
-			},
-			{
-				"sort_order": 154,
-				"wmo": 94238,
-				"name": "Tennant Creek",
-				"history_product": "IDD60801",
-				"local_date_time": "28/09:07am",
-				"local_date_time_full": "20250528090700",
-				"aifstime_utc": "20250527233700",
-				"lat": -19.6,
-				"lon": 134.2,
-				"apparent_t": 5.7,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 120,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 35,
-				"gust_kt": 19,
-				"air_temp": 10.5,
-				"dewpt": 10.2,
-				"press": 1019.6,
-				"press_msl": 1019.6,
-				"press_qnh": 1021.2,
-				"press_tend": "-",
-				"rain_trace": "0.4",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "9",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 26,
-				"wind_spd_kt": 14
 			}
 		]
 	}
