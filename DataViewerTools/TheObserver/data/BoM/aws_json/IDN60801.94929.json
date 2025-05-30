@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:33 pm EST Friday 30 May 2025",
+				"refresh_message": "Issued at  8:42 pm EST Friday 30 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Bombala AWS",
@@ -5940,43 +5940,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 33,
 				"wind_spd_kt": 18
-			},
-			{
-				"sort_order": 160,
-				"wmo": 94929,
-				"name": "Bombala AWS",
-				"history_product": "IDN60801",
-				"local_date_time": "27/08:32pm",
-				"local_date_time_full": "20250527203200",
-				"aifstime_utc": "20250527103200",
-				"lat": -37.0,
-				"lon": 149.2,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 7.6,
-				"dewpt": null,
-				"press": 1009.7,
-				"press_msl": 1009.7,
-				"press_qnh": 1009.6,
-				"press_tend": "-",
-				"rain_trace": "0.6",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
