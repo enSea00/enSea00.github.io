@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:02 am EST Saturday 31 May 2025",
+				"refresh_message": "Issued at  3:22 am EST Saturday 31 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Gelantipy",
@@ -5644,43 +5644,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 32,
 				"wind_spd_kt": 17
-			},
-			{
-				"sort_order": 152,
-				"wmo": 94913,
-				"name": "Gelantipy",
-				"history_product": "IDV60801",
-				"local_date_time": "28/03:13am",
-				"local_date_time_full": "20250528031300",
-				"aifstime_utc": "20250527171300",
-				"lat": -37.2,
-				"lon": 148.3,
-				"apparent_t": 0.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.5,
-				"gust_kmh": 54,
-				"gust_kt": 29,
-				"air_temp": 7.9,
-				"dewpt": 4.7,
-				"press": 1014.1,
-				"press_msl": 1014.1,
-				"press_qnh": 1014.2,
-				"press_tend": "-",
-				"rain_trace": "1.6",
-				"rel_hum": 80,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 35,
-				"wind_spd_kt": 19
 			}
 		]
 	}
