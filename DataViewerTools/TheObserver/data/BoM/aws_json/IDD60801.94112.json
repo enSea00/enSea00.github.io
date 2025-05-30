@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:31 am CST Saturday 31 May 2025",
+				"refresh_message": "Issued at  6:51 am CST Saturday 31 May 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Mount Bundey South (Defence)",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 147,
-				"wmo": 94112,
-				"name": "Mount Bundey South (Defence)",
-				"history_product": "IDD60801",
-				"local_date_time": "28/06:44am",
-				"local_date_time_full": "20250528064400",
-				"aifstime_utc": "20250527211400",
-				"lat": -13.1,
-				"lon": 131.8,
-				"apparent_t": 27.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 23.8,
-				"dewpt": 23.5,
-				"press": 1014.4,
-				"press_msl": 1014.4,
-				"press_qnh": 1014.7,
-				"press_tend": "-",
-				"rain_trace": "53.4",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
