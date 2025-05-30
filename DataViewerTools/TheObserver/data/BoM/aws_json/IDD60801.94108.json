@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:41 pm CST Friday 30 May 2025",
+				"refresh_message": "Issued at  6:11 pm CST Friday 30 May 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Croker Island Airport",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94108,
+				"name": "Croker Island Airport",
+				"history_product": "IDD60801",
+				"local_date_time": "30/06:00pm",
+				"local_date_time_full": "20250530180000",
+				"aifstime_utc": "20250530083000",
+				"lat": -11.2,
+				"lon": 132.5,
+				"apparent_t": 28.1,
+				"cloud": "-",
+				"cloud_base_m": null,
+				"cloud_oktas": null,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 4.5,
+				"gust_kmh": 19,
+				"gust_kt": 10,
+				"air_temp": 26.6,
+				"dewpt": 19.7,
+				"press": 1012.6,
+				"press_msl": 1012.6,
+				"press_qnh": 1012.7,
+				"press_tend": "-",
+				"rain_trace": "-",
+				"rel_hum": 66,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "-",
+				"weather": "-",
+				"wind_dir": "ESE",
+				"wind_spd_kmh": 11,
+				"wind_spd_kt": 6
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94108,
 				"name": "Croker Island Airport",
 				"history_product": "IDD60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 8
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94108,
 				"name": "Croker Island Airport",
 				"history_product": "IDD60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 8
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94108,
 				"name": "Croker Island Airport",
 				"history_product": "IDD60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 10
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94108,
 				"name": "Croker Island Airport",
 				"history_product": "IDD60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 9
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94108,
 				"name": "Croker Island Airport",
 				"history_product": "IDD60801",
