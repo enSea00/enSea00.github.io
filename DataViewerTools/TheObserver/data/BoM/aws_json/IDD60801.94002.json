@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:01 am CST Saturday 31 May 2025",
+				"refresh_message": "Issued at  6:11 am CST Saturday 31 May 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "East Point",
@@ -5607,43 +5607,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 151,
-				"wmo": 94002,
-				"name": "East Point",
-				"history_product": "IDD60801",
-				"local_date_time": "28/06:04am",
-				"local_date_time_full": "20250528060400",
-				"aifstime_utc": "20250527203400",
-				"lat": -12.4,
-				"lon": 130.8,
-				"apparent_t": 28.7,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 180,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": 25.4,
-				"dewpt": 24.5,
-				"press": 1012.0,
-				"press_msl": 1012.0,
-				"press_qnh": 1012.0,
-				"press_tend": "-",
-				"rain_trace": "1.0",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
