@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:41 pm CST Friday 30 May 2025",
+				"refresh_message": "Issued at  7:01 pm CST Friday 30 May 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Croker Island Airport",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94108,
+				"name": "Croker Island Airport",
+				"history_product": "IDD60801",
+				"local_date_time": "30/07:00pm",
+				"local_date_time_full": "20250530190000",
+				"aifstime_utc": "20250530093000",
+				"lat": -11.2,
+				"lon": 132.5,
+				"apparent_t": 27.5,
+				"cloud": "-",
+				"cloud_base_m": null,
+				"cloud_oktas": null,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 3.4,
+				"gust_kmh": 9,
+				"gust_kt": 5,
+				"air_temp": 25.0,
+				"dewpt": 19.8,
+				"press": 1013.2,
+				"press_msl": 1013.2,
+				"press_qnh": 1013.3,
+				"press_tend": "-",
+				"rain_trace": "-",
+				"rel_hum": 73,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "-",
+				"weather": "-",
+				"wind_dir": "ESE",
+				"wind_spd_kmh": 6,
+				"wind_spd_kt": 3
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94108,
 				"name": "Croker Island Airport",
 				"history_product": "IDD60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94108,
 				"name": "Croker Island Airport",
 				"history_product": "IDD60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94108,
 				"name": "Croker Island Airport",
 				"history_product": "IDD60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 8
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94108,
 				"name": "Croker Island Airport",
 				"history_product": "IDD60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 8
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94108,
 				"name": "Croker Island Airport",
 				"history_product": "IDD60801",
@@ -207,7 +244,7 @@
 				"wind_spd_kt": 10
 			},
 			{
-				"sort_order": 5,
+				"sort_order": 6,
 				"wmo": 94108,
 				"name": "Croker Island Airport",
 				"history_product": "IDD60801",
@@ -244,7 +281,7 @@
 				"wind_spd_kt": 9
 			},
 			{
-				"sort_order": 6,
+				"sort_order": 7,
 				"wmo": 94108,
 				"name": "Croker Island Airport",
 				"history_product": "IDD60801",
