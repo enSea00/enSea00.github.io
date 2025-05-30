@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:02 pm EST Friday 30 May 2025",
+				"refresh_message": "Issued at  9:22 pm EST Friday 30 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Portland Harbour",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 144,
-				"wmo": 95826,
-				"name": "Portland Harbour",
-				"history_product": "IDV60801",
-				"local_date_time": "27/09:18pm",
-				"local_date_time_full": "20250527211800",
-				"aifstime_utc": "20250527111800",
-				"lat": -38.3,
-				"lon": 141.6,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 13.2,
-				"dewpt": null,
-				"press": 1020.9,
-				"press_msl": 1020.9,
-				"press_qnh": 1020.9,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
