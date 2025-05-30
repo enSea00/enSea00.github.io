@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:32 am EST Saturday 31 May 2025",
+				"refresh_message": "Issued at  5:42 am EST Saturday 31 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "High Range (Wanganderry)",
@@ -5237,43 +5237,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 141,
-				"wmo": 99742,
-				"name": "High Range (Wanganderry)",
-				"history_product": "IDN60801",
-				"local_date_time": "28/05:35am",
-				"local_date_time_full": "20250528053500",
-				"aifstime_utc": "20250527193500",
-				"lat": -34.3,
-				"lon": 150.3,
-				"apparent_t": -2.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.1,
-				"gust_kmh": 56,
-				"gust_kt": 30,
-				"air_temp": 6.3,
-				"dewpt": 3.8,
-				"press": 1012.7,
-				"press_msl": 1012.7,
-				"press_qnh": 1013.4,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 84,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 37,
-				"wind_spd_kt": 20
 			}
 		]
 	}
