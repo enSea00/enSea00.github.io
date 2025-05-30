@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:33 am WST Saturday 31 May 2025",
+				"refresh_message": "Issued at  6:43 am WST Saturday 31 May 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Barimunya",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 144,
-				"wmo": 99313,
-				"name": "Barimunya",
-				"history_product": "IDW60801",
-				"local_date_time": "28/06:32am",
-				"local_date_time_full": "20250528063200",
-				"aifstime_utc": "20250527223200",
-				"lat": -22.7,
-				"lon": 119.2,
-				"apparent_t": 12.4,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 450,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.9,
-				"gust_kmh": 17,
-				"gust_kt": 9,
-				"air_temp": 14.2,
-				"dewpt": 10.8,
-				"press": 1017.3,
-				"press_msl": 1017.3,
-				"press_qnh": 1019.8,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 80,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
