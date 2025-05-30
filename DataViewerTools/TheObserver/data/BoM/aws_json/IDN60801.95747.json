@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:32 pm EST Friday 30 May 2025",
+				"refresh_message": "Issued at  7:42 pm EST Friday 30 May 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Murrurundi Gap",
@@ -6643,43 +6643,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 43,
 				"wind_spd_kt": 23
-			},
-			{
-				"sort_order": 179,
-				"wmo": 95747,
-				"name": "Murrurundi Gap",
-				"history_product": "IDN60801",
-				"local_date_time": "27/07:41pm",
-				"local_date_time_full": "20250527194100",
-				"aifstime_utc": "20250527094100",
-				"lat": -31.7,
-				"lon": 150.8,
-				"apparent_t": 2.0,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 750,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.5,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 8.4,
-				"dewpt": 5.3,
-				"press": 1015.4,
-				"press_msl": 1015.4,
-				"press_qnh": 1016.4,
-				"press_tend": "-",
-				"rain_trace": "0.6",
-				"rel_hum": 81,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
