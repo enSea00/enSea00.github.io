@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:33 am EST Saturday 31 May 2025",
+				"refresh_message": "Issued at  4:52 am EST Saturday 31 May 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Mackay",
@@ -5755,43 +5755,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 155,
-				"wmo": 94367,
-				"name": "Mackay",
-				"history_product": "IDQ60801",
-				"local_date_time": "28/04:34am",
-				"local_date_time_full": "20250528043400",
-				"aifstime_utc": "20250527183400",
-				"lat": -21.1,
-				"lon": 149.2,
-				"apparent_t": 23.2,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 60,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 20.9,
-				"dewpt": 20.7,
-				"press": 1015.6,
-				"press_msl": 1015.6,
-				"press_qnh": 1015.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
