@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:01 am CST Saturday 31 May 2025",
+				"refresh_message": "Issued at  1:11 am CST Saturday 31 May 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Parafield",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 145,
-				"wmo": 95677,
-				"name": "Parafield",
-				"history_product": "IDS60801",
-				"local_date_time": "28/01:08am",
-				"local_date_time_full": "20250528010800",
-				"aifstime_utc": "20250527153800",
-				"lat": -34.8,
-				"lon": 138.6,
-				"apparent_t": 5.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1080,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 7.5,
-				"dewpt": 6.9,
-				"press": 1025.7,
-				"press_msl": 1025.7,
-				"press_qnh": 1025.8,
-				"press_tend": "-",
-				"rain_trace": "1.0",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "8",
-				"weather": "-",
-				"wind_dir": "NE",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
