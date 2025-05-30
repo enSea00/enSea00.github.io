@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:31 pm EST Friday 30 May 2025",
+				"refresh_message": "Issued at  9:41 pm EST Friday 30 May 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Tunnack",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94960,
-				"name": "Tunnack",
-				"history_product": "IDT60801",
-				"local_date_time": "27/09:41pm",
-				"local_date_time_full": "20250527214100",
-				"aifstime_utc": "20250527114100",
-				"lat": -42.5,
-				"lon": 147.5,
-				"apparent_t": -0.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.7,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 7.4,
-				"dewpt": 3.6,
-				"press": 1009.1,
-				"press_msl": 1009.1,
-				"press_qnh": 1008.6,
-				"press_tend": "-",
-				"rain_trace": "1.4",
-				"rel_hum": 77,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
