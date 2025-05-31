@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:32 am EST Sunday  1 June 2025",
+				"refresh_message": "Issued at  4:42 am EST Sunday  1 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Trepell",
@@ -5681,43 +5681,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 153,
-				"wmo": 94338,
-				"name": "Trepell",
-				"history_product": "IDQ60801",
-				"local_date_time": "29/04:32am",
-				"local_date_time_full": "20250529043200",
-				"aifstime_utc": "20250528183200",
-				"lat": -21.8,
-				"lon": 140.9,
-				"apparent_t": 7.8,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 180,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": 11.1,
-				"dewpt": 10.9,
-				"press": 1018.9,
-				"press_msl": 1018.9,
-				"press_qnh": 1019.7,
-				"press_tend": "-",
-				"rain_trace": "3.0",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}
