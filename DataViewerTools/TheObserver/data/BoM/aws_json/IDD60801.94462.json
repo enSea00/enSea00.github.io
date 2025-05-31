@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:01 pm CST Saturday 31 May 2025",
+				"refresh_message": "Issued at  5:11 pm CST Saturday 31 May 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Yulara",
@@ -5422,43 +5422,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 146,
-				"wmo": 94462,
-				"name": "Yulara",
-				"history_product": "IDD60801",
-				"local_date_time": "28/05:10pm",
-				"local_date_time_full": "20250528171000",
-				"aifstime_utc": "20250528074000",
-				"lat": -25.2,
-				"lon": 131.0,
-				"apparent_t": 7.2,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 240,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.7,
-				"gust_kmh": 30,
-				"gust_kt": 16,
-				"air_temp": 11.6,
-				"dewpt": 10.3,
-				"press": 1022.1,
-				"press_msl": 1022.1,
-				"press_qnh": 1023.3,
-				"press_tend": "-",
-				"rain_trace": "2.6",
-				"rel_hum": 92,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 24,
-				"wind_spd_kt": 13
 			}
 		]
 	}
