@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:02 pm EST Saturday 31 May 2025",
+				"refresh_message": "Issued at  9:12 pm EST Saturday 31 May 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Ben Nevis",
@@ -5644,43 +5644,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 152,
-				"wmo": 94835,
-				"name": "Ben Nevis",
-				"history_product": "IDV60801",
-				"local_date_time": "28/09:02pm",
-				"local_date_time_full": "20250528210200",
-				"aifstime_utc": "20250528110200",
-				"lat": -37.2,
-				"lon": 143.2,
-				"apparent_t": -1.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 56,
-				"gust_kt": 30,
-				"air_temp": 6.1,
-				"dewpt": 6.0,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 35,
-				"wind_spd_kt": 19
 			}
 		]
 	}
