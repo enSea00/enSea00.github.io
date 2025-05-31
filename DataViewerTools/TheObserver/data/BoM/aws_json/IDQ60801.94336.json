@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:32 am EST Sunday  1 June 2025",
+				"refresh_message": "Issued at  7:43 am EST Sunday  1 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "The Monument",
@@ -5644,43 +5644,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 152,
-				"wmo": 94336,
-				"name": "The Monument",
-				"history_product": "IDQ60801",
-				"local_date_time": "29/07:36am",
-				"local_date_time_full": "20250529073600",
-				"aifstime_utc": "20250528213600",
-				"lat": -21.8,
-				"lon": 139.9,
-				"apparent_t": 7.2,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 150,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 10.7,
-				"dewpt": 10.1,
-				"press": 1021.5,
-				"press_msl": 1021.5,
-				"press_qnh": 1022.4,
-				"press_tend": "-",
-				"rain_trace": "3.4",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}
