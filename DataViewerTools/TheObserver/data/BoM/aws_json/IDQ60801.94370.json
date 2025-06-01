@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:13 am EST Monday  2 June 2025",
+				"refresh_message": "Issued at  5:22 am EST Monday  2 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Samuel Hill",
@@ -6421,43 +6421,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 173,
-				"wmo": 94370,
-				"name": "Samuel Hill",
-				"history_product": "IDQ60801",
-				"local_date_time": "30/05:17am",
-				"local_date_time_full": "20250530051700",
-				"aifstime_utc": "20250529191700",
-				"lat": -22.7,
-				"lon": 150.7,
-				"apparent_t": 12.2,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 150,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 13.1,
-				"dewpt": 12.5,
-				"press": 1018.9,
-				"press_msl": 1018.9,
-				"press_qnh": 1019.0,
-				"press_tend": "-",
-				"rain_trace": "9.0",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "7",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
