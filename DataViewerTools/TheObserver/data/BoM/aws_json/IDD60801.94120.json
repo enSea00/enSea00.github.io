@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:01 pm CST Sunday  1 June 2025",
+				"refresh_message": "Issued at  3:11 pm CST Sunday  1 June 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Darwin Airport",
@@ -33,10 +33,10 @@
 				"lon": 130.9,
 				"apparent_t": 30.7,
 				"cloud": "Mostly clear",
-				"cloud_base_m": 1500,
+				"cloud_base_m": 2500,
 				"cloud_oktas": 1,
 				"cloud_type": "-",
-				"cloud_type_id": null,
+				"cloud_type_id": 30,
 				"delta_t": 8.3,
 				"gust_kmh": 15,
 				"gust_kt": 8,
@@ -52,8 +52,8 @@
 				"swell_dir_worded": "-",
 				"swell_height": null,
 				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
+				"vis_km": "15",
+				"weather": "Smoke",
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5

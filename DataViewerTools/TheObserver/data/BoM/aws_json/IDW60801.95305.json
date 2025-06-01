@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:33 pm WST Sunday  1 June 2025",
+				"refresh_message": "Issued at  1:42 pm WST Sunday  1 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Onslow Airport",
@@ -5718,43 +5718,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 28,
 				"wind_spd_kt": 15
-			},
-			{
-				"sort_order": 154,
-				"wmo": 95305,
-				"name": "Onslow Airport",
-				"history_product": "IDW60801",
-				"local_date_time": "29/01:41pm",
-				"local_date_time_full": "20250529134100",
-				"aifstime_utc": "20250529054100",
-				"lat": -21.7,
-				"lon": 115.1,
-				"apparent_t": 21.5,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 1200,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.1,
-				"gust_kmh": 39,
-				"gust_kt": 21,
-				"air_temp": 22.9,
-				"dewpt": 21.2,
-				"press": 1013.9,
-				"press_msl": 1013.9,
-				"press_qnh": 1013.9,
-				"press_tend": "-",
-				"rain_trace": "3.0",
-				"rel_hum": 90,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
