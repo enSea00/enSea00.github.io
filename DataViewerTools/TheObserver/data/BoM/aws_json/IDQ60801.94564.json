@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:43 am EST Tuesday  3 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Tuesday  3 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Rainbow Beach",
@@ -94,43 +94,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 28,
 				"wind_spd_kt": 15
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94564,
-				"name": "Rainbow Beach",
-				"history_product": "IDQ60801",
-				"local_date_time": "31/09:00am",
-				"local_date_time_full": "20250531090000",
-				"aifstime_utc": "20250530230000",
-				"lat": -25.9,
-				"lon": 153.1,
-				"apparent_t": 21.0,
-				"cloud": "Cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 0.5,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 18.9,
-				"dewpt": 18.1,
-				"press": 1021.3,
-				"press_msl": 1021.3,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "31.0",
-				"rel_hum": 95,
-				"sea_state": "1",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "Fine",
-				"wind_dir": "S",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
