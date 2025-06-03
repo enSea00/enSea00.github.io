@@ -423,49 +423,60 @@ Object.keys(groupedLocations).forEach((dataType) => {
                 if (dataType === 'Wave Buoy' && owner === 'Qld Gov') {
                     await loadScriptAsync('js/getData_Waves_Qld.js');
                     await getData_Waves_Qld(loc);
-                } else if (dataType === 'Wave Buoy' && owner === 'MHL') {
+                } 
+                else if (dataType === 'Wave Buoy' && owner === 'MHL') {
                     await loadScriptAsync('js/getData_Waves_NSW.js');
                     await getData_Waves_NSW(loc);
-                } else if (dataType === 'Wave Buoy' && owner === 'Vic Gov') {
+                } 
+                else if (dataType === 'Wave Buoy' && owner === 'Vic Gov') {
                     await loadScriptAsync('js/getData_Waves_Vic.js');
                     await getData_Waves_Vic(loc);
-                } else if (dataType === 'Wave Buoy' && owner === 'UWA') {
+                } 
+                else if (dataType === 'Wave Buoy' && owner === 'UWA') {
                     await loadScriptAsync('js/getData_Waves_WA_UWA.js');
                     await getData_Waves_WA_UWA(loc);
-        
+                } 
+                
                 // Tide Data
-                } else if (dataType === 'Tide Gauge' && owner === 'Qld Gov') {
+                else if (dataType === 'Tide Gauge' && owner === 'Qld Gov') {
                     await loadScriptAsync('js/getData_Tides_Qld.js');
                     await getData_Tides_Qld(loc);
-                } else if (dataType === 'Tide Gauge' && owner === 'MHL') {
+                } 
+                else if (dataType === 'Tide Gauge' && owner === 'MHL') {
                     await loadScriptAsync('js/getData_Tides_NSW_MHL.js');
                     await getData_Tides_NSW_MHL(loc);
-                } else if (dataType === 'Tide Prediction' && owner === 'BoM') {
+                } 
+                else if (dataType === 'Tide Prediction' && owner === 'BoM') {
                     await loadScriptAsync('js/getData_TidePredictions_BoM.js');
                     await getData_TidePredictions_BoM(loc);
-        
-                // River Data 
-                } else if (dataType === 'River Gauge' && owner === 'MHL') {
+                } 
+                
+                // River Data                 
+                else if (dataType === 'River Gauge' && owner === 'MHL') {
                     await loadScriptAsync('js/getData_Rivers_NSW_MHL.js');
                     await getData_Rivers_NSW_MHL(loc);
-        
+                } 
+                
                 // Rain Data
-                } else if (dataType === 'Rain Gauge' && owner === 'MHL') {
+                else if (dataType === 'Rain Gauge' && owner === 'MHL') {
                     await loadScriptAsync('js/getData_Rain_NSW_MHL.js');
                     await getData_Rain_NSW_MHL(loc);
-        
+                } 
+                
                 // Ocean Buoy Data
-                } else if (dataType === 'Ocean Buoy (Active)' && owner === 'NDBC') {
+                else if (dataType === 'Ocean Buoy (Active)' && owner === 'NDBC') {
                     await loadScriptAsync('js/getData_OceanBuoys_NDBC.js');
                     await getData_OceanBuoys_NDBC(loc);
-        
+                }
+
                 // AWS Data - not working due to CORS blocking
-                } else if (dataType === 'Weather Station' && owner === 'BoM') {
-                    await loadScriptAsync('js/getData_Weather_BoM.js');
-                    await getData_Weather_BoM(loc);
-        
+                // else if (dataType === 'Weather Station' && owner === 'BoM') {
+                //     await loadScriptAsync('js/getData_Weather_BoM.js');
+                //     await getData_Weather_BoM(loc);
+                // }
+
                 // Open external bookmarked page
-                } else if (loc.URL) {
+                else if (loc.URL) {
                     // Prevent accidental double-clicks (e.g., on iPads)
                     const now = Date.now();
                     if (!marker.lastClick || now - marker.lastClick > 1000) {
