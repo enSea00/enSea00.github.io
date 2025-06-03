@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:33 am WST Wednesday  4 June 2025",
+				"refresh_message": "Issued at  6:43 am WST Wednesday  4 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Carnarvon",
@@ -7198,43 +7198,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 194,
-				"wmo": 94300,
-				"name": "Carnarvon",
-				"history_product": "IDW60801",
-				"local_date_time": "01/06:41am",
-				"local_date_time_full": "20250601064100",
-				"aifstime_utc": "20250531224100",
-				"lat": -24.9,
-				"lon": 113.7,
-				"apparent_t": 18.7,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 2040,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 0,
-				"gust_kt": 0,
-				"air_temp": 16.5,
-				"dewpt": 16.5,
-				"press": 1017.2,
-				"press_msl": 1017.2,
-				"press_qnh": 1017.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}
