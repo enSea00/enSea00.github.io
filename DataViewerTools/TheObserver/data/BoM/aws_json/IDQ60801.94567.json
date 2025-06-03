@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:33 pm EST Tuesday  3 June 2025",
+				"refresh_message": "Issued at  1:52 pm EST Tuesday  3 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Maryborough",
@@ -6310,43 +6310,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 170,
-				"wmo": 94567,
-				"name": "Maryborough",
-				"history_product": "IDQ60801",
-				"local_date_time": "31/01:38pm",
-				"local_date_time_full": "20250531133800",
-				"aifstime_utc": "20250531033800",
-				"lat": -25.5,
-				"lon": 152.7,
-				"apparent_t": 21.1,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 210,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 19.4,
-				"dewpt": 19.4,
-				"press": 1019.8,
-				"press_msl": 1019.8,
-				"press_qnh": 1019.9,
-				"press_tend": "-",
-				"rain_trace": "10.0",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
