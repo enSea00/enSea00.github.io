@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:42 am EST Wednesday  4 June 2025",
+				"refresh_message": "Issued at  8:02 am EST Wednesday  4 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Scoresby",
@@ -5200,43 +5200,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 140,
-				"wmo": 95867,
-				"name": "Scoresby",
-				"history_product": "IDV60801",
-				"local_date_time": "01/08:00am",
-				"local_date_time_full": "20250601080000",
-				"aifstime_utc": "20250531220000",
-				"lat": -37.9,
-				"lon": 145.3,
-				"apparent_t": 5.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.9,
-				"gust_kmh": 17,
-				"gust_kt": 9,
-				"air_temp": 8.3,
-				"dewpt": 3.9,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 74,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
