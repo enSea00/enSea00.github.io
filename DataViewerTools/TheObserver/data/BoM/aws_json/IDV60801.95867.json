@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:02 am EST Wednesday  4 June 2025",
+				"refresh_message": "Issued at  6:32 am EST Wednesday  4 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Scoresby",
@@ -53,7 +53,7 @@
 				"swell_height": null,
 				"swell_period": null,
 				"vis_km": "-",
-				"weather": "-",
+				"weather": "Rain",
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
@@ -5311,43 +5311,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 143,
-				"wmo": 95867,
-				"name": "Scoresby",
-				"history_product": "IDV60801",
-				"local_date_time": "01/06:30am",
-				"local_date_time_full": "20250601063000",
-				"aifstime_utc": "20250531203000",
-				"lat": -37.9,
-				"lon": 145.3,
-				"apparent_t": 4.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.6,
-				"gust_kmh": 17,
-				"gust_kt": 9,
-				"air_temp": 7.5,
-				"dewpt": 3.9,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 78,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}

@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:03 am EST Wednesday  4 June 2025",
+				"refresh_message": "Issued at  6:22 am EST Wednesday  4 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Scone Airport",
@@ -6606,43 +6606,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 178,
-				"wmo": 95758,
-				"name": "Scone Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "01/06:12am",
-				"local_date_time_full": "20250601061200",
-				"aifstime_utc": "20250531201200",
-				"lat": -32.0,
-				"lon": 150.8,
-				"apparent_t": 1.9,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 60,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 4.3,
-				"dewpt": 4.3,
-				"press": 1026.3,
-				"press_msl": 1026.3,
-				"press_qnh": 1026.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "0.9",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
