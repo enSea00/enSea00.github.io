@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:52 pm EST Tuesday  3 June 2025",
+				"refresh_message": "Issued at  5:13 pm EST Tuesday  3 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Emerald",
@@ -5422,43 +5422,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 146,
-				"wmo": 94363,
-				"name": "Emerald",
-				"history_product": "IDQ60801",
-				"local_date_time": "31/05:00pm",
-				"local_date_time_full": "20250531170000",
-				"aifstime_utc": "20250531070000",
-				"lat": -23.6,
-				"lon": 148.2,
-				"apparent_t": 17.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 6.2,
-				"gust_kmh": 17,
-				"gust_kt": 9,
-				"air_temp": 20.2,
-				"dewpt": 8.5,
-				"press": 1019.3,
-				"press_msl": 1019.3,
-				"press_qnh": 1019.9,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 47,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
