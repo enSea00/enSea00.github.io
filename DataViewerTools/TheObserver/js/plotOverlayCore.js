@@ -92,6 +92,97 @@ function updateInfoBox(loc, attributionHTML = '') {
     `;
 }
 
+// Local time at clicked location ////////////////////////////////////////////////////////
+const { DateTime } = luxon;
+
+function getLocalTimeISO(lat, lon) {
+    const timezone = tzlookup(lat, lon);  // e.g., "Australia/Sydney"
+    const now = DateTime.now().setZone(timezone);
+
+    // Return ISO-like string without timezone info (to match Plotly x-axis)
+    return now.toFormat("yyyy-MM-dd'T'HH:mm:ss");
+}
+
+// Day Shading ////////////////////////////////////////////////////////////////////////
+function getDayShadingShapesLocal(latitude, longitude, timestamps) {
+    if (!timestamps || timestamps.length === 0) return [];
+
+    const SunCalc = window.SunCalc || (typeof require !== 'undefined' ? require('suncalc') : null);
+    if (!SunCalc) {
+        console.warn("SunCalc is required for day/night shading.");
+        return [];
+    }
+
+    const { DateTime } = luxon;
+    const timezone = tzlookup(latitude, longitude);
+
+    const shapes = [];
+    const seenDates = new Set();
+
+    timestamps.forEach(ts => {
+        const date = new Date(ts);
+        const dayKey = date.toISOString().split('T')[0];
+        if (seenDates.has(dayKey)) return;
+        seenDates.add(dayKey);
+
+        const times = SunCalc.getTimes(date, latitude, longitude);
+        const { dawn, sunrise, sunset, dusk } = times;
+
+        if (dawn && sunrise && sunset && dusk && sunset > sunrise) {
+            const fmt = dt => DateTime.fromJSDate(dt).setZone(timezone).toFormat("yyyy-MM-dd'T'HH:mm:ss");
+
+            // Civil twilight before sunrise
+            if (dawn < sunrise) {
+                shapes.push({
+                    type: "rect",
+                    xref: "x",
+                    yref: "paper",
+                    x0: fmt(dawn),
+                    x1: fmt(sunrise),
+                    y0: 0,
+                    y1: 1,
+                    fillcolor: "rgba(255, 255, 153, 0.1)", // twilight (light yellow)
+                    line: { width: 0 },
+                    layer: "below"
+                });
+            }
+
+            // Full daylight
+            shapes.push({
+                type: "rect",
+                xref: "x",
+                yref: "paper",
+                x0: fmt(sunrise),
+                x1: fmt(sunset),
+                y0: 0,
+                y1: 1,
+                fillcolor: "rgba(255, 255, 153, 0.2)", // stronger yellow
+                line: { width: 0 },
+                layer: "below"
+            });
+
+            // Civil twilight after sunset
+            if (sunset < dusk) {
+                shapes.push({
+                    type: "rect",
+                    xref: "x",
+                    yref: "paper",
+                    x0: fmt(sunset),
+                    x1: fmt(dusk),
+                    y0: 0,
+                    y1: 1,
+                    fillcolor: "rgba(255, 255, 153, 0.1)", // twilight
+                    line: { width: 0 },
+                    layer: "below"
+                });
+            }
+        }
+    });
+
+    return shapes;
+}
+
+
 // TIMSERIES PLOT FUNCTIONS ////////////////////////////////////////////////////////////////////////////////////////
 
 function createTimeseriesSubplots(observations, variableNameMap, subplotGroups, loc) {
@@ -246,8 +337,50 @@ function createTimeseriesSubplots(observations, variableNameMap, subplotGroups, 
         bgcolor: 'rgba(0,0,0,0)',
         };
 
+
+
     });
   
+    // Add vertical red line for current time across all subplots
+    const nowLocalISO = getLocalTimeISO(loc.Latitude, loc.Longitude);
+
+
+    layout.shapes = layout.shapes || [];
+    
+    layout.shapes.push({
+        type: 'line',
+        xref: 'x',       // Use shared x-axis
+        yref: 'paper',   // Vertical line across entire figure height
+        x0: nowLocalISO,
+        x1: nowLocalISO,
+        y0: 0,
+        y1: 1,
+        line: {
+            color: 'rgba(255, 255, 0,0.5)',
+            width: 3,
+            dash: 'dot'
+        }
+    });
+    layout.annotations = layout.annotations || [];
+    layout.annotations.push({
+        x: nowLocalISO,
+        y: 1.02, // slightly above the top
+        xref: 'x',
+        yref: 'paper',
+        text: 'Now',
+        showarrow: false,
+        font: {
+            color: 'rgba(255, 255, 0,0.5)',
+            size: 12,
+            family: 'Arial'
+        },
+        align: 'center',
+    });
+
+    // Day Shading
+    const dayShapes = getDayShadingShapesLocal(loc.Latitude, loc.Longitude, timestamps);
+    layout.shapes = [...(layout.shapes || []), ...dayShapes];
+
     return { traces, layout };
 
 };
@@ -342,6 +475,55 @@ function updateLatestValuesBox(container, data) {
   }, 0);
 }
 
+// day/night shading function
+function getDayNightShading(lat, lon, dataTimestamps) {
+  const startDate = new Date(dataTimestamps[0]);
+  const endDate = new Date(dataTimestamps[dataTimestamps.length - 1]);
+
+  // Round to local midnight
+  startDate.setHours(0, 0, 0, 0);
+  endDate.setHours(0, 0, 0, 0);
+
+  const MS_PER_DAY = 24 * 60 * 60 * 1000;
+  const dayCount = Math.ceil((endDate - startDate) / MS_PER_DAY) + 1;
+
+  const shapes = [];
+
+  for (let i = 0; i < dayCount; i++) {
+    const currentDay = new Date(startDate.getTime() + i * MS_PER_DAY);
+    const times = SunCalc.getTimes(currentDay, lat, lon);
+
+    // Add night before sunrise
+    shapes.push({
+      type: 'rect',
+      xref: 'x',
+      yref: 'paper',
+      x0: currentDay.toISOString(),
+      x1: times.sunrise.toISOString(),
+      y0: 0,
+      y1: 1,
+      fillcolor: 'rgba(255, 255, 255, 0.5)',
+      line: { width: 0 },
+      layer: 'below'
+    });
+
+    // Add night after sunset
+    shapes.push({
+      type: 'rect',
+      xref: 'x',
+      yref: 'paper',
+      x0: times.sunset.toISOString(),
+      x1: new Date(currentDay.getTime() + MS_PER_DAY).toISOString(),
+      y0: 0,
+      y1: 1,
+      fillcolor: 'rgba(0, 0, 0, 0.1)',
+      line: { width: 0 },
+      layer: 'below'
+    });
+  }
+
+  return shapes;
+}
 
 
 // Show the overlay with the plot
