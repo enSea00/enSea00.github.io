@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:11 am EST Thursday  5 June 2025",
+				"refresh_message": "Issued at  7:21 am EST Thursday  5 June 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Low Rocky Point",
@@ -5940,43 +5940,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 61,
 				"wind_spd_kt": 33
-			},
-			{
-				"sort_order": 160,
-				"wmo": 95961,
-				"name": "Low Rocky Point",
-				"history_product": "IDT60801",
-				"local_date_time": "02/07:13am",
-				"local_date_time_full": "20250602071300",
-				"aifstime_utc": "20250601211300",
-				"lat": -43.0,
-				"lon": 145.5,
-				"apparent_t": 5.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.5,
-				"gust_kmh": 74,
-				"gust_kt": 40,
-				"air_temp": 15.1,
-				"dewpt": 12.4,
-				"press": 1009.3,
-				"press_msl": 1009.3,
-				"press_qnh": 1009.2,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 84,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 56,
-				"wind_spd_kt": 30
 			}
 		]
 	}

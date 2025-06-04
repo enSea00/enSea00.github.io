@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:04 am EST Thursday  5 June 2025",
+				"refresh_message": "Issued at  7:13 am EST Thursday  5 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Mackay Airport",
@@ -5755,43 +5755,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 155,
-				"wmo": 95367,
-				"name": "Mackay Airport",
-				"history_product": "IDQ60801",
-				"local_date_time": "02/07:06am",
-				"local_date_time_full": "20250602070600",
-				"aifstime_utc": "20250601210600",
-				"lat": -21.2,
-				"lon": 149.2,
-				"apparent_t": 17.7,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 360,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 16.9,
-				"dewpt": 16.4,
-				"press": 1016.1,
-				"press_msl": 1016.1,
-				"press_qnh": 1016.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
