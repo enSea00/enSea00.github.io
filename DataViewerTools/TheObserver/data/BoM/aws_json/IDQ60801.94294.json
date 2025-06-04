@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:23 am EST Thursday  5 June 2025",
+				"refresh_message": "Issued at  6:33 am EST Thursday  5 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Townsville",
@@ -5829,43 +5829,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 157,
-				"wmo": 94294,
-				"name": "Townsville",
-				"history_product": "IDQ60801",
-				"local_date_time": "02/06:30am",
-				"local_date_time_full": "20250602063000",
-				"aifstime_utc": "20250601203000",
-				"lat": -19.2,
-				"lon": 146.8,
-				"apparent_t": 21.9,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 510,
-				"cloud_oktas": 2,
-				"cloud_type": "Stratus",
-				"cloud_type_id": 7,
-				"delta_t": 0.9,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 20.0,
-				"dewpt": 18.5,
-				"press": 1014.8,
-				"press_msl": 1014.8,
-				"press_qnh": 1014.9,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 91,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
