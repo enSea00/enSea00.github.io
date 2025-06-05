@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:04 am EST Friday  6 June 2025",
+				"refresh_message": "Issued at  5:13 am EST Friday  6 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Bundaberg",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 149,
-				"wmo": 94387,
-				"name": "Bundaberg",
-				"history_product": "IDQ60801",
-				"local_date_time": "03/05:08am",
-				"local_date_time_full": "20250603050800",
-				"aifstime_utc": "20250602190800",
-				"lat": -24.9,
-				"lon": 152.3,
-				"apparent_t": 17.1,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 30,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 16.9,
-				"dewpt": 16.7,
-				"press": 1010.6,
-				"press_msl": 1010.6,
-				"press_qnh": 1010.7,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "1",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
