@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:03 am EST Friday  6 June 2025",
+				"refresh_message": "Issued at  3:13 am EST Friday  6 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Goondiwindi",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 144,
-				"wmo": 99468,
-				"name": "Goondiwindi",
-				"history_product": "IDQ60801",
-				"local_date_time": "03/03:05am",
-				"local_date_time_full": "20250603030500",
-				"aifstime_utc": "20250602170500",
-				"lat": -28.5,
-				"lon": 150.3,
-				"apparent_t": 10.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 12.7,
-				"dewpt": 12.1,
-				"press": 1011.3,
-				"press_msl": 1011.3,
-				"press_qnh": 1011.4,
-				"press_tend": "-",
-				"rain_trace": "11.6",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
