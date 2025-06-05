@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:42 am EST Friday  6 June 2025",
+				"refresh_message": "Issued at  6:02 am EST Friday  6 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Melbourne Airport",
@@ -5977,43 +5977,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 161,
-				"wmo": 94866,
-				"name": "Melbourne Airport",
-				"history_product": "IDV60801",
-				"local_date_time": "03/06:00am",
-				"local_date_time_full": "20250603060000",
-				"aifstime_utc": "20250602200000",
-				"lat": -37.7,
-				"lon": 144.8,
-				"apparent_t": 6.7,
-				"cloud": "Cloudy",
-				"cloud_base_m": 100,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": 37,
-				"delta_t": 0.4,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 10.4,
-				"dewpt": 9.6,
-				"press": 1013.0,
-				"press_msl": 1013.0,
-				"press_qnh": 1012.8,
-				"press_tend": "R",
-				"rain_trace": "2.4",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "2",
-				"weather": "Rain",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}
