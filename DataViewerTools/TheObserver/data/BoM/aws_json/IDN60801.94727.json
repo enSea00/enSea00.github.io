@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:32 am EST Friday  6 June 2025",
+				"refresh_message": "Issued at  7:42 am EST Friday  6 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Mudgee",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94727,
-				"name": "Mudgee",
-				"history_product": "IDN60801",
-				"local_date_time": "03/07:38am",
-				"local_date_time_full": "20250603073800",
-				"aifstime_utc": "20250602213800",
-				"lat": -32.6,
-				"lon": 149.6,
-				"apparent_t": 10.8,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 480,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 4,
-				"gust_kt": 2,
-				"air_temp": 10.6,
-				"dewpt": 10.4,
-				"press": 1011.6,
-				"press_msl": 1011.6,
-				"press_qnh": 1011.2,
-				"press_tend": "-",
-				"rain_trace": "7.8",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}
