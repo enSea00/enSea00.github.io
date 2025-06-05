@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:04 am EST Friday  6 June 2025",
+				"refresh_message": "Issued at  8:22 am EST Friday  6 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Wellcamp Airport",
@@ -5792,43 +5792,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 156,
-				"wmo": 99435,
-				"name": "Wellcamp Airport",
-				"history_product": "IDQ60801",
-				"local_date_time": "03/08:18am",
-				"local_date_time_full": "20250603081800",
-				"aifstime_utc": "20250602221800",
-				"lat": -27.6,
-				"lon": 151.8,
-				"apparent_t": 12.2,
-				"cloud": "Cloudy",
-				"cloud_base_m": 60,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 13.3,
-				"dewpt": 13.1,
-				"press": 1011.5,
-				"press_msl": 1011.5,
-				"press_qnh": 1011.7,
-				"press_tend": "-",
-				"rain_trace": "2.8",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "1",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
