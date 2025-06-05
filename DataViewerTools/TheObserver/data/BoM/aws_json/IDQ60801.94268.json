@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:33 pm EST Thursday  5 June 2025",
+				"refresh_message": "Issued at  5:43 pm EST Thursday  5 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Kowanyama",
@@ -5755,43 +5755,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 155,
-				"wmo": 94268,
-				"name": "Kowanyama",
-				"history_product": "IDQ60801",
-				"local_date_time": "02/05:32pm",
-				"local_date_time_full": "20250602173200",
-				"aifstime_utc": "20250602073200",
-				"lat": -15.5,
-				"lon": 141.7,
-				"apparent_t": 30.7,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1500,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.7,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 29.4,
-				"dewpt": 20.8,
-				"press": 1009.7,
-				"press_msl": 1009.7,
-				"press_qnh": 1009.8,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 60,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
