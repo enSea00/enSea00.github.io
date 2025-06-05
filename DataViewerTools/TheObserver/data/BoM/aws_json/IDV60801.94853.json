@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:02 am EST Friday  6 June 2025",
+				"refresh_message": "Issued at  6:22 am EST Friday  6 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "South Channel Island",
@@ -5570,43 +5570,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 35,
 				"wind_spd_kt": 19
-			},
-			{
-				"sort_order": 150,
-				"wmo": 94853,
-				"name": "South Channel Island",
-				"history_product": "IDV60801",
-				"local_date_time": "03/06:08am",
-				"local_date_time_full": "20250603060800",
-				"aifstime_utc": "20250602200800",
-				"lat": -38.3,
-				"lon": 144.8,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 59,
-				"gust_kt": 32,
-				"air_temp": null,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 41,
-				"wind_spd_kt": 22
 			}
 		]
 	}
