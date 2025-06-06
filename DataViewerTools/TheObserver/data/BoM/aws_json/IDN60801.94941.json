@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Saturday  7 June 2025",
+				"refresh_message": "&nbsp;",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Batemans Bay",
@@ -21,43 +21,6 @@
 			}
 		],
 		"data": [
-			{
-				"sort_order": 0,
-				"wmo": 94941,
-				"name": "Batemans Bay",
-				"history_product": "IDN60801",
-				"local_date_time": "04/09:00am",
-				"local_date_time_full": "20250604090000",
-				"aifstime_utc": "20250603230000",
-				"lat": -35.7,
-				"lon": 150.2,
-				"apparent_t": 3.9,
-				"cloud": "Mostly clear",
-				"cloud_base_m": null,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 3.5,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 13.5,
-				"dewpt": 6.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 61,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "20",
-				"weather": "Fine",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 46,
-				"wind_spd_kt": 25
-			}
 		]
 	}
 }
