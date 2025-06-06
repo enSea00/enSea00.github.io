@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:33 am WST Saturday  7 June 2025",
+				"refresh_message": "Issued at  4:43 am WST Saturday  7 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Karratha",
@@ -5829,43 +5829,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 157,
-				"wmo": 95307,
-				"name": "Karratha",
-				"history_product": "IDW60801",
-				"local_date_time": "04/04:37am",
-				"local_date_time_full": "20250604043700",
-				"aifstime_utc": "20250603203700",
-				"lat": -20.7,
-				"lon": 116.8,
-				"apparent_t": 23.4,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 1530,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 22.6,
-				"dewpt": 21.8,
-				"press": 1010.9,
-				"press_msl": 1010.9,
-				"press_qnh": 1010.9,
-				"press_tend": "-",
-				"rain_trace": "20.4",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 20,
-				"wind_spd_kt": 11
 			}
 		]
 	}
