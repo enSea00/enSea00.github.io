@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:02 am EST Saturday  7 June 2025",
+				"refresh_message": "Issued at  9:22 am EST Saturday  7 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Falls Creek",
@@ -5977,43 +5977,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 54,
 				"wind_spd_kt": 29
-			},
-			{
-				"sort_order": 161,
-				"wmo": 94903,
-				"name": "Falls Creek",
-				"history_product": "IDV60801",
-				"local_date_time": "04/09:02am",
-				"local_date_time_full": "20250604090200",
-				"aifstime_utc": "20250603230200",
-				"lat": -36.9,
-				"lon": 147.3,
-				"apparent_t": -14.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": -0.1,
-				"gust_kmh": 63,
-				"gust_kt": 34,
-				"air_temp": -3.8,
-				"dewpt": -4.1,
-				"press": 1017.5,
-				"press_msl": 1017.5,
-				"press_qnh": 1015.9,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 44,
-				"wind_spd_kt": 24
 			}
 		]
 	}
