@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:33 pm WST Friday  6 June 2025",
+				"refresh_message": "Issued at  1:43 pm WST Friday  6 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Shannon",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 145,
-				"wmo": 95617,
-				"name": "Shannon",
-				"history_product": "IDW60801",
-				"local_date_time": "03/01:34pm",
-				"local_date_time_full": "20250603133400",
-				"aifstime_utc": "20250603053400",
-				"lat": -34.6,
-				"lon": 116.3,
-				"apparent_t": 15.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 16.2,
-				"dewpt": 15.9,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "3.2",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}

@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:31 pm EST Friday  6 June 2025",
+				"refresh_message": "Issued at  3:41 pm EST Friday  6 June 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "King Island Airport",
@@ -5792,43 +5792,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 156,
-				"wmo": 94850,
-				"name": "King Island Airport",
-				"history_product": "IDT60801",
-				"local_date_time": "03/03:32pm",
-				"local_date_time_full": "20250603153200",
-				"aifstime_utc": "20250603053200",
-				"lat": -39.9,
-				"lon": 143.9,
-				"apparent_t": 4.5,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 1260,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.5,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 11.6,
-				"dewpt": 3.6,
-				"press": 1018.0,
-				"press_msl": 1018.0,
-				"press_qnh": 1017.9,
-				"press_tend": "-",
-				"rain_trace": "0.6",
-				"rel_hum": 58,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
