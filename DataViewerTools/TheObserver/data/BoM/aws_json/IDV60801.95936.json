@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:32 am EST Saturday  7 June 2025",
+				"refresh_message": "Issued at  2:52 am EST Saturday  7 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Melbourne (Olympic Park)",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 149,
-				"wmo": 95936,
-				"name": "Melbourne (Olympic Park)",
-				"history_product": "IDV60801",
-				"local_date_time": "04/02:39am",
-				"local_date_time_full": "20250604023900",
-				"aifstime_utc": "20250603163900",
-				"lat": -37.8,
-				"lon": 145.0,
-				"apparent_t": 6.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.1,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 8.7,
-				"dewpt": 6.3,
-				"press": 1021.5,
-				"press_msl": 1021.5,
-				"press_qnh": 1021.5,
-				"press_tend": "-",
-				"rain_trace": "3.2",
-				"rel_hum": 85,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
