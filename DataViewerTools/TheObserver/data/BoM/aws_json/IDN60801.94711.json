@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:03 am EST Sunday  8 June 2025",
+				"refresh_message": "Issued at  6:22 am EST Sunday  8 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Cobar",
@@ -33,8 +33,8 @@
 				"lon": 145.8,
 				"apparent_t": 4.5,
 				"cloud": "Partly cloudy",
-				"cloud_base_m": 750,
-				"cloud_oktas": 5,
+				"cloud_base_m": 600,
+				"cloud_oktas": 4,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 1.1,
@@ -45,7 +45,7 @@
 				"press": 1010.7,
 				"press_msl": 1010.7,
 				"press_qnh": 1010.7,
-				"press_tend": "-",
+				"press_tend": "F",
 				"rain_trace": "0.0",
 				"rel_hum": 85,
 				"sea_state": "-",
