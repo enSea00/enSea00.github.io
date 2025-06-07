@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:03 am WST Sunday  8 June 2025",
+				"refresh_message": "Issued at  6:23 am WST Sunday  8 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Lancelin (Defence)",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 144,
-				"wmo": 95609,
-				"name": "Lancelin (Defence)",
-				"history_product": "IDW60801",
-				"local_date_time": "05/06:06am",
-				"local_date_time_full": "20250605060600",
-				"aifstime_utc": "20250604220600",
-				"lat": -30.8,
-				"lon": 115.2,
-				"apparent_t": 16.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.0,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 19.3,
-				"dewpt": 16.0,
-				"press": 1014.7,
-				"press_msl": 1014.7,
-				"press_qnh": 1014.7,
-				"press_tend": "-",
-				"rain_trace": "8.8",
-				"rel_hum": 81,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
