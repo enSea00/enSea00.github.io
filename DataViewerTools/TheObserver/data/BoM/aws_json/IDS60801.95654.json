@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:01 am CST Sunday  8 June 2025",
+				"refresh_message": "Issued at  8:11 am CST Sunday  8 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Wudinna Airport",
@@ -6051,43 +6051,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 46,
 				"wind_spd_kt": 25
-			},
-			{
-				"sort_order": 163,
-				"wmo": 95654,
-				"name": "Wudinna Airport",
-				"history_product": "IDS60801",
-				"local_date_time": "05/08:09am",
-				"local_date_time_full": "20250605080900",
-				"aifstime_utc": "20250604223900",
-				"lat": -33.0,
-				"lon": 135.5,
-				"apparent_t": 3.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 6.3,
-				"gust_kmh": 61,
-				"gust_kt": 33,
-				"air_temp": 13.9,
-				"dewpt": -1.7,
-				"press": 1018.1,
-				"press_msl": 1018.1,
-				"press_qnh": 1018.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 34,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 43,
-				"wind_spd_kt": 23
 			}
 		]
 	}
