@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:32 pm EST Saturday  7 June 2025",
+				"refresh_message": "Issued at  2:52 pm EST Saturday  7 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Gunnedah Airport",
@@ -5422,43 +5422,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 33,
 				"wind_spd_kt": 18
-			},
-			{
-				"sort_order": 146,
-				"wmo": 95740,
-				"name": "Gunnedah Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "04/02:48pm",
-				"local_date_time_full": "20250604144800",
-				"aifstime_utc": "20250604044800",
-				"lat": -31.0,
-				"lon": 150.2,
-				"apparent_t": 8.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.4,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 15.1,
-				"dewpt": 6.1,
-				"press": 1015.6,
-				"press_msl": 1015.6,
-				"press_qnh": 1015.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 55,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
