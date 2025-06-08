@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:41 am CST Monday  9 June 2025",
+				"refresh_message": "Issued at  2:51 am CST Monday  9 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Mount Lofty",
@@ -5866,43 +5866,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 24,
 				"wind_spd_kt": 13
-			},
-			{
-				"sort_order": 158,
-				"wmo": 95678,
-				"name": "Mount Lofty",
-				"history_product": "IDS60801",
-				"local_date_time": "06/02:51am",
-				"local_date_time_full": "20250606025100",
-				"aifstime_utc": "20250605172100",
-				"lat": -35.0,
-				"lon": 138.7,
-				"apparent_t": -1.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.0,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 5.9,
-				"dewpt": 1.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "2.4",
-				"rel_hum": 71,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
