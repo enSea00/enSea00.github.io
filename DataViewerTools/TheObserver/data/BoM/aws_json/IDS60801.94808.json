@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:01 am CST Monday  9 June 2025",
+				"refresh_message": "Issued at  9:11 am CST Monday  9 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Noarlunga",
@@ -6384,43 +6384,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 35,
 				"wind_spd_kt": 19
-			},
-			{
-				"sort_order": 172,
-				"wmo": 94808,
-				"name": "Noarlunga",
-				"history_product": "IDS60801",
-				"local_date_time": "06/09:04am",
-				"local_date_time_full": "20250606090400",
-				"aifstime_utc": "20250605233400",
-				"lat": -35.2,
-				"lon": 138.5,
-				"apparent_t": 4.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 10.8,
-				"dewpt": 9.6,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 92,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
