@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:31 am EST Tuesday 10 June 2025",
+				"refresh_message": "Issued at  1:41 am EST Tuesday 10 June 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Liawenee",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 24,
 				"wind_spd_kt": 13
-			},
-			{
-				"sort_order": 145,
-				"wmo": 95959,
-				"name": "Liawenee",
-				"history_product": "IDT60801",
-				"local_date_time": "07/01:41am",
-				"local_date_time_full": "20250607014100",
-				"aifstime_utc": "20250606154100",
-				"lat": -41.9,
-				"lon": 146.7,
-				"apparent_t": -1.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 4.7,
-				"dewpt": 4.3,
-				"press": 999.9,
-				"press_msl": 999.9,
-				"press_qnh": 998.3,
-				"press_tend": "-",
-				"rain_trace": "16.0",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
