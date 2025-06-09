@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:52 pm EST Monday  9 June 2025",
+				"refresh_message": "Issued at  3:13 pm EST Monday  9 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Logan City",
@@ -21,43 +21,6 @@
 			}
 		],
 		"data": [
-			{
-				"sort_order": 0,
-				"wmo": 95581,
-				"name": "Logan City",
-				"history_product": "IDQ60801",
-				"local_date_time": "06/03:00pm",
-				"local_date_time_full": "20250606150000",
-				"aifstime_utc": "20250606050000",
-				"lat": -27.7,
-				"lon": 153.2,
-				"apparent_t": 20.9,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 21.0,
-				"dewpt": 12.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 56,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "24",
-				"weather": "Fine",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
-			}
 		]
 	}
 }
