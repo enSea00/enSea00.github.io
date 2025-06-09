@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:51 pm CST Monday  9 June 2025",
+				"refresh_message": "Issued at  3:11 pm CST Monday  9 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Arkaroola",
@@ -168,43 +168,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 4,
-				"wmo": 94676,
-				"name": "Arkaroola",
-				"history_product": "IDS60801",
-				"local_date_time": "06/03:00pm",
-				"local_date_time_full": "20250606150000",
-				"aifstime_utc": "20250606053000",
-				"lat": -30.3,
-				"lon": 139.3,
-				"apparent_t": 13.6,
-				"cloud": "Mostly clear",
-				"cloud_base_m": null,
-				"cloud_oktas": 2,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 6.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 17.5,
-				"dewpt": 5.3,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 44,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "50",
-				"weather": "Fine",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
