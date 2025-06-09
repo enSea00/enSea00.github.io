@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:11 am CST Tuesday 10 June 2025",
+				"refresh_message": "Issued at  3:21 am CST Tuesday 10 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Coonawarra",
@@ -5607,43 +5607,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 151,
-				"wmo": 94817,
-				"name": "Coonawarra",
-				"history_product": "IDS60801",
-				"local_date_time": "07/03:14am",
-				"local_date_time_full": "20250607031400",
-				"aifstime_utc": "20250606174400",
-				"lat": -37.3,
-				"lon": 140.8,
-				"apparent_t": 3.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.4,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 9.4,
-				"dewpt": 8.5,
-				"press": 1004.5,
-				"press_msl": 1004.5,
-				"press_qnh": 1004.4,
-				"press_tend": "-",
-				"rain_trace": "12.2",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
