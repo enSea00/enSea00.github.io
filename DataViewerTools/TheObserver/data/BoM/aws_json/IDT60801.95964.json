@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:31 am EST Tuesday 10 June 2025",
+				"refresh_message": "Issued at  7:41 am EST Tuesday 10 June 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Low Head",
@@ -5644,43 +5644,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 41,
 				"wind_spd_kt": 22
-			},
-			{
-				"sort_order": 152,
-				"wmo": 95964,
-				"name": "Low Head",
-				"history_product": "IDT60801",
-				"local_date_time": "07/07:39am",
-				"local_date_time_full": "20250607073900",
-				"aifstime_utc": "20250606213900",
-				"lat": -41.1,
-				"lon": 146.8,
-				"apparent_t": 4.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.2,
-				"gust_kmh": 69,
-				"gust_kt": 37,
-				"air_temp": 13.2,
-				"dewpt": 8.9,
-				"press": 998.2,
-				"press_msl": 998.2,
-				"press_qnh": 998.2,
-				"press_tend": "-",
-				"rain_trace": "6.0",
-				"rel_hum": 75,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 46,
-				"wind_spd_kt": 25
 			}
 		]
 	}
