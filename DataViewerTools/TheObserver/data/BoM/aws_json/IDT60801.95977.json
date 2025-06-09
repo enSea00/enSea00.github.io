@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:01 pm EST Monday  9 June 2025",
+				"refresh_message": "Issued at  5:21 pm EST Monday  9 June 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Grove",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 149,
-				"wmo": 95977,
-				"name": "Grove",
-				"history_product": "IDT60801",
-				"local_date_time": "06/05:14pm",
-				"local_date_time_full": "20250606171400",
-				"aifstime_utc": "20250606071400",
-				"lat": -43.0,
-				"lon": 147.1,
-				"apparent_t": 7.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.3,
-				"gust_kmh": 56,
-				"gust_kt": 30,
-				"air_temp": 13.3,
-				"dewpt": 3.9,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 53,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 24,
-				"wind_spd_kt": 13
 			}
 		]
 	}
