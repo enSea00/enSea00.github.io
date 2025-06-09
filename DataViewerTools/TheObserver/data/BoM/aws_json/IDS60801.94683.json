@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 12:01 am CST Tuesday 10 June 2025",
+				"refresh_message": "Issued at 12:11 am CST Tuesday 10 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Kuitpo",
@@ -5829,43 +5829,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 33,
 				"wind_spd_kt": 18
-			},
-			{
-				"sort_order": 157,
-				"wmo": 94683,
-				"name": "Kuitpo",
-				"history_product": "IDS60801",
-				"local_date_time": "07/12:05am",
-				"local_date_time_full": "20250607000500",
-				"aifstime_utc": "20250606143500",
-				"lat": -35.2,
-				"lon": 138.7,
-				"apparent_t": 1.6,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.5,
-				"gust_kmh": 46,
-				"gust_kt": 25,
-				"air_temp": 7.7,
-				"dewpt": 6.6,
-				"press": 1009.2,
-				"press_msl": 1009.2,
-				"press_qnh": 1009.1,
-				"press_tend": "-",
-				"rain_trace": "14.6",
-				"rel_hum": 93,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
