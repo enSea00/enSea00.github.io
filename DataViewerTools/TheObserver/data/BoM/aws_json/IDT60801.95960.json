@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:41 am EST Tuesday 10 June 2025",
+				"refresh_message": "Issued at  8:51 am EST Tuesday 10 June 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Devonport Airport",
@@ -5977,43 +5977,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 33,
 				"wind_spd_kt": 18
-			},
-			{
-				"sort_order": 161,
-				"wmo": 95960,
-				"name": "Devonport Airport",
-				"history_product": "IDT60801",
-				"local_date_time": "07/08:42am",
-				"local_date_time_full": "20250607084200",
-				"aifstime_utc": "20250606224200",
-				"lat": -41.2,
-				"lon": 146.4,
-				"apparent_t": 5.8,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 660,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 35,
-				"gust_kt": 19,
-				"air_temp": 10.8,
-				"dewpt": 9.6,
-				"press": 997.7,
-				"press_msl": 997.7,
-				"press_qnh": 997.7,
-				"press_tend": "-",
-				"rain_trace": "12.2",
-				"rel_hum": 92,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 26,
-				"wind_spd_kt": 14
 			}
 		]
 	}
