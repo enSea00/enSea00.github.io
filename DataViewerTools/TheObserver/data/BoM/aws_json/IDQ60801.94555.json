@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:03 am EST Wednesday 11 June 2025",
+				"refresh_message": "Issued at  6:33 am EST Wednesday 11 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Warwick",
@@ -3646,43 +3646,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 98,
-				"wmo": 94555,
-				"name": "Warwick",
-				"history_product": "IDQ60801",
-				"local_date_time": "08/06:30am",
-				"local_date_time_full": "20250608063000",
-				"aifstime_utc": "20250607203000",
-				"lat": -28.2,
-				"lon": 152.1,
-				"apparent_t": 3.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.4,
-				"gust_kmh": 0,
-				"gust_kt": 0,
-				"air_temp": 4.8,
-				"dewpt": 3.9,
-				"press": 1013.2,
-				"press_msl": 1013.2,
-				"press_qnh": 1013.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}
