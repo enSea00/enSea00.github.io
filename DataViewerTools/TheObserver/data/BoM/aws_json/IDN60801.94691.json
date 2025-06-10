@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:32 pm EST Tuesday 10 June 2025",
+				"refresh_message": "Issued at  1:52 pm EST Tuesday 10 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Broken Hill Airport",
@@ -5644,43 +5644,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 37,
 				"wind_spd_kt": 20
-			},
-			{
-				"sort_order": 152,
-				"wmo": 94691,
-				"name": "Broken Hill Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "07/01:41pm",
-				"local_date_time_full": "20250607134100",
-				"aifstime_utc": "20250607034100",
-				"lat": -32.0,
-				"lon": 141.5,
-				"apparent_t": 5.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.3,
-				"gust_kmh": 57,
-				"gust_kt": 31,
-				"air_temp": 14.8,
-				"dewpt": 3.3,
-				"press": 1014.4,
-				"press_msl": 1014.4,
-				"press_qnh": 1014.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 46,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 39,
-				"wind_spd_kt": 21
 			}
 		]
 	}
