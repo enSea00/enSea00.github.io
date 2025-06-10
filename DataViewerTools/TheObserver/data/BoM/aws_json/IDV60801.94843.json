@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:12 pm EST Tuesday 10 June 2025",
+				"refresh_message": "Issued at  5:22 pm EST Tuesday 10 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Swan Hill",
@@ -5977,43 +5977,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 43,
 				"wind_spd_kt": 23
-			},
-			{
-				"sort_order": 161,
-				"wmo": 94843,
-				"name": "Swan Hill",
-				"history_product": "IDV60801",
-				"local_date_time": "07/05:15pm",
-				"local_date_time_full": "20250607171500",
-				"aifstime_utc": "20250607071500",
-				"lat": -35.4,
-				"lon": 143.5,
-				"apparent_t": 2.6,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 780,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.8,
-				"gust_kmh": 59,
-				"gust_kt": 32,
-				"air_temp": 10.6,
-				"dewpt": 8.9,
-				"press": 1004.4,
-				"press_msl": 1004.4,
-				"press_qnh": 1004.4,
-				"press_tend": "-",
-				"rain_trace": "4.8",
-				"rel_hum": 89,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "9",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 41,
-				"wind_spd_kt": 22
 			}
 		]
 	}
