@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:32 am EST Wednesday 11 June 2025",
+				"refresh_message": "Issued at  6:42 am EST Wednesday 11 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Cape Nelson",
@@ -5903,43 +5903,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 43,
 				"wind_spd_kt": 23
-			},
-			{
-				"sort_order": 159,
-				"wmo": 94826,
-				"name": "Cape Nelson",
-				"history_product": "IDV60801",
-				"local_date_time": "08/06:38am",
-				"local_date_time_full": "20250608063800",
-				"aifstime_utc": "20250607203800",
-				"lat": -38.4,
-				"lon": 141.5,
-				"apparent_t": 2.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.6,
-				"gust_kmh": 57,
-				"gust_kt": 31,
-				"air_temp": 11.2,
-				"dewpt": 5.7,
-				"press": 1004.8,
-				"press_msl": 1004.8,
-				"press_qnh": 1004.8,
-				"press_tend": "-",
-				"rain_trace": "26.2",
-				"rel_hum": 69,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 39,
-				"wind_spd_kt": 21
 			}
 		]
 	}
