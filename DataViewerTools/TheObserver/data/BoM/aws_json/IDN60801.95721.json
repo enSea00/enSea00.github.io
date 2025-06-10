@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:42 am EST Wednesday 11 June 2025",
+				"refresh_message": "Issued at  8:03 am EST Wednesday 11 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Cowra",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 143,
-				"wmo": 95721,
-				"name": "Cowra",
-				"history_product": "IDN60801",
-				"local_date_time": "08/08:00am",
-				"local_date_time_full": "20250608080000",
-				"aifstime_utc": "20250607220000",
-				"lat": -33.8,
-				"lon": 148.7,
-				"apparent_t": 2.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.0,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 7.1,
-				"dewpt": 4.8,
-				"press": 1008.4,
-				"press_msl": 1008.4,
-				"press_qnh": 1008.1,
-				"press_tend": "-",
-				"rain_trace": "1.6",
-				"rel_hum": 85,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
