@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:01 pm CST Tuesday 10 June 2025",
+				"refresh_message": "Issued at  2:21 pm CST Tuesday 10 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Outer Harbor (Black Pole)",
@@ -5792,43 +5792,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 54,
 				"wind_spd_kt": 29
-			},
-			{
-				"sort_order": 156,
-				"wmo": 95675,
-				"name": "Outer Harbor (Black Pole)",
-				"history_product": "IDS60801",
-				"local_date_time": "07/02:04pm",
-				"local_date_time_full": "20250607140400",
-				"aifstime_utc": "20250607043400",
-				"lat": -34.7,
-				"lon": 138.5,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 78,
-				"gust_kt": 42,
-				"air_temp": null,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 57,
-				"wind_spd_kt": 31
 			}
 		]
 	}
