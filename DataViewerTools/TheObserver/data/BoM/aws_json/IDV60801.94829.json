@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:32 am EST Wednesday 11 June 2025",
+				"refresh_message": "Issued at  8:42 am EST Wednesday 11 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Hamilton",
@@ -6347,43 +6347,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 171,
-				"wmo": 94829,
-				"name": "Hamilton",
-				"history_product": "IDV60801",
-				"local_date_time": "08/08:35am",
-				"local_date_time_full": "20250608083500",
-				"aifstime_utc": "20250607223500",
-				"lat": -37.6,
-				"lon": 142.1,
-				"apparent_t": 0.9,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 210,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": 5.5,
-				"dewpt": 5.4,
-				"press": 1006.7,
-				"press_msl": 1006.7,
-				"press_qnh": 1006.4,
-				"press_tend": "-",
-				"rain_trace": "26.2",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}
