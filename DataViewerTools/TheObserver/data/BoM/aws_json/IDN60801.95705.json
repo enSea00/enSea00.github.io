@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:32 pm EST Tuesday 10 June 2025",
+				"refresh_message": "Issued at  9:42 pm EST Tuesday 10 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Yanco",
@@ -5496,43 +5496,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 33,
 				"wind_spd_kt": 18
-			},
-			{
-				"sort_order": 148,
-				"wmo": 95705,
-				"name": "Yanco",
-				"history_product": "IDN60801",
-				"local_date_time": "07/09:38pm",
-				"local_date_time_full": "20250607213800",
-				"aifstime_utc": "20250607113800",
-				"lat": -34.6,
-				"lon": 146.4,
-				"apparent_t": 4.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.7,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 10.6,
-				"dewpt": 7.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "1.0",
-				"rel_hum": 79,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
