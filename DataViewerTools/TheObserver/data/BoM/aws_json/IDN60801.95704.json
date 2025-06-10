@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:03 pm EST Tuesday 10 June 2025",
+				"refresh_message": "Issued at  9:22 pm EST Tuesday 10 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Griffith",
@@ -6421,43 +6421,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 35,
 				"wind_spd_kt": 19
-			},
-			{
-				"sort_order": 173,
-				"wmo": 95704,
-				"name": "Griffith",
-				"history_product": "IDN60801",
-				"local_date_time": "07/09:07pm",
-				"local_date_time_full": "20250607210700",
-				"aifstime_utc": "20250607110700",
-				"lat": -34.2,
-				"lon": 146.1,
-				"apparent_t": 4.8,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 1140,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.3,
-				"gust_kmh": 57,
-				"gust_kt": 31,
-				"air_temp": 11.6,
-				"dewpt": 6.7,
-				"press": 1007.5,
-				"press_msl": 1007.5,
-				"press_qnh": 1007.3,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 72,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
