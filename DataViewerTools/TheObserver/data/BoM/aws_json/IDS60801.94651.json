@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:01 am CST Thursday 12 June 2025",
+				"refresh_message": "Issued at  7:11 am CST Thursday 12 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Nullarbor",
@@ -6421,43 +6421,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 173,
-				"wmo": 94651,
-				"name": "Nullarbor",
-				"history_product": "IDS60801",
-				"local_date_time": "09/07:05am",
-				"local_date_time_full": "20250609070500",
-				"aifstime_utc": "20250608213500",
-				"lat": -31.4,
-				"lon": 130.9,
-				"apparent_t": 9.7,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 480,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.4,
-				"gust_kmh": 17,
-				"gust_kt": 9,
-				"air_temp": 11.8,
-				"dewpt": 11.0,
-				"press": 1022.8,
-				"press_msl": 1022.8,
-				"press_qnh": 1022.7,
-				"press_tend": "-",
-				"rain_trace": "2.0",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "7",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
