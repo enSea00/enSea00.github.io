@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:11 pm CST Wednesday 11 June 2025",
+				"refresh_message": "Issued at  3:21 pm CST Wednesday 11 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Thevenard",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 149,
-				"wmo": 95652,
-				"name": "Thevenard",
-				"history_product": "IDS60801",
-				"local_date_time": "08/03:13pm",
-				"local_date_time_full": "20250608151300",
-				"aifstime_utc": "20250608054300",
-				"lat": -32.1,
-				"lon": 133.6,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 14.3,
-				"dewpt": null,
-				"press": 1018.4,
-				"press_msl": 1018.4,
-				"press_qnh": 1018.4,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
