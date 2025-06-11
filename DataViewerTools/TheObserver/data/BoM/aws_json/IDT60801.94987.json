@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:41 am EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  4:51 am EST Thursday 12 June 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Friendly Beaches",
@@ -5718,43 +5718,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 35,
 				"wind_spd_kt": 19
-			},
-			{
-				"sort_order": 154,
-				"wmo": 94987,
-				"name": "Friendly Beaches",
-				"history_product": "IDT60801",
-				"local_date_time": "09/04:43am",
-				"local_date_time_full": "20250609044300",
-				"aifstime_utc": "20250608184300",
-				"lat": -42.0,
-				"lon": 148.3,
-				"apparent_t": 2.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.7,
-				"gust_kmh": 56,
-				"gust_kt": 30,
-				"air_temp": 10.0,
-				"dewpt": 8.6,
-				"press": 1009.1,
-				"press_msl": 1009.1,
-				"press_qnh": 1009.0,
-				"press_tend": "-",
-				"rain_trace": "14.4",
-				"rel_hum": 91,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 37,
-				"wind_spd_kt": 20
 			}
 		]
 	}
