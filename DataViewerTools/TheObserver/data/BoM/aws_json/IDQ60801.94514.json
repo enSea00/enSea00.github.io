@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:52 am EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Thursday 12 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Mitchell",
@@ -94,43 +94,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94514,
-				"name": "Mitchell",
-				"history_product": "IDQ60801",
-				"local_date_time": "09/09:00am",
-				"local_date_time_full": "20250609090000",
-				"aifstime_utc": "20250608230000",
-				"lat": -26.5,
-				"lon": 148.0,
-				"apparent_t": 11.2,
-				"cloud": "Mostly clear",
-				"cloud_base_m": null,
-				"cloud_oktas": 2,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.4,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 13.8,
-				"dewpt": 4.4,
-				"press": 1016.2,
-				"press_msl": 1016.2,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 53,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "50",
-				"weather": "Fine",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}

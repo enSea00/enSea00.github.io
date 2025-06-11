@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:52 am EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Thursday 12 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Mount Isa",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 143,
-				"wmo": 94332,
-				"name": "Mount Isa",
-				"history_product": "IDQ60801",
-				"local_date_time": "09/09:00am",
-				"local_date_time_full": "20250609090000",
-				"aifstime_utc": "20250608230000",
-				"lat": -20.7,
-				"lon": 139.5,
-				"apparent_t": 9.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.5,
-				"gust_kmh": 17,
-				"gust_kt": 9,
-				"air_temp": 13.2,
-				"dewpt": 5.9,
-				"press": 1018.9,
-				"press_msl": 1018.9,
-				"press_qnh": 1019.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 61,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}

@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:52 am EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Thursday 12 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Boulia",
@@ -131,43 +131,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 3,
-				"wmo": 94333,
-				"name": "Boulia",
-				"history_product": "IDQ60801",
-				"local_date_time": "09/09:00am",
-				"local_date_time_full": "20250609090000",
-				"aifstime_utc": "20250608230000",
-				"lat": -22.9,
-				"lon": 139.9,
-				"apparent_t": 12.1,
-				"cloud": "Clear",
-				"cloud_base_m": 2500,
-				"cloud_oktas": 0,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.6,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 12.7,
-				"dewpt": 7.4,
-				"press": 1020.0,
-				"press_msl": 1020.0,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 70,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "30",
-				"weather": "Fine",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}

@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:52 am EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Thursday 12 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Bollon",
@@ -57,43 +57,6 @@
 				"wind_dir": "-",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 1,
-				"wmo": 94513,
-				"name": "Bollon",
-				"history_product": "IDQ60801",
-				"local_date_time": "09/09:00am",
-				"local_date_time_full": "20250609090000",
-				"aifstime_utc": "20250608230000",
-				"lat": -28.0,
-				"lon": 147.5,
-				"apparent_t": 8.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.5,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 10.0,
-				"dewpt": 6.8,
-				"press": 1016.0,
-				"press_msl": 1016.0,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 80,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "50",
-				"weather": "Fine",
-				"wind_dir": "W",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}

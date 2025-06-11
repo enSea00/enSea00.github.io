@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:52 am EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Thursday 12 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Barcaldine",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94350,
+				"name": "Barcaldine",
+				"history_product": "IDQ60801",
+				"local_date_time": "12/09:00am",
+				"local_date_time_full": "20250612090000",
+				"aifstime_utc": "20250611230000",
+				"lat": -23.6,
+				"lon": 145.3,
+				"apparent_t": 5.9,
+				"cloud": "Clear",
+				"cloud_base_m": 2500,
+				"cloud_oktas": 0,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 4.0,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 8.5,
+				"dewpt": -1.9,
+				"press": null,
+				"press_msl": null,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "0.0",
+				"rel_hum": 48,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "50",
+				"weather": "Fine",
+				"wind_dir": "-",
+				"wind_spd_kmh": 2,
+				"wind_spd_kt": 1
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94350,
 				"name": "Barcaldine",
 				"history_product": "IDQ60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 2
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94350,
 				"name": "Barcaldine",
 				"history_product": "IDQ60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 2
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94350,
 				"name": "Barcaldine",
 				"history_product": "IDQ60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 2
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94350,
 				"name": "Barcaldine",
 				"history_product": "IDQ60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 2
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94350,
 				"name": "Barcaldine",
 				"history_product": "IDQ60801",
@@ -205,43 +242,6 @@
 				"wind_dir": "-",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 5,
-				"wmo": 94350,
-				"name": "Barcaldine",
-				"history_product": "IDQ60801",
-				"local_date_time": "09/09:00am",
-				"local_date_time_full": "20250609090000",
-				"aifstime_utc": "20250608230000",
-				"lat": -23.6,
-				"lon": 145.3,
-				"apparent_t": 10.6,
-				"cloud": "Clear",
-				"cloud_base_m": 2500,
-				"cloud_oktas": 0,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 12.0,
-				"dewpt": 5.7,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 65,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "50",
-				"weather": "Fine",
-				"wind_dir": "-",
-				"wind_spd_kmh": 2,
-				"wind_spd_kt": 1
 			}
 		]
 	}
