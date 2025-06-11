@@ -100,7 +100,7 @@ function getLocalTimeISO(lat, lon) {
     const now = DateTime.now().setZone(timezone);
 
     // Return ISO-like string without timezone info (to match Plotly x-axis)
-    return now.toFormat("yyyy-MM-dd'T'HH:mm:ss");
+    return now
 }
 
 // Day Shading ////////////////////////////////////////////////////////////////////////
@@ -171,7 +171,7 @@ function getDayShadingShapesLocal(latitude, longitude, timestamps) {
                     x1: fmt(dusk),
                     y0: 0,
                     y1: 1,
-                    fillcolor: "rgba(255, 255, 153, 0.1)", // twilight
+                    fillcolor: "rgba(164, 201, 250, 0.1)", // twilight
                     line: { width: 0 },
                     layer: "below"
                 });
@@ -184,7 +184,7 @@ function getDayShadingShapesLocal(latitude, longitude, timestamps) {
 
 
 // TIMSERIES PLOT FUNCTIONS ////////////////////////////////////////////////////////////////////////////////////////
-
+// called by the getData_ functions
 function createTimeseriesSubplots(observations, variableNameMap, subplotGroups, loc) {
     
     // check if there is any data to plot
@@ -291,7 +291,7 @@ function createTimeseriesSubplots(observations, variableNameMap, subplotGroups, 
             traces.push({
                 x: timestamps,
                 y: yData,
-                name: `${variable} :: [${latestValue}]`,  // 💡 append latest value to name
+                name: `${variable} - [<i>${latestValue}</i>]`,  // 💡 append latest value to name
                 xaxis: `x`,
                 yaxis: `y${index + 1}`,
                 mode: includeMarkers ? "lines+markers" : "lines",
@@ -331,7 +331,7 @@ function createTimeseriesSubplots(observations, variableNameMap, subplotGroups, 
 
         layout.legend = {
         title: {
-            text: `Legend [Latest] <br>[<i>${timeString}</i>]`
+            text: `<b>Legend</b><br><br>[<i>Latest Data as at <br>${timeString}</i>] <br>`
         },
         font: { color: 'white' },
         bgcolor: 'rgba(0,0,0,0)',
@@ -341,9 +341,9 @@ function createTimeseriesSubplots(observations, variableNameMap, subplotGroups, 
 
     });
   
-    // Add vertical red line for current time across all subplots
-    const nowLocalISO = getLocalTimeISO(loc.Latitude, loc.Longitude);
-
+    // Add vertical dashed line for current time across all subplots
+    const nowLocalISO = getLocalTimeISO(loc.Latitude, loc.Longitude).toFormat("yyyy-MM-dd'T'HH:mm:ss");
+    const nowLocalISOstr = getLocalTimeISO(loc.Latitude, loc.Longitude).toFormat("HH:mm, dd/MM/yyyy");
 
     layout.shapes = layout.shapes || [];
     
@@ -364,10 +364,10 @@ function createTimeseriesSubplots(observations, variableNameMap, subplotGroups, 
     layout.annotations = layout.annotations || [];
     layout.annotations.push({
         x: nowLocalISO,
-        y: 1.02, // slightly above the top
+        y: 1.05, // slightly above the top
         xref: 'x',
         yref: 'paper',
-        text: 'Now',
+        text: `Now <br> (${nowLocalISOstr})`,
         showarrow: false,
         font: {
             color: 'rgba(255, 255, 0,0.5)',
@@ -408,122 +408,98 @@ function configureAxis(axis) {
 }
 
 // Get and display latest data values in a box
-function updateLatestValuesBox(container, data) {
-  // Remove any previous box
-  const existingBox = container.querySelector('.latest-values-box');
-  if (existingBox) existingBox.remove();
+// function updateLatestValuesBox(container, data) {
+//   // Remove any previous box
+//   const existingBox = container.querySelector('.latest-values-box');
+//   if (existingBox) existingBox.remove();
 
-  // Determine the latest timestamp (assumes all traces share the same x-axis)
-  const latestTimestamps = data.map(trace => {
-    const len = trace.x.length;
-    return trace.x[len - 1]; // ISO string or Date object
-  });
+//   // Determine the latest timestamp (assumes all traces share the same x-axis)
+//   const latestTimestamps = data.map(trace => {
+//     const len = trace.x.length;
+//     return trace.x[len - 1]; // ISO string or Date object
+//   });
 
-  // Use the most recent of all latest timestamps
-  const latestTimestamp = new Date(Math.max(...latestTimestamps.map(t => new Date(t).getTime())));
-  const timestampStr = latestTimestamp.toLocaleString(); // format as local date/time string
+//   // Use the most recent of all latest timestamps
+//   const latestTimestamp = new Date(Math.max(...latestTimestamps.map(t => new Date(t).getTime())));
+//   const timestampStr = latestTimestamp.toLocaleString(); // format as local date/time string
 
-  // Build the list of latest values
-  const latestValues = data.map(trace => {
-    const len = trace.x.length;
-    return {
-      name: trace.name || 'Trace',
-      color: trace.line?.color || '#000',
-      value: trace.y[len - 1],
-    };
-  });
+//   // Build the list of latest values
+//   const latestValues = data.map(trace => {
+//     const len = trace.x.length;
+//     return {
+//       name: trace.name || 'Trace',
+//       color: trace.line?.color || '#000',
+//       value: trace.y[len - 1],
+//     };
+//   });
 
-  // Create the info box
-  const latestValueBox = document.createElement('div');
-  latestValueBox.className = 'latest-values-box';
-  latestValueBox.style.position = 'absolute';
-  latestValueBox.style.background = 'rgba(255,255,255,0.85)';
-  latestValueBox.style.border = '1px solid #ccc';
-  latestValueBox.style.borderRadius = '8px';
-  latestValueBox.style.padding = '8px';
-  latestValueBox.style.fontSize = '12px';
-  latestValueBox.style.zIndex = 10;
-  latestValueBox.style.boxShadow = '0 2px 5px rgba(0,0,0,0.2)';
 
-  latestValueBox.innerHTML = `
-    <b>Latest Values</b><br>
-    <div style="margin-bottom: 6px; color: #444;"><i>${timestampStr}</i></div>
-    ${latestValues.map(val => `
-      <div>
-        <span style="display:inline-block;width:10px;height:10px;background:${val.color};margin-right:6px;border-radius:50%;"></span>
-        <strong>${val.name}:</strong> ${val.value}
-      </div>
-    `).join('')}
-  `;
-
-  container.appendChild(latestValueBox);
-
-  // Position the box below the legend
-  setTimeout(() => {
-    const legend = container.querySelector('.legend');
-    if (legend) {
-      const rect = legend.getBoundingClientRect();
-      const containerRect = container.getBoundingClientRect();
-      const top = rect.top - containerRect.top + rect.height + 10;
-      const left = rect.left - containerRect.left;
-      latestValueBox.style.top = `${top}px`;
-      latestValueBox.style.left = `${left}px`;
-    } else {
-      latestValueBox.style.top = '50px';
-      latestValueBox.style.right = '10px';
-    }
-  }, 0);
-}
+//   // Position the box below the legend
+//   setTimeout(() => {
+//     const legend = container.querySelector('.legend');
+//     if (legend) {
+//       const rect = legend.getBoundingClientRect();
+//       const containerRect = container.getBoundingClientRect();
+//       const top = rect.top - containerRect.top + rect.height + 10;
+//       const left = rect.left - containerRect.left;
+//       latestValueBox.style.top = `${top}px`;
+//       latestValueBox.style.left = `${left}px`;
+//     } else {
+//       latestValueBox.style.top = '50px';
+//       latestValueBox.style.right = '10px';
+//     }
+//   }, 0);
+// }
 
 // day/night shading function
-function getDayNightShading(lat, lon, dataTimestamps) {
-  const startDate = new Date(dataTimestamps[0]);
-  const endDate = new Date(dataTimestamps[dataTimestamps.length - 1]);
+// function getDayNightShading(lat, lon, dataTimestamps) {
+//   const startDate = new Date(dataTimestamps[0]);
+//   const endDate = new Date(dataTimestamps[dataTimestamps.length - 1]);
 
-  // Round to local midnight
-  startDate.setHours(0, 0, 0, 0);
-  endDate.setHours(0, 0, 0, 0);
+//   // Round to local midnight
+//   startDate.setHours(0, 0, 0, 0);
+//   endDate.setHours(0, 0, 0, 0);
 
-  const MS_PER_DAY = 24 * 60 * 60 * 1000;
-  const dayCount = Math.ceil((endDate - startDate) / MS_PER_DAY) + 1;
+//   const MS_PER_DAY = 24 * 60 * 60 * 1000;
+//   const dayCount = Math.ceil((endDate - startDate) / MS_PER_DAY) + 1;
 
-  const shapes = [];
+//   const shapes = [];
 
-  for (let i = 0; i < dayCount; i++) {
-    const currentDay = new Date(startDate.getTime() + i * MS_PER_DAY);
-    const times = SunCalc.getTimes(currentDay, lat, lon);
+//   for (let i = 0; i < dayCount; i++) {
+//     const currentDay = new Date(startDate.getTime() + i * MS_PER_DAY);
+//     const times = SunCalc.getTimes(currentDay, lat, lon);
 
-    // Add night before sunrise
-    shapes.push({
-      type: 'rect',
-      xref: 'x',
-      yref: 'paper',
-      x0: currentDay.toISOString(),
-      x1: times.sunrise.toISOString(),
-      y0: 0,
-      y1: 1,
-      fillcolor: 'rgba(255, 255, 255, 0.5)',
-      line: { width: 0 },
-      layer: 'below'
-    });
+//     // Add night before sunrise
+//     shapes.push({
+//       type: 'rect',
+//       xref: 'x',
+//       yref: 'paper',
+//       x0: currentDay.toISOString(),
+//       x1: times.sunrise.toISOString(),
+//       y0: 0,
+//       y1: 1,
+//       fillcolor: 'rgba(255, 255, 255, 0.5)',
+//       line: { width: 0 },
+//       layer: 'below'
+//     });
 
-    // Add night after sunset
-    shapes.push({
-      type: 'rect',
-      xref: 'x',
-      yref: 'paper',
-      x0: times.sunset.toISOString(),
-      x1: new Date(currentDay.getTime() + MS_PER_DAY).toISOString(),
-      y0: 0,
-      y1: 1,
-      fillcolor: 'rgba(0, 0, 0, 0.1)',
-      line: { width: 0 },
-      layer: 'below'
-    });
-  }
+//     // Add night after sunset
+//     shapes.push({
+//       type: 'rect',
+//       xref: 'x',
+//       yref: 'paper',
+//       x0: times.sunset.toISOString(),
+//       x1: new Date(currentDay.getTime() + MS_PER_DAY).toISOString(),
+//       y0: 0,
+//       y1: 1,
+//       fillcolor: 'rgba(0, 0, 0, 0.1)',
+//       line: { width: 0 },
+//       layer: 'below'
+//     });
+//   }
 
-  return shapes;
-}
+//   return shapes;
+// }
 
 
 // Show the overlay with the plot
@@ -578,10 +554,6 @@ function showPlotOverlay(data, layout, loc, attributionHTML = '') {
     });
 
     Plotly.newPlot(plotContainer, data, layout, { displayModeBar: false });
-//     Plotly.newPlot(plotContainer, data, layout, { displayModeBar: false }).then(() => {
-//      updateLatestValuesBox(plotContainer, data);  // pass the actual DOM element
-// });
-
 
     window.addEventListener('resize', () => {
         Plotly.Plots.resize(plotContainer);
