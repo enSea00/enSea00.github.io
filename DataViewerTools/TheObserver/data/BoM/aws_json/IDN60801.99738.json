@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:03 am EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  9:22 am EST Thursday 12 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Singleton (Defence)",
@@ -5866,43 +5866,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 32,
 				"wind_spd_kt": 17
-			},
-			{
-				"sort_order": 158,
-				"wmo": 99738,
-				"name": "Singleton (Defence)",
-				"history_product": "IDN60801",
-				"local_date_time": "09/09:16am",
-				"local_date_time_full": "20250609091600",
-				"aifstime_utc": "20250608231600",
-				"lat": -32.7,
-				"lon": 151.2,
-				"apparent_t": 1.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.7,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 8.7,
-				"dewpt": 2.3,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 64,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}

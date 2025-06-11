@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:02 am EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  9:22 am EST Thursday 12 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Rhyll",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 24,
 				"wind_spd_kt": 13
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94892,
-				"name": "Rhyll",
-				"history_product": "IDV60801",
-				"local_date_time": "09/09:06am",
-				"local_date_time_full": "20250609090600",
-				"aifstime_utc": "20250608230600",
-				"lat": -38.5,
-				"lon": 145.3,
-				"apparent_t": 8.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.7,
-				"gust_kmh": 43,
-				"gust_kt": 23,
-				"air_temp": 11.7,
-				"dewpt": 10.3,
-				"press": 1008.0,
-				"press_msl": 1008.0,
-				"press_qnh": 1008.0,
-				"press_tend": "-",
-				"rain_trace": "0.6",
-				"rel_hum": 91,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 20,
-				"wind_spd_kt": 11
 			}
 		]
 	}

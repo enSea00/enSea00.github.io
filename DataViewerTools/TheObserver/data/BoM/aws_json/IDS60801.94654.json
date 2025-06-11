@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:41 am CST Thursday 12 June 2025",
+				"refresh_message": "Issued at  9:01 am CST Thursday 12 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Streaky Bay",
@@ -94,43 +94,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94654,
-				"name": "Streaky Bay",
-				"history_product": "IDS60801",
-				"local_date_time": "09/09:00am",
-				"local_date_time_full": "20250609090000",
-				"aifstime_utc": "20250608233000",
-				"lat": -32.8,
-				"lon": 134.2,
-				"apparent_t": 9.8,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.7,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 13.0,
-				"dewpt": 5.0,
-				"press": 1020.1,
-				"press_msl": 1020.1,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "1.0",
-				"rel_hum": 58,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "Distant precip.",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
