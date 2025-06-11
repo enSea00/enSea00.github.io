@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:41 pm EST Wednesday 11 June 2025",
+				"refresh_message": "Issued at  9:51 pm EST Wednesday 11 June 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Maria Island",
@@ -6014,43 +6014,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 39,
 				"wind_spd_kt": 21
-			},
-			{
-				"sort_order": 162,
-				"wmo": 95988,
-				"name": "Maria Island",
-				"history_product": "IDT60801",
-				"local_date_time": "08/09:48pm",
-				"local_date_time_full": "20250608214800",
-				"aifstime_utc": "20250608114800",
-				"lat": -42.7,
-				"lon": 148.0,
-				"apparent_t": 3.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.1,
-				"gust_kmh": 59,
-				"gust_kt": 32,
-				"air_temp": 12.1,
-				"dewpt": 7.8,
-				"press": 1009.6,
-				"press_msl": 1009.6,
-				"press_qnh": 1009.6,
-				"press_tend": "-",
-				"rain_trace": "8.2",
-				"rel_hum": 75,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 41,
-				"wind_spd_kt": 22
 			}
 		]
 	}
