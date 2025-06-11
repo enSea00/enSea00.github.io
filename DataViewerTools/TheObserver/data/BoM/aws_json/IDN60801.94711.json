@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:03 am EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  8:22 am EST Thursday 12 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Cobar",
@@ -5755,43 +5755,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 155,
-				"wmo": 94711,
-				"name": "Cobar",
-				"history_product": "IDN60801",
-				"local_date_time": "09/08:07am",
-				"local_date_time_full": "20250609080700",
-				"aifstime_utc": "20250608220700",
-				"lat": -31.5,
-				"lon": 145.8,
-				"apparent_t": 0.3,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 390,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.0,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 5.1,
-				"dewpt": 2.8,
-				"press": 1011.7,
-				"press_msl": 1011.7,
-				"press_qnh": 1011.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 85,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
