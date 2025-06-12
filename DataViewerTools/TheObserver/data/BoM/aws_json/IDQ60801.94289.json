@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:03 pm EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  8:32 pm EST Thursday 12 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Holmes Reef",
@@ -1463,43 +1463,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 32,
 				"wind_spd_kt": 17
-			},
-			{
-				"sort_order": 39,
-				"wmo": 94289,
-				"name": "Holmes Reef",
-				"history_product": "IDQ60801",
-				"local_date_time": "09/08:30pm",
-				"local_date_time_full": "20250609203000",
-				"aifstime_utc": "20250609103000",
-				"lat": -16.5,
-				"lon": 147.9,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 41,
-				"gust_kt": 22,
-				"air_temp": 23.1,
-				"dewpt": null,
-				"press": 1013.5,
-				"press_msl": 1013.5,
-				"press_qnh": 1013.6,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
