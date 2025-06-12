@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:03 am EST Friday 13 June 2025",
+				"refresh_message": "Issued at  8:22 am EST Friday 13 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Tocal",
@@ -5496,43 +5496,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 148,
-				"wmo": 94775,
-				"name": "Tocal",
-				"history_product": "IDN60801",
-				"local_date_time": "10/08:12am",
-				"local_date_time_full": "20250610081200",
-				"aifstime_utc": "20250609221200",
-				"lat": -32.6,
-				"lon": 151.6,
-				"apparent_t": 6.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.1,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 13.0,
-				"dewpt": 6.6,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 65,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
