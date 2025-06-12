@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:42 pm EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  3:02 pm EST Thursday 12 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Lakes Entrance",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 95904,
+				"name": "Lakes Entrance",
+				"history_product": "IDV60801",
+				"local_date_time": "12/03:00pm",
+				"local_date_time_full": "20250612150000",
+				"aifstime_utc": "20250612050000",
+				"lat": -37.9,
+				"lon": 148.0,
+				"apparent_t": 12.1,
+				"cloud": "Partly cloudy",
+				"cloud_base_m": null,
+				"cloud_oktas": 3,
+				"cloud_type": "-",
+				"cloud_type_id": 30,
+				"delta_t": 2.3,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 13.2,
+				"dewpt": 8.6,
+				"press": null,
+				"press_msl": null,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "0.0",
+				"rel_hum": 73,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "60",
+				"weather": "Fine",
+				"wind_dir": "SW",
+				"wind_spd_kmh": 4,
+				"wind_spd_kt": 2
+			},
+			{
+				"sort_order": 1,
 				"wmo": 95904,
 				"name": "Lakes Entrance",
 				"history_product": "IDV60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 2
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 95904,
 				"name": "Lakes Entrance",
 				"history_product": "IDV60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 95904,
 				"name": "Lakes Entrance",
 				"history_product": "IDV60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 3
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 95904,
 				"name": "Lakes Entrance",
 				"history_product": "IDV60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 2
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 95904,
 				"name": "Lakes Entrance",
 				"history_product": "IDV60801",
@@ -205,43 +242,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 5,
-				"wmo": 95904,
-				"name": "Lakes Entrance",
-				"history_product": "IDV60801",
-				"local_date_time": "09/03:00pm",
-				"local_date_time_full": "20250609150000",
-				"aifstime_utc": "20250609050000",
-				"lat": -37.9,
-				"lon": 148.0,
-				"apparent_t": 13.7,
-				"cloud": "Cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 2.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 14.7,
-				"dewpt": 10.9,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "2.0",
-				"rel_hum": 78,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "50",
-				"weather": "Fine",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
