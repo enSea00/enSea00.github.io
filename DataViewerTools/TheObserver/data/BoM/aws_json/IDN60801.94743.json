@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:33 am EST Friday 13 June 2025",
+				"refresh_message": "Issued at  9:42 am EST Friday 13 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Mount Boyce",
@@ -6495,43 +6495,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 32,
 				"wind_spd_kt": 17
-			},
-			{
-				"sort_order": 175,
-				"wmo": 94743,
-				"name": "Mount Boyce",
-				"history_product": "IDN60801",
-				"local_date_time": "10/09:34am",
-				"local_date_time_full": "20250610093400",
-				"aifstime_utc": "20250609233400",
-				"lat": -33.6,
-				"lon": 150.3,
-				"apparent_t": -2.2,
-				"cloud": "Cloudy",
-				"cloud_base_m": 360,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.2,
-				"gust_kmh": 46,
-				"gust_kt": 25,
-				"air_temp": 4.8,
-				"dewpt": 2.0,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 82,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
