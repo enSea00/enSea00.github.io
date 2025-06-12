@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:53 pm WST Thursday 12 June 2025",
+				"refresh_message": "Issued at  3:13 pm WST Thursday 12 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Karnet",
@@ -168,43 +168,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 4,
-				"wmo": 95614,
-				"name": "Karnet",
-				"history_product": "IDW60801",
-				"local_date_time": "09/03:00pm",
-				"local_date_time_full": "20250609150000",
-				"aifstime_utc": "20250609070000",
-				"lat": -32.4,
-				"lon": 116.1,
-				"apparent_t": null,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 4,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 19.6,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "20",
-				"weather": "Fine",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
