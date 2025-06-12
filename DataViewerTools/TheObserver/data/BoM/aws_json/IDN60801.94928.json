@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Friday 13 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Friday 13 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Bombala",
@@ -94,43 +94,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94928,
-				"name": "Bombala",
-				"history_product": "IDN60801",
-				"local_date_time": "10/09:00am",
-				"local_date_time_full": "20250610090000",
-				"aifstime_utc": "20250609230000",
-				"lat": -36.9,
-				"lon": 149.2,
-				"apparent_t": 2.2,
-				"cloud": "Cloudy",
-				"cloud_base_m": 1000,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": 35,
-				"delta_t": 1.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 7.0,
-				"dewpt": 4.8,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "16.0",
-				"rel_hum": 86,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "20",
-				"weather": "Fine",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}

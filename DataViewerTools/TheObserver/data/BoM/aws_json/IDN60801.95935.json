@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Friday 13 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Friday 13 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Narooma",
@@ -57,43 +57,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 1,
-				"wmo": 95935,
-				"name": "Narooma",
-				"history_product": "IDN60801",
-				"local_date_time": "10/09:00am",
-				"local_date_time_full": "20250610090000",
-				"aifstime_utc": "20250609230000",
-				"lat": -36.2,
-				"lon": 150.1,
-				"apparent_t": 8.7,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 4.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 13.5,
-				"dewpt": 4.9,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "6.0",
-				"rel_hum": 56,
-				"sea_state": "2",
-				"swell_dir_worded": "SE",
-				"swell_height": 1.5,
-				"swell_period": 10,
-				"vis_km": "20",
-				"weather": "Fine",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}

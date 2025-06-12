@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:52 am EST Friday 13 June 2025",
+				"refresh_message": "Issued at  9:02 am EST Friday 13 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Strathbogie",
@@ -57,43 +57,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 1,
-				"wmo": 95843,
-				"name": "Strathbogie",
-				"history_product": "IDV60801",
-				"local_date_time": "10/09:00am",
-				"local_date_time_full": "20250610090000",
-				"aifstime_utc": "20250609230000",
-				"lat": -36.8,
-				"lon": 145.7,
-				"apparent_t": 5.4,
-				"cloud": "Mostly clear",
-				"cloud_base_m": null,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 6.6,
-				"dewpt": 6.6,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.4",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "25",
-				"weather": "Fine",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 2,
-				"wind_spd_kt": 1
 			}
 		]
 	}

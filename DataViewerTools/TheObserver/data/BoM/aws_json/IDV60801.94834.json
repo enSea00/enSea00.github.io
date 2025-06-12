@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:52 am EST Friday 13 June 2025",
+				"refresh_message": "Issued at  9:02 am EST Friday 13 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Ararat",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94834,
+				"name": "Ararat",
+				"history_product": "IDV60801",
+				"local_date_time": "13/09:00am",
+				"local_date_time_full": "20250613090000",
+				"aifstime_utc": "20250612230000",
+				"lat": -37.3,
+				"lon": 143.0,
+				"apparent_t": -2.1,
+				"cloud": "Mostly clear",
+				"cloud_base_m": null,
+				"cloud_oktas": 2,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 0.1,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": -0.1,
+				"dewpt": -0.4,
+				"press": 1026.9,
+				"press_msl": 1026.9,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "0.0",
+				"rel_hum": 98,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "-",
+				"weather": "Fine",
+				"wind_dir": "CALM",
+				"wind_spd_kmh": 0,
+				"wind_spd_kt": 0
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94834,
 				"name": "Ararat",
 				"history_product": "IDV60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94834,
 				"name": "Ararat",
 				"history_product": "IDV60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94834,
 				"name": "Ararat",
 				"history_product": "IDV60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94834,
 				"name": "Ararat",
 				"history_product": "IDV60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94834,
 				"name": "Ararat",
 				"history_product": "IDV60801",
@@ -207,7 +244,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 5,
+				"sort_order": 6,
 				"wmo": 94834,
 				"name": "Ararat",
 				"history_product": "IDV60801",
@@ -244,7 +281,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 6,
+				"sort_order": 7,
 				"wmo": 94834,
 				"name": "Ararat",
 				"history_product": "IDV60801",
@@ -281,7 +318,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 7,
+				"sort_order": 8,
 				"wmo": 94834,
 				"name": "Ararat",
 				"history_product": "IDV60801",
@@ -313,43 +350,6 @@
 				"swell_period": null,
 				"vis_km": "-",
 				"weather": "Fine",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 8,
-				"wmo": 94834,
-				"name": "Ararat",
-				"history_product": "IDV60801",
-				"local_date_time": "10/09:00am",
-				"local_date_time_full": "20250610090000",
-				"aifstime_utc": "20250609230000",
-				"lat": -37.3,
-				"lon": 143.0,
-				"apparent_t": 4.0,
-				"cloud": "Fog",
-				"cloud_base_m": null,
-				"cloud_oktas": 9,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 5.1,
-				"dewpt": 5.1,
-				"press": 1014.4,
-				"press_msl": 1014.4,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "1.0",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "Fog",
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0

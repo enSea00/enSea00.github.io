@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Friday 13 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Friday 13 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Murrurundi",
@@ -94,43 +94,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94758,
-				"name": "Murrurundi",
-				"history_product": "IDN60801",
-				"local_date_time": "10/09:00am",
-				"local_date_time_full": "20250610090000",
-				"aifstime_utc": "20250609230000",
-				"lat": -31.8,
-				"lon": 150.8,
-				"apparent_t": 2.8,
-				"cloud": "Cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 7.5,
-				"dewpt": 5.3,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "9.0",
-				"rel_hum": 86,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "20",
-				"weather": "Fine",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}

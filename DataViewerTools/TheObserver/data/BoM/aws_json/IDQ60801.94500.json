@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:52 am EST Friday 13 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Friday 13 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Cunnamulla",
@@ -94,43 +94,6 @@
 				"wind_dir": "-",
 				"wind_spd_kmh": null,
 				"wind_spd_kt": null
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94500,
-				"name": "Cunnamulla",
-				"history_product": "IDQ60801",
-				"local_date_time": "10/09:00am",
-				"local_date_time_full": "20250610090000",
-				"aifstime_utc": "20250609230000",
-				"lat": -28.1,
-				"lon": 145.7,
-				"apparent_t": 5.5,
-				"cloud": "Clear",
-				"cloud_base_m": 2500,
-				"cloud_oktas": 0,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 8.2,
-				"dewpt": 3.6,
-				"press": 1018.5,
-				"press_msl": 1018.5,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 73,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "30",
-				"weather": "Fine",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
