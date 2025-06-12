@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:52 am WST Friday 13 June 2025",
+				"refresh_message": "Issued at  6:03 am WST Friday 13 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Eyre",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94645,
+				"name": "Eyre",
+				"history_product": "IDW60801",
+				"local_date_time": "13/06:00am",
+				"local_date_time_full": "20250613060000",
+				"aifstime_utc": "20250612220000",
+				"lat": -32.2,
+				"lon": 126.3,
+				"apparent_t": 5.1,
+				"cloud": "Cloudy",
+				"cloud_base_m": 2500,
+				"cloud_oktas": 8,
+				"cloud_type": "-",
+				"cloud_type_id": 30,
+				"delta_t": 0.1,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 7.1,
+				"dewpt": 6.9,
+				"press": 1025.0,
+				"press_msl": 1025.0,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "-",
+				"rel_hum": 99,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "20",
+				"weather": "Fine",
+				"wind_dir": "NE",
+				"wind_spd_kmh": 7,
+				"wind_spd_kt": 4
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94645,
 				"name": "Eyre",
 				"history_product": "IDW60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94645,
 				"name": "Eyre",
 				"history_product": "IDW60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94645,
 				"name": "Eyre",
 				"history_product": "IDW60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94645,
 				"name": "Eyre",
 				"history_product": "IDW60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 7
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94645,
 				"name": "Eyre",
 				"history_product": "IDW60801",
@@ -205,43 +242,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 5,
-				"wmo": 94645,
-				"name": "Eyre",
-				"history_product": "IDW60801",
-				"local_date_time": "10/06:00am",
-				"local_date_time_full": "20250610060000",
-				"aifstime_utc": "20250609220000",
-				"lat": -32.2,
-				"lon": 126.3,
-				"apparent_t": 5.2,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 2500,
-				"cloud_oktas": 2,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 0.1,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 6.1,
-				"dewpt": 5.9,
-				"press": 1020.2,
-				"press_msl": 1020.2,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "20",
-				"weather": "Fine",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}
