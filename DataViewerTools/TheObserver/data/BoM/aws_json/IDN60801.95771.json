@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:32 pm EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  7:42 pm EST Thursday 12 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Cessnock Airport",
@@ -5496,43 +5496,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 148,
-				"wmo": 95771,
-				"name": "Cessnock Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "09/07:32pm",
-				"local_date_time_full": "20250609193200",
-				"aifstime_utc": "20250609093200",
-				"lat": -32.8,
-				"lon": 151.3,
-				"apparent_t": 3.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.7,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 9.6,
-				"dewpt": 5.8,
-				"press": 1004.8,
-				"press_msl": 1004.8,
-				"press_qnh": 1004.8,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 77,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
