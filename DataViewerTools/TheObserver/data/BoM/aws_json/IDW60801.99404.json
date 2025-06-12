@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 10:42 am WST Thursday 12 June 2025",
+				"refresh_message": "Issued at 11:33 am WST Thursday 12 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "PORTABLE BTSF (DFES)",
@@ -21,43 +21,6 @@
 			}
 		],
 		"data": [
-			{
-				"sort_order": 0,
-				"wmo": 99404,
-				"name": "PORTABLE BTSF (DFES)",
-				"history_product": "IDW60801",
-				"local_date_time": "09/10:50am",
-				"local_date_time_full": "20250609105000",
-				"aifstime_utc": "20250609025000",
-				"lat": -32.1,
-				"lon": 115.9,
-				"apparent_t": 17.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 7.0,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 20.0,
-				"dewpt": 6.0,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 40,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
-			}
 		]
 	}
 }
