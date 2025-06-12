@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:03 pm EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  3:22 pm EST Thursday 12 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Mildura",
@@ -33,8 +33,8 @@
 				"lon": 142.1,
 				"apparent_t": 11.5,
 				"cloud": "Partly cloudy",
-				"cloud_base_m": 1890,
-				"cloud_oktas": 5,
+				"cloud_base_m": 1500,
+				"cloud_oktas": 4,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 6.1,
@@ -45,7 +45,7 @@
 				"press": 1018.9,
 				"press_msl": 1018.9,
 				"press_qnh": 1018.9,
-				"press_tend": "-",
+				"press_tend": "R",
 				"rain_trace": "0.0",
 				"rel_hum": 39,
 				"sea_state": "-",
