@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:41 pm CST Thursday 12 June 2025",
+				"refresh_message": "Issued at  7:01 pm CST Thursday 12 June 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Batchelor",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 143,
-				"wmo": 94125,
-				"name": "Batchelor",
-				"history_product": "IDD60801",
-				"local_date_time": "09/07:00pm",
-				"local_date_time_full": "20250609190000",
-				"aifstime_utc": "20250609093000",
-				"lat": -13.1,
-				"lon": 131.0,
-				"apparent_t": 20.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 6.7,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 21.9,
-				"dewpt": 9.4,
-				"press": 1011.5,
-				"press_msl": 1011.5,
-				"press_qnh": 1012.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 45,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
