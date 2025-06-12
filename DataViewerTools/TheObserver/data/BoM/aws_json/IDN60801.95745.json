@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:12 am EST Friday 13 June 2025",
+				"refresh_message": "Issued at  2:32 am EST Friday 13 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Port Kembla Harbour",
@@ -5496,43 +5496,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 148,
-				"wmo": 95745,
-				"name": "Port Kembla Harbour",
-				"history_product": "IDN60801",
-				"local_date_time": "10/02:30am",
-				"local_date_time_full": "20250610023000",
-				"aifstime_utc": "20250609163000",
-				"lat": -34.5,
-				"lon": 150.9,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": 13.1,
-				"dewpt": null,
-				"press": 1002.7,
-				"press_msl": 1002.7,
-				"press_qnh": 1002.7,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
