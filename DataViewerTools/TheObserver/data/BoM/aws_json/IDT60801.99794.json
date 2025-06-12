@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:31 am EST Friday 13 June 2025",
+				"refresh_message": "Issued at  3:41 am EST Friday 13 June 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "TFS D",
@@ -3794,43 +3794,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 102,
-				"wmo": 99794,
-				"name": "TFS D",
-				"history_product": "IDT60801",
-				"local_date_time": "10/03:40am",
-				"local_date_time_full": "20250610034000",
-				"aifstime_utc": "20250609174000",
-				"lat": -43.1,
-				"lon": 147.2,
-				"apparent_t": 5.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 6,
-				"gust_kt": 3,
-				"air_temp": 6.7,
-				"dewpt": 6.6,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "13.2",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
