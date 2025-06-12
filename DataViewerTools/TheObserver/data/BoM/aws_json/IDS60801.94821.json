@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:11 am CST Friday 13 June 2025",
+				"refresh_message": "Issued at  4:21 am CST Friday 13 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Mount Gambier",
@@ -6273,43 +6273,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 169,
-				"wmo": 94821,
-				"name": "Mount Gambier",
-				"history_product": "IDS60801",
-				"local_date_time": "10/04:20am",
-				"local_date_time_full": "20250610042000",
-				"aifstime_utc": "20250609185000",
-				"lat": -37.7,
-				"lon": 140.8,
-				"apparent_t": 2.9,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 1260,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 6.0,
-				"dewpt": 5.7,
-				"press": 1013.5,
-				"press_msl": 1013.5,
-				"press_qnh": 1013.4,
-				"press_tend": "-",
-				"rain_trace": "8.4",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "1",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
