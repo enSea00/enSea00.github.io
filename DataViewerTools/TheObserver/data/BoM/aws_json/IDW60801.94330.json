@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:22 am WST Friday 13 June 2025",
+				"refresh_message": "Issued at  5:33 am WST Friday 13 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Karijini North",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94330,
-				"name": "Karijini North",
-				"history_product": "IDW60801",
-				"local_date_time": "10/05:30am",
-				"local_date_time_full": "20250610053000",
-				"aifstime_utc": "20250609213000",
-				"lat": -22.3,
-				"lon": 118.4,
-				"apparent_t": 6.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.0,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 9.3,
-				"dewpt": -0.6,
-				"press": 1017.7,
-				"press_msl": 1017.7,
-				"press_qnh": 1019.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 50,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}

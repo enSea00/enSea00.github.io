@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:51 am CST Friday 13 June 2025",
+				"refresh_message": "Issued at  7:01 am CST Friday 13 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Port Pirie Airport AWS",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 143,
-				"wmo": 99749,
-				"name": "Port Pirie Airport AWS",
-				"history_product": "IDS60801",
-				"local_date_time": "10/07:00am",
-				"local_date_time_full": "20250610070000",
-				"aifstime_utc": "20250609213000",
-				"lat": -33.2,
-				"lon": 138.0,
-				"apparent_t": 7.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 9.1,
-				"dewpt": 8.8,
-				"press": 1018.4,
-				"press_msl": 1018.4,
-				"press_qnh": 1018.4,
-				"press_tend": "-",
-				"rain_trace": "6.4",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}

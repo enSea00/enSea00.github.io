@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:22 am EST Friday 13 June 2025",
+				"refresh_message": "Issued at  7:32 am EST Friday 13 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Cairns Racecourse",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94288,
-				"name": "Cairns Racecourse",
-				"history_product": "IDQ60801",
-				"local_date_time": "10/07:30am",
-				"local_date_time_full": "20250610073000",
-				"aifstime_utc": "20250609213000",
-				"lat": -16.9,
-				"lon": 145.7,
-				"apparent_t": 22.7,
-				"cloud": "Cloudy",
-				"cloud_base_m": 1020,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.4,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 20.9,
-				"dewpt": 18.7,
-				"press": 1014.4,
-				"press_msl": 1014.4,
-				"press_qnh": 1014.4,
-				"press_tend": "-",
-				"rain_trace": "1.2",
-				"rel_hum": 87,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
