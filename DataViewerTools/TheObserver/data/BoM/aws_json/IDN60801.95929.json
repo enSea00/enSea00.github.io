@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 pm EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  9:03 pm EST Thursday 12 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Merimbula",
@@ -26,15 +26,52 @@
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
+				"local_date_time": "12/09:00pm",
+				"local_date_time_full": "20250612210000",
+				"aifstime_utc": "20250612110000",
+				"lat": -36.9,
+				"lon": 149.9,
+				"apparent_t": 3.8,
+				"cloud": "Clear",
+				"cloud_base_m": null,
+				"cloud_oktas": 0,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 0.0,
+				"gust_kmh": 9,
+				"gust_kt": 5,
+				"air_temp": 5.9,
+				"dewpt": 5.8,
+				"press": 1022.1,
+				"press_msl": 1022.1,
+				"press_qnh": 1022.1,
+				"press_tend": "-",
+				"rain_trace": "0.0",
+				"rel_hum": 99,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "10",
+				"weather": "-",
+				"wind_dir": "SW",
+				"wind_spd_kmh": 6,
+				"wind_spd_kt": 3
+			},
+			{
+				"sort_order": 1,
+				"wmo": 95929,
+				"name": "Merimbula",
+				"history_product": "IDN60801",
 				"local_date_time": "12/08:30pm",
 				"local_date_time_full": "20250612203000",
 				"aifstime_utc": "20250612103000",
 				"lat": -36.9,
 				"lon": 149.9,
 				"apparent_t": 4.4,
-				"cloud": "Clear",
+				"cloud": "-",
 				"cloud_base_m": null,
-				"cloud_oktas": 0,
+				"cloud_oktas": null,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 0.0,
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 1
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 2
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -207,7 +244,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 5,
+				"sort_order": 6,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -244,7 +281,7 @@
 				"wind_spd_kt": 3
 			},
 			{
-				"sort_order": 6,
+				"sort_order": 7,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -281,7 +318,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 7,
+				"sort_order": 8,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -318,7 +355,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 8,
+				"sort_order": 9,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -355,7 +392,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 9,
+				"sort_order": 10,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -392,7 +429,7 @@
 				"wind_spd_kt": 8
 			},
 			{
-				"sort_order": 10,
+				"sort_order": 11,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -429,7 +466,7 @@
 				"wind_spd_kt": 7
 			},
 			{
-				"sort_order": 11,
+				"sort_order": 12,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -466,7 +503,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 12,
+				"sort_order": 13,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -503,7 +540,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 13,
+				"sort_order": 14,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -540,7 +577,7 @@
 				"wind_spd_kt": 7
 			},
 			{
-				"sort_order": 14,
+				"sort_order": 15,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -577,7 +614,7 @@
 				"wind_spd_kt": 7
 			},
 			{
-				"sort_order": 15,
+				"sort_order": 16,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -614,7 +651,7 @@
 				"wind_spd_kt": 8
 			},
 			{
-				"sort_order": 16,
+				"sort_order": 17,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -651,7 +688,7 @@
 				"wind_spd_kt": 8
 			},
 			{
-				"sort_order": 17,
+				"sort_order": 18,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
@@ -688,7 +725,7 @@
 				"wind_spd_kt": 9
 			},
 			{
-				"sort_order": 18,
+				"sort_order": 19,
 				"wmo": 95929,
 				"name": "Merimbula",
 				"history_product": "IDN60801",
