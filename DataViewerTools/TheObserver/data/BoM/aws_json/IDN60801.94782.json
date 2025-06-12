@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:32 pm EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  1:52 pm EST Thursday 12 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Gosford",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94782,
-				"name": "Gosford",
-				"history_product": "IDN60801",
-				"local_date_time": "09/01:46pm",
-				"local_date_time_full": "20250609134600",
-				"aifstime_utc": "20250609034600",
-				"lat": -33.4,
-				"lon": 151.4,
-				"apparent_t": 6.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.7,
-				"gust_kmh": 54,
-				"gust_kt": 29,
-				"air_temp": 13.3,
-				"dewpt": 2.5,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 48,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}

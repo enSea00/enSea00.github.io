@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:32 pm EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  1:52 pm EST Thursday 12 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Ballarat",
@@ -6828,43 +6828,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 184,
-				"wmo": 94852,
-				"name": "Ballarat",
-				"history_product": "IDV60801",
-				"local_date_time": "09/01:41pm",
-				"local_date_time_full": "20250609134100",
-				"aifstime_utc": "20250609034100",
-				"lat": -37.5,
-				"lon": 143.8,
-				"apparent_t": 5.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 270,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.7,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 10.0,
-				"dewpt": 8.6,
-				"press": 1009.6,
-				"press_msl": 1009.6,
-				"press_qnh": 1009.0,
-				"press_tend": "-",
-				"rain_trace": "1.0",
-				"rel_hum": 91,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 22,
-				"wind_spd_kt": 12
 			}
 		]
 	}
