@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:02 pm EST Thursday 12 June 2025",
+				"refresh_message": "Issued at  9:22 pm EST Thursday 12 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Albury",
@@ -32,9 +32,9 @@
 				"lat": -36.1,
 				"lon": 147.0,
 				"apparent_t": 1.0,
-				"cloud": "Clear",
+				"cloud": "-",
 				"cloud_base_m": null,
-				"cloud_oktas": 0,
+				"cloud_oktas": null,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 0.4,
@@ -53,7 +53,7 @@
 				"swell_height": null,
 				"swell_period": null,
 				"vis_km": "10",
-				"weather": "-",
+				"weather": "Recent precip.",
 				"wind_dir": "NE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
