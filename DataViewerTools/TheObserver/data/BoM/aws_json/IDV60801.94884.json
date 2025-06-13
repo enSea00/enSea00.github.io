@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Saturday 14 June 2025",
+				"refresh_message": "Issued at  9:02 am EST Saturday 14 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Benalla",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94884,
+				"name": "Benalla",
+				"history_product": "IDV60801",
+				"local_date_time": "14/09:00am",
+				"local_date_time_full": "20250614090000",
+				"aifstime_utc": "20250613230000",
+				"lat": -36.6,
+				"lon": 146.0,
+				"apparent_t": 1.5,
+				"cloud": "Mostly clear",
+				"cloud_base_m": null,
+				"cloud_oktas": 2,
+				"cloud_type": "-",
+				"cloud_type_id": 30,
+				"delta_t": 0.0,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 3.0,
+				"dewpt": 3.0,
+				"press": 1024.6,
+				"press_msl": 1024.6,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "0.0",
+				"rel_hum": 100,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "30",
+				"weather": "Fine",
+				"wind_dir": "CALM",
+				"wind_spd_kmh": 0,
+				"wind_spd_kt": 0
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94884,
 				"name": "Benalla",
 				"history_product": "IDV60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94884,
 				"name": "Benalla",
 				"history_product": "IDV60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94884,
 				"name": "Benalla",
 				"history_product": "IDV60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94884,
 				"name": "Benalla",
 				"history_product": "IDV60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94884,
 				"name": "Benalla",
 				"history_product": "IDV60801",
@@ -205,43 +242,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 5,
-				"wmo": 94884,
-				"name": "Benalla",
-				"history_product": "IDV60801",
-				"local_date_time": "11/09:00am",
-				"local_date_time_full": "20250611090000",
-				"aifstime_utc": "20250610230000",
-				"lat": -36.6,
-				"lon": 146.0,
-				"apparent_t": 6.1,
-				"cloud": "Cloudy",
-				"cloud_base_m": 300,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": 36,
-				"delta_t": 0.5,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 7.0,
-				"dewpt": 5.9,
-				"press": 1016.3,
-				"press_msl": 1016.3,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 93,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "20",
-				"weather": "Fine",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}

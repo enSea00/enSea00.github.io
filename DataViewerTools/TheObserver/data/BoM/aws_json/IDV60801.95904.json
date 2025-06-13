@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Saturday 14 June 2025",
+				"refresh_message": "Issued at  9:02 am EST Saturday 14 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Lakes Entrance",
@@ -205,43 +205,6 @@
 				"wind_dir": "-",
 				"wind_spd_kmh": null,
 				"wind_spd_kt": null
-			},
-			{
-				"sort_order": 5,
-				"wmo": 95904,
-				"name": "Lakes Entrance",
-				"history_product": "IDV60801",
-				"local_date_time": "11/09:00am",
-				"local_date_time_full": "20250611090000",
-				"aifstime_utc": "20250610230000",
-				"lat": -37.9,
-				"lon": 148.0,
-				"apparent_t": 7.7,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 4,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 1.8,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 9.8,
-				"dewpt": 5.9,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "4.0",
-				"rel_hum": 77,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "60",
-				"weather": "Fine",
-				"wind_dir": "W",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
