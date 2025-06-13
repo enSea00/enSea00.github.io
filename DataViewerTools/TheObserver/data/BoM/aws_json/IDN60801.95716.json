@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:32 pm EST Friday 13 June 2025",
+				"refresh_message": "Issued at  5:42 pm EST Friday 13 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Goulburn Airport",
@@ -6199,43 +6199,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 28,
 				"wind_spd_kt": 15
-			},
-			{
-				"sort_order": 167,
-				"wmo": 95716,
-				"name": "Goulburn Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "10/05:37pm",
-				"local_date_time_full": "20250610173700",
-				"aifstime_utc": "20250610073700",
-				"lat": -34.8,
-				"lon": 149.7,
-				"apparent_t": -1.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 510,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.0,
-				"gust_kmh": 46,
-				"gust_kt": 25,
-				"air_temp": 6.1,
-				"dewpt": 3.8,
-				"press": 1010.7,
-				"press_msl": 1010.7,
-				"press_qnh": 1010.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 85,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
