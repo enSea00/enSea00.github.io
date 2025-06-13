@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:33 pm WST Friday 13 June 2025",
+				"refresh_message": "Issued at  1:42 pm WST Friday 13 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Garden Island",
@@ -5607,43 +5607,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 50,
 				"wind_spd_kt": 27
-			},
-			{
-				"sort_order": 151,
-				"wmo": 95607,
-				"name": "Garden Island",
-				"history_product": "IDW60801",
-				"local_date_time": "10/01:40pm",
-				"local_date_time_full": "20250610134000",
-				"aifstime_utc": "20250610054000",
-				"lat": -32.2,
-				"lon": 115.7,
-				"apparent_t": 9.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.9,
-				"gust_kmh": 65,
-				"gust_kt": 35,
-				"air_temp": 16.5,
-				"dewpt": 14.9,
-				"press": 1015.3,
-				"press_msl": 1015.3,
-				"press_qnh": 1015.3,
-				"press_tend": "-",
-				"rain_trace": "5.6",
-				"rel_hum": 90,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 46,
-				"wind_spd_kt": 25
 			}
 		]
 	}
