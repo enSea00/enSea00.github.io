@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:52 pm EST Friday 13 June 2025",
+				"refresh_message": "Issued at  5:13 pm EST Friday 13 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Windorah",
@@ -5089,43 +5089,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 137,
-				"wmo": 94489,
-				"name": "Windorah",
-				"history_product": "IDQ60801",
-				"local_date_time": "10/05:00pm",
-				"local_date_time_full": "20250610170000",
-				"aifstime_utc": "20250610070000",
-				"lat": -25.4,
-				"lon": 142.7,
-				"apparent_t": 10.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.9,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 15.3,
-				"dewpt": 2.1,
-				"press": 1017.0,
-				"press_msl": 1017.0,
-				"press_qnh": 1017.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 41,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
