@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:11 am CST Saturday 14 June 2025",
+				"refresh_message": "Issued at  3:21 am CST Saturday 14 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Edinburgh",
@@ -5496,43 +5496,6 @@
 				"wind_dir": "NE",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 148,
-				"wmo": 95676,
-				"name": "Edinburgh",
-				"history_product": "IDS60801",
-				"local_date_time": "11/03:15am",
-				"local_date_time_full": "20250611031500",
-				"aifstime_utc": "20250610174500",
-				"lat": -34.7,
-				"lon": 138.6,
-				"apparent_t": 8.4,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 120,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 10.2,
-				"dewpt": 9.6,
-				"press": 1016.7,
-				"press_msl": 1016.7,
-				"press_qnh": 1016.7,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
