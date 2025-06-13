@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:01 pm CST Friday 13 June 2025",
+				"refresh_message": "Issued at  7:11 pm CST Friday 13 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Ernabella/Pukatja",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 147,
-				"wmo": 94474,
-				"name": "Ernabella/Pukatja",
-				"history_product": "IDS60801",
-				"local_date_time": "10/07:03pm",
-				"local_date_time_full": "20250610190300",
-				"aifstime_utc": "20250610093300",
-				"lat": -26.3,
-				"lon": 132.2,
-				"apparent_t": 7.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.0,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 9.9,
-				"dewpt": 0.5,
-				"press": 1017.9,
-				"press_msl": 1017.9,
-				"press_qnh": 1018.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 52,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
