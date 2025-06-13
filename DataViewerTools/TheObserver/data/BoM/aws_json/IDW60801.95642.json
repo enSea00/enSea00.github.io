@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:33 pm WST Friday 13 June 2025",
+				"refresh_message": "Issued at  7:42 pm WST Friday 13 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Norseman Airport",
@@ -5422,43 +5422,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 37,
 				"wind_spd_kt": 20
-			},
-			{
-				"sort_order": 146,
-				"wmo": 95642,
-				"name": "Norseman Airport",
-				"history_product": "IDW60801",
-				"local_date_time": "10/07:38pm",
-				"local_date_time_full": "20250610193800",
-				"aifstime_utc": "20250610113800",
-				"lat": -32.2,
-				"lon": 121.8,
-				"apparent_t": 2.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.1,
-				"gust_kmh": 61,
-				"gust_kt": 33,
-				"air_temp": 11.7,
-				"dewpt": 5.1,
-				"press": 1014.8,
-				"press_msl": 1014.8,
-				"press_qnh": 1014.7,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 64,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 43,
-				"wind_spd_kt": 23
 			}
 		]
 	}

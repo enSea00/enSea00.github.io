@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:33 pm WST Friday 13 June 2025",
+				"refresh_message": "Issued at  7:42 pm WST Friday 13 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Southern Cross Airport",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 144,
-				"wmo": 95634,
-				"name": "Southern Cross Airport",
-				"history_product": "IDW60801",
-				"local_date_time": "10/07:35pm",
-				"local_date_time_full": "20250610193500",
-				"aifstime_utc": "20250610113500",
-				"lat": -31.2,
-				"lon": 119.4,
-				"apparent_t": 4.3,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 390,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.5,
-				"gust_kmh": 54,
-				"gust_kt": 29,
-				"air_temp": 11.3,
-				"dewpt": 8.3,
-				"press": 1017.9,
-				"press_msl": 1017.9,
-				"press_qnh": 1017.9,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 82,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 35,
-				"wind_spd_kt": 19
 			}
 		]
 	}
