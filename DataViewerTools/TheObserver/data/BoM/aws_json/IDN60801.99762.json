@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:22 am EST Saturday 14 June 2025",
+				"refresh_message": "Issued at  7:32 am EST Saturday 14 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Tidbinbilla",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 143,
-				"wmo": 99762,
-				"name": "Tidbinbilla",
-				"history_product": "IDN60801",
-				"local_date_time": "11/07:30am",
-				"local_date_time_full": "20250611073000",
-				"aifstime_utc": "20250610213000",
-				"lat": -35.5,
-				"lon": 148.9,
-				"apparent_t": -1.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.4,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 2.7,
-				"dewpt": -1.0,
-				"press": 1013.8,
-				"press_msl": null,
-				"press_qnh": 1013.8,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 76,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
