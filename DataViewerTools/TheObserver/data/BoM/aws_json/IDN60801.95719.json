@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:32 am EST Sunday 15 June 2025",
+				"refresh_message": "Issued at  6:42 am EST Sunday 15 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Dubbo",
@@ -6088,43 +6088,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 164,
-				"wmo": 95719,
-				"name": "Dubbo",
-				"history_product": "IDN60801",
-				"local_date_time": "12/06:34am",
-				"local_date_time_full": "20250612063400",
-				"aifstime_utc": "20250611203400",
-				"lat": -32.2,
-				"lon": 148.6,
-				"apparent_t": -3.3,
-				"cloud": "Cloudy",
-				"cloud_base_m": 2130,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 0.0,
-				"dewpt": 0.0,
-				"press": 1020.3,
-				"press_msl": 1020.3,
-				"press_qnh": 1020.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "0.2",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
