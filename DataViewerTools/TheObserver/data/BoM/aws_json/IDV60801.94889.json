@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 12:02 am EST Sunday 15 June 2025",
+				"refresh_message": "Issued at 12:22 am EST Sunday 15 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Wangaratta",
@@ -7716,43 +7716,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 208,
-				"wmo": 94889,
-				"name": "Wangaratta",
-				"history_product": "IDV60801",
-				"local_date_time": "12/12:07am",
-				"local_date_time_full": "20250612000700",
-				"aifstime_utc": "20250611140700",
-				"lat": -36.4,
-				"lon": 146.3,
-				"apparent_t": 0.1,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 90,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 2.8,
-				"dewpt": 2.4,
-				"press": 1018.8,
-				"press_msl": 1018.8,
-				"press_qnh": 1018.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "0.2",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
