@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:41 am CST Sunday 15 June 2025",
+				"refresh_message": "Issued at  6:01 am CST Sunday 15 June 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Ngukurr AWS",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 143,
-				"wmo": 94106,
-				"name": "Ngukurr AWS",
-				"history_product": "IDD60801",
-				"local_date_time": "12/06:00am",
-				"local_date_time_full": "20250612060000",
-				"aifstime_utc": "20250611203000",
-				"lat": -14.7,
-				"lon": 134.7,
-				"apparent_t": 12.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.4,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 14.0,
-				"dewpt": 9.2,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 73,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
