@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:32 am EST Sunday 15 June 2025",
+				"refresh_message": "Issued at  7:42 am EST Sunday 15 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Narrandera Airport",
@@ -7790,43 +7790,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 210,
-				"wmo": 95706,
-				"name": "Narrandera Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "12/07:38am",
-				"local_date_time_full": "20250612073800",
-				"aifstime_utc": "20250611213800",
-				"lat": -34.7,
-				"lon": 146.5,
-				"apparent_t": -1.1,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 30,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 1.9,
-				"dewpt": 1.9,
-				"press": 1020.8,
-				"press_msl": 1020.8,
-				"press_qnh": 1020.6,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
