@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:42 pm WST Saturday 14 June 2025",
+				"refresh_message": "Issued at  5:52 pm WST Saturday 14 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Karnet",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 95614,
+				"name": "Karnet",
+				"history_product": "IDW60801",
+				"local_date_time": "14/03:00pm",
+				"local_date_time_full": "20250614150000",
+				"aifstime_utc": "20250614070000",
+				"lat": -32.4,
+				"lon": 116.1,
+				"apparent_t": 14.3,
+				"cloud": "Mostly cloudy",
+				"cloud_base_m": null,
+				"cloud_oktas": 6,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 3.8,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 15.5,
+				"dewpt": 8.1,
+				"press": null,
+				"press_msl": null,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "0.0",
+				"rel_hum": 61,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "25",
+				"weather": "Fine",
+				"wind_dir": "NW",
+				"wind_spd_kmh": 4,
+				"wind_spd_kt": 2
+			},
+			{
+				"sort_order": 1,
 				"wmo": 95614,
 				"name": "Karnet",
 				"history_product": "IDW60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 95614,
 				"name": "Karnet",
 				"history_product": "IDW60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 95614,
 				"name": "Karnet",
 				"history_product": "IDW60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 1
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 95614,
 				"name": "Karnet",
 				"history_product": "IDW60801",
