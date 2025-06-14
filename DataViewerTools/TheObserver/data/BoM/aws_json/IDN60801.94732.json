@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Sunday 15 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Sunday 15 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Gulgong",
@@ -57,43 +57,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 1,
-				"wmo": 94732,
-				"name": "Gulgong",
-				"history_product": "IDN60801",
-				"local_date_time": "12/09:00am",
-				"local_date_time_full": "20250612090000",
-				"aifstime_utc": "20250611230000",
-				"lat": -32.4,
-				"lon": 149.5,
-				"apparent_t": -0.5,
-				"cloud": "Fog",
-				"cloud_base_m": null,
-				"cloud_oktas": 9,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 1.4,
-				"dewpt": 0.6,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "0.5",
-				"weather": "Fog",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}
