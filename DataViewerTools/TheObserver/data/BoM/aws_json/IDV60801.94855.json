@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:32 pm EST Saturday 14 June 2025",
+				"refresh_message": "Issued at  5:42 pm EST Saturday 14 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Bendigo",
@@ -6902,43 +6902,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 186,
-				"wmo": 94855,
-				"name": "Bendigo",
-				"history_product": "IDV60801",
-				"local_date_time": "11/05:34pm",
-				"local_date_time_full": "20250611173400",
-				"aifstime_utc": "20250611073400",
-				"lat": -36.7,
-				"lon": 144.3,
-				"apparent_t": 5.0,
-				"cloud": "Cloudy",
-				"cloud_base_m": 60,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.4,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 7.0,
-				"dewpt": 6.1,
-				"press": 1016.5,
-				"press_msl": 1016.5,
-				"press_qnh": 1016.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "3",
-				"weather": "-",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
