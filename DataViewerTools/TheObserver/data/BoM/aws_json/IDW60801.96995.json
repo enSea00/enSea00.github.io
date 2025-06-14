@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 12:52 am WST Sunday 15 June 2025",
+				"refresh_message": "Issued at  1:03 am WST Sunday 15 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Christmas Island",
@@ -5792,43 +5792,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 156,
-				"wmo": 96995,
-				"name": "Christmas Island",
-				"history_product": "IDW60801",
-				"local_date_time": "12/01:00am",
-				"local_date_time_full": "20250612010000",
-				"aifstime_utc": "20250611170000",
-				"lat": -10.5,
-				"lon": 105.7,
-				"apparent_t": 26.0,
-				"cloud": "Mostly cloudy",
-				"cloud_base_m": 300,
-				"cloud_oktas": 6,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.4,
-				"gust_kmh": 37,
-				"gust_kt": 20,
-				"air_temp": 25.5,
-				"dewpt": 22.0,
-				"press": 1011.3,
-				"press_msl": 1011.3,
-				"press_qnh": 1012.9,
-				"press_tend": "-",
-				"rain_trace": "3.0",
-				"rel_hum": 81,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 22,
-				"wind_spd_kt": 12
 			}
 		]
 	}
