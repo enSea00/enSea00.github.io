@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:02 am EST Sunday 15 June 2025",
+				"refresh_message": "Issued at  9:22 am EST Sunday 15 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Shepparton",
@@ -32,9 +32,9 @@
 				"lat": -36.4,
 				"lon": 145.4,
 				"apparent_t": 4.7,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 150,
-				"cloud_oktas": 5,
+				"cloud": "Cloudy",
+				"cloud_base_m": 100,
+				"cloud_oktas": 8,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 0.0,
@@ -53,7 +53,7 @@
 				"swell_height": null,
 				"swell_period": null,
 				"vis_km": "9",
-				"weather": "-",
+				"weather": "Drizzle",
 				"wind_dir": "NE",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8

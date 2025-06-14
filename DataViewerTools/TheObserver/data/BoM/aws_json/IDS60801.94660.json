@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:41 am CST Sunday 15 June 2025",
+				"refresh_message": "Issued at  9:01 am CST Sunday 15 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Mount Ive",
@@ -94,43 +94,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94660,
-				"name": "Mount Ive",
-				"history_product": "IDS60801",
-				"local_date_time": "12/09:00am",
-				"local_date_time_full": "20250612090000",
-				"aifstime_utc": "20250611233000",
-				"lat": -32.4,
-				"lon": 136.1,
-				"apparent_t": 10.8,
-				"cloud": "Mostly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 7,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 0.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 11.5,
-				"dewpt": 11.5,
-				"press": 1013.8,
-				"press_msl": 1013.8,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "3.0",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "20",
-				"weather": "Fine",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
