@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:03 pm EST Saturday 14 June 2025",
+				"refresh_message": "Issued at  3:22 pm EST Saturday 14 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Mount Seaview",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94783,
+				"name": "Mount Seaview",
+				"history_product": "IDN60801",
+				"local_date_time": "14/03:00pm",
+				"local_date_time_full": "20250614150000",
+				"aifstime_utc": "20250614050000",
+				"lat": -31.4,
+				"lon": 152.2,
+				"apparent_t": 17.0,
+				"cloud": "Mostly cloudy",
+				"cloud_base_m": 1000,
+				"cloud_oktas": 6,
+				"cloud_type": "-",
+				"cloud_type_id": 31,
+				"delta_t": 3.7,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 18.2,
+				"dewpt": 11.5,
+				"press": null,
+				"press_msl": null,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "0.0",
+				"rel_hum": 65,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "40",
+				"weather": "Fine",
+				"wind_dir": "SSE",
+				"wind_spd_kmh": 9,
+				"wind_spd_kt": 5
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94783,
 				"name": "Mount Seaview",
 				"history_product": "IDN60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94783,
 				"name": "Mount Seaview",
 				"history_product": "IDN60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94783,
 				"name": "Mount Seaview",
 				"history_product": "IDN60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94783,
 				"name": "Mount Seaview",
 				"history_product": "IDN60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94783,
 				"name": "Mount Seaview",
 				"history_product": "IDN60801",
