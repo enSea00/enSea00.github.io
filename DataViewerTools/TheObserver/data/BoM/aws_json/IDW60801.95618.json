@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:42 am WST Sunday 15 June 2025",
+				"refresh_message": "Issued at  9:03 am WST Sunday 15 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Wagin",
@@ -21,43 +21,6 @@
 			}
 		],
 		"data": [
-			{
-				"sort_order": 0,
-				"wmo": 95618,
-				"name": "Wagin",
-				"history_product": "IDW60801",
-				"local_date_time": "12/09:00am",
-				"local_date_time_full": "20250612090000",
-				"aifstime_utc": "20250612010000",
-				"lat": -33.3,
-				"lon": 117.3,
-				"apparent_t": 7.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 1.5,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 9.2,
-				"dewpt": 6.0,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 80,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "30",
-				"weather": "Fine",
-				"wind_dir": "N",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
-			}
 		]
 	}
 }

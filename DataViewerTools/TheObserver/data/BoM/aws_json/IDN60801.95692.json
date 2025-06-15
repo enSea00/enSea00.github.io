@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:42 am EST Sunday 15 June 2025",
+				"refresh_message": "Issued at 10:52 am EST Sunday 15 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Pooncarie",
@@ -21,6 +21,43 @@
 			}
 		],
 		"data": [
+			{
+				"sort_order": 0,
+				"wmo": 95692,
+				"name": "Pooncarie",
+				"history_product": "IDN60801",
+				"local_date_time": "15/09:00am",
+				"local_date_time_full": "20250615090000",
+				"aifstime_utc": "20250614230000",
+				"lat": -33.4,
+				"lon": 142.6,
+				"apparent_t": 3.6,
+				"cloud": "Clear",
+				"cloud_base_m": 2500,
+				"cloud_oktas": 0,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 1.2,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 6.2,
+				"dewpt": 3.3,
+				"press": null,
+				"press_msl": null,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "1.0",
+				"rel_hum": 82,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "5",
+				"weather": "Fine",
+				"wind_dir": "W",
+				"wind_spd_kmh": 6,
+				"wind_spd_kt": 3
+			}
 		]
 	}
 }
