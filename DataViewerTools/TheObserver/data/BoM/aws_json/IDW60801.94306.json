@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:03 am WST Monday 16 June 2025",
+				"refresh_message": "Issued at  6:33 am WST Monday 16 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Mardie",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 143,
-				"wmo": 94306,
-				"name": "Mardie",
-				"history_product": "IDW60801",
-				"local_date_time": "13/06:30am",
-				"local_date_time_full": "20250613063000",
-				"aifstime_utc": "20250612223000",
-				"lat": -21.2,
-				"lon": 116.0,
-				"apparent_t": 9.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.4,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 12.7,
-				"dewpt": 2.6,
-				"press": 1020.3,
-				"press_msl": 1020.3,
-				"press_qnh": 1020.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 50,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
