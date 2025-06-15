@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:42 am WST Monday 16 June 2025",
+				"refresh_message": "Issued at  6:52 am WST Monday 16 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Jandakot",
@@ -6273,43 +6273,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 169,
-				"wmo": 94609,
-				"name": "Jandakot",
-				"history_product": "IDW60801",
-				"local_date_time": "13/06:47am",
-				"local_date_time_full": "20250613064700",
-				"aifstime_utc": "20250612224700",
-				"lat": -32.1,
-				"lon": 115.9,
-				"apparent_t": 7.8,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 630,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.8,
-				"gust_kmh": 17,
-				"gust_kt": 9,
-				"air_temp": 10.8,
-				"dewpt": 9.1,
-				"press": 1021.5,
-				"press_msl": 1021.5,
-				"press_qnh": 1021.5,
-				"press_tend": "-",
-				"rain_trace": "3.4",
-				"rel_hum": 89,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
