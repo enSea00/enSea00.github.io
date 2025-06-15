@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:03 pm EST Sunday 15 June 2025",
+				"refresh_message": "Issued at  5:22 pm EST Sunday 15 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Sydney - Observatory Hill",
@@ -68,7 +68,7 @@
 				"aifstime_utc": "20250615064500",
 				"lat": -33.9,
 				"lon": 151.2,
-				"apparent_t": 14.7,
+				"apparent_t": null,
 				"cloud": "-",
 				"cloud_base_m": null,
 				"cloud_oktas": null,
@@ -91,9 +91,9 @@
 				"swell_period": null,
 				"vis_km": "-",
 				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
+				"wind_dir": "-",
+				"wind_spd_kmh": null,
+				"wind_spd_kt": null
 			},
 			{
 				"sort_order": 2,
