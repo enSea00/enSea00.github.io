@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:33 am EST Monday 16 June 2025",
+				"refresh_message": "Issued at  9:43 am EST Monday 16 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Charters Towers",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94356,
+				"name": "Charters Towers",
+				"history_product": "IDQ60801",
+				"local_date_time": "16/09:00am",
+				"local_date_time_full": "20250616090000",
+				"aifstime_utc": "20250615230000",
+				"lat": -20.0,
+				"lon": 146.3,
+				"apparent_t": null,
+				"cloud": "-",
+				"cloud_base_m": null,
+				"cloud_oktas": null,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 3.8,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 17.3,
+				"dewpt": 10.2,
+				"press": 1020.9,
+				"press_msl": 1020.9,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "0.0",
+				"rel_hum": 63,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "-",
+				"weather": "-",
+				"wind_dir": "-",
+				"wind_spd_kmh": null,
+				"wind_spd_kt": null
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94356,
 				"name": "Charters Towers",
 				"history_product": "IDQ60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94356,
 				"name": "Charters Towers",
 				"history_product": "IDQ60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94356,
 				"name": "Charters Towers",
 				"history_product": "IDQ60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94356,
 				"name": "Charters Towers",
 				"history_product": "IDQ60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": null
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94356,
 				"name": "Charters Towers",
 				"history_product": "IDQ60801",
