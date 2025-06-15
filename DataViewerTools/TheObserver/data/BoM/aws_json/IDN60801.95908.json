@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:52 pm EST Sunday 15 June 2025",
+				"refresh_message": "Issued at  3:12 pm EST Sunday 15 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Thredbo Village",
@@ -131,43 +131,6 @@
 				"wind_dir": "-",
 				"wind_spd_kmh": null,
 				"wind_spd_kt": null
-			},
-			{
-				"sort_order": 3,
-				"wmo": 95908,
-				"name": "Thredbo Village",
-				"history_product": "IDN60801",
-				"local_date_time": "12/03:00pm",
-				"local_date_time_full": "20250612150000",
-				"aifstime_utc": "20250612050000",
-				"lat": -36.5,
-				"lon": 148.3,
-				"apparent_t": 0.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 4.0,
-				"dewpt": -0.9,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 70,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "30",
-				"weather": "Fine",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
