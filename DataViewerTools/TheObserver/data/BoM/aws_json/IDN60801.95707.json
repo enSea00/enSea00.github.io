@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:43 am EST Monday 16 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Monday 16 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Lake Cargelligo",
@@ -21,43 +21,6 @@
 			}
 		],
 		"data": [
-			{
-				"sort_order": 0,
-				"wmo": 95707,
-				"name": "Lake Cargelligo",
-				"history_product": "IDN60801",
-				"local_date_time": "13/09:00am",
-				"local_date_time_full": "20250613090000",
-				"aifstime_utc": "20250612230000",
-				"lat": -33.3,
-				"lon": 146.4,
-				"apparent_t": 3.3,
-				"cloud": "Mostly clear",
-				"cloud_base_m": null,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 0.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 4.5,
-				"dewpt": 4.5,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "2",
-				"weather": "Shallow fog",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
-			}
 		]
 	}
 }
