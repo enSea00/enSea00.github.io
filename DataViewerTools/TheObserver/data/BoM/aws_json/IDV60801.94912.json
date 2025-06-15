@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:12 pm EST Sunday 15 June 2025",
+				"refresh_message": "Issued at  2:42 pm EST Sunday 15 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Bairnsdale",
@@ -2980,43 +2980,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 80,
-				"wmo": 94912,
-				"name": "Bairnsdale",
-				"history_product": "IDV60801",
-				"local_date_time": "12/02:30pm",
-				"local_date_time_full": "20250612143000",
-				"aifstime_utc": "20250612043000",
-				"lat": -37.9,
-				"lon": 147.6,
-				"apparent_t": 12.4,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 1020,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.8,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 14.8,
-				"dewpt": 7.1,
-				"press": 1019.8,
-				"press_msl": 1019.8,
-				"press_qnh": 1019.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 60,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
