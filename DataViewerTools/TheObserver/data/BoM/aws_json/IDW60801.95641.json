@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:03 pm WST Sunday 15 June 2025",
+				"refresh_message": "Issued at 11:22 pm WST Sunday 15 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Witchcliffe West",
@@ -5681,43 +5681,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 28,
 				"wind_spd_kt": 15
-			},
-			{
-				"sort_order": 153,
-				"wmo": 95641,
-				"name": "Witchcliffe West",
-				"history_product": "IDW60801",
-				"local_date_time": "12/11:15pm",
-				"local_date_time_full": "20250612231500",
-				"aifstime_utc": "20250612151500",
-				"lat": -34.0,
-				"lon": 115.1,
-				"apparent_t": 12.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.6,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 17.6,
-				"dewpt": 10.9,
-				"press": 1019.4,
-				"press_msl": 1019.4,
-				"press_qnh": 1019.4,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 65,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
