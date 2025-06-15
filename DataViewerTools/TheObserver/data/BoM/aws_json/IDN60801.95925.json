@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:42 am EST Monday 16 June 2025",
+				"refresh_message": "Issued at  4:03 am EST Monday 16 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Mount Ginini",
@@ -982,43 +982,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 26,
-				"wmo": 95925,
-				"name": "Mount Ginini",
-				"history_product": "IDN60801",
-				"local_date_time": "13/04:00am",
-				"local_date_time_full": "20250613040000",
-				"aifstime_utc": "20250612180000",
-				"lat": -35.5,
-				"lon": 148.8,
-				"apparent_t": -6.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": -2.7,
-				"dewpt": -4.0,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 91,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}

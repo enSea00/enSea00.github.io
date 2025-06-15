@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:52 am EST Monday 16 June 2025",
+				"refresh_message": "Issued at  4:12 am EST Monday 16 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "PORTABLE VPHD (DELWP)",
@@ -649,43 +649,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 17,
-				"wmo": 99810,
-				"name": "PORTABLE VPHD (DELWP)",
-				"history_product": "IDV60801",
-				"local_date_time": "13/04:00am",
-				"local_date_time_full": "20250613040000",
-				"aifstime_utc": "20250612180000",
-				"lat": -37.3,
-				"lon": 142.6,
-				"apparent_t": -2.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.1,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 1.0,
-				"dewpt": -2.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 80,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
