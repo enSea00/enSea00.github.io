@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:31 am CST Monday 16 June 2025",
+				"refresh_message": "Issued at  9:01 am CST Monday 16 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Hawker",
@@ -94,43 +94,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94673,
-				"name": "Hawker",
-				"history_product": "IDS60801",
-				"local_date_time": "13/09:00am",
-				"local_date_time_full": "20250613090000",
-				"aifstime_utc": "20250612233000",
-				"lat": -31.9,
-				"lon": 138.4,
-				"apparent_t": 6.5,
-				"cloud": "Mostly clear",
-				"cloud_base_m": null,
-				"cloud_oktas": 2,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 0.5,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 9.0,
-				"dewpt": 8.0,
-				"press": 1024.1,
-				"press_msl": 1024.1,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "4.0",
-				"rel_hum": 93,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "40",
-				"weather": "Fine",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
