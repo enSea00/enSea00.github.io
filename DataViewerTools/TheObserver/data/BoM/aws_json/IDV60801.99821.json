@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 12:22 am EST Monday 16 June 2025",
+				"refresh_message": "Issued at 12:32 am EST Monday 16 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Trentham East (CFA)",
@@ -15930,43 +15930,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 430,
-				"wmo": 99821,
-				"name": "Trentham East (CFA)",
-				"history_product": "IDV60801",
-				"local_date_time": "13/12:30am",
-				"local_date_time_full": "20250613003000",
-				"aifstime_utc": "20250612143000",
-				"lat": -37.4,
-				"lon": 144.4,
-				"apparent_t": -0.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.8,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 2.5,
-				"dewpt": 0.4,
-				"press": 1023.6,
-				"press_msl": null,
-				"press_qnh": 1023.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 86,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
