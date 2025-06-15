@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:03 am EST Monday 16 June 2025",
+				"refresh_message": "Issued at  6:22 am EST Monday 16 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Wellcamp Airport",
@@ -32,9 +32,9 @@
 				"lat": -27.6,
 				"lon": 151.8,
 				"apparent_t": -2.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
+				"cloud": "Cloudy",
+				"cloud_base_m": 2500,
+				"cloud_oktas": 8,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 0.4,

@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:41 am CST Monday 16 June 2025",
+				"refresh_message": "Issued at  6:01 am CST Monday 16 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Cultana (Defence)",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 147,
-				"wmo": 95683,
-				"name": "Cultana (Defence)",
-				"history_product": "IDS60801",
-				"local_date_time": "13/06:00am",
-				"local_date_time_full": "20250613060000",
-				"aifstime_utc": "20250612203000",
-				"lat": -32.7,
-				"lon": 137.4,
-				"apparent_t": 4.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 6.7,
-				"dewpt": 6.0,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "1.6",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
