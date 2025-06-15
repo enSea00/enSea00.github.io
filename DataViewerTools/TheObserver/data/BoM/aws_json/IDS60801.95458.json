@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:01 am CST Monday 16 June 2025",
+				"refresh_message": "Issued at  9:11 am CST Monday 16 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Coober Pedy Airport",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 145,
-				"wmo": 95458,
-				"name": "Coober Pedy Airport",
-				"history_product": "IDS60801",
-				"local_date_time": "13/09:03am",
-				"local_date_time_full": "20250613090300",
-				"aifstime_utc": "20250612233300",
-				"lat": -29.0,
-				"lon": 134.7,
-				"apparent_t": 7.0,
-				"cloud": "Cloudy",
-				"cloud_base_m": 120,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 11.0,
-				"dewpt": 10.4,
-				"press": 1025.4,
-				"press_msl": 1025.4,
-				"press_qnh": 1025.3,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 22,
-				"wind_spd_kt": 12
 			}
 		]
 	}
