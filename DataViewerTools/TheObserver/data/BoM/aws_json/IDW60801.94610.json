@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:22 am WST Monday 16 June 2025",
+				"refresh_message": "Issued at  1:33 am WST Monday 16 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Perth Airport",
@@ -5570,43 +5570,6 @@
 				"wind_dir": "NE",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 150,
-				"wmo": 94610,
-				"name": "Perth Airport",
-				"history_product": "IDW60801",
-				"local_date_time": "13/01:30am",
-				"local_date_time_full": "20250613013000",
-				"aifstime_utc": "20250612173000",
-				"lat": -31.9,
-				"lon": 116.0,
-				"apparent_t": 8.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1470,
-				"cloud_oktas": 3,
-				"cloud_type": "Stratocumulus",
-				"cloud_type_id": 6,
-				"delta_t": 1.8,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 10.9,
-				"dewpt": 7.2,
-				"press": 1022.2,
-				"press_msl": 1022.2,
-				"press_qnh": 1022.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 78,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NE",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
