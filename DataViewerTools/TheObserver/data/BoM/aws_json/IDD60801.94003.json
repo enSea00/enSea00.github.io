@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:01 pm CST Sunday 15 June 2025",
+				"refresh_message": "Issued at  8:21 pm CST Sunday 15 June 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "The Granites Airport",
@@ -5940,43 +5940,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 160,
-				"wmo": 94003,
-				"name": "The Granites Airport",
-				"history_product": "IDD60801",
-				"local_date_time": "12/08:06pm",
-				"local_date_time_full": "20250612200600",
-				"aifstime_utc": "20250612103600",
-				"lat": -20.6,
-				"lon": 130.3,
-				"apparent_t": 12.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 6.2,
-				"gust_kmh": 6,
-				"gust_kt": 3,
-				"air_temp": 15.3,
-				"dewpt": 1.4,
-				"press": 1020.5,
-				"press_msl": null,
-				"press_qnh": 1020.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 39,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
