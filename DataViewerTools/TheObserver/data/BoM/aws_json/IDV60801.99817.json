@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 10:52 pm EST Sunday 15 June 2025",
+				"refresh_message": "Issued at 11:22 pm EST Sunday 15 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Victoria Portable AWS E (CFA)",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 99817,
+				"name": "Victoria Portable AWS E (CFA)",
+				"history_product": "IDV60801",
+				"local_date_time": "15/11:00pm",
+				"local_date_time_full": "20250615230000",
+				"aifstime_utc": "20250615130000",
+				"lat": -37.6,
+				"lon": 146.6,
+				"apparent_t": 2.5,
+				"cloud": "-",
+				"cloud_base_m": null,
+				"cloud_oktas": null,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 2.5,
+				"gust_kmh": 22,
+				"gust_kt": 12,
+				"air_temp": 8.0,
+				"dewpt": 2.1,
+				"press": null,
+				"press_msl": null,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "0.0",
+				"rel_hum": 66,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "-",
+				"weather": "-",
+				"wind_dir": "NNW",
+				"wind_spd_kmh": 20,
+				"wind_spd_kt": 11
+			},
+			{
+				"sort_order": 1,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 11
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 10
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 10
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -207,7 +244,7 @@
 				"wind_spd_kt": 8
 			},
 			{
-				"sort_order": 5,
+				"sort_order": 6,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -244,7 +281,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 6,
+				"sort_order": 7,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -281,7 +318,7 @@
 				"wind_spd_kt": 10
 			},
 			{
-				"sort_order": 7,
+				"sort_order": 8,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -318,7 +355,7 @@
 				"wind_spd_kt": 13
 			},
 			{
-				"sort_order": 8,
+				"sort_order": 9,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -355,7 +392,7 @@
 				"wind_spd_kt": 9
 			},
 			{
-				"sort_order": 9,
+				"sort_order": 10,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -392,7 +429,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 10,
+				"sort_order": 11,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -429,7 +466,7 @@
 				"wind_spd_kt": 9
 			},
 			{
-				"sort_order": 11,
+				"sort_order": 12,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -466,7 +503,7 @@
 				"wind_spd_kt": 8
 			},
 			{
-				"sort_order": 12,
+				"sort_order": 13,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -503,7 +540,7 @@
 				"wind_spd_kt": 10
 			},
 			{
-				"sort_order": 13,
+				"sort_order": 14,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -540,7 +577,7 @@
 				"wind_spd_kt": 8
 			},
 			{
-				"sort_order": 14,
+				"sort_order": 15,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -577,7 +614,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 15,
+				"sort_order": 16,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -614,7 +651,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 16,
+				"sort_order": 17,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -651,7 +688,7 @@
 				"wind_spd_kt": 3
 			},
 			{
-				"sort_order": 17,
+				"sort_order": 18,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -688,7 +725,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 18,
+				"sort_order": 19,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -725,7 +762,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 19,
+				"sort_order": 20,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -762,7 +799,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 20,
+				"sort_order": 21,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -799,7 +836,7 @@
 				"wind_spd_kt": 3
 			},
 			{
-				"sort_order": 21,
+				"sort_order": 22,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -836,7 +873,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 22,
+				"sort_order": 23,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -873,7 +910,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 23,
+				"sort_order": 24,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -910,7 +947,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 24,
+				"sort_order": 25,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -947,7 +984,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 25,
+				"sort_order": 26,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -984,7 +1021,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 26,
+				"sort_order": 27,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1021,7 +1058,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 27,
+				"sort_order": 28,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1058,7 +1095,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 28,
+				"sort_order": 29,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1095,7 +1132,7 @@
 				"wind_spd_kt": 8
 			},
 			{
-				"sort_order": 29,
+				"sort_order": 30,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1132,7 +1169,7 @@
 				"wind_spd_kt": 10
 			},
 			{
-				"sort_order": 30,
+				"sort_order": 31,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1169,7 +1206,7 @@
 				"wind_spd_kt": 14
 			},
 			{
-				"sort_order": 31,
+				"sort_order": 32,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1206,7 +1243,7 @@
 				"wind_spd_kt": 15
 			},
 			{
-				"sort_order": 32,
+				"sort_order": 33,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1243,7 +1280,7 @@
 				"wind_spd_kt": 14
 			},
 			{
-				"sort_order": 33,
+				"sort_order": 34,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1280,7 +1317,7 @@
 				"wind_spd_kt": 15
 			},
 			{
-				"sort_order": 34,
+				"sort_order": 35,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1317,7 +1354,7 @@
 				"wind_spd_kt": 14
 			},
 			{
-				"sort_order": 35,
+				"sort_order": 36,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1354,7 +1391,7 @@
 				"wind_spd_kt": 9
 			},
 			{
-				"sort_order": 36,
+				"sort_order": 37,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1391,7 +1428,7 @@
 				"wind_spd_kt": 7
 			},
 			{
-				"sort_order": 37,
+				"sort_order": 38,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1428,7 +1465,7 @@
 				"wind_spd_kt": 7
 			},
 			{
-				"sort_order": 38,
+				"sort_order": 39,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1465,7 +1502,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 39,
+				"sort_order": 40,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1502,7 +1539,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 40,
+				"sort_order": 41,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1539,7 +1576,7 @@
 				"wind_spd_kt": 7
 			},
 			{
-				"sort_order": 41,
+				"sort_order": 42,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1576,7 +1613,7 @@
 				"wind_spd_kt": 7
 			},
 			{
-				"sort_order": 42,
+				"sort_order": 43,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1613,7 +1650,7 @@
 				"wind_spd_kt": 7
 			},
 			{
-				"sort_order": 43,
+				"sort_order": 44,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1650,7 +1687,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 44,
+				"sort_order": 45,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1687,7 +1724,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 45,
+				"sort_order": 46,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1724,7 +1761,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 46,
+				"sort_order": 47,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1761,7 +1798,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 47,
+				"sort_order": 48,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1798,7 +1835,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 48,
+				"sort_order": 49,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1835,7 +1872,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 49,
+				"sort_order": 50,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1872,7 +1909,7 @@
 				"wind_spd_kt": 3
 			},
 			{
-				"sort_order": 50,
+				"sort_order": 51,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1909,7 +1946,7 @@
 				"wind_spd_kt": 2
 			},
 			{
-				"sort_order": 51,
+				"sort_order": 52,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1946,7 +1983,7 @@
 				"wind_spd_kt": 3
 			},
 			{
-				"sort_order": 52,
+				"sort_order": 53,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -1983,7 +2020,7 @@
 				"wind_spd_kt": 3
 			},
 			{
-				"sort_order": 53,
+				"sort_order": 54,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2020,7 +2057,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 54,
+				"sort_order": 55,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2057,7 +2094,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 55,
+				"sort_order": 56,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2094,7 +2131,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 56,
+				"sort_order": 57,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2131,7 +2168,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 57,
+				"sort_order": 58,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2168,7 +2205,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 58,
+				"sort_order": 59,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2205,7 +2242,7 @@
 				"wind_spd_kt": 3
 			},
 			{
-				"sort_order": 59,
+				"sort_order": 60,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2242,7 +2279,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 60,
+				"sort_order": 61,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2279,7 +2316,7 @@
 				"wind_spd_kt": 7
 			},
 			{
-				"sort_order": 61,
+				"sort_order": 62,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2316,7 +2353,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 62,
+				"sort_order": 63,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2353,7 +2390,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 63,
+				"sort_order": 64,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2390,7 +2427,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 64,
+				"sort_order": 65,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2427,7 +2464,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 65,
+				"sort_order": 66,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2464,7 +2501,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 66,
+				"sort_order": 67,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2501,7 +2538,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 67,
+				"sort_order": 68,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2538,7 +2575,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 68,
+				"sort_order": 69,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2575,7 +2612,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 69,
+				"sort_order": 70,
 				"wmo": 99817,
 				"name": "Victoria Portable AWS E (CFA)",
 				"history_product": "IDV60801",
@@ -2610,43 +2647,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 70,
-				"wmo": 99817,
-				"name": "Victoria Portable AWS E (CFA)",
-				"history_product": "IDV60801",
-				"local_date_time": "12/11:00pm",
-				"local_date_time_full": "20250612230000",
-				"aifstime_utc": "20250612130000",
-				"lat": -37.6,
-				"lon": 146.6,
-				"apparent_t": 2.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 4.6,
-				"dewpt": 4.5,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
