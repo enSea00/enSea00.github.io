@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:43 am EST Tuesday 17 June 2025",
+				"refresh_message": "Issued at  3:52 am EST Tuesday 17 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Coen Airport",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 147,
-				"wmo": 94183,
-				"name": "Coen Airport",
-				"history_product": "IDQ60801",
-				"local_date_time": "14/03:51am",
-				"local_date_time_full": "20250614035100",
-				"aifstime_utc": "20250613175100",
-				"lat": -13.8,
-				"lon": 143.1,
-				"apparent_t": 21.9,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 720,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 6,
-				"gust_kt": 3,
-				"air_temp": 19.2,
-				"dewpt": 18.7,
-				"press": 1013.1,
-				"press_msl": 1013.1,
-				"press_qnh": 1013.9,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 2,
-				"wind_spd_kt": 1
 			}
 		]
 	}
