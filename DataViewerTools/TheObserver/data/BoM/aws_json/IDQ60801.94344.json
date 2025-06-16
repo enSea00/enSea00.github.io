@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:22 am EST Tuesday 17 June 2025",
+				"refresh_message": "Issued at  7:43 am EST Tuesday 17 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Urandangi",
@@ -5126,43 +5126,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 138,
-				"wmo": 94344,
-				"name": "Urandangi",
-				"history_product": "IDQ60801",
-				"local_date_time": "14/07:30am",
-				"local_date_time_full": "20250614073000",
-				"aifstime_utc": "20250613213000",
-				"lat": -21.6,
-				"lon": 138.4,
-				"apparent_t": 0.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.5,
-				"gust_kmh": 4,
-				"gust_kt": 2,
-				"air_temp": 3.3,
-				"dewpt": -0.7,
-				"press": 1021.3,
-				"press_msl": 1021.3,
-				"press_qnh": 1021.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 75,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
