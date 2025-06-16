@@ -70,7 +70,7 @@ function downloadCSV() {
 }
 
 // Event listener for the download button
-document.getElementById('download-csv').addEventListener('click', downloadCSV);
+// document.getElementById('download-csv').addEventListener('click', downloadCSV);
 
 function groupBySite(data) {
     const groupedData = {};
@@ -164,7 +164,7 @@ function downloadSelectedSiteData() {
 
 
 // Add event listener to the download selected site data button
-document.getElementById('download-selected-csv').addEventListener('click', downloadSelectedSiteData);
+// document.getElementById('download-selected-csv').addEventListener('click', downloadSelectedSiteData);
 
 
 // PLOT DATA /////////////////////////////////////////////////
@@ -223,7 +223,7 @@ function plotData(groupedData, site) {
     const siteData = groupedData[site];
     
     selectedSite = site; // Store the selected site
-    document.getElementById('download-selected-csv').disabled = false; // Enable the button
+    // document.getElementById('download-selected-csv').disabled = false; // Enable the button
 
     // wave heights
     tracesHsig.push({
