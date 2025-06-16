@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:03 pm EST Monday 16 June 2025",
+				"refresh_message": "Issued at  9:22 pm EST Monday 16 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Mareeba",
@@ -32,9 +32,9 @@
 				"lat": -17.1,
 				"lon": 145.4,
 				"apparent_t": 17.8,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1560,
-				"cloud_oktas": 5,
+				"cloud": "Cloudy",
+				"cloud_base_m": 1500,
+				"cloud_oktas": 8,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 0.9,
@@ -53,7 +53,7 @@
 				"swell_height": null,
 				"swell_period": null,
 				"vis_km": "10",
-				"weather": "-",
+				"weather": "Rain",
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
