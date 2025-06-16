@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:32 am EST Tuesday 17 June 2025",
+				"refresh_message": "Issued at  6:42 am EST Tuesday 17 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Mangalore",
@@ -6791,43 +6791,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 183,
-				"wmo": 94874,
-				"name": "Mangalore",
-				"history_product": "IDV60801",
-				"local_date_time": "14/06:39am",
-				"local_date_time_full": "20250614063900",
-				"aifstime_utc": "20250613203900",
-				"lat": -36.9,
-				"lon": 145.2,
-				"apparent_t": -3.9,
-				"cloud": "Cloudy",
-				"cloud_base_m": 30,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": -0.5,
-				"dewpt": -0.9,
-				"press": 1024.0,
-				"press_msl": 1024.0,
-				"press_qnh": 1023.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
