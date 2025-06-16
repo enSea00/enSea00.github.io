@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:12 pm WST Monday 16 June 2025",
+				"refresh_message": "Issued at  2:42 pm WST Monday 16 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Port Hedland",
@@ -5200,43 +5200,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 140,
-				"wmo": 94312,
-				"name": "Port Hedland",
-				"history_product": "IDW60801",
-				"local_date_time": "13/02:30pm",
-				"local_date_time_full": "20250613143000",
-				"aifstime_utc": "20250613063000",
-				"lat": -20.4,
-				"lon": 118.6,
-				"apparent_t": 24.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 14.2,
-				"gust_kmh": 24,
-				"gust_kt": 13,
-				"air_temp": 29.0,
-				"dewpt": -2.2,
-				"press": 1017.4,
-				"press_msl": 1017.4,
-				"press_qnh": 1017.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 13,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
