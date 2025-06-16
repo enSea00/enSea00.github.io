@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:01 am CST Tuesday 17 June 2025",
+				"refresh_message": "Issued at  3:11 am CST Tuesday 17 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Edinburgh",
@@ -32,9 +32,9 @@
 				"lat": -34.7,
 				"lon": 138.6,
 				"apparent_t": 7.5,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 480,
-				"cloud_oktas": 1,
+				"cloud": "Cloudy",
+				"cloud_base_m": 300,
+				"cloud_oktas": 8,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 1.2,
@@ -53,7 +53,7 @@
 				"swell_height": null,
 				"swell_period": null,
 				"vis_km": "10",
-				"weather": "-",
+				"weather": "Drizzle",
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9

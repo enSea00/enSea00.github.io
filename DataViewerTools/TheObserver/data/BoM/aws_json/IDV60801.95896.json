@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:32 am EST Tuesday 17 June 2025",
+				"refresh_message": "Issued at  3:42 am EST Tuesday 17 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Albury",
@@ -7161,43 +7161,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 193,
-				"wmo": 95896,
-				"name": "Albury",
-				"history_product": "IDV60801",
-				"local_date_time": "14/03:39am",
-				"local_date_time_full": "20250614033900",
-				"aifstime_utc": "20250613173900",
-				"lat": -36.1,
-				"lon": 147.0,
-				"apparent_t": -1.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 0,
-				"gust_kt": 0,
-				"air_temp": 0.8,
-				"dewpt": -0.1,
-				"press": 1024.7,
-				"press_msl": 1024.7,
-				"press_qnh": 1024.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "0.8",
-				"weather": "-",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
 			}
 		]
 	}
