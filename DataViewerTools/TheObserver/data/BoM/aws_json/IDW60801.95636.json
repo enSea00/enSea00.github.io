@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:33 pm WST Monday 16 June 2025",
+				"refresh_message": "Issued at  1:42 pm WST Monday 16 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Jacup",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 28,
 				"wind_spd_kt": 15
-			},
-			{
-				"sort_order": 145,
-				"wmo": 95636,
-				"name": "Jacup",
-				"history_product": "IDW60801",
-				"local_date_time": "13/01:35pm",
-				"local_date_time_full": "20250613133500",
-				"aifstime_utc": "20250613053500",
-				"lat": -33.9,
-				"lon": 119.1,
-				"apparent_t": 11.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 6.1,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 17.8,
-				"dewpt": 5.4,
-				"press": 1018.7,
-				"press_msl": 1018.7,
-				"press_qnh": 1018.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 44,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
