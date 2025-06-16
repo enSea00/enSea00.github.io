@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:12 am EST Tuesday 17 June 2025",
+				"refresh_message": "Issued at  1:33 am EST Tuesday 17 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Creal Reef",
@@ -3720,43 +3720,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 32,
 				"wind_spd_kt": 17
-			},
-			{
-				"sort_order": 100,
-				"wmo": 94371,
-				"name": "Creal Reef",
-				"history_product": "IDQ60801",
-				"local_date_time": "14/01:30am",
-				"local_date_time_full": "20250614013000",
-				"aifstime_utc": "20250613153000",
-				"lat": -20.5,
-				"lon": 150.4,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 37,
-				"gust_kt": 20,
-				"air_temp": 21.0,
-				"dewpt": null,
-				"press": 1018.5,
-				"press_msl": 1018.5,
-				"press_qnh": 1018.6,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
