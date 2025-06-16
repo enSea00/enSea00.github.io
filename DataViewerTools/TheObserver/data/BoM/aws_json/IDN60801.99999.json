@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:23 am EST Tuesday 17 June 2025",
+				"refresh_message": "Issued at  9:32 am EST Tuesday 17 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "PORTABLE NPWS NSW02",
@@ -15301,43 +15301,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 413,
-				"wmo": 99999,
-				"name": "PORTABLE NPWS NSW02",
-				"history_product": "IDN60801",
-				"local_date_time": "14/09:30am",
-				"local_date_time_full": "20250614093000",
-				"aifstime_utc": "20250613233000",
-				"lat": -33.1,
-				"lon": 150.1,
-				"apparent_t": 5.6,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.6,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 8.4,
-				"dewpt": 5.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 80,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
