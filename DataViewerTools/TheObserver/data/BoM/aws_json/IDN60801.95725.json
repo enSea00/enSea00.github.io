@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 10:52 am EST Monday 16 June 2025",
+				"refresh_message": "Issued at  5:03 pm EST Monday 16 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Orange AgIn",
@@ -21,6 +21,43 @@
 			}
 		],
 		"data": [
+			{
+				"sort_order": 0,
+				"wmo": 95725,
+				"name": "Orange AgIn",
+				"history_product": "IDN60801",
+				"local_date_time": "16/09:00am",
+				"local_date_time_full": "20250616090000",
+				"aifstime_utc": "20250615230000",
+				"lat": -33.3,
+				"lon": 149.1,
+				"apparent_t": 2.0,
+				"cloud": "Mostly clear",
+				"cloud_base_m": null,
+				"cloud_oktas": 1,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 0.9,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 4.4,
+				"dewpt": 2.3,
+				"press": null,
+				"press_msl": null,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "2.0",
+				"rel_hum": 86,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "40",
+				"weather": "Fine",
+				"wind_dir": "S",
+				"wind_spd_kmh": 4,
+				"wind_spd_kt": 2
+			}
 		]
 	}
 }
