@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:03 am EST Wednesday 18 June 2025",
+				"refresh_message": "Issued at  7:22 am EST Wednesday 18 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Norfolk Island",
@@ -33,10 +33,10 @@
 				"lon": 167.9,
 				"apparent_t": 16.0,
 				"cloud": "Mostly clear",
-				"cloud_base_m": 960,
+				"cloud_base_m": 750,
 				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
+				"cloud_type": "Cumulus",
+				"cloud_type_id": 8,
 				"delta_t": 2.9,
 				"gust_kmh": 19,
 				"gust_kt": 10,
