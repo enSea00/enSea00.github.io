@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 10:33 pm WST Tuesday 17 June 2025",
+				"refresh_message": "Issued at 10:43 pm WST Tuesday 17 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Cape Naturaliste",
@@ -5570,43 +5570,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 24,
 				"wind_spd_kt": 13
-			},
-			{
-				"sort_order": 150,
-				"wmo": 94600,
-				"name": "Cape Naturaliste",
-				"history_product": "IDW60801",
-				"local_date_time": "14/10:38pm",
-				"local_date_time_full": "20250614223800",
-				"aifstime_utc": "20250614143800",
-				"lat": -33.5,
-				"lon": 115.0,
-				"apparent_t": 13.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.7,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 17.2,
-				"dewpt": 14.3,
-				"press": 1016.7,
-				"press_msl": 1016.7,
-				"press_qnh": 1016.8,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 83,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
