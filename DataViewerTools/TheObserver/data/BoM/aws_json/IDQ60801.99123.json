@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:52 pm EST Tuesday 17 June 2025",
+				"refresh_message": "Issued at 12:03 am EST Wednesday 18 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "PORTABLE QFRJ (North Tamborine)",
@@ -15930,43 +15930,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 430,
-				"wmo": 99123,
-				"name": "PORTABLE QFRJ (North Tamborine)",
-				"history_product": "IDQ60801",
-				"local_date_time": "15/12:00am",
-				"local_date_time_full": "20250615000000",
-				"aifstime_utc": "20250614140000",
-				"lat": -27.9,
-				"lon": 153.2,
-				"apparent_t": 9.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.2,
-				"gust_kmh": 4,
-				"gust_kt": 2,
-				"air_temp": 10.8,
-				"dewpt": 6.2,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 73,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
