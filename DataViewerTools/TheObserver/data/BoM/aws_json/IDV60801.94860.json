@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:42 am EST Wednesday 18 June 2025",
+				"refresh_message": "Issued at  6:52 am EST Wednesday 18 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Kilmore Gap",
@@ -8160,43 +8160,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 220,
-				"wmo": 94860,
-				"name": "Kilmore Gap",
-				"history_product": "IDV60801",
-				"local_date_time": "15/06:45am",
-				"local_date_time_full": "20250615064500",
-				"aifstime_utc": "20250614204500",
-				"lat": -37.4,
-				"lon": 145.0,
-				"apparent_t": -0.6,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 30,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 5.2,
-				"dewpt": 4.6,
-				"press": 1018.4,
-				"press_msl": 1018.4,
-				"press_qnh": 1017.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 24,
-				"wind_spd_kt": 13
 			}
 		]
 	}

@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:42 am EST Wednesday 18 June 2025",
+				"refresh_message": "Issued at  6:52 am EST Wednesday 18 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Shepparton",
@@ -6421,43 +6421,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 173,
-				"wmo": 94875,
-				"name": "Shepparton",
-				"history_product": "IDV60801",
-				"local_date_time": "15/06:44am",
-				"local_date_time_full": "20250615064400",
-				"aifstime_utc": "20250614204400",
-				"lat": -36.4,
-				"lon": 145.4,
-				"apparent_t": 5.0,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 300,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 17,
-				"gust_kt": 9,
-				"air_temp": 7.7,
-				"dewpt": 7.4,
-				"press": 1019.5,
-				"press_msl": 1019.5,
-				"press_qnh": 1019.3,
-				"press_tend": "-",
-				"rain_trace": "8.6",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 11,
-				"wind_spd_kt": 6
 			}
 		]
 	}
