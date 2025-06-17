@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:22 am EST Wednesday 18 June 2025",
+				"refresh_message": "Issued at  9:33 am EST Wednesday 18 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Goulburn",
@@ -31,7 +31,7 @@
 				"aifstime_utc": "20250617230000",
 				"lat": -34.7,
 				"lon": 149.7,
-				"apparent_t": null,
+				"apparent_t": 1.7,
 				"cloud": "Mostly clear",
 				"cloud_base_m": null,
 				"cloud_oktas": 1,
@@ -54,9 +54,9 @@
 				"swell_period": null,
 				"vis_km": "30",
 				"weather": "Fine",
-				"wind_dir": "-",
-				"wind_spd_kmh": null,
-				"wind_spd_kt": null
+				"wind_dir": "WNW",
+				"wind_spd_kmh": 6,
+				"wind_spd_kt": 3
 			},
 			{
 				"sort_order": 1,
