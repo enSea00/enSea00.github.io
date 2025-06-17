@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:12 pm EST Tuesday 17 June 2025",
+				"refresh_message": "Issued at  7:32 pm EST Tuesday 17 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Cape Otway",
@@ -6384,43 +6384,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 172,
-				"wmo": 94842,
-				"name": "Cape Otway",
-				"history_product": "IDV60801",
-				"local_date_time": "14/07:30pm",
-				"local_date_time_full": "20250614193000",
-				"aifstime_utc": "20250614093000",
-				"lat": -38.9,
-				"lon": 143.5,
-				"apparent_t": 2.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.5,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 9.5,
-				"dewpt": 3.7,
-				"press": 1016.2,
-				"press_msl": 1016.2,
-				"press_qnh": 1016.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 67,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
