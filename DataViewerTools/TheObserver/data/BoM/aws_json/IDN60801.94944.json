@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:03 pm EST Tuesday 17 June 2025",
+				"refresh_message": "Issued at  8:32 pm EST Tuesday 17 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Kapooka (Defence)",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94944,
+				"name": "Kapooka (Defence)",
+				"history_product": "IDN60801",
+				"local_date_time": "17/08:30pm",
+				"local_date_time_full": "20250617203000",
+				"aifstime_utc": "20250617103000",
+				"lat": -35.1,
+				"lon": 147.3,
+				"apparent_t": 6.8,
+				"cloud": "-",
+				"cloud_base_m": null,
+				"cloud_oktas": null,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 1.2,
+				"gust_kmh": 9,
+				"gust_kt": 5,
+				"air_temp": 8.8,
+				"dewpt": 6.1,
+				"press": null,
+				"press_msl": null,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "-",
+				"rel_hum": 83,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "-",
+				"weather": "-",
+				"wind_dir": "W",
+				"wind_spd_kmh": 6,
+				"wind_spd_kt": 3
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94944,
 				"name": "Kapooka (Defence)",
 				"history_product": "IDN60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 3
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94944,
 				"name": "Kapooka (Defence)",
 				"history_product": "IDN60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 2
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94944,
 				"name": "Kapooka (Defence)",
 				"history_product": "IDN60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94944,
 				"name": "Kapooka (Defence)",
 				"history_product": "IDN60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 2
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94944,
 				"name": "Kapooka (Defence)",
 				"history_product": "IDN60801",
@@ -207,7 +244,7 @@
 				"wind_spd_kt": 2
 			},
 			{
-				"sort_order": 5,
+				"sort_order": 6,
 				"wmo": 94944,
 				"name": "Kapooka (Defence)",
 				"history_product": "IDN60801",
@@ -244,7 +281,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 6,
+				"sort_order": 7,
 				"wmo": 94944,
 				"name": "Kapooka (Defence)",
 				"history_product": "IDN60801",
@@ -281,7 +318,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 7,
+				"sort_order": 8,
 				"wmo": 94944,
 				"name": "Kapooka (Defence)",
 				"history_product": "IDN60801",
@@ -318,7 +355,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 8,
+				"sort_order": 9,
 				"wmo": 94944,
 				"name": "Kapooka (Defence)",
 				"history_product": "IDN60801",
@@ -355,7 +392,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 9,
+				"sort_order": 10,
 				"wmo": 94944,
 				"name": "Kapooka (Defence)",
 				"history_product": "IDN60801",
@@ -392,7 +429,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 10,
+				"sort_order": 11,
 				"wmo": 94944,
 				"name": "Kapooka (Defence)",
 				"history_product": "IDN60801",
@@ -429,7 +466,7 @@
 				"wind_spd_kt": 7
 			},
 			{
-				"sort_order": 11,
+				"sort_order": 12,
 				"wmo": 94944,
 				"name": "Kapooka (Defence)",
 				"history_product": "IDN60801",
