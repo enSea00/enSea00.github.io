@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Wednesday 18 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Wednesday 18 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Cooma",
@@ -21,43 +21,6 @@
 			}
 		],
 		"data": [
-			{
-				"sort_order": 0,
-				"wmo": 94923,
-				"name": "Cooma",
-				"history_product": "IDN60801",
-				"local_date_time": "15/09:00am",
-				"local_date_time_full": "20250615090000",
-				"aifstime_utc": "20250614230000",
-				"lat": -36.2,
-				"lon": 149.1,
-				"apparent_t": null,
-				"cloud": "Fog",
-				"cloud_base_m": null,
-				"cloud_oktas": 9,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 2.0,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "0.1",
-				"weather": "Fog",
-				"wind_dir": "CALM",
-				"wind_spd_kmh": 0,
-				"wind_spd_kt": 0
-			}
 		]
 	}
 }

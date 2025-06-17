@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:52 am EST Wednesday 18 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Wednesday 18 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Seventeen Seventy",
@@ -94,43 +94,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94384,
-				"name": "Seventeen Seventy",
-				"history_product": "IDQ60801",
-				"local_date_time": "15/09:00am",
-				"local_date_time_full": "20250615090000",
-				"aifstime_utc": "20250614230000",
-				"lat": -24.2,
-				"lon": 151.9,
-				"apparent_t": 15.1,
-				"cloud": "Clear",
-				"cloud_base_m": 2500,
-				"cloud_oktas": 0,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.2,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 17.5,
-				"dewpt": 7.1,
-				"press": 1022.8,
-				"press_msl": 1022.8,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 50,
-				"sea_state": "1",
-				"swell_dir_worded": "SE",
-				"swell_height": 0.8,
-				"swell_period": 5,
-				"vis_km": "25",
-				"weather": "Fine",
-				"wind_dir": "S",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}

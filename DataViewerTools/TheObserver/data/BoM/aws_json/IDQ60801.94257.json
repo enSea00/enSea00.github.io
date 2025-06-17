@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Wednesday 18 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Wednesday 18 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Sweers Island",
@@ -94,43 +94,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94257,
-				"name": "Sweers Island",
-				"history_product": "IDQ60801",
-				"local_date_time": "15/09:00am",
-				"local_date_time_full": "20250615090000",
-				"aifstime_utc": "20250614230000",
-				"lat": -17.1,
-				"lon": 139.6,
-				"apparent_t": 15.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 200,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": 31,
-				"delta_t": 3.9,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 18.8,
-				"dewpt": 11.7,
-				"press": 1016.1,
-				"press_msl": 1016.1,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 63,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "40",
-				"weather": "Fine",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 20,
-				"wind_spd_kt": 11
 			}
 		]
 	}
