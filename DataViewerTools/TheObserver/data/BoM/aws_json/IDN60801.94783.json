@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:42 pm EST Wednesday 18 June 2025",
+				"refresh_message": "Issued at  3:03 pm EST Wednesday 18 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Mount Seaview",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94783,
+				"name": "Mount Seaview",
+				"history_product": "IDN60801",
+				"local_date_time": "18/03:00pm",
+				"local_date_time_full": "20250618150000",
+				"aifstime_utc": "20250618050000",
+				"lat": -31.4,
+				"lon": 152.2,
+				"apparent_t": 14.5,
+				"cloud": "Mostly cloudy",
+				"cloud_base_m": null,
+				"cloud_oktas": 7,
+				"cloud_type": "-",
+				"cloud_type_id": 30,
+				"delta_t": 3.4,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 16.2,
+				"dewpt": 9.7,
+				"press": null,
+				"press_msl": null,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "0.0",
+				"rel_hum": 65,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "40",
+				"weather": "Fine",
+				"wind_dir": "E",
+				"wind_spd_kmh": 9,
+				"wind_spd_kt": 5
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94783,
 				"name": "Mount Seaview",
 				"history_product": "IDN60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 2
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94783,
 				"name": "Mount Seaview",
 				"history_product": "IDN60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94783,
 				"name": "Mount Seaview",
 				"history_product": "IDN60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94783,
 				"name": "Mount Seaview",
 				"history_product": "IDN60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 5
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94783,
 				"name": "Mount Seaview",
 				"history_product": "IDN60801",
@@ -205,43 +242,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 5,
-				"wmo": 94783,
-				"name": "Mount Seaview",
-				"history_product": "IDN60801",
-				"local_date_time": "15/03:00pm",
-				"local_date_time_full": "20250615150000",
-				"aifstime_utc": "20250615050000",
-				"lat": -31.4,
-				"lon": 152.2,
-				"apparent_t": 19.3,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1000,
-				"cloud_oktas": 4,
-				"cloud_type": "-",
-				"cloud_type_id": 34,
-				"delta_t": 5.6,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 20.4,
-				"dewpt": 10.1,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 51,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "40",
-				"weather": "Fine",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}

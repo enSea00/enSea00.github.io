@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:42 pm EST Wednesday 18 June 2025",
+				"refresh_message": "Issued at  3:03 pm EST Wednesday 18 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Murwillumbah",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94582,
+				"name": "Murwillumbah",
+				"history_product": "IDN60801",
+				"local_date_time": "18/03:00pm",
+				"local_date_time_full": "20250618150000",
+				"aifstime_utc": "20250618050000",
+				"lat": -28.3,
+				"lon": 153.4,
+				"apparent_t": 17.9,
+				"cloud": "Cloudy",
+				"cloud_base_m": null,
+				"cloud_oktas": 8,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 3.2,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 18.0,
+				"dewpt": 12.2,
+				"press": null,
+				"press_msl": null,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "0.0",
+				"rel_hum": 69,
+				"sea_state": "-",
+				"swell_dir_worded": "-",
+				"swell_height": null,
+				"swell_period": null,
+				"vis_km": "25",
+				"weather": "Fine",
+				"wind_dir": "SW",
+				"wind_spd_kmh": 4,
+				"wind_spd_kt": 2
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94582,
 				"name": "Murwillumbah",
 				"history_product": "IDN60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 4
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94582,
 				"name": "Murwillumbah",
 				"history_product": "IDN60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 1
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94582,
 				"name": "Murwillumbah",
 				"history_product": "IDN60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 0
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94582,
 				"name": "Murwillumbah",
 				"history_product": "IDN60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 3
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94582,
 				"name": "Murwillumbah",
 				"history_product": "IDN60801",
