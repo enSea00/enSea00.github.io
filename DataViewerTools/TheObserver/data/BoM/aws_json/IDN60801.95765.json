@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:42 pm EST Wednesday 18 June 2025",
+				"refresh_message": "Issued at  4:52 pm EST Wednesday 18 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Sydney Olympic Park",
@@ -5422,43 +5422,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 146,
-				"wmo": 95765,
-				"name": "Sydney Olympic Park",
-				"history_product": "IDN60801",
-				"local_date_time": "15/04:46pm",
-				"local_date_time_full": "20250615164600",
-				"aifstime_utc": "20250615064600",
-				"lat": -33.8,
-				"lon": 151.1,
-				"apparent_t": 9.6,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.6,
-				"gust_kmh": 30,
-				"gust_kt": 16,
-				"air_temp": 12.9,
-				"dewpt": 9.7,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "2.2",
-				"rel_hum": 81,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "7",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}

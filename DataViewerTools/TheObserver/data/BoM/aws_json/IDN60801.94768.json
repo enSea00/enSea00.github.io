@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:42 pm EST Wednesday 18 June 2025",
+				"refresh_message": "Issued at  4:52 pm EST Wednesday 18 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Sydney - Observatory Hill",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94768,
-				"name": "Sydney - Observatory Hill",
-				"history_product": "IDN60801",
-				"local_date_time": "15/04:45pm",
-				"local_date_time_full": "20250615164500",
-				"aifstime_utc": "20250615064500",
-				"lat": -33.9,
-				"lon": 151.2,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.3,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 15.2,
-				"dewpt": 10.8,
-				"press": 1020.5,
-				"press_msl": 1020.5,
-				"press_qnh": 1020.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 75,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "-",
-				"wind_spd_kmh": null,
-				"wind_spd_kt": null
 			}
 		]
 	}
