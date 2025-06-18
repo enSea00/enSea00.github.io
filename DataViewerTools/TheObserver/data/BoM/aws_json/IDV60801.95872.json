@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:02 am EST Thursday 19 June 2025",
+				"refresh_message": "Issued at  5:22 am EST Thursday 19 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Fawkner Beacon",
@@ -38,8 +38,8 @@
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": null,
-				"gust_kmh": 32,
-				"gust_kt": 17,
+				"gust_kmh": null,
+				"gust_kt": null,
 				"air_temp": null,
 				"dewpt": null,
 				"press": null,
@@ -54,9 +54,9 @@
 				"swell_period": null,
 				"vis_km": "-",
 				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
+				"wind_dir": "-",
+				"wind_spd_kmh": null,
+				"wind_spd_kt": null
 			},
 			{
 				"sort_order": 1,
