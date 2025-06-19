@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:32 am EST Friday 20 June 2025",
+				"refresh_message": "Issued at  8:42 am EST Friday 20 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Port Fairy",
@@ -5570,43 +5570,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 37,
 				"wind_spd_kt": 20
-			},
-			{
-				"sort_order": 150,
-				"wmo": 94830,
-				"name": "Port Fairy",
-				"history_product": "IDV60801",
-				"local_date_time": "17/08:39am",
-				"local_date_time_full": "20250617083900",
-				"aifstime_utc": "20250616223900",
-				"lat": -38.4,
-				"lon": 142.2,
-				"apparent_t": 1.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.0,
-				"gust_kmh": 61,
-				"gust_kt": 33,
-				"air_temp": 10.4,
-				"dewpt": 6.0,
-				"press": 1019.1,
-				"press_msl": 1019.1,
-				"press_qnh": 1019.1,
-				"press_tend": "-",
-				"rain_trace": "17.6",
-				"rel_hum": 74,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 41,
-				"wind_spd_kt": 22
 			}
 		]
 	}
