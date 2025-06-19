@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 11:31 pm EST Thursday 19 June 2025",
+				"refresh_message": "Issued at 11:51 pm EST Thursday 19 June 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Burnie Port",
@@ -5496,43 +5496,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 48,
 				"wind_spd_kt": 26
-			},
-			{
-				"sort_order": 148,
-				"wmo": 95963,
-				"name": "Burnie Port",
-				"history_product": "IDT60801",
-				"local_date_time": "16/11:33pm",
-				"local_date_time_full": "20250616233300",
-				"aifstime_utc": "20250616133300",
-				"lat": -41.0,
-				"lon": 145.9,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 61,
-				"gust_kt": 33,
-				"air_temp": 12.8,
-				"dewpt": null,
-				"press": 1007.8,
-				"press_msl": 1007.8,
-				"press_qnh": 1007.8,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
