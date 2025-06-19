@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:51 am CST Friday 20 June 2025",
+				"refresh_message": "Issued at  5:01 am CST Friday 20 June 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Wadeye (Port Keats)",
@@ -5311,43 +5311,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 143,
-				"wmo": 95111,
-				"name": "Wadeye (Port Keats)",
-				"history_product": "IDD60801",
-				"local_date_time": "17/05:00am",
-				"local_date_time_full": "20250617050000",
-				"aifstime_utc": "20250616193000",
-				"lat": -14.2,
-				"lon": 129.5,
-				"apparent_t": 18.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 6.8,
-				"gust_kmh": 20,
-				"gust_kt": 11,
-				"air_temp": 21.0,
-				"dewpt": 8.0,
-				"press": 1014.3,
-				"press_msl": 1014.3,
-				"press_qnh": 1014.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 43,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}

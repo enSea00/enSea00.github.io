@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:12 am EST Friday 20 June 2025",
+				"refresh_message": "Issued at  5:22 am EST Friday 20 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Yarram Airport",
@@ -5644,43 +5644,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 35,
 				"wind_spd_kt": 19
-			},
-			{
-				"sort_order": 152,
-				"wmo": 95890,
-				"name": "Yarram Airport",
-				"history_product": "IDV60801",
-				"local_date_time": "17/05:14am",
-				"local_date_time_full": "20250617051400",
-				"aifstime_utc": "20250616191400",
-				"lat": -38.6,
-				"lon": 146.7,
-				"apparent_t": 3.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.3,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 10.5,
-				"dewpt": 5.5,
-				"press": 1012.4,
-				"press_msl": 1012.4,
-				"press_qnh": 1012.3,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 71,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
