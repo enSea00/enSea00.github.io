@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:33 pm EST Friday 20 June 2025",
+				"refresh_message": "Issued at  8:42 pm EST Friday 20 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Moranbah Airport",
@@ -5607,43 +5607,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 151,
-				"wmo": 94397,
-				"name": "Moranbah Airport",
-				"history_product": "IDQ60801",
-				"local_date_time": "17/08:40pm",
-				"local_date_time_full": "20250617204000",
-				"aifstime_utc": "20250617104000",
-				"lat": -22.1,
-				"lon": 148.1,
-				"apparent_t": 14.6,
-				"cloud": "Cloudy",
-				"cloud_base_m": 1020,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 14.9,
-				"dewpt": 14.3,
-				"press": 1022.1,
-				"press_msl": 1022.1,
-				"press_qnh": 1022.5,
-				"press_tend": "-",
-				"rain_trace": "1.8",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
