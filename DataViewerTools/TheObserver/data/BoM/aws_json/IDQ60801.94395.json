@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:32 pm EST Friday 20 June 2025",
+				"refresh_message": "Issued at  7:42 pm EST Friday 20 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Clermont Airport",
@@ -5866,43 +5866,6 @@
 				"wind_dir": "SSE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 158,
-				"wmo": 94395,
-				"name": "Clermont Airport",
-				"history_product": "IDQ60801",
-				"local_date_time": "17/07:41pm",
-				"local_date_time_full": "20250617194100",
-				"aifstime_utc": "20250617094100",
-				"lat": -22.8,
-				"lon": 147.6,
-				"apparent_t": 13.3,
-				"cloud": "Cloudy",
-				"cloud_base_m": 60,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 6,
-				"gust_kt": 3,
-				"air_temp": 13.1,
-				"dewpt": 12.9,
-				"press": 1022.2,
-				"press_msl": 1022.2,
-				"press_qnh": 1022.6,
-				"press_tend": "-",
-				"rain_trace": "8.6",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
