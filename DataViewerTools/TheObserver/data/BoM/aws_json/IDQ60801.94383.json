@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:42 pm EST Friday 20 June 2025",
+				"refresh_message": "Issued at  7:52 pm EST Friday 20 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Bowen Airport AWS",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94383,
-				"name": "Bowen Airport AWS",
-				"history_product": "IDQ60801",
-				"local_date_time": "17/07:45pm",
-				"local_date_time_full": "20250617194500",
-				"aifstime_utc": "20250617094500",
-				"lat": -20.0,
-				"lon": 148.2,
-				"apparent_t": 18.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.7,
-				"gust_kmh": 19,
-				"gust_kt": 10,
-				"air_temp": 18.5,
-				"dewpt": 17.3,
-				"press": 1018.5,
-				"press_msl": 1018.5,
-				"press_qnh": 1018.5,
-				"press_tend": "-",
-				"rain_trace": "6.8",
-				"rel_hum": 93,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
