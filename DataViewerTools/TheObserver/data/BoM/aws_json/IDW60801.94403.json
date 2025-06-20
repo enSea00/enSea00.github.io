@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:33 am WST Saturday 21 June 2025",
+				"refresh_message": "Issued at  6:43 am WST Saturday 21 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Geraldton Airport",
@@ -8456,43 +8456,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 228,
-				"wmo": 94403,
-				"name": "Geraldton Airport",
-				"history_product": "IDW60801",
-				"local_date_time": "18/06:40am",
-				"local_date_time_full": "20250618064000",
-				"aifstime_utc": "20250617224000",
-				"lat": -28.8,
-				"lon": 114.7,
-				"apparent_t": 16.2,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 600,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.7,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 18.0,
-				"dewpt": 16.9,
-				"press": 1009.0,
-				"press_msl": 1009.0,
-				"press_qnh": 1009.0,
-				"press_tend": "-",
-				"rain_trace": "24.4",
-				"rel_hum": 93,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 22,
-				"wind_spd_kt": 12
 			}
 		]
 	}
