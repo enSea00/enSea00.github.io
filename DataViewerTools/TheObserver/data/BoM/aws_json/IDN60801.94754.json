@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 12:22 am EST Sunday 22 June 2025",
+				"refresh_message": "Issued at 12:33 am EST Sunday 22 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Nullo Mountain",
@@ -5200,43 +5200,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 13,
 				"wind_spd_kt": 7
-			},
-			{
-				"sort_order": 140,
-				"wmo": 94754,
-				"name": "Nullo Mountain",
-				"history_product": "IDN60801",
-				"local_date_time": "19/12:30am",
-				"local_date_time_full": "20250619003000",
-				"aifstime_utc": "20250618143000",
-				"lat": -32.7,
-				"lon": 150.2,
-				"apparent_t": -2.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.8,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 1.3,
-				"dewpt": -0.9,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 85,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
