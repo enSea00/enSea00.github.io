@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:31 am EST Monday 23 June 2025",
+				"refresh_message": "Issued at  3:41 am EST Monday 23 June 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "kunanyi / Mount Wellington",
@@ -6014,43 +6014,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 59,
 				"wind_spd_kt": 32
-			},
-			{
-				"sort_order": 162,
-				"wmo": 95979,
-				"name": "kunanyi / Mount Wellington",
-				"history_product": "IDT60801",
-				"local_date_time": "20/03:39am",
-				"local_date_time_full": "20250620033900",
-				"aifstime_utc": "20250619173900",
-				"lat": -42.9,
-				"lon": 147.2,
-				"apparent_t": -6.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.0,
-				"gust_kmh": 80,
-				"gust_kt": 43,
-				"air_temp": 7.3,
-				"dewpt": 0.3,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 61,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WSW",
-				"wind_spd_kmh": 61,
-				"wind_spd_kt": 33
 			}
 		]
 	}
