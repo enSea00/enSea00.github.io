@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:53 am WST Sunday 22 June 2025",
+				"refresh_message": "Issued at  9:03 am WST Sunday 22 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Windy Harbour",
@@ -94,43 +94,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 19,
 				"wind_spd_kt": 10
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94640,
-				"name": "Windy Harbour",
-				"history_product": "IDW60801",
-				"local_date_time": "19/09:00am",
-				"local_date_time_full": "20250619090000",
-				"aifstime_utc": "20250619010000",
-				"lat": -34.8,
-				"lon": 116.0,
-				"apparent_t": 14.9,
-				"cloud": "Mostly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 7,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 17.2,
-				"dewpt": 11.7,
-				"press": 1011.2,
-				"press_msl": 1011.2,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.6",
-				"rel_hum": 70,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "28",
-				"weather": "Fine",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}

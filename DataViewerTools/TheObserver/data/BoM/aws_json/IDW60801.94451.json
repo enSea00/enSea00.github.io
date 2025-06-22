@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:53 am WST Sunday 22 June 2025",
+				"refresh_message": "Issued at  9:03 am WST Sunday 22 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Carnegie",
@@ -94,43 +94,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 2,
 				"wind_spd_kt": 1
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94451,
-				"name": "Carnegie",
-				"history_product": "IDW60801",
-				"local_date_time": "19/09:00am",
-				"local_date_time_full": "20250619090000",
-				"aifstime_utc": "20250619010000",
-				"lat": -25.8,
-				"lon": 123.0,
-				"apparent_t": 18.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.5,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 19.5,
-				"dewpt": 9.3,
-				"press": 1019.2,
-				"press_msl": 1019.2,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 51,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "15",
-				"weather": "Fine",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
