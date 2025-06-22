@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:22 am EST Monday 23 June 2025",
+				"refresh_message": "Issued at  7:33 am EST Monday 23 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Oakey",
@@ -6606,43 +6606,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 178,
-				"wmo": 94552,
-				"name": "Oakey",
-				"history_product": "IDQ60801",
-				"local_date_time": "20/07:30am",
-				"local_date_time_full": "20250620073000",
-				"aifstime_utc": "20250619213000",
-				"lat": -27.4,
-				"lon": 151.7,
-				"apparent_t": -0.6,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 960,
-				"cloud_oktas": 1,
-				"cloud_type": "Stratocumulus",
-				"cloud_type_id": 6,
-				"delta_t": 0.0,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 2.4,
-				"dewpt": 2.3,
-				"press": 1027.6,
-				"press_msl": 1027.6,
-				"press_qnh": 1027.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "Fog patches",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
