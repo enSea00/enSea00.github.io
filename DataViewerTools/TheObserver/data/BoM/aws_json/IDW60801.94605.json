@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:43 am WST Monday 23 June 2025",
+				"refresh_message": "Issued at  7:53 am WST Monday 23 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Mandurah",
@@ -5829,43 +5829,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 32,
 				"wind_spd_kt": 17
-			},
-			{
-				"sort_order": 157,
-				"wmo": 94605,
-				"name": "Mandurah",
-				"history_product": "IDW60801",
-				"local_date_time": "20/07:43am",
-				"local_date_time_full": "20250620074300",
-				"aifstime_utc": "20250619234300",
-				"lat": -32.5,
-				"lon": 115.7,
-				"apparent_t": 14.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.7,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 18.0,
-				"dewpt": 15.1,
-				"press": 1009.2,
-				"press_msl": 1009.2,
-				"press_qnh": 1009.2,
-				"press_tend": "-",
-				"rain_trace": "0.4",
-				"rel_hum": 83,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
