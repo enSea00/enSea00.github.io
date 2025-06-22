@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:22 am EST Monday 23 June 2025",
+				"refresh_message": "Issued at  1:33 am EST Monday 23 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Dalby",
@@ -1574,43 +1574,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 42,
-				"wmo": 94542,
-				"name": "Dalby",
-				"history_product": "IDQ60801",
-				"local_date_time": "20/01:30am",
-				"local_date_time_full": "20250620013000",
-				"aifstime_utc": "20250619153000",
-				"lat": -27.2,
-				"lon": 151.3,
-				"apparent_t": -0.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 2.8,
-				"dewpt": 1.2,
-				"press": 1025.0,
-				"press_msl": 1025.0,
-				"press_qnh": 1025.1,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 89,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
