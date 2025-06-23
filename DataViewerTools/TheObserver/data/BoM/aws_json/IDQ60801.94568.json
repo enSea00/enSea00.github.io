@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  2:33 pm EST Monday 23 June 2025",
+				"refresh_message": "Issued at  2:52 pm EST Monday 23 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Amberley",
@@ -33,10 +33,10 @@
 				"lon": 152.7,
 				"apparent_t": 21.9,
 				"cloud": "Partly cloudy",
-				"cloud_base_m": 1890,
+				"cloud_base_m": 750,
 				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
+				"cloud_type": "Cumulus",
+				"cloud_type_id": 8,
 				"delta_t": 3.6,
 				"gust_kmh": 9,
 				"gust_kt": 5,
