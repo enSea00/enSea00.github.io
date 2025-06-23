@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:51 am CST Tuesday 24 June 2025",
+				"refresh_message": "Issued at  9:01 am CST Tuesday 24 June 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "Watarrka",
@@ -21,43 +21,6 @@
 			}
 		],
 		"data": [
-			{
-				"sort_order": 0,
-				"wmo": 94323,
-				"name": "Watarrka",
-				"history_product": "IDD60801",
-				"local_date_time": "21/09:00am",
-				"local_date_time_full": "20250621090000",
-				"aifstime_utc": "20250620233000",
-				"lat": -24.3,
-				"lon": 131.5,
-				"apparent_t": 14.3,
-				"cloud": "Clear",
-				"cloud_base_m": 2500,
-				"cloud_oktas": 0,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 5.6,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 17.0,
-				"dewpt": 5.8,
-				"press": 1022.5,
-				"press_msl": 1022.5,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 47,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "15",
-				"weather": "Fine",
-				"wind_dir": "S",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
-			}
 		]
 	}
 }
