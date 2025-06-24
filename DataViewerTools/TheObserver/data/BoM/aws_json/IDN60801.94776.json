@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:12 pm EST Tuesday 24 June 2025",
+				"refresh_message": "Issued at  5:32 pm EST Tuesday 24 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Williamtown",
@@ -6495,43 +6495,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 175,
-				"wmo": 94776,
-				"name": "Williamtown",
-				"history_product": "IDN60801",
-				"local_date_time": "21/05:30pm",
-				"local_date_time_full": "20250621173000",
-				"aifstime_utc": "20250621073000",
-				"lat": -32.8,
-				"lon": 151.8,
-				"apparent_t": 14.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.1,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 15.1,
-				"dewpt": 11.1,
-				"press": 1029.3,
-				"press_msl": 1029.3,
-				"press_qnh": 1029.3,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 77,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
