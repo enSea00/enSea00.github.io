@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:12 am EST Wednesday 25 June 2025",
+				"refresh_message": "Issued at  1:33 am EST Wednesday 25 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Frederick Reef",
@@ -5755,43 +5755,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 50,
 				"wind_spd_kt": 27
-			},
-			{
-				"sort_order": 155,
-				"wmo": 94393,
-				"name": "Frederick Reef",
-				"history_product": "IDQ60801",
-				"local_date_time": "22/01:30am",
-				"local_date_time_full": "20250622013000",
-				"aifstime_utc": "20250621153000",
-				"lat": -20.9,
-				"lon": 154.4,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 22.9,
-				"dewpt": null,
-				"press": 1020.0,
-				"press_msl": 1020.0,
-				"press_qnh": 1020.1,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 43,
-				"wind_spd_kt": 23
 			}
 		]
 	}
