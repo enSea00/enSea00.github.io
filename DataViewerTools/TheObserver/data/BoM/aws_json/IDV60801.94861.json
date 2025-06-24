@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:52 am EST Wednesday 25 June 2025",
+				"refresh_message": "Issued at  9:02 am EST Wednesday 25 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Echuca",
@@ -94,43 +94,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 28,
 				"wind_spd_kt": 15
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94861,
-				"name": "Echuca",
-				"history_product": "IDV60801",
-				"local_date_time": "22/09:00am",
-				"local_date_time_full": "20250622090000",
-				"aifstime_utc": "20250621230000",
-				"lat": -36.2,
-				"lon": 144.8,
-				"apparent_t": 0.9,
-				"cloud": "Mostly clear",
-				"cloud_base_m": null,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 3.6,
-				"dewpt": 3.6,
-				"press": 1029.0,
-				"press_msl": 1029.0,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "Distant fog",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
