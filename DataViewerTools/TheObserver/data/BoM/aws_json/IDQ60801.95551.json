@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:43 am EST Wednesday 25 June 2025",
+				"refresh_message": "Issued at  6:52 am EST Wednesday 25 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Toowoomba",
@@ -7531,43 +7531,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 20,
 				"wind_spd_kt": 11
-			},
-			{
-				"sort_order": 203,
-				"wmo": 95551,
-				"name": "Toowoomba",
-				"history_product": "IDQ60801",
-				"local_date_time": "22/06:49am",
-				"local_date_time_full": "20250622064900",
-				"aifstime_utc": "20250621204900",
-				"lat": -27.5,
-				"lon": 151.9,
-				"apparent_t": 7.8,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 330,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 28,
-				"gust_kt": 15,
-				"air_temp": 11.3,
-				"dewpt": 10.2,
-				"press": 1028.9,
-				"press_msl": 1028.9,
-				"press_qnh": 1029.5,
-				"press_tend": "-",
-				"rain_trace": "2.4",
-				"rel_hum": 93,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}

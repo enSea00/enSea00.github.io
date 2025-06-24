@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:43 am WST Wednesday 25 June 2025",
+				"refresh_message": "Issued at  4:53 am WST Wednesday 25 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Hillarys Point Boat Harbour",
@@ -5496,43 +5496,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 148,
-				"wmo": 95605,
-				"name": "Hillarys Point Boat Harbour",
-				"history_product": "IDW60801",
-				"local_date_time": "22/04:42am",
-				"local_date_time_full": "20250622044200",
-				"aifstime_utc": "20250621204200",
-				"lat": -31.8,
-				"lon": 115.7,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 15.5,
-				"dewpt": null,
-				"press": 1019.6,
-				"press_msl": 1019.6,
-				"press_qnh": 1019.6,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
