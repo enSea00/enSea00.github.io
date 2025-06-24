@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:33 pm WST Tuesday 24 June 2025",
+				"refresh_message": "Issued at  5:53 pm WST Tuesday 24 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Lake Grace",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 24,
 				"wind_spd_kt": 13
-			},
-			{
-				"sort_order": 149,
-				"wmo": 95637,
-				"name": "Lake Grace",
-				"history_product": "IDW60801",
-				"local_date_time": "21/05:50pm",
-				"local_date_time_full": "20250621175000",
-				"aifstime_utc": "20250621095000",
-				"lat": -33.1,
-				"lon": 118.5,
-				"apparent_t": 4.7,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.4,
-				"gust_kmh": 46,
-				"gust_kt": 25,
-				"air_temp": 10.6,
-				"dewpt": 7.7,
-				"press": 1010.9,
-				"press_msl": 1010.9,
-				"press_qnh": 1010.9,
-				"press_tend": "-",
-				"rain_trace": "1.6",
-				"rel_hum": 82,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
