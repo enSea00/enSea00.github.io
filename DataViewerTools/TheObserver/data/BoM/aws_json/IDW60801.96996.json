@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:33 am WST Wednesday 25 June 2025",
+				"refresh_message": "Issued at  3:43 am WST Wednesday 25 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Cocos Island",
@@ -10343,43 +10343,6 @@
 				"wind_dir": "ESE",
 				"wind_spd_kmh": 37,
 				"wind_spd_kt": 20
-			},
-			{
-				"sort_order": 279,
-				"wmo": 96996,
-				"name": "Cocos Island",
-				"history_product": "IDW60801",
-				"local_date_time": "22/03:33am",
-				"local_date_time_full": "20250622033300",
-				"aifstime_utc": "20250621193300",
-				"lat": -12.2,
-				"lon": 96.8,
-				"apparent_t": 25.3,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 870,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.0,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 26.7,
-				"dewpt": 22.3,
-				"press": 1013.3,
-				"press_msl": 1013.3,
-				"press_qnh": 1013.3,
-				"press_tend": "-",
-				"rain_trace": "3.2",
-				"rel_hum": 77,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "ESE",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
