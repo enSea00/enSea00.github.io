@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:43 am EST Thursday 26 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Thursday 26 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Pindari Dam",
@@ -94,43 +94,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 2,
-				"wmo": 94544,
-				"name": "Pindari Dam",
-				"history_product": "IDN60801",
-				"local_date_time": "23/09:00am",
-				"local_date_time_full": "20250623090000",
-				"aifstime_utc": "20250622230000",
-				"lat": -29.4,
-				"lon": 151.2,
-				"apparent_t": 11.7,
-				"cloud": "Mostly cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 6,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 1.5,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 12.5,
-				"dewpt": 9.6,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 82,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "18",
-				"weather": "Fine",
-				"wind_dir": "W",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
