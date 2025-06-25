@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:33 am EST Thursday 26 June 2025",
+				"refresh_message": "Issued at  8:42 am EST Thursday 26 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Roma",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 147,
-				"wmo": 94515,
-				"name": "Roma",
-				"history_product": "IDQ60801",
-				"local_date_time": "23/08:32am",
-				"local_date_time_full": "20250623083200",
-				"aifstime_utc": "20250622223200",
-				"lat": -26.5,
-				"lon": 148.8,
-				"apparent_t": 13.1,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 360,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.6,
-				"gust_kmh": 30,
-				"gust_kt": 16,
-				"air_temp": 16.2,
-				"dewpt": 13.3,
-				"press": 1024.7,
-				"press_msl": 1024.7,
-				"press_qnh": 1024.8,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 83,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NNE",
-				"wind_spd_kmh": 22,
-				"wind_spd_kt": 12
 			}
 		]
 	}
