@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:02 am EST Thursday 26 June 2025",
+				"refresh_message": "Issued at  5:22 am EST Thursday 26 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Orbost",
@@ -5977,43 +5977,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 4,
 				"wind_spd_kt": 2
-			},
-			{
-				"sort_order": 161,
-				"wmo": 95918,
-				"name": "Orbost",
-				"history_product": "IDV60801",
-				"local_date_time": "23/05:04am",
-				"local_date_time_full": "20250623050400",
-				"aifstime_utc": "20250622190400",
-				"lat": -37.7,
-				"lon": 148.5,
-				"apparent_t": 3.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.9,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 6.4,
-				"dewpt": -1.5,
-				"press": 1018.1,
-				"press_msl": 1018.1,
-				"press_qnh": 1018.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 57,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
