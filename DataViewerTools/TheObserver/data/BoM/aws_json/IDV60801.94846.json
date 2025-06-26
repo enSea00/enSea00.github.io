@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:02 am EST Friday 27 June 2025",
+				"refresh_message": "Issued at  5:22 am EST Friday 27 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Aireys Inlet",
@@ -6569,43 +6569,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 32,
 				"wind_spd_kt": 17
-			},
-			{
-				"sort_order": 177,
-				"wmo": 94846,
-				"name": "Aireys Inlet",
-				"history_product": "IDV60801",
-				"local_date_time": "24/05:08am",
-				"local_date_time_full": "20250624050800",
-				"aifstime_utc": "20250623190800",
-				"lat": -38.5,
-				"lon": 144.1,
-				"apparent_t": 4.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.6,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 11.5,
-				"dewpt": 3.3,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 57,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
