@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:01 am CST Friday 27 June 2025",
+				"refresh_message": "Issued at  7:11 am CST Friday 27 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Adelaide (West Terrace /  ngayirdapira)",
@@ -6532,43 +6532,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 176,
-				"wmo": 94648,
-				"name": "Adelaide (West Terrace /  ngayirdapira)",
-				"history_product": "IDS60801",
-				"local_date_time": "24/07:05am",
-				"local_date_time_full": "20250624070500",
-				"aifstime_utc": "20250623213500",
-				"lat": -34.9,
-				"lon": 138.6,
-				"apparent_t": 5.1,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 690,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.6,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 11.0,
-				"dewpt": 7.7,
-				"press": 1002.9,
-				"press_msl": 1002.9,
-				"press_qnh": 1002.9,
-				"press_tend": "-",
-				"rain_trace": "7.4",
-				"rel_hum": 80,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
