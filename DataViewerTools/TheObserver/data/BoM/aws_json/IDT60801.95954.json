@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:41 am EST Friday 27 June 2025",
+				"refresh_message": "Issued at  4:51 am EST Friday 27 June 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Kennaook / Cape Grim",
@@ -9640,43 +9640,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 48,
 				"wind_spd_kt": 26
-			},
-			{
-				"sort_order": 260,
-				"wmo": 95954,
-				"name": "Kennaook / Cape Grim",
-				"history_product": "IDT60801",
-				"local_date_time": "24/04:45am",
-				"local_date_time_full": "20250624044500",
-				"aifstime_utc": "20250623184500",
-				"lat": -40.7,
-				"lon": 144.7,
-				"apparent_t": 5.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.4,
-				"gust_kmh": 61,
-				"gust_kt": 33,
-				"air_temp": 13.9,
-				"dewpt": 7.0,
-				"press": 993.5,
-				"press_msl": 993.5,
-				"press_qnh": 993.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 63,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 43,
-				"wind_spd_kt": 23
 			}
 		]
 	}
