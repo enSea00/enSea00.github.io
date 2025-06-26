@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:01 pm CST Thursday 26 June 2025",
+				"refresh_message": "Issued at  7:11 pm CST Thursday 26 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Sellicks Hill",
@@ -5422,43 +5422,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 146,
-				"wmo": 95679,
-				"name": "Sellicks Hill",
-				"history_product": "IDS60801",
-				"local_date_time": "23/07:08pm",
-				"local_date_time_full": "20250623190800",
-				"aifstime_utc": "20250623093800",
-				"lat": -35.3,
-				"lon": 138.5,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 41,
-				"gust_kt": 22,
-				"air_temp": null,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}

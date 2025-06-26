@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:01 pm CST Thursday 26 June 2025",
+				"refresh_message": "Issued at  7:11 pm CST Thursday 26 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Cape Willoughby",
@@ -6532,43 +6532,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 176,
-				"wmo": 94822,
-				"name": "Cape Willoughby",
-				"history_product": "IDS60801",
-				"local_date_time": "23/07:02pm",
-				"local_date_time_full": "20250623190200",
-				"aifstime_utc": "20250623093200",
-				"lat": -35.8,
-				"lon": 138.1,
-				"apparent_t": 0.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.9,
-				"gust_kmh": 65,
-				"gust_kt": 35,
-				"air_temp": 9.4,
-				"dewpt": 7.5,
-				"press": 1001.9,
-				"press_msl": 1001.9,
-				"press_qnh": 1002.0,
-				"press_tend": "-",
-				"rain_trace": "6.0",
-				"rel_hum": 88,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 46,
-				"wind_spd_kt": 25
 			}
 		]
 	}
