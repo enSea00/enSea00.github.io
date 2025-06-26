@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:03 am EST Friday 27 June 2025",
+				"refresh_message": "Issued at  6:22 am EST Friday 27 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Bega",
@@ -6088,43 +6088,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 164,
-				"wmo": 95931,
-				"name": "Bega",
-				"history_product": "IDN60801",
-				"local_date_time": "24/06:18am",
-				"local_date_time_full": "20250624061800",
-				"aifstime_utc": "20250623201800",
-				"lat": -36.7,
-				"lon": 149.8,
-				"apparent_t": 7.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.4,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 9.5,
-				"dewpt": 6.4,
-				"press": 1004.3,
-				"press_msl": 1004.3,
-				"press_qnh": 1004.3,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 81,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
