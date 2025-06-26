@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at 12:01 am CST Friday 27 June 2025",
+				"refresh_message": "Issued at 12:11 am CST Friday 27 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Neptune Island",
@@ -5089,43 +5089,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 61,
 				"wind_spd_kt": 33
-			},
-			{
-				"sort_order": 137,
-				"wmo": 94804,
-				"name": "Neptune Island",
-				"history_product": "IDS60801",
-				"local_date_time": "24/12:10am",
-				"local_date_time_full": "20250624001000",
-				"aifstime_utc": "20250623144000",
-				"lat": -35.3,
-				"lon": 136.1,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 76,
-				"gust_kt": 41,
-				"air_temp": 12.0,
-				"dewpt": null,
-				"press": 999.4,
-				"press_msl": 999.4,
-				"press_qnh": 999.4,
-				"press_tend": "-",
-				"rain_trace": "11.0",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 56,
-				"wind_spd_kt": 30
 			}
 		]
 	}
