@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:03 am EST Friday 27 June 2025",
+				"refresh_message": "Issued at  1:22 am EST Friday 27 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Khancoban",
@@ -6199,43 +6199,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 11,
 				"wind_spd_kt": 6
-			},
-			{
-				"sort_order": 167,
-				"wmo": 94919,
-				"name": "Khancoban",
-				"history_product": "IDN60801",
-				"local_date_time": "24/01:05am",
-				"local_date_time_full": "20250624010500",
-				"aifstime_utc": "20250623150500",
-				"lat": -36.2,
-				"lon": 148.1,
-				"apparent_t": 9.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.6,
-				"gust_kmh": 37,
-				"gust_kt": 20,
-				"air_temp": 12.7,
-				"dewpt": 11.6,
-				"press": 1010.3,
-				"press_msl": 1010.3,
-				"press_qnh": 1009.7,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": 93,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 20,
-				"wind_spd_kt": 11
 			}
 		]
 	}
