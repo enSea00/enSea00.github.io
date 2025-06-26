@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:01 am CST Friday 27 June 2025",
+				"refresh_message": "Issued at  9:11 am CST Friday 27 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Hindmarsh Island",
@@ -6310,43 +6310,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 39,
 				"wind_spd_kt": 21
-			},
-			{
-				"sort_order": 170,
-				"wmo": 94677,
-				"name": "Hindmarsh Island",
-				"history_product": "IDS60801",
-				"local_date_time": "24/09:04am",
-				"local_date_time_full": "20250624090400",
-				"aifstime_utc": "20250623233400",
-				"lat": -35.5,
-				"lon": 138.8,
-				"apparent_t": 3.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.2,
-				"gust_kmh": 54,
-				"gust_kt": 29,
-				"air_temp": 10.0,
-				"dewpt": 7.4,
-				"press": 1001.0,
-				"press_msl": 1001.0,
-				"press_qnh": 1001.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 84,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
