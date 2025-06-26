@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:43 am EST Friday 27 June 2025",
+				"refresh_message": "Issued at  1:53 am EST Friday 27 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Forbes",
@@ -5977,43 +5977,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 161,
-				"wmo": 94715,
-				"name": "Forbes",
-				"history_product": "IDN60801",
-				"local_date_time": "24/01:43am",
-				"local_date_time_full": "20250624014300",
-				"aifstime_utc": "20250623154300",
-				"lat": -33.4,
-				"lon": 147.9,
-				"apparent_t": 9.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.5,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 15.2,
-				"dewpt": 10.6,
-				"press": 1011.8,
-				"press_msl": 1011.8,
-				"press_qnh": 1011.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 74,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
