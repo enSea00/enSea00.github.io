@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:01 am CST Friday 27 June 2025",
+				"refresh_message": "Issued at  6:11 am CST Friday 27 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Minlaton Airport",
@@ -6384,43 +6384,6 @@
 				"wind_dir": "WNW",
 				"wind_spd_kmh": 46,
 				"wind_spd_kt": 25
-			},
-			{
-				"sort_order": 172,
-				"wmo": 95659,
-				"name": "Minlaton Airport",
-				"history_product": "IDS60801",
-				"local_date_time": "24/06:04am",
-				"local_date_time_full": "20250624060400",
-				"aifstime_utc": "20250623203400",
-				"lat": -34.7,
-				"lon": 137.5,
-				"apparent_t": -0.8,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.1,
-				"gust_kmh": 74,
-				"gust_kt": 40,
-				"air_temp": 10.7,
-				"dewpt": 6.1,
-				"press": 1001.5,
-				"press_msl": 1001.5,
-				"press_qnh": 1001.5,
-				"press_tend": "-",
-				"rain_trace": "9.2",
-				"rel_hum": 73,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "WNW",
-				"wind_spd_kmh": 56,
-				"wind_spd_kt": 30
 			}
 		]
 	}
