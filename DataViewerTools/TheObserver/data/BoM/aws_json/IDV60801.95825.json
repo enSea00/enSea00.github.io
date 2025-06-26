@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:02 am EST Friday 27 June 2025",
+				"refresh_message": "Issued at  9:22 am EST Friday 27 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Casterton",
@@ -5940,43 +5940,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 37,
 				"wind_spd_kt": 20
-			},
-			{
-				"sort_order": 160,
-				"wmo": 95825,
-				"name": "Casterton",
-				"history_product": "IDV60801",
-				"local_date_time": "24/09:15am",
-				"local_date_time_full": "20250624091500",
-				"aifstime_utc": "20250623231500",
-				"lat": -37.6,
-				"lon": 141.3,
-				"apparent_t": 1.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.8,
-				"gust_kmh": 57,
-				"gust_kt": 31,
-				"air_temp": 9.2,
-				"dewpt": 5.2,
-				"press": 995.6,
-				"press_msl": 995.6,
-				"press_qnh": 995.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 76,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 35,
-				"wind_spd_kt": 19
 			}
 		]
 	}

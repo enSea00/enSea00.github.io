@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:02 am EST Friday 27 June 2025",
+				"refresh_message": "Issued at  9:22 am EST Friday 27 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Longerenong",
@@ -5829,43 +5829,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 35,
 				"wind_spd_kt": 19
-			},
-			{
-				"sort_order": 157,
-				"wmo": 95835,
-				"name": "Longerenong",
-				"history_product": "IDV60801",
-				"local_date_time": "24/09:11am",
-				"local_date_time_full": "20250624091100",
-				"aifstime_utc": "20250623231100",
-				"lat": -36.7,
-				"lon": 142.3,
-				"apparent_t": 1.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.1,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 9.2,
-				"dewpt": 4.4,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 72,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}

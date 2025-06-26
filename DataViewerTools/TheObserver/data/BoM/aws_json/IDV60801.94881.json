@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:02 am EST Friday 27 June 2025",
+				"refresh_message": "Issued at  9:22 am EST Friday 27 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Eildon Fire Tower",
@@ -6199,43 +6199,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 37,
 				"wind_spd_kt": 20
-			},
-			{
-				"sort_order": 167,
-				"wmo": 94881,
-				"name": "Eildon Fire Tower",
-				"history_product": "IDV60801",
-				"local_date_time": "24/09:09am",
-				"local_date_time_full": "20250624090900",
-				"aifstime_utc": "20250623230900",
-				"lat": -37.2,
-				"lon": 145.8,
-				"apparent_t": -0.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.2,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 6.6,
-				"dewpt": 3.8,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 82,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
