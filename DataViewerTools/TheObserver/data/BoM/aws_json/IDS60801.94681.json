@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:11 am CST Friday 27 June 2025",
+				"refresh_message": "Issued at  7:21 am CST Friday 27 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Nuriootpa",
@@ -6236,43 +6236,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 32,
 				"wind_spd_kt": 17
-			},
-			{
-				"sort_order": 168,
-				"wmo": 94681,
-				"name": "Nuriootpa",
-				"history_product": "IDS60801",
-				"local_date_time": "24/07:13am",
-				"local_date_time_full": "20250624071300",
-				"aifstime_utc": "20250623214300",
-				"lat": -34.5,
-				"lon": 139.0,
-				"apparent_t": 0.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.7,
-				"gust_kmh": 59,
-				"gust_kt": 32,
-				"air_temp": 7.5,
-				"dewpt": 6.0,
-				"press": 1004.1,
-				"press_msl": 1004.1,
-				"press_qnh": 1003.9,
-				"press_tend": "-",
-				"rain_trace": "3.8",
-				"rel_hum": 90,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}

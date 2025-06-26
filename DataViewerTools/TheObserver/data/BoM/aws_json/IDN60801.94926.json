@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:33 am EST Friday 27 June 2025",
+				"refresh_message": "Issued at  7:43 am EST Friday 27 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Canberra",
@@ -6791,43 +6791,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 33,
 				"wind_spd_kt": 18
-			},
-			{
-				"sort_order": 183,
-				"wmo": 94926,
-				"name": "Canberra",
-				"history_product": "IDN60801",
-				"local_date_time": "24/07:35am",
-				"local_date_time_full": "20250624073500",
-				"aifstime_utc": "20250623213500",
-				"lat": -35.3,
-				"lon": 149.2,
-				"apparent_t": 5.3,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 390,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 11.1,
-				"dewpt": 10.9,
-				"press": 1008.5,
-				"press_msl": 1008.5,
-				"press_qnh": 1007.7,
-				"press_tend": "-",
-				"rain_trace": "11.4",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "N",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
