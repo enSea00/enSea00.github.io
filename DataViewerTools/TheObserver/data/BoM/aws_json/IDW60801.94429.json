@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:03 pm WST Friday 27 June 2025",
+				"refresh_message": "Issued at  9:33 pm WST Friday 27 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Mount Magnet Airport",
@@ -1167,43 +1167,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 31,
-				"wmo": 94429,
-				"name": "Mount Magnet Airport",
-				"history_product": "IDW60801",
-				"local_date_time": "24/09:30pm",
-				"local_date_time_full": "20250624213000",
-				"aifstime_utc": "20250624133000",
-				"lat": -28.1,
-				"lon": 117.8,
-				"apparent_t": 5.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.8,
-				"gust_kmh": 13,
-				"gust_kt": 7,
-				"air_temp": 8.8,
-				"dewpt": 2.4,
-				"press": 1028.3,
-				"press_msl": 1028.3,
-				"press_qnh": 1028.7,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 64,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
