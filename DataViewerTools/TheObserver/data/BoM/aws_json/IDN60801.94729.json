@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:13 pm EST Friday 27 June 2025",
+				"refresh_message": "Issued at  3:32 pm EST Friday 27 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Bathurst Airport",
@@ -6310,43 +6310,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 170,
-				"wmo": 94729,
-				"name": "Bathurst Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "24/03:30pm",
-				"local_date_time_full": "20250624153000",
-				"aifstime_utc": "20250624053000",
-				"lat": -33.4,
-				"lon": 149.7,
-				"apparent_t": 7.0,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 1350,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.0,
-				"gust_kmh": 44,
-				"gust_kt": 24,
-				"air_temp": 14.0,
-				"dewpt": 5.9,
-				"press": 1010.2,
-				"press_msl": 1010.2,
-				"press_qnh": 1009.7,
-				"press_tend": "-",
-				"rain_trace": "1.0",
-				"rel_hum": 58,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
