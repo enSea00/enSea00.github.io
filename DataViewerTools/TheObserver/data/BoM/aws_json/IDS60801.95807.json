@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:01 pm CST Friday 27 June 2025",
+				"refresh_message": "Issued at  3:21 pm CST Friday 27 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Kingscote",
@@ -6939,43 +6939,6 @@
 				"wind_dir": "W",
 				"wind_spd_kmh": 41,
 				"wind_spd_kt": 22
-			},
-			{
-				"sort_order": 187,
-				"wmo": 95807,
-				"name": "Kingscote",
-				"history_product": "IDS60801",
-				"local_date_time": "24/03:08pm",
-				"local_date_time_full": "20250624150800",
-				"aifstime_utc": "20250624053800",
-				"lat": -35.7,
-				"lon": 137.5,
-				"apparent_t": 2.3,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1290,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.0,
-				"gust_kmh": 61,
-				"gust_kt": 33,
-				"air_temp": 11.2,
-				"dewpt": 6.9,
-				"press": 1004.5,
-				"press_msl": 1004.5,
-				"press_qnh": 1004.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 75,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "W",
-				"wind_spd_kmh": 43,
-				"wind_spd_kt": 23
 			}
 		]
 	}

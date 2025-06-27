@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:01 pm CST Friday 27 June 2025",
+				"refresh_message": "Issued at  3:21 pm CST Friday 27 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Tarcoola",
@@ -5607,43 +5607,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 32,
 				"wind_spd_kt": 17
-			},
-			{
-				"sort_order": 151,
-				"wmo": 94655,
-				"name": "Tarcoola",
-				"history_product": "IDS60801",
-				"local_date_time": "24/03:10pm",
-				"local_date_time_full": "20250624151000",
-				"aifstime_utc": "20250624054000",
-				"lat": -30.7,
-				"lon": 134.6,
-				"apparent_t": 7.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.4,
-				"gust_kmh": 63,
-				"gust_kt": 34,
-				"air_temp": 14.8,
-				"dewpt": 5.6,
-				"press": 1017.6,
-				"press_msl": 1017.6,
-				"press_qnh": 1017.5,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 54,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 35,
-				"wind_spd_kt": 19
 			}
 		]
 	}
