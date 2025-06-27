@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:32 pm EST Friday 27 June 2025",
+				"refresh_message": "Issued at  6:52 pm EST Friday 27 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Fawkner Beacon",
@@ -6310,43 +6310,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 46,
 				"wind_spd_kt": 25
-			},
-			{
-				"sort_order": 170,
-				"wmo": 95872,
-				"name": "Fawkner Beacon",
-				"history_product": "IDV60801",
-				"local_date_time": "24/06:43pm",
-				"local_date_time_full": "20250624184300",
-				"aifstime_utc": "20250624084300",
-				"lat": -37.9,
-				"lon": 144.9,
-				"apparent_t": null,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": null,
-				"gust_kmh": 63,
-				"gust_kt": 34,
-				"air_temp": null,
-				"dewpt": null,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "-",
-				"rel_hum": null,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 44,
-				"wind_spd_kt": 24
 			}
 		]
 	}
