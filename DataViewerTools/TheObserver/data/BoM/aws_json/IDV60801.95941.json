@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:32 pm EST Friday 27 June 2025",
+				"refresh_message": "Issued at  5:42 pm EST Friday 27 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Point Cook",
@@ -6310,43 +6310,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 37,
 				"wind_spd_kt": 20
-			},
-			{
-				"sort_order": 170,
-				"wmo": 95941,
-				"name": "Point Cook",
-				"history_product": "IDV60801",
-				"local_date_time": "24/05:41pm",
-				"local_date_time_full": "20250624174100",
-				"aifstime_utc": "20250624074100",
-				"lat": -37.9,
-				"lon": 144.8,
-				"apparent_t": 3.2,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1230,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.4,
-				"gust_kmh": 54,
-				"gust_kt": 29,
-				"air_temp": 10.8,
-				"dewpt": 5.6,
-				"press": 994.2,
-				"press_msl": 994.2,
-				"press_qnh": 994.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 70,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 35,
-				"wind_spd_kt": 19
 			}
 		]
 	}

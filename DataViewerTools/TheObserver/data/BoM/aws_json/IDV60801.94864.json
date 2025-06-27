@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:32 pm EST Friday 27 June 2025",
+				"refresh_message": "Issued at  5:42 pm EST Friday 27 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Coldstream",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "N",
 				"wind_spd_kmh": 22,
 				"wind_spd_kt": 12
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94864,
-				"name": "Coldstream",
-				"history_product": "IDV60801",
-				"local_date_time": "24/05:32pm",
-				"local_date_time_full": "20250624173200",
-				"aifstime_utc": "20250624073200",
-				"lat": -37.7,
-				"lon": 145.4,
-				"apparent_t": 4.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.4,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 10.6,
-				"dewpt": 5.4,
-				"press": 996.8,
-				"press_msl": 996.8,
-				"press_qnh": 996.7,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 70,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
