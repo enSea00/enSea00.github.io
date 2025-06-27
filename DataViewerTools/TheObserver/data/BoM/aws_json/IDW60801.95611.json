@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:33 am WST Saturday 28 June 2025",
+				"refresh_message": "Issued at  6:43 am WST Saturday 28 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Busselton Airport",
@@ -5903,43 +5903,6 @@
 				"wind_dir": "E",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 159,
-				"wmo": 95611,
-				"name": "Busselton Airport",
-				"history_product": "IDW60801",
-				"local_date_time": "25/06:34am",
-				"local_date_time_full": "20250625063400",
-				"aifstime_utc": "20250624223400",
-				"lat": -33.7,
-				"lon": 115.4,
-				"apparent_t": 2.6,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 30,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 5.1,
-				"dewpt": 5.0,
-				"press": 1028.8,
-				"press_msl": 1028.8,
-				"press_qnh": 1028.8,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "6",
-				"weather": "-",
-				"wind_dir": "E",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
