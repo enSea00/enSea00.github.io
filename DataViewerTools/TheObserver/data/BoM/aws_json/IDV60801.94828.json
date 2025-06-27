@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:42 am EST Saturday 28 June 2025",
+				"refresh_message": "Issued at  7:52 am EST Saturday 28 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Portland Airport",
@@ -6458,43 +6458,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 33,
 				"wind_spd_kt": 18
-			},
-			{
-				"sort_order": 174,
-				"wmo": 94828,
-				"name": "Portland Airport",
-				"history_product": "IDV60801",
-				"local_date_time": "25/07:50am",
-				"local_date_time_full": "20250625075000",
-				"aifstime_utc": "20250624215000",
-				"lat": -38.3,
-				"lon": 141.5,
-				"apparent_t": 3.2,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 510,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.8,
-				"gust_kmh": 46,
-				"gust_kt": 25,
-				"air_temp": 9.1,
-				"dewpt": 7.5,
-				"press": 1006.6,
-				"press_msl": 1006.6,
-				"press_qnh": 1006.5,
-				"press_tend": "-",
-				"rain_trace": "15.8",
-				"rel_hum": 90,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
