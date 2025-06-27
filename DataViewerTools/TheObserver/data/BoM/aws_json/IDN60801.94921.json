@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:03 pm EST Friday 27 June 2025",
+				"refresh_message": "Issued at  9:22 pm EST Friday 27 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Cooma Airport",
@@ -6273,43 +6273,6 @@
 				"wind_dir": "NW",
 				"wind_spd_kmh": 44,
 				"wind_spd_kt": 24
-			},
-			{
-				"sort_order": 169,
-				"wmo": 94921,
-				"name": "Cooma Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "24/09:10pm",
-				"local_date_time_full": "20250624211000",
-				"aifstime_utc": "20250624111000",
-				"lat": -36.3,
-				"lon": 149.0,
-				"apparent_t": -5.6,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 660,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.3,
-				"gust_kmh": 91,
-				"gust_kt": 49,
-				"air_temp": 5.5,
-				"dewpt": -0.1,
-				"press": 1003.2,
-				"press_msl": 1003.2,
-				"press_qnh": 1002.2,
-				"press_tend": "-",
-				"rain_trace": "0.8",
-				"rel_hum": 67,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NW",
-				"wind_spd_kmh": 48,
-				"wind_spd_kt": 26
 			}
 		]
 	}

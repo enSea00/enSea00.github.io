@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:02 pm EST Friday 27 June 2025",
+				"refresh_message": "Issued at  9:22 pm EST Friday 27 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Omeo",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "NNW",
 				"wind_spd_kmh": 39,
 				"wind_spd_kt": 21
-			},
-			{
-				"sort_order": 147,
-				"wmo": 94908,
-				"name": "Omeo",
-				"history_product": "IDV60801",
-				"local_date_time": "24/09:03pm",
-				"local_date_time_full": "20250624210300",
-				"aifstime_utc": "20250624110300",
-				"lat": -37.1,
-				"lon": 147.6,
-				"apparent_t": -3.5,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.9,
-				"gust_kmh": 57,
-				"gust_kt": 31,
-				"air_temp": 5.0,
-				"dewpt": 2.9,
-				"press": 1000.9,
-				"press_msl": 1000.9,
-				"press_qnh": 1000.2,
-				"press_tend": "-",
-				"rain_trace": "4.6",
-				"rel_hum": 86,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "NNW",
-				"wind_spd_kmh": 37,
-				"wind_spd_kt": 20
 			}
 		]
 	}
