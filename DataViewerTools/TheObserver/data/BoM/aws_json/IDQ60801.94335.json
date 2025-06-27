@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:12 pm EST Friday 27 June 2025",
+				"refresh_message": "Issued at  7:33 pm EST Friday 27 June 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Cloncurry",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94335,
-				"name": "Cloncurry",
-				"history_product": "IDQ60801",
-				"local_date_time": "24/07:30pm",
-				"local_date_time_full": "20250624193000",
-				"aifstime_utc": "20250624093000",
-				"lat": -20.7,
-				"lon": 140.5,
-				"apparent_t": 20.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 8.4,
-				"gust_kmh": 22,
-				"gust_kt": 12,
-				"air_temp": 24.1,
-				"dewpt": 8.5,
-				"press": 1017.6,
-				"press_msl": 1017.6,
-				"press_qnh": 1018.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 37,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}
