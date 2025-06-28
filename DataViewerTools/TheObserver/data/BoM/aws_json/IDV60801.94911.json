@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:02 pm EST Saturday 28 June 2025",
+				"refresh_message": "Issued at  5:22 pm EST Saturday 28 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Yanakie",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 37,
 				"wind_spd_kt": 20
-			},
-			{
-				"sort_order": 147,
-				"wmo": 94911,
-				"name": "Yanakie",
-				"history_product": "IDV60801",
-				"local_date_time": "25/05:14pm",
-				"local_date_time_full": "20250625171400",
-				"aifstime_utc": "20250625071400",
-				"lat": -38.8,
-				"lon": 146.2,
-				"apparent_t": 1.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.0,
-				"gust_kmh": 57,
-				"gust_kt": 31,
-				"air_temp": 9.8,
-				"dewpt": 5.4,
-				"press": 1011.0,
-				"press_msl": 1011.0,
-				"press_qnh": 1011.0,
-				"press_tend": "-",
-				"rain_trace": "4.2",
-				"rel_hum": 74,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 39,
-				"wind_spd_kt": 21
 			}
 		]
 	}
