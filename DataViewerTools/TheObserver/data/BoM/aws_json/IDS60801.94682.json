@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:01 pm CST Saturday 28 June 2025",
+				"refresh_message": "Issued at  5:11 pm CST Saturday 28 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Loxton",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 24,
 				"wind_spd_kt": 13
-			},
-			{
-				"sort_order": 144,
-				"wmo": 94682,
-				"name": "Loxton",
-				"history_product": "IDS60801",
-				"local_date_time": "25/05:06pm",
-				"local_date_time_full": "20250625170600",
-				"aifstime_utc": "20250625073600",
-				"lat": -34.4,
-				"lon": 140.6,
-				"apparent_t": 7.3,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.9,
-				"gust_kmh": 48,
-				"gust_kt": 26,
-				"air_temp": 14.4,
-				"dewpt": 3.5,
-				"press": 1021.6,
-				"press_msl": 1021.6,
-				"press_qnh": 1021.6,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 48,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 30,
-				"wind_spd_kt": 16
 			}
 		]
 	}
