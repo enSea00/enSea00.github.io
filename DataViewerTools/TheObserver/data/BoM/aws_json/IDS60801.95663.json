@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:01 pm CST Saturday 28 June 2025",
+				"refresh_message": "Issued at  1:21 pm CST Saturday 28 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Cummins Airport",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 26,
 				"wind_spd_kt": 14
-			},
-			{
-				"sort_order": 145,
-				"wmo": 95663,
-				"name": "Cummins Airport",
-				"history_product": "IDS60801",
-				"local_date_time": "25/01:14pm",
-				"local_date_time_full": "20250625131400",
-				"aifstime_utc": "20250625034400",
-				"lat": -34.3,
-				"lon": 135.7,
-				"apparent_t": 9.2,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 2.0,
-				"gust_kmh": 52,
-				"gust_kt": 28,
-				"air_temp": 15.1,
-				"dewpt": 11.3,
-				"press": 1024.1,
-				"press_msl": 1024.1,
-				"press_qnh": 1024.0,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 78,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}

@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:31 pm EST Saturday 28 June 2025",
+				"refresh_message": "Issued at  1:51 pm EST Saturday 28 June 2025",
 				"ID": "IDT60801",
 				"main_ID": "IDT60800",
 				"name": "Scotts Peak",
@@ -5459,43 +5459,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 147,
-				"wmo": 95958,
-				"name": "Scotts Peak",
-				"history_product": "IDT60801",
-				"local_date_time": "25/01:36pm",
-				"local_date_time_full": "20250625133600",
-				"aifstime_utc": "20250625033600",
-				"lat": -43.0,
-				"lon": 146.3,
-				"apparent_t": -2.9,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.1,
-				"gust_kmh": 46,
-				"gust_kt": 25,
-				"air_temp": 4.2,
-				"dewpt": 1.4,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "2.6",
-				"rel_hum": 82,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 28,
-				"wind_spd_kt": 15
 			}
 		]
 	}
