@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:12 am EST Sunday 29 June 2025",
+				"refresh_message": "Issued at  5:22 am EST Sunday 29 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Coonabarabran Airport",
@@ -5348,43 +5348,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 144,
-				"wmo": 95728,
-				"name": "Coonabarabran Airport",
-				"history_product": "IDN60801",
-				"local_date_time": "26/05:19am",
-				"local_date_time_full": "20250626051900",
-				"aifstime_utc": "20250625191900",
-				"lat": -31.3,
-				"lon": 149.3,
-				"apparent_t": -3.0,
-				"cloud": "Mostly clear",
-				"cloud_base_m": 270,
-				"cloud_oktas": 1,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.2,
-				"gust_kmh": 22,
-				"gust_kt": 12,
-				"air_temp": 2.0,
-				"dewpt": 1.4,
-				"press": 1022.1,
-				"press_msl": 1022.1,
-				"press_qnh": 1022.2,
-				"press_tend": "-",
-				"rain_trace": "0.8",
-				"rel_hum": 96,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 17,
-				"wind_spd_kt": 9
 			}
 		]
 	}
