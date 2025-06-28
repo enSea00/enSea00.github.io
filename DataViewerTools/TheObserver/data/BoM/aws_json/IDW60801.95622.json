@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:52 am WST Saturday 28 June 2025",
+				"refresh_message": "Issued at 10:33 am WST Saturday 28 June 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Donnybrook",
@@ -57,43 +57,6 @@
 				"wind_dir": "NNE",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 1,
-				"wmo": 95622,
-				"name": "Donnybrook",
-				"history_product": "IDW60801",
-				"local_date_time": "25/09:00am",
-				"local_date_time_full": "20250625090000",
-				"aifstime_utc": "20250625010000",
-				"lat": -33.6,
-				"lon": 115.8,
-				"apparent_t": null,
-				"cloud": "Cloudy",
-				"cloud_base_m": null,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": 30,
-				"delta_t": 0.0,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 8.5,
-				"dewpt": 8.5,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "0.2",
-				"rel_hum": 100,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "1",
-				"weather": "Mist",
-				"wind_dir": "-",
-				"wind_spd_kmh": null,
-				"wind_spd_kt": null
 			}
 		]
 	}
