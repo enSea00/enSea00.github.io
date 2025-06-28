@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Sunday 29 June 2025",
+				"refresh_message": "Issued at  9:03 am EST Sunday 29 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Peak Hill",
@@ -57,43 +57,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 1,
-				"wmo": 94721,
-				"name": "Peak Hill",
-				"history_product": "IDN60801",
-				"local_date_time": "26/09:00am",
-				"local_date_time_full": "20250626090000",
-				"aifstime_utc": "20250625230000",
-				"lat": -32.7,
-				"lon": 148.2,
-				"apparent_t": 2.7,
-				"cloud": "Clear",
-				"cloud_base_m": 2500,
-				"cloud_oktas": 0,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.7,
-				"gust_kmh": null,
-				"gust_kt": null,
-				"air_temp": 4.9,
-				"dewpt": 3.2,
-				"press": null,
-				"press_msl": null,
-				"press_qnh": null,
-				"press_tend": "-",
-				"rain_trace": "2.0",
-				"rel_hum": 89,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "50",
-				"weather": "Fine",
-				"wind_dir": "S",
-				"wind_spd_kmh": 4,
-				"wind_spd_kt": 2
 			}
 		]
 	}
