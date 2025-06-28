@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  4:32 pm EST Saturday 28 June 2025",
+				"refresh_message": "Issued at  4:52 pm EST Saturday 28 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Moorabbin Airport",
@@ -5681,43 +5681,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 30,
 				"wind_spd_kt": 16
-			},
-			{
-				"sort_order": 153,
-				"wmo": 94870,
-				"name": "Moorabbin Airport",
-				"history_product": "IDV60801",
-				"local_date_time": "25/04:34pm",
-				"local_date_time_full": "20250625163400",
-				"aifstime_utc": "20250625063400",
-				"lat": -38.0,
-				"lon": 145.1,
-				"apparent_t": 2.5,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1260,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 3.2,
-				"gust_kmh": 50,
-				"gust_kt": 27,
-				"air_temp": 10.1,
-				"dewpt": 2.7,
-				"press": 1013.0,
-				"press_msl": 1013.0,
-				"press_qnh": 1013.0,
-				"press_tend": "-",
-				"rain_trace": "3.8",
-				"rel_hum": 60,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 32,
-				"wind_spd_kt": 17
 			}
 		]
 	}
