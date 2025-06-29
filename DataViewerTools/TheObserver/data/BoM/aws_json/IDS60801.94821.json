@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:01 pm CST Sunday 29 June 2025",
+				"refresh_message": "Issued at  9:11 pm CST Sunday 29 June 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Mount Gambier",
@@ -33,8 +33,8 @@
 				"lon": 140.8,
 				"apparent_t": 3.2,
 				"cloud": "Partly cloudy",
-				"cloud_base_m": 1650,
-				"cloud_oktas": 5,
+				"cloud_base_m": 1500,
+				"cloud_oktas": 4,
 				"cloud_type": "-",
 				"cloud_type_id": null,
 				"delta_t": 0.5,
@@ -45,7 +45,7 @@
 				"press": 1030.6,
 				"press_msl": 1030.6,
 				"press_qnh": 1030.5,
-				"press_tend": "-",
+				"press_tend": "R",
 				"rain_trace": "0.0",
 				"rel_hum": 91,
 				"sea_state": "-",
