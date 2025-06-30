@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  6:32 pm EST Monday 30 June 2025",
+				"refresh_message": "Issued at  6:52 pm EST Monday 30 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Ballina",
@@ -8752,43 +8752,6 @@
 				"wind_dir": "WSW",
 				"wind_spd_kmh": 15,
 				"wind_spd_kt": 8
-			},
-			{
-				"sort_order": 236,
-				"wmo": 94596,
-				"name": "Ballina",
-				"history_product": "IDN60801",
-				"local_date_time": "27/06:46pm",
-				"local_date_time_full": "20250627184600",
-				"aifstime_utc": "20250627084600",
-				"lat": -28.8,
-				"lon": 153.6,
-				"apparent_t": 13.6,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 180,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.4,
-				"gust_kmh": 17,
-				"gust_kt": 9,
-				"air_temp": 14.8,
-				"dewpt": 14.0,
-				"press": 1026.6,
-				"press_msl": 1026.6,
-				"press_qnh": 1026.6,
-				"press_tend": "-",
-				"rain_trace": "6.4",
-				"rel_hum": 95,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "5",
-				"weather": "-",
-				"wind_dir": "SW",
-				"wind_spd_kmh": 13,
-				"wind_spd_kt": 7
 			}
 		]
 	}
