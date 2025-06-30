@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:12 pm EST Monday 30 June 2025",
+				"refresh_message": "Issued at  5:32 pm EST Monday 30 June 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Nowra",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SW",
 				"wind_spd_kmh": 9,
 				"wind_spd_kt": 5
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94750,
-				"name": "Nowra",
-				"history_product": "IDN60801",
-				"local_date_time": "27/05:30pm",
-				"local_date_time_full": "20250627173000",
-				"aifstime_utc": "20250627073000",
-				"lat": -34.9,
-				"lon": 150.5,
-				"apparent_t": 7.1,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 1260,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.7,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 9.4,
-				"dewpt": 5.6,
-				"press": 1030.2,
-				"press_msl": 1030.2,
-				"press_qnh": 1030.1,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 77,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "S",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
