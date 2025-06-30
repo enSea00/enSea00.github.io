@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:42 pm EST Monday 30 June 2025",
+				"refresh_message": "Issued at  8:02 pm EST Monday 30 June 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "East Sale Airport",
@@ -5792,43 +5792,6 @@
 				"wind_dir": "CALM",
 				"wind_spd_kmh": 0,
 				"wind_spd_kt": 0
-			},
-			{
-				"sort_order": 156,
-				"wmo": 95907,
-				"name": "East Sale Airport",
-				"history_product": "IDV60801",
-				"local_date_time": "27/08:00pm",
-				"local_date_time_full": "20250627200000",
-				"aifstime_utc": "20250627100000",
-				"lat": -38.1,
-				"lon": 147.1,
-				"apparent_t": 8.4,
-				"cloud": "Cloudy",
-				"cloud_base_m": 1590,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.4,
-				"gust_kmh": 7,
-				"gust_kt": 4,
-				"air_temp": 9.8,
-				"dewpt": 8.9,
-				"press": 1031.2,
-				"press_msl": 1031.2,
-				"press_qnh": 1031.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 94,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "NE",
-				"wind_spd_kmh": 6,
-				"wind_spd_kt": 3
 			}
 		]
 	}
