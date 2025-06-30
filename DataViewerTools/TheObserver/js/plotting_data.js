@@ -446,10 +446,10 @@ Object.keys(groupedLocations).forEach((dataType) => {
                     await loadScriptAsync('js/getData_Tides_NSW_MHL.js');
                     await getData_Tides_NSW_MHL(loc);
                 } 
-                else if (dataType === 'Tide Prediction' && owner === 'BoM') {
-                    await loadScriptAsync('js/getData_TidePredictions_BoM.js');
-                    await getData_TidePredictions_BoM(loc);
-                } 
+                // else if (dataType === 'Tide Prediction' && owner === 'BoM') {
+                //     await loadScriptAsync('js/getData_TidePredictions_BoM.js');
+                //     await getData_TidePredictions_BoM(loc);
+                // } 
                 
                 // River Data                 
                 else if (dataType === 'River Gauge' && owner === 'MHL') {
