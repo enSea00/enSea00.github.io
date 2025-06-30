@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  5:43 am WST Tuesday  1 July 2025",
+				"refresh_message": "Issued at  6:03 am WST Tuesday  1 July 2025",
 				"ID": "IDW60801",
 				"main_ID": "IDW60800",
 				"name": "Iron Bridge Mine",
@@ -5274,43 +5274,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 142,
-				"wmo": 99366,
-				"name": "Iron Bridge Mine",
-				"history_product": "IDW60801",
-				"local_date_time": "28/06:00am",
-				"local_date_time_full": "20250628060000",
-				"aifstime_utc": "20250627220000",
-				"lat": -21.3,
-				"lon": 118.9,
-				"apparent_t": 5.6,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 4.5,
-				"gust_kmh": 11,
-				"gust_kt": 6,
-				"air_temp": 9.6,
-				"dewpt": -2.0,
-				"press": 1022.3,
-				"press_msl": 1022.3,
-				"press_qnh": 1022.9,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 44,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
