@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:42 am EST Tuesday  1 July 2025",
+				"refresh_message": "Issued at  8:52 am EST Tuesday  1 July 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Double Island Point",
@@ -5755,43 +5755,6 @@
 				"wind_dir": "S",
 				"wind_spd_kmh": 35,
 				"wind_spd_kt": 19
-			},
-			{
-				"sort_order": 155,
-				"wmo": 94584,
-				"name": "Double Island Point",
-				"history_product": "IDQ60801",
-				"local_date_time": "28/08:42am",
-				"local_date_time_full": "20250628084200",
-				"aifstime_utc": "20250627224200",
-				"lat": -25.9,
-				"lon": 153.2,
-				"apparent_t": 13.4,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.4,
-				"gust_kmh": 41,
-				"gust_kt": 22,
-				"air_temp": 17.9,
-				"dewpt": 15.5,
-				"press": 1024.5,
-				"press_msl": 1024.5,
-				"press_qnh": 1024.7,
-				"press_tend": "-",
-				"rain_trace": "5.0",
-				"rel_hum": 86,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 33,
-				"wind_spd_kt": 18
 			}
 		]
 	}
