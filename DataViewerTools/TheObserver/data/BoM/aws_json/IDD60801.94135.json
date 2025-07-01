@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:01 am CST Wednesday  2 July 2025",
+				"refresh_message": "Issued at  9:11 am CST Wednesday  2 July 2025",
 				"ID": "IDD60801",
 				"main_ID": "IDD60800",
 				"name": "McCluer Island",
@@ -5977,43 +5977,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 39,
 				"wind_spd_kt": 21
-			},
-			{
-				"sort_order": 161,
-				"wmo": 94135,
-				"name": "McCluer Island",
-				"history_product": "IDD60801",
-				"local_date_time": "29/09:02am",
-				"local_date_time_full": "20250629090200",
-				"aifstime_utc": "20250628233200",
-				"lat": -11.0,
-				"lon": 133.0,
-				"apparent_t": 20.0,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 8.6,
-				"gust_kmh": 56,
-				"gust_kt": 30,
-				"air_temp": 26.3,
-				"dewpt": 11.2,
-				"press": 1013.4,
-				"press_msl": 1013.4,
-				"press_qnh": 1013.4,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 38,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 35,
-				"wind_spd_kt": 19
 			}
 		]
 	}
