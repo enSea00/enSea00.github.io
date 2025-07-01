@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  9:33 pm EST Tuesday  1 July 2025",
+				"refresh_message": "Issued at  9:42 pm EST Tuesday  1 July 2025",
 				"ID": "IDQ60801",
 				"main_ID": "IDQ60800",
 				"name": "Normanton",
@@ -6014,43 +6014,6 @@
 				"wind_dir": "ENE",
 				"wind_spd_kmh": 7,
 				"wind_spd_kt": 4
-			},
-			{
-				"sort_order": 162,
-				"wmo": 94266,
-				"name": "Normanton",
-				"history_product": "IDQ60801",
-				"local_date_time": "28/09:32pm",
-				"local_date_time_full": "20250628213200",
-				"aifstime_utc": "20250628113200",
-				"lat": -17.7,
-				"lon": 141.1,
-				"apparent_t": 22.8,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 120,
-				"cloud_oktas": 3,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.3,
-				"gust_kmh": 15,
-				"gust_kt": 8,
-				"air_temp": 20.7,
-				"dewpt": 20.2,
-				"press": 1016.9,
-				"press_msl": 1016.9,
-				"press_qnh": 1017.0,
-				"press_tend": "-",
-				"rain_trace": "5.8",
-				"rel_hum": 97,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "ENE",
-				"wind_spd_kmh": 9,
-				"wind_spd_kt": 5
 			}
 		]
 	}
