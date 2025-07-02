@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  8:52 am EST Thursday  3 July 2025",
+				"refresh_message": "Issued at  9:02 am EST Thursday  3 July 2025",
 				"ID": "IDV60801",
 				"main_ID": "IDV60800",
 				"name": "Ballan (CFA)",
@@ -15893,43 +15893,6 @@
 				"wind_dir": "SSW",
 				"wind_spd_kmh": 6,
 				"wind_spd_kt": 3
-			},
-			{
-				"sort_order": 429,
-				"wmo": 99820,
-				"name": "Ballan (CFA)",
-				"history_product": "IDV60801",
-				"local_date_time": "30/09:00am",
-				"local_date_time_full": "20250630090000",
-				"aifstime_utc": "20250629230000",
-				"lat": -37.6,
-				"lon": 144.2,
-				"apparent_t": 3.1,
-				"cloud": "-",
-				"cloud_base_m": null,
-				"cloud_oktas": null,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.1,
-				"gust_kmh": 9,
-				"gust_kt": 5,
-				"air_temp": 5.5,
-				"dewpt": 5.2,
-				"press": 1029.5,
-				"press_msl": null,
-				"press_qnh": 1029.5,
-				"press_tend": "-",
-				"rain_trace": "0.4",
-				"rel_hum": 98,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "-",
-				"weather": "-",
-				"wind_dir": "SSW",
-				"wind_spd_kmh": 7,
-				"wind_spd_kt": 4
 			}
 		]
 	}
