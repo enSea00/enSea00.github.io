@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  1:01 am CST Thursday  3 July 2025",
+				"refresh_message": "Issued at  1:11 am CST Thursday  3 July 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Port Augusta",
@@ -5533,43 +5533,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 149,
-				"wmo": 95666,
-				"name": "Port Augusta",
-				"history_product": "IDS60801",
-				"local_date_time": "30/01:06am",
-				"local_date_time_full": "20250630010600",
-				"aifstime_utc": "20250629153600",
-				"lat": -32.5,
-				"lon": 137.7,
-				"apparent_t": 8.3,
-				"cloud": "Partly cloudy",
-				"cloud_base_m": 270,
-				"cloud_oktas": 5,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 1.0,
-				"gust_kmh": 22,
-				"gust_kt": 12,
-				"air_temp": 11.3,
-				"dewpt": 9.2,
-				"press": 1028.8,
-				"press_msl": 1028.8,
-				"press_qnh": 1028.8,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 87,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SE",
-				"wind_spd_kmh": 15,
-				"wind_spd_kt": 8
 			}
 		]
 	}
