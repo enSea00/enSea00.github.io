@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  3:13 pm EST Wednesday  2 July 2025",
+				"refresh_message": "Issued at  3:32 pm EST Wednesday  2 July 2025",
 				"ID": "IDN60801",
 				"main_ID": "IDN60800",
 				"name": "Moruya Heads",
@@ -23,6 +23,43 @@
 		"data": [
 			{
 				"sort_order": 0,
+				"wmo": 94937,
+				"name": "Moruya Heads",
+				"history_product": "IDN60801",
+				"local_date_time": "02/03:00pm",
+				"local_date_time_full": "20250702150000",
+				"aifstime_utc": "20250702050000",
+				"lat": -35.9,
+				"lon": 150.2,
+				"apparent_t": 2.0,
+				"cloud": "Cloudy",
+				"cloud_base_m": null,
+				"cloud_oktas": 8,
+				"cloud_type": "-",
+				"cloud_type_id": null,
+				"delta_t": 1.8,
+				"gust_kmh": null,
+				"gust_kt": null,
+				"air_temp": 13.2,
+				"dewpt": 9.7,
+				"press": 1002.2,
+				"press_msl": 1002.2,
+				"press_qnh": null,
+				"press_tend": "-",
+				"rain_trace": "4.0",
+				"rel_hum": 79,
+				"sea_state": "3",
+				"swell_dir_worded": "E",
+				"swell_height": 5.5,
+				"swell_period": 12,
+				"vis_km": "2",
+				"weather": "Rain",
+				"wind_dir": "SW",
+				"wind_spd_kmh": 59,
+				"wind_spd_kt": 32
+			},
+			{
+				"sort_order": 1,
 				"wmo": 94937,
 				"name": "Moruya Heads",
 				"history_product": "IDN60801",
@@ -59,7 +96,7 @@
 				"wind_spd_kt": 20
 			},
 			{
-				"sort_order": 1,
+				"sort_order": 2,
 				"wmo": 94937,
 				"name": "Moruya Heads",
 				"history_product": "IDN60801",
@@ -96,7 +133,7 @@
 				"wind_spd_kt": 16
 			},
 			{
-				"sort_order": 2,
+				"sort_order": 3,
 				"wmo": 94937,
 				"name": "Moruya Heads",
 				"history_product": "IDN60801",
@@ -133,7 +170,7 @@
 				"wind_spd_kt": 12
 			},
 			{
-				"sort_order": 3,
+				"sort_order": 4,
 				"wmo": 94937,
 				"name": "Moruya Heads",
 				"history_product": "IDN60801",
@@ -170,7 +207,7 @@
 				"wind_spd_kt": 6
 			},
 			{
-				"sort_order": 4,
+				"sort_order": 5,
 				"wmo": 94937,
 				"name": "Moruya Heads",
 				"history_product": "IDN60801",
