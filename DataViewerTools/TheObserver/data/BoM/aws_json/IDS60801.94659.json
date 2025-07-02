@@ -10,7 +10,7 @@
 		],
 		"header": [
 			{
-				"refresh_message": "Issued at  7:01 am CST Thursday  3 July 2025",
+				"refresh_message": "Issued at  7:11 am CST Thursday  3 July 2025",
 				"ID": "IDS60801",
 				"main_ID": "IDS60800",
 				"name": "Woomera",
@@ -5385,43 +5385,6 @@
 				"wind_dir": "SE",
 				"wind_spd_kmh": 17,
 				"wind_spd_kt": 9
-			},
-			{
-				"sort_order": 145,
-				"wmo": 94659,
-				"name": "Woomera",
-				"history_product": "IDS60801",
-				"local_date_time": "30/07:10am",
-				"local_date_time_full": "20250630071000",
-				"aifstime_utc": "20250629214000",
-				"lat": -31.2,
-				"lon": 136.8,
-				"apparent_t": 4.2,
-				"cloud": "Cloudy",
-				"cloud_base_m": 60,
-				"cloud_oktas": 8,
-				"cloud_type": "-",
-				"cloud_type_id": null,
-				"delta_t": 0.0,
-				"gust_kmh": 26,
-				"gust_kt": 14,
-				"air_temp": 8.2,
-				"dewpt": 8.1,
-				"press": 1029.3,
-				"press_msl": 1029.3,
-				"press_qnh": 1029.2,
-				"press_tend": "-",
-				"rain_trace": "0.0",
-				"rel_hum": 99,
-				"sea_state": "-",
-				"swell_dir_worded": "-",
-				"swell_height": null,
-				"swell_period": null,
-				"vis_km": "10",
-				"weather": "-",
-				"wind_dir": "SSE",
-				"wind_spd_kmh": 19,
-				"wind_spd_kt": 10
 			}
 		]
 	}
