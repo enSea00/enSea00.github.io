@@ -424,44 +424,44 @@ Object.keys(groupedLocations).forEach((dataType) => {
                     await loadScriptAsync('js/getData_Waves_Qld.js');
                     await getData_Waves_Qld(loc);
                 } 
-                else if (dataType === 'Wave Buoy' && owner === 'MHL') {
-                    await loadScriptAsync('js/getData_Waves_NSW.js');
-                    await getData_Waves_NSW(loc);
-                } 
-                else if (dataType === 'Wave Buoy' && owner === 'Vic Gov') {
-                    await loadScriptAsync('js/getData_Waves_Vic.js');
-                    await getData_Waves_Vic(loc);
-                } 
-                else if (dataType === 'Wave Buoy' && owner === 'UWA') {
-                    await loadScriptAsync('js/getData_Waves_WA_UWA.js');
-                    await getData_Waves_WA_UWA(loc);
-                } 
+                // else if (dataType === 'Wave Buoy' && owner === 'MHL') {
+                //     await loadScriptAsync('js/getData_Waves_NSW.js');
+                //     await getData_Waves_NSW(loc);
+                // } 
+                // else if (dataType === 'Wave Buoy' && owner === 'Vic Gov') {
+                //     await loadScriptAsync('js/getData_Waves_Vic.js');
+                //     await getData_Waves_Vic(loc);
+                // } 
+                // else if (dataType === 'Wave Buoy' && owner === 'UWA') {
+                //     await loadScriptAsync('js/getData_Waves_WA_UWA.js');
+                //     await getData_Waves_WA_UWA(loc);
+                // } 
                 
                 // Tide Data
                 else if (dataType === 'Tide Gauge' && owner === 'Qld Gov') {
                     await loadScriptAsync('js/getData_Tides_Qld.js');
                     await getData_Tides_Qld(loc);
                 } 
-                else if (dataType === 'Tide Gauge' && owner === 'MHL') {
-                    await loadScriptAsync('js/getData_Tides_NSW_MHL.js');
-                    await getData_Tides_NSW_MHL(loc);
-                } 
+                // else if (dataType === 'Tide Gauge' && owner === 'MHL') {
+                //     await loadScriptAsync('js/getData_Tides_NSW_MHL.js');
+                //     await getData_Tides_NSW_MHL(loc);
+                // } 
                 // else if (dataType === 'Tide Prediction' && owner === 'BoM') {
                 //     await loadScriptAsync('js/getData_TidePredictions_BoM.js');
                 //     await getData_TidePredictions_BoM(loc);
                 // } 
                 
                 // River Data                 
-                else if (dataType === 'River Gauge' && owner === 'MHL') {
-                    await loadScriptAsync('js/getData_Rivers_NSW_MHL.js');
-                    await getData_Rivers_NSW_MHL(loc);
-                } 
+                // else if (dataType === 'River Gauge' && owner === 'MHL') {
+                //     await loadScriptAsync('js/getData_Rivers_NSW_MHL.js');
+                //     await getData_Rivers_NSW_MHL(loc);
+                // } 
                 
                 // Rain Data
-                else if (dataType === 'Rain Gauge' && owner === 'MHL') {
-                    await loadScriptAsync('js/getData_Rain_NSW_MHL.js');
-                    await getData_Rain_NSW_MHL(loc);
-                } 
+                // else if (dataType === 'Rain Gauge' && owner === 'MHL') {
+                //     await loadScriptAsync('js/getData_Rain_NSW_MHL.js');
+                //     await getData_Rain_NSW_MHL(loc);
+                // } 
                 
                 // Ocean Buoy Data
                 else if (dataType === 'Ocean Buoy (Active)' && owner === 'NDBC') {
