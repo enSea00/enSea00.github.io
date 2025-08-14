@@ -43,7 +43,7 @@ function getData_Waves_Qld(loc) {
                         Hmax: "H<sub>max</sub> (m)",
                         Tp: "T<sub>p</sub> (s)",
                         Tz: "T<sub>z</sub> (s)",
-                        Dp: "D<sub>p</sub> (°N)",
+                        Dp: "D<sub>p</sub> (°T)",
                         SST: "SST (°C)",
                         Current: "Current (m/s)",
                     };

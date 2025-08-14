@@ -367,7 +367,7 @@ function createTimeseriesSubplots(observations, variableNameMap, subplotGroups, 
         y: 1.05, // slightly above the top
         xref: 'x',
         yref: 'paper',
-        text: `Now <br> (${nowLocalISOstr})`,
+        text: `Current Time (Local)<br> (${nowLocalISOstr})`,
         showarrow: false,
         font: {
             color: 'rgba(255, 255, 0,0.5)',
