@@ -537,5 +537,28 @@ a:hover {
     color: #ef5350;
 }
 
+/* my location button */
+#myLocationBtn {
+  position: absolute;
+  top: 15px;
+  right: 100px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid #666;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  padding: 4px;
+}
+#myLocationBtn img {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+#myLocationBtn:hover {
+  background-color: #f0f0f0;
+}
+
+
 
 /* END *************************************************************************************/

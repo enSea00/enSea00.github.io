@@ -51,107 +51,38 @@ const map = L.map('map', {
 
 // Ensure the map is already initialized as 'map'
 
-let userMarker = null; // keep a reference to the user marker
-let userLatLng = null; // store the user's coordinates
-
-// Try to get user's location on page load
+// Try to get user's location
 if ("geolocation" in navigator) {
-  navigator.geolocation.getCurrentPosition(
-    function (position) {
-      const userLat = position.coords.latitude;
-      const userLng = position.coords.longitude;
-      userLatLng = L.latLng(userLat, userLng);
+    navigator.geolocation.getCurrentPosition(
+        function (position) {
+            const userLat = position.coords.latitude;
+            const userLng = position.coords.longitude;
 
-      const userIcon = L.icon({
-        iconUrl: 'images/location_pin.png',
-        iconSize: [80, 80],
-        iconAnchor: [40, 80],
-      });
-
-      // Create and add the marker (only once)
-      userMarker = L.marker(userLatLng, { icon: userIcon })
-        .addTo(map)
-        // .bindPopup("📍 You are here!")
-        .openPopup();
-
-      // Center map initially
-      map.setView(userLatLng, 9, { animate: true });
-    },
-    function (error) {
-      console.error("Geolocation error:", error.message);
-    }
-  );
-} else {
-  console.warn("Geolocation is not supported by this browser.");
-}
-
-// "My Location" button handler
-document.getElementById('myLocationBtn').onclick = function () {
-  if (userLatLng) {
-    // Just recenter the map on existing marker
-    map.setView(userLatLng, 9, { animate: true });
-    if (userMarker) userMarker.openPopup();
-  } else {
-    alert("User location not available yet.");
-  }
-};
-
-
-// // Try to get user's location
-// if ("geolocation" in navigator) {
-//     navigator.geolocation.getCurrentPosition(
-//         function (position) {
-//             const userLat = position.coords.latitude;
-//             const userLng = position.coords.longitude;
-
-//             const userIcon = L.icon({
-//             // className: 'material-icons',
-//             // html: '<i class="material-icons">person_pin_circle</i>',
-//             iconUrl: 'images/location_pin.png',
-//             iconSize: [80, 80],
-//             iconAnchor: [40, 80],
-//             });
+            const userIcon = L.icon({
+            // className: 'material-icons',
+            // html: '<i class="material-icons">person_pin_circle</i>',
+            iconUrl: 'images/location_pin.png',
+            iconSize: [80, 80],
+            iconAnchor: [40, 80],
+            });
                                         
                           
-//             // Add a marker at the user's location
-//             L.marker([userLat, userLng], { icon: userIcon })
-//             .addTo(map)
-//             // .bindPopup("📍 You are here!")
-//             .openPopup();
+            // Add a marker at the user's location
+            L.marker([userLat, userLng], { icon: userIcon })
+            .addTo(map)
+            // .bindPopup("📍 You are here!")
+            .openPopup();
           
-//             // Optional: center the map on the user's location
-//             map.setView([userLat, userLng], 9, { animate: true });
-//         },
-//         function (error) {
-//             console.error("Geolocation error:", error.message);
-//         }
-//     );
-// } else {
-//     console.warn("Geolocation is not supported by this browser.");
-// }
-
-// // add mylocation button
-// document.getElementById('myLocationBtn').onclick = function() {
-//   if (navigator.geolocation) {
-//     navigator.geolocation.getCurrentPosition(
-//       function(position) {
-//         const lat = position.coords.latitude;
-//         const lng = position.coords.longitude;
-//         const userLatLng = L.latLng(lat, lng);
-
-//         L.marker(userLatLng).addTo(map).bindPopup("You are here").openPopup();
-//         map.setView(userLatLng, 14);
-//       },
-//       function(error) {
-//         alert("Unable to retrieve your location: " + error.message);
-//       }
-//     );
-//   } else {
-//     alert("Geolocation is not supported by this browser.");
-//   }
-// };
-
-
+            // Optional: center the map on the user's location
+            map.setView([userLat, userLng], 9, { animate: true });
+        },
+        function (error) {
+            console.error("Geolocation error:", error.message);
+        }
+    );
+} else {
+    console.warn("Geolocation is not supported by this browser.");
+}
 
 // BASE LAYERS //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -489,14 +420,14 @@ Object.keys(groupedLocations).forEach((dataType) => {
         
             try {
                 // Wave Data
-                if (dataType === 'Wave Buoy' && owner === 'Qld Gov') {
-                    await loadScriptAsync('js/getData_Waves_Qld.js');
-                    await getData_Waves_Qld(loc);
-                } 
-                else if (dataType === 'Wave Buoy' && owner === 'MHL') {
-                    await loadScriptAsync('js/getData_Waves_NSW.js');
-                    await getData_Waves_NSW(loc);
-                }
+                // if (dataType === 'Wave Buoy' && owner === 'Qld Gov') {
+                //     await loadScriptAsync('js/getData_Waves_Qld.js');
+                //     await getData_Waves_Qld(loc);
+                // } 
+                // else if (dataType === 'Wave Buoy' && owner === 'MHL') {
+                //     await loadScriptAsync('js/getData_Waves_NSW.js');
+                //     await getData_Waves_NSW(loc);
+                // }
                 // not working due to CORS blocking
                 // else if (dataType === 'Wave Buoy' && owner === 'BoM') {
                 //     await loadScriptAsync('js/getData_Waves_BoM.js');
@@ -513,10 +444,10 @@ Object.keys(groupedLocations).forEach((dataType) => {
                 // } 
                 
                 // Tide Data
-                else if (dataType === 'Tide Gauge' && owner === 'Qld Gov') {
-                    await loadScriptAsync('js/getData_Tides_Qld.js');
-                    await getData_Tides_Qld(loc);
-                } 
+                // else if (dataType === 'Tide Gauge' && owner === 'Qld Gov') {
+                //     await loadScriptAsync('js/getData_Tides_Qld.js');
+                //     await getData_Tides_Qld(loc);
+                // } 
                 // else if (dataType === 'Tide Gauge' && owner === 'MHL') {
                 //     await loadScriptAsync('js/getData_Tides_NSW_MHL.js');
                 //     await getData_Tides_NSW_MHL(loc);
@@ -539,10 +470,10 @@ Object.keys(groupedLocations).forEach((dataType) => {
                 // } 
                 
                 // Ocean Buoy Data
-                else if (dataType === 'Ocean Buoy (Active)' && owner === 'NDBC') {
-                    await loadScriptAsync('js/getData_OceanBuoys_NDBC.js');
-                    await getData_OceanBuoys_NDBC(loc);
-                }
+                // else if (dataType === 'Ocean Buoy (Active)' && owner === 'NDBC') {
+                //     await loadScriptAsync('js/getData_OceanBuoys_NDBC.js');
+                //     await getData_OceanBuoys_NDBC(loc);
+                // }
 
                 // AWS Data - not working due to CORS blocking
                 // else if (dataType === 'Weather Station' && owner === 'BoM') {
@@ -551,7 +482,7 @@ Object.keys(groupedLocations).forEach((dataType) => {
                 // }
 
                 // Open external bookmarked page
-                else if (loc.URL) {
+                if (loc.URL) {
                     // Prevent accidental double-clicks (e.g., on iPads)
                     const now = Date.now();
                     if (!marker.lastClick || now - marker.lastClick > 1000) {
@@ -771,7 +702,6 @@ document.getElementById('legend-container').addEventListener('dblclick', functio
         isolatedType = selectedType; // Set isolated mode
     }
 });
-
 
 
 // DROPDOWN HAMBURGER INTERACTIVE LEGEND MENU ////////////////////////////////////////////////////////////////////////////////////////

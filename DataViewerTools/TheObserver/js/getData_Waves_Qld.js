@@ -51,12 +51,13 @@ function getData_Waves_Qld(loc) {
                     // define subplot groups (variables sharing same subplot axes)
                     let subplotGroups = [['H<sub>sig</sub> (m)',"H<sub>max</sub> (m)"],
                         ["T<sub>p</sub> (s)","T<sub>z</sub> (s)"],
-                        ["D<sub>p</sub> (°N)"],
+                        ["D<sub>p</sub> (°T)"],
                         ["SST (°C)"],
                         ['Current (m/s)']
                     ]
 
                     // make the plotly plot
+                    console.log(observations)
                     const { traces, layout } = createTimeseriesSubplots(observations, variableNameMap, subplotGroups, loc);
 
                     // make the plot overlay

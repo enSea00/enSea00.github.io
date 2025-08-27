@@ -113,7 +113,7 @@ function getData_Tides_Qld(loc) {
 
                 // Make the plot overlay
                 const customAttribution = `
-                    <p>This tide gauge data is provided by the <a href="https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites" target="_blank">Queensland Government</a> under a <a href="https://creativecommons.org/licenses/by/4.0/" taret="_blank">Creative Common license (CC BY 4.0)</a>.</p>
+                    <p>This data is provided by the Queensland Government's <a href="https://www.qld.gov.au/environment/coasts-waterways/beach/tide-sites" target="_blank">Tide Gauge Network</a> and <a href="https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-sites" target="_blank">Storm Tide Gauge Network</a> under a <a href="https://creativecommons.org/licenses/by/4.0/" taret="_blank">Creative Common license (CC BY 4.0)</a>.</p>
                 `;
         
                 showPlotOverlay(data, layout, loc, customAttribution);

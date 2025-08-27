@@ -291,7 +291,7 @@ function createTimeseriesSubplots(observations, variableNameMap, subplotGroups, 
             traces.push({
                 x: timestamps,
                 y: yData,
-                name: `${variable} - [<i>${latestValue}</i>]`,  // 💡 append latest value to name
+                name: `${variable} = <i>${latestValue}</i>`,  // 💡 append latest value to name
                 xaxis: `x`,
                 yaxis: `y${index + 1}`,
                 mode: includeMarkers ? "lines+markers" : "lines",
@@ -333,7 +333,7 @@ function createTimeseriesSubplots(observations, variableNameMap, subplotGroups, 
         title: {
             text: `<b>Legend</b><br><br>[<i>Latest Data as at <br>${timeString}</i>] <br>`
         },
-        font: { color: 'white' },
+        font: { color: 'white' , size:18},
         bgcolor: 'rgba(0,0,0,0)',
         };
 
