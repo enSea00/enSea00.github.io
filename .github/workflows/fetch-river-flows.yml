@@ -1,0 +1,90 @@
+name: Fetch River Flows Data
+
+on:
+  schedule:
+    - cron: '0 0 */3 * *'  # Every 72 hours at 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 pandas
+          
+      - name: Fetch river flows data
+        run: |
+          python - <<EOF
+          import requests
+          from bs4 import BeautifulSoup
+          import pandas as pd
+          import os
+          import re
+
+          # List of station IDs and names to fetch
+          STATIONS = [
+              {"id": "540319", "name": "Nerang Rv at Carrara"},  # Replace with actual station names
+              {"id": "540610", "name": "Nerang Rv at Hinze Dam"},
+          ]
+
+          # Create data directory
+          os.makedirs("data/river_flows", exist_ok=True)
+
+          for station in STATIONS:
+              station_id = station["id"]
+              station_name = station["name"]
+              
+              # Sanitize station name for folder use
+              safe_station_name = re.sub(r'[^\w\s-]', '', station_name).strip().replace(' ', '_').lower()
+              station_dir = f"data/river_flows/{safe_station_name}"
+              os.makedirs(station_dir, exist_ok=True)
+
+              url = f"https://www.bom.gov.au/fwo/IDQ65388/IDQ65388.{station_id}.tbl.shtml"
+              
+              try:
+                  response = requests.get(url)
+                  response.raise_for_status()
+                  
+                  # Parse the HTML
+                  soup = BeautifulSoup(response.content, 'html.parser')
+                  table = soup.find('table', {'id': 'tableStyle1'})
+                  
+                  # Extract data from the table
+                  rows = table.find_all('tr')
+                  data = []
+                  
+                  for row in rows[1:]:  # Skip header row
+                      cols = row.find_all('td')
+                      if len(cols) == 2:  # Ensure we have the expected number of columns
+                          date_time = cols[0].text.strip()
+                          water_level = cols[1].text.strip()
+                          data.append({"Date/Time": date_time, "Water Level (m)": water_level})
+
+                  # Create DataFrame and save as CSV
+                  df = pd.DataFrame(data)
+                  csv_filename = f"{station_dir}/river_flow_{station_id}.csv"
+                  df.to_csv(csv_filename, index=False)
+                  print(f"Successfully saved data for {station_name} (ID: {station_id}) to {csv_filename}")
+                  
+              except Exception as e:
+                  print(f"Error processing station {station_name} (ID: {station_id}): {e}")
+          EOF
+          
+      - name: Commit and push if there are changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/river_flows
+          git commit -m "Update river flows data $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || exit 0
+          git push
