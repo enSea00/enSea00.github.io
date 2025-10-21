@@ -28,15 +28,15 @@ jobs:
           curl -L "https://apps.des.qld.gov.au/data-sets/waves/wave-7dayopdata.csv" \
           -o "data/waves/wave_${{ steps.date.outputs.DATE }}.csv"
           
-      - name: Download tide data  
+      - name: Download storm tide data  
         run: |
           curl -L "https://apps.des.qld.gov.au/data-sets/storm-tides/tide-7dayopdata.csv" \
-          -o "data/tides/tide_${{ steps.date.outputs.DATE }}.csv"
-          
-      - name: Copy to latest
+          -o "data/tides/tide_storm_${{ steps.date.outputs.DATE }}.csv"
+
+      - name: Download standard tide data  
         run: |
-          cp "data/waves/wave_${{ steps.date.outputs.DATE }}.csv" "data/waves/wave_latest.csv"
-          cp "data/tides/tide_${{ steps.date.outputs.DATE }}.csv" "data/tides/tide_latest.csv"
+          curl -L "https://apps.des.qld.gov.au/data-sets/storm-tides/stdtide-7dayopdata.csv" \
+          -o "data/tides/tide_std_${{ steps.date.outputs.DATE }}.csv"
           
       - name: Commit and push if there are changes
         run: |
