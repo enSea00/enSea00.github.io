@@ -2,9 +2,8 @@ name: Fetch BOM Weather Station Data
 
 on:
   schedule:
-    # Runs every 72 hours (at 00:00 UTC)
-    - cron: '0 0 */3 * *'
-  workflow_dispatch:  # Allows manual triggering
+    - cron: '0 0 */3 * *'  # Every 72 hours at 00:00 UTC
+  workflow_dispatch:
 
 jobs:
   fetch-data:
@@ -31,8 +30,24 @@ jobs:
           import requests
           import json
           import os
+          import re
           from dateutil import parser
           import pytz
+          
+          def sanitize_folder_name(name):
+              """Convert station name to safe folder name"""
+              # Replace spaces with underscores and remove/replace unsafe characters
+              safe_name = re.sub(r'[^\w\s-]', '', name)
+              safe_name = re.sub(r'[-\s]+', '_', safe_name)
+              return safe_name.strip('_').lower()
+          
+          # List of station IDs to fetch
+          STATIONS = [
+              {"id": 40764, "name": "GOLD COAST SEAWAY"},
+              {"id": 40717, "name": "COOLANGATTA AIRPORT"},  
+              {"id": 40043, "name": "CAPE MORETON"},
+              # Add more as needed
+          ]
           
           # Calculate time range
           utc_now = datetime.now(pytz.UTC)
@@ -42,38 +57,61 @@ jobs:
           to_time_str = utc_now.strftime("%Y-%m-%dT%H%%3A%M%%3A%S.000Z")
           from_time_str = from_time.strftime("%Y-%m-%dT%H%%3A%M%%3A%S.000Z")
           
-          # Construct URL
-          url = f"https://api.bom.gov.au/apikey/v1/observations/recent/40764/atm/surf_air?from_time_utc={from_time_str}&to_time_utc={to_time_str}&duration=PT30M&include_qc_results=false"
-          
-          # Set headers
           headers = {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
               "Accept": "application/json"
           }
           
-          # Create data directory
-          os.makedirs("data/station_40764", exist_ok=True)
-          
-          # Fetch data
-          response = requests.get(url, headers=headers)
-          response.raise_for_status()
-          
-          # Save data with timestamp
-          timestamp = utc_now.strftime("%Y%m%d_%H%M%S")
-          filename = f"data/station_40764/observations_{timestamp}.json"
-          
-          with open(filename, 'w', encoding='utf-8') as f:
-              json.dump(response.json(), f, indent=2)
+          # Process each station
+          for station in STATIONS:
+              station_id = station["id"]
+              station_name = station["name"]
               
-          # Also save as latest
-          with open("data/station_40764/observations_latest.json", 'w', encoding='utf-8') as f:
-              json.dump(response.json(), f, indent=2)
+              # Create station directory using sanitized name
+              station_dir = f"data/bom/aws/{sanitize_folder_name(station_name)}"
+              os.makedirs(station_dir, exist_ok=True)
+              
+              # Construct URL
+              url = f"https://api.bom.gov.au/apikey/v1/observations/recent/{station_id}/atm/surf_air?from_time_utc={from_time_str}&to_time_utc={to_time_str}&duration=PT30M&include_qc_results=false"
+              
+              try:
+                  response = requests.get(url, headers=headers)
+                  response.raise_for_status()
+                  data = response.json()
+                  
+                  # Add metadata to help track the data
+                  data["_metadata"] = {
+                      "station_id": station_id,
+                      "station_name": station_name,
+                      "download_time_utc": utc_now.isoformat(),
+                      "time_range": {
+                          "from": from_time.isoformat(),
+                          "to": utc_now.isoformat()
+                      }
+                  }
+                  
+                  # Save timestamped version
+                  timestamp = utc_now.strftime("%Y%m%d_%H%M%S")
+                  filename = f"{station_dir}/aws_{timestamp}.json"
+                  
+                  with open(filename, 'w', encoding='utf-8') as f:
+                      json.dump(data, f, indent=2)
+                      
+                  # Save latest version
+                  with open(f"{station_dir}/observations_latest.json", 'w', encoding='utf-8') as f:
+                      json.dump(data, f, indent=2)
+                      
+                  print(f"Successfully saved data for {station_name} (ID: {station_id})")
+                  
+              except Exception as e:
+                  print(f"Error processing {station_name} (ID: {station_id}): {e}")
+                  continue
           EOF
           
       - name: Commit and push if there are changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/station_40764
-          git commit -m "Update station 40764 data $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || exit 0
+          git add data/
+          git commit -m "Update BOM weather station data $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || exit 0
           git push
