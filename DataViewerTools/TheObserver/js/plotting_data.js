@@ -493,11 +493,11 @@ Object.keys(groupedLocations).forEach((dataType) => {
                     await loadScriptAsync('js/getData_Waves_Qld.js');
                     await getData_Waves_Qld(loc);
                 } 
-                else if (dataType === 'Wave Buoy' && owner === 'MHL') {
-                    await loadScriptAsync('js/getData_Waves_NSW.js');
-                    await getData_Waves_NSW(loc);
-                }
-                // not working due to CORS blocking
+                // else if (dataType === 'Wave Buoy' && owner === 'MHL') {
+                //     await loadScriptAsync('js/getData_Waves_NSW.js');
+                //     await getData_Waves_NSW(loc);
+                // }
+                // // not working due to CORS blocking
                 // else if (dataType === 'Wave Buoy' && owner === 'BoM') {
                 //     await loadScriptAsync('js/getData_Waves_BoM.js');
                 //     await getData_Waves_BoM(loc);

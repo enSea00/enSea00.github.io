@@ -1,54 +1,19 @@
 async function getData_Waves_BoM(loc){
-    // async function extractWaveTableUrl(pageUrl) {
-    //     try {
-    //         // fetch the page HTML
-    //         const response = await fetch(pageUrl);
-    //         const htmlText = await response.text();
+    
+    const express = require("express");
+    const cors = require("cors");
+    const fetch = require("node-fetch");
 
-    //         // parse the HTML into a DOM
-    //         const parser = new DOMParser();
-    //         const doc = parser.parseFromString(htmlText, "text/html");
+    const app = express();
+    app.use(cors());
 
-    //         // look for the link containing "Wave Height and Wave Period Table"
-    //         const link = Array.from(doc.querySelectorAll("a"))
-    //             .find(a => a.textContent.includes("Wave Height and Wave Period Table"));
+    app.get("/proxy", async (req, res) => {
+    const response = await fetch(loc.URL);
+    const data = await response.text();
+    res.send(data);
+    });
 
-    //         if (link) {
-    //             // build absolute URL if needed
-    //             const absoluteUrl = new URL(link.getAttribute("href"), pageUrl).href;
-    //             return absoluteUrl;
-    //         } else {
-    //             throw new Error("Link not found.");
-    //         }
-    //     } catch (err) {
-    //         console.error("Error extracting URL:", err);
-    //         return null;
-    //     }
-    // }
-
-    // // Example usage:
-    // extractWaveTableUrl(loc.URL).then(url => {
-    //     console.log("Found URL:", url);
-    // });
-
-    async function downloadHtml(url) {
-        try {
-            const response = await fetch(url);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            const html = await response.text();
-            console.log(html); // prints the full HTML
-            return html;
-        } catch (err) {
-            console.error("Error downloading HTML:", err);
-        }
-    }
-
-    // Example usage
-    downloadHtml(loc.URL);
-
-    console.log(loc)
+    app.listen(3000, () => console.log("Proxy running on port 3000"));
 
 }
 

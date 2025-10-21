@@ -67,7 +67,6 @@ async function getData_TidePredictions_BoM(loc) {
         }
 
         const dateStrings = daysData.map(d => parseBoMDateLabel(d.day));
-        // const allShapes = await getDayNightShapes(loc.Latitude, loc.Longitude, dateStrings);
         const allShapes = await getDayNightShapes(loc.Latitude, loc.Longitude, dateStrings, timeZone);
         const now = DateTime.now().setZone(timeZone).toISO();
         allShapes.push({
@@ -210,7 +209,7 @@ async function getDayNightShapes(lat, lon, dateStrings, timeZone) {
 
         const sunrise = new Date(currentSun.sunrise);
         const sunset = new Date(currentSun.sunset);
-        // console.log(sunrise, sunset)
+        
         // 🌞 Daytime
         allShapes.push({
             type: 'rect',

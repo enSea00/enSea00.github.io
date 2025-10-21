@@ -540,8 +540,8 @@ a:hover {
 /* my location button */
 #myLocationBtn {
   position: absolute;
-  top: 15px;
-  right: 100px;
+  top: 10px;
+  right: 1%;
   z-index: 1000;
   background: rgba(255, 255, 255, 0.8);
   border: 2px solid #666;
@@ -551,8 +551,8 @@ a:hover {
   padding: 4px;
 }
 #myLocationBtn img {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   display: block;
 }
 #myLocationBtn:hover {
