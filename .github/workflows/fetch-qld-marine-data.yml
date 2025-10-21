@@ -1,0 +1,47 @@
+name: Weekly QLD Marine Data Download
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every Monday (10:00 AEST)
+    - cron: '0 0 * * 1'
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Get current date
+        id: date
+        run: echo "DATE=$(date +'%Y%m%d')" >> $GITHUB_OUTPUT
+        
+      - name: Create data directories
+        run: |
+          mkdir -p data/waves
+          mkdir -p data/tides
+          
+      - name: Download wave data
+        run: |
+          curl -L "https://apps.des.qld.gov.au/data-sets/waves/wave-7dayopdata.csv" \
+          -o "data/waves/wave_${{ steps.date.outputs.DATE }}.csv"
+          
+      - name: Download tide data  
+        run: |
+          curl -L "https://apps.des.qld.gov.au/data-sets/storm-tides/tide-7dayopdata.csv" \
+          -o "data/tides/tide_${{ steps.date.outputs.DATE }}.csv"
+          
+      - name: Copy to latest
+        run: |
+          cp "data/waves/wave_${{ steps.date.outputs.DATE }}.csv" "data/waves/wave_latest.csv"
+          cp "data/tides/tide_${{ steps.date.outputs.DATE }}.csv" "data/tides/tide_latest.csv"
+          
+      - name: Commit and push if there are changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/waves data/tides
+          git commit -m "Update QLD marine data for ${{ steps.date.outputs.DATE }}" || exit 0
+          git push
