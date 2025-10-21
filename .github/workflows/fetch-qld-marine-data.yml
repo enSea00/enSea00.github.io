@@ -20,8 +20,8 @@ jobs:
         
       - name: Create data directories
         run: |
-          mkdir -p data/waves
-          mkdir -p data/tides
+          mkdir -p data/waves/qld
+          mkdir -p data/tides/qld
           
       - name: Download wave data
         run: |
