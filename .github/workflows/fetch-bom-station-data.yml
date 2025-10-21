@@ -1,0 +1,79 @@
+name: Fetch BOM Weather Station Data
+
+on:
+  schedule:
+    # Runs every 72 hours (at 00:00 UTC)
+    - cron: '0 0 */3 * *'
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests python-dateutil pytz
+          
+      - name: Generate timestamps and fetch data
+        run: |
+          python - <<EOF
+          from datetime import datetime, timedelta
+          import requests
+          import json
+          import os
+          from dateutil import parser
+          import pytz
+          
+          # Calculate time range
+          utc_now = datetime.now(pytz.UTC)
+          from_time = utc_now - timedelta(hours=72)
+          
+          # Format times for URL
+          to_time_str = utc_now.strftime("%Y-%m-%dT%H%%3A%M%%3A%S.000Z")
+          from_time_str = from_time.strftime("%Y-%m-%dT%H%%3A%M%%3A%S.000Z")
+          
+          # Construct URL
+          url = f"https://api.bom.gov.au/apikey/v1/observations/recent/40764/atm/surf_air?from_time_utc={from_time_str}&to_time_utc={to_time_str}&duration=PT30M&include_qc_results=false"
+          
+          # Set headers
+          headers = {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+              "Accept": "application/json"
+          }
+          
+          # Create data directory
+          os.makedirs("data/station_40764", exist_ok=True)
+          
+          # Fetch data
+          response = requests.get(url, headers=headers)
+          response.raise_for_status()
+          
+          # Save data with timestamp
+          timestamp = utc_now.strftime("%Y%m%d_%H%M%S")
+          filename = f"data/station_40764/observations_{timestamp}.json"
+          
+          with open(filename, 'w', encoding='utf-8') as f:
+              json.dump(response.json(), f, indent=2)
+              
+          # Also save as latest
+          with open("data/station_40764/observations_latest.json", 'w', encoding='utf-8') as f:
+              json.dump(response.json(), f, indent=2)
+          EOF
+          
+      - name: Commit and push if there are changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/station_40764
+          git commit -m "Update station 40764 data $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || exit 0
+          git push
