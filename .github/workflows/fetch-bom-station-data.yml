@@ -91,7 +91,7 @@ jobs:
                   }
                   
                   # Save timestamped version
-                  timestamp = utc_now.strftime("%Y%m%d_%H%M%S")
+                  timestamp = utc_now.strftime("%Y%m%d")
                   filename = f"{station_dir}/aws_{timestamp}.json"
                   
                   with open(filename, 'w', encoding='utf-8') as f:
