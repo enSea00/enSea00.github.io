@@ -92,7 +92,7 @@ jobs:
                   
                   # Save timestamped version
                   timestamp = utc_now.strftime("%Y%m%d")
-                  filename = f"{station_dir}/aws_{timestamp}.json"
+                  filename = f"{station_dir}/aws_{station_id}_{timestamp}.json"
                   
                   with open(filename, 'w', encoding='utf-8') as f:
                       json.dump(data, f, indent=2)
