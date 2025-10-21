@@ -98,8 +98,8 @@ jobs:
                       json.dump(data, f, indent=2)
                       
                   # Save latest version
-                  with open(f"{station_dir}/observations_latest.json", 'w', encoding='utf-8') as f:
-                      json.dump(data, f, indent=2)
+                  # with open(f"{station_dir}/observations_latest.json", 'w', encoding='utf-8') as f:
+                  #    json.dump(data, f, indent=2)
                       
                   print(f"Successfully saved data for {station_name} (ID: {station_id})")
                   
