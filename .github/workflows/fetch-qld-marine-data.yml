@@ -28,15 +28,20 @@ jobs:
           curl -L "https://apps.des.qld.gov.au/data-sets/waves/wave-7dayopdata.csv" \
           -o "data/waves/wave_${{ steps.date.outputs.DATE }}.csv"
           
-      - name: Download storm tide data  
+      - name: Download storm tide data - DES   
         run: |
           curl -L "https://apps.des.qld.gov.au/data-sets/storm-tides/tide-7dayopdata.csv" \
           -o "data/tides/tide_storm_${{ steps.date.outputs.DATE }}.csv"
 
-      - name: Download standard tide data  
+      - name: Download standard tide data - DES  
         run: |
           curl -L "https://apps.des.qld.gov.au/data-sets/storm-tides/stdtide-7dayopdata.csv" \
           -o "data/tides/tide_std_${{ steps.date.outputs.DATE }}.csv"
+
+      - name: Download Southport tide data - MSQ  
+        run: |
+          curl -L "https://opendata.tmr.qld.gov.au/southport.txt" \
+          -o "data/tides/tide_Southport_${{ steps.date.outputs.DATE }}.txt"
           
       - name: Commit and push if there are changes
         run: |
