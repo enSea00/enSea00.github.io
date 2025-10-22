@@ -35,6 +35,14 @@ jobs:
           STATIONS = [
               {"id": "540319", "name": "Nerang Rv at Carrara"},  # Replace with actual station names
               {"id": "540610", "name": "Nerang Rv at Hinze Dam"},
+              {"id": "540318", "name": "Nerang Rv at Evandale"},
+              {"id": "040881", "name": "Nerang Rv at Air Sea Rescue"},
+              {"id": "040987", "name": "Ocean at Gold Coast Sand Bypass Jetty"},
+              {"id": "540293", "name": "Coomera Rv at Coomera Shores"},
+              {"id": "540292", "name": "Coomera Rv at Oxenford Weir"},
+              {"id": "540577", "name": "Tallebudgera Ck at Tallebudgera Ck Mouth"},
+              {"id": "540294", "name": "Pimpama Rv at Kerkin Rd"},
+              {"id": "540236", "name": "Logan Rv at Carbrook (Riedel Road)"},
           ]
 
           headers = {
