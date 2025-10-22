@@ -1,3 +1,97 @@
+name: Weekly Fetch River Flows Data
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly (every 7 days) at 00:00 UTC (Sunday)
+  workflow_dispatch:
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 pandas
+
+      - name: Fetch river flows data
+        run: |
+          python - <<'PY'
+          import requests, os, re
+          from bs4 import BeautifulSoup
+          import pandas as pd
+          from datetime import datetime
+
+          # List of station IDs and names
+          STATIONS = [
+              {"id": "540319", "name": "Nerang Rv at Carrara"},  # Replace with actual station names
+              {"id": "540610", "name": "Nerang Rv at Hinze Dam"},
+          ]
+
+          headers = {
+            "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+            "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language":"en-US,en;q=0.5",
+            "Connection":"keep-alive"
+          }
+
+          def sanitize(name):
+            s = re.sub(r'[^\w\s-]', '', name)
+            s = re.sub(r'[\s-]+', '_', s).strip('_').lower()
+            return s or "station"
+
+          datecode = datetime.utcnow().strftime('%Y%m%d')
+          root = "data/bom/river"
+          os.makedirs(root, exist_ok=True)
+
+          for st in STATIONS:
+            sid = st["id"]
+            name = st.get("name", sid)
+            folder = os.path.join(root, sanitize(name))
+            os.makedirs(folder, exist_ok=True)
+            url = f"https://www.bom.gov.au/fwo/IDQ65388/IDQ65388.{sid}.tbl.shtml"
+            try:
+              r = requests.get(url, headers=headers, timeout=30)
+              r.raise_for_status()
+              soup = BeautifulSoup(r.content, "html.parser")
+              table = soup.find("table", id="tableStyle1")
+              rows = table.find_all("tr") if table else []
+              data=[]
+              for row in rows[1:]:
+                cols = row.find_all("td")
+                if len(cols) >= 2:
+                  data.append({
+                    "Date/Time": cols[0].get_text(strip=True),
+                    "Water Level (m)": cols[1].get_text(strip=True)
+                  })
+              df = pd.DataFrame(data)
+              outname = os.path.join(folder, f"river_{sid}_{datecode}.csv")
+              df.to_csv(outname, index=False, encoding="utf-8")
+
+            except Exception as e:
+              print(f"Error processing station {name} (ID: {sid}): {e}")
+          PY
+
+      - name: Commit and push if there are changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/bom/river
+          git commit -m "Update river flows data $(date -u +'%Y-%m-%d')" || exit 0
+          git push
+          
+
+
+
 name: Fetch River Flows Data
 
 on:
@@ -81,7 +175,7 @@ jobs:
 
                   # Create DataFrame and save as CSV
                   df = pd.DataFrame(data)
-                  csv_filename = f"{station_dir}/river_flow_{station_id}.csv"
+                  csv_filename = f"{station_dir}/river_{station_id}.csv"
                   df.to_csv(csv_filename, index=False)
                   print(f"Successfully saved data for {station_name} (ID: {station_id}) to {csv_filename}")
                   
@@ -93,6 +187,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/river_flows
+          git add data/river
           git commit -m "Update river flows data $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || exit 0
           git push
