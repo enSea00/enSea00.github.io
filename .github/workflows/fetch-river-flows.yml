@@ -39,7 +39,7 @@ jobs:
           ]
 
           # Create data directory
-          os.makedirs("data/river_flows", exist_ok=True)
+          os.makedirs("data/bom/river", exist_ok=True)
 
           for station in STATIONS:
               station_id = station["id"]
