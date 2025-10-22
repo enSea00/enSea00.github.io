@@ -47,7 +47,7 @@ jobs:
               
               # Sanitize station name for folder use
               safe_station_name = re.sub(r'[^\w\s-]', '', station_name).strip().replace(' ', '_').lower()
-              station_dir = f"data/river_flows/{safe_station_name}"
+              station_dir = f"data/bom/river/{safe_station_name}"
               os.makedirs(station_dir, exist_ok=True)
 
               url = f"https://www.bom.gov.au/fwo/IDQ65388/IDQ65388.{station_id}.tbl.shtml"
