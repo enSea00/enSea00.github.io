@@ -246,14 +246,14 @@ jobs:
                   print(f"Successfully saved data for {station_name} (ID: {station_id})")
                   
                   # Merge new data into f"aws_{station_id}_AllData".json
-                  all_data_path = f"{station_dir}/f"aws_{station_id}_AllData".json"
+                  all_data_path = f"{station_dir}/aws_{station_id}_AllData.json"
                   merged_data = merge_new_data(all_data_path, data)
                   
                   with open(all_data_path, 'w', encoding='utf-8') as f:
                       json.dump(merged_data, f, indent=2)
                   
                   total_obs = sum(len(d.get('obs', [])) for d in merged_data.get('obs_recent', []))
-                  print(f"Updated f"aws_{station_id}_AllData".json for {station_name} (total observations: {total_obs})")
+                  print(f"Updated aws_{station_id}_AllData.json for {station_name} (total observations: {total_obs})")
                   
               except Exception as e:
                   print(f"Error processing {station_name} (ID: {station_id}): {e}")
