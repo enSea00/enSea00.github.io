@@ -122,14 +122,13 @@ jobs:
           def merge_new_data(all_data_path, new_data):
               """
               Merge new data into existing _AllData.json, deduplicating and sorting.
-              If _AllData.json doesn't exist, return the new_data.
+              If _AllData.json doesn't exist, processes new_data for consistency.
               """
-              if not os.path.exists(all_data_path):
-                  return new_data
-              
-              # Load existing data
-              with open(all_data_path, 'r', encoding='utf-8') as f:
-                  existing_data = json.load(f)
+              # Load existing data if it exists, otherwise use empty structure
+              existing_data = {}
+              if os.path.exists(all_data_path):
+                  with open(all_data_path, 'r', encoding='utf-8') as f:
+                      existing_data = json.load(f)
               
               # Merge observations by date
               all_obs_by_date = defaultdict(lambda: {"date": None, "astro": None, "obs": []})
