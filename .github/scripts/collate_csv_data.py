@@ -2,30 +2,18 @@
 """
 Collate QLD tide CSV/TXT files and wave CSV files into per-site AllData CSVs.
 
-Outputs (placed in data/tides/ and data/waves/):
-  - data/tides/tide_coombabahst_AllData.csv      <- from tide_std_*.csv (only coombabahst)
-  - data/tides/tide_tweedsbj_AllData.csv         <- from tide_storm_*.csv (only tweedsbj)
-  - data/tides/tide_goldcoast_AllData.csv        <- from tide_storm_*.csv (only goldcoast)
-  - data/tides/tide_Southport_AllData.csv        <- from tide_Southport_*.txt (all Southport files)
-  - data/waves/wave_goldcoast_mk4_AllData.csv    <- from wave_*.csv (only Gold Coast Mk4)
-  - data/waves/wave_brisbane_mk4_AllData.csv     <- from wave_*.csv (only Brisbane Mk4)
-  - data/waves/wave_palmbeach_mk4_AllData.csv    <- from wave_*.csv (only Palm Beach Mk4)
-  - data/waves/wave_bilinga_AllData.csv          <- from wave_*.csv (only Bilinga)
-  - data/waves/wave_tweed_heads_mk4_AllData.csv  <- from wave_*.csv (only Tweed Heads Mk4)
-  - data/waves/wave_tweed_offshore_AllData.csv   <- from wave_*.csv (only Tweed Offshore)
-
-Behavior:
- - Attempts to detect a station/site column (common names like 'site', 'site_name', 'station', etc).
- - Matches sites case-insensitively; if no site column is found and the file name contains
-   the site string, the file is assumed to belong to that site.
- - Deduplicates rows and writes final CSVs without an index.
- - Attempts to robustly read CSV/TXT files with different separators and encodings.
+This version improves robustness for files that include a preamble line
+such as "Tide Data provided @ 08:05hrs on 22-10-2025" before the CSV header.
+It attempts to find the real header line within the first N lines and
+skips preamble rows so the 'Site' column (and other expected columns)
+are properly detected.
 """
 
 from pathlib import Path
 import pandas as pd
 import glob
 import sys
+from io import StringIO
 
 # Ensure directories exist
 tides_dir = Path("data/tides")
@@ -119,31 +107,77 @@ def find_site_column(df: pd.DataFrame):
 
 
 def read_any_csv(path: Path):
-    """Try reading a CSV/TSV/text file robustly into a DataFrame."""
-    # Try a few strategies to read the file: pandas autodetect, common separators, fallback.
+    """
+    Try reading a CSV/TSV/text file robustly into a DataFrame.
+
+    Additional logic: detect and skip preamble lines by scanning the first
+    few dozen lines for a header row that contains a 'site' column and other
+    expected headers (e.g., 'date', 'datetime', 'water').
+    """
+    # Read raw text first so we can detect preamble/header lines
     try:
-        df = pd.read_csv(path, sep=None, engine="python", encoding="utf-8")
+        raw_text = path.read_text(encoding="utf-8", errors="replace")
+    except Exception:
+        try:
+            raw_text = path.read_text(encoding="latin-1", errors="replace")
+        except Exception as e:
+            print(f"Failed to read {path}: {e}", file=sys.stderr)
+            return pd.DataFrame()
+
+    lines = raw_text.splitlines()
+    header_idx = None
+    max_scan = min(40, len(lines))
+
+    # Look for a line that looks like the CSV header: it should contain one of the site candidates
+    # and at least one of common other tokens (date/datetime/time/water/seconds)
+    other_tokens = ("date", "datetime", "time", "water", "seconds", "prediction")
+    for i in range(max_scan):
+        low = lines[i].lower()
+        if any(cand in low for cand in SITE_COLUMN_CANDIDATES) and any(tok in low for tok in other_tokens):
+            header_idx = i
+            # Found likely header line
+            break
+
+    if header_idx is not None:
+        # Reconstruct starting from the header line and let pandas parse it.
+        data_text = "\n".join(lines[header_idx:])
+        try:
+            df = pd.read_csv(StringIO(data_text), sep=None, engine="python")
+            return df
+        except Exception:
+            # try common separators explicitly
+            for sep in [",", "\t", ";", "|"]:
+                try:
+                    df = pd.read_csv(StringIO(data_text), sep=sep, engine="python")
+                    return df
+                except Exception:
+                    continue
+            # fall through to other strategies below
+    else:
+        # No obvious header detected; fall back to trying to read the entire file with pandas autodetect
+        pass
+
+    # Fallback strategies
+    try:
+        df = pd.read_csv(StringIO(raw_text), sep=None, engine="python", encoding="utf-8")
         return df
     except Exception:
-        # try common separators
         for sep in [",", "\t", ";", "|"]:
             try:
-                df = pd.read_csv(path, sep=sep, engine="python", encoding="utf-8")
+                df = pd.read_csv(StringIO(raw_text), sep=sep, engine="python", encoding="utf-8")
                 return df
             except Exception:
                 continue
         # try whitespace-delimited
         try:
-            df = pd.read_csv(path, delim_whitespace=True, header=0, encoding="utf-8")
+            df = pd.read_csv(StringIO(raw_text), delim_whitespace=True, header=0, encoding="utf-8")
             return df
         except Exception:
-            # last-resort: read as a single-column text file
+            # last-resort: return each line as a row in a single 'raw' column
             try:
-                with path.open("r", encoding="utf-8", errors="replace") as fh:
-                    lines = [line.rstrip("\n") for line in fh]
                 return pd.DataFrame({"raw": lines})
             except Exception as e:
-                print(f"Failed to read {path}: {e}", file=sys.stderr)
+                print(f"Failed to parse {path}: {e}", file=sys.stderr)
                 return pd.DataFrame()
 
 
@@ -173,7 +207,6 @@ def collect_and_filter(pattern: str, match_terms: list, base_dir: Path):
                 ser = df[site_col].astype(str).str.lower()
             mask = False
             for term in match_terms:
-                # use simple contains; terms should be lowercased by caller
                 mask = mask | ser.str.contains(term.lower(), na=False)
             matched = df[mask]
             print(f"  -> found site column '{site_col}', kept {len(matched)} rows matching {match_terms}")
@@ -208,8 +241,7 @@ def process_site(site_label: str, cfg: dict):
     out_dir: Path = cfg.get("out_dir", tides_dir)
     prefix = cfg.get("prefix", "data")
     print(f"\n=== Collating for '{site_label}' from pattern '{pattern}' in {out_dir} ...")
-    df = collect_and_filter(pattern, terms, out_dir) if out_dir != tides_dir else collect_and_filter(pattern, terms, out_dir)
-    # Note: collect_and_filter will look into the provided base_dir for files matching the pattern.
+    df = collect_and_filter(pattern, terms, out_dir)
     if df.empty:
         print(f"  -> No data found for {site_label}, skipping output.")
         return False
@@ -236,21 +268,16 @@ def main():
 
     # Process tides
     for site_label, cfg in TIDE_SITES.items():
-        # TIDE_SITES refer to files in tides_dir; collect_and_filter will search the base_dir
         cfg = dict(cfg)  # shallow copy
         cfg["out_dir"] = cfg.get("out_dir", tides_dir)
         written = process_site(site_label, cfg)
         any_written = any_written or written
 
-    # Process waves (wave files are in data/waves; but the downloaded files live in data/waves)
-    # For waves we need to search data/waves for files matching the pattern, then filter by station/site.
+    # Process waves
     for site_label, cfg in WAVE_SITES.items():
         cfg = dict(cfg)
         cfg["out_dir"] = cfg.get("out_dir", waves_dir)
-        # When collecting waves, the base_dir is waves_dir (where the workflow saves wave_YYYYMMDD.csv)
-        # The collect_and_filter will only include rows where the site column contains any term in match_terms,
-        # or the filename contains a match term.
-        written = process_site(site_label, {**cfg, "from": cfg["from"]})
+        written = process_site(site_label, cfg)
         any_written = any_written or written
 
     if not any_written:
