@@ -151,7 +151,7 @@ jobs:
                   combined_df = combined_df.sort_values('Date/Time')
               
               # Save to _AllData.csv
-              all_data_path = os.path.join(station_path, "_AllData.csv")
+              all_data_path = os.path.join(station_path, f"river_{station_id}_AllData.csv")
               combined_df.to_csv(all_data_path, index=False, encoding="utf-8")
               print(f"Created {all_data_path} with {len(combined_df)} records")
           PY
