@@ -89,6 +89,73 @@ jobs:
               print(f"Error processing station {name} (ID: {sid}): {e}")
           PY
 
+      - name: Collate data into _AllData.csv files
+        run: |
+          python - <<'PY'
+          import os
+          import pandas as pd
+          import glob
+          from datetime import datetime
+          
+          root = "data/bom/river"
+          
+          # Iterate through each station folder
+          for station_folder in os.listdir(root):
+              station_path = os.path.join(root, station_folder)
+              if not os.path.isdir(station_path):
+                  continue
+              
+              # Find all CSV files matching river_{station_id}_*.csv pattern
+              csv_files = glob.glob(os.path.join(station_path, "river_*.csv"))
+              # Exclude _AllData.csv from the list
+              csv_files = [f for f in csv_files if not f.endswith("_AllData.csv")]
+              
+              if not csv_files:
+                  print(f"No CSV files found in {station_folder}")
+                  continue
+              
+              # Read and concatenate all CSV files
+              all_dataframes = []
+              for csv_file in csv_files:
+                  try:
+                      df = pd.read_csv(csv_file)
+                      all_dataframes.append(df)
+                  except Exception as e:
+                      print(f"Error reading {csv_file}: {e}")
+              
+              if not all_dataframes:
+                  print(f"No valid data for {station_folder}")
+                  continue
+              
+              # Concatenate all dataframes
+              combined_df = pd.concat(all_dataframes, ignore_index=True)
+              
+              # Remove duplicates based on all columns
+              combined_df = combined_df.drop_duplicates()
+              
+              # Parse the Date/Time column and sort
+              # Expected format: "15/10/2025 11:47"
+              try:
+                  combined_df['_datetime_parsed'] = pd.to_datetime(
+                      combined_df['Date/Time'], 
+                      format='%d/%m/%Y %H:%M',
+                      errors='coerce'
+                  )
+                  # Sort by parsed datetime
+                  combined_df = combined_df.sort_values('_datetime_parsed')
+                  # Drop the temporary column
+                  combined_df = combined_df.drop(columns=['_datetime_parsed'])
+              except Exception as e:
+                  print(f"Warning: Could not parse datetime for {station_folder}: {e}")
+                  # If parsing fails, just sort by the original Date/Time column as string
+                  combined_df = combined_df.sort_values('Date/Time')
+              
+              # Save to _AllData.csv
+              all_data_path = os.path.join(station_path, "_AllData.csv")
+              combined_df.to_csv(all_data_path, index=False, encoding="utf-8")
+              print(f"Created {all_data_path} with {len(combined_df)} records")
+          PY
+
       - name: Commit and push if there are changes
         run: |
           git config --local user.email "action@github.com"
