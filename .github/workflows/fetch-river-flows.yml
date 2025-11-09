@@ -95,6 +95,7 @@ jobs:
           import os
           import pandas as pd
           import glob
+          import re
           from datetime import datetime
           
           root = "data/bom/river"
@@ -108,17 +109,25 @@ jobs:
               # Find all CSV files matching river_{station_id}_*.csv pattern
               csv_files = glob.glob(os.path.join(station_path, "river_*.csv"))
               # Exclude _AllData.csv from the list
-              csv_files = [f for f in csv_files if not f.endswith("_AllData.csv")]
+              csv_files = [f for f in csv_files if not re.search(r'_AllData\.csv$', f)]
               
               if not csv_files:
                   print(f"No CSV files found in {station_folder}")
                   continue
               
-              # Read and concatenate all CSV files
+              # Determine station_id from the first CSV filename (expects river_{id}_YYYYMMDD.csv)
+              m = re.search(r'river_(\d+)_', os.path.basename(csv_files[0]))
+              station_id = m.group(1) if m else station_folder
+              
+              # Read and concatenate all CSV files, adding Station ID column
               all_dataframes = []
               for csv_file in csv_files:
                   try:
                       df = pd.read_csv(csv_file)
+                      # Extract station id per file as a fallback if filenames differ
+                      m2 = re.search(r'river_(\d+)_', os.path.basename(csv_file))
+                      file_station_id = m2.group(1) if m2 else station_id
+                      df['Station ID'] = file_station_id
                       all_dataframes.append(df)
                   except Exception as e:
                       print(f"Error reading {csv_file}: {e}")
@@ -150,7 +159,13 @@ jobs:
                   # If parsing fails, just sort by the original Date/Time column as string
                   combined_df = combined_df.sort_values('Date/Time')
               
-              # Save to _AllData.csv
+              # Ensure Station ID is the first column
+              cols = combined_df.columns.tolist()
+              if 'Station ID' in cols:
+                  cols = ['Station ID'] + [c for c in cols if c != 'Station ID']
+                  combined_df = combined_df[cols]
+              
+              # Save to _AllData.csv named with station_id
               all_data_path = os.path.join(station_path, f"river_{station_id}_AllData.csv")
               combined_df.to_csv(all_data_path, index=False, encoding="utf-8")
               print(f"Created {all_data_path} with {len(combined_df)} records")
