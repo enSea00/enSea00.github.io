@@ -33,6 +33,7 @@ jobs:
           import re
           from dateutil import parser
           import pytz
+          from collections import defaultdict
           
           def sanitize_folder_name(name):
               """Convert station name to safe folder name"""
@@ -40,6 +41,151 @@ jobs:
               safe_name = re.sub(r'[^\w\s-]', '', name)
               safe_name = re.sub(r'[-\s]+', '_', safe_name)
               return safe_name.strip('_').lower()
+          
+          def collate_all_data(station_dir, station_id):
+              """
+              Collate all aws_{station_id}_*.json files into _AllData.json.
+              Deduplicates and sorts observations by datetime_utc.
+              """
+              # Find all station data files (exclude _AllData.json)
+              all_files = []
+              for filename in os.listdir(station_dir):
+                  if filename.startswith(f"aws_{station_id}_") and filename.endswith(".json"):
+                      all_files.append(os.path.join(station_dir, filename))
+              
+              if not all_files:
+                  return None
+              
+              # Collect observations by date
+              all_obs_by_date = defaultdict(lambda: {"date": None, "astro": None, "obs": []})
+              station_info = None
+              latest_metadata = None
+              latest_time = None
+              
+              for filepath in all_files:
+                  with open(filepath, 'r', encoding='utf-8') as f:
+                      data = json.load(f)
+                  
+                  # Keep station info
+                  if station_info is None and 'stn' in data:
+                      station_info = data['stn']
+                  
+                  # Track latest metadata
+                  if '_metadata' in data:
+                      metadata = data['_metadata']
+                      metadata_time = datetime.fromisoformat(metadata['download_time_utc'].replace('Z', '+00:00'))
+                      if latest_time is None or metadata_time > latest_time:
+                          latest_time = metadata_time
+                          latest_metadata = metadata
+                  
+                  # Collect observations
+                  if 'obs_recent' in data:
+                      for date_entry in data['obs_recent']:
+                          date_key = date_entry['date']
+                          if all_obs_by_date[date_key]["astro"] is None and 'astro' in date_entry:
+                              all_obs_by_date[date_key]["astro"] = date_entry['astro']
+                          all_obs_by_date[date_key]["date"] = date_key
+                          if 'obs' in date_entry:
+                              all_obs_by_date[date_key]["obs"].extend(date_entry['obs'])
+              
+              # Deduplicate and sort observations within each date
+              for date_key in all_obs_by_date:
+                  obs_list = all_obs_by_date[date_key]["obs"]
+                  unique_obs = {}
+                  for obs in obs_list:
+                      if 'datetime_utc' in obs:
+                          datetime_key = obs['datetime_utc']
+                          if datetime_key not in unique_obs:
+                              unique_obs[datetime_key] = obs
+                  sorted_obs = sorted(unique_obs.values(), key=lambda x: x.get('datetime_utc', ''))
+                  all_obs_by_date[date_key]["obs"] = sorted_obs
+              
+              # Build final structure
+              obs_recent = []
+              for date_key in sorted(all_obs_by_date.keys()):
+                  date_data = all_obs_by_date[date_key]
+                  obs_recent.append({
+                      "date": date_data["date"],
+                      "astro": date_data["astro"],
+                      "obs": date_data["obs"]
+                  })
+              
+              collated_data = {"stn": station_info, "obs_recent": obs_recent}
+              if latest_metadata:
+                  collated_data["_metadata"] = {
+                      **latest_metadata,
+                      "collation_note": "This file contains all historical observations, deduplicated and sorted by datetime_utc"
+                  }
+              
+              return collated_data
+          
+          def merge_new_data(all_data_path, new_data):
+              """
+              Merge new data into existing _AllData.json, deduplicating and sorting.
+              If _AllData.json doesn't exist, processes new_data for consistency.
+              """
+              # Load existing data if it exists, otherwise use empty structure
+              existing_data = {}
+              if os.path.exists(all_data_path):
+                  with open(all_data_path, 'r', encoding='utf-8') as f:
+                      existing_data = json.load(f)
+              
+              # Merge observations by date
+              all_obs_by_date = defaultdict(lambda: {"date": None, "astro": None, "obs": []})
+              
+              # Add existing observations
+              if 'obs_recent' in existing_data:
+                  for date_entry in existing_data['obs_recent']:
+                      date_key = date_entry['date']
+                      all_obs_by_date[date_key]["date"] = date_key
+                      if 'astro' in date_entry:
+                          all_obs_by_date[date_key]["astro"] = date_entry['astro']
+                      if 'obs' in date_entry:
+                          all_obs_by_date[date_key]["obs"].extend(date_entry['obs'])
+              
+              # Add new observations
+              if 'obs_recent' in new_data:
+                  for date_entry in new_data['obs_recent']:
+                      date_key = date_entry['date']
+                      all_obs_by_date[date_key]["date"] = date_key
+                      if 'astro' in date_entry and all_obs_by_date[date_key]["astro"] is None:
+                          all_obs_by_date[date_key]["astro"] = date_entry['astro']
+                      if 'obs' in date_entry:
+                          all_obs_by_date[date_key]["obs"].extend(date_entry['obs'])
+              
+              # Deduplicate and sort observations within each date
+              for date_key in all_obs_by_date:
+                  obs_list = all_obs_by_date[date_key]["obs"]
+                  unique_obs = {}
+                  for obs in obs_list:
+                      if 'datetime_utc' in obs:
+                          datetime_key = obs['datetime_utc']
+                          if datetime_key not in unique_obs:
+                              unique_obs[datetime_key] = obs
+                  sorted_obs = sorted(unique_obs.values(), key=lambda x: x.get('datetime_utc', ''))
+                  all_obs_by_date[date_key]["obs"] = sorted_obs
+              
+              # Build final structure
+              obs_recent = []
+              for date_key in sorted(all_obs_by_date.keys()):
+                  date_data = all_obs_by_date[date_key]
+                  obs_recent.append({
+                      "date": date_data["date"],
+                      "astro": date_data["astro"],
+                      "obs": date_data["obs"]
+                  })
+              
+              # Use station info from new data (or existing if new doesn't have it)
+              station_info = new_data.get('stn') or existing_data.get('stn')
+              metadata = new_data.get('_metadata', existing_data.get('_metadata', {}))
+              if metadata:
+                  metadata["collation_note"] = "This file contains all historical observations, deduplicated and sorted by datetime_utc"
+              
+              merged_data = {"stn": station_info, "obs_recent": obs_recent}
+              if metadata:
+                  merged_data["_metadata"] = metadata
+              
+              return merged_data
           
           # List of station IDs to fetch
           STATIONS = [
@@ -97,11 +243,17 @@ jobs:
                   with open(filename, 'w', encoding='utf-8') as f:
                       json.dump(data, f, indent=2)
                       
-                  # Save latest version
-                  # with open(f"{station_dir}/observations_latest.json", 'w', encoding='utf-8') as f:
-                  #    json.dump(data, f, indent=2)
-                      
                   print(f"Successfully saved data for {station_name} (ID: {station_id})")
+                  
+                  # Merge new data into _AllData.json
+                  all_data_path = f"{station_dir}/_AllData.json"
+                  merged_data = merge_new_data(all_data_path, data)
+                  
+                  with open(all_data_path, 'w', encoding='utf-8') as f:
+                      json.dump(merged_data, f, indent=2)
+                  
+                  total_obs = sum(len(d.get('obs', [])) for d in merged_data.get('obs_recent', []))
+                  print(f"Updated _AllData.json for {station_name} (total observations: {total_obs})")
                   
               except Exception as e:
                   print(f"Error processing {station_name} (ID: {station_id}): {e}")
