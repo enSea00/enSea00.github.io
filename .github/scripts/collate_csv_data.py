@@ -1,166 +1,171 @@
 #!/usr/bin/env python3
 """
-Collate CSV data files with automatic deduplication and sorting by datetime.
+Collate QLD tide CSV/TXT files into per-site AllData CSVs.
 
-This script processes CSV files in specified directories, merging them into
-a single _AllData.csv file per directory with deduplication based on all columns
-and sorting by the DateTime column.
+Outputs (placed in data/tides/):
+  - data/tides/tide_coombabahst_AllData.csv      <- from tide_std_*.csv (only coombabahst)
+  - data/tides/tide_tweedsbj_AllData.csv         <- from tide_storm_*.csv (only tweedsbj)
+  - data/tides/tide_goldcoast_AllData.csv        <- from tide_storm_*.csv (only goldcoast)
+  - data/tides/tide_Southport_AllData.csv        <- from tide_Southport_*.txt (all Southport files)
+
+Behavior:
+ - Attempts to detect a station/site column (common names like 'site', 'site_name', 'station', etc).
+ - Matches sites case-insensitively; if no site column is found and the file name contains
+   the site string, the file is assumed to belong to that site.
+ - Deduplicates rows and writes final CSVs without an index.
 """
 
-import os
-import sys
-import glob
-import pandas as pd
 from pathlib import Path
+import pandas as pd
+import glob
+import sys
+
+tides_dir = Path("data/tides")
+tides_dir.mkdir(parents=True, exist_ok=True)
+
+# Desired sites and where they come from
+# Key: output filename site label (used in tide_{site}_AllData.csv)
+# Value: dict with patterns to gather from and lowercase match terms
+SITES = {
+    "coombabahst": {
+        "from": "tide_std_*.csv",
+        "match_terms": ["coombabahst"],
+    },
+    "tweedsbj": {
+        "from": "tide_storm_*.csv",
+        "match_terms": ["tweedsbj"],
+    },
+    "goldcoast": {
+        "from": "tide_storm_*.csv",
+        "match_terms": ["goldcoast"],
+    },
+    # Southport txt files - keep the capitalised label to mirror existing file naming
+    "Southport": {
+        "from": "tide_Southport_*.txt",
+        "match_terms": ["southport"],
+    },
+}
+
+# Candidate column names that might indicate station/site identifiers
+SITE_COLUMN_CANDIDATES = [
+    "site", "station", "station_name", "sitename", "site_name",
+    "stn", "name", "location", "id"
+]
 
 
-def collate_csv_files(directory, pattern, output_filename="_AllData.csv", datetime_col=" DateTime"):
-    """
-    Collate all CSV files matching pattern in directory into a single file.
-    
-    Args:
-        directory (str): Directory containing CSV files
-        pattern (str): Glob pattern to match CSV files (e.g., "wave_*.csv")
-        output_filename (str): Name of output file (default: "_AllData.csv")
-        datetime_col (str): Name of datetime column for sorting (default: " DateTime")
-    """
-    dir_path = Path(directory)
-    
-    # Find all matching CSV files
-    csv_files = sorted(glob.glob(str(dir_path / pattern)))
-    
-    if not csv_files:
-        print(f"No CSV files found matching {pattern} in {directory}")
-        return
-    
-    print(f"Found {len(csv_files)} CSV files in {directory}")
-    
-    # List to store dataframes
-    all_dataframes = []
-    
-    # Read each CSV file
-    for csv_file in csv_files:
+def find_site_column(df: pd.DataFrame):
+    """Return the column name in df that likely contains site/station information, or None."""
+    cols_lower = {c.lower(): c for c in df.columns}
+    for cand in SITE_COLUMN_CANDIDATES:
+        if cand in cols_lower:
+            return cols_lower[cand]
+    return None
+
+
+def read_any_csv(path: Path):
+    """Try reading a CSV/TSV/text file robustly into a DataFrame."""
+    try:
+        # try autodetect separators
+        df = pd.read_csv(path, sep=None, engine="python", encoding="utf-8")
+        return df
+    except Exception:
         try:
-            # Skip the _AllData.csv file itself
-            if csv_file.endswith(output_filename):
-                continue
-                
-            print(f"  Reading: {os.path.basename(csv_file)}")
-            
-            # Read CSV, skipping the first row (metadata line)
-            # The header is on line 1 (index 1), data starts at line 2
-            df = pd.read_csv(csv_file, skiprows=[0])
-            
-            if not df.empty:
-                all_dataframes.append(df)
-        except Exception as e:
-            print(f"  Error reading {csv_file}: {e}")
+            # try whitespace-delimited
+            df = pd.read_csv(path, delim_whitespace=True, header=0, encoding="utf-8")
+            return df
+        except Exception:
+            # last-resort: read as a single-column text file
+            try:
+                with path.open("r", encoding="utf-8", errors="replace") as fh:
+                    lines = [line.rstrip("\n") for line in fh]
+                return pd.DataFrame({"raw": lines})
+            except Exception as e:
+                print(f"Failed to read {path}: {e}", file=sys.stderr)
+                return pd.DataFrame()
+
+
+def collect_and_filter(pattern: str, match_terms: list):
+    """
+    Read all files matching 'pattern' in data/tides, filter rows containing any of match_terms
+    in the detected site column (or infer from filename), and return a concatenated DataFrame.
+    """
+    files = sorted(glob.glob(str(tides_dir / pattern)))
+    frames = []
+    for fp in files:
+        p = Path(fp)
+        print(f"Processing {p.name}")
+        df = read_any_csv(p)
+        if df.empty:
+            print(f"  -> empty or unreadable: {p.name}")
             continue
-    
-    if not all_dataframes:
-        print(f"No valid data found in {directory}")
-        return
-    
-    # Concatenate all dataframes
-    print(f"Concatenating {len(all_dataframes)} dataframes...")
-    combined_df = pd.concat(all_dataframes, ignore_index=True)
-    
-    print(f"Total rows before deduplication: {len(combined_df)}")
-    
-    # Remove duplicate rows (based on all columns)
-    combined_df = combined_df.drop_duplicates()
-    
-    print(f"Total rows after deduplication: {len(combined_df)}")
-    
-    # Sort by DateTime column if it exists
-    if datetime_col in combined_df.columns:
-        print(f"Sorting by {datetime_col} column...")
-        # Convert to datetime for proper sorting, using mixed format to handle variations
-        combined_df[datetime_col] = pd.to_datetime(combined_df[datetime_col], format='mixed')
-        combined_df = combined_df.sort_values(by=datetime_col)
-        # Convert back to string format to preserve original format
-        # Check the original format from one of the files
-        if csv_files and not csv_files[0].endswith(output_filename):
-            sample_df = pd.read_csv(csv_files[0], skiprows=[0], nrows=1)
-            if datetime_col in sample_df.columns:
-                sample_datetime = str(sample_df[datetime_col].iloc[0])
-                if 'T' in sample_datetime and sample_datetime.count(':') == 2:
-                    # Format is like "2025-10-20T00:00:00" with seconds
-                    combined_df[datetime_col] = combined_df[datetime_col].dt.strftime('%Y-%m-%dT%H:%M:%S')
-                elif 'T' in sample_datetime and sample_datetime.count(':') == 1:
-                    # Format is like "2025-10-20T00:00" without seconds
-                    combined_df[datetime_col] = combined_df[datetime_col].dt.strftime('%Y-%m-%dT%H:%M')
-                else:
-                    # Default format with seconds
-                    combined_df[datetime_col] = combined_df[datetime_col].dt.strftime('%Y-%m-%dT%H:%M:%S')
+
+        site_col = find_site_column(df)
+        matched = pd.DataFrame()  # empty
+
+        if site_col:
+            # normalize values and match
+            try:
+                ser = df[site_col].astype(str).str.lower()
+            except Exception:
+                ser = df[site_col].astype(str).str.lower()
+            mask = False
+            for term in match_terms:
+                mask = mask | ser.str.contains(term.lower(), na=False)
+            matched = df[mask]
+            print(f"  -> found site column '{site_col}', kept {len(matched)} rows matching {match_terms}")
+        else:
+            # No site column; try to infer from filename
+            fname_low = p.name.lower()
+            found = False
+            for term in match_terms:
+                if term.lower() in fname_low:
+                    matched = df.copy()
+                    found = True
+                    print(f"  -> no site column, filename contains '{term}'; keeping entire file ({len(matched)} rows)")
+                    break
+            if not found:
+                print(f"  -> no site column and filename doesn't match any of {match_terms}; skipping")
+
+        if not matched.empty:
+            frames.append(matched)
+
+    if frames:
+        combined = pd.concat(frames, ignore_index=True)
+        # drop exact duplicates
+        combined = combined.drop_duplicates()
+        return combined
     else:
-        print(f"Warning: {datetime_col} column not found in data")
-    
-    # Write to output file with metadata line
-    output_path = dir_path / output_filename
-    print(f"Writing to {output_path}")
-    
-    # Create metadata line
-    metadata_line = f"Collated data - Last updated: {pd.Timestamp.now().strftime('%Y-%m-%d %H:%M:%S')}"
-    
-    # Write metadata line first, then the dataframe
-    with open(output_path, 'w') as f:
-        f.write(metadata_line + '\n')
-    
-    # Append the dataframe
-    combined_df.to_csv(output_path, mode='a', index=False)
-    
-    print(f"Successfully created {output_path} with {len(combined_df)} rows\n")
+        return pd.DataFrame()
 
 
 def main():
-    """Main function to collate CSV data files."""
-    
-    # Define the directories and patterns to process
-    datasets = [
-        {
-            "directory": "data/waves",
-            "pattern": "wave_*.csv",
-            "output": "_AllData.csv",
-            "datetime_col": " DateTime"
-        },
-        {
-            "directory": "data/tides",
-            "pattern": "tide_storm_*.csv",
-            "output": "tide_storm_AllData.csv",
-            "datetime_col": " DateTime"
-        },
-        {
-            "directory": "data/tides",
-            "pattern": "tide_std_*.csv",
-            "output": "tide_std_AllData.csv",
-            "datetime_col": " DateTime"
-        }
-    ]
-    
-    print("=" * 60)
-    print("CSV Data Collation Script")
-    print("=" * 60)
-    print()
-    
-    for dataset in datasets:
-        print(f"Processing: {dataset['directory']}/{dataset['pattern']}")
-        print("-" * 60)
-        
-        try:
-            collate_csv_files(
-                directory=dataset["directory"],
-                pattern=dataset["pattern"],
-                output_filename=dataset["output"],
-                datetime_col=dataset["datetime_col"]
-            )
-        except Exception as e:
-            print(f"Error processing {dataset['directory']}: {e}\n")
+    any_written = False
+    for site_label, cfg in SITES.items():
+        pattern = cfg["from"]
+        terms = cfg["match_terms"]
+        print(f"\n=== Collating for site '{site_label}' from pattern '{pattern}' ...")
+        df = collect_and_filter(pattern, terms)
+        if df.empty:
+            print(f"  -> No data found for {site_label}, skipping output.")
             continue
-    
-    print("=" * 60)
-    print("Collation complete!")
-    print("=" * 60)
+
+        # Try to sort by a datetime-like column if present
+        datetime_cols = [c for c in df.columns if "date" in c.lower() or "time" in c.lower() or "datetime" in c.lower()]
+        if datetime_cols:
+            col = datetime_cols[0]
+            try:
+                df[col] = pd.to_datetime(df[col], errors="coerce")
+                df = df.sort_values(by=col)
+            except Exception:
+                pass
+
+        out_fn = tides_dir / f"tide_{site_label}_AllData.csv"
+        df.to_csv(out_fn, index=False)
+        print(f"  -> wrote {len(df)} rows to {out_fn}")
+        any_written = True
+
+    if not any_written:
+        print("No outputs were written. Check that source files exist and contain the requested sites.")
 
 
 if __name__ == "__main__":
