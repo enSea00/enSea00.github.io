@@ -40925,6 +40925,2759 @@
             "high_layer_cover_amt_okta": null,
             "high_layer_height_m": null
           }
+        },
+        {
+          "datetime_utc": "2025-11-22T02:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 24.1,
+            "apparent_1min_cel": 26.56,
+            "dew_pnt_1min_cel": 21.8,
+            "wet_bulb_1min_avg_cel": 22.57,
+            "wet_bulb_globe_sun_cel": 27.86,
+            "wet_bulb_globe_shade_cel": 23.03,
+            "wet_bulb_depression_cel": 1.53,
+            "dry_bulb_max_cel": 25.0,
+            "dry_bulb_max_time_utc": "2025-11-21T22:16:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-21T15:31:00Z",
+            "rel_hum_percent": 87.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1014.8,
+            "qnh_hpa": 1014.8
+          },
+          "wind": {
+            "speed_10m_mps": 3.293,
+            "dirn_10m_ord": "ESE",
+            "gust_speed_10m_mps": 3.601,
+            "gust_dirn_10m_deg_t": 156.0,
+            "gust_speed_10m_max_mps": 7.202,
+            "gust_10m_max_utc": "2025-11-21T21:19:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T02:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 25.2,
+            "apparent_1min_cel": 26.89,
+            "dew_pnt_1min_cel": 21.7,
+            "wet_bulb_1min_avg_cel": 22.87,
+            "wet_bulb_globe_sun_cel": 28.43,
+            "wet_bulb_globe_shade_cel": 23.57,
+            "wet_bulb_depression_cel": 2.33,
+            "dry_bulb_max_cel": 25.6,
+            "dry_bulb_max_time_utc": "2025-11-22T02:24:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-21T15:31:00Z",
+            "rel_hum_percent": 81.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1014.4,
+            "qnh_hpa": 1014.4
+          },
+          "wind": {
+            "speed_10m_mps": 3.858,
+            "dirn_10m_ord": "SE",
+            "gust_speed_10m_mps": 4.63,
+            "gust_dirn_10m_deg_t": 156.0,
+            "gust_speed_10m_max_mps": 7.202,
+            "gust_10m_max_utc": "2025-11-21T21:19:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T03:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 25.1,
+            "apparent_1min_cel": 25.55,
+            "dew_pnt_1min_cel": 21.4,
+            "wet_bulb_1min_avg_cel": 22.65,
+            "wet_bulb_globe_sun_cel": 28.18,
+            "wet_bulb_globe_shade_cel": 23.38,
+            "wet_bulb_depression_cel": 2.45,
+            "dry_bulb_max_cel": 25.6,
+            "dry_bulb_max_time_utc": "2025-11-22T02:24:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-21T15:31:00Z",
+            "rel_hum_percent": 80.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1014.2,
+            "qnh_hpa": 1014.2
+          },
+          "wind": {
+            "speed_10m_mps": 5.453,
+            "dirn_10m_ord": "SE",
+            "gust_speed_10m_mps": 6.688,
+            "gust_dirn_10m_deg_t": 156.0,
+            "gust_speed_10m_max_mps": 7.202,
+            "gust_10m_max_utc": "2025-11-21T21:19:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T03:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 25.1,
+            "apparent_1min_cel": 25.19,
+            "dew_pnt_1min_cel": 21.4,
+            "wet_bulb_1min_avg_cel": 22.65,
+            "wet_bulb_globe_sun_cel": 28.18,
+            "wet_bulb_globe_shade_cel": 23.38,
+            "wet_bulb_depression_cel": 2.45,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-21T15:31:00Z",
+            "rel_hum_percent": 80.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1014.0,
+            "qnh_hpa": 1014.0
+          },
+          "wind": {
+            "speed_10m_mps": 5.813,
+            "dirn_10m_ord": "SE",
+            "gust_speed_10m_mps": 7.202,
+            "gust_dirn_10m_deg_t": 156.0,
+            "gust_speed_10m_max_mps": 7.202,
+            "gust_10m_max_utc": "2025-11-21T21:19:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T04:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 24.8,
+            "apparent_1min_cel": 25.98,
+            "dew_pnt_1min_cel": 22.1,
+            "wet_bulb_1min_avg_cel": 22.99,
+            "wet_bulb_globe_sun_cel": 28.45,
+            "wet_bulb_globe_shade_cel": 23.54,
+            "wet_bulb_depression_cel": 1.81,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-21T15:31:00Z",
+            "rel_hum_percent": 85.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1013.4,
+            "qnh_hpa": 1013.4
+          },
+          "wind": {
+            "speed_10m_mps": 5.865,
+            "dirn_10m_ord": "SE",
+            "gust_speed_10m_mps": 6.688,
+            "gust_dirn_10m_deg_t": 156.0,
+            "gust_speed_10m_max_mps": 7.202,
+            "gust_10m_max_utc": "2025-11-21T21:19:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T04:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 24.6,
+            "apparent_1min_cel": 25.01,
+            "dew_pnt_1min_cel": 21.32,
+            "wet_bulb_1min_avg_cel": 22.43,
+            "wet_bulb_globe_sun_cel": 27.84,
+            "wet_bulb_globe_shade_cel": 23.08,
+            "wet_bulb_depression_cel": 2.17,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-21T15:31:00Z",
+            "rel_hum_percent": 82.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1013.2,
+            "qnh_hpa": 1013.2
+          },
+          "wind": {
+            "speed_10m_mps": 5.556,
+            "dirn_10m_ord": "SE",
+            "gust_speed_10m_mps": 6.173,
+            "gust_dirn_10m_deg_t": 156.0,
+            "gust_speed_10m_max_mps": 7.202,
+            "gust_10m_max_utc": "2025-11-21T21:19:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T05:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 24.4,
+            "apparent_1min_cel": 24.55,
+            "dew_pnt_1min_cel": 21.52,
+            "wet_bulb_1min_avg_cel": 22.49,
+            "wet_bulb_globe_sun_cel": 27.85,
+            "wet_bulb_globe_shade_cel": 23.06,
+            "wet_bulb_depression_cel": 1.91,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-21T15:31:00Z",
+            "rel_hum_percent": 84.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1012.8,
+            "qnh_hpa": 1012.8
+          },
+          "wind": {
+            "speed_10m_mps": 6.225,
+            "dirn_10m_ord": "SE",
+            "gust_speed_10m_mps": 7.202,
+            "gust_dirn_10m_deg_t": 156.0,
+            "gust_speed_10m_max_mps": 7.202,
+            "gust_10m_max_utc": "2025-11-21T21:19:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T05:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 24.1,
+            "apparent_1min_cel": 25.02,
+            "dew_pnt_1min_cel": 21.61,
+            "wet_bulb_1min_avg_cel": 22.45,
+            "wet_bulb_globe_sun_cel": 27.74,
+            "wet_bulb_globe_shade_cel": 22.94,
+            "wet_bulb_depression_cel": 1.65,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-21T15:31:00Z",
+            "rel_hum_percent": 86.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1012.7,
+            "qnh_hpa": 1012.7
+          },
+          "wind": {
+            "speed_10m_mps": 6.019,
+            "dirn_10m_ord": "SE",
+            "gust_speed_10m_mps": 7.717,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T06:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 24.1,
+            "apparent_1min_cel": 25.02,
+            "dew_pnt_1min_cel": 21.61,
+            "wet_bulb_1min_avg_cel": 22.45,
+            "wet_bulb_globe_sun_cel": 27.74,
+            "wet_bulb_globe_shade_cel": 22.94,
+            "wet_bulb_depression_cel": 1.65,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-21T15:31:00Z",
+            "rel_hum_percent": 86.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1012.8,
+            "qnh_hpa": 1012.8
+          },
+          "wind": {
+            "speed_10m_mps": 5.144,
+            "dirn_10m_ord": "SE",
+            "gust_speed_10m_mps": 6.688,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T06:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 24.8,
+            "apparent_1min_cel": 25.77,
+            "dew_pnt_1min_cel": 21.71,
+            "wet_bulb_1min_avg_cel": 22.74,
+            "wet_bulb_globe_sun_cel": 28.2,
+            "wet_bulb_globe_shade_cel": 23.36,
+            "wet_bulb_depression_cel": 2.06,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-21T15:31:00Z",
+            "rel_hum_percent": 83.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1012.8,
+            "qnh_hpa": 1012.8
+          },
+          "wind": {
+            "speed_10m_mps": 4.938,
+            "dirn_10m_ord": "SE",
+            "gust_speed_10m_mps": 5.659,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T07:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 24.0,
+            "apparent_1min_cel": 25.59,
+            "dew_pnt_1min_cel": 21.51,
+            "wet_bulb_1min_avg_cel": 22.35,
+            "wet_bulb_globe_sun_cel": 27.62,
+            "wet_bulb_globe_shade_cel": 22.85,
+            "wet_bulb_depression_cel": 1.65,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-21T15:31:00Z",
+            "rel_hum_percent": 86.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1013.0,
+            "qnh_hpa": 1013.0
+          },
+          "wind": {
+            "speed_10m_mps": 4.167,
+            "dirn_10m_ord": "SE",
+            "gust_speed_10m_mps": 5.144,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T07:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 23.6,
+            "apparent_1min_cel": 25.44,
+            "dew_pnt_1min_cel": 21.31,
+            "wet_bulb_1min_avg_cel": 22.09,
+            "wet_bulb_globe_sun_cel": 27.27,
+            "wet_bulb_globe_shade_cel": 22.54,
+            "wet_bulb_depression_cel": 1.51,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-21T15:31:00Z",
+            "rel_hum_percent": 87.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1013.2,
+            "qnh_hpa": 1013.2
+          },
+          "wind": {
+            "speed_10m_mps": 3.601,
+            "dirn_10m_ord": "ESE",
+            "gust_speed_10m_mps": 4.116,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T08:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 23.4,
+            "apparent_1min_cel": 24.69,
+            "dew_pnt_1min_cel": 20.92,
+            "wet_bulb_1min_avg_cel": 21.77,
+            "wet_bulb_globe_sun_cel": 26.92,
+            "wet_bulb_globe_shade_cel": 22.26,
+            "wet_bulb_depression_cel": 1.63,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-21T15:31:00Z",
+            "rel_hum_percent": 86.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1013.5,
+            "qnh_hpa": 1013.5
+          },
+          "wind": {
+            "speed_10m_mps": 4.116,
+            "dirn_10m_ord": "SE",
+            "gust_speed_10m_mps": 4.63,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T08:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 23.0,
+            "apparent_1min_cel": 24.91,
+            "dew_pnt_1min_cel": 20.72,
+            "wet_bulb_1min_avg_cel": 21.51,
+            "wet_bulb_globe_sun_cel": 26.57,
+            "wet_bulb_globe_shade_cel": 21.96,
+            "wet_bulb_depression_cel": 1.49,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 23.0,
+            "dry_bulb_min_time_utc": "2025-11-22T08:30:00Z",
+            "rel_hum_percent": 87.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1014.0,
+            "qnh_hpa": 1014.0
+          },
+          "wind": {
+            "speed_10m_mps": 3.498,
+            "dirn_10m_ord": "SE",
+            "gust_speed_10m_mps": 4.116,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T09:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 22.9,
+            "apparent_1min_cel": 24.58,
+            "dew_pnt_1min_cel": 20.99,
+            "wet_bulb_1min_avg_cel": 21.65,
+            "wet_bulb_globe_sun_cel": 26.69,
+            "wet_bulb_globe_shade_cel": 22.02,
+            "wet_bulb_depression_cel": 1.25,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 22.8,
+            "dry_bulb_min_time_utc": "2025-11-22T09:00:00Z",
+            "rel_hum_percent": 89.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1014.1,
+            "qnh_hpa": 1014.1
+          },
+          "wind": {
+            "speed_10m_mps": 3.601,
+            "dirn_10m_ord": "ESE",
+            "gust_speed_10m_mps": 4.116,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T09:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 22.8,
+            "apparent_1min_cel": 24.43,
+            "dew_pnt_1min_cel": 20.89,
+            "wet_bulb_1min_avg_cel": 21.55,
+            "wet_bulb_globe_sun_cel": 26.58,
+            "wet_bulb_globe_shade_cel": 21.93,
+            "wet_bulb_depression_cel": 1.25,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 22.7,
+            "dry_bulb_min_time_utc": "2025-11-22T09:30:00Z",
+            "rel_hum_percent": 89.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1014.3,
+            "qnh_hpa": 1014.3
+          },
+          "wind": {
+            "speed_10m_mps": 3.807,
+            "dirn_10m_ord": "ESE",
+            "gust_speed_10m_mps": 4.63,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T10:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 22.7,
+            "apparent_1min_cel": 24.28,
+            "dew_pnt_1min_cel": 20.79,
+            "wet_bulb_1min_avg_cel": 21.45,
+            "wet_bulb_globe_sun_cel": 26.46,
+            "wet_bulb_globe_shade_cel": 21.83,
+            "wet_bulb_depression_cel": 1.25,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 22.6,
+            "dry_bulb_min_time_utc": "2025-11-22T09:55:00Z",
+            "rel_hum_percent": 89.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1014.3,
+            "qnh_hpa": 1014.3
+          },
+          "wind": {
+            "speed_10m_mps": 4.116,
+            "dirn_10m_ord": "ESE",
+            "gust_speed_10m_mps": 5.144,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T10:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 22.5,
+            "apparent_1min_cel": 24.25,
+            "dew_pnt_1min_cel": 20.41,
+            "wet_bulb_1min_avg_cel": 21.14,
+            "wet_bulb_globe_sun_cel": 26.11,
+            "wet_bulb_globe_shade_cel": 21.55,
+            "wet_bulb_depression_cel": 1.36,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 22.5,
+            "dry_bulb_min_time_utc": "2025-11-22T10:30:00Z",
+            "rel_hum_percent": 88.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1014.7,
+            "qnh_hpa": 1014.7
+          },
+          "wind": {
+            "speed_10m_mps": 3.19,
+            "dirn_10m_ord": "ESE",
+            "gust_speed_10m_mps": 4.116,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T11:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 22.6,
+            "apparent_1min_cel": 24.49,
+            "dew_pnt_1min_cel": 20.69,
+            "wet_bulb_1min_avg_cel": 21.35,
+            "wet_bulb_globe_sun_cel": 26.34,
+            "wet_bulb_globe_shade_cel": 21.73,
+            "wet_bulb_depression_cel": 1.25,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 22.5,
+            "dry_bulb_min_time_utc": "2025-11-22T10:06:00Z",
+            "rel_hum_percent": 89.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1014.7,
+            "qnh_hpa": 1014.7
+          },
+          "wind": {
+            "speed_10m_mps": 2.984,
+            "dirn_10m_ord": "SE",
+            "gust_speed_10m_mps": 3.087,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T11:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 22.5,
+            "apparent_1min_cel": 24.35,
+            "dew_pnt_1min_cel": 20.6,
+            "wet_bulb_1min_avg_cel": 21.26,
+            "wet_bulb_globe_sun_cel": 26.23,
+            "wet_bulb_globe_shade_cel": 21.63,
+            "wet_bulb_depression_cel": 1.24,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 22.5,
+            "dry_bulb_min_time_utc": "2025-11-22T11:30:00Z",
+            "rel_hum_percent": 89.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1014.5,
+            "qnh_hpa": 1014.5
+          },
+          "wind": {
+            "speed_10m_mps": 3.087,
+            "dirn_10m_ord": "SE",
+            "gust_speed_10m_mps": 3.601,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T12:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 22.4,
+            "apparent_1min_cel": 24.92,
+            "dew_pnt_1min_cel": 20.5,
+            "wet_bulb_1min_avg_cel": 21.17,
+            "wet_bulb_globe_sun_cel": 26.11,
+            "wet_bulb_globe_shade_cel": 21.54,
+            "wet_bulb_depression_cel": 1.23,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 22.4,
+            "dry_bulb_min_time_utc": "2025-11-22T12:00:00Z",
+            "rel_hum_percent": 89.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1014.3,
+            "qnh_hpa": 1014.3
+          },
+          "wind": {
+            "speed_10m_mps": 2.881,
+            "dirn_10m_ord": "ESE",
+            "gust_speed_10m_mps": 3.601,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T12:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 22.0,
+            "apparent_1min_cel": 24.05,
+            "dew_pnt_1min_cel": 20.28,
+            "wet_bulb_1min_avg_cel": 20.89,
+            "wet_bulb_globe_sun_cel": 25.77,
+            "wet_bulb_globe_shade_cel": 21.22,
+            "wet_bulb_depression_cel": 1.11,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.9,
+            "dry_bulb_min_time_utc": "2025-11-22T12:30:00Z",
+            "rel_hum_percent": 90.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1014.1,
+            "qnh_hpa": 1014.1
+          },
+          "wind": {
+            "speed_10m_mps": 2.264,
+            "dirn_10m_ord": "SE",
+            "gust_speed_10m_mps": 3.087,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T13:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.6,
+            "apparent_1min_cel": 23.91,
+            "dew_pnt_1min_cel": 20.07,
+            "wet_bulb_1min_avg_cel": 20.61,
+            "wet_bulb_globe_sun_cel": 25.43,
+            "wet_bulb_globe_shade_cel": 20.91,
+            "wet_bulb_depression_cel": 0.99,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.6,
+            "dry_bulb_min_time_utc": "2025-11-22T13:00:00Z",
+            "rel_hum_percent": 91.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1013.7,
+            "qnh_hpa": 1013.7
+          },
+          "wind": {
+            "speed_10m_mps": 2.006,
+            "dirn_10m_ord": "SSE",
+            "gust_speed_10m_mps": 2.572,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T13:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.5,
+            "apparent_1min_cel": 23.49,
+            "dew_pnt_1min_cel": 20.15,
+            "wet_bulb_1min_avg_cel": 20.63,
+            "wet_bulb_globe_sun_cel": 25.37,
+            "wet_bulb_globe_shade_cel": 20.89,
+            "wet_bulb_depression_cel": 0.87,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-22T13:30:00Z",
+            "rel_hum_percent": 92.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1013.9,
+            "qnh_hpa": 1013.9
+          },
+          "wind": {
+            "speed_10m_mps": 2.366,
+            "dirn_10m_ord": "SW",
+            "gust_speed_10m_mps": 3.601,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2025-11-23",
+      "astro": {
+        "sunrise_utc": "2025-11-22T18:43:17Z",
+        "sunset_utc": "2025-11-23T08:22:30Z"
+      },
+      "obs": [
+        {
+          "datetime_utc": "2025-11-22T14:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.6,
+            "apparent_1min_cel": 23.46,
+            "dew_pnt_1min_cel": 19.89,
+            "wet_bulb_1min_avg_cel": 20.5,
+            "wet_bulb_globe_sun_cel": 25.32,
+            "wet_bulb_globe_shade_cel": 20.83,
+            "wet_bulb_depression_cel": 1.1,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-22T13:12:00Z",
+            "rel_hum_percent": 90.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1013.5,
+            "qnh_hpa": 1013.5
+          },
+          "wind": {
+            "speed_10m_mps": 2.418,
+            "dirn_10m_ord": "SW",
+            "gust_speed_10m_mps": 3.087,
+            "gust_dirn_10m_deg_t": 130.0,
+            "gust_speed_10m_max_mps": 7.717,
+            "gust_10m_max_utc": "2025-11-22T05:21:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T14:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.5,
+            "apparent_1min_cel": 23.59,
+            "dew_pnt_1min_cel": 19.61,
+            "wet_bulb_1min_avg_cel": 20.29,
+            "wet_bulb_globe_sun_cel": 25.09,
+            "wet_bulb_globe_shade_cel": 20.65,
+            "wet_bulb_depression_cel": 1.21,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.4,
+            "dry_bulb_min_time_utc": "2025-11-22T14:30:00Z",
+            "rel_hum_percent": 89.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1012.8,
+            "qnh_hpa": 1012.8
+          },
+          "wind": {
+            "speed_10m_mps": 1.955,
+            "dirn_10m_ord": "SSW",
+            "gust_speed_10m_mps": 2.572,
+            "gust_dirn_10m_deg_t": 217.0,
+            "gust_speed_10m_max_mps": 3.601,
+            "gust_10m_max_utc": "2025-11-22T14:03:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T15:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.5,
+            "apparent_1min_cel": 23.59,
+            "dew_pnt_1min_cel": 19.61,
+            "wet_bulb_1min_avg_cel": 20.29,
+            "wet_bulb_globe_sun_cel": 25.09,
+            "wet_bulb_globe_shade_cel": 20.65,
+            "wet_bulb_depression_cel": 1.21,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.3,
+            "dry_bulb_min_time_utc": "2025-11-22T14:36:00Z",
+            "rel_hum_percent": 89.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1012.1,
+            "qnh_hpa": 1012.1
+          },
+          "wind": {
+            "speed_10m_mps": 2.006,
+            "dirn_10m_ord": "SW",
+            "gust_speed_10m_mps": 2.572,
+            "gust_dirn_10m_deg_t": 217.0,
+            "gust_speed_10m_max_mps": 3.601,
+            "gust_10m_max_utc": "2025-11-22T14:03:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T15:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.5,
+            "apparent_1min_cel": 24.31,
+            "dew_pnt_1min_cel": 19.61,
+            "wet_bulb_1min_avg_cel": 20.29,
+            "wet_bulb_globe_sun_cel": 25.09,
+            "wet_bulb_globe_shade_cel": 20.65,
+            "wet_bulb_depression_cel": 1.21,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.3,
+            "dry_bulb_min_time_utc": "2025-11-22T14:36:00Z",
+            "rel_hum_percent": 89.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1011.7,
+            "qnh_hpa": 1011.7
+          },
+          "wind": {
+            "speed_10m_mps": 1.44,
+            "dirn_10m_ord": "SW",
+            "gust_speed_10m_mps": 2.058,
+            "gust_dirn_10m_deg_t": 217.0,
+            "gust_speed_10m_max_mps": 3.601,
+            "gust_10m_max_utc": "2025-11-22T14:03:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T16:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.7,
+            "apparent_1min_cel": 23.17,
+            "dew_pnt_1min_cel": 19.81,
+            "wet_bulb_1min_avg_cel": 20.49,
+            "wet_bulb_globe_sun_cel": 25.32,
+            "wet_bulb_globe_shade_cel": 20.85,
+            "wet_bulb_depression_cel": 1.21,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.3,
+            "dry_bulb_min_time_utc": "2025-11-22T14:36:00Z",
+            "rel_hum_percent": 89.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1011.7,
+            "qnh_hpa": 1011.7
+          },
+          "wind": {
+            "speed_10m_mps": 2.727,
+            "dirn_10m_ord": "SW",
+            "gust_speed_10m_mps": 3.601,
+            "gust_dirn_10m_deg_t": 217.0,
+            "gust_speed_10m_max_mps": 3.601,
+            "gust_10m_max_utc": "2025-11-22T14:03:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 0.0,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T16:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.5,
+            "apparent_1min_cel": 23.68,
+            "dew_pnt_1min_cel": 19.79,
+            "wet_bulb_1min_avg_cel": 20.4,
+            "wet_bulb_globe_sun_cel": 25.2,
+            "wet_bulb_globe_shade_cel": 20.73,
+            "wet_bulb_depression_cel": 1.1,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.3,
+            "dry_bulb_min_time_utc": "2025-11-22T14:36:00Z",
+            "rel_hum_percent": 90.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1011.6,
+            "qnh_hpa": 1011.6
+          },
+          "wind": {
+            "speed_10m_mps": 2.264,
+            "dirn_10m_ord": "WSW",
+            "gust_speed_10m_mps": 3.087,
+            "gust_dirn_10m_deg_t": 217.0,
+            "gust_speed_10m_max_mps": 3.601,
+            "gust_10m_max_utc": "2025-11-22T14:03:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.4,
+            "since_0000lct_total_mm": 0.4,
+            "24h_0900lct_total_mm": 0.4,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.4,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T17:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.4,
+            "apparent_1min_cel": 25.14,
+            "dew_pnt_1min_cel": 20.05,
+            "wet_bulb_1min_avg_cel": 20.53,
+            "wet_bulb_globe_sun_cel": 25.26,
+            "wet_bulb_globe_shade_cel": 20.79,
+            "wet_bulb_depression_cel": 0.87,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.3,
+            "dry_bulb_min_time_utc": "2025-11-22T14:36:00Z",
+            "rel_hum_percent": 92.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1011.8,
+            "qnh_hpa": 1011.8
+          },
+          "wind": {
+            "speed_10m_mps": 0.772,
+            "dirn_10m_ord": "WSW",
+            "gust_speed_10m_mps": 2.572,
+            "gust_dirn_10m_deg_t": 217.0,
+            "gust_speed_10m_max_mps": 3.601,
+            "gust_10m_max_utc": "2025-11-22T14:03:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.8,
+            "since_0000lct_total_mm": 0.8,
+            "24h_0900lct_total_mm": 0.8,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.8,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T17:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.2,
+            "apparent_1min_cel": 24.84,
+            "dew_pnt_1min_cel": 19.85,
+            "wet_bulb_1min_avg_cel": 20.33,
+            "wet_bulb_globe_sun_cel": 25.03,
+            "wet_bulb_globe_shade_cel": 20.59,
+            "wet_bulb_depression_cel": 0.87,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.2,
+            "dry_bulb_min_time_utc": "2025-11-22T17:30:00Z",
+            "rel_hum_percent": 92.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1011.5,
+            "qnh_hpa": 1011.5
+          },
+          "wind": {
+            "speed_10m_mps": 0.0,
+            "dirn_10m_ord": "CALM",
+            "gust_speed_10m_mps": 0.0,
+            "gust_dirn_10m_deg_t": 217.0,
+            "gust_speed_10m_max_mps": 3.601,
+            "gust_10m_max_utc": "2025-11-22T14:03:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.8,
+            "since_0000lct_total_mm": 0.8,
+            "24h_0900lct_total_mm": 0.8,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.4,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T18:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.1,
+            "apparent_1min_cel": 24.78,
+            "dew_pnt_1min_cel": 19.92,
+            "wet_bulb_1min_avg_cel": 20.34,
+            "wet_bulb_globe_sun_cel": 25.03,
+            "wet_bulb_globe_shade_cel": 20.57,
+            "wet_bulb_depression_cel": 0.76,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.1,
+            "dry_bulb_min_time_utc": "2025-11-22T18:00:00Z",
+            "rel_hum_percent": 93.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1011.6,
+            "qnh_hpa": 1011.6
+          },
+          "wind": {
+            "speed_10m_mps": 0.257,
+            "dirn_10m_ord": "SW",
+            "gust_speed_10m_mps": 2.058,
+            "gust_dirn_10m_deg_t": 217.0,
+            "gust_speed_10m_max_mps": 3.601,
+            "gust_10m_max_utc": "2025-11-22T14:03:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.8,
+            "since_0000lct_total_mm": 0.8,
+            "24h_0900lct_total_mm": 0.8,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T18:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.2,
+            "apparent_1min_cel": 23.85,
+            "dew_pnt_1min_cel": 20.02,
+            "wet_bulb_1min_avg_cel": 20.44,
+            "wet_bulb_globe_sun_cel": 25.15,
+            "wet_bulb_globe_shade_cel": 20.67,
+            "wet_bulb_depression_cel": 0.76,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.0,
+            "dry_bulb_min_time_utc": "2025-11-22T18:04:00Z",
+            "rel_hum_percent": 93.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1011.8,
+            "qnh_hpa": 1011.8
+          },
+          "wind": {
+            "speed_10m_mps": 1.492,
+            "dirn_10m_ord": "WSW",
+            "gust_speed_10m_mps": 2.058,
+            "gust_dirn_10m_deg_t": 217.0,
+            "gust_speed_10m_max_mps": 3.601,
+            "gust_10m_max_utc": "2025-11-22T14:03:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.8,
+            "since_0000lct_total_mm": 0.8,
+            "24h_0900lct_total_mm": 0.8,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T19:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.3,
+            "apparent_1min_cel": 25.07,
+            "dew_pnt_1min_cel": 20.12,
+            "wet_bulb_1min_avg_cel": 20.54,
+            "wet_bulb_globe_sun_cel": 25.26,
+            "wet_bulb_globe_shade_cel": 20.77,
+            "wet_bulb_depression_cel": 0.76,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.0,
+            "dry_bulb_min_time_utc": "2025-11-22T18:04:00Z",
+            "rel_hum_percent": 93.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1011.9,
+            "qnh_hpa": 1011.9
+          },
+          "wind": {
+            "speed_10m_mps": 1.286,
+            "dirn_10m_ord": "WSW",
+            "gust_speed_10m_mps": 2.572,
+            "gust_dirn_10m_deg_t": 217.0,
+            "gust_speed_10m_max_mps": 3.601,
+            "gust_10m_max_utc": "2025-11-22T14:03:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.8,
+            "since_0000lct_total_mm": 0.8,
+            "24h_0900lct_total_mm": 0.8,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T19:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.4,
+            "apparent_1min_cel": 25.22,
+            "dew_pnt_1min_cel": 20.22,
+            "wet_bulb_1min_avg_cel": 20.64,
+            "wet_bulb_globe_sun_cel": 25.37,
+            "wet_bulb_globe_shade_cel": 20.87,
+            "wet_bulb_depression_cel": 0.76,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.0,
+            "dry_bulb_min_time_utc": "2025-11-22T18:04:00Z",
+            "rel_hum_percent": 93.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1012.0,
+            "qnh_hpa": 1012.0
+          },
+          "wind": {
+            "speed_10m_mps": 0.0,
+            "dirn_10m_ord": "CALM",
+            "gust_speed_10m_mps": 0.0,
+            "gust_dirn_10m_deg_t": 217.0,
+            "gust_speed_10m_max_mps": 3.601,
+            "gust_10m_max_utc": "2025-11-22T14:03:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.8,
+            "since_0000lct_total_mm": 0.8,
+            "24h_0900lct_total_mm": 0.8,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T20:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.5,
+            "apparent_1min_cel": 24.57,
+            "dew_pnt_1min_cel": 20.15,
+            "wet_bulb_1min_avg_cel": 20.63,
+            "wet_bulb_globe_sun_cel": 25.37,
+            "wet_bulb_globe_shade_cel": 20.89,
+            "wet_bulb_depression_cel": 0.87,
+            "dry_bulb_max_cel": 26.0,
+            "dry_bulb_max_time_utc": "2025-11-22T03:19:00Z",
+            "dry_bulb_min_cel": 21.0,
+            "dry_bulb_min_time_utc": "2025-11-22T18:04:00Z",
+            "rel_hum_percent": 92.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1012.3,
+            "qnh_hpa": 1012.3
+          },
+          "wind": {
+            "speed_10m_mps": 1.543,
+            "dirn_10m_ord": "WSW",
+            "gust_speed_10m_mps": 2.058,
+            "gust_dirn_10m_deg_t": 217.0,
+            "gust_speed_10m_max_mps": 3.601,
+            "gust_10m_max_utc": "2025-11-22T14:03:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.8,
+            "since_0000lct_total_mm": 0.8,
+            "24h_0900lct_total_mm": 0.8,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T20:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 22.0,
+            "apparent_1min_cel": 26.03,
+            "dew_pnt_1min_cel": 20.64,
+            "wet_bulb_1min_avg_cel": 21.11,
+            "wet_bulb_globe_sun_cel": 25.95,
+            "wet_bulb_globe_shade_cel": 21.38,
+            "wet_bulb_depression_cel": 0.89,
+            "dry_bulb_max_cel": 22.1,
+            "dry_bulb_max_time_utc": "2025-11-22T20:30:00Z",
+            "dry_bulb_min_cel": 21.0,
+            "dry_bulb_min_time_utc": "2025-11-22T18:04:00Z",
+            "rel_hum_percent": 92.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1012.3,
+            "qnh_hpa": 1012.3
+          },
+          "wind": {
+            "speed_10m_mps": 0.0,
+            "dirn_10m_ord": "CALM",
+            "gust_speed_10m_mps": 0.0,
+            "gust_dirn_10m_deg_t": 217.0,
+            "gust_speed_10m_max_mps": 3.601,
+            "gust_10m_max_utc": "2025-11-22T14:03:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.8,
+            "since_0000lct_total_mm": 0.8,
+            "24h_0900lct_total_mm": 0.8,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T21:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 22.1,
+            "apparent_1min_cel": 26.18,
+            "dew_pnt_1min_cel": 20.74,
+            "wet_bulb_1min_avg_cel": 21.21,
+            "wet_bulb_globe_sun_cel": 26.06,
+            "wet_bulb_globe_shade_cel": 21.48,
+            "wet_bulb_depression_cel": 0.89,
+            "dry_bulb_max_cel": 22.1,
+            "dry_bulb_max_time_utc": "2025-11-22T21:00:00Z",
+            "dry_bulb_min_cel": 21.0,
+            "dry_bulb_min_time_utc": "2025-11-22T18:04:00Z",
+            "rel_hum_percent": 92.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1012.5,
+            "qnh_hpa": 1012.5
+          },
+          "wind": {
+            "speed_10m_mps": 0.206,
+            "dirn_10m_ord": "SW",
+            "gust_speed_10m_mps": 2.058,
+            "gust_dirn_10m_deg_t": 217.0,
+            "gust_speed_10m_max_mps": 3.601,
+            "gust_10m_max_utc": "2025-11-22T14:03:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 1.0,
+            "since_0000lct_total_mm": 1.0,
+            "24h_0900lct_total_mm": 1.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.2,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T21:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 20.8,
+            "apparent_1min_cel": 20.3,
+            "dew_pnt_1min_cel": 19.45,
+            "wet_bulb_1min_avg_cel": 19.94,
+            "wet_bulb_globe_sun_cel": 24.64,
+            "wet_bulb_globe_shade_cel": 20.2,
+            "wet_bulb_depression_cel": 0.86,
+            "dry_bulb_max_cel": 22.3,
+            "dry_bulb_max_time_utc": "2025-11-22T21:15:00Z",
+            "dry_bulb_min_cel": 20.8,
+            "dry_bulb_min_time_utc": "2025-11-22T21:30:00Z",
+            "rel_hum_percent": 92.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1012.3,
+            "qnh_hpa": 1012.3
+          },
+          "wind": {
+            "speed_10m_mps": 5.453,
+            "dirn_10m_ord": "NNW",
+            "gust_speed_10m_mps": 10.289,
+            "gust_dirn_10m_deg_t": 346.0,
+            "gust_speed_10m_max_mps": 10.289,
+            "gust_10m_max_utc": "2025-11-22T21:25:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 10.6,
+            "since_0000lct_total_mm": 10.6,
+            "24h_0900lct_total_mm": 10.6,
+            "10min_total_mm": 7.4,
+            "1h_total_mm": 9.8,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T22:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 20.0,
+            "apparent_1min_cel": 20.65,
+            "dew_pnt_1min_cel": 18.83,
+            "wet_bulb_1min_avg_cel": 19.26,
+            "wet_bulb_globe_sun_cel": 23.8,
+            "wet_bulb_globe_shade_cel": 19.48,
+            "wet_bulb_depression_cel": 0.74,
+            "dry_bulb_max_cel": 22.3,
+            "dry_bulb_max_time_utc": "2025-11-22T21:15:00Z",
+            "dry_bulb_min_cel": 19.9,
+            "dry_bulb_min_time_utc": "2025-11-22T21:51:00Z",
+            "rel_hum_percent": 93.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1011.0,
+            "qnh_hpa": 1011.0
+          },
+          "wind": {
+            "speed_10m_mps": 4.836,
+            "dirn_10m_ord": "NNW",
+            "gust_speed_10m_mps": 7.717,
+            "gust_dirn_10m_deg_t": 312.0,
+            "gust_speed_10m_max_mps": 11.318,
+            "gust_10m_max_utc": "2025-11-22T21:34:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 16.0,
+            "since_0000lct_total_mm": 16.0,
+            "24h_0900lct_total_mm": 16.0,
+            "10min_total_mm": 0.2,
+            "1h_total_mm": 15.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T22:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 20.4,
+            "apparent_1min_cel": 20.15,
+            "dew_pnt_1min_cel": 19.23,
+            "wet_bulb_1min_avg_cel": 19.66,
+            "wet_bulb_globe_sun_cel": 24.25,
+            "wet_bulb_globe_shade_cel": 19.88,
+            "wet_bulb_depression_cel": 0.74,
+            "dry_bulb_max_cel": 22.3,
+            "dry_bulb_max_time_utc": "2025-11-22T21:15:00Z",
+            "dry_bulb_min_cel": 19.7,
+            "dry_bulb_min_time_utc": "2025-11-22T22:08:00Z",
+            "rel_hum_percent": 93.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1010.3,
+            "qnh_hpa": 1010.3
+          },
+          "wind": {
+            "speed_10m_mps": 4.373,
+            "dirn_10m_ord": "NNW",
+            "gust_speed_10m_mps": 7.717,
+            "gust_dirn_10m_deg_t": 312.0,
+            "gust_speed_10m_max_mps": 11.318,
+            "gust_10m_max_utc": "2025-11-22T21:34:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 16.0,
+            "since_0000lct_total_mm": 16.0,
+            "24h_0900lct_total_mm": 16.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 5.4,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T23:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 19.7,
+            "apparent_1min_cel": 20.43,
+            "dew_pnt_1min_cel": 18.19,
+            "wet_bulb_1min_avg_cel": 18.76,
+            "wet_bulb_globe_sun_cel": 23.32,
+            "wet_bulb_globe_shade_cel": 19.04,
+            "wet_bulb_depression_cel": 0.94,
+            "dry_bulb_max_cel": 22.3,
+            "dry_bulb_max_time_utc": "2025-11-22T21:15:00Z",
+            "dry_bulb_min_cel": 19.7,
+            "dry_bulb_min_time_utc": "2025-11-22T23:00:00Z",
+            "rel_hum_percent": 91.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1011.0,
+            "qnh_hpa": 1011.0
+          },
+          "wind": {
+            "speed_10m_mps": 3.807,
+            "dirn_10m_ord": "W",
+            "gust_speed_10m_mps": 6.173,
+            "gust_dirn_10m_deg_t": 312.0,
+            "gust_speed_10m_max_mps": 11.318,
+            "gust_10m_max_utc": "2025-11-22T21:34:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 16.2,
+            "since_0000lct_total_mm": 16.2,
+            "24h_0900lct_total_mm": 16.2,
+            "10min_total_mm": 0.2,
+            "1h_total_mm": 0.2,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-22T23:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 20.2,
+            "apparent_1min_cel": 20.43,
+            "dew_pnt_1min_cel": 18.68,
+            "wet_bulb_1min_avg_cel": 19.24,
+            "wet_bulb_globe_sun_cel": 23.86,
+            "wet_bulb_globe_shade_cel": 19.53,
+            "wet_bulb_depression_cel": 0.96,
+            "dry_bulb_max_cel": 22.3,
+            "dry_bulb_max_time_utc": "2025-11-22T21:15:00Z",
+            "dry_bulb_min_cel": 19.7,
+            "dry_bulb_min_time_utc": "2025-11-22T22:08:00Z",
+            "rel_hum_percent": 91.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1010.7,
+            "qnh_hpa": 1010.7
+          },
+          "wind": {
+            "speed_10m_mps": 4.064,
+            "dirn_10m_ord": "NW",
+            "gust_speed_10m_mps": 6.688,
+            "gust_dirn_10m_deg_t": 312.0,
+            "gust_speed_10m_max_mps": 11.318,
+            "gust_10m_max_utc": "2025-11-22T21:34:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 16.2,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.2,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-23T00:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.1,
+            "apparent_1min_cel": 22.92,
+            "dew_pnt_1min_cel": 19.03,
+            "wet_bulb_1min_avg_cel": 19.79,
+            "wet_bulb_globe_sun_cel": 24.53,
+            "wet_bulb_globe_shade_cel": 20.18,
+            "wet_bulb_depression_cel": 1.31,
+            "dry_bulb_max_cel": 22.3,
+            "dry_bulb_max_time_utc": "2025-11-22T21:15:00Z",
+            "dry_bulb_min_cel": 19.7,
+            "dry_bulb_min_time_utc": "2025-11-22T22:08:00Z",
+            "rel_hum_percent": 88.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1010.9,
+            "qnh_hpa": 1010.9
+          },
+          "wind": {
+            "speed_10m_mps": 2.675,
+            "dirn_10m_ord": "WNW",
+            "gust_speed_10m_mps": 3.601,
+            "gust_dirn_10m_deg_t": 312.0,
+            "gust_speed_10m_max_mps": 11.318,
+            "gust_10m_max_utc": "2025-11-22T21:34:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 16.2,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-23T00:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 21.9,
+            "apparent_1min_cel": 23.74,
+            "dew_pnt_1min_cel": 19.07,
+            "wet_bulb_1min_avg_cel": 20.1,
+            "wet_bulb_globe_sun_cel": 25.04,
+            "wet_bulb_globe_shade_cel": 20.64,
+            "wet_bulb_depression_cel": 1.8,
+            "dry_bulb_max_cel": 22.3,
+            "dry_bulb_max_time_utc": "2025-11-22T21:15:00Z",
+            "dry_bulb_min_cel": 19.7,
+            "dry_bulb_min_time_utc": "2025-11-22T22:08:00Z",
+            "rel_hum_percent": 84.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1010.7,
+            "qnh_hpa": 1010.7
+          },
+          "wind": {
+            "speed_10m_mps": 1.852,
+            "dirn_10m_ord": "NNW",
+            "gust_speed_10m_mps": 3.087,
+            "gust_dirn_10m_deg_t": 312.0,
+            "gust_speed_10m_max_mps": 11.318,
+            "gust_10m_max_utc": "2025-11-22T21:34:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 16.2,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-23T01:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 22.8,
+            "apparent_1min_cel": 24.96,
+            "dew_pnt_1min_cel": 18.97,
+            "wet_bulb_1min_avg_cel": 20.37,
+            "wet_bulb_globe_sun_cel": 25.5,
+            "wet_bulb_globe_shade_cel": 21.1,
+            "wet_bulb_depression_cel": 2.43,
+            "dry_bulb_max_cel": 23.3,
+            "dry_bulb_max_time_utc": "2025-11-23T00:51:00Z",
+            "dry_bulb_min_cel": 19.7,
+            "dry_bulb_min_time_utc": "2025-11-22T22:08:00Z",
+            "rel_hum_percent": 79.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1010.0,
+            "qnh_hpa": 1010.0
+          },
+          "wind": {
+            "speed_10m_mps": 1.646,
+            "dirn_10m_ord": "NNW",
+            "gust_speed_10m_mps": 2.572,
+            "gust_dirn_10m_deg_t": 312.0,
+            "gust_speed_10m_max_mps": 11.318,
+            "gust_10m_max_utc": "2025-11-22T21:34:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 16.2,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-23T01:30:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 24.1,
+            "apparent_1min_cel": 25.43,
+            "dew_pnt_1min_cel": 18.74,
+            "wet_bulb_1min_avg_cel": 20.69,
+            "wet_bulb_globe_sun_cel": 26.08,
+            "wet_bulb_globe_shade_cel": 21.71,
+            "wet_bulb_depression_cel": 3.41,
+            "dry_bulb_max_cel": 24.6,
+            "dry_bulb_max_time_utc": "2025-11-23T01:25:00Z",
+            "dry_bulb_min_cel": 19.7,
+            "dry_bulb_min_time_utc": "2025-11-22T22:08:00Z",
+            "rel_hum_percent": 72.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1009.5,
+            "qnh_hpa": 1009.5
+          },
+          "wind": {
+            "speed_10m_mps": 2.521,
+            "dirn_10m_ord": "NW",
+            "gust_speed_10m_mps": 3.601,
+            "gust_dirn_10m_deg_t": 312.0,
+            "gust_speed_10m_max_mps": 11.318,
+            "gust_10m_max_utc": "2025-11-22T21:34:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 16.2,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
+        },
+        {
+          "datetime_utc": "2025-11-23T02:00:00Z",
+          "temp": {
+            "dry_bulb_1min_cel": 24.6,
+            "apparent_1min_cel": 25.94,
+            "dew_pnt_1min_cel": 18.76,
+            "wet_bulb_1min_avg_cel": 20.88,
+            "wet_bulb_globe_sun_cel": 26.41,
+            "wet_bulb_globe_shade_cel": 22.0,
+            "wet_bulb_depression_cel": 3.72,
+            "dry_bulb_max_cel": 25.4,
+            "dry_bulb_max_time_utc": "2025-11-23T01:47:00Z",
+            "dry_bulb_min_cel": 19.7,
+            "dry_bulb_min_time_utc": "2025-11-22T22:08:00Z",
+            "rel_hum_percent": 70.0
+          },
+          "pres": {
+            "stn_lvl_hpa": null,
+            "msl_hpa": 1009.4,
+            "qnh_hpa": 1009.4
+          },
+          "wind": {
+            "speed_10m_mps": 2.984,
+            "dirn_10m_ord": "NW",
+            "gust_speed_10m_mps": 4.63,
+            "gust_dirn_10m_deg_t": 312.0,
+            "gust_speed_10m_max_mps": 11.318,
+            "gust_10m_max_utc": "2025-11-22T21:34:00Z",
+            "run_2m_total_m": null
+          },
+          "precip": {
+            "since_0900lct_total_mm": 0.0,
+            "since_0000lct_total_mm": 16.2,
+            "24h_0900lct_total_mm": 0.0,
+            "10min_total_mm": 0.0,
+            "1h_total_mm": 0.0,
+            "24h_total_mm": null
+          },
+          "visibility": {
+            "horiz_m": null
+          },
+          "cloud": {
+            "base_ht_s1_m": null,
+            "base_ht_s2_m": null,
+            "base_ht_s3_m": null,
+            "base_ht_s4_m": null,
+            "base_ht_s5_m": null,
+            "total_cover_amt_text": null,
+            "low_layer_cover_amt_okta": null,
+            "low_layer_height_m": null,
+            "med_layer_cover_amt_okta": null,
+            "med_layer_height_m": null,
+            "high_layer_cover_amt_okta": null,
+            "high_layer_height_m": null
+          }
         }
       ]
     }
@@ -40932,10 +43685,10 @@
   "_metadata": {
     "station_id": 40764,
     "station_name": "GOLD COAST SEAWAY",
-    "download_time_utc": "2025-11-22T01:55:45.447695+00:00",
+    "download_time_utc": "2025-11-23T02:20:51.933055+00:00",
     "time_range": {
-      "from": "2025-11-19T01:55:45.447695+00:00",
-      "to": "2025-11-22T01:55:45.447695+00:00"
+      "from": "2025-11-20T02:20:51.933055+00:00",
+      "to": "2025-11-23T02:20:51.933055+00:00"
     },
     "collation_note": "This file contains all historical observations, deduplicated and sorted by datetime_utc"
   }
