@@ -28,7 +28,7 @@ jobs:
           CDSAPI_KEY: ${{ secrets.CDSAPI_KEY }}
         run: |
           mkdir -p out
-          python py/getERA5_Grid_v2.py
+          python .github/scripts/getERA5_Grid_v2.py
 
       - name: Upload NetCDF artifacts
         uses: actions/upload-artifact@v4
