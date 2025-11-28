@@ -45,6 +45,8 @@ dataset = "reanalysis-era5-single-levels"
 area = [-27.99, 153.45, -28.01, 153.55]
 
 
+os.makedirs("out", exist_ok=True)
+
 def download_year_month(year, month):
     client = cdsapi.Client()
     request = {
@@ -58,7 +60,9 @@ def download_year_month(year, month):
         "download_format": "unarchived",
         "area": area
     }
-    outfile = f"out/era5_{year}_{month}.nc"
+    outdir = os.path.join("data", "era5")
+    os.makedirs(outdir, exist_ok=True)
+    outfile = os.path.join(outdir, f"era5_{year}_{month}.nc")
     print(f"[START] {year}-{month}")
     try:
         cds_result = client.retrieve(dataset, request)
@@ -67,7 +71,7 @@ def download_year_month(year, month):
     except Exception as e:
         print(f"[FAIL]  {year}-{month}: {e}")
 
-os.makedirs("out", exist_ok=True)
+os.makedirs(os.path.join("data", "era5"), exist_ok=True)
 
 # Limit to 3 concurrent requests to avoid CDS API throttling
 max_workers = 3
