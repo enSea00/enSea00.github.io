@@ -1,0 +1,37 @@
+name: ERA5 Download Grid
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install cdsapi
+
+      - name: Run ERA5 grid download script
+        env:
+          CDSAPI_URL: ${{ secrets.CDSAPI_URL }}
+          CDSAPI_KEY: ${{ secrets.CDSAPI_KEY }}
+        run: |
+          mkdir -p out
+          python py/getERA5_Grid_v2.py
+
+      - name: Upload NetCDF artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: era5-netcdf
+          path: data/era5/*.nc
