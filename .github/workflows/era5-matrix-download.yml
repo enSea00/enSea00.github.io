@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -30,7 +32,21 @@ jobs:
           CDSAPI_KEY: ${{ secrets.CDSAPI_KEY }}
         run: |
           mkdir -p data/era5
-          python .github/scripts/getERA5_Grid_v2.py ${{ matrix.year }} ${{ matrix.month }}
+          python py/getERA5_Grid_v2.py ${{ matrix.year }} ${{ matrix.month }}
+
+      - name: Set up Git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push NetCDF file
+        run: |
+          git add data/era5/era5_${{ matrix.year }}_${{ matrix.month }}.nc
+          git commit -m "Add ERA5 NetCDF for ${{ matrix.year }}-${{ matrix.month }}" || echo "No changes to commit"
+          git pull --rebase
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload NetCDF artifact for ${{ matrix.year }}-${{ matrix.month }}
         uses: actions/upload-artifact@v4
