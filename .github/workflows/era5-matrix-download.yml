@@ -30,7 +30,7 @@ jobs:
           CDSAPI_KEY: ${{ secrets.CDSAPI_KEY }}
         run: |
           mkdir -p data/era5
-          python py/getERA5_Grid_v2.py ${{ matrix.year }} ${{ matrix.month }}
+          python .github/scripts/getERA5_Grid_v2.py ${{ matrix.year }} ${{ matrix.month }}
 
       - name: Upload NetCDF artifact for ${{ matrix.year }}-${{ matrix.month }}
         uses: actions/upload-artifact@v4
